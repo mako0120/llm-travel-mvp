@@ -1,0 +1,21 @@
+# Next.js + Supabase Starter
+
+Next.js (App Router) / Supabase / Vercel / GitHub Actions / Claude Code 用スターター。
+
+## セットアップ
+
+```bash
+npm install
+cp .env.local.example .env.local   # Supabaseのキーを記入
+npm run dev
+```
+
+## 構成
+- `app/` — App Router のページ
+- `lib/supabase/` — Supabaseクライアント(server / client)
+- `.github/workflows/ci.yml` — CI(lint / typecheck / build)
+- `CLAUDE.md` — Claude Code 用ガイド
+
+## デプロイ
+mainブランチへのpushでVercelが自動デプロイします。
+環境変数(NEXT_PUBLIC_SUPABASE_URL / NEXT_PUBLIC_SUPABASE_ANON_KEY)はVercelのProject Settingsに設定してください。
