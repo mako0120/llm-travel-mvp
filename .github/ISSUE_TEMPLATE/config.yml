@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 運用ルール(AI開発ワークフロー)
+    url: https://github.com/mako0120/llm-travel-mvp/blob/main/docs/ai-workflow.md
+    about: 役割分担・claudeラベル運用・安全境界はこちらを参照してください。
