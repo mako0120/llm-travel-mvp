@@ -1,0 +1,101 @@
+name: AI Handoff Router
+
+on:
+  issues:
+    types: [labeled]
+  pull_request_target:
+    types: [opened, reopened, synchronize, ready_for_review, converted_to_draft]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  receive-claude-issue:
+    if: github.event_name == 'issues' && github.event.label.name == 'claude'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Register Claude handoff
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issue_number = context.issue.number;
+            const marker = '<!-- ai-handoff:claude-ready -->';
+
+            const labels = [
+              { name: 'ai:claude-ready', color: '7C3AED', description: 'Claude Codeへの実装受け渡し待ち' },
+              { name: 'ai:codex-waiting', color: '2563EB', description: 'Codexレビュー開始待ち' },
+              { name: 'ai:codex-review', color: '0E8A16', description: 'Codexレビュー対象' }
+            ];
+            for (const label of labels) {
+              try {
+                await github.rest.issues.getLabel({ owner, repo, name: label.name });
+              } catch (error) {
+                if (error.status !== 404) throw error;
+                await github.rest.issues.createLabel({ owner, repo, ...label });
+              }
+            }
+
+            await github.rest.issues.addLabels({
+              owner, repo, issue_number, labels: ['ai:claude-ready']
+            });
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner, repo, issue_number, per_page: 100
+            });
+            if (!comments.some(comment => comment.body?.includes(marker))) {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number,
+                body: `${marker}\n## Claude Code 受け渡し受付\n\nこのIssueは \`claude\` ラベルにより実装対象として受け付けられました。\n\n- 推奨ブランチ: \`claude/feature-${issue_number}-<内容>\`\n- PR本文: \`Closes #${issue_number}\`\n- PRはDraftで作成\n- mainへの直接push・mergeは禁止\n- Production、課金、秘密情報、認証、DB、環境変数は明示承認なしに変更禁止\n\nこのコメントは受付記録であり、Claude Code自体を起動するものではありません。CoworkまたはClaude Code連携は \`ai:claude-ready\` を開始イベントとして使用してください。`
+              });
+            }
+
+  receive-claude-pr:
+    if: github.event_name == 'pull_request_target' && startsWith(github.event.pull_request.head.ref, 'claude/feature-')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Register Codex review handoff
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issue_number = context.issue.number;
+            const pr = context.payload.pull_request;
+            const marker = '<!-- ai-handoff:codex-review -->';
+            const desired = pr.draft ? 'ai:codex-waiting' : 'ai:codex-review';
+            const obsolete = pr.draft ? 'ai:codex-review' : 'ai:codex-waiting';
+
+            const labels = [
+              { name: 'ai:codex-waiting', color: '2563EB', description: 'Codexレビュー開始待ち' },
+              { name: 'ai:codex-review', color: '0E8A16', description: 'Codexレビュー対象' }
+            ];
+            for (const label of labels) {
+              try {
+                await github.rest.issues.getLabel({ owner, repo, name: label.name });
+              } catch (error) {
+                if (error.status !== 404) throw error;
+                await github.rest.issues.createLabel({ owner, repo, ...label });
+              }
+            }
+
+            await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [desired] });
+            try {
+              await github.rest.issues.removeLabel({ owner, repo, issue_number, name: obsolete });
+            } catch (error) {
+              if (error.status !== 404) throw error;
+            }
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner, repo, issue_number, per_page: 100
+            });
+            const existing = comments.find(comment => comment.body?.includes(marker));
+            const body = `${marker}\n## Codexレビュー受け渡し\n\nClaude CodeのPRを受け付けました。現在の状態: **${pr.draft ? 'Draft・実装中' : 'レビュー可能'}**\n\nCodex/Coworkは \`${desired}\` ラベルをイベントとして使用してください。\n\n### 自動確認対象\n\n- Issueの完了条件と変更範囲\n- CI / PR Governance\n- Vercel Preview\n- 秘密情報、認証、課金、DB、環境変数、外部設定\n- PR本文の目的、テスト、リスク、Preview確認、人間承認\n\nこのGitHub Actionは状態を即時更新しますが、外部のCodexタスク自体を起動するにはCodex GitHub連携またはCoworkのイベント接続が必要です。`;
+            if (existing) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number, body });
+            }
