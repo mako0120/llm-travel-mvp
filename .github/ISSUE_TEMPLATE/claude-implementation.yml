@@ -1,0 +1,83 @@
+name: Claude Code 実装依頼
+description: Claude Codeにfeatureブランチで実装を依頼します
+title: "feat: "
+labels:
+  - claude
+body:
+  - type: markdown
+    attributes:
+      value: |
+        このフォームから作成したIssueには `claude` ラベルが付き、Claude Codeへの実装スイッチになります。
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 目的
+    validations:
+      required: true
+  - type: textarea
+    id: implementation
+    attributes:
+      label: 実装内容
+      description: 対象ファイルや対象外も記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 完了条件
+      value: |
+        - [ ] 
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 影響範囲
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: テスト項目
+      value: |
+        - [ ] npm run lint
+        - [ ] npm run typecheck
+        - [ ] npm run build
+    validations:
+      required: true
+  - type: textarea
+    id: claude
+    attributes:
+      label: Claude Codeへの指示
+      description: ブランチは claude/feature-<Issue番号>-<内容> を使用します。
+    validations:
+      required: true
+  - type: textarea
+    id: codex
+    attributes:
+      label: Codexへのレビュー観点
+    validations:
+      required: true
+  - type: textarea
+    id: preview
+    attributes:
+      label: Vercel Preview確認項目
+    validations:
+      required: true
+  - type: checkboxes
+    id: approval
+    attributes:
+      label: 人間承認が必要なこと
+      options:
+        - label: mainへのmergeは人間承認後に行う
+          required: true
+        - label: Production deployは人間承認後に行う
+          required: true
+        - label: 課金、秘密情報、認証、DB、環境変数の変更はこのIssueで許可されていない
+          required: true

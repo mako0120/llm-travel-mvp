@@ -1,0 +1,35 @@
+name: PR Governance
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, edited, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate branch and PR body
+        env:
+          BRANCH: ${{ github.head_ref }}
+          BODY: ${{ github.event.pull_request.body }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ ! "$BRANCH" =~ ^(claude/feature-[0-9]+-[a-z0-9-]+|chatgpt/docs-[a-z0-9-]+|codex/issue-[0-9]+-[a-z0-9-]+)$ ]]; then
+            echo "Invalid branch name: $BRANCH"
+            exit 1
+          fi
+          if [[ ! "$BODY" =~ (Closes|Fixes|Resolves)[[:space:]]+#[0-9]+ ]]; then
+            echo "PR body must contain Closes #<Issue number>."
+            exit 1
+          fi
+          for heading in "## 目的" "## 変更内容" "## テスト結果" "## リスク" "## Vercel Preview確認項目" "## 人間承認"; do
+            if [[ "$BODY" != *"$heading"* ]]; then
+              echo "Missing PR section: $heading"
+              exit 1
+            fi
+          done
