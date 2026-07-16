@@ -50,7 +50,7 @@
 
 ### PR URL
 
-- PR:
+- PR: https://github.com/mako0120/llm-travel-mvp/pull/7
 
 ### Codexレビュー結果
 
@@ -60,7 +60,8 @@
 
 ### Vercel確認結果
 
-- Previewデプロイ:
+- Previewデプロイ: ✅ 成功(2026-07-16 08:10 UTC, llm-travel-mvp2)
+- Preview URL: https://llm-travel-mvp2-git-claude-feature-6-e2e-handoff-proof-ai-hoku.vercel.app
 - 確認者:
 
 ### Notion記録結果
