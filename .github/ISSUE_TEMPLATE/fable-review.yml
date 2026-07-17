@@ -1,0 +1,57 @@
+name: Fable 5 一時利用判断
+description: CoworkでFable 5を一回だけ使う必要があるか判定します
+title: "decision: "
+labels:
+  - fable-review
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fable 5は最難関の長時間・多段階タスクだけに使います。通常作業はSonnet/Codexへ戻されます。
+  - type: textarea
+    id: goal
+    attributes:
+      label: 目的
+    validations:
+      required: true
+  - type: textarea
+    id: deliverable
+    attributes:
+      label: 期待する成果
+      description: 結論、設計書、比較表、Issue案など、完成形を具体的に書いてください。
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Fableが必要な理由
+      options:
+        - 複数サービスにまたがる重要アーキテクチャ判断
+        - 10件以上の資料・競合・要件を統合する長時間調査
+        - 重大リスクを含む大規模PRの最終設計レビュー
+        - largeかつSonnet/Codexで2回以上失敗した複雑な作業
+    validations:
+      required: true
+  - type: textarea
+    id: attempts
+    attributes:
+      label: これまでの試行
+      description: Sonnet/Codexで試した内容と回数、行き詰まった理由を書いてください。重要設計・統合調査の場合は未実施と書けます。
+    validations:
+      required: true
+  - type: input
+    id: count
+    attributes:
+      label: Fable利用回数
+      value: 1回
+    validations:
+      required: true
+  - type: checkboxes
+    id: approval
+    attributes:
+      label: 人間承認
+      options:
+        - label: Cowork上でFable 5を一回だけ開始し、使用クレジットを確認する
+          required: true
+        - label: main merge、Production、課金有効化、秘密情報、認証、DB、環境変数の変更を許可しない
+          required: true

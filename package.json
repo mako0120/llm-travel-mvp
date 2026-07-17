@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "test:preflight": "node --test .github/scripts/claude-preflight.test.mjs",
+    "test:fable-router": "node --test .github/scripts/fable-cowork-router.test.mjs",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
   },
