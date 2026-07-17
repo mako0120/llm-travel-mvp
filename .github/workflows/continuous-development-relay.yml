@@ -85,16 +85,34 @@ jobs:
 
             First inspect the current product, recent merged PRs, open Issues,
             CLAUDE.md, AGENTS.md, and relevant source files. Then use web search
-            to find current overseas AI SaaS, AI automation, and Micro SaaS
-            businesses with credible evidence of monetization. Prefer official
-            product sites, public pricing pages, founder primary sources, and
-            trustworthy reports. Do not claim revenue without a supporting URL.
+            to find current overseas products built by individuals or small
+            teams who publicly document using Claude, Claude Code, ChatGPT,
+            Codex, or comparable AI coding agents in the actual development
+            workflow and who have credible evidence of paid customers, sales,
+            MRR, ARR, or a successful paid launch.
 
-            Compare candidates by paying customer, urgent problem, price,
-            retention reason, necessity of AI, MVP size, Japan-market fit,
-            implementation cost, and fit with this repository. Select only one
-            small, testable feature with the best evidence and fastest path to
-            validating willingness to pay.
+            Evidence must cover both sides:
+            1. AI-development evidence: a founder interview, build log,
+               repository, launch post, or another primary source naming the
+               development tool and explaining how it was used.
+            2. Monetization evidence: an official pricing or checkout page plus
+               a founder primary source or trustworthy public metric showing
+               paid customers or revenue.
+
+            Reject generic AI SaaS lists, affiliate articles, copied case
+            studies, anonymous revenue claims, products that merely contain AI
+            but do not document AI-assisted development, and examples with no
+            paid offering.
+
+            For each candidate extract the founder/team size, AI tools used,
+            what each tool did, development duration, product, paying customer,
+            price, revenue evidence, distribution channel, retention reason,
+            and repeatable build-and-sell process. Compare candidates by
+            evidence quality, reproducibility by one person, urgent customer
+            problem, speed to first payment, MVP size, Japan-market fit, and
+            implementation cost. Select only one small testable product or
+            feature, redesigned for a specific Japanese customer rather than
+            copied from the overseas example.
 
             Create exactly one GitHub Issue. Its body must contain these
             non-empty headings:
@@ -107,7 +125,9 @@ jobs:
             ## 人間承認が必要なこと
             ## 変更予定ファイル/ディレクトリ
             ## 作業規模
-            ## 海外事例と根拠URL
+            ## Claude・ChatGPTを使った海外開発事例
+            ## 収益・有料顧客の根拠URL
+            ## 再現する開発・販売手順
 
             Use `small` unless a larger size is essential. Keep Production
             deployment, billing activation, secrets, .env files,
@@ -118,7 +138,8 @@ jobs:
             After creating the Issue, add the `claude` label to that Issue so
             the existing Fable 5 runbook -> Sonnet 4.6 implementation pipeline
             starts immediately. Do not edit code, create a branch, or create
-            more than one Issue.
+            more than one Issue. Explicitly name the AI development tool and
+            separate verified facts from assumptions in the Issue.
           claude_args: |
             --model claude-fable-5
             --max-turns 10
