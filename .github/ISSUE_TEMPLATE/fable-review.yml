@@ -39,6 +39,46 @@ body:
       description: Sonnet/Codexで試した内容と回数、行き詰まった理由を書いてください。重要設計・統合調査の場合は未実施と書けます。
     validations:
       required: true
+  - type: textarea
+    id: questions
+    attributes:
+      label: 判断したい質問
+      description: 最大3件。1行に1件ずつ書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 根拠資料URL
+      description: 最大10件。Fableへ渡す前に重要資料だけへ絞ってください。
+    validations:
+      required: true
+  - type: textarea
+    id: facts
+    attributes:
+      label: 既知の事実
+    validations:
+      required: true
+  - type: textarea
+    id: unknowns
+    attributes:
+      label: 未確定事項
+    validations:
+      required: true
+  - type: textarea
+    id: rejected
+    attributes:
+      label: 却下済み案
+      description: ない場合は「なし」と記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: 制約
+      description: 予算、期限、安全境界、変更禁止範囲を書いてください。
+    validations:
+      required: true
   - type: input
     id: count
     attributes:
