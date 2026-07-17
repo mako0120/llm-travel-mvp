@@ -28,7 +28,45 @@ jobs:
           ref: main
           fetch-depth: 0
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Claude usage-guard preflight
+        id: preflight
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node .github/scripts/claude-preflight.mjs
+
+      - name: Comment preflight block reason
+        if: steps.preflight.outputs.allowed != 'true'
+        uses: actions/github-script@v7
+        env:
+          PREFLIGHT_REASON: ${{ steps.preflight.outputs.reason }}
+        with:
+          script: |
+            const marker = '<!-- claude-preflight:blocked -->';
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issue_number = context.issue.number;
+            const reason = process.env.PREFLIGHT_REASON ?? 'unknown reason';
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner, repo, issue_number, per_page: 100
+            });
+            const existing = comments.find(comment => comment.body?.includes(marker));
+            const body = `${marker}\nClaude Code自動実装のpreflightチェックで停止しました。\n\n**理由:** ${reason}\n\nIssue本文を修正し、\`claude\` ラベルを付け直すと再実行されます。`;
+            if (existing) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number, body });
+            }
+
       - name: Install Claude subprocess sandbox
+        if: steps.preflight.outputs.allowed == 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -37,6 +75,7 @@ jobs:
           bwrap --version
 
       - name: Run Claude Code for the labeled Issue
+        if: steps.preflight.outputs.allowed == 'true'
         uses: anthropics/claude-code-action@fffa3483bb78e47a0c02fdcb79109570f1e1a617 # v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -62,7 +101,8 @@ jobs:
 
             If the Issue is ambiguous, unsafe, asks for prohibited work, or requires unavailable credentials, do not guess. Comment on the Issue with the blocker and stop without changing code.
           claude_args: |
-            --max-turns 30
+            --max-turns ${{ steps.preflight.outputs.max_turns }}
+            --model claude-sonnet-5
             --allowedTools "Read,Glob,Grep,Edit,Write,Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(git branch:*),Bash(git switch:*),Bash(git checkout:*),Bash(git add:*),Bash(git commit:*),Bash(git push:*),Bash(npm ci:*),Bash(npm run:*),Bash(gh issue view:*),Bash(gh issue comment:*),Bash(gh pr create:*)"
 
   disabled-notice:

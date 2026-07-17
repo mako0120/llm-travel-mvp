@@ -81,3 +81,22 @@ body:
           required: true
         - label: 課金、秘密情報、認証、DB、環境変数の変更はこのIssueで許可されていない
           required: true
+  - type: dropdown
+    id: work_size
+    attributes:
+      label: 作業規模
+      description: Claude起動前のpreflightチェックがこの値でmax-turnsを決めます(small=12 / medium=20 / large=30)。未指定はsmall扱いです。
+      options:
+        - small
+        - medium
+        - large
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: target_paths
+    attributes:
+      label: 変更予定ファイル/ディレクトリ
+      description: 変更してよい範囲を具体的なパスで明示してください。
+    validations:
+      required: true
