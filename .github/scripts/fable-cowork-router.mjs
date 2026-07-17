@@ -24,6 +24,12 @@ const REQUIRED_SECTIONS = [
   "期待する成果",
   "Fableが必要な理由",
   "これまでの試行",
+  "判断したい質問",
+  "根拠資料URL",
+  "既知の事実",
+  "未確定事項",
+  "却下済み案",
+  "制約",
   "Fable利用回数",
   "人間承認",
 ];
@@ -46,6 +52,13 @@ export function parseSections(body = "") {
 
 function isEmpty(value = "") {
   return !value.replace(/[-[\]\s]/g, "");
+}
+
+function listItems(value = "") {
+  return value
+    .split(/\r?\n/)
+    .map((line) => line.replace(/^\s*(?:[-*]|\d+[.)])\s*/, "").trim())
+    .filter(Boolean);
 }
 
 export function evaluateFableRequest({ body, labels = [] }) {
@@ -71,6 +84,21 @@ export function evaluateFableRequest({ body, labels = [] }) {
     return {
       allowed: false,
       reason: "Fable利用回数は「1回」に限定してください。",
+    };
+  }
+
+  const questions = listItems(sections.get("判断したい質問"));
+  const sources = listItems(sections.get("根拠資料URL"));
+  if (questions.length > 3) {
+    return {
+      allowed: false,
+      reason: "一回で判断する質問は最大3件です。関連する質問を統合してください。",
+    };
+  }
+  if (sources.length > 10) {
+    return {
+      allowed: false,
+      reason: "根拠資料は最大10件です。先にSonnet/Codexで重要資料を選別してください。",
     };
   }
 
@@ -112,13 +140,28 @@ export function evaluateFableRequest({ body, labels = [] }) {
     reason: "Fable 5を一回だけ使う条件を満たしています。",
     goal: sections.get("目的"),
     deliverable: sections.get("期待する成果"),
+    packet: {
+      questions,
+      sources,
+      facts: sections.get("既知の事実"),
+      unknowns: sections.get("未確定事項"),
+      rejected: sections.get("却下済み案"),
+      constraints: sections.get("制約"),
+    },
   };
 }
 
-export function buildCoworkPrompt({ url, title, goal, deliverable }) {
+export function buildCoworkPrompt({
+  url,
+  title,
+  goal,
+  deliverable,
+  packet,
+}) {
   return `あなたはClaude Cowork上のFable 5です。
 
-次の1件だけを、長時間・多段階の難しい判断担当として処理してください。
+次の判断パケット1件だけを、難しい判断担当として処理してください。
+このパケットはSonnet/Codexが先に圧縮した情報です。
 
 対象: ${title}
 URL: ${url}
@@ -129,10 +172,38 @@ ${goal}
 期待する成果:
 ${deliverable}
 
+判断したい質問（最大3件）:
+${packet.questions.map((item, index) => `${index + 1}. ${item}`).join("\n")}
+
+根拠資料（最大10件）:
+${packet.sources.map((item) => `- ${item}`).join("\n")}
+
+既知の事実:
+${packet.facts}
+
+未確定事項:
+${packet.unknowns}
+
+却下済み案:
+${packet.rejected}
+
+制約:
+${packet.constraints}
+
+実行順序:
+1. 判断パケットと指定URLだけを読む
+2. 最大3件の質問へ仮回答する
+3. 反対側の立場から仮回答を検証し、弱点を探す
+4. 最終推奨案、根拠、リスク、撤退条件を確定する
+5. 実装をSonnet/Codex向けのsmall/medium Issueへ分解する
+6. 結果を対象Issue/PRへ記録して停止する
+
 必須ルール:
-- 最初にGitHubの対象IssueまたはPRと関連資料を読む
+- リポジトリ全体を探索しない
+- 指定外のWeb検索を繰り返さない
+- 指定されていないコネクタを使わない
 - 実装の定型作業はSonnet/Codexへ戻し、Fable自身は難しい設計・統合・最終判断に集中する
-- 結論、根拠、選択肢、推奨案、リスク、次のIssue案を出す
+- 質問を増やさず、一回の実行で完成させる
 - APIキー、秘密情報、.env.localを読まない・表示しない・保存しない
 - mainへmergeしない
 - Production deploy、課金有効化、認証・DB・環境変数の変更を行わない
@@ -193,6 +264,7 @@ async function run() {
         title: subject.title,
         goal: result.goal,
         deliverable: result.deliverable,
+        packet: result.packet,
       })
     : null;
   const body = result.allowed
