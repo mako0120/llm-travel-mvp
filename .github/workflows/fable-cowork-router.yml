@@ -1,0 +1,46 @@
+name: Fable 5 Cowork Router
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fable-cowork-router.yml
+      - .github/scripts/fable-cowork-router.mjs
+  issues:
+    types: [labeled]
+  pull_request_target:
+    types: [labeled]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: fable-cowork-${{ github.event.issue.number || github.event.pull_request.number || github.run_id }}
+  cancel-in-progress: false
+
+jobs:
+  bootstrap-labels:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create Fable routing labels
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/fable-cowork-router.mjs --bootstrap
+
+  route:
+    if: |
+      (github.event_name == 'issues' || github.event_name == 'pull_request_target') &&
+      github.event.label.name == 'fable-review'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Evaluate without calling an AI model
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/fable-cowork-router.mjs
