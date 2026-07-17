@@ -1,0 +1,107 @@
+name: Fable 5 PR Repair
+
+on:
+  pull_request:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  actions: read
+
+concurrency:
+  group: fable-repair-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    if: |
+      github.event.label.name == 'ai:repair-needed' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      startsWith(github.event.pull_request.head.ref, 'claude/feature-') &&
+      vars.CLAUDE_AUTOMATION_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      CLAUDE_CODE_SUBPROCESS_ENV_SCRUB: "1"
+    steps:
+      - name: Check out the existing feature branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+
+      - name: Ask Fable 5 for a repair runbook
+        uses: anthropics/claude-code-action@fffa3483bb78e47a0c02fdcb79109570f1e1a617 # v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          track_progress: false
+          prompt: |
+            You are the senior architect for pull request
+            #${{ github.event.pull_request.number }} in ${{ github.repository }}.
+
+            Read the linked Issue, PR description, review comments, and failing
+            GitHub check logs. Diagnose the root cause and post one PR comment
+            headed `## Fable 5 修正手順書` for Sonnet 4.6.
+
+            Include the failed check, root cause, exact files and lines to inspect,
+            minimal ordered repair steps, regression tests, and stop conditions.
+            Do not edit code, commit, push, change labels, or change external settings.
+          claude_args: |
+            --model claude-fable-5
+            --max-turns 8
+            --allowedTools "Read,Glob,Grep,Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(gh issue view:*),Bash(gh pr view:*),Bash(gh pr checks:*),Bash(gh pr comment:*),Bash(gh run view:*)"
+
+      - name: Execute the repair with Sonnet 4.6
+        uses: anthropics/claude-code-action@fffa3483bb78e47a0c02fdcb79109570f1e1a617 # v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          track_progress: true
+          prompt: |
+            You are the implementation engineer for pull request
+            #${{ github.event.pull_request.number }} in ${{ github.repository }}.
+
+            Read the latest `Fable 5 修正手順書`, validate it against the code,
+            and execute the smallest complete repair on the checked-out feature branch.
+            Run npm ci, npm run lint, npm run typecheck, npm run build, and relevant
+            tests. Commit and push to the same branch, then record the exact results
+            on the PR. Stop after the push so Codex can independently review it.
+
+            Do not broaden the Issue scope. Never read, print, modify, or commit
+            secrets, credentials, tokens, .env files, or API keys. Never change
+            Production deployment, billing, authentication, databases, environment
+            variables, or external-service settings. If required, add
+            `human-approval-required`, explain the blocker, and stop.
+          claude_args: |
+            --model claude-sonnet-4-6
+            --max-turns 20
+            --allowedTools "Read,Glob,Grep,Edit,Write,Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(git add:*),Bash(git commit:*),Bash(git push:*),Bash(npm ci:*),Bash(npm run:*),Bash(gh issue view:*),Bash(gh pr view:*),Bash(gh pr checks:*),Bash(gh pr comment:*),Bash(gh run view:*)"
+
+  disabled-notice:
+    if: |
+      github.event.label.name == 'ai:repair-needed' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      startsWith(github.event.pull_request.head.ref, 'claude/feature-') &&
+      vars.CLAUDE_AUTOMATION_ENABLED != 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Record that Fable 5 automation is unavailable
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = '<!-- fable-repair:disabled -->';
+            const issue_number = context.payload.pull_request.number;
+            const comments = await github.paginate(
+              github.rest.issues.listComments,
+              { ...context.repo, issue_number, per_page: 100 }
+            );
+            if (!comments.some(comment => comment.body?.includes(marker))) {
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number,
+                body: `${marker}\nFable 5の自動修正は現在停止中です。追加課金は行っていません。Claude CodeアプリでこのPRを開いて修正を続行してください。`
+              });
+            }
