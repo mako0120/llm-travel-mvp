@@ -99,7 +99,7 @@ jobs:
 
             If the Issue is ambiguous, unsafe, asks for prohibited work, or requires unavailable credentials, do not guess. Comment on the Issue with the blocker and stop without changing code.
           claude_args: |
-            --model claude-sonnet-4-6
+            --model claude-fable-5
             --max-turns ${{ steps.preflight.outputs.max_turns }}
             --allowedTools "Read,Glob,Grep,Edit,Write,Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(git branch:*),Bash(git switch:*),Bash(git checkout:*),Bash(git add:*),Bash(git commit:*),Bash(git push:*),Bash(npm ci:*),Bash(npm run:*),Bash(gh issue view:*),Bash(gh issue comment:*),Bash(gh pr create:*)"
 
