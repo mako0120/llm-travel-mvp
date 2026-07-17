@@ -1,0 +1,153 @@
+name: Safe Auto Merge
+
+on:
+  pull_request_review:
+    types: [submitted, dismissed]
+  check_suite:
+    types: [completed]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  checks: read
+  statuses: read
+
+jobs:
+  merge-after-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge eligible Claude PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const marker = '<!-- safe-auto-merge -->';
+
+            const prNumbers = new Set();
+            if (context.eventName === 'pull_request_review') {
+              prNumbers.add(context.payload.pull_request.number);
+            } else {
+              for (const pr of context.payload.check_suite.pull_requests ?? []) {
+                prNumbers.add(pr.number);
+              }
+            }
+
+            for (const pull_number of prNumbers) {
+              const { data: pr } = await github.rest.pulls.get({
+                owner, repo, pull_number
+              });
+
+              if (
+                pr.state !== 'open' ||
+                pr.draft ||
+                pr.base.ref !== 'main' ||
+                !pr.head.ref.startsWith('claude/feature-')
+              ) {
+                continue;
+              }
+
+              const labels = pr.labels.map(label => label.name);
+              const blockedLabels = [
+                'human-approval-required',
+                'ai:no-auto-merge',
+                'security',
+                'billing',
+                'database',
+                'production'
+              ];
+              const blockedLabel = blockedLabels.find(label => labels.includes(label));
+
+              const files = await github.paginate(github.rest.pulls.listFiles, {
+                owner, repo, pull_number, per_page: 100
+              });
+              const blockedPathPattern =
+                /(^|\/)(\.env($|\.)|supabase\/migrations|prisma\/migrations|auth|billing|stripe|secrets?|vercel\.json|\.github\/workflows)(\/|$)/i;
+              const blockedFile = files.find(file => blockedPathPattern.test(file.filename));
+
+              const reviews = await github.paginate(github.rest.pulls.listReviews, {
+                owner, repo, pull_number, per_page: 100
+              });
+              const latestReviewByUser = new Map();
+              for (const review of reviews) {
+                latestReviewByUser.set(review.user.login, review);
+              }
+              const changesRequested = [...latestReviewByUser.values()]
+                .some(review => review.state === 'CHANGES_REQUESTED');
+              const codexReview = [...latestReviewByUser.values()].some(review =>
+                /(codex|chatgpt)/i.test(review.user.login) &&
+                ['APPROVED', 'COMMENTED'].includes(review.state)
+              );
+
+              const reactions = await github.paginate(
+                github.rest.reactions.listForIssue,
+                { owner, repo, issue_number: pull_number, per_page: 100 }
+              );
+              const codexThumbsUp = reactions.some(reaction =>
+                reaction.content === '+1' &&
+                /(codex|chatgpt)/i.test(reaction.user?.login ?? '')
+              );
+              const reviewPassed = codexReview || codexThumbsUp;
+
+              const { data: checkRuns } = await github.rest.checks.listForRef({
+                owner, repo, ref: pr.head.sha, per_page: 100
+              });
+              const { data: combinedStatus } =
+                await github.rest.repos.getCombinedStatusForRef({
+                  owner, repo, ref: pr.head.sha, per_page: 100
+                });
+              const relevantChecks = checkRuns.check_runs.filter(check =>
+                /(CI|PR Governance|Vercel)/i.test(`${check.name} ${check.app?.name ?? ''}`)
+              );
+              const checksPassed =
+                relevantChecks.length > 0 &&
+                relevantChecks.every(check =>
+                  check.status === 'completed' &&
+                  ['success', 'neutral', 'skipped'].includes(check.conclusion)
+                );
+              const statusesPassed =
+                combinedStatus.state === 'success' ||
+                combinedStatus.statuses.length === 0;
+
+              const blockers = [
+                blockedLabel && `禁止ラベル: ${blockedLabel}`,
+                blockedFile && `禁止パス: ${blockedFile.filename}`,
+                changesRequested && '変更要求レビューあり',
+                !reviewPassed && 'Codexレビュー完了待ち',
+                !checksPassed && 'CI / Governance / Vercelチェック待ち',
+                !statusesPassed && 'コミットステータス未成功'
+              ].filter(Boolean);
+
+              const comments = await github.paginate(
+                github.rest.issues.listComments,
+                { owner, repo, issue_number: pull_number, per_page: 100 }
+              );
+              const existing = comments.find(comment =>
+                comment.body?.includes(marker)
+              );
+              const body = blockers.length
+                ? `${marker}\n## 自動マージ判定: 保留\n\n${blockers.map(item => `- ${item}`).join('\n')}`
+                : `${marker}\n## 自動マージ判定: 合格\n\nCodexレビュー、CI、Vercel、安全範囲の確認が完了したためmainへ自動マージします。`;
+
+              if (existing) {
+                await github.rest.issues.updateComment({
+                  owner, repo, comment_id: existing.id, body
+                });
+              } else {
+                await github.rest.issues.createComment({
+                  owner, repo, issue_number: pull_number, body
+                });
+              }
+
+              if (blockers.length > 0) continue;
+
+              await github.rest.pulls.merge({
+                owner,
+                repo,
+                pull_number,
+                sha: pr.head.sha,
+                merge_method: 'squash',
+                commit_title: `${pr.title} (#${pull_number})`
+              });
+            }
