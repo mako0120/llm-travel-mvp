@@ -53,6 +53,27 @@ jobs:
               });
             }
 
+            const triggerMarker = '<!-- ai-handoff:claude-start -->';
+            if (!comments.some(comment => comment.body?.includes(triggerMarker))) {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number,
+                body: `${triggerMarker}
+@claude Issue #${issue_number} の実装を開始してください。
+
+1. Issue本文、CLAUDE.md、AGENTS.md、関連コードを読む
+2. 先に「Fable 5 実装手順書」をIssueコメントへ記録する
+3. 手順書を検証してIssue範囲内だけを実装する
+4. \`claude/feature-${issue_number}-<内容>\` ブランチを使用する
+5. lint、typecheck、build、関連テストを実行する
+6. \`Closes #${issue_number}\` を含むDraft PRを作成する
+7. 完了後はCodexレビューへ受け渡す
+
+mainへの直接push・merge、Production deploy、課金、秘密情報、\`.env.local\`、認証、DB、環境変数、外部サービス設定の変更は禁止です。`
+              });
+            }
+
   receive-claude-pr:
     if: github.event_name == 'pull_request_target' && startsWith(github.event.pull_request.head.ref, 'claude/feature-')
     runs-on: ubuntu-latest
