@@ -1,0 +1,136 @@
+name: Continuous Development Relay
+
+on:
+  pull_request_target:
+    types: [closed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+
+concurrency:
+  group: continuous-development-relay
+  cancel-in-progress: false
+
+jobs:
+  start-next-cycle:
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (
+        github.event.pull_request.merged == true &&
+        github.event.pull_request.base.ref == 'main' &&
+        startsWith(github.event.pull_request.head.ref, 'claude/feature-')
+      )
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out trusted main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Prevent duplicate development
+        id: gate
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pulls = await github.paginate(github.rest.pulls.list, {
+              ...context.repo,
+              state: 'open',
+              per_page: 100
+            });
+            const activePull = pulls.find(pr =>
+              pr.head.ref.startsWith('claude/feature-')
+            );
+
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              ...context.repo,
+              state: 'open',
+              labels: 'claude',
+              per_page: 100
+            });
+            const activeIssue = issues.find(issue => !issue.pull_request);
+            const allowed = !activePull && !activeIssue;
+
+            core.setOutput('allowed', String(allowed));
+            core.setOutput(
+              'reason',
+              activePull
+                ? `open PR #${activePull.number}`
+                : activeIssue
+                  ? `open Issue #${activeIssue.number}`
+                  : 'no active implementation'
+            );
+            core.info(`Relay gate: ${allowed} (${activePull?.number ?? activeIssue?.number ?? 'clear'})`);
+
+      - name: Record duplicate prevention
+        if: steps.gate.outputs.allowed != 'true'
+        run: echo "Next cycle was not started because ${{ steps.gate.outputs.reason }} is active."
+
+      - name: Research and create the next Issue with Fable 5
+        if: |
+          steps.gate.outputs.allowed == 'true' &&
+          vars.CLAUDE_AUTOMATION_ENABLED == 'true'
+        uses: anthropics/claude-code-action@fffa3483bb78e47a0c02fdcb79109570f1e1a617 # v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          track_progress: false
+          prompt: |
+            You are the product strategist and senior architect for
+            ${{ github.repository }}. The previous feature has finished.
+            Start exactly one next development cycle.
+
+            First inspect the current product, recent merged PRs, open Issues,
+            CLAUDE.md, AGENTS.md, and relevant source files. Then use web search
+            to find current overseas AI SaaS, AI automation, and Micro SaaS
+            businesses with credible evidence of monetization. Prefer official
+            product sites, public pricing pages, founder primary sources, and
+            trustworthy reports. Do not claim revenue without a supporting URL.
+
+            Compare candidates by paying customer, urgent problem, price,
+            retention reason, necessity of AI, MVP size, Japan-market fit,
+            implementation cost, and fit with this repository. Select only one
+            small, testable feature with the best evidence and fastest path to
+            validating willingness to pay.
+
+            Create exactly one GitHub Issue. Its body must contain these
+            non-empty headings:
+            ## 背景
+            ## 目的
+            ## 実装内容
+            ## 完了条件
+            ## 影響範囲
+            ## テスト項目
+            ## 人間承認が必要なこと
+            ## 変更予定ファイル/ディレクトリ
+            ## 作業規模
+            ## 海外事例と根拠URL
+
+            Use `small` unless a larger size is essential. Keep Production
+            deployment, billing activation, secrets, .env files,
+            authentication changes, destructive database changes, environment
+            variables, and external-service settings outside the implementation.
+            Do not propose changes under .github/workflows.
+
+            After creating the Issue, add the `claude` label to that Issue so
+            the existing Fable 5 runbook -> Sonnet 4.6 implementation pipeline
+            starts immediately. Do not edit code, create a branch, or create
+            more than one Issue.
+          claude_args: |
+            --model claude-fable-5
+            --max-turns 10
+            --allowedTools "Read,Glob,Grep,WebSearch,WebFetch,Bash(git log:*),Bash(git status:*),Bash(gh issue list:*),Bash(gh issue view:*),Bash(gh issue create:*),Bash(gh issue edit:*),Bash(gh pr list:*),Bash(gh pr view:*)"
+
+      - name: Explain disabled automation without spending credits
+        if: |
+          steps.gate.outputs.allowed == 'true' &&
+          vars.CLAUDE_AUTOMATION_ENABLED != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            core.warning(
+              'Continuous relay is ready, but CLAUDE_AUTOMATION_ENABLED is not true. No model was called and no credits were spent.'
+            );
