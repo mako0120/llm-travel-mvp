@@ -5,6 +5,8 @@ on:
     types: [submitted, dismissed]
   check_suite:
     types: [completed]
+  pull_request_target:
+    types: [opened, ready_for_review, synchronize]
 
 permissions:
   contents: write
@@ -28,6 +30,8 @@ jobs:
             const prNumbers = new Set();
             if (context.eventName === 'pull_request_review') {
               prNumbers.add(context.payload.pull_request.number);
+            } else if (context.eventName === 'pull_request_target') {
+              prNumbers.add(context.payload.pull_request.number);
             } else {
               for (const pr of context.payload.check_suite.pull_requests ?? []) {
                 prNumbers.add(pr.number);
@@ -41,7 +45,6 @@ jobs:
 
               if (
                 pr.state !== 'open' ||
-                pr.draft ||
                 pr.base.ref !== 'main' ||
                 !pr.head.ref.startsWith('claude/feature-')
               ) {
@@ -49,6 +52,73 @@ jobs:
               }
 
               const labels = pr.labels.map(label => label.name);
+              const managedLabels = [
+                {
+                  name: 'ai:repair-needed',
+                  color: 'D93F0B',
+                  description: 'Claude Codeによる修正が必要'
+                },
+                {
+                  name: 'fable-review',
+                  color: '7057FF',
+                  description: 'Fable5/Coworkによる進行整理が必要'
+                },
+                {
+                  name: 'human-approval-required',
+                  color: 'B60205',
+                  description: '自動処理を停止し人間判断を待つ'
+                },
+                {
+                  name: 'ai:codex-review',
+                  color: '0E8A16',
+                  description: 'Codexレビュー対象'
+                }
+              ];
+              for (const label of managedLabels) {
+                try {
+                  await github.rest.issues.getLabel({ owner, repo, name: label.name });
+                } catch (error) {
+                  if (error.status !== 404) throw error;
+                  await github.rest.issues.createLabel({ owner, repo, ...label });
+                }
+              }
+
+              if (
+                context.eventName === 'pull_request_target' &&
+                context.payload.action === 'synchronize'
+              ) {
+                for (const name of ['ai:repair-needed', 'fable-review']) {
+                  try {
+                    await github.rest.issues.removeLabel({
+                      owner, repo, issue_number: pull_number, name
+                    });
+                  } catch (error) {
+                    if (error.status !== 404) throw error;
+                  }
+                }
+                await github.rest.issues.addLabels({
+                  owner,
+                  repo,
+                  issue_number: pull_number,
+                  labels: ['ai:codex-review']
+                });
+                continue;
+              }
+
+              if (
+                context.eventName === 'pull_request_target' &&
+                ['opened', 'ready_for_review'].includes(context.payload.action)
+              ) {
+                await github.rest.issues.addLabels({
+                  owner,
+                  repo,
+                  issue_number: pull_number,
+                  labels: ['fable-review', 'ai:codex-review']
+                });
+              }
+
+              if (pr.draft) continue;
+
               const blockedLabels = [
                 'human-approval-required',
                 'ai:no-auto-merge',
@@ -109,6 +179,18 @@ jobs:
               const statusesPassed =
                 combinedStatus.state === 'success' ||
                 combinedStatus.statuses.length === 0;
+              const failedChecks = relevantChecks.filter(check =>
+                check.status === 'completed' &&
+                ['failure', 'cancelled', 'timed_out', 'action_required']
+                  .includes(check.conclusion)
+              );
+              const failedStatuses = combinedStatus.statuses.filter(status =>
+                ['failure', 'error'].includes(status.state)
+              );
+              const repairRequired =
+                changesRequested ||
+                failedChecks.length > 0 ||
+                failedStatuses.length > 0;
 
               const blockers = [
                 blockedLabel && `禁止ラベル: ${blockedLabel}`,
@@ -126,6 +208,58 @@ jobs:
               const existing = comments.find(comment =>
                 comment.body?.includes(marker)
               );
+
+              if (repairRequired) {
+                const repairMarker = '<!-- ai-repair-loop -->';
+                const repairComment = comments.find(comment =>
+                  comment.body?.includes(repairMarker)
+                );
+                const previousAttempts = Number(
+                  repairComment?.body?.match(/repair-attempt:(\d+)/)?.[1] ?? 0
+                );
+                const alreadyQueued = labels.includes('ai:repair-needed');
+                const attempt = alreadyQueued
+                  ? Math.max(previousAttempts, 1)
+                  : previousAttempts + 1;
+                const stopForHuman = attempt > 3;
+                const failedNames = [
+                  ...failedChecks.map(check => check.name),
+                  ...failedStatuses.map(status => status.context),
+                  ...(changesRequested ? ['レビューの変更要求'] : [])
+                ];
+                const repairBody =
+                  `${repairMarker}\n<!-- repair-attempt:${attempt} -->\n` +
+                  `## ${stopForHuman ? '自動修正を停止しました' : 'Claude Code 修正依頼'}\n\n` +
+                  `${failedNames.map(name => `- ${name}`).join('\n')}\n\n` +
+                  (stopForHuman
+                    ? '3回の修正後も成功しないため、人間の判断を待ちます。'
+                    : '失敗原因を確認し、Issueの範囲内で最小修正してください。修正後は同じfeatureブランチへpushし、テスト結果をPRへ追記してください。Production、課金、秘密情報、認証、DB、環境変数は変更禁止です。');
+
+                if (repairComment) {
+                  await github.rest.issues.updateComment({
+                    owner,
+                    repo,
+                    comment_id: repairComment.id,
+                    body: repairBody
+                  });
+                } else {
+                  await github.rest.issues.createComment({
+                    owner,
+                    repo,
+                    issue_number: pull_number,
+                    body: repairBody
+                  });
+                }
+                await github.rest.issues.addLabels({
+                  owner,
+                  repo,
+                  issue_number: pull_number,
+                  labels: stopForHuman
+                    ? ['human-approval-required', 'fable-review']
+                    : ['ai:repair-needed', 'fable-review']
+                });
+              }
+
               const body = blockers.length
                 ? `${marker}\n## 自動マージ判定: 保留\n\n${blockers.map(item => `- ${item}`).join('\n')}`
                 : `${marker}\n## 自動マージ判定: 合格\n\nCodexレビュー、CI、Vercel、安全範囲の確認が完了したためmainへ自動マージします。`;
