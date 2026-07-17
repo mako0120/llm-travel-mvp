@@ -41,6 +41,25 @@ body:
       label: 影響範囲
     validations:
       required: true
+  - type: dropdown
+    id: size
+    attributes:
+      label: 作業規模
+      description: smallは最大12、mediumは最大20、largeは最大30ターンです。迷ったらsmallを選びます。
+      options:
+        - small
+        - medium
+        - large
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: paths
+    attributes:
+      label: 変更予定ファイル/ディレクトリ
+      description: Claudeが読む範囲と変更範囲を狭くするため、具体的に記載してください。
+    validations:
+      required: true
   - type: textarea
     id: tests
     attributes:
