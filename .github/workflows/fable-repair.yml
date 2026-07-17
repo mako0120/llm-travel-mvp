@@ -32,39 +32,51 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
 
-      - name: Repair with Fable 5
+      - name: Ask Fable 5 for a repair runbook
+        uses: anthropics/claude-code-action@fffa3483bb78e47a0c02fdcb79109570f1e1a617 # v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          track_progress: false
+          prompt: |
+            You are the senior architect for pull request
+            #${{ github.event.pull_request.number }} in ${{ github.repository }}.
+
+            Read the linked Issue, PR description, review comments, and failing
+            GitHub check logs. Diagnose the root cause and post one PR comment
+            headed `## Fable 5 修正手順書` for Sonnet 4.6.
+
+            Include the failed check, root cause, exact files and lines to inspect,
+            minimal ordered repair steps, regression tests, and stop conditions.
+            Do not edit code, commit, push, change labels, or change external settings.
+          claude_args: |
+            --model claude-fable-5
+            --max-turns 8
+            --allowedTools "Read,Glob,Grep,Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(gh issue view:*),Bash(gh pr view:*),Bash(gh pr checks:*),Bash(gh pr comment:*),Bash(gh run view:*)"
+
+      - name: Execute the repair with Sonnet 4.6
         uses: anthropics/claude-code-action@fffa3483bb78e47a0c02fdcb79109570f1e1a617 # v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           track_progress: true
           prompt: |
-            You are the primary implementation engineer for pull request
+            You are the implementation engineer for pull request
             #${{ github.event.pull_request.number }} in ${{ github.repository }}.
 
-            The automated review or verification loop found a failure.
-            Take ownership of the repair and carry it through to verified completion.
+            Read the latest `Fable 5 修正手順書`, validate it against the code,
+            and execute the smallest complete repair on the checked-out feature branch.
+            Run npm ci, npm run lint, npm run typecheck, npm run build, and relevant
+            tests. Commit and push to the same branch, then record the exact results
+            on the PR. Stop after the push so Codex can independently review it.
 
-            Required workflow:
-            1. Read CLAUDE.md, AGENTS.md, the linked Issue, the PR description,
-               review comments, and failing GitHub check logs.
-            2. Identify the root cause before editing.
-            3. Make the smallest complete fix on the already checked-out feature branch.
-            4. Do not broaden the linked Issue scope or perform opportunistic refactors.
-            5. Run npm ci, npm run lint, npm run typecheck, npm run build,
-               and relevant tests. Fix failures that are caused by this PR.
-            6. Commit and push the repair to the same feature branch.
-            7. Update the PR with the root cause, changed files, and exact test results.
-            8. Stop after the push. Codex performs the independent review and the
-               safe auto-merge workflow decides whether the PR may merge.
-
-            Never read, print, modify, or commit secrets, credentials, tokens,
-            .env files, or API keys. Never change Production deployment, billing,
-            authentication, databases, environment variables, or external-service
-            settings. If one of those areas is required, add
-            `human-approval-required`, explain why, and stop.
+            Do not broaden the Issue scope. Never read, print, modify, or commit
+            secrets, credentials, tokens, .env files, or API keys. Never change
+            Production deployment, billing, authentication, databases, environment
+            variables, or external-service settings. If required, add
+            `human-approval-required`, explain the blocker, and stop.
           claude_args: |
-            --model claude-fable-5
+            --model claude-sonnet-4-6
             --max-turns 20
             --allowedTools "Read,Glob,Grep,Edit,Write,Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(git add:*),Bash(git commit:*),Bash(git push:*),Bash(npm ci:*),Bash(npm run:*),Bash(gh issue view:*),Bash(gh pr view:*),Bash(gh pr checks:*),Bash(gh pr comment:*),Bash(gh run view:*)"
 
