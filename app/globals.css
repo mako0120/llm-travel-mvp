@@ -4,6 +4,11 @@
   --muted: #8b8f98;
   --ok: #4ade80;
   --warn: #fbbf24;
+  --danger: #f87171;
+  --accent: #60a5fa;
+  --card-bg: #171a21;
+  --card-border: #262b35;
+  --focus-ring: #93c5fd;
 }
 
 * { box-sizing: border-box; }
@@ -16,19 +21,315 @@ body {
   line-height: 1.7;
 }
 
-main {
-  max-width: 640px;
-  margin: 0 auto;
-  padding: 4rem 1.5rem;
+a { color: var(--accent); }
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
 }
 
-h1 { font-size: 1.6rem; letter-spacing: 0.02em; }
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+h1 { font-size: 1.75rem; letter-spacing: 0.01em; margin: 0 0 0.75rem; }
+h2 { font-size: 1.25rem; margin: 0 0 1rem; }
+h3 { font-size: 1rem; margin: 0 0 0.4rem; }
+
 code {
   background: #1c1f26;
   padding: 0.15em 0.45em;
   border-radius: 4px;
   font-size: 0.9em;
 }
+
 .status { color: var(--muted); }
 .status strong.ok { color: var(--ok); }
 .status strong.warn { color: var(--warn); }
+
+/* --- 全ページ共通: 検証用デモバナー --- */
+.demo-banner {
+  background: #1c1f26;
+  color: var(--warn);
+  text-align: center;
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid var(--card-border);
+}
+
+/* --- LP: ヒーロー --- */
+.hero {
+  padding-top: 1rem;
+}
+
+.eyebrow {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.5rem;
+}
+
+.lead {
+  color: var(--fg);
+  font-size: 1.05rem;
+}
+
+.hero-note {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.cta-row {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.button-primary {
+  background: var(--accent);
+  color: #0b1220;
+}
+
+.button-primary:hover,
+.button-primary:focus-visible {
+  filter: brightness(1.08);
+}
+
+/* --- LP: セクション共通 --- */
+.section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--card-border);
+}
+
+.muted { color: var(--muted); font-size: 0.9rem; }
+
+/* --- LP: 課題カード --- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 1.1rem;
+}
+
+.card p { color: var(--muted); margin: 0; font-size: 0.95rem; }
+
+/* --- LP: 対象リスト --- */
+.check-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.check-list li {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+
+.check-list li::before {
+  content: "✓ ";
+  color: var(--ok);
+  font-weight: 700;
+}
+
+/* --- LP: 使い方ステップ --- */
+.step-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.step-list li {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.step-number {
+  flex: 0 0 auto;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #0b1220;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-list p { color: var(--muted); margin: 0.2rem 0 0; font-size: 0.95rem; }
+
+/* --- LP: 価格 --- */
+.price { font-size: 1.2rem; margin: 0 0 0.35rem; }
+
+/* --- LP: 注意事項 --- */
+.notice-section {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+
+.notice-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.cta-section { text-align: center; }
+.cta-section p { color: var(--muted); }
+
+/* --- デモページ --- */
+.breadcrumb { font-size: 0.9rem; margin: 0 0 1rem; }
+
+.reply-demo {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.demo-disclaimer {
+  background: #241b0f;
+  border: 1px solid #4a3413;
+  color: var(--warn);
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.sample-picker {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sample-picker legend {
+  font-weight: 600;
+  padding: 0 0 0.6rem;
+}
+
+.sample-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.sample-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
+  cursor: pointer;
+}
+
+.sample-card:has(input:focus-visible) {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.sample-card.selected {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent) inset;
+}
+
+.sample-card input[type="radio"] {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.85rem;
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
+.sample-language {
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.sample-title {
+  font-size: 0.95rem;
+}
+
+.result-panel {
+  display: grid;
+  gap: 1rem;
+}
+
+.result-block {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.result-block p {
+  margin: 0;
+  color: var(--fg);
+}
+
+.guest-message p {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.urgency-badge {
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.urgency-高 { background: rgba(248, 113, 113, 0.15); color: var(--danger); }
+.urgency-中 { background: rgba(251, 191, 36, 0.15); color: var(--warn); }
+.urgency-低 { background: rgba(74, 222, 128, 0.15); color: var(--ok); }
+
+/* --- レスポンシブ: スマホ幅 --- */
+@media (max-width: 480px) {
+  main { padding: 1.5rem 1rem 3rem; }
+  h1 { font-size: 1.4rem; }
+  .cta-row { flex-direction: column; }
+  .button { text-align: center; }
+}
