@@ -34,7 +34,7 @@
 
 ### PR URL
 
-- PR:
+- PR: https://github.com/mako0120/llm-travel-mvp/pull/15
 
 ### テスト結果
 
@@ -51,7 +51,8 @@
 
 ### Vercel確認結果
 
-- Previewデプロイ:
+- Previewデプロイ: ✅ 成功(2026-07-17 09:09 UTC, llm-travel-mvp2)
+- Preview URL: https://llm-travel-mvp2-git-claude-feature-14-oauth-auto-71610c-ai-hoku.vercel.app
 
 ### Codexレビュー結果
 
