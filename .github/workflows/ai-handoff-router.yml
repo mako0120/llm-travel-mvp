@@ -27,6 +27,8 @@ jobs:
 
             const labels = [
               { name: 'ai:claude-ready', color: '7C3AED', description: 'Claude Codeへの実装受け渡し待ち' },
+              { name: 'ai:fable-needed', color: 'D4A72C', description: '実際のFable 5による設計待ち' },
+              { name: 'ai:fable-used', color: '8250DF', description: '実際のFable 5による設計完了' },
               { name: 'ai:codex-waiting', color: '2563EB', description: 'Codexレビュー開始待ち' },
               { name: 'ai:codex-review', color: '0E8A16', description: 'Codexレビュー対象' }
             ];
@@ -40,7 +42,7 @@ jobs:
             }
 
             await github.rest.issues.addLabels({
-              owner, repo, issue_number, labels: ['ai:claude-ready']
+              owner, repo, issue_number, labels: ['ai:claude-ready', 'ai:fable-needed']
             });
 
             const comments = await github.paginate(github.rest.issues.listComments, {
@@ -50,6 +52,50 @@ jobs:
               await github.rest.issues.createComment({
                 owner, repo, issue_number,
                 body: `${marker}\n## Claude Code 受け渡し受付\n\nこのIssueは \`claude\` ラベルにより実装対象として受け付けられました。\n\n- 推奨ブランチ: \`claude/feature-${issue_number}-<内容>\`\n- PR本文: \`Closes #${issue_number}\`\n- PRはDraftで作成\n- mainへの直接push・mergeは禁止\n- Production、課金、秘密情報、認証、DB、環境変数は明示承認なしに変更禁止\n\nこのコメントは受付記録であり、Claude Code自体を起動するものではありません。CoworkまたはClaude Code連携は \`ai:claude-ready\` を開始イベントとして使用してください。`
+              });
+            }
+
+  start-claude-after-fable:
+    if: github.event_name == 'issues' && github.event.label.name == 'ai:fable-used'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start Claude after actual Fable 5
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issue_number = context.issue.number;
+            const marker = '<!-- ai-handoff:claude-start-after-fable -->';
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner, repo, issue_number, per_page: 100
+            });
+            const hasFableRunbook = comments.some(comment =>
+              comment.body?.includes('## Fable 5 実装手順書')
+            );
+
+            if (!hasFableRunbook) {
+              core.setFailed('ai:fable-used was added, but the actual Fable 5 runbook was not found.');
+              return;
+            }
+
+            if (!comments.some(comment => comment.body?.includes(marker))) {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number,
+                body: `${marker}
+@claude Issue #${issue_number} の実装を開始してください。
+
+1. Issue本文、CLAUDE.md、AGENTS.md、関連コードを読む
+2. 実際のFable 5が投稿した「Fable 5 実装手順書」を読む
+3. 手順書を検証し、Issue範囲内だけをSonnet実装担当として実装する
+4. \`claude/feature-${issue_number}-<内容>\` ブランチを使用する
+5. lint、typecheck、build、関連テストを実行する
+6. \`Closes #${issue_number}\` を含むDraft PRを作成する
+7. 完了後はCodexレビューへ受け渡す
+
+mainへの直接push・merge、Production deploy、課金、秘密情報、\`.env.local\`、認証、DB、環境変数、外部サービス設定の変更は禁止です。`
               });
             }
 
