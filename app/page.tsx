@@ -56,6 +56,9 @@ export default function Home() {
           <Link href="/workbench" className="button button-secondary">
             実運用に近いワークベンチを試す
           </Link>
+          <Link href="/policy-audit" className="button button-secondary">
+            施設FAQ準備度を診断する
+          </Link>
         </div>
         <p className="hero-note">
           このLPとデモは市場検証用の構想段階の資料です。デモは固定サンプルのみを扱い、外部AI・外部送信・データ保存は行いません。
