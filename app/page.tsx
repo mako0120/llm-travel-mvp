@@ -53,6 +53,9 @@ export default function Home() {
           <Link href="/roi-demo" className="button button-secondary">
             ROI計算デモを試す
           </Link>
+          <Link href="/workbench" className="button button-secondary">
+            実運用に近いワークベンチを試す
+          </Link>
         </div>
         <p className="hero-note">
           このLPとデモは市場検証用の構想段階の資料です。デモは固定サンプルのみを扱い、外部AI・外部送信・データ保存は行いません。
