@@ -18,6 +18,9 @@ export default function DemoPage() {
       <p className="lead">
         外国語のゲストメッセージのサンプルを選ぶと、日本語要約・緊急度・規約確認・外国語の返信案が表示されます。
       </p>
+      <p className="muted">
+        根拠付きで優先順位まで確認したい場合は <Link href="/workbench">/workbench</Link> へ。
+      </p>
       <ReplyDemo />
     </main>
   );
