@@ -43,7 +43,7 @@ jobs:
             }
 
             await github.rest.issues.addLabels({
-              owner, repo, issue_number, labels: ['ai:claude-ready', 'ai:fable-needed']
+              owner, repo, issue_number, labels: ['ai:claude-ready']
             });
 
             const comments = await github.paginate(github.rest.issues.listComments, {
@@ -52,7 +52,7 @@ jobs:
             if (!comments.some(comment => comment.body?.includes(marker))) {
               await github.rest.issues.createComment({
                 owner, repo, issue_number,
-                body: `${marker}\n## Claude Code 受け渡し受付\n\nこのIssueは \`claude\` ラベルにより実装対象として受け付けられました。\n\n- 推奨ブランチ: \`claude/feature-${issue_number}-<内容>\`\n- PR本文: \`Closes #${issue_number}\`\n- PRはDraftで作成\n- mainへの直接push・mergeは禁止\n- Production、課金、秘密情報、認証、DB、環境変数は明示承認なしに変更禁止\n\n\`Claude Code Implementation\` がFable 5手順書とSonnet実装を同じ認証ワークフロー内で連続実行します。このルーターは状態ラベルと受付記録だけを担当します。`
+                body: `${marker}\n## Claude Codeアプリへの受け渡し受付\n\nこのIssueは \`claude\` ラベルにより、Claude Codeアプリへ手動で渡せる状態になりました。GitHub ActionsからAnthropic APIやOAuthを自動実行しないため、認証エラーや意図しない従量課金は発生しません。\n\n- Claude CodeアプリでこのIssueを開いて実装するか、Codexへ実装を任せる\n- 推奨ブランチ: \`claude/feature-${issue_number}-<内容>\`\n- PR本文: \`Closes #${issue_number}\`\n- PRはDraftで作成\n- mainへの直接push・mergeは禁止\n- Production、課金、秘密情報、認証、DB、環境変数は明示承認なしに変更禁止\n\nこのルーターは受け渡し状態の記録だけを担当し、Claudeモデルを自動起動しません。`
               });
             }
 
