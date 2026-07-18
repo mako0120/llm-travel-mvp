@@ -121,6 +121,16 @@ export default function Home() {
           固定サンプルのデモを試す
         </Link>
       </section>
+
+      <section className="section" aria-labelledby="other-demos-heading">
+        <h2 id="other-demos-heading">その他の検証用デモ</h2>
+        <p className="muted">
+          営業担当向けの導入効果(ROI)を試算できるクリックデモも別途公開しています。
+        </p>
+        <Link href="/roi-demo" className="button button-primary">
+          ROI計算デモを見る
+        </Link>
+      </section>
     </main>
   );
 }

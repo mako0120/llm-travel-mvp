@@ -326,6 +326,75 @@ code {
 .urgency-中 { background: rgba(251, 191, 36, 0.15); color: var(--warn); }
 .urgency-低 { background: rgba(74, 222, 128, 0.15); color: var(--ok); }
 
+/* --- ROIデモページ --- */
+.roi-calculator {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.preset-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.preset-button {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  color: var(--fg);
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.preset-button.selected {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.roi-form {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.roi-field {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.roi-field label {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.roi-field-suffix {
+  margin-left: 0.3rem;
+}
+
+.roi-field input {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  color: var(--fg);
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.roi-field-note {
+  margin: 0;
+  color: var(--warn);
+  font-size: 0.8rem;
+}
+
+.roi-headline {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
 /* --- レスポンシブ: スマホ幅 --- */
 @media (max-width: 480px) {
   main { padding: 1.5rem 1rem 3rem; }
