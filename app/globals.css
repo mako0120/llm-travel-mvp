@@ -561,3 +561,81 @@ code {
   font-size: 0.85rem;
   color: var(--warn);
 }
+
+/* --- 施設FAQ準備度診断 --- */
+.policy-audit {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.audit-preset-grid,
+.audit-result-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 0.75rem;
+}
+
+.audit-category-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.audit-category {
+  margin: 0;
+  padding: 1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+}
+
+.audit-category legend { font-weight: 700; padding: 0 0.35rem; }
+.audit-category p { margin: 0 0 0.75rem; color: var(--muted); font-size: 0.88rem; }
+
+.audit-status-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.audit-status-options label {
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--card-border);
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.audit-status-options label:has(input:checked) {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: rgba(96, 165, 250, 0.1);
+}
+
+.audit-status-options input { margin-right: 0.35rem; }
+.audit-results { display: grid; gap: 1rem; }
+.audit-score { display: flex; align-items: baseline; gap: 0.4rem; }
+.audit-score strong { color: var(--accent); font-size: 3rem; line-height: 1; }
+.audit-progress { width: 100%; height: 0.8rem; accent-color: var(--accent); }
+.audit-result h3 span { color: var(--muted); font-weight: 400; }
+.audit-result ul { margin: 0; padding-left: 1.2rem; }
+.audit-result-ok { border-color: rgba(74, 222, 128, 0.55); }
+.audit-result-warn { border-color: rgba(251, 191, 36, 0.55); }
+.audit-result-danger { border-color: rgba(248, 113, 113, 0.55); }
+.audit-checklist { display: grid; gap: 0.65rem; margin: 0; padding-left: 1.25rem; }
+.audit-checklist li span { display: block; color: var(--muted); font-size: 0.88rem; }
+
+.audit-offer {
+  background: var(--card-bg);
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.audit-offer p { color: var(--muted); }
+.audit-interest { color: var(--ok) !important; font-weight: 600; }
+
+@media (max-width: 480px) {
+  .audit-status-options { display: grid; }
+  .audit-status-options label { width: 100%; }
+  .audit-score strong { font-size: 2.5rem; }
+}

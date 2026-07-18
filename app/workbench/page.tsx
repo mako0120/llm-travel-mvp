@@ -18,6 +18,9 @@ export default function WorkbenchPage() {
       <p className="lead">
         固定サンプルの問い合わせキューから、どれを先に返すべきか・どの施設ルールが根拠か・どの返信文をたたき台にすべきかを1画面で確認できます。
       </p>
+      <p>
+        施設ルールが十分か確認したい場合は、<Link href="/policy-audit">施設FAQ準備度診断</Link>をお試しください。
+      </p>
       <WorkbenchDemo />
     </main>
   );
