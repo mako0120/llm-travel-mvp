@@ -1,16 +1,20 @@
 import { appendFile, readFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 
-export const REQUIRED_SECTIONS = [
-  "背景",
-  "目的",
-  "実装内容",
-  "完了条件",
-  "影響範囲",
-  "テスト項目",
-  "人間承認が必要なこと",
-  "変更予定ファイル/ディレクトリ",
-];
+export const REQUIRED_SECTIONS = {
+  背景: ["背景"],
+  目的: ["目的", "実装目的"],
+  実装内容: ["実装内容", "対応内容"],
+  完了条件: ["完了条件", "受け入れ条件"],
+  影響範囲: ["影響範囲", "変更範囲"],
+  テスト項目: ["テスト項目", "テスト方法"],
+  人間承認が必要なこと: ["人間承認が必要なこと", "人間承認"],
+  "変更予定ファイル/ディレクトリ": [
+    "変更予定ファイル/ディレクトリ",
+    "変更予定ファイル",
+    "変更対象ファイル",
+  ],
+};
 
 export const TURN_LIMITS = {
   small: 12,
@@ -42,10 +46,14 @@ export function getSize(sections) {
 }
 
 export function findMissingSections(sections) {
-  return REQUIRED_SECTIONS.filter((name) => {
-    const content = sections.get(name);
-    return !content || !content.replace(/[-[\]\s]/g, "");
-  });
+  return Object.entries(REQUIRED_SECTIONS)
+    .filter(([, aliases]) =>
+      aliases.every((name) => {
+        const content = sections.get(name);
+        return !content || !content.replace(/[-[\]\s]/g, "");
+      }),
+    )
+    .map(([canonical]) => canonical);
 }
 
 export function requestsUnapprovedRisk(sections) {

@@ -56,6 +56,28 @@ test("missing required section is rejected", () => {
   assert.match(result.reason, /テスト項目/);
 });
 
+test("safe heading aliases are accepted", () => {
+  const body = validBody
+    .replace("## 目的", "## 実装目的")
+    .replace("## 影響範囲", "## 変更範囲")
+    .replace(
+      "## 変更予定ファイル/ディレクトリ",
+      "## 変更予定ファイル",
+    );
+  const result = evaluatePreflight({ body, issueNumber: 18 });
+  assert.equal(result.allowed, true);
+});
+
+test("an empty alias does not satisfy a required section", () => {
+  const body = validBody.replace(
+    "## 目的\nAI使用量を減らす。",
+    "## 実装目的\n- [ ]",
+  );
+  const result = evaluatePreflight({ body, issueNumber: 18 });
+  assert.equal(result.allowed, false);
+  assert.match(result.reason, /目的/);
+});
+
 test("unapproved dangerous implementation is rejected", () => {
   const body = validBody.replace(
     "決定的なpreflightを追加する。",
