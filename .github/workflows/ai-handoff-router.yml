@@ -52,82 +52,12 @@ jobs:
             if (!comments.some(comment => comment.body?.includes(marker))) {
               await github.rest.issues.createComment({
                 owner, repo, issue_number,
-                body: `${marker}\n## Claude Code 受け渡し受付\n\nこのIssueは \`claude\` ラベルにより実装対象として受け付けられました。\n\n- 推奨ブランチ: \`claude/feature-${issue_number}-<内容>\`\n- PR本文: \`Closes #${issue_number}\`\n- PRはDraftで作成\n- mainへの直接push・mergeは禁止\n- Production、課金、秘密情報、認証、DB、環境変数は明示承認なしに変更禁止\n\nこのコメントは受付記録であり、Claude Code自体を起動するものではありません。CoworkまたはClaude Code連携は \`ai:claude-ready\` を開始イベントとして使用してください。`
+                body: `${marker}\n## Claude Code 受け渡し受付\n\nこのIssueは \`claude\` ラベルにより実装対象として受け付けられました。\n\n- 推奨ブランチ: \`claude/feature-${issue_number}-<内容>\`\n- PR本文: \`Closes #${issue_number}\`\n- PRはDraftで作成\n- mainへの直接push・mergeは禁止\n- Production、課金、秘密情報、認証、DB、環境変数は明示承認なしに変更禁止\n\n\`Claude Code Implementation\` がFable 5手順書とSonnet実装を同じ認証ワークフロー内で連続実行します。このルーターは状態ラベルと受付記録だけを担当します。`
               });
             }
-
-  start-claude-after-fable:
-    if: github.event_name == 'issues' && github.event.label.name == 'ai:fable-used'
-    runs-on: ubuntu-latest
-    timeout-minutes: 45
-    steps:
-      - name: Check out main
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-
-      - name: Verify handoff and prevent duplicate Sonnet runs
-        id: gate
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const owner = context.repo.owner;
-            const repo = context.repo.repo;
-            const issue_number = context.issue.number;
-            const marker = '<!-- ai-handoff:claude-start-after-fable -->';
-            const comments = await github.paginate(github.rest.issues.listComments, {
-              owner, repo, issue_number, per_page: 100
-            });
-            const hasFableRunbook = comments.some(comment =>
-              comment.body?.includes('## Fable 5 実装手順書')
-            );
-
-            if (!hasFableRunbook) {
-              core.setFailed('ai:fable-used was added, but the actual Fable 5 runbook was not found.');
-              return;
-            }
-
-            const pulls = await github.paginate(github.rest.pulls.list, {
-              owner, repo, state: 'open', per_page: 100
-            });
-            const duplicate = comments.some(comment => comment.body?.includes(marker)) ||
-              pulls.some(pr =>
-                pr.body?.match(new RegExp(`(?:Closes|Fixes|Resolves)\\s+#${issue_number}\\b`, 'i')) ||
-                pr.head.ref.startsWith(`claude/feature-${issue_number}-`)
-              );
-            core.setOutput('should_run', duplicate ? 'false' : 'true');
-            if (!duplicate) {
-              await github.rest.issues.createComment({
-                owner, repo, issue_number,
-                body: `${marker}\n## Sonnet実装開始\n\nFable 5手順書を確認しました。Sonnet実装を一度だけ開始します。`
-              });
-            }
-
-      - name: Run Sonnet implementation once
-        if: steps.gate.outputs.should_run == 'true'
-        uses: anthropics/claude-code-action@fffa3483bb78e47a0c02fdcb79109570f1e1a617 # v1
-        with:
-          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          track_progress: true
-          prompt: |
-            Implement GitHub Issue #${{ github.event.issue.number }}.
-            Read the full Issue, the latest `Fable 5 実装手順書`, CLAUDE.md,
-            AGENTS.md, and only relevant repository files. Stay inside scope.
-            Use the branch prepared by Claude Code Action. Run npm ci, lint,
-            typecheck, build, and relevant tests. Commit, push, and create a
-            Draft PR to main containing `Closes #${{ github.event.issue.number }}`.
-            Never merge or deploy Production. Never expose secrets or change
-            billing, authentication, databases, environment variables, or
-            external-service settings without exact human approval.
-          claude_args: |
-            --model claude-sonnet-4-6
-            --max-turns 20
-            --allowedTools "Read,Glob,Grep,Edit,Write,Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(git branch:*),Bash(git add:*),Bash(git commit:*),Bash(git push:*),Bash(npm ci:*),Bash(npm run:*),Bash(gh issue view:*),Bash(gh issue comment:*),Bash(gh pr create:*)"
 
   receive-claude-pr:
-    if: github.event_name == 'pull_request_target' && startsWith(github.event.pull_request.head.ref, 'claude/feature-')
+    if: github.event_name == 'pull_request_target' && (startsWith(github.event.pull_request.head.ref, 'claude/feature-') || startsWith(github.event.pull_request.head.ref, 'claude/issue-'))
     runs-on: ubuntu-latest
     steps:
       - name: Register Codex review handoff
