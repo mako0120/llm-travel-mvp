@@ -28,9 +28,18 @@
 - 数字を出すスライドには必ず出典をフッターまたはノートに記載する。
 - グラフは python-pptx のネイティブチャート(BAR_CLUSTERED 等)で生成する。画像貼り付けのグラフは編集不能になるため避ける。
 
-## 生成と検品
+## 生成と検品(標準パイプライン)
 
-- 生成は `python-pptx` スクリプトで行い、スクリプトをリポジトリに残す。
+```text
+① 構成を書く      templates/deck_outline_template.md(人間が読める構成+ノート)
+② JSON仕様にする  templates/deck_spec_example.json を複製して書き換える
+③ 生成する        python scripts/build_deck.py spec.json out.pptx
+④ 検品する        python scripts/verify_pptx.py out.pptx
+```
+
+- `build_deck.py` は 6 レイアウト(title / bullets / cards / steps / bar_chart / cta)に対応し、
+  ノート欠落・ブレット6個以上をビルド時にエラーとして拒否する。
+- 特殊なレイアウトが必要な場合のみ個別スクリプトを書き、スクリプトをリポジトリに残す。
 - 生成後は必ず `python scripts/verify_pptx.py <file>` を実行する。検品項目:
   - スライド枚数が構成と一致
   - 全スライドにノートが存在

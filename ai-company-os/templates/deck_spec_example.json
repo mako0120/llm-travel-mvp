@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "AI教材づくり 5つの基本(サンプルデッキ)",
+    "footer": "AI Company OS｜サンプル資料(数値はダミー)",
+    "font": "Yu Gothic",
+    "palette": {
+      "primary": "1E2761",
+      "primary_dark": "141B47",
+      "base": "CADCFC",
+      "accent": "D9A441"
+    }
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "伝わるAI教材は、\n構成が9割。",
+      "sub": "AI教材づくり 5つの基本 — build_deck.py 動作確認用サンプル",
+      "footnote": "このデッキは全レイアウトの動作確認用サンプルです。数値はダミーです。",
+      "note": "これは build_deck.py のサンプルデッキです。6種類のレイアウト(title / bullets / cards / steps / bar_chart / cta)を1枚ずつ使い、パイプラインの動作確認とレイアウトのプレビューを兼ねています。実制作ではこのJSONをコピーして書き換えてください。"
+    },
+    {
+      "layout": "bullets",
+      "title": "教材づくりで最初に決める5つのこと",
+      "lead": "作り始める前に決めておくと、手戻りがなくなります。",
+      "bullets": [
+        "対象レベルを1つに絞る(入門/初級/中級/上級)",
+        "1教材1スキルに限定する",
+        "完成後に学習者ができるようになることを1文で書く",
+        "実演はすべて本物のツールで検証してから載せる",
+        "料金・制限の記述には出典と確認日を付ける"
+      ],
+      "source": "docs/07_AI_Education.md",
+      "note": "bullets レイアウトの例です。ブレットは最大5個までで、6個以上はビルド時にエラーになります。1ブレットは2行以内に収まる長さにしてください。"
+    },
+    {
+      "layout": "cards",
+      "title": "よくある失敗パターン(ダミー数値)",
+      "cards": [
+        { "big": "62%", "label": "対象が広すぎる", "text": "「AIとは何か」のような広いテーマは完走率が下がる(ダミー)" },
+        { "big": "48%", "label": "動かない手順", "text": "未検証のコマンドを載せると離脱につながる(ダミー)" },
+        { "big": "35%", "label": "確認問題なし", "text": "理解度確認がないと定着しない(ダミー)" }
+      ],
+      "source": "サンプル(ダミー数値。実制作では必ず実在の出典を入れる)",
+      "note": "cards レイアウトの例です。カードは2〜4枚が適切です。big(大きな数字)は省略できます。実制作ではダミー数値を使わず、出典付きの実数を使ってください。"
+    },
+    {
+      "layout": "steps",
+      "title": "制作の4ステップ",
+      "steps": [
+        { "label": "構成を書く", "text": "deck_outline_template.md で構成とノートを先に書く" },
+        { "label": "JSON化する", "text": "この deck_spec_example.json を複製して書き換える" },
+        { "label": "生成する", "text": "python scripts/build_deck.py spec.json out.pptx" },
+        { "label": "検品する", "text": "python scripts/verify_pptx.py out.pptx" }
+      ],
+      "note": "steps レイアウトの例です。番号バッジは自動で振られます。ステップは3〜4個が適切です。このスライド自体が build_deck.py の使い方の説明になっています。"
+    },
+    {
+      "layout": "bar_chart",
+      "title": "章ごとの想定学習時間(分・ダミー)",
+      "categories": ["第1章 基礎", "第2章 実践", "第3章 応用", "第4章 演習"],
+      "series": { "name": "学習時間(分)", "values": [20, 35, 30, 45] },
+      "number_format": "#,##0",
+      "source": "サンプル(ダミー数値)",
+      "note": "bar_chart レイアウトの例です。python-pptx のネイティブチャートなので、生成後も PowerPoint 上で数値を編集できます。画像貼り付けのグラフは使いません。"
+    },
+    {
+      "layout": "cta",
+      "heading": "まず1本、作ってみましょう。",
+      "sub": "このJSONを複製して、あなたの教材の構成に書き換えるところから始められます。",
+      "action": "templates/deck_spec_example.json をコピーして編集する",
+      "note": "cta レイアウトの例です。CTA(行動喚起)は1つに絞ります。複数の選択肢を並べると行動率が下がるためです。"
+    }
+  ]
+}

@@ -19,10 +19,12 @@
 
 ## CI
 
-- すべての PR で `.github/workflows/ci.yml` が実行される:
+- 本ディレクトリが `llm-travel-mvp` リポジトリ内にある間は、親リポジトリの
+  `.github/workflows/ai-company-os-ci.yml` が `ai-company-os/**` 変更時のみ実行される:
   - `docs/00`〜`docs/12` の13ファイルが揃っているか
-  - `git diff --check`(空白エラー・コンフリクトマーカー)
   - `python scripts/verify_pptx.py --self-test`
+  - `build_deck.py` でサンプルデッキを生成し `verify_pptx.py` で検品(E2Eパイプライン)
+- 本ディレクトリ内の `.github/workflows/ci.yml` は将来の独立リポジトリ切り出し用(同内容+`git diff --check`)。
 - CI が red の PR はレビューに回さない。
 
 ## 更新責任

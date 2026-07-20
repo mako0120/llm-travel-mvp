@@ -21,7 +21,9 @@
 ```text
 git diff --check                     # 空白・コンフリクトマーカー
 python scripts/verify_pptx.py --self-test   # 検証スクリプト自体の健全性
-python scripts/verify_pptx.py <生成した .pptx>  # 成果物の検品
+python scripts/build_deck.py templates/deck_spec_example.json /tmp/sample.pptx  # 生成パイプライン
+python scripts/verify_pptx.py /tmp/sample.pptx --min-slides 6 --max-slides 6    # 生成物の検品
+python scripts/verify_pptx.py <生成した .pptx>  # 実制作物の検品
 ```
 
 CI(`.github/workflows/ci.yml`)は同じチェックを PR ごとに実行する。

@@ -8,8 +8,8 @@ ai-company-os/
 ├── README.md              # 人間向け概要
 ├── START_PROMPT_JA.md     # セッション開始時の実行指示
 ├── docs/                  # 00〜12 の運用ドキュメント(必読順)
-├── templates/             # デッキ構成・Canvaブリーフ・調査レポートの雛形
-├── scripts/               # 検証スクリプト(verify_pptx.py など)
+├── templates/             # デッキ構成・JSONデッキ仕様・Canvaブリーフ・調査レポートの雛形
+├── scripts/               # build_deck.py(JSON仕様→pptx生成)/ verify_pptx.py(自動検品)
 ├── assets/                # 生成した成果物(デッキ・図版)。大容量はコミットしない
 └── .github/workflows/     # CI(ドキュメント整合・スクリプト検証)
 ```

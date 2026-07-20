@@ -1,10 +1,10 @@
-name: CI
+name: AI Company OS CI
 
+# ai-company-os/ 配下の変更時のみ実行。アプリ本体の CI (ci.yml) には影響しない。
 on:
   pull_request:
-  push:
-    branches-ignore:
-      - main
+    paths:
+      - "ai-company-os/**"
 
 permissions:
   contents: read
@@ -12,6 +12,9 @@ permissions:
 jobs:
   verify:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ai-company-os
     steps:
       - uses: actions/checkout@v4
 
@@ -28,9 +31,6 @@ jobs:
             fi
           done
           exit $missing
-
-      - name: git diff --check (whitespace / conflict markers)
-        run: git diff --check $(git hash-object -t tree /dev/null) HEAD
 
       - uses: actions/setup-python@v5
         with:
