@@ -36,11 +36,18 @@
 ## 生成と検品(標準パイプライン)
 
 ```text
-① 構成を書く      templates/deck_outline_template.md(人間が読める構成+ノート)
-② JSON仕様にする  templates/deck_spec_example.json を複製して書き換える
-③ 生成する        python scripts/build_deck.py spec.json out.pptx
-④ 検品する        python scripts/verify_pptx.py out.pptx
+① 調査する        Web検索等で最新情報を集め、出典を記録する(docs/06_Content_R&D.md準拠)
+② 構成を書く      templates/deck_outline_template.md(人間が読める構成+ノート)
+③ JSON仕様にする  templates/deck_spec_example.json を複製して書き換える
+④ 生成する        python scripts/build_deck.py spec.json out.pptx
+⑤ 検品する        python scripts/verify_pptx.py out.pptx
+⑥ 原稿を出す      python scripts/export_script.py spec.json script.md
 ```
+
+`export_script.py` は同じ JSON 仕様からスピーカーノートを「読み上げ原稿」として
+Markdown に書き出す(スライドごとの見出し・全文ノート・目安発表時間・合計時間)。
+PowerPoint を開かずに原稿だけを読んで推敲・リハーサルできる。原稿にノート欠落があれば
+`build_deck.py` と同じ規則でエラー終了する。
 
 - `build_deck.py` は 12 レイアウト(title / bullets / cards / steps / agenda / comparison / table /
   quote / bar_chart / line_chart / pie_chart / cta)に対応し、ノート欠落・ブレット6個以上・table の
