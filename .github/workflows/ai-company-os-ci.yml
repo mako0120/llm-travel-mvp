@@ -45,4 +45,4 @@ jobs:
       - name: Build sample deck and verify (end-to-end pipeline)
         run: |
           python scripts/build_deck.py templates/deck_spec_example.json /tmp/sample-deck.pptx
-          python scripts/verify_pptx.py /tmp/sample-deck.pptx --min-slides 6 --max-slides 6
+          python scripts/verify_pptx.py /tmp/sample-deck.pptx --min-slides 12 --max-slides 12

@@ -10,16 +10,28 @@
   python scripts/build_deck.py spec.json output.pptx && python scripts/verify_pptx.py output.pptx
 
 対応レイアウト:
-  title     — 表紙(ダーク背景、見出し・サブコピー・脚注)
-  bullets   — 見出し+ブレット(最大5、出典行つき)
-  cards     — カードグリッド(数字・ラベル・本文、2〜4枚)
-  steps     — 番号バッジつき横並びステップ(3〜4個)
-  bar_chart — ネイティブ棒グラフ(編集可能、出典行つき)
-  cta       — クロージング(ダーク背景、CTA 1つ)
+  title       — 表紙(ダーク背景、見出し・サブコピー・脚注)
+  bullets     — 見出し+ブレット(最大5、出典行つき)
+  cards       — カードグリッド(数字・ラベル・本文、2〜4枚)
+  steps       — 番号バッジつき横並びステップ(3〜4個)
+  agenda      — アジェンダ・章区切り(ダーク背景、番号付きリスト)
+  comparison  — 2カラム比較(自社/他社、Before/After など)
+  table       — 表(価格表・比較マトリクス等、ヘッダー行+データ行)
+  quote       — 引用・お客様の声(大見出し引用+出典)
+  bar_chart   — ネイティブ棒グラフ(編集可能、出典行つき)
+  line_chart  — ネイティブ折れ線グラフ(推移データ、出典行つき)
+  pie_chart   — ネイティブ円グラフ(構成比、出典行つき)
+  cta         — クロージング(ダーク背景、CTA 1つ)
+
+パレットプリセット(meta.palette_preset で指定、meta.palette で個別上書き可):
+  navy_gold    — 既定。紺+氷色+金(信頼・フォーマル)
+  forest_sand  — 深緑+砂色+テラコッタ(サステナ・自然派)
+  slate_azure  — スレート+空色+アズール(テック・プロダクト)
 
 規則(ビルド時に強制):
   - 全スライドに note(スピーカーノート)必須。欠けていればエラー終了
   - bullets は最大5個。超えていればエラー終了
+  - table の各行の列数はヘッダーと一致していること。不一致ならエラー終了
 """
 
 from __future__ import annotations
@@ -42,16 +54,39 @@ except ImportError:
 
 W, H = 13.333, 7.5
 
-DEFAULT_PALETTE = {
-    "primary": "1E2761",
-    "primary_dark": "141B47",
-    "base": "CADCFC",
-    "base_soft": "8FA3D0",
-    "accent": "D9A441",
-    "ink": "1A1A2E",
-    "muted": "5B6270",
-    "card": "F3F6FC",
+PALETTE_PRESETS = {
+    "navy_gold": {
+        "primary": "1E2761",
+        "primary_dark": "141B47",
+        "base": "CADCFC",
+        "base_soft": "8FA3D0",
+        "accent": "D9A441",
+        "ink": "1A1A2E",
+        "muted": "5B6270",
+        "card": "F3F6FC",
+    },
+    "forest_sand": {
+        "primary": "24523F",
+        "primary_dark": "17362A",
+        "base": "E7DCC2",
+        "base_soft": "BFAE84",
+        "accent": "C1622D",
+        "ink": "20261F",
+        "muted": "5E6B5C",
+        "card": "F4F1E6",
+    },
+    "slate_azure": {
+        "primary": "2B3A55",
+        "primary_dark": "1B2537",
+        "base": "D3E4F5",
+        "base_soft": "9CB8D6",
+        "accent": "1F8FD6",
+        "ink": "1C2230",
+        "muted": "5A6474",
+        "card": "F1F5FA",
+    },
 }
+DEFAULT_PALETTE = PALETTE_PRESETS["navy_gold"]
 WHITE = RGBColor(0xFF, 0xFF, 0xFF)
 
 
@@ -62,7 +97,8 @@ def rgb(hexstr: str) -> RGBColor:
 
 class DeckBuilder:
     def __init__(self, meta: dict):
-        pal = {**DEFAULT_PALETTE, **meta.get("palette", {})}
+        preset = PALETTE_PRESETS.get(meta.get("palette_preset", "navy_gold"), DEFAULT_PALETTE)
+        pal = {**preset, **meta.get("palette", {})}
         self.c = {k: rgb(v) for k, v in pal.items()}
         self.font = meta.get("font", "Yu Gothic")
         self.footer_text = meta.get("footer", "")
@@ -244,13 +280,138 @@ class DeckBuilder:
             self.text(s, spec["action"], 0.95, 5.28, 7.4, 0.6, size=18, bold=True, color=self.c["primary"])
         return s
 
+    def add_agenda(self, spec):
+        s = self.slide(dark=True)
+        self.text(s, spec["title"], 0.6, 0.7, 12.1, 1.0, size=32, bold=True, color=WHITE)
+        y = 2.1
+        for i, item in enumerate(spec["items"], start=1):
+            self.badge(s, i, 0.6, y, d=0.6, size=18)
+            self.text(s, item, 1.45, y + 0.02, 10.5, 0.6, size=20, color=self.c["base"], anchor=MSO_ANCHOR.MIDDLE)
+            y += 0.85
+        return s
+
+    def add_comparison(self, spec):
+        s = self.slide()
+        self.title_bar(s, spec["title"])
+        cols = [spec["left"], spec["right"]]
+        gap = 0.4
+        cw = (W - 1.0 - gap) / 2
+        for i, col in enumerate(cols):
+            x = 0.5 + i * (cw + gap)
+            self.card(s, x, 1.7, cw, 4.6)
+            self.text(s, col["heading"], x + 0.35, 2.0, cw - 0.7, 0.6, size=18, bold=True, color=self.c["primary"])
+            y = 2.75
+            for item in col.get("items", []):
+                self.badge(s, "・", x + 0.35, y + 0.02, d=0.3, size=11)
+                self.text(s, item, x + 0.8, y, cw - 1.15, 0.6, size=14, spacing=1.1)
+                y += 0.6
+        self.footer(s)
+        return s
+
+    def add_table(self, spec):
+        s = self.slide()
+        self.title_bar(s, spec["title"])
+        headers = spec["headers"]
+        rows = spec["rows"]
+        n_rows, n_cols = len(rows) + 1, len(headers)
+        top, height = 1.7, min(4.5, 0.55 * (n_rows))
+        gf = s.shapes.add_table(n_rows, n_cols, Inches(0.5), Inches(top), Inches(W - 1.0), Inches(height))
+        table = gf.table
+        for c, header in enumerate(headers):
+            cell = table.cell(0, c)
+            cell.text = str(header)
+            cell.fill.solid()
+            cell.fill.fore_color.rgb = self.c["primary"]
+            para = cell.text_frame.paragraphs[0]
+            para.font.size = Pt(13)
+            para.font.bold = True
+            para.font.name = self.font
+            para.font.color.rgb = WHITE
+        for r, row in enumerate(rows, start=1):
+            for c, val in enumerate(row):
+                cell = table.cell(r, c)
+                cell.text = str(val)
+                cell.fill.solid()
+                cell.fill.fore_color.rgb = self.c["card"] if r % 2 == 0 else WHITE
+                para = cell.text_frame.paragraphs[0]
+                para.font.size = Pt(12)
+                para.font.name = self.font
+                para.font.color.rgb = self.c["ink"]
+        self.source_line(s, spec.get("source"))
+        self.footer(s)
+        return s
+
+    def add_quote(self, spec):
+        s = self.slide(dark=True)
+        self.text(s, f"“{spec['quote']}”", 1.2, 2.0, 10.9, 2.8, size=28, bold=True,
+                  color=WHITE, spacing=1.25, anchor=MSO_ANCHOR.MIDDLE)
+        if spec.get("attribution"):
+            self.text(s, f"— {spec['attribution']}", 1.2, 5.0, 10.9, 0.6, size=16, color=self.c["base"])
+        return s
+
+    def add_pie_chart(self, spec):
+        s = self.slide()
+        self.title_bar(s, spec["title"])
+        data = CategoryChartData()
+        data.categories = spec["categories"]
+        data.add_series(spec.get("series_name", ""), spec["values"])
+        gf = s.shapes.add_chart(XL_CHART_TYPE.PIE, Inches(2.4), Inches(1.6), Inches(8.5), Inches(4.7), data)
+        chart = gf.chart
+        chart.has_legend = True
+        chart.legend.position = 2  # XL_LEGEND_POSITION.RIGHT
+        chart.legend.include_in_layout = False
+        chart.legend.font.size = Pt(12)
+        chart.legend.font.name = self.font
+        plot = chart.plots[0]
+        plot.has_data_labels = True
+        dl = plot.data_labels
+        dl.number_format = spec.get("number_format", "0%")
+        dl.number_format_is_linked = False
+        dl.font.size = Pt(11)
+        dl.font.bold = True
+        dl.font.name = self.font
+        dl.font.color.rgb = WHITE
+        self.source_line(s, spec.get("source"))
+        self.footer(s)
+        return s
+
+    def add_line_chart(self, spec):
+        s = self.slide()
+        self.title_bar(s, spec["title"])
+        data = CategoryChartData()
+        data.categories = spec["categories"]
+        data.add_series(spec["series"].get("name", ""), spec["series"]["values"])
+        gf = s.shapes.add_chart(XL_CHART_TYPE.LINE_MARKERS, Inches(0.7), Inches(1.6), Inches(11.9), Inches(4.7), data)
+        chart = gf.chart
+        chart.has_legend = False
+        plot = chart.plots[0]
+        plot.has_data_labels = True
+        dl = plot.data_labels
+        dl.number_format = spec.get("number_format", "#,##0")
+        dl.number_format_is_linked = False
+        dl.font.size = Pt(11)
+        dl.font.name = self.font
+        dl.font.color.rgb = self.c["primary"]
+        series = chart.series[0]
+        series.format.line.color.rgb = self.c["accent"]
+        series.format.line.width = Pt(2.5)
+        self.source_line(s, spec.get("source"))
+        self.footer(s)
+        return s
+
 
 LAYOUTS = {
     "title": DeckBuilder.add_title,
     "bullets": DeckBuilder.add_bullets,
     "cards": DeckBuilder.add_cards,
     "steps": DeckBuilder.add_steps,
+    "agenda": DeckBuilder.add_agenda,
+    "comparison": DeckBuilder.add_comparison,
+    "table": DeckBuilder.add_table,
+    "quote": DeckBuilder.add_quote,
     "bar_chart": DeckBuilder.add_bar_chart,
+    "line_chart": DeckBuilder.add_line_chart,
+    "pie_chart": DeckBuilder.add_pie_chart,
     "cta": DeckBuilder.add_cta,
 }
 
@@ -267,6 +428,11 @@ def build(spec_path: str, out_path: str) -> int:
             errors.append(f"スライド {i}: note(スピーカーノート)がありません")
         if sl.get("layout") == "bullets" and len(sl.get("bullets", [])) > MAX_BULLETS:
             errors.append(f"スライド {i}: ブレットが {MAX_BULLETS} 個を超えています")
+        if sl.get("layout") == "table":
+            n_headers = len(sl.get("headers", []))
+            for r, row in enumerate(sl.get("rows", []), start=1):
+                if len(row) != n_headers:
+                    errors.append(f"スライド {i}: table の行 {r} の列数がヘッダー({n_headers}列)と一致しません")
     if not spec.get("slides"):
         errors.append("slides が空です")
     if errors:
