@@ -33,7 +33,7 @@
 | 候補 | 提供元 | 用途 | 導入条件 | ライセンス | 更新状況 | セキュリティ | 期待効果 | リスク | 判定 |
 |---|---|---|---|---|---|---|---|---|---|
 | anthropics/skills | Anthropic公式 | PowerPoint/Word/Excel/PDF生成・編集の参照実装 | 追加インストール不要(Claude Code に同梱のpptx/docx/xlsx/pdfスキルとして既に利用中) | 大半Apache 2.0、文書系スキルはsource-available | 活発(当日更新) | 公式一次配布、高 | 既に `verify_pptx.py`/`build_deck.py` と役割分担して運用中 | source-availableスキルの改変・再配布は不可の可能性→再配布しない前提で利用 | **adopt(継続採用・既に運用中)** |
-| anthropics/knowledge-work-plugins | Anthropic公式 | Cowork向け職務別プラグイン(マーケ・財務・データ分析等) | `claude.com/plugins` からインストール、または fork してMarkdownを流用 | Apache 2.0 | 活発(当日更新) | 公式、高 | 調査レポート・マーケ資料作成の型をプラグイン単位で流用でき、docs/06・07の型を強化できる | 新規インストールは人間承認が必要(未インストール) | **trial(要人間承認のうえ試験導入を提案)** |
+| anthropics/knowledge-work-plugins(marketing) | Anthropic公式 | 競合調査・キャンペーン企画・コンテンツ下書き(/competitive-brief /campaign-plan /draft-content 等) | claude.ai プラグインカードからインストール(2026-07-21 オーナー承認済み) | Apache 2.0 | 活発(当日更新) | 公式、高 | 調査レポート・デッキ構成づくりの型をプラグイン単位で流用でき、docs/06の型を強化できる | 連携先(Canva/Slack/HubSpot等)は必要なものだけ個別に有効化する | **adopt(承認済み・試用開始)** |
 | anthropics/k12-teacher-skills | Anthropic公式(学習支援機関と協働) | 授業計画・習熟度別教材調整 | GitHubから取得して手動統合、または Claude for Teachers アカウントで標準搭載 | 確認要(リポジトリ側に明記なし、他リポジトリ同様Apache系の可能性が高いが未確認) | 非常に新しい(2026-07-10〜)、活発 | 公式、高 | docs/07_AI_Education.md の「対象レベル別教材設計」を具体的なスキルとして補強できる | ライセンス未確定のため断定回避。教育現場向けの評価ルーブリックは要件が特殊で直接転用は要検証 | **watch(ライセンス確認後にtrial検討)** |
 | anthropics/claude-plugins-official | Anthropic公式 | 高品質プラグインの公式ディレクトリ | `claude.com/plugins` からインストール | 個別プラグインごとに確認要 | 活発 | 公式、高 | 汎用。特定ニーズが出た時点で個別プラグインを調査 | 個別プラグイン単位でしか評価できない(ディレクトリ自体は評価対象外) | **watch** |
 | anthropics/claude-cookbooks | Anthropic公式 | Claude API活用パターン集(Jupyter Notebook) | リポジトリ参照のみ、インストール不要 | 要確認(cookbooks配下は概ねMIT系が一般的だが本調査では未確認) | 活発(2023年〜継続) | 公式、高 | Claude API直接呼び出しが必要になった際の実装パターン集として有用 | 現状 Claude Code/Cowork 経由の運用のみで API直叩きの予定なし→優先度低 | **watch** |
@@ -46,7 +46,7 @@
 
 ## 5. 推奨アクション
 
-1. **knowledge-work-plugins の試験導入(人間承認が必要)**: `claude.com/plugins` から該当プラグイン(例: マーケティング・データ分析)を1つ選び、Cowork環境でインストールして `docs/06_Content_R&D.md` のワークフローと比較する。効果: 調査レポート・提案資料の型が増える。難易度: 低(公式インストールのみ)。リスク: 新規外部連携の追加行為そのものが承認境界に該当するため、**インストール実行は人間の承認後**に行う。
+1. **knowledge-work-plugins / marketing の試験導入(2026-07-21、オーナー承認済み)**: `/competitive-brief` `/campaign-plan` が `docs/06_Content_R&D.md`(調査レポート)・デッキ構成づくりに直結すると判断し推薦。`design`(Figma中心・PPT機能なし)は比較のうえ除外。オーナーが承認し、claude.ai のプラグインインストールカードを提示済み(UI操作で完了)。連携先(Slack/Canva/Figma/HubSpot/Amplitude/Notion/Ahrefs/Similarweb/Klaviyo/Supermetrics)は必要なものだけ個別に有効化する。判定を **trial → adopt(試用開始)** に更新。
 2. **k12-teacher-skills のライセンス確認(低優先度)**: AI教育教材(docs/07)の対象が将来K-12に広がる場合のみ、正式なライセンス文言を再確認してから判定を trial に格上げする。
 3. **anthropics/skills との役割分担を docs に明記**: 既に採用済みだが、「なぜ build_deck.py を自前で持つか」の理由をどこにも書いていなかったため、`docs/04_PowerPoint.md` に一文追記する(本レポートと合わせてこのPRで実施)。
 
