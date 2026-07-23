@@ -53,3 +53,6 @@ jobs:
           python scripts/generate_dialogue_script.py --self-test
           python scripts/generate_dialogue_script.py templates/dialogue_spec_example.json \
             /tmp/sample-dialogue-script.md --deck templates/dialogue_deck_spec_example.json
+
+      - name: synthesize_dialogue_audio self-test (offline logic only, no VOICEVOX Engine in CI)
+        run: python scripts/synthesize_dialogue_audio.py --self-test

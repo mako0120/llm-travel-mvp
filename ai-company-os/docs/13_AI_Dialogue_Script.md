@@ -101,6 +101,27 @@
 `python scripts/generate_dialogue_script.py --self-test` で検証ロジック自体を確認できる
 (フラットモード・スライド連動モードの両方、および deck とのスライド数不一致の検出を含む)。
 
+## 音声化(TTS)する場合(2026-07-23〜、オーナー選定: VOICEVOX/AivisSpeech)
+
+`research/2026-07-23_tts-options.md` の比較検討を経て、VOICEVOX/AivisSpeechを試すことに
+なった。**ただし、Claude Codeのリモートセッションからは自分でVOICEVOX Engineを
+セルフホストできない**(Docker Hub・GitHub releasesへのアクセスがegressポリシーで
+ブロックされているため、実際に `dockerd` 起動・`docker pull voicevox/voicevox_engine`・
+`pip install`のいずれも試したが失敗を確認済み)。そのため、**オーナー自身のマシンで
+VOICEVOX(https://voicevox.hiroshiba.jp/ )を起動して実行する**運用とする。
+
+```text
+① オーナーの環境でVOICEVOXを起動する(デスクトップアプリ、またはVOICEVOX ENGINE単体)
+② 話者を確認する  python scripts/synthesize_dialogue_audio.py --list-speakers
+③ 音声化する      python scripts/synthesize_dialogue_audio.py dialogue_spec.json out.wav \
+                     --voice-map host=3,analyst=2
+```
+
+`synthesize_dialogue_audio.py` は dialogue_spec.json(フラット・スライド連動どちらの
+モードも対応)を読み、行ごとにVOICEVOX Engineの `/audio_query` → `/synthesis` を呼び出し、
+1本の`.wav`に結合する。エンジンに接続できない場合はエラーメッセージで起動を促す。
+`--self-test` でエンジンなしに検証できるロジック(仕様パース・WAV結合)のみ確認できる。
+
 ## PowerPoint方式との関係
 
 - 出典ルール・正直さのルール(推測で埋めない、不明点は不明と書く)は`docs/06_Content_R&D.md`と共通
