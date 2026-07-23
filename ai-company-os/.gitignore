@@ -1,8 +1,14 @@
 # 生成バイナリはコミットしない (docs/02_Architecture.md)
 assets/**/*.pptx
 assets/**/*.pdf
-# 例外: Notion添付(GitHub raw URL経由)用に明示的にコミットするデッキ本体 (docs/09_Notion.md)
+assets/**/*.mp4
+# 例外: CI(GitHub Actions)からこのセッションへpptxを取り出すために明示的にコミット
+# するファイル(Actions ArtifactのダウンロードがAzure Blob経由でこのセッションからは
+# 接続できないため。docs/09_Notion.md参照)。dialogue_audio.wavは元々*.wavの
+# 除外ルールが無いため素直にコミットできる(理由は同じ、docs/13_AI_Dialogue_Script.md参照)
 !assets/**/deck.pptx
+# deck_narrated.mp4はdeck.pptx/dialogue_audio.wavから毎回ローカルで組み立てられる
+# 大きな派生ファイルのため、上記の例外には含めない(チャットで直接送付する)
 *.pyc
 __pycache__/
 .env
