@@ -32,26 +32,33 @@ ChatGPTに貼り付けられるようにするため。
 - 末尾に関連するGitHub Issue/PRへのリンクを付ける
 - ファイル送付(SendUserFile)と併用する。Notion書き込みはファイル送付の代替ではなく追加
 
-## 見やすさの改善・pptx添付(2026-07-23〜、オーナー指示)
+## 見やすさの改善(2026-07-23〜、オーナー指示)
 
-「Notionをもっと見やすく」「PowerPointもそこで見れるように」という指示を受けた運用変更。
+「Notionをもっと見やすく」という指示を受けた運用変更。
 
 - **索引テーブル**: 親ページ(`AI Company OS 運用基盤の導入`)の冒頭に、全テーマを
   一覧できる表(定期実行番号・テーマ名・確信度・ジャンル・子ページへのリンク)を置く。
   子ページを増やすたびにこの表も更新する
 - **子ページの構成統一**: 見出し(`##`)・コールアウト風の要約ブロック・出典リストで
   構造化し、書きっぱなしの段落だけにしない
-- **pptx添付**: `.pptx`は、Notionの`notion-create-attachment`(source_url方式)で
-  埋め込むために**GitHubの当該ブランチにコミットする**(`raw.githubusercontent.com`の
-  公開URLが必要なため)。これにより、従来の「バイナリはコミットしない」運用を
-  当該ファイルに限り変更する。コミット先はテーマの`assets/<テーマ>/deck.pptx`
-- 音声(TTS)ファイルも同じ方式(GitHubコミット→raw URL→notion-create-attachment)で
-  埋め込む。VOICEVOXはClaude Codeのリモートセッションからは起動できない
+
+## pptx / 音声のNotion添付は廃止(2026-07-23、オーナー指示により撤回)
+
+一時期、`.pptx`と音声(TTS)ファイルをNotionの`notion-create-attachment`(source_url方式)で
+埋め込む運用を試みたが、オーナーから「Notionで送らなくていい、代わりにどこで見れるか
+分かりやすくして」と撤回指示があったため**この運用は行わない**。
+
+- pptx・音声ファイルはNotionに添付せず、**SendUserFileでチャットに直接送付**し、
+  加えてGitHub上のパス(`ai-company-os/assets/<テーマ>/deck.pptx` /
+  `dialogue_audio.wav`)を明記して「どこにあるか」が分かるようにする
+- Notionの子ページには、ファイル本体を埋め込まず、GitHubのファイルパス(または
+  raw URL)をテキストリンクとして記載するだけにとどめる
+- 音声(TTS)は、VOICEVOXがClaude Codeのリモートセッションから起動できない
   (Docker Hubへのegressブロック)ため、`.github/workflows/synthesize-dialogue-audio.yml`
-  (workflow_dispatch、要mainマージ)でGitHub Actionsランナー上に限定して実行し、
-  生成した`.wav`はActions Artifact(blob.core.windows.net、これも当セッションからは
+  (workflow_dispatch、mainマージ済み)でGitHub Actionsランナー上に限定して生成する。
+  生成物はActions Artifact(blob.core.windows.net、これも当セッションからは
   ダウンロード不可)ではなく、ワークフロー自身がリポジトリへ直接コミットする形で
-  取り出す。コミット先はテーマの`assets/<テーマ>/dialogue_audio.wav`
+  取り出し、そこからSendUserFileでオーナーに送付する
 
 ## 学習ログ
 
