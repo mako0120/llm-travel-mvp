@@ -122,33 +122,51 @@ def draw_text(draw, text, x, y, w, size, color, bold=False, align="left", spacin
     return cy  # 描画後のy座標(次の要素の開始位置の目安)
 
 
+SHADOW_GRAY = (0xDD, 0xDD, 0xE3)
+
+
 def rounded_card(draw, x, y, w, h, fill):
+    # 立体感を出すため、本体の少し右下にずらした影を先に描いてから本体を重ねる
+    # (build_deck.pyのcard()と同じ見た目にする)
+    draw.rounded_rectangle([x + px(0.05), y + px(0.06), x + px(0.05) + w, y + px(0.06) + h],
+                            radius=px(0.08), fill=SHADOW_GRAY)
     draw.rounded_rectangle([x, y, x + w, y + h], radius=px(0.08), fill=fill)
 
 
 class Renderer:
-    def __init__(self, meta: dict):
+    def __init__(self, meta: dict, total_slides: int = 0):
         preset = PALETTE_PRESETS.get(meta.get("palette_preset", "navy_gold"), DEFAULT_PALETTE)
         pal = {**preset, **meta.get("palette", {})}
         self.c = {k: hex_to_rgb(v) for k, v in pal.items()}
         self.white = (255, 255, 255)
         self.footer_text = meta.get("footer", "")
+        self.total_slides = total_slides
 
     def canvas(self, dark=False):
         bg = self.c["primary_dark"] if dark else self.white
         img = Image.new("RGB", (W, H), bg)
         return img, ImageDraw.Draw(img)
 
+    def progress_bar(self, draw, page):
+        """build_deck.pyのDeckBuilder.progress_barと同じ、最上部の進捗バー。"""
+        if not self.total_slides:
+            return
+        bar_h = px(0.05)
+        draw.rectangle([0, 0, W, bar_h], fill=self.c["base_soft"])
+        filled_w = max(round(W * (page / self.total_slides)), 1)
+        draw.rectangle([0, 0, filled_w, bar_h], fill=self.c["accent"])
+
     def title_bar(self, draw, text):
         draw_text(draw, text, px(0.5), px(0.45), W_IN - 1.0, 26, self.c["primary"], bold=True)
+        draw.rectangle([px(0.5), px(1.3), px(0.5) + px(0.55), px(1.3) + px(0.06)], fill=self.c["accent"])
 
     def footer(self, draw, page):
         if self.footer_text:
             draw_text(draw, self.footer_text, px(0.5), px(7.05), 8, 9, self.c["muted"])
         f = font(9)
-        t = str(page)
+        t = f"{page} / {self.total_slides}" if self.total_slides else str(page)
         tw = draw.textlength(t, font=f)
-        draw.text((W - px(1.0) + px(0.5) - tw, px(7.05)), t, font=f, fill=self.c["muted"])
+        draw.text((W - px(1.5) + px(1.0) - tw, px(7.05)), t, font=f, fill=self.c["muted"])
 
     def source_line(self, draw, src):
         if src:
@@ -161,7 +179,9 @@ class Renderer:
         method = getattr(self, f"r_{layout}", None)
         if method is None:
             raise ValueError(f"未対応のレイアウトです: {layout}")
-        return method(spec, page)
+        img = method(spec, page)
+        self.progress_bar(ImageDraw.Draw(img), page)
+        return img
 
     def r_title(self, spec, page):
         img, d = self.canvas(dark=True)
@@ -426,7 +446,7 @@ def render_deck(spec_path: str, out_dir: str) -> int:
     spec = json.loads(Path(spec_path).read_text(encoding="utf-8"))
     meta = spec.get("meta", {})
     slides = spec["slides"]
-    renderer = Renderer(meta)
+    renderer = Renderer(meta, total_slides=len(slides))
     Path(out_dir).mkdir(parents=True, exist_ok=True)
     for i, sl in enumerate(slides, start=1):
         img = renderer.render(sl, i)

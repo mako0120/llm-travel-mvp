@@ -101,13 +101,17 @@ def rgb(hexstr: str) -> RGBColor:
     return RGBColor(int(hexstr[0:2], 16), int(hexstr[2:4], 16), int(hexstr[4:6], 16))
 
 
+SHADOW_GRAY = RGBColor(0xDD, 0xDD, 0xE3)
+
+
 class DeckBuilder:
-    def __init__(self, meta: dict):
+    def __init__(self, meta: dict, total_slides: int = 0):
         preset = PALETTE_PRESETS.get(meta.get("palette_preset", "navy_gold"), DEFAULT_PALETTE)
         pal = {**preset, **meta.get("palette", {})}
         self.c = {k: rgb(v) for k, v in pal.items()}
         self.font = meta.get("font", "Yu Gothic")
         self.footer_text = meta.get("footer", "")
+        self.total_slides = total_slides
         self.prs = Presentation()
         self.prs.slide_width = Inches(W)
         self.prs.slide_height = Inches(H)
@@ -121,7 +125,27 @@ class DeckBuilder:
         s.background.fill.solid()
         s.background.fill.fore_color.rgb = self.c["primary_dark"] if dark else WHITE
         self.page += 1
+        self.progress_bar(s)
         return s
+
+    def progress_bar(self, s):
+        """スライド最上部に、全体のうち今どこまで進んだかを示す細い進捗バーを描く。
+        「あとどれくらいで終わるか」が視覚的にわかることで最後まで見る動機を作る
+        (docs/04_PowerPoint.md エンゲージメント設計ルール参照)。"""
+        if not self.total_slides:
+            return
+        bar_h = 0.05
+        track = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0), Inches(0), Inches(W), Inches(bar_h))
+        track.fill.solid()
+        track.fill.fore_color.rgb = self.c["base_soft"]
+        track.line.fill.background()
+        track.shadow.inherit = False
+        filled_w = max(W * (self.page / self.total_slides), 0.001)
+        bar = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0), Inches(0), Inches(filled_w), Inches(bar_h))
+        bar.fill.solid()
+        bar.fill.fore_color.rgb = self.c["accent"]
+        bar.line.fill.background()
+        bar.shadow.inherit = False
 
     def text(self, s, txt, x, y, w, h, size=14, color=None, bold=False,
              align=PP_ALIGN.LEFT, anchor=MSO_ANCHOR.TOP, spacing=1.0):
@@ -145,11 +169,21 @@ class DeckBuilder:
         return tb
 
     def card(self, s, x, y, w, h):
+        # 立体感を出すため、本体の少し右下にずらした影用の矩形を先に描いてから本体を重ねる
+        shadow = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(x + 0.05), Inches(y + 0.06),
+                                     Inches(w), Inches(h))
+        shadow.fill.solid()
+        shadow.fill.fore_color.rgb = SHADOW_GRAY
+        shadow.line.fill.background()
+        shadow.adjustments[0] = 0.06
+        shadow.shadow.inherit = False
+
         sh = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(x), Inches(y), Inches(w), Inches(h))
         sh.fill.solid()
         sh.fill.fore_color.rgb = self.c["card"]
         sh.line.fill.background()
         sh.adjustments[0] = 0.06
+        sh.shadow.inherit = False
         return sh
 
     def badge(self, s, glyph, x, y, d=0.7, size=20):
@@ -173,11 +207,17 @@ class DeckBuilder:
 
     def title_bar(self, s, t):
         self.text(s, t, 0.5, 0.45, W - 1.0, 0.8, size=30, bold=True, color=self.c["primary"])
+        accent = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0.5), Inches(1.3), Inches(0.55), Inches(0.06))
+        accent.fill.solid()
+        accent.fill.fore_color.rgb = self.c["accent"]
+        accent.line.fill.background()
+        accent.shadow.inherit = False
 
     def footer(self, s):
         if self.footer_text:
             self.text(s, self.footer_text, 0.5, 7.05, 8, 0.35, size=10, color=self.c["muted"])
-        self.text(s, str(self.page), W - 1.0, 7.05, 0.5, 0.35, size=10,
+        page_label = f"{self.page} / {self.total_slides}" if self.total_slides else str(self.page)
+        self.text(s, page_label, W - 1.5, 7.05, 1.0, 0.35, size=10,
                   color=self.c["muted"], align=PP_ALIGN.RIGHT)
 
     def source_line(self, s, src):
@@ -537,7 +577,7 @@ def build(spec_path: str, out_path: str) -> int:
             print(f"  - {e}")
         return 1
 
-    builder = DeckBuilder(spec.get("meta", {}))
+    builder = DeckBuilder(spec.get("meta", {}), total_slides=len(spec["slides"]))
     for sl in spec["slides"]:
         s = LAYOUTS[sl["layout"]](builder, sl)
         builder.notes(s, sl["note"])
