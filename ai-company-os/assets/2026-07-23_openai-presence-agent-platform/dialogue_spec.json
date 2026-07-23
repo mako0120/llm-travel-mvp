@@ -1,16 +1,16 @@
 {
   "meta": {
-    "title": "OpenAI、企業向けAIエージェント基盤「Presence」を発表(動画テンポ版)",
+    "title": "OpenAI、企業向けAIエージェント基盤「Presence」を発表",
     "personas": [
       {
         "id": "host",
         "name": "ナビAI",
-        "role": "進行役。短い問いかけで話を引き締める"
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
       },
       {
         "id": "analyst",
         "name": "リサーチAI",
-        "role": "出典付きの事実を短い一言で解説する"
+        "role": "出典付きの事実・数字を解説する"
       }
     ],
     "deck_spec": "deck_spec.json",
@@ -30,12 +30,16 @@
           "lines": [
             {
               "speaker": "host",
-              "text": "会社の中のAI、誰がちゃんと動いてるか見てる?"
+              "text": "会社の中でAIエージェントに仕事を任せた後、それがちゃんと動いてるかって、誰が見てるんだろう?"
             },
             {
               "speaker": "analyst",
-              "text": "そこを解決するのがPresenceです。",
+              "text": "実はそこがまさに今日のテーマです。2026年7月22日、OpenAIが企業向けAIエージェント基盤「Presence」を発表しました。",
               "source": "OpenAI公式/VentureBeat(2026-07-22)"
+            },
+            {
+              "speaker": "host",
+              "text": "『基盤』ってどういうこと?今日はそこから見ていこう。"
             }
           ]
         },
@@ -44,7 +48,11 @@
           "lines": [
             {
               "speaker": "analyst",
-              "text": "今日は起承転結、4パートで話します。"
+              "text": "今日は4つの流れです。前提知識と何が起きたか、Presenceの仕組みと導入企業、これが何を意味するかとどう使えるか、そして不明点とまとめです。"
+            },
+            {
+              "speaker": "host",
+              "text": "今回は初心者向けの前提知識パートもあるんだね。"
             }
           ]
         },
@@ -53,7 +61,11 @@
           "lines": [
             {
               "speaker": "analyst",
-              "text": "まずAIエージェント。指示で動くAI本体です。"
+              "text": "まず言葉を整理しましょう。『AIエージェント』は、指示を受けて自律的に会話や作業をこなすAIそのもの。『エージェント基盤』は、そのAIを安全に運用するための管理の仕組みです。"
+            },
+            {
+              "speaker": "host",
+              "text": "AI本体と、それを管理する仕組みは別物ってことだね。"
             }
           ]
         },
@@ -62,7 +74,12 @@
           "lines": [
             {
               "speaker": "analyst",
-              "text": "エージェント基盤は、それを管理する仕組みです。"
+              "text": "数字で見ると「7/22」。これがOpenAIがPresenceを発表した日です。",
+              "source": "OpenAI公式/VentureBeat(2026-07-22)"
+            },
+            {
+              "speaker": "host",
+              "text": "つい昨日の話なんだね、かなり新しい。"
             }
           ]
         },
@@ -71,8 +88,16 @@
           "lines": [
             {
               "speaker": "analyst",
-              "text": "発表日は7/22。",
+              "text": "2026年7月22日、OpenAIが企業向けAIエージェント基盤「Presence」を発表しました。音声・チャット双方でのエージェント運用が対象です。",
               "source": "OpenAI公式/VentureBeat(2026-07-22)"
+            },
+            {
+              "speaker": "host",
+              "text": "OpenAI公式だけじゃなくて、VentureBeatとかSiliconANGLEとか、複数のメディアが報じてたんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、独立系メディアが一斉に報じています。"
             }
           ]
         },
@@ -81,76 +106,12 @@
           "lines": [
             {
               "speaker": "analyst",
-              "text": "OpenAIが企業向けAIエージェント基盤を発表しました。",
-              "source": "OpenAI公式/VentureBeat(2026-07-22)"
+              "text": "Presenceを構成する6つの要素を表にしました。方針、ガードレール、承認済みアクション、シミュレーション、評価ツール、そしてCodexによる継続改善です。",
+              "source": "Help Net Security(2026-07-22)"
             },
             {
               "speaker": "host",
-              "text": "音声もチャットも対象なんだ。"
-            }
-          ]
-        },
-        {
-          "slide": 7,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "構成要素、1つ目は方針です。",
-              "source": "Help Net Security(2026-07-22)"
-            }
-          ]
-        },
-        {
-          "slide": 8,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "2つ目、ガードレール。範囲を外れたら介入します。"
-            }
-          ]
-        },
-        {
-          "slide": 9,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "3つ目、承認済みアクション。"
-            }
-          ]
-        },
-        {
-          "slide": 10,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "4つ目、シミュレーション。本番前にテストします。"
-            }
-          ]
-        },
-        {
-          "slide": 11,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "5つ目、評価ツール。"
-            }
-          ]
-        },
-        {
-          "slide": 12,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "6つ目、Codexによる継続改善。ここが目玉です。"
-            }
-          ]
-        },
-        {
-          "slide": 13,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "流れは設計、テスト、本番稼働の3段階です。"
+              "text": "6つも要素があるんだ、ここから1つずつ見ていこう。"
             }
           ]
         }
@@ -161,16 +122,113 @@
       "label": "展開",
       "slides": [
         {
-          "slide": 14,
+          "slide": 7,
           "lines": [
             {
               "speaker": "analyst",
-              "text": "継続改善ループを見ましょう。",
+              "text": "本番稼働までの流れを図にすると、まず設計、次にシミュレーション・評価でテスト、それから本番稼働、という順番です。"
+            },
+            {
+              "speaker": "host",
+              "text": "いきなり本番に出すんじゃなくて、ちゃんとテストの工程があるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "特に目玉なのが継続改善ループです。本番のやり取りが発生し、Codexがそれを分析し、改善案を提案し、人が承認して反映する、という流れがステップで回ります。",
               "source": "Help Net Security(2026-07-22)"
             },
             {
               "speaker": "host",
-              "text": "本番の課題をCodexが分析するんだね。"
+              "text": "導入して終わりじゃなくて、ずっと改善され続けるんだ。"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ここでガードレールという言葉を説明します。エージェントが会社の決めた範囲を外れそうになったときに介入する仕組みで、承認済みアクションの範囲や人への引き継ぎ条件を会社側が設定します。",
+              "source": "Help Net Security(2026-07-22)"
+            },
+            {
+              "speaker": "host",
+              "text": "『AIに全部任せる』んじゃなくて、『AIが動ける範囲を決める』っていう考え方なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "想定される利用分野をカードで見ると、カスタマーサポート、営業、調達、ITサービスや人事などです。",
+              "source": "MLQ News(2026-07-22)"
+            },
+            {
+              "speaker": "host",
+              "text": "結構いろんな部署で使えそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字にすると「5」。これが公表されている想定利用分野の数です。",
+              "source": "MLQ News(2026-07-22)"
+            },
+            {
+              "speaker": "host",
+              "text": "5分野、っていうのは分かりやすい目安になるね。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "早期導入企業を表にすると、BBVAメキシコ、SoftBank Corp、そしてIAG傘下のRetail Insurance Australiaの3社です。",
+              "source": "VentureBeat(2026-07-22)"
+            },
+            {
+              "speaker": "host",
+              "text": "SoftBankが入ってるのは、日本の視聴者にとって身近だね。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字で見ると「3社」。発表時点で名前が挙がっている早期導入企業の数です。",
+              "source": "VentureBeat(2026-07-22)"
+            },
+            {
+              "speaker": "host",
+              "text": "まだ数は少ないけど、これから増えていきそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "SoftBank Corpは、日本語での顧客対応エージェントをPresence上でテストしていて、現場チームが会話の自然さ・正確さを高く評価しているとされています。",
+              "source": "MLQ News(2026-07-22)"
+            },
+            {
+              "speaker": "host",
+              "text": "日本企業でもすでに試され始めてるっていうのは、今日のポイントだね。"
             }
           ]
         },
@@ -179,8 +237,11 @@
           "lines": [
             {
               "speaker": "analyst",
-              "text": "ガードレールは「動ける範囲を決める」仕組みです。",
-              "source": "Help Net Security(2026-07-22)"
+              "text": "導入前後を比べると、これまでは品質管理が人手中心で問題が起きてから個別に修正していましたが、導入後は方針・ガードレール・評価が最初から仕組み化され、Codexが継続的に改善案を提案します。"
+            },
+            {
+              "speaker": "host",
+              "text": "行き当たりばったりから、仕組み化された運用に変わる、ってことだね。"
             }
           ]
         },
@@ -189,8 +250,12 @@
           "lines": [
             {
               "speaker": "analyst",
-              "text": "想定用途、1つ目はカスタマーサポート。",
-              "source": "MLQ News(2026-07-22)"
+              "text": "提供範囲について正直にお伝えすると、発表時点では少数の企業向けの限定的な一般提供です。今後どこまで対象を広げるかの具体的なスケジュールは非公開です。",
+              "source": "VentureBeat(2026-07-22)"
+            },
+            {
+              "speaker": "host",
+              "text": "誰でもすぐ使えるわけじゃない、っていうのは大事なポイントだね。"
             }
           ]
         },
@@ -199,7 +264,11 @@
           "lines": [
             {
               "speaker": "analyst",
-              "text": "2つ目、営業支援です。"
+              "text": "1つ注意点があります。SoftBank GroupとOpenAIは2025年2月に別の合弁会社『SB OpenAI Japan』の設立を発表済みで、そちらは『Cristal intelligence』という別サービスです。今回のPresenceとは別の話なので混同しないでください。"
+            },
+            {
+              "speaker": "host",
+              "text": "似たような話が2つあるから、ここは整理しておきたいポイントだね。ここまでが仕組みの話。ここからは、これが何を意味するのかを考えてみよう。"
             }
           ]
         },
@@ -208,105 +277,15 @@
           "lines": [
             {
               "speaker": "analyst",
-              "text": "3つ目、調達業務です。"
-            }
-          ]
-        },
-        {
-          "slide": 19,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "4つ目、ITサービス・人事です。"
-            }
-          ]
-        },
-        {
-          "slide": 20,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "想定分野は合わせて5つです。",
-              "source": "MLQ News(2026-07-22)"
-            }
-          ]
-        },
-        {
-          "slide": 21,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "早期導入企業、1社目はBBVAメキシコ。",
-              "source": "VentureBeat(2026-07-22)"
-            }
-          ]
-        },
-        {
-          "slide": 22,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "2社目、SoftBank Corp。日本語対応です。"
+              "text": "今回見送った候補も共有します。Kimi K3の蒸留疑惑、Project Camellia、スコットランド女子オープンの3つです。"
             },
             {
               "speaker": "host",
-              "text": "これは身近だね。"
-            }
-          ]
-        },
-        {
-          "slide": 23,
-          "lines": [
+              "text": "それぞれ見送った理由もあるんだよね?"
+            },
             {
               "speaker": "analyst",
-              "text": "3社目、Retail Insurance Australia。"
-            }
-          ]
-        },
-        {
-          "slide": 24,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "早期導入は合わせて3社です。"
-            }
-          ]
-        },
-        {
-          "slide": 25,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "SoftBankは日本語対応の評価が高いそうです。",
-              "source": "MLQ News(2026-07-22)"
-            }
-          ]
-        },
-        {
-          "slide": 26,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "導入前後を比べると、仕組み化が進みます。"
-            }
-          ]
-        },
-        {
-          "slide": 27,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "ただし今は少数企業向けの限定提供です。",
-              "source": "VentureBeat(2026-07-22)"
-            }
-          ]
-        },
-        {
-          "slide": 28,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "注意点。過去の別の提携と混同しないでください。"
+              "text": "はい。Kimi K3は国家間の対立構造が強く高リスク、Project Camelleliaはデータセンター投資の話でエージェントの主眼から外れる、スコットランド女子オープンは大会がこれからで確定した成果ではないためです。"
             }
           ]
         }
@@ -317,132 +296,93 @@
       "label": "転換",
       "slides": [
         {
-          "slide": 29,
+          "slide": 19,
           "lines": [
             {
               "speaker": "analyst",
-              "text": "見送った候補も共有します。1つ目、Kimi K3の疑惑。"
-            }
-          ]
-        },
-        {
-          "slide": 30,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "2つ目、Project Camellia。"
-            }
-          ]
-        },
-        {
-          "slide": 31,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "3つ目、スコットランド女子オープン。"
-            }
-          ]
-        },
-        {
-          "slide": 32,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "向き合う心構えは3つです。"
+              "text": "図にすると、AIエージェント基盤と向き合う心構えは3つです。導入する、任せきりにしない、そして点検し続けることです。"
             },
             {
               "speaker": "host",
-              "text": "ここから実践の話だね。"
+              "text": "ここからは、実際どう向き合えばいいかという話だね。"
             }
           ]
         },
         {
-          "slide": 33,
+          "slide": 20,
           "lines": [
             {
               "speaker": "analyst",
-              "text": "AIは運用し続けるもの、という前提が広がっています。"
+              "text": "これが意味するのは、AIエージェントは『導入して終わり』ではなく『運用し続けるもの』という前提が広がっているということです。仕組みが用意されることで、非エンジニアの部署でも扱いやすくなる可能性があります。"
+            },
+            {
+              "speaker": "host",
+              "text": "ただ、今はまだ限定提供だから、すぐ試せる段階じゃないんだよね。"
             }
           ]
         },
         {
-          "slide": 34,
+          "slide": 21,
           "lines": [
             {
               "speaker": "analyst",
-              "text": "確認したいこと、1つ目は何を任せるか。"
+              "text": "もし自社で導入を検討するなら、確認したいことを3つのカードにしました。何を任せるか、誰が承認するか、どう点検するかです。"
+            },
+            {
+              "speaker": "host",
+              "text": "この3つ、実際に検討するときのチェックリストになりそうだね。"
             }
           ]
         },
         {
-          "slide": 35,
+          "slide": 22,
           "lines": [
             {
               "speaker": "analyst",
-              "text": "2つ目、誰が承認するか。"
+              "text": "自社で検討する場合の進め方をステップで見ると、現状整理、小さく試す、範囲を決める、継続的に見直す、という4段階が目安になります。"
+            },
+            {
+              "speaker": "host",
+              "text": "いきなり全部任せるんじゃなくて、少しずつ進めるのがよさそうだね。"
             }
           ]
         },
         {
-          "slide": 36,
+          "slide": 23,
           "lines": [
             {
               "speaker": "analyst",
-              "text": "3つ目、どう点検するか。"
+              "text": "個人にとっての影響としては、職場でAIエージェントとやり取りする機会が増えていく可能性があります。『AIが何を任されているか』『困ったら誰につながるか』を知っておくと安心材料になります。"
+            },
+            {
+              "speaker": "host",
+              "text": "特別なスキルがなくても、基本的な仕組みを知っておくといいんだね。"
             }
           ]
         },
         {
-          "slide": 37,
+          "slide": 24,
           "lines": [
             {
               "speaker": "analyst",
-              "text": "検討の進め方は4ステップです。"
+              "text": "正直に言うと、不明点もあります。具体的な料金体系、限定提供の対象企業数や拡大スケジュール、SoftBank Corpでの導入規模の具体的な数字は確認できていません。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
             }
           ]
         },
         {
-          "slide": 38,
+          "slide": 25,
           "lines": [
             {
               "speaker": "analyst",
-              "text": "個人にも、AIと接する機会が増えていきます。"
-            }
-          ]
-        },
-        {
-          "slide": 39,
-          "lines": [
+              "text": "リスク配慮のポイントを3つのカードにまとめました。事実紹介に徹すること、対立を煽らないこと、推測は推測と明示することです。"
+            },
             {
-              "speaker": "analyst",
-              "text": "正直に言うと、料金体系は非公開です。"
-            }
-          ]
-        },
-        {
-          "slide": 40,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "リスク配慮、1つ目は事実紹介に徹すること。"
-            }
-          ]
-        },
-        {
-          "slide": 41,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "2つ目、対立を煽らないこと。"
-            }
-          ]
-        },
-        {
-          "slide": 42,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "3つ目、推測は推測と明示することです。"
+              "speaker": "host",
+              "text": "ここまでが転換パート。最後にまとめに入ろう。"
             }
           ]
         }
@@ -453,55 +393,67 @@
       "label": "結論",
       "slides": [
         {
-          "slide": 43,
+          "slide": 26,
           "lines": [
             {
               "speaker": "analyst",
-              "text": "検品はすべて合格しています。"
-            }
-          ]
-        },
-        {
-          "slide": 44,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "出典はOpenAI公式や複数の独立系メディアです。"
-            }
-          ]
-        },
-        {
-          "slide": 45,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "AIは育て続けるもの。それがPresenceの発想です。"
+              "text": "検品結果を表にまとめました。30枚の検品、同一レイアウト連続チェック、bullets比率チェック、対話原稿とのスライド数整合性、すべて合格しています。"
             },
             {
               "speaker": "host",
-              "text": "まとめると、そういうことだね。"
+              "text": "ちゃんと機械的にチェックされてるんだね。"
             }
           ]
         },
         {
-          "slide": 46,
+          "slide": 27,
           "lines": [
             {
               "speaker": "analyst",
-              "text": "次回もAI/エージェント系の話題を追います。"
-            }
-          ]
-        },
-        {
-          "slide": 47,
-          "lines": [
-            {
-              "speaker": "analyst",
-              "text": "ご視聴ありがとうございました。"
+              "text": "出典を再掲します。OpenAI公式、VentureBeat、SiliconANGLE、Help Net Security、MLQ Newsです。"
             },
             {
               "speaker": "host",
-              "text": "また次回お会いしましょう。"
+              "text": "気になる人はぜひ元記事も見てみてね。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、AIエージェントは『導入して終わり』ではなく『育て続けるもの』であり、Presenceはそのための仕組みを企業向けに丸ごと用意したサービスだということです。"
+            },
+            {
+              "speaker": "host",
+              "text": "自社で検討するなら、任せる範囲・承認フロー・点検の仕組みから考えてみるのがよさそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AIエージェントが企業の現場にどこまで組み込まれるかは、今後も続くテーマです。次回も独立系メディアの報道をもとに、バイラル性の高い話題を紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。ご意見・ご要望があればぜひ教えてください。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
             }
           ]
         }
