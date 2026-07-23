@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "title": "Meta、agentic AIモデル「Muse Spark 1.1」を発表",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "SiliconANGLE(2026-07-09)",
+      "Dataconomy(2026-07-10)",
+      "Tech Startups(2026-07-10)",
+      "Campus Technology(2026-07-14)",
+      "Inc.com(2026-07-09)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Zuckerberg氏が3年ぶりにXに投稿したって知ってた?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、2026年7月9日、新しいAIモデル「Muse Spark 1.1」を発表するためです。",
+              "source": "Inc.com(2026-07-09)"
+            },
+            {
+              "speaker": "host",
+              "text": "3年ぶりの投稿がAIモデルの発表だったんだ。今日はそこを見ていこう。"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日は起承転結、4パートで話します。前提知識から始めます。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "agentic AIは、指示を受けて複数の手順を自律的にこなすAIです。コンテキストウィンドウは、AIが一度に扱える情報量の上限のことです。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字で見ると「3年」。これがZuckerberg氏がXに投稿していなかった期間です。",
+              "source": "Inc.com(2026-07-09)"
+            },
+            {
+              "speaker": "host",
+              "text": "それだけ長い沈黙を破った、っていうのがまず驚きだね。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "何が起きたかを表にすると、Metaが2026年7月9日、新モデル「Muse Spark 1.1」をZuckerberg氏自身のX投稿で発表しました。",
+              "source": "SiliconANGLE(2026-07-09)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "主な強化点は、コーディング・ツール利用・コンピュータ操作・マルチモーダル推論の4つです。",
+              "source": "Dataconomy(2026-07-10)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "サブエージェントへの処理委譲を図にすると、メインエージェントがタスクを分解し、複数のサブエージェントが並列で実行します。",
+              "source": "Campus Technology(2026-07-14)"
+            },
+            {
+              "speaker": "host",
+              "text": "1つのAIが全部やるんじゃなくて、分担してやるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字にすると「100万トークン」。長時間タスクに対応するコンテキストウィンドウの大きさです。",
+              "source": "Campus Technology(2026-07-14)"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ベンチマークをグラフにすると、MCP Atlasで88.1点、JobBenchで54.7点、Humanity's Last Examで62.1点です。ただしこれはMeta社発表の自社測定値で、第三者検証済みとは書かれていません。"
+            },
+            {
+              "speaker": "host",
+              "text": "数字は大きいけど、自社発表っていう点は覚えておきたいね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "料金を表にすると、入力は100万トークンあたり1.25ドル、出力は4.25ドルです。",
+              "source": "Tech Startups(2026-07-10)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字で見ると「$20」。新規アカウントに付与される無料クレジットです。",
+              "source": "Tech Startups(2026-07-10)"
+            },
+            {
+              "speaker": "host",
+              "text": "無料枠があるのは試しやすいね。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "利用開始までの流れは、アカウント作成、無料クレジット付与、API利用またはアプリ利用の3ステップです。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "誰が使うかを比べると、消費者はMeta AIアプリの「Thinking」モード、開発者はMeta Model API経由です。",
+              "source": "Tech Startups(2026-07-10)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "コンピュータ操作の対応範囲を図にすると、デスクトップ・モバイル・ブラウザの3つです。",
+              "source": "Tech Startups(2026-07-10)"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが仕組みと料金の話。ここからは、なぜこのタイミングだったのかを考えてみよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Zuckerberg氏は3年間Xに投稿していませんでしたが、このモデル発表のために投稿し、その投稿自体が複数のメディアで報道されました。",
+              "source": "Inc.com(2026-07-09)"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直にお伝えすると、発表直後のMeta株価の反応は限定的で、上昇幅は2%にとどまりました。",
+              "source": "Inc.com(2026-07-09)"
+            },
+            {
+              "speaker": "host",
+              "text": "話題性と株価の反応は、必ずしも一致しないんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ここからは推測ですが、理由を3つのカードに整理しました。開発者の獲得、話題作り、価格競争への圧力です。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回見送った候補も共有します。Kimi K3の蒸留疑惑、Korea IP Officeの事例、Frigade Skills等です。"
+            },
+            {
+              "speaker": "host",
+              "text": "それぞれ見送った理由もあるんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。政治的対立構造が強い、話題性で劣る、報道の広がりが限定的、という理由です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、AIモデル競争が意味することは、低価格化・機能拡張・選択肢の増加の3つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここから実践の話だね。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "これが意味するのは、agentic AIの選択肢が増え、価格競争も進んでいるということです。無料クレジットがあるので、試すハードルは低いです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "試すなら確認したいことを3つのカードにしました。何に使うか、コストの見積もり、無料枠の範囲です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "実際に試す進め方は、目的を決める、無料枠で試す、コストを見積もる、の3ステップが目安です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "個人にとっては、agentic AIが日常的なツールの1つになりつつあり、料金・機能を比較して選ぶ時代になってきています。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直に言うと、ベンチマークの第三者検証の有無や、日本語対応の詳細は確認できていません。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "リスク配慮のポイントを3つのカードにまとめました。事実紹介に徹すること、対立を煽らないこと、推測は推測と明示することです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "検品結果を表にまとめました。すべて合格しています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典を再掲します。SiliconANGLE、Dataconomy、Campus Technology、Tech Startups、Inc.comほかです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、agentic AIの価格競争が利用のハードルを下げているということ。Muse Spark 1.1はその象徴的な一例です。"
+            },
+            {
+              "speaker": "host",
+              "text": "興味があれば、まずは無料クレジットの範囲で試してみるのがよさそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AIエージェントの進化・価格競争は今後も続くテーマです。次回も独立系メディアの報道をもとに紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
