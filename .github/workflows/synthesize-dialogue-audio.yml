@@ -1,0 +1,65 @@
+name: Synthesize Dialogue Audio (VOICEVOX)
+
+# 手動トリガー専用(workflow_dispatch)。
+# GitHub Actionsのubuntu-latestランナーは通常のインターネットアクセス(Docker Hub含む)を
+# 持つため、VOICEVOX Engineをこの中で起動して対話ナレーションを音声化できる。
+# Claude Codeのリモートセッション自体はegressポリシーでDocker Hub等がブロックされており
+# セルフホストできないため、この用途に限りCI経由で実行する
+# (ai-company-os/research/2026-07-23_tts-options.md, docs/13_AI_Dialogue_Script.md参照)。
+on:
+  workflow_dispatch:
+    inputs:
+      theme_dir:
+        description: "ai-company-os/assets/配下のテーマディレクトリ名"
+        required: true
+        default: "2026-07-23_jack-dorsey-buzz-platform"
+      voice_map:
+        description: "話者マップ(例: host=3,analyst=2)"
+        required: false
+        default: "host=3,analyst=2"
+
+permissions:
+  contents: read
+
+jobs:
+  synthesize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Start VOICEVOX Engine
+        run: |
+          docker run -d --name voicevox -p 50021:50021 voicevox/voicevox_engine:cpu-latest
+          ready=0
+          for i in $(seq 1 60); do
+            if curl -sf http://127.0.0.1:50021/version > /dev/null; then
+              echo "VOICEVOX Engine is ready"
+              ready=1
+              break
+            fi
+            echo "waiting for VOICEVOX Engine... ($i)"
+            sleep 2
+          done
+          if [ "$ready" -ne 1 ]; then
+            echo "VOICEVOX Engine did not become ready in time"
+            docker logs voicevox || true
+            exit 1
+          fi
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Synthesize dialogue audio
+        run: |
+          python ai-company-os/scripts/synthesize_dialogue_audio.py \
+            "ai-company-os/assets/${{ inputs.theme_dir }}/dialogue_spec.json" \
+            "dialogue_audio.wav" \
+            --voice-map "${{ inputs.voice_map }}"
+
+      - name: Upload audio artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dialogue-audio-${{ inputs.theme_dir }}
+          path: dialogue_audio.wav
+          retention-days: 14
