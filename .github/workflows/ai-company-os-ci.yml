@@ -36,8 +36,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install python-pptx
-        run: pip install python-pptx
+      - name: Install python-pptx and video pipeline dependencies
+        run: pip install python-pptx pillow imageio-ffmpeg
+
+      - name: Install Japanese font for slide image rendering
+        run: sudo apt-get update && sudo apt-get install -y fonts-ipafont-gothic
 
       - name: verify_pptx self-test
         run: python scripts/verify_pptx.py --self-test
@@ -56,3 +59,8 @@ jobs:
 
       - name: synthesize_dialogue_audio self-test (offline logic only, no VOICEVOX Engine in CI)
         run: python scripts/synthesize_dialogue_audio.py --self-test
+
+      - name: render_deck_images and build_narrated_video self-test
+        run: |
+          python scripts/render_deck_images.py --self-test
+          python scripts/build_narrated_video.py --self-test

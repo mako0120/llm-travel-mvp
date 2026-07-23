@@ -148,6 +148,34 @@
 1本の`.wav`に結合する。エンジンに接続できない場合はエラーメッセージで起動を促す。
 `--self-test` でエンジンなしに検証できるロジック(仕様パース・WAV結合)のみ確認できる。
 
+## ナレーション動画(音声と連動したスライド)の生成(2026-07-23〜、標準)
+
+「PowerPointと音声を連携させ、音声に合わせてスライドが動くようにしたい」というオーナー
+指示を受けた機能。PowerPoint自体に「スライド進入時の音声自動再生+自動スライド送り」を
+組み込む方法(python-pptxの`add_movie`)は実験的機能でファイル破損の既知の不具合がある
+(https://github.com/scanny/python-pptx/issues/954 )ため採用せず、代わりに**スライド画像
++音声を結合したナレーション動画(.mp4)**を生成する。
+
+```text
+① synthesize_dialogue_audio.py --slide-timings slide_timings.json でスライドごとの
+   開始/終了/長さ(秒)を書き出す(GitHub Actions経由、音声生成と同時に行う)
+② render_deck_images.py で deck_spec.json から各スライドのPNG画像を直接描画する
+   (LibreOffice経由のpptx→画像変換はこのセッションでは使えないため、build_deck.pyと
+   同じdeck_spec.jsonから、build_deck.pyと同じ配色・レイアウトロジックで直接描画する)
+③ build_narrated_video.py で ①のタイミング情報 + ②の画像 + 音声 を ffmpeg
+   (imageio-ffmpeg同梱の静的バイナリ)で結合し、1本の.mp4を生成する
+```
+
+- `ai-company-os/assets/<テーマ>/slide_timings.json`: スライドごとの`{slide, start_sec,
+  end_sec, duration_sec}`の配列。スライド連動モードのdialogue_spec.jsonでのみ生成される
+- `render_deck_images.py --self-test` / `build_narrated_video.py --self-test` で
+  外部コマンド(ffmpeg等)なしに検証できるロジックのみ確認できる
+- CI(`ai-company-os-ci.yml`)では日本語フォント(`fonts-ipafont-gothic`)を
+  インストールしてから上記self-testを実行する
+
+以後、新しいテーマの音声生成(前節参照)とあわせて、都度確認を挟まずナレーション動画の
+生成まで標準手順として行う。
+
 ## PowerPoint方式との関係
 
 - 出典ルール・正直さのルール(推測で埋めない、不明点は不明と書く)は`docs/06_Content_R&D.md`と共通

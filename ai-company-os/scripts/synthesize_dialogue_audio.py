@@ -92,34 +92,53 @@ def synth_line(engine_url: str, text: str, speaker_id: int) -> bytes:
 
 def iter_lines(spec: dict):
     """dialogue_spec.json からspeaker/textの順序付きリストを取り出す(フラット/スライド連動 両対応)。"""
+    for slide, speaker, text in iter_lines_with_slide(spec):
+        yield speaker, text
+
+
+def iter_lines_with_slide(spec: dict):
+    """dialogue_spec.json からslide番号(フラットモードではNone)/speaker/textを取り出す。"""
     for act in spec["acts"]:
         if "slides" in act:
             for seg in act["slides"]:
                 for line in seg["lines"]:
-                    yield line["speaker"], str(line["text"])
+                    yield seg["slide"], line["speaker"], str(line["text"])
         else:
             for line in act["lines"]:
-                yield line["speaker"], str(line["text"])
+                yield None, line["speaker"], str(line["text"])
 
 
-def concat_wavs(wav_bytes_list: list[bytes], out_path: str, silence_ms: int) -> None:
+def concat_wavs(wav_bytes_list: list[bytes], out_path: str, silence_ms: int) -> list[float]:
+    """WAVチャンクを結合して1本のファイルに書き出す。
+
+    戻り値は各チャンクの累積終端時刻(秒、そのチャンク自身の末尾の無音を含む)のリスト。
+    スライドごとの区切り時刻を求めるのに使う(build_with_slide_timings参照)。
+    """
     import io
 
     frames = []
     params = None
+    cumulative_ends: list[float] = []
+    cumulative_seconds = 0.0
     for wb in wav_bytes_list:
         with wave.open(io.BytesIO(wb), "rb") as wf:
             if params is None:
                 params = wf.getparams()
-            frames.append(wf.readframes(wf.getnframes()))
+            n_frames = wf.getnframes()
+            frames.append(wf.readframes(n_frames))
+            cumulative_seconds += n_frames / wf.getframerate()
             if silence_ms > 0:
                 n_silence_frames = int(params.framerate * silence_ms / 1000)
                 frames.append(b"\x00" * n_silence_frames * params.sampwidth * params.nchannels)
+                cumulative_seconds += n_silence_frames / params.framerate
+        cumulative_ends.append(cumulative_seconds)
 
     with wave.open(out_path, "wb") as out:
         out.setparams(params)
         for f in frames:
             out.writeframes(f)
+
+    return cumulative_ends
 
 
 def parse_voice_map(s: str | None) -> dict:
@@ -132,7 +151,38 @@ def parse_voice_map(s: str | None) -> dict:
     return mapping
 
 
-def build(spec_path: str, out_path: str, engine_url: str, voice_map: dict) -> int:
+def slide_timings_from_ends(slides: list[int | None], cumulative_ends: list[float]) -> list[dict]:
+    """行ごとの累積終端時刻(concat_wavsの戻り値)から、スライドごとの開始/終了/長さを求める。
+
+    フラットモード(slideがすべてNone)の場合は空リストを返す。
+    """
+    if not slides or all(s is None for s in slides):
+        return []
+
+    manifest = []
+    prev_end = 0.0
+    current_slide = slides[0]
+    for slide, end in zip(slides, cumulative_ends):
+        if slide != current_slide:
+            manifest.append({
+                "slide": current_slide,
+                "start_sec": round(prev_end, 3),
+                "end_sec": round(prev_line_end, 3),
+                "duration_sec": round(prev_line_end - prev_end, 3),
+            })
+            prev_end = prev_line_end
+            current_slide = slide
+        prev_line_end = end
+    manifest.append({
+        "slide": current_slide,
+        "start_sec": round(prev_end, 3),
+        "end_sec": round(prev_line_end, 3),
+        "duration_sec": round(prev_line_end - prev_end, 3),
+    })
+    return manifest
+
+
+def build(spec_path: str, out_path: str, engine_url: str, voice_map: dict, slide_timings_path: str | None = None) -> int:
     spec = json.loads(Path(spec_path).read_text(encoding="utf-8"))
 
     if not check_engine(engine_url):
@@ -141,24 +191,34 @@ def build(spec_path: str, out_path: str, engine_url: str, voice_map: dict) -> in
         print("詳細: ai-company-os/research/2026-07-23_tts-options.md")
         return 2
 
-    lines = list(iter_lines(spec))
-    if not lines:
+    entries = list(iter_lines_with_slide(spec))
+    if not entries:
         print("ERROR: dialogue_spec.json に発言がありません")
         return 1
 
-    unknown_speakers = {speaker for speaker, _ in lines if speaker not in voice_map}
+    unknown_speakers = {speaker for _, speaker, _ in entries if speaker not in voice_map}
     if unknown_speakers:
         print(f"ERROR: --voice-map に定義されていない speaker があります: {unknown_speakers}")
         print("例: --voice-map host=3,analyst=2")
         return 1
 
     wav_chunks: list[bytes] = []
-    for i, (speaker, text) in enumerate(lines, start=1):
-        print(f"  [{i}/{len(lines)}] {speaker}: {text[:30]}{'…' if len(text) > 30 else ''}")
+    for i, (slide, speaker, text) in enumerate(entries, start=1):
+        print(f"  [{i}/{len(entries)}] {speaker}: {text[:30]}{'…' if len(text) > 30 else ''}")
         wav_chunks.append(synth_line(engine_url, text, voice_map[speaker]))
 
-    concat_wavs(wav_chunks, out_path, SILENCE_MS_BETWEEN_LINES)
-    print(f"生成完了: {out_path}({len(lines)}発言)")
+    cumulative_ends = concat_wavs(wav_chunks, out_path, SILENCE_MS_BETWEEN_LINES)
+    print(f"生成完了: {out_path}({len(entries)}発言)")
+
+    if slide_timings_path:
+        slides = [slide for slide, _, _ in entries]
+        manifest = slide_timings_from_ends(slides, cumulative_ends)
+        if manifest:
+            Path(slide_timings_path).write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+            print(f"スライドタイミング生成完了: {slide_timings_path}({len(manifest)}スライド)")
+        else:
+            print("WARNING: フラットモードのためスライドタイミングは生成されません(--deckで指定されたslide情報が必要)")
+
     return 0
 
 
@@ -209,13 +269,32 @@ def self_test() -> int:
     with tempfile.TemporaryDirectory() as tmp:
         out_path = str(Path(tmp) / "out.wav")
         chunks = [make_silence_wav(0.1), make_silence_wav(0.1), make_silence_wav(0.1)]
-        concat_wavs(chunks, out_path, silence_ms=100)
+        cumulative_ends = concat_wavs(chunks, out_path, silence_ms=100)
         with wave.open(out_path, "rb") as w:
             duration = w.getnframes() / w.getframerate()
         expected = 0.1 * 3 + 0.1 * 3  # 音声3つ + 各行の後の無音3つ
         if abs(duration - expected) > 0.01:
             print(f"SELF-TEST FAIL: concat_wavsの出力長が期待と異なります(期待 {expected}秒, 実際 {duration}秒)")
             ok = False
+        if cumulative_ends != [0.2, 0.4, 0.6] or any(abs(a - b) > 0.01 for a, b in zip(cumulative_ends, [0.2, 0.4, 0.6])):
+            print(f"SELF-TEST FAIL: concat_wavsの累積終端時刻が期待と異なります(実際 {cumulative_ends})")
+            ok = False
+
+    # slide_timings_from_ends: フラットモード(全てNone)は空リスト
+    if slide_timings_from_ends([None, None], [0.2, 0.4]) != []:
+        print("SELF-TEST FAIL: slide_timings_from_ends はフラットモードで空リストを返すべき")
+        ok = False
+
+    # slide_timings_from_ends: スライド連動モード(複数行/スライドを含む)
+    manifest = slide_timings_from_ends([1, 1, 2, 2, 2, 3], [0.5, 1.0, 1.8, 2.5, 3.0, 3.6])
+    expected_manifest = [
+        {"slide": 1, "start_sec": 0.0, "end_sec": 1.0, "duration_sec": 1.0},
+        {"slide": 2, "start_sec": 1.0, "end_sec": 3.0, "duration_sec": 2.0},
+        {"slide": 3, "start_sec": 3.0, "end_sec": 3.6, "duration_sec": 0.6},
+    ]
+    if manifest != expected_manifest:
+        print(f"SELF-TEST FAIL: slide_timings_from_ends の結果が期待と異なります(実際 {manifest})")
+        ok = False
 
     print("SELF-TEST PASSED" if ok else "SELF-TEST FAILED")
     return 0 if ok else 1
@@ -229,6 +308,7 @@ def main() -> int:
     parser.add_argument("--voice-map", help="例: host=3,analyst=2 (省略時は既定値を使用)")
     parser.add_argument("--list-speakers", action="store_true", help="利用可能な話者一覧を表示する")
     parser.add_argument("--self-test", action="store_true", help="VOICEVOX Engineなしで検証できるロジックのみ確認する")
+    parser.add_argument("--slide-timings", help="スライドごとの開始/終了/長さ(秒)を書き出すJSONファイル(スライド連動モードのみ)")
     args = parser.parse_args()
 
     if args.self_test:
@@ -243,7 +323,7 @@ def main() -> int:
         print(f"ERROR: 仕様ファイルが存在しません: {args.spec}")
         return 2
 
-    return build(args.spec, args.out, args.engine_url, parse_voice_map(args.voice_map))
+    return build(args.spec, args.out, args.engine_url, parse_voice_map(args.voice_map), args.slide_timings)
 
 
 if __name__ == "__main__":

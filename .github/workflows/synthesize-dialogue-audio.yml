@@ -55,29 +55,38 @@ jobs:
           python ai-company-os/scripts/synthesize_dialogue_audio.py \
             "ai-company-os/assets/${{ inputs.theme_dir }}/dialogue_spec.json" \
             "dialogue_audio.wav" \
-            --voice-map "${{ inputs.voice_map }}"
+            --voice-map "${{ inputs.voice_map }}" \
+            --slide-timings "slide_timings.json"
 
       - name: Upload audio artifact
         uses: actions/upload-artifact@v4
         with:
           name: dialogue-audio-${{ inputs.theme_dir }}
-          path: dialogue_audio.wav
+          path: |
+            dialogue_audio.wav
+            slide_timings.json
           retention-days: 14
 
       # Claude Codeのリモートセッションからはblob.core.windows.net(Actions Artifactの
       # ダウンロード先)へのegressもブロックされているため、Artifactに加えてリポジトリへ
       # 直接コミットする(pptxと同じ「GitHub raw URL経由でNotionに添付する」ための導線)。
-      - name: Commit audio to repo
+      # slide_timings.jsonは、スライドと音声を連動させたナレーション動画
+      # (build_narrated_video.py)を組み立てるために必要。
+      - name: Commit audio and slide timings to repo
         run: |
           mkdir -p "ai-company-os/assets/${{ inputs.theme_dir }}"
           cp dialogue_audio.wav "ai-company-os/assets/${{ inputs.theme_dir }}/dialogue_audio.wav"
+          if [ -f slide_timings.json ]; then
+            cp slide_timings.json "ai-company-os/assets/${{ inputs.theme_dir }}/slide_timings.json"
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "ai-company-os/assets/${{ inputs.theme_dir }}/dialogue_audio.wav"
+          git add "ai-company-os/assets/${{ inputs.theme_dir }}/dialogue_audio.wav" \
+                  "ai-company-os/assets/${{ inputs.theme_dir }}/slide_timings.json"
           if git diff --cached --quiet; then
             echo "No changes to commit (audio identical to existing file)"
           else
-            git commit -m "Add synthesized dialogue audio for ${{ inputs.theme_dir }} (CI/VOICEVOX)"
+            git commit -m "Add synthesized dialogue audio + slide timings for ${{ inputs.theme_dir }} (CI/VOICEVOX)"
             git fetch origin "${{ github.ref_name }}"
             git rebase "origin/${{ github.ref_name }}"
             git push origin "HEAD:${{ github.ref_name }}"
