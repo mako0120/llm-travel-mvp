@@ -11,9 +11,9 @@
 
 対応レイアウト:
   title       — 表紙(ダーク背景、見出し・サブコピー・脚注)
-  bullets     — 見出し+ブレット(最大5、出典行つき)
+  bullets     — 見出し+ブレット(最大5、出典行つき)。多用しすぎない(下記ルール参照)
   cards       — カードグリッド(数字・ラベル・本文、2〜4枚)
-  steps       — 番号バッジつき横並びステップ(3〜4個)
+  steps       — 番号バッジつき横並びステップ(3〜4個、カード間に矢印つき)
   agenda      — アジェンダ・章区切り(ダーク背景、番号付きリスト)
   comparison  — 2カラム比較(自社/他社、Before/After など)
   table       — 表(価格表・比較マトリクス等、ヘッダー行+データ行)
@@ -22,6 +22,8 @@
   line_chart  — ネイティブ折れ線グラフ(推移データ、出典行つき)
   pie_chart   — ネイティブ円グラフ(構成比、出典行つき)
   cta         — クロージング(ダーク背景、CTA 1つ)
+  big_stat    — 1スライド1つの数字だけに焦点を当てる、視覚重視レイアウト(ダーク背景)
+  diagram     — ノード(丸/角丸ボックス)を矢印でつなぐ、簡易な概念図レイアウト(2〜4ノード)
 
 パレットプリセット(meta.palette_preset で指定、meta.palette で個別上書き可):
   navy_gold    — 既定。紺+氷色+金(信頼・フォーマル)
@@ -32,6 +34,10 @@
   - 全スライドに note(スピーカーノート)必須。欠けていればエラー終了
   - bullets は最大5個。超えていればエラー終了
   - table の各行の列数はヘッダーと一致していること。不一致ならエラー終了
+  - bullets レイアウトはデッキ全体の40%まで(10枚以上のデッキで適用)。超えていれば
+    エラー終了し、cards/diagram/big_stat/steps等への置き換えを促す(文字量を減らし
+    図解・グラフで見て分かるようにするため。docs/04_PowerPoint.md参照)
+  - diagram の nodes は2つ以上、big_stat の stat は空でないこと
 """
 
 from __future__ import annotations
@@ -242,6 +248,60 @@ class DeckBuilder:
             self.badge(s, i + 1, x + 0.3, 2.2, d=0.7, size=20)
             self.text(s, st["label"], x + 0.3, 3.2, cw - 0.6, 0.6, size=16, bold=True, color=self.c["primary"])
             self.text(s, st.get("text", ""), x + 0.3, 3.9, cw - 0.6, 1.4, size=12, color=self.c["muted"], spacing=1.15)
+            if i < n - 1:
+                arrow_x = x + cw + gap * 0.18
+                arrow = s.shapes.add_shape(MSO_SHAPE.CHEVRON, Inches(arrow_x), Inches(3.5), Inches(gap * 0.64), Inches(0.4))
+                arrow.fill.solid()
+                arrow.fill.fore_color.rgb = self.c["accent"]
+                arrow.line.fill.background()
+        self.footer(s)
+        return s
+
+    def add_big_stat(self, spec):
+        """1スライド1つの数字だけに焦点を当てる、視覚重視のレイアウト。"""
+        s = self.slide(dark=True)
+        self.text(s, spec["title"], 0.6, 0.6, 12.1, 0.7, size=22, bold=True, color=self.c["base"])
+        self.text(s, spec["stat"], 0.6, 2.0, 12.1, 2.2, size=88, bold=True, color=self.c["accent"],
+                  align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+        if spec.get("caption"):
+            self.text(s, spec["caption"], 1.2, 4.4, 10.9, 0.8, size=20, color=WHITE,
+                      align=PP_ALIGN.CENTER, spacing=1.2)
+        if spec.get("source"):
+            self.text(s, f"出典: {spec['source']}", 0.6, 6.6, 12.1, 0.4, size=11,
+                      color=self.c["base_soft"], align=PP_ALIGN.CENTER)
+        return s
+
+    def add_diagram(self, spec):
+        """ノード(丸/角丸ボックス)を矢印でつなぐ、簡易な概念図レイアウト。"""
+        s = self.slide()
+        self.title_bar(s, spec["title"])
+        nodes = spec["nodes"]
+        n = len(nodes)
+        gap = 0.9
+        nw = 2.6
+        total_w = nw * n + gap * (n - 1)
+        start_x = (W - total_w) / 2
+        y = 2.8
+        nh = 1.6
+        for i, node in enumerate(nodes):
+            x = start_x + i * (nw + gap)
+            self.card(s, x, y, nw, nh)
+            self.text(s, node["label"], x + 0.2, y + 0.2, nw - 0.4, 0.7, size=17, bold=True,
+                      color=self.c["primary"], align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+            if node.get("sublabel"):
+                self.text(s, node["sublabel"], x + 0.2, y + 0.9, nw - 0.4, 0.6, size=12,
+                          color=self.c["muted"], align=PP_ALIGN.CENTER, spacing=1.1)
+            if i < n - 1:
+                ax = x + nw + 0.08
+                arrow = s.shapes.add_shape(MSO_SHAPE.RIGHT_ARROW, Inches(ax), Inches(y + nh / 2 - 0.2),
+                                            Inches(gap - 0.16), Inches(0.4))
+                arrow.fill.solid()
+                arrow.fill.fore_color.rgb = self.c["accent"]
+                arrow.line.fill.background()
+        if spec.get("caption"):
+            self.text(s, spec["caption"], 0.6, y + nh + 0.5, W - 1.2, 0.8, size=14,
+                      color=self.c["muted"], align=PP_ALIGN.CENTER, spacing=1.2)
+        self.source_line(s, spec.get("source"))
         self.footer(s)
         return s
 
@@ -413,10 +473,14 @@ LAYOUTS = {
     "line_chart": DeckBuilder.add_line_chart,
     "pie_chart": DeckBuilder.add_pie_chart,
     "cta": DeckBuilder.add_cta,
+    "big_stat": DeckBuilder.add_big_stat,
+    "diagram": DeckBuilder.add_diagram,
 }
 
 MAX_BULLETS = 5
 MAX_CONSECUTIVE_SAME_LAYOUT = 3  # これを超えて同一レイアウトが連続すると視聴離脱を招きやすい(docs/04_PowerPoint.md)
+MAX_BULLETS_RATIO = 0.4  # bullets(文字中心)レイアウトはデッキ全体の40%まで(docs/04_PowerPoint.md)
+MIN_SLIDES_FOR_RATIO_CHECK = 10  # 短いデッキ(フィクスチャ等)ではこの比率チェックを適用しない
 
 
 def build(spec_path: str, out_path: str) -> int:
@@ -434,6 +498,10 @@ def build(spec_path: str, out_path: str) -> int:
             for r, row in enumerate(sl.get("rows", []), start=1):
                 if len(row) != n_headers:
                     errors.append(f"スライド {i}: table の行 {r} の列数がヘッダー({n_headers}列)と一致しません")
+        if sl.get("layout") == "diagram" and len(sl.get("nodes", [])) < 2:
+            errors.append(f"スライド {i}: diagram の nodes は2つ以上必要です")
+        if sl.get("layout") == "big_stat" and not str(sl.get("stat", "")).strip():
+            errors.append(f"スライド {i}: big_stat の stat が空です")
     if not spec.get("slides"):
         errors.append("slides が空です")
 
@@ -450,6 +518,19 @@ def build(spec_path: str, out_path: str) -> int:
                 f"{MAX_CONSECUTIVE_SAME_LAYOUT}枚を超えて連続しています"
                 "(視聴離脱防止のためレイアウトに変化をつけること。docs/04_PowerPoint.md参照)"
             )
+
+    all_slides = spec.get("slides", [])
+    if len(all_slides) >= MIN_SLIDES_FOR_RATIO_CHECK:
+        n_bullets = sum(1 for sl in all_slides if sl.get("layout") == "bullets")
+        ratio = n_bullets / len(all_slides)
+        if ratio > MAX_BULLETS_RATIO:
+            errors.append(
+                f"bullets(文字中心)レイアウトが全{len(all_slides)}枚中{n_bullets}枚"
+                f"({ratio:.0%})で、上限の{MAX_BULLETS_RATIO:.0%}を超えています。"
+                "cards/diagram/big_stat/steps/comparison等の視覚的なレイアウトに"
+                "置き換えること(docs/04_PowerPoint.md参照)"
+            )
+
     if errors:
         print(f"仕様エラー ({len(errors)} 件):")
         for e in errors:

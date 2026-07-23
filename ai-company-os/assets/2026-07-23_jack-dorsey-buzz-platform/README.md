@@ -29,10 +29,18 @@
 | `dialogue_spec.json` | AI対話ナレーション・スライド連動モード仕様(30スライド全カバー) |
 | `dialogue_script.md` | 対話ナレーション原稿(30スライド、目安約10分) |
 
+## 追記(2026-07-23): 文字を減らし、図解・グラフ中心に作り直し
+
+オーナーから「文字が多いので、図形・グラフでもっと見てわかるようにしてほしい」との
+フィードバックを受け、`build_deck.py`に新レイアウト`big_stat`(1数字に焦点)・`diagram`
+(ノードを矢印でつなぐ概念図)を追加し、`steps`にも矢印を追加。bulletsを9枚
+cards/diagram/comparisonに置き換え、**bullets比率を53%→23%に削減**した
+(新設の「bullets比率40%上限」ルールにも適合)。事実・数字は変更していない。
+
 ## 検品結果
 
 - `verify_pptx.py --min-slides 30 --max-slides 30` → 合格
-- `build_deck.py`の同一レイアウト4連続以上チェック → 合格
+- `build_deck.py`の同一レイアウト4連続以上チェック・bullets比率40%以下チェック → 合格
 - `generate_dialogue_script.py --deck`のスライド数整合性検証(30枚、1〜30連番) → 合格
 
 ## リスク配慮
