@@ -416,6 +416,7 @@ LAYOUTS = {
 }
 
 MAX_BULLETS = 5
+MAX_CONSECUTIVE_SAME_LAYOUT = 3  # これを超えて同一レイアウトが連続すると視聴離脱を招きやすい(docs/04_PowerPoint.md)
 
 
 def build(spec_path: str, out_path: str) -> int:
@@ -435,6 +436,20 @@ def build(spec_path: str, out_path: str) -> int:
                     errors.append(f"スライド {i}: table の行 {r} の列数がヘッダー({n_headers}列)と一致しません")
     if not spec.get("slides"):
         errors.append("slides が空です")
+
+    run_layout, run_len, run_start = None, 0, 0
+    for i, sl in enumerate(spec.get("slides", []), start=1):
+        layout = sl.get("layout")
+        if layout == run_layout:
+            run_len += 1
+        else:
+            run_layout, run_len, run_start = layout, 1, i
+        if run_len == MAX_CONSECUTIVE_SAME_LAYOUT + 1:
+            errors.append(
+                f"スライド {run_start}〜{i}: 同一レイアウト '{layout}' が"
+                f"{MAX_CONSECUTIVE_SAME_LAYOUT}枚を超えて連続しています"
+                "(視聴離脱防止のためレイアウトに変化をつけること。docs/04_PowerPoint.md参照)"
+            )
     if errors:
         print(f"仕様エラー ({len(errors)} 件):")
         for e in errors:
