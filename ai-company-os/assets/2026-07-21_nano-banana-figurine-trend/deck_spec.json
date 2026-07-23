@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "palette_preset": "slate_azure",
+    "footer": "出典: Google Cloud公式ブログ・TechCrunch・ITreview Labo",
+    "title": "Nano Banana「フィギュア化」トレンド",
+    "font": "Yu Gothic"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "Nano Banana「フィギュア化」ブーム",
+      "note": "表紙です。Googleの画像生成AI「Nano Banana」を使った「フィギュア化」トレンドがなぜ話題になったかを紹介する回だと伝えます。",
+      "sub": "写真1枚が“フィギュア風”に変わる、無料で試せるトレンドの正体",
+      "footnote": "出典: Google Cloud公式ブログ・TechCrunch・ITreview Labo(2026年7月21日調査)"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日の流れ",
+      "items": [
+        "Nano Bananaとは",
+        "何がバズったのか",
+        "なぜ話題になったのか",
+        "Nano Banana 2への進化",
+        "試し方と注意点"
+      ],
+      "note": "今日扱う5つのトピックを紹介します。実際に無料で試せる方法も紹介します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回の結論",
+      "bullets": [
+        "Nano Banana(Gemini 2.5 Flash Image)を使った「フィギュア化」がX・Instagramで話題に",
+        "X上で「Nano Banana祭り」としてトレンド入りが確認できた",
+        "Geminiの無料プランでも基本的な範囲で試せる"
+      ],
+      "note": "結論を3点で伝えます。無料で誰でも試せる手軽さが話題の中心だと伝えます。",
+      "source": "Google Cloud公式ブログ https://cloud.google.com/blog/ja/products/ai-machine-learning/bringing-nano-banana-2-to-enterprise?hl=ja"
+    },
+    {
+      "layout": "bullets",
+      "title": "Nano Bananaとは",
+      "bullets": [
+        "正式名称はGemini 2.5 Flash Image。2025年8月27日にGoogleが発表した画像生成AI",
+        "写真やイラストを入力し、様々なスタイルに変換できる",
+        "従来の画像生成AIが苦手だった「一貫性」を大きく克服したと評価されている"
+      ],
+      "note": "前提知識として、Nano Bananaがどんなツールかを紹介します。",
+      "source": "Google Cloud公式ブログ https://cloud.google.com/blog/ja/products/ai-machine-learning/bringing-nano-banana-2-to-enterprise?hl=ja"
+    },
+    {
+      "layout": "bullets",
+      "title": "何がバズったのか",
+      "bullets": [
+        "写真やイラストを「フィギュア化」する使い方が話題に",
+        "「#NanoBanana」「#フィギュア化」タグの投稿が注目を集めた",
+        "X公式トレンドページでもトレンド入りが確認できた"
+      ],
+      "note": "具体的にどんな使い方が話題になったかを紹介します。ハッシュタグでの広がりが特徴です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜここまで話題になったのか(推測)",
+      "bullets": [
+        "無料で誰でも試せる手軽さ",
+        "結果画像が視覚的にインパクトがあり、シェアされやすい",
+        "ただしこれはメディアの分析であり、Google公式が理由を明言しているわけではない"
+      ],
+      "note": "バズった理由の分析を紹介しますが、あくまで報道機関の見立てであり公式見解ではない点を明記します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "Nano Banana 2への進化",
+      "bullets": [
+        "Googleが2026年に「Nano Banana 2」(Gemini 3.1 Flash Image)を発表",
+        "より速く、より低コストな画像生成として続報が出ている",
+        "話題が一過性で終わらず継続している"
+      ],
+      "note": "後継モデルの登場によって話題が継続している点を紹介します。",
+      "source": "TechCrunch https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/"
+    },
+    {
+      "layout": "bullets",
+      "title": "試し方(基本)",
+      "bullets": [
+        "Google AI StudioまたはGeminiに無料アカウントでログイン",
+        "参照画像をアップロードし、フィギュア化のプロンプトを入力",
+        "無料プランの範囲でも基本的な機能は試せる"
+      ],
+      "note": "実際に試したい人向けに、基本的な手順を紹介します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "不明な点・注意点(正直に)",
+      "bullets": [
+        "正確な投稿数・累計インプレッション数は非公開",
+        "トレンド入りした正確な日時は特定できていない",
+        "日本国内と海外での話題の広がり方の違いは未確認",
+        "自分自身や他人の写真を使う際は、肖像権・プライバシーへの配慮が必要"
+      ],
+      "note": "調査で分からなかった点に加え、実際に使う際の注意点(肖像権等)も併せて伝えます。"
+    },
+    {
+      "layout": "cta",
+      "heading": "まとめ: 手軽さが生んだバイラルの好例",
+      "sub": "無料・簡単・視覚的インパクトという3条件が揃うと、AIツールは急速に広がりうる",
+      "action": "次のアクション: 自分の写真で試す場合は、肖像権に配慮した上でGoogle AI Studioを開いてみる",
+      "note": "今日の内容をまとめます。バイラルコンテンツの設計を考える上でも参考になる事例だと伝えます。"
+    }
+  ]
+}

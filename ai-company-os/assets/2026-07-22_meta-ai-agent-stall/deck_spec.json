@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "palette_preset": "navy_gold",
+    "footer": "出典: TechCrunch・Yahoo Finance(Reuters配信)・TechTimes",
+    "title": "Meta、AIエージェント開発の停滞告白",
+    "font": "Yu Gothic"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "1450億ドルを投じても\nAIエージェントは進化しなかった",
+      "note": "表紙です。Meta社内タウンホールでザッカーバーグ氏が語った、AIエージェント開発の遅れについての告白を紹介する回だと伝えます。",
+      "sub": "Meta社内タウンホールでのザッカーバーグ氏の告白",
+      "footnote": "出典: TechCrunch・Yahoo Finance(Reuters配信)・TechTimes等(2026年7月22日調査)"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日の流れ",
+      "items": [
+        "何が起きたのか",
+        "背景のレイオフ・再配置",
+        "投資規模を数字で見る",
+        "ザッカーバーグ氏の見通し",
+        "この告白から学べること"
+      ],
+      "note": "今日扱う5つのトピックを紹介します。投資額とレイオフという2つの数字が中心です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回の結論",
+      "bullets": [
+        "2026年7月2日、Meta社内タウンホールでザッカーバーグ氏が「期待通りに加速していない」と発言",
+        "背景には約8,000人のレイオフと約7,000人のAIチームへの再配置",
+        "2026年のAIインフラ投資は最大1,450億ドルの見通し"
+      ],
+      "note": "結論を3点で伝えます。大規模investment投資でも成果が追いついていないという告白です。",
+      "source": "TechCrunch https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
+    },
+    {
+      "layout": "cards",
+      "title": "背景を数字で見る",
+      "cards": [
+        {
+          "big": "約8,000人",
+          "label": "2026年のレイオフ数",
+          "text": "全社員の約10%"
+        },
+        {
+          "big": "約7,000人",
+          "label": "AIチームへの再配置",
+          "text": "「Agent Transformation」等"
+        },
+        {
+          "big": "最大1,450億ドル",
+          "label": "2026年AIインフラ投資見通し",
+          "text": "Reuters報道"
+        }
+      ],
+      "note": "レイオフ・再配置・投資額という3つの数字を見ます。大規模な組織再編と投資が同時進行しています。",
+      "source": "TechTimes https://www.techtimes.com/articles/319637/20260703/meta-ai-agents-behind-schedule-zuckerberg-tells-staff-145b-bet-hasnt-delivered.htm"
+    },
+    {
+      "layout": "quote",
+      "quote": "我々が期待していたようには加速していない",
+      "attribution": "マーク・ザッカーバーグ氏(Meta社内タウンホール、Reuters入手の音声記録より)",
+      "note": "ザッカーバーグ氏本人の発言をそのまま紹介します。率直な告白であることが今回の話題性の理由です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "ザッカーバーグ氏の見通し",
+      "bullets": [
+        "組織再編は計画ほど「クリーン」ではなかったと発言",
+        "新体制への賭けは「まだ実を結んでいない」と述べた",
+        "3〜6か月以内に意味のある効果が出ると期待していると発言"
+      ],
+      "note": "現状認識だけでなく、今後の見通しについても本人が言及している点を紹介します。",
+      "source": "TechCrunch https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜこれだけ話題になったのか",
+      "bullets": [
+        "TechCrunch・Yahoo Finance・Futurism・TechTimes等、複数の独立系メディアが一斉に報道",
+        "「exclusive」「acknowledges」等の見出しで各社が独自に報じている",
+        "数字(8,000人・7,000人・1,450億ドル)が複数媒体で一致"
+      ],
+      "note": "単なる噂ではなく、複数の独立したメディアが裏付けを持って報じている点を伝えます。"
+    },
+    {
+      "layout": "bullets",
+      "title": "不明な点(正直に)",
+      "bullets": [
+        "「Agent Transformation」チームの具体的な業務内容・成果指標",
+        "レイオフ対象者の内訳(部門・職種別)の詳細",
+        "この報道以降の株価・投資家反応の推移",
+        "Reutersの元記事本文(アクセス制限のため各社引用経由での確認)"
+      ],
+      "note": "調査で分からなかった点を正直に伝えます。特にReuters原文へのアクセス制限は重要な留保です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "反対意見・弱点",
+      "bullets": [
+        "レイオフ・組織再編については、特定の個人や立場に立った論評をしない",
+        "投資対効果の教訓という切り口に限定して扱う",
+        "1社の事例であり、AI業界全体に一般化できるとは限らない"
+      ],
+      "note": "レイオフという敏感なテーマのため、政治的・個人攻撃的な論評をしないことを明確に伝えます。"
+    },
+    {
+      "layout": "cta",
+      "heading": "まとめ: 大規模投資でも成果は自動的にはついてこない",
+      "sub": "AIへの投資判断は、投資額だけでなく期待値設定と検証サイクルの設計が重要",
+      "action": "次のアクション: 自社のAI投資の期待値設定・検証サイクルを見直してみる",
+      "note": "今日の内容をまとめます。投資対効果の検証という教訓として締めくくります。"
+    }
+  ]
+}

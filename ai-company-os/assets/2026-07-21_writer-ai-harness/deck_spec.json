@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "palette_preset": "navy_gold",
+    "footer": "出典: digitalapplied.com・cryptopond.com(arXivプレプリント)",
+    "title": "Writer社のAIハーネス、トークン消費40%削減",
+    "font": "Yu Gothic"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "AIのコストは「モデル選び」だけでは決まらない",
+      "note": "表紙です。Writer社の研究論文から、AIエージェントのコスト削減における「オーケストレーション設計」の重要性を紹介する回だと伝えます。",
+      "sub": "Writer社の研究が示す、トークン消費40%減の理由",
+      "footnote": "出典: digitalapplied.com・cryptopond.com(2026年7月21日調査、arXivプレプリント)"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日の流れ",
+      "items": [
+        "論文の概要",
+        "削減効果を数字で見る",
+        "実験方法",
+        "テストされたモデル",
+        "査読前研究としての留意点"
+      ],
+      "note": "今日扱う5つのトピックを紹介します。自社研究・プレプリントである点も踏まえて紹介します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回の結論",
+      "bullets": [
+        "AI企業Writerが2026年7月8日、arXivに論文を発表",
+        "独自の「Writer Agent Harness」で、精度を維持したままトークン消費を約40%削減",
+        "「モデル選び」だけでなく「オーケストレーション設計」が重要という示唆"
+      ],
+      "note": "結論を3点で伝えます。モデルそのものではなく、指示・連携の設計を変えただけで効果が出た点がポイントです。",
+      "source": "digitalapplied.com https://www.digitalapplied.com/blog/ai-harness-engineering-writer-token-spend-research-2026"
+    },
+    {
+      "layout": "cards",
+      "title": "削減効果を数字で見る",
+      "cards": [
+        {
+          "big": "14,200→8,800",
+          "label": "タスクあたりトークン数",
+          "text": "38%減"
+        },
+        {
+          "big": "0.21→0.12ドル",
+          "label": "タスクあたり統合コスト",
+          "text": "41%減"
+        },
+        {
+          "big": "32名",
+          "label": "論文著者数",
+          "text": "CTO兼共同創業者が責任著者"
+        }
+      ],
+      "note": "削減効果を具体的な数字で見ます。トークン数とコストの両方が同程度削減されています。",
+      "source": "digitalapplied.com https://www.digitalapplied.com/blog/ai-harness-engineering-writer-token-spend-research-2026"
+    },
+    {
+      "layout": "bullets",
+      "title": "実験方法",
+      "bullets": [
+        "従来型の本番エージェントループを対照群として固定",
+        "同じ22の企業タスク・同じモデルで、変数をオーケストレーション層のみにして比較",
+        "モデルを変えずに設計だけを変えた、という比較の仕方がポイント"
+      ],
+      "note": "どうやって効果を検証したかを紹介します。モデル自体は変えていない点が重要です。",
+      "source": "digitalapplied.com https://www.digitalapplied.com/blog/ai-harness-engineering-writer-token-spend-research-2026"
+    },
+    {
+      "layout": "bullets",
+      "title": "テストされた6つの基盤モデル",
+      "bullets": [
+        "Claude Sonnet 4.6、Gemini 3.1、Gemini Flash 3.5",
+        "Qwen 3.6、GLM 5.1、Writer自社のPalmyra X6",
+        "複数の主要モデルで同様の傾向が確認されたとされる"
+      ],
+      "note": "どのモデルでテストされたかを紹介します。特定の1モデルだけの結果ではない点を伝えます。",
+      "source": "digitalapplied.com https://www.digitalapplied.com/blog/ai-harness-engineering-writer-token-spend-research-2026"
+    },
+    {
+      "layout": "bullets",
+      "title": "不明な点(正直に)",
+      "bullets": [
+        "Writer Agent Harnessの具体的な技術的実装の詳細",
+        "一般の開発者・企業がこの手法を再現する場合の難易度・コスト",
+        "査読状況(arXivはプレプリントであり、正式な査読を経たかは未確認)"
+      ],
+      "note": "調査で分からなかった点を正直に伝えます。特に再現性・査読状況は重要な留保です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "反対意見・弱点",
+      "bullets": [
+        "Writer自身の研究であり、第三者による独立検証ではない",
+        "プレプリント段階であり、正式な査読を経た論文ではない",
+        "自社製品(Palmyra X6)を含む比較であり、利益相反の可能性も考慮すべき"
+      ],
+      "note": "良い結果である一方、自社研究・査読前という限界を正直に伝えます。"
+    },
+    {
+      "layout": "cta",
+      "heading": "まとめ: コスト最適化は「モデル選び」だけでなく「設計」にも目を向ける",
+      "sub": "AIエージェントのコストを見直す際は、オーケストレーション層の設計も検討対象に加える価値がある",
+      "action": "次のアクション: 自社のAIエージェント設計におけるオーケストレーション層を見直してみる",
+      "note": "今日の内容をまとめます。プレプリント段階という留保はありつつも、実務上のヒントとして紹介して締めくくります。"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "palette_preset": "slate_azure",
+    "footer": "出典: GlobeNewswire(ESET配信)・ITmedia @IT",
+    "title": "ESET H1 2026脅威レポート AIスキルの脅威",
+    "font": "Yu Gothic"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "ESET「H1 2026脅威レポート」\nAIスキルに潜む脅威",
+      "note": "表紙です。ESETが2026年7月8日に発表した脅威レポートのうち、AIエージェント向け拡張機能(AIスキル)に関する部分を扱うと伝えます。",
+      "sub": "約90万件のAIエージェント拡張機能を分析した結果",
+      "footnote": "出典: GlobeNewswire(ESET配信)・ITmedia @IT(2026年7月21日調査)"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日の流れ",
+      "items": [
+        "レポートの概要",
+        "分析結果を数字で見る",
+        "見つかった悪意あるスキルの実例",
+        "見た目だけの偽セキュリティスキル",
+        "不明点と注意点"
+      ],
+      "note": "今日扱う5つのトピックを紹介します。数字だけでなく、具体的な手口にも触れます。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回の結論",
+      "bullets": [
+        "ESETが2026年7月8日、H1 2026脅威レポートを公表",
+        "AIエージェント向け拡張機能(AIスキル)約90万件を分析",
+        "うち3千件超を「悪意がある」と判定"
+      ],
+      "note": "結論を3点でお伝えします。AIエージェントの拡張機能にも実際のセキュリティリスクがあるという内容です。",
+      "source": "GlobeNewswire(ESET) https://www.globenewswire.com/news-release/2026/07/08/3323874/0/en/ESET-Threat-Report-AI-boosts-cyber-attackers-efficiency.html"
+    },
+    {
+      "layout": "cards",
+      "title": "分析結果を数字で見る",
+      "cards": [
+        {
+          "big": "約90万件",
+          "label": "分析したAIスキル数",
+          "text": "2026年3月〜5月に主要リポジトリから収集"
+        },
+        {
+          "big": "約2.5万件",
+          "label": "「疑わしい」と判定",
+          "text": "全体の一部が疑わしいものと分類された"
+        },
+        {
+          "big": "3千件超",
+          "label": "「悪意がある」と判定",
+          "text": "実際に悪意ある挙動を確認したもの"
+        }
+      ],
+      "note": "analyzed対象の規模と判定結果を数字で見ます。90万件のうち、悪意あるものは一部ですが実数としては軽視できない件数です。",
+      "source": "GlobeNewswire(ESET) https://www.globenewswire.com/news-release/2026/07/08/3323874/0/en/ESET-Threat-Report-AI-boosts-cyber-attackers-efficiency.html"
+    },
+    {
+      "layout": "bullets",
+      "title": "悪意あるスキルの実例",
+      "bullets": [
+        "実在のハッキングツール「Mimikatz」「Impacket」を組み込んだスキルを確認",
+        "自己改変を行い、永続化の仕組み(persistence mechanism)を作るスキルも確認",
+        "いずれもAIエージェントの拡張機能という体裁で配布されていた"
+      ],
+      "note": "具体的にどんな悪意あるスキルが見つかったかを紹介します。既存のハッキングツールが組み込まれていた点がポイントです。",
+      "source": "GlobeNewswire(ESET) https://www.globenewswire.com/news-release/2026/07/08/3323874/0/en/ESET-Threat-Report-AI-boosts-cyber-attackers-efficiency.html"
+    },
+    {
+      "layout": "bullets",
+      "title": "見た目だけの偽セキュリティスキル",
+      "bullets": [
+        "「セキュリティ用」を名乗りながら実際には効果のないスキルも存在",
+        "利用者に誤った安心感を与えるリスクが指摘されている",
+        "悪意はなくても、期待した効果が得られない点で注意が必要"
+      ],
+      "note": "悪意あるものだけでなく、実効性のない偽セキュリティスキルという別のリスクも紹介します。",
+      "source": "GlobeNewswire(ESET) https://www.globenewswire.com/news-release/2026/07/08/3323874/0/en/ESET-Threat-Report-AI-boosts-cyber-attackers-efficiency.html"
+    },
+    {
+      "layout": "bullets",
+      "title": "不明な点(正直に)",
+      "bullets": [
+        "「約90万件」の分析対象リポジトリの具体名は非公開(「主要リポジトリ」とのみ発表)",
+        "日本国内での被害事例の有無・件数は未確認",
+        "悪意あるAIスキルを一般ユーザーが見分ける具体的な方法はレポートで詳細確認できず"
+      ],
+      "note": "調査で分からなかった点を正直に伝えます。特に見分け方の具体策が不明な点は重要な留保です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "反対意見・弱点",
+      "bullets": [
+        "セキュリティ企業自身の発表であり、第三者による独立検証ではない",
+        "「疑わしい」の判定基準の詳細は公式発表から確認できていない",
+        "個人事業主・小規模事業者への影響度は本調査からは分からない"
+      ],
+      "note": "良い注意喚起である一方、判定基準の透明性など、鵜呑みにしすぎない視点も伝えます。"
+    },
+    {
+      "layout": "cta",
+      "heading": "まとめ: AIエージェントの拡張機能にも通常のセキュリティ意識を",
+      "sub": "出所不明な拡張機能を安易に追加しない、公式配布元を確認する、といった基本の徹底が重要",
+      "action": "次のアクション: 自分が使っているAIエージェントの拡張機能の配布元を確認する",
+      "note": "今日の内容をまとめます。AIエージェントだから安全というわけではなく、従来と同じセキュリティ意識が必要だと伝えます。"
+    }
+  ]
+}

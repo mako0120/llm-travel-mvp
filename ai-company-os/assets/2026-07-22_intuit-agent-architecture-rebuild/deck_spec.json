@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "palette_preset": "navy_gold",
+    "footer": "出典: VentureBeat",
+    "title": "Intuit、AIエージェント設計やり直し事例",
+    "font": "Yu Gothic"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "10個のエージェントをつなぐと\nエラーは掛け算で増える",
+      "note": "表紙です。会計ソフト大手IntuitがAIエージェントのアーキテクチャを4か月で2度作り直した事例を紹介する回だと伝えます。",
+      "sub": "Intuitが4か月で2度、AIアーキテクチャを作り直した理由",
+      "footnote": "出典: VentureBeat(2026年7月22日調査)"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日の流れ",
+      "items": [
+        "何が起きたのか",
+        "3つのアーキテクチャの変遷",
+        "なぜオーケストレーション層が失敗したか",
+        "作り直しのスピード",
+        "この事例からの教訓"
+      ],
+      "note": "今日扱う5つのトピックを紹介します。VentureBeatによる実名インタビューがベースです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回の結論",
+      "bullets": [
+        "Intuit AI担当VP Nhung Ho氏が、VB Transform 2026で登壇し実例を公開",
+        "自社のAIエージェント・アーキテクチャを約4か月で2度作り直したと説明",
+        "最終的に「スキルとツールベースのシステム」へ移行"
+      ],
+      "note": "結論を3点で伝えます。実名・実企業の事例である点が信頼性のポイントです。",
+      "source": "VentureBeat https://venturebeat.com/orchestration/intuit-scrapped-its-own-ai-agent-architecture-twice-in-four-months-at-vb-transform-2026-its-ai-vp-called-that-the-fast-path"
+    },
+    {
+      "layout": "steps",
+      "title": "3つのアーキテクチャの変遷",
+      "steps": [
+        {
+          "label": "①専門特化型エージェント",
+          "text": "個別タスクに特化したエージェントの集合"
+        },
+        {
+          "label": "②中央オーケストレーション層",
+          "text": "複雑さで機能不全に。エラーが積み重なる問題が発生"
+        },
+        {
+          "label": "③スキル・ツールベース",
+          "text": "ワークフロー・スキル・ツールを基礎レベルまで組み込む方式へ"
+        }
+      ],
+      "note": "3段階の変遷をステップで見ます。最初から今の形にたどり着いたわけではない点がポイントです。"
+    },
+    {
+      "layout": "quote",
+      "quote": "If you have 10 agents and they all are passing to each other, every time that pass happens, error compounds.",
+      "attribution": "Nhung Ho氏(Intuit AI担当VP、VB Transform 2026にて)",
+      "note": "Ho氏本人の発言をそのまま紹介します。エージェント間の受け渡しでエラーが積み重なる、という核心的な指摘です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜオーケストレーション層が失敗したのか",
+      "bullets": [
+        "エージェント間で自然言語による結果の受け渡し(ハンドオフ)を実施",
+        "受け渡しのたびに、次のエージェントが必要とする文脈情報が失われる",
+        "下流のエージェントは上流の推論過程を推測せざるを得ず、精度がホップごとに劣化"
+      ],
+      "note": "失敗の技術的な理由を紹介します。自然言語でのやり取りが積み重なることの弱点です。",
+      "source": "VentureBeat https://venturebeat.com/orchestration/intuit-scrapped-its-own-ai-agent-architecture-twice-in-four-months-at-vb-transform-2026-its-ai-vp-called-that-the-fast-path"
+    },
+    {
+      "layout": "cards",
+      "title": "作り直しのスピードを数字で見る",
+      "cards": [
+        {
+          "big": "60日",
+          "label": "2回目の全面的な作り直し",
+          "text": "最終アーキテクチャの完成まで"
+        },
+        {
+          "big": "20日未満",
+          "label": "最初の動作版",
+          "text": "60日よりも早く完成"
+        }
+      ],
+      "note": "作り直しにかかった期間を数字で見ます。決して短くはないですが、迅速な反復を重視した結果です。",
+      "source": "VentureBeat https://venturebeat.com/orchestration/intuit-scrapped-its-own-ai-agent-architecture-twice-in-four-months-at-vb-transform-2026-its-ai-vp-called-that-the-fast-path"
+    },
+    {
+      "layout": "bullets",
+      "title": "この事例からの教訓",
+      "bullets": [
+        "最終的にAIと人間の専門家をワークフローに直接組み込む形をとった",
+        "Intuit社はこれを「失敗」ではなく「最速の道」だったと位置づけている",
+        "作り直しを恐れない、迅速な反復のカルチャーが背景にある"
+      ],
+      "note": "Intuit自身がこの経験をどう位置づけているかを紹介します。失敗ではなく学びとして捉えている点がポイントです。",
+      "source": "VentureBeat https://venturebeat.com/orchestration/intuit-scrapped-its-own-ai-agent-architecture-twice-in-four-months-at-vb-transform-2026-its-ai-vp-called-that-the-fast-path"
+    },
+    {
+      "layout": "bullets",
+      "title": "不明な点(正直に)",
+      "bullets": [
+        "「スキルとツールベースのシステム」の技術的な実装詳細",
+        "この再設計によるコスト削減額・処理速度改善などの定量指標",
+        "VB Transform 2026の正確な開催日程"
+      ],
+      "note": "調査で分からなかった点を正直に伝えます。定量的な効果指標が非公開である点は重要な留保です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "反対意見・弱点",
+      "bullets": [
+        "1社の事例であり、業界全体に一般化できるとは限らない",
+        "定量的な効果指標が示されていないため、改善の程度は分からない",
+        "VentureBeat記事本文には直接アクセスできず、要約経由の確認である"
+      ],
+      "note": "良い事例紹介である一方、限界にも触れます。数字なき成功談を鵜呑みにしない視点を伝えます。"
+    },
+    {
+      "layout": "cta",
+      "heading": "まとめ: マルチエージェント設計は「作り直し」を前提に考える",
+      "sub": "最初から完璧な設計を目指すより、迅速な反復を前提にした設計文化が有効な場合がある",
+      "action": "次のアクション: 自社のAIエージェント設計における「受け渡し」のポイントを洗い出してみる",
+      "note": "今日の内容をまとめます。設計の失敗を恐れず反復する姿勢が、エンタープライズAI開発の教訓になると伝えます。"
+    }
+  ]
+}
