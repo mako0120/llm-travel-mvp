@@ -45,9 +45,13 @@ ChatGPTに貼り付けられるようにするため。
   埋め込むために**GitHubの当該ブランチにコミットする**(`raw.githubusercontent.com`の
   公開URLが必要なため)。これにより、従来の「バイナリはコミットしない」運用を
   当該ファイルに限り変更する。コミット先はテーマの`assets/<テーマ>/deck.pptx`
-- 音声(TTS)ファイルも、生成でき次第同じ方式(GitHubコミット→raw URL→
-  notion-create-attachment)で埋め込む。2026-07-23時点ではオーナー環境での
-  VOICEVOX実行結果待ちのため、音声ファイル自体はまだ存在しない
+- 音声(TTS)ファイルも同じ方式(GitHubコミット→raw URL→notion-create-attachment)で
+  埋め込む。VOICEVOXはClaude Codeのリモートセッションからは起動できない
+  (Docker Hubへのegressブロック)ため、`.github/workflows/synthesize-dialogue-audio.yml`
+  (workflow_dispatch、要mainマージ)でGitHub Actionsランナー上に限定して実行し、
+  生成した`.wav`はActions Artifact(blob.core.windows.net、これも当セッションからは
+  ダウンロード不可)ではなく、ワークフロー自身がリポジトリへ直接コミットする形で
+  取り出す。コミット先はテーマの`assets/<テーマ>/dialogue_audio.wav`
 
 ## 学習ログ
 
