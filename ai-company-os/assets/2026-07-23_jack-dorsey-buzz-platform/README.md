@@ -28,6 +28,7 @@
 | `narration_script.md` | 単独ナレーション原稿(30スライド、目安約6分) |
 | `dialogue_spec.json` | AI対話ナレーション・スライド連動モード仕様(30スライド全カバー) |
 | `dialogue_script.md` | 対話ナレーション原稿(30スライド、目安約10分) |
+| `deck.pptx` | 生成済みの.pptx本体。NotionからGitHub raw URL経由で添付ファイルとして参照するため、今回に限りコミットしている(`docs/09_Notion.md`参照) |
 
 ## 追記(2026-07-23): 文字を減らし、図解・グラフ中心に作り直し
 
