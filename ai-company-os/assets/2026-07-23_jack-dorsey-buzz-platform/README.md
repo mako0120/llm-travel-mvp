@@ -28,7 +28,16 @@
 | `narration_script.md` | 単独ナレーション原稿(30スライド、目安約6分) |
 | `dialogue_spec.json` | AI対話ナレーション・スライド連動モード仕様(30スライド全カバー) |
 | `dialogue_script.md` | 対話ナレーション原稿(30スライド、目安約10分) |
-| `deck.pptx` | 生成済みの.pptx本体。NotionからGitHub raw URL経由で添付ファイルとして参照するため、今回に限りコミットしている(`docs/09_Notion.md`参照) |
+| `deck.pptx` | 生成済みの.pptx本体。オーナーへチャットで直接送付済み(`docs/09_Notion.md`参照) |
+| `dialogue_audio.wav` | 対話ナレーションの音声(VOICEVOX、host=ずんだもん/analyst=四国めたん、約10分)。GitHub Actions(`synthesize-dialogue-audio.yml`)上でVOICEVOXを起動して生成し、オーナーへチャットで直接送付済み |
+
+## 追記(2026-07-23): 音声化(VOICEVOX、GitHub Actions経由)
+
+Claude Codeのリモートセッション自体はegressポリシーでVOICEVOX(Docker Hub)を起動できないため、
+手動トリガー(workflow_dispatch)の`synthesize-dialogue-audio.yml`をGitHub Actions上で実行し、
+`dialogue_spec.json`(61発言、スライド連動モード)を音声化した。生成物はActions Artifact
+(ダウンロード元のblob.core.windows.netも当セッションからは接続不可)ではなく、ワークフロー
+自身がリポジトリへ直接コミットする形で取り出した。
 
 ## 追記(2026-07-23): 文字を減らし、図解・グラフ中心に作り直し
 
