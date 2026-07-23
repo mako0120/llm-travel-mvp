@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "title": "ChatGPTとCodexが、ついに1つに — OpenAI「Work」モード新設",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Neowin(2026-07-09)",
+      "quasa.io(2026-07-09)",
+      "TechTimes(2026-07-10)",
+      "eesel AI(2026)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ChatGPTとCodexが1つのアプリになったって、知ってた?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、OpenAIが2026年7月9日、ChatGPTアプリとCodexアプリを1つの統合デスクトップアプリに再編したと発表しました。新しく「Work」モードも加わっています。",
+              "source": "Neowin(2026-07-09)"
+            },
+            {
+              "speaker": "host",
+              "text": "アプリが1つにまとまるって、地味に大きい変化だよね。今日はそこを見ていこう。"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日は4つの流れで話します。何が起きたか、3つのモードと料金体系、なぜ統合したのかと前回テーマとの共通点、そして不明点とまとめです。"
+            },
+            {
+              "speaker": "host",
+              "text": "よし、まずは何が起きたかから。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字で見ると「2 → 1」です。別々だったChatGPTアプリとCodexアプリが、1つの統合アプリにまとまりました。",
+              "source": "Neowin(2026-07-09)"
+            },
+            {
+              "speaker": "host",
+              "text": "2つが1つに、っていうのはシンプルで分かりやすいね。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "2026年7月9日、OpenAIがChatGPTアプリとCodexアプリの統合を発表し、同日に新モデル「GPT-5.6」も一般提供を開始しました。統合アプリの中には新しく「Work」モードも追加されています。",
+              "source": "Neowin(2026-07-09)"
+            },
+            {
+              "speaker": "host",
+              "text": "発表は一つのブログだけじゃなくて、複数のメディアが同時に報じてたんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、Neowin・TechTimes・quasa.io等、独立系メディアが同時に報道しています。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "統合アプリの中身はカードで3つに整理できます。従来のChat、日常業務向けの新しいWork、そして独立したコーディング体験のCodexです。",
+              "source": "Neowin(2026-07-09)"
+            },
+            {
+              "speaker": "host",
+              "text": "3つのモードが1つのアプリに同居してる、ってことか。"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "実際に使うときの流れを図にすると、アプリを起動して、Chat・Work・Codexのどれかを選んで、そのモードで作業する、というシンプルな導線です。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが全体像。ここからは、Workモードの中身をもう少し詳しく見ていこう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Workモードは、資料作成・表計算・データ分析など、日常的な業務タスクに特化しています。Codexがコーディング専用なのに対して、Workは非エンジニアの業務も対象にしています。",
+              "source": "quasa.io(2026-07-09)"
+            },
+            {
+              "speaker": "host",
+              "text": "エンジニアじゃない人にも使ってもらいたい、っていう狙いが見えるね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "用途例を4つのカードにすると、資料作成、表計算、データ分析、それ以外の日常業務、という整理になります。",
+              "source": "quasa.io(2026-07-09)"
+            },
+            {
+              "speaker": "host",
+              "text": "確かに、これなら普段の仕事でも使う場面が多そうだ。"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "構成の変化を比べると、これまではChatGPTアプリとCodexアプリを行き来する必要がありましたが、これからは1つの統合アプリの中でモードを切り替えるだけになります。"
+            },
+            {
+              "speaker": "host",
+              "text": "アプリを行き来する手間がなくなるのは地味に嬉しいポイントだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "大事な点として、Codexは廃止されていません。統合後も「Codex」モードとして独立してコーディング体験を提供し続けます。",
+              "source": "quasa.io(2026-07-09)"
+            },
+            {
+              "speaker": "host",
+              "text": "「統合」って聞くと、どっちかが無くなるのかと思っちゃうけど、そうじゃないんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Codexの有料プラン向け機能をステップで見ると、GitHub連携、PRの自動レビュー、Slack連携、長時間タスクの自律実行、という4つです。",
+              "source": "eesel AI(2026)"
+            },
+            {
+              "speaker": "host",
+              "text": "コーディングエージェントらしい機能がちゃんと残ってるんだ。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "プランごとの違いを表にまとめると、Chat・Work・Codexの基本3モードはどのプランでも使えますが、GitHub連携などの高度な機能は有料プランのクレジット制です。",
+              "source": "eesel AI(2026)"
+            },
+            {
+              "speaker": "host",
+              "text": "無料でも基本は使えるっていうのは良心的だね。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "対応プランを確認すると、Free・Go・Plus・Pro・Business・Edu・Enterpriseいずれの契約でも、基本の3モードは利用できます。",
+              "source": "TechTimes(2026-07-10)"
+            },
+            {
+              "speaker": "host",
+              "text": "無料プランでも3モード全部使えるのは大きいね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "料金を数字で見ると「$0〜200+」です。Codexは単体販売ではなくプランに組み込まれていて、開発者1人あたり平均で月100〜200ドル程度とされています。",
+              "source": "eesel AI(2026)"
+            },
+            {
+              "speaker": "host",
+              "text": "幅がかなり広いね、なんでそんなに差が出るの?"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "グラフにすると分かりやすいのですが、下限はほぼ0ドル、平均的な目安は150ドル前後、上振れすると200ドルを超えます。使用モデルや自動化の頻度で変わる、あくまで目安の数字です。",
+              "source": "eesel AI(2026)"
+            },
+            {
+              "speaker": "host",
+              "text": "使えば使うほど上がっていくイメージなんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "補足すると、Work・Codex・ChatGPT for Excel・Workspace Agentsは同じ「エージェント利用枠」を共有しています。2026年4月2日には、Codexの利用制限がメッセージ数上限からトークン連動のクレジット制に変わっています。",
+              "source": "eesel AI(2026)"
+            },
+            {
+              "speaker": "host",
+              "text": "これはWork/Codex統合とは別の、少し前の制度変更なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "もう1つ数字を。「7/9」、これがChatGPT/Codex統合アプリの発表と、GPT-5.6の一般提供開始が重なった日付です。",
+              "source": "Neowin(2026-07-09)"
+            },
+            {
+              "speaker": "host",
+              "text": "アプリの構成変更と新モデルを同じ日に出す、っていうのは狙ってやってる感じがするね。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Work・Codexを含む統合アプリは、GPT-5.6の一般提供と同日に発表されました。モデルの性能そのものの詳細は今日の範囲外で、あくまでアプリ構成の変化に絞って扱っています。",
+              "source": "quasa.io(2026-07-09)"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが仕組みと料金の話。ここからは、なぜ統合したのかを考えてみよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ここからは推測ですが、理由を3つのカードに整理しました。利用シーンの一本化、囲い込みの強化、そして業務特化モードによる差別化です。"
+            },
+            {
+              "speaker": "host",
+              "text": "公式に明言された理由じゃなくて、報道内容からの推測なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "同じ出来事でも、見る人によって景色が違います。ユーザー視点だと『アプリが1つになって楽になった』ですが、OpenAI視点で見ると『利用シーンを自社アプリ内に集約する狙い』とも読めます。"
+            },
+            {
+              "speaker": "host",
+              "text": "右側はあくまで推測、っていうのは強調しておきたいね。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、AIは『チャット相手』から『業務ツール』、そして『開発チームの一員』へと役割を広げてきています。"
+            },
+            {
+              "speaker": "host",
+              "text": "これ、前回のBuzzの話ともつながる流れだよね。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "前回はAIエージェントをチームの『メンバー』として扱うBuzzを紹介しました。今回のWorkモードも、AIが日常業務に溶け込んでいく流れの一例と言えます。"
+            },
+            {
+              "speaker": "host",
+              "text": "AIが『会話する相手』から『一緒に作業する相手』に変わってきてる、っていう大きな流れが見えるね。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回見送った候補も共有します。Grok 4.5のベンチマーク論争、中国の新しいAI規制、Oracle・Black Lakeの発表の3つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "それぞれ見送った理由もちゃんとあるんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。Grok 4.5は独立系の一次報道が薄く、中国の規制は一次情報が未確認で高リスク、Oracle等は企業リリースの域を出なかったためです。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直に言うと、不明点もあります。Workモードの具体的なUIの詳細、旧Codexアプリ単体の今後の扱いは確認できていません。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "リスク配慮のポイントを3つのカードにまとめました。事実紹介に徹すること、対立を煽らないこと、推測は推測と明示することです。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが転換パート。最後にまとめに入ろう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "検品結果を表にまとめました。30枚の検品、同一レイアウト連続チェック、bullets比率チェック、対話原稿とのスライド数整合性、すべて合格しています。"
+            },
+            {
+              "speaker": "host",
+              "text": "ちゃんと機械的にチェックされてるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典を再掲します。Neowin、TechTimes、quasa.io/kie.ai、eesel AIです。"
+            },
+            {
+              "speaker": "host",
+              "text": "気になる人はぜひ元記事も見てみてね。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、ChatGPT・Codexの統合が、AIが『会話相手』から『一緒に働く相手』へ変わる大きな流れの一部だということです。"
+            },
+            {
+              "speaker": "host",
+              "text": "AIエージェントは、もう私たちの日常のすぐそばまで来てるってことだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AIエージェントが業務や開発にどこまで組み込まれるかは、今後も続くテーマです。次回も独立系メディアの報道をもとに、バイラル性の高い話題を紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。ご意見・ご要望があればぜひ教えてください。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
