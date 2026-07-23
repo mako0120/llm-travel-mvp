@@ -32,6 +32,8 @@
 | `dialogue_spec.json` | AI対話ナレーション・スライド連動モード仕様(30スライド全カバー、63発言) |
 | `dialogue_script.md` | 対話ナレーション原稿(30スライド、目安約9分) |
 | `dialogue_audio.wav` | 対話音声(VOICEVOX、GitHub Actions経由で生成済み、約9分)。チャットで直接送付済み |
+| `slide_timings.json` | スライドごとの開始/終了/長さ(秒)。GitHub Actions経由で音声と同時に生成 |
+| `deck_narrated.mp4` | スライド画像+音声を結合したナレーション動画(約9分)。チャットで直接送付済み(リポジトリには未コミット、生成バイナリのため) |
 | `youtube_assets.md` | YouTube/Shorts向けタイトル案・概要欄・タグ・章立て |
 | `canva_brief.md` | Canva移植ブリーフ(レイアウト対応表、`templates/canva_brief_template.md`準拠) |
 | `risk-and-quality-review.md` | 著作権・品質自己評価(100点満点中95点、85点以上のため修正不要) |
