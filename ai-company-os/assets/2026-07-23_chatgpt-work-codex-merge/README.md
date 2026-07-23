@@ -31,7 +31,7 @@
 | `narration_script.md` | 単独ナレーション原稿(30スライド、目安約4分) |
 | `dialogue_spec.json` | AI対話ナレーション・スライド連動モード仕様(30スライド全カバー、63発言) |
 | `dialogue_script.md` | 対話ナレーション原稿(30スライド、目安約9分) |
-| `dialogue_audio.wav` | 対話音声(VOICEVOX、GitHub Actions経由で生成予定) |
+| `dialogue_audio.wav` | 対話音声(VOICEVOX、GitHub Actions経由で生成済み、約9分)。チャットで直接送付済み |
 
 ## 検品結果
 
