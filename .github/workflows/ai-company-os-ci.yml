@@ -48,7 +48,8 @@ jobs:
           python scripts/verify_pptx.py /tmp/sample-deck.pptx --min-slides 12 --max-slides 12
           python scripts/export_script.py templates/deck_spec_example.json /tmp/sample-script.md
 
-      - name: generate_dialogue_script self-test and end-to-end pipeline
+      - name: generate_dialogue_script self-test and end-to-end pipeline (slide-linked mode)
         run: |
           python scripts/generate_dialogue_script.py --self-test
-          python scripts/generate_dialogue_script.py templates/dialogue_spec_example.json /tmp/sample-dialogue-script.md
+          python scripts/generate_dialogue_script.py templates/dialogue_spec_example.json \
+            /tmp/sample-dialogue-script.md --deck templates/dialogue_deck_spec_example.json
