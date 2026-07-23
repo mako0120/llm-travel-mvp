@@ -41,7 +41,7 @@ import json
 import sys
 import wave
 from pathlib import Path
-from urllib import error, request
+from urllib import error, parse, request
 
 DEFAULT_ENGINE_URL = "http://127.0.0.1:50021"
 DEFAULT_VOICE_MAP = {"host": 3, "analyst": 2}
@@ -50,7 +50,7 @@ SILENCE_MS_BETWEEN_LINES = 300
 
 def _post(url: str, params: dict | None = None, json_body: dict | None = None, timeout: int = 30) -> bytes:
     if params:
-        qs = "&".join(f"{k}={v}" for k, v in params.items())
+        qs = parse.urlencode(params)
         url = f"{url}?{qs}"
     data = json.dumps(json_body).encode("utf-8") if json_body is not None else b""
     req = request.Request(url, data=data, method="POST",
