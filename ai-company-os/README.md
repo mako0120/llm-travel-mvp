@@ -21,6 +21,7 @@ Claude Code should read `CLAUDE.md`, then the documents in `docs/`.
 - Self improvement
 - Output format
 - Project rules
+- AI dialogue script
 
 ## Important
 

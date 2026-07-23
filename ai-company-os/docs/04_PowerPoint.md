@@ -83,6 +83,12 @@ PowerPoint を開かずに原稿だけを読んで推敲・リハーサルでき
 `build_deck.py` 方式(生成方式A)は、CI検証込みで再現性の高い定型フォーマットが必要な場合に引き続き使う。
 どちらの方式を使うかは、その時々の指示に従う。
 
+## 関連: AI対話ナレーション形式
+
+動画向けに、2人のAIペルソナが起承転結で掛け合うナレーション原稿を作りたい場合は、
+`docs/13_AI_Dialogue_Script.md` の形式を使う。同じ `research.md` から、PowerPointの
+プロンプトと対話ナレーション原稿の両方を作れる(取材のやり直しは不要)。
+
 ## 公式スキルとの役割分担
 
 Claude Code には Anthropic公式 `anthropics/skills` 由来の `pptx` スキルが標準搭載されている(source-available)。

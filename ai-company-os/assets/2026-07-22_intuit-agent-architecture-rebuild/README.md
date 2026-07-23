@@ -17,6 +17,8 @@
 |---|---|
 | `research.md` | 出典付き調査結果 |
 | `chatgpt_prompt.md` | ChatGPTにそのまま貼り付けて使うプロンプト本文 |
+| `dialogue_spec.json` | AI対話ナレーション形式(`docs/13_AI_Dialogue_Script.md`)の仕様。同じ`research.md`から作成 |
+| `dialogue_script.md` | `generate_dialogue_script.py`で`dialogue_spec.json`から生成した、2AIペルソナ・起承転結の対話ナレーション原稿(2026-07-23追加、機能デモとして本テーマに追加) |
 
 ## 出典
 
