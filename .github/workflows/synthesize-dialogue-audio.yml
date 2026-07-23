@@ -78,5 +78,7 @@ jobs:
             echo "No changes to commit (audio identical to existing file)"
           else
             git commit -m "Add synthesized dialogue audio for ${{ inputs.theme_dir }} (CI/VOICEVOX)"
-            git push
+            git fetch origin "${{ github.ref_name }}"
+            git rebase "origin/${{ github.ref_name }}"
+            git push origin "HEAD:${{ github.ref_name }}"
           fi
