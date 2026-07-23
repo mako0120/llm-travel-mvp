@@ -101,19 +101,45 @@
 `python scripts/generate_dialogue_script.py --self-test` で検証ロジック自体を確認できる
 (フラットモード・スライド連動モードの両方、および deck とのスライド数不一致の検出を含む)。
 
-## 音声化(TTS)する場合(2026-07-23〜、オーナー選定: VOICEVOX/AivisSpeech)
+## 音声化(TTS)(2026-07-23〜、標準化済み: GitHub Actions経由のVOICEVOX)
 
-`research/2026-07-23_tts-options.md` の比較検討を経て、VOICEVOX/AivisSpeechを試すことに
-なった。**ただし、Claude Codeのリモートセッションからは自分でVOICEVOX Engineを
-セルフホストできない**(Docker Hub・GitHub releasesへのアクセスがegressポリシーで
-ブロックされているため、実際に `dockerd` 起動・`docker pull voicevox/voicevox_engine`・
-`pip install`のいずれも試したが失敗を確認済み)。そのため、**オーナー自身のマシンで
-VOICEVOX(https://voicevox.hiroshiba.jp/ )を起動して実行する**運用とする。
+`research/2026-07-23_tts-options.md` の比較検討を経てVOICEVOXを採用。Claude Codeの
+リモートセッション自体はegressポリシーでDocker Hubにアクセスできずセルフホスト
+不可(`dockerd`起動・`docker pull`・`pip install`いずれも失敗を確認済み)だが、
+**GitHub Actionsのubuntu-latestランナーは通常のインターネットアクセスを持つため、
+そこでVOICEVOX Engineを起動して音声化する**運用を2026-07-23にmainマージ済み
+(`.github/workflows/synthesize-dialogue-audio.yml`)。
+
+以後、新しいテーマの`dialogue_spec.json`ができたら**都度確認を挟まず、以下を標準手順として
+自動で実行する**:
 
 ```text
-① オーナーの環境でVOICEVOXを起動する(デスクトップアプリ、またはVOICEVOX ENGINE単体)
-② 話者を確認する  python scripts/synthesize_dialogue_audio.py --list-speakers
-③ 音声化する      python scripts/synthesize_dialogue_audio.py dialogue_spec.json out.wav \
+① dialogue_spec.jsonを作成・pushする
+② actions_run_trigger(workflow_dispatch)でsynthesize-dialogue-audio.ymlを実行する
+   (ref: 作業ブランチ, theme_dir: テーマディレクトリ名)
+③ 完了を待つ(CPU版VOICEVOXで61発言・約5分程度が目安)
+④ git pullしてassets/<テーマ>/dialogue_audio.wavを取得する
+⑤ SendUserFileでオーナーに直接送付する(Notionには添付せず、パスを明記するだけ)
+```
+
+**設計上の注意点(2026-07-23の初回実行で判明した既知の罠)**:
+- Actions Artifact(`actions/upload-artifact`)のダウンロード元はAzure Blob Storage
+  (`blob.core.windows.net`)だが、このホストもClaude Codeのセッションからは接続不可。
+  そのため音声ファイルはArtifactではなく、ワークフロー自身が`git commit`+`git push`で
+  リポジトリへ直接コミットする形で取り出す
+- ワークフローの`workflow_dispatch`はデフォルトブランチ(main)に存在しないと
+  API経由でトリガーできない(GitHubの仕様)。ワークフローファイル自体の追加・変更は
+  必ずmainへの反映(=人間承認)が必要
+- CI実行中に別コミットを同じブランチへpushすると、CI側のpushが競合して失敗する。
+  ワークフロー側でpush前に`git fetch && git rebase`する対策を入れている
+- VOICEVOX Engineへのリクエストのtext/speakerパラメータは`urllib.parse.urlencode`で
+  URLエンコードすること(日本語・記号を含むテキストをエンコードせず渡すと
+  `http.client.InvalidURL`で失敗する)
+
+```text
+(ローカルで確認する場合)
+① 話者を確認する  python scripts/synthesize_dialogue_audio.py --list-speakers
+② 音声化する      python scripts/synthesize_dialogue_audio.py dialogue_spec.json out.wav \
                      --voice-map host=3,analyst=2
 ```
 
