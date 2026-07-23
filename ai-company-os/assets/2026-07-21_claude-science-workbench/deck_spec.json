@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "palette_preset": "slate_azure",
+    "footer": "出典: Anthropic公式・TechRadar・TechTimes・MarkTechPost",
+    "title": "Claude Science、研究者向けAIワークベンチ",
+    "font": "Yu Gothic"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "Claude Science\n研究の道具が1つにまとまった",
+      "note": "表紙です。Anthropicが公開した研究者向けAIワークベンチ「Claude Science」について紹介する回だと伝えます。",
+      "sub": "研究者向けAIワークベンチが変える、研究の作業環境",
+      "footnote": "出典: Anthropic公式・TechRadar・TechTimes・MarkTechPost(2026年7月21日調査)"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日の流れ",
+      "items": [
+        "Claude Scienceとは",
+        "対応分野を数字で見る",
+        "誰が使えるのか",
+        "クレジット支援プログラム",
+        "不明点"
+      ],
+      "note": "今日扱う5つのトピックを紹介します。Anthropic公式発表という一次情報がベースです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回の結論",
+      "bullets": [
+        "Anthropicが研究者向けAIワークベンチ「Claude Science」をパブリックベータ公開",
+        "Claude Pro・Max・Team・Enterpriseの全有料契約者が利用可能",
+        "選定された50件の研究プロジェクトに最大3万ドルのクレジットを提供"
+      ],
+      "note": "結論を3点で伝えます。既存の有料プランで使える点と、支援プログラムがある点がポイントです。",
+      "source": "Anthropic公式 https://www.anthropic.com/news/claude-science-ai-workbench"
+    },
+    {
+      "layout": "bullets",
+      "title": "Claude Scienceとは",
+      "bullets": [
+        "2026年6月30日〜7月1日にパブリックベータとして公開",
+        "文献検索・データ分析・科学的可視化・論文執筆・研究計算リソースを1つの環境に統合",
+        "研究者がこれまで複数ツールを行き来していた作業を一本化する狙い"
+      ],
+      "note": "Claude Scienceがどんなツールかを紹介します。複数の作業を1つの環境にまとめている点が特徴です。",
+      "source": "Anthropic公式 https://www.anthropic.com/news/claude-science-ai-workbench"
+    },
+    {
+      "layout": "cards",
+      "title": "対応分野を数字で見る",
+      "cards": [
+        {
+          "big": "60以上",
+          "label": "対応データベース・コネクタ数",
+          "text": "ゲノミクス・シングルセル解析等"
+        },
+        {
+          "big": "50件",
+          "label": "クレジット支援の対象プロジェクト数",
+          "text": "選定制"
+        },
+        {
+          "big": "最大3万ドル",
+          "label": "1件あたりのクレジット額",
+          "text": "生物医学研究分野が当初対象"
+        }
+      ],
+      "note": "対応分野の広さと支援規模を数字で見ます。60以上のデータベース連携は幅広い研究分野をカバーしています。",
+      "source": "Anthropic公式 https://www.anthropic.com/news/claude-science-ai-workbench"
+    },
+    {
+      "layout": "bullets",
+      "title": "誰が使えるのか",
+      "bullets": [
+        "Claude Pro・Max・Team・Enterpriseの全有料契約者が対象",
+        "追加契約なしで既存プランの範囲内で利用可能",
+        "科学分野(ゲノミクス・プロテオミクス・構造生物学・ケモインフォマティクス等)向け"
+      ],
+      "note": "利用対象を紹介します。すでにClaudeの有料プランを使っている人はそのまま試せる点がポイントです。",
+      "source": "TechTimes https://www.techtimes.com/articles/319439/20260701/anthropic-launches-claude-science-ai-workbench-open-all-paid-subscribers.htm"
+    },
+    {
+      "layout": "bullets",
+      "title": "クレジット支援プログラム",
+      "bullets": [
+        "選定された50件の研究プロジェクトに最大3万ドルのクレジットを提供",
+        "当初は生物医学研究分野の大学院生・博士研究員(ポスドク)が対象",
+        "応募方法・選定基準の詳細は本調査では未確認"
+      ],
+      "note": "研究者向けの支援プログラムの内容を紹介します。ただし応募方法など詳細は不明である旨を伝えます。",
+      "source": "Anthropic公式 https://www.anthropic.com/news/claude-science-ai-workbench"
+    },
+    {
+      "layout": "bullets",
+      "title": "不明な点(正直に)",
+      "bullets": [
+        "パブリックベータの終了時期・正式版への移行時期",
+        "日本国内の研究者への具体的な展開状況・日本語対応の詳細",
+        "クレジット提供の応募方法・選定基準の詳細"
+      ],
+      "note": "調査で分からなかった点を正直に伝えます。日本の研究者にとって気になる点が中心です。"
+    },
+    {
+      "layout": "cta",
+      "heading": "まとめ: 研究者の作業環境を一本化する試み",
+      "sub": "複数ツールを行き来する非効率を解消する動きとして、他分野への応用可能性にも注目したい",
+      "action": "次のアクション: 対象分野の研究者は、既存のClaude有料プランでClaude Scienceを試してみる",
+      "note": "今日の内容をまとめます。研究支援という文脈でも意義のある取り組みだと伝えて締めくくります。"
+    }
+  ]
+}

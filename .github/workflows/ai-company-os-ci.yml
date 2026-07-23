@@ -45,10 +45,14 @@ jobs:
       - name: Build sample deck, verify, and export script (end-to-end pipeline)
         run: |
           python scripts/build_deck.py templates/deck_spec_example.json /tmp/sample-deck.pptx
-          python scripts/verify_pptx.py /tmp/sample-deck.pptx --min-slides 12 --max-slides 12
+          python scripts/verify_pptx.py /tmp/sample-deck.pptx --min-slides 14 --max-slides 14
           python scripts/export_script.py templates/deck_spec_example.json /tmp/sample-script.md
 
-      - name: generate_dialogue_script self-test and end-to-end pipeline
+      - name: generate_dialogue_script self-test and end-to-end pipeline (slide-linked mode)
         run: |
           python scripts/generate_dialogue_script.py --self-test
-          python scripts/generate_dialogue_script.py templates/dialogue_spec_example.json /tmp/sample-dialogue-script.md
+          python scripts/generate_dialogue_script.py templates/dialogue_spec_example.json \
+            /tmp/sample-dialogue-script.md --deck templates/dialogue_deck_spec_example.json
+
+      - name: synthesize_dialogue_audio self-test (offline logic only, no VOICEVOX Engine in CI)
+        run: python scripts/synthesize_dialogue_audio.py --self-test

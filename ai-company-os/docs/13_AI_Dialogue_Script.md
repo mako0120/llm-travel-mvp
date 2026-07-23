@@ -13,28 +13,55 @@
 (定期実行含む)では、`research.md` / `chatgpt_prompt.md` / `README.md` に加えて、
 `dialogue_spec.json` / `dialogue_script.md` も毎回作成する。
 
-- YouTube/Shorts向けのナレーション音声・字幕として使いたいとき
-- PowerPoint(方式A/B)に加えて、動画コンテンツとしても展開したいとき
+**2026-07-23の追加指示により、以後は必ずスライド連動モードを使う**(PowerPointの
+全30枚と対応させる)。フラットモードは、対話ナレーションだけを単独で求められた場合の
+補助手段とする。
 
-## 生成パイプライン
+- YouTube/Shorts向けのナレーション音声・字幕として使いたいとき
+- PowerPoint(方式A)に加えて、動画コンテンツとしても展開したいとき
+
+## 2つのモード
+
+- **フラットモード**(短いハイライト向け): 各幕に `lines` を直接書く。起承転結それぞれの
+  要点だけを短く紹介する台本になる。
+- **スライド連動モード**(2026-07-23〜、標準):PowerPoint(生成方式A)の`deck_spec.json`と
+  1対1で対応させ、**全スライドを漏れなく解説する**台本を作る。各幕に `slides`(スライド単位の
+  セグメント)を書き、各セグメントが `deck_spec.json` の特定のスライド番号(`slide`)に対応する。
+  `generate_dialogue_script.py --deck deck_spec.json` を指定すると:
+  - スライドの見出しを `deck_spec.json` から自動取得して原稿に表示する(見出しの二重管理が不要)
+  - 対話原稿がカバーするスライド数と `deck_spec.json` のスライド数が一致するか検証する
+  - 全幕を通じたスライド番号が 1 から始まる連番(抜け・重複・逆順なし)になっているか検証する
+
+  これにより、「PowerPointの何枚目を、対話のどの部分で説明しているか」が仕組みとして
+  保証される。30枚規模のデッキでも、1枚も取りこぼさず解説する台本を機械的に作れる。
+
+## 生成パイプライン(スライド連動モード)
 
 ```text
 ① 調査する      research.md に検証済み事実/推測/不明点を分けて記録する(既存フローと同じ)
-② 仕様を書く    templates/dialogue_spec_example.json を複製し、事実を「起承転結」の
-                4幕に配分した dialogue_spec.json を書く
-③ 生成する      python scripts/generate_dialogue_script.py dialogue_spec.json script.md
-④ 検品する      生成時のバリデーションで自動的に検査される(下記「検証項目」参照)
-⑤ 納品する      script.md をユーザーに送付する(SendUserFile)
+② デッキを作る  生成方式A(docs/04_PowerPoint.md)で deck_spec.json → .pptx を作成
+③ 仕様を書く    deck_spec.json の各スライドを1つずつ、起承転結のいずれかの幕に割り付け、
+                そのスライドの内容を2AIペルソナの掛け合いに変換した dialogue_spec.json を書く
+                (割り付けの目安は下表)
+④ 生成する      python scripts/generate_dialogue_script.py dialogue_spec.json script.md \
+                  --deck deck_spec.json
+⑤ 検品する      生成時のバリデーションで自動的に検査される(下記「検証項目」参照)
+⑥ 納品する      script.md をユーザーに送付する(SendUserFile)
 ```
 
-## 起承転結への事実の割り付け方
+短いハイライトだけで十分な場合は、従来通りフラットモード(`lines`)も使える。
 
-| 幕 | 出典 |
+## 起承転結への事実(スライド)の割り付け方
+
+| 幕 | 対応するスライドの内容 |
 |---|---|
-| 起(導入) | テーマの一言紹介・なぜ今扱うのか(`research.md`の調査目的相当) |
-| 承(展開) | `research.md`の「検証済み事実」 |
-| 転(転換) | `research.md`の「不明点」「見送った候補」「合理的推測」、反対意見・弱点 |
-| 結(結論) | まとめ・視聴者への示唆・次のアクション |
+| 起(導入) | 表紙・結論・なぜ今扱うのか・背景データ・時系列など、導入部のスライド群 |
+| 承(展開) | 基礎知識・用語解説・比較・具体的な数字・グラフなど、本編中心のスライド群 |
+| 転(転換) | 活用方法・成功/失敗パターン・注意点・反対意見や弱点のスライド群 |
+| 結(結論) | 今後の予測・CTA・出典一覧など、まとめのスライド群 |
+
+デッキの実際の構成に応じて、各幕に何枚割り付けるかは調整してよい(4幕である必要はあるが、
+各幕のスライド枚数は均等でなくてよい)。
 
 ## ペルソナ設計ルール
 
@@ -44,15 +71,56 @@
 - 「最強」「ヤバい」等の煽り表現を避け、事実を整理して伝えるトーンにする(参考にした
   チャンネルのスタンスを踏襲)
 
+## エンゲージメント設計ルール(離脱防止、2026-07-23〜)
+
+`research/2026-07-23_audience-retention-techniques.md` の調査に基づく。単独ナレーション
+動画のノウハウが中心のため、対話形式への適用は調査担当による応用であることに留意する。
+
+- **冒頭フック**: 起の最初の発言は挨拶・自己紹介にせず、フックになる問いかけや
+  驚きの一言にする(例: 「大手企業がAIエージェントの設計を4か月で2回作り直したらしい」)
+- **パターンインタラプト**: 「事実→相槌」の同じパターンを機械的に繰り返さない。
+  驚き・ツッコミ・問い直し・共感など、ナビAIの反応のトーンに意図的な起伏をつける
+- **見せる化**: 数字を話す行では、対応スライドの図解・グラフ・表を指す一言
+  (「グラフにするとこうです」等)を添え、聞くだけでなく見る動機を作る
+- **約束→提供→次の約束(オープンループ)**: 各幕の最後の発言は、単なるまとめで
+  終わらせず、次の幕への引きになる一言にする(例: 「ここまでが前提。ここからは
+  中身に入っていこう」)
+
 ## 検証項目(`generate_dialogue_script.py` がビルド時に強制)
 
 1. `meta.personas` が2人以上定義されている
 2. `acts` が「起・承・転・結」の4幕をこの順序ですべて含む
 3. 各行の `speaker` が `meta.personas` に定義された persona id である
 4. 各行の `text` が空でない
+5. (スライド連動モード)全幕を通じたスライド番号が 1 から始まる連番になっている
+   (抜け・重複・逆順を検出)
+6. (スライド連動モード、`--deck` 指定時)対話原稿がカバーするスライド数が
+   `deck_spec.json` の実際のスライド数と一致する
 
 上記に違反する仕様はビルド時にエラー終了し、修正箇所を一覧表示する。
-`python scripts/generate_dialogue_script.py --self-test` で検証ロジック自体を確認できる。
+`python scripts/generate_dialogue_script.py --self-test` で検証ロジック自体を確認できる
+(フラットモード・スライド連動モードの両方、および deck とのスライド数不一致の検出を含む)。
+
+## 音声化(TTS)する場合(2026-07-23〜、オーナー選定: VOICEVOX/AivisSpeech)
+
+`research/2026-07-23_tts-options.md` の比較検討を経て、VOICEVOX/AivisSpeechを試すことに
+なった。**ただし、Claude Codeのリモートセッションからは自分でVOICEVOX Engineを
+セルフホストできない**(Docker Hub・GitHub releasesへのアクセスがegressポリシーで
+ブロックされているため、実際に `dockerd` 起動・`docker pull voicevox/voicevox_engine`・
+`pip install`のいずれも試したが失敗を確認済み)。そのため、**オーナー自身のマシンで
+VOICEVOX(https://voicevox.hiroshiba.jp/ )を起動して実行する**運用とする。
+
+```text
+① オーナーの環境でVOICEVOXを起動する(デスクトップアプリ、またはVOICEVOX ENGINE単体)
+② 話者を確認する  python scripts/synthesize_dialogue_audio.py --list-speakers
+③ 音声化する      python scripts/synthesize_dialogue_audio.py dialogue_spec.json out.wav \
+                     --voice-map host=3,analyst=2
+```
+
+`synthesize_dialogue_audio.py` は dialogue_spec.json(フラット・スライド連動どちらの
+モードも対応)を読み、行ごとにVOICEVOX Engineの `/audio_query` → `/synthesis` を呼び出し、
+1本の`.wav`に結合する。エンジンに接続できない場合はエラーメッセージで起動を促す。
+`--self-test` でエンジンなしに検証できるロジック(仕様パース・WAV結合)のみ確認できる。
 
 ## PowerPoint方式との関係
 

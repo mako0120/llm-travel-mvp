@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "palette_preset": "slate_azure",
+    "footer": "出典: GitHub公式Changelog・TechTimes・AlphaSignal",
+    "title": "GitHub Copilot初のオープンウェイトモデル",
+    "font": "Yu Gothic"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "GitHub Copilotに\n初のオープンウェイトモデル",
+      "note": "表紙です。GitHub CopilotにMoonshot AI製のオープンウェイトモデルが初めて統合された件を紹介する回だと伝えます。",
+      "sub": "Kimi K2.7 Codeが変える、開発者の選択肢",
+      "footnote": "出典: GitHub公式Changelog・TechTimes・AlphaSignal(2026年7月22日調査)"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日の流れ",
+      "items": [
+        "何が発表されたのか",
+        "技術仕様を数字で見る",
+        "料金と対応プラン",
+        "5ラボ体制の全体像",
+        "不明点"
+      ],
+      "note": "今日扱う5つのトピックを紹介します。GitHub公式Changelogが一次情報です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回の結論",
+      "bullets": [
+        "2026年7月1日、Kimi K2.7 CodeがGitHub Copilotで一般提供(GA)開始",
+        "Copilotのモデル選択機能で選べる「初のオープンウェイトモデル」に",
+        "OpenAI・Anthropic・Google・Microsoft・Moonshot AIの「5ラボ体制」に"
+      ],
+      "note": "結論を3点で伝えます。オープンウェイトモデルが主要開発ツールに公式採用された点がポイントです。",
+      "source": "GitHub公式Changelog https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/"
+    },
+    {
+      "layout": "cards",
+      "title": "技術仕様を数字で見る",
+      "cards": [
+        {
+          "big": "1兆",
+          "label": "総パラメータ数",
+          "text": "Mixture-of-Experts(MoE)方式"
+        },
+        {
+          "big": "320億",
+          "label": "トークンごとの活性化パラメータ",
+          "text": "MoEにより効率的に稼働"
+        },
+        {
+          "big": "256K",
+          "label": "コンテキスト長",
+          "text": "長い文脈を扱える設計"
+        }
+      ],
+      "note": "Kimi K2.7 Codeの技術仕様を数字で見ます。MoE方式により効率的に大規模モデルを動かす設計です。",
+      "source": "Enterprise DNA https://enterprisedna.co/resources/news/kimi-k2-7-github-copilot-open-weight-enterprise-developers-2026/"
+    },
+    {
+      "layout": "bullets",
+      "title": "料金と対応プラン",
+      "bullets": [
+        "料金は入力100万トークンあたり0.95ドル",
+        "Copilot Pro・Pro+・Maxプランへの提供が開始",
+        "Business・Enterprise向けは今後数週間で展開予定"
+      ],
+      "note": "実際に使う際の料金とプラン対応を紹介します。出力側の料金は確認できていない点も後述します。",
+      "source": "TechTimes https://www.techtimes.com/articles/319556/20260702/open-weight-ai-enters-github-copilot-kimi-k27-code-costs-less-audits-differently.htm"
+    },
+    {
+      "layout": "bullets",
+      "title": "公開までのスピード",
+      "bullets": [
+        "Kimi K2.7 CodeはMicrosoft Azure上でGitHubがホスティング",
+        "Moonshot AIは、GAのわずか19日前にHugging Face上でモデルの重みを公開",
+        "オープンウェイト公開から主要ツールへの統合までが非常に速かった"
+      ],
+      "note": "オープンウェイト公開から統合までのスピード感を紹介します。19日という短さが注目ポイントです。",
+      "source": "ChatForest https://chatforest.com/builders-log/kimi-k2-7-code-github-copilot-ga-five-lab-roster-july-2026-builder-guide/"
+    },
+    {
+      "layout": "bullets",
+      "title": "5ラボ体制の全体像",
+      "bullets": [
+        "既存のOpenAI・Anthropic・Google・Microsoftに加え、Moonshot AIが追加",
+        "Copilotで選べるモデルの選択肢がさらに広がった",
+        "オープンウェイトモデルが選択肢に加わったのは今回が初めて"
+      ],
+      "note": "Copilotのモデル選択肢全体における今回の位置づけを紹介します。",
+      "source": "AlphaSignal https://alphasignal.ai/news/github-drops-moonshot-ai-s-open-weight-kimi-k2-7-into-copilot-s-model-picker"
+    },
+    {
+      "layout": "bullets",
+      "title": "不明な点(正直に)",
+      "bullets": [
+        "開発者コミュニティでの実際の採用率・利用実績",
+        "出力トークン側の料金(入力側のみ確認できている)",
+        "Business・Enterprise向け展開の正確な時期"
+      ],
+      "note": "調査で分からなかった点を正直に伝えます。実際にどれだけ使われているかはまだ分かりません。"
+    },
+    {
+      "layout": "cta",
+      "heading": "まとめ: 開発者の選択肢が広がった、オープンウェイトモデルの転機",
+      "sub": "オープンウェイトモデルが主要開発ツールに公式採用されたことは、実務での信頼性向上を示す一例",
+      "action": "次のアクション: Visual Studio CodeのCopilotモデル選択機能でKimi K2.7 Codeを試してみる",
+      "note": "今日の内容をまとめます。オープンウェイトモデルの実務採用という観点で締めくくります。"
+    }
+  ]
+}

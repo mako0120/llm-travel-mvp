@@ -1,6 +1,8 @@
 # 生成バイナリはコミットしない (docs/02_Architecture.md)
 assets/**/*.pptx
 assets/**/*.pdf
+# 例外: Notion添付(GitHub raw URL経由)用に明示的にコミットするデッキ本体 (docs/09_Notion.md)
+!assets/**/deck.pptx
 *.pyc
 __pycache__/
 .env

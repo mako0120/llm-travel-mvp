@@ -34,3 +34,13 @@ Metaverse Post、KuCoin、CryptoTimes、ChainCatcher、Decrypt、AMBCrypto。
 - 各媒体の記事本文には直接アクセスできず(403エラー)、検索エンジンの要約・引用
   経由での確認である旨を明記した
 - 公開・投稿はまだ行っていない
+
+## 追記(2026-07-23)
+
+オーナー指示により生成方式Aへ回帰し、実際に `.pptx` を生成した。
+
+| ファイル | 内容 |
+|---|---|
+| `deck_spec.json` | `build_deck.py` の入力仕様(本README・chatgpt_prompt.mdの内容を反映) |
+| `narration_script.md` | `export_script.py` で書き出した発表原稿 |
+| `.pptx` | 生成済み。verify_pptx.py 合格。バイナリのためリポジトリには未コミット、ユーザーに送付済み |

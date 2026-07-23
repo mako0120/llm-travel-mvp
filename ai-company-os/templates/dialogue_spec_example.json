@@ -5,39 +5,60 @@
       { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
       { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
     ],
+    "deck_spec": "dialogue_deck_spec_example.json",
     "sources": ["https://example.com/source-1", "https://example.com/source-2"]
   },
   "acts": [
     {
       "act": "起",
       "label": "導入",
-      "lines": [
-        { "speaker": "host", "text": "今日はAIエージェントのコストについて話したいんだけど、実際どのくらいかかるものなの？" },
-        { "speaker": "analyst", "text": "実はモデル単価だけで決まらない、という調査結果が出ています。今日はその中身を見ていきましょう。" }
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "今日はAIエージェントのコストについて話したいんだけど、実際どのくらいかかるものなの？" },
+            { "speaker": "analyst", "text": "実はモデル単価だけで決まらない、という調査結果が出ています。今日はその中身を見ていきましょう。" }
+          ]
+        }
       ]
     },
     {
       "act": "承",
       "label": "展開",
-      "lines": [
-        { "speaker": "analyst", "text": "ある調査では、オーケストレーション設計を変えるだけでトークン消費が約4割減ったと報告されています。", "source": "https://example.com/source-1" },
-        { "speaker": "host", "text": "モデルを変えなくても、それだけ変わるんだ。" }
+      "slides": [
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "ある調査では、オーケストレーション設計を変えるだけでトークン消費が約4割減ったと報告されています。", "source": "https://example.com/source-1" },
+            { "speaker": "host", "text": "モデルを変えなくても、それだけ変わるんだ。" }
+          ]
+        }
       ]
     },
     {
       "act": "転",
       "label": "転換",
-      "lines": [
-        { "speaker": "host", "text": "でも、これって自社研究の結果だよね？第三者の検証はあるの？" },
-        { "speaker": "analyst", "text": "その通りで、現時点では独立した第三者検証は確認できていません。ここは正直に「不明」として扱うべきポイントです。", "source": "https://example.com/source-2" }
+      "slides": [
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "でも、これって自社研究の結果だよね？第三者の検証はあるの？" },
+            { "speaker": "analyst", "text": "その通りで、現時点では独立した第三者検証は確認できていません。ここは正直に「不明」として扱うべきポイントです。", "source": "https://example.com/source-2" }
+          ]
+        }
       ]
     },
     {
       "act": "結",
       "label": "結論",
-      "lines": [
-        { "speaker": "analyst", "text": "つまり、モデル選びだけでなく設計そのものを見直す価値がある、というのが今日の結論です。" },
-        { "speaker": "host", "text": "自社のエージェント設計を振り返るきっかけになりそうだね。" }
+      "slides": [
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "つまり、モデル選びだけでなく設計そのものを見直す価値がある、というのが今日の結論です。" },
+            { "speaker": "host", "text": "自社のエージェント設計を振り返るきっかけになりそうだね。" }
+          ]
+        }
       ]
     }
   ]

@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "palette_preset": "slate_azure",
+    "footer": "出典: OpenAI公式ヘルプセンター・ITmedia NEWS・INTERNET Watch",
+    "title": "ChatGPT Atlas終了、公開から1年足らず",
+    "font": "Yu Gothic"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "ChatGPT Atlas終了\n公開から1年足らず",
+      "note": "表紙です。OpenAIのAI内蔵ブラウザ「ChatGPT Atlas」が公開から1年足らずで終了する件を紹介する回だと伝えます。",
+      "sub": "専用ブラウザという形態は、なぜ短命に終わったのか",
+      "footnote": "出典: OpenAI公式ヘルプセンター・ITmedia NEWS・INTERNET Watch(2026年7月21日調査)"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日の流れ",
+      "items": [
+        "何が発表されたのか",
+        "タイムラインを数字で見る",
+        "廃止の理由",
+        "機能はどこへ移るのか",
+        "ユーザーへの影響"
+      ],
+      "note": "今日扱う5つのトピックを紹介します。特にユーザーが今何をすべきかにも触れます。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回の結論",
+      "bullets": [
+        "OpenAIがAI内蔵ブラウザ「ChatGPT Atlas」を2026年8月9日に終了すると発表",
+        "Atlasは2025年10月公開で、終了時点で1年足らず",
+        "機能自体はChatGPT本体とCodexに移管される"
+      ],
+      "note": "結論を3点で伝えます。サービス終了ですが、機能そのものは他の場所に引き継がれる点がポイントです。",
+      "source": "OpenAI公式ヘルプセンター https://help.openai.com/ja-jp/articles/20001371"
+    },
+    {
+      "layout": "bar_chart",
+      "title": "Atlasの公開期間",
+      "categories": [
+        "公開(2025年10月)",
+        "終了予定(2026年8月9日)"
+      ],
+      "series": {
+        "name": "経過月数(目安)",
+        "values": [
+          0,
+          10
+        ]
+      },
+      "note": "Atlasの公開から終了までの期間をイメージで示すグラフです。1年足らずという短さを視覚的に伝えます。",
+      "source": "OpenAI公式ヘルプセンター https://help.openai.com/ja-jp/articles/20001371",
+      "number_format": "0"
+    },
+    {
+      "layout": "bullets",
+      "title": "廃止の理由",
+      "bullets": [
+        "ブラウザ由来のエージェント機能を、ChatGPT本体とCodexに移管するため",
+        "専用ブラウザという「器」を維持するより、既存アプリへの統合を選んだ形",
+        "OpenAI公式ヘルプセンターで説明されている"
+      ],
+      "note": "なぜ終了するのか、公式説明を紹介します。機能移管が理由であり、単純な失敗ではないという説明です。",
+      "source": "OpenAI公式ヘルプセンター https://help.openai.com/ja-jp/articles/20001371"
+    },
+    {
+      "layout": "bullets",
+      "title": "機能はどこへ移るのか",
+      "bullets": [
+        "新しいChatGPTデスクトップアプリの内蔵ブラウザに統合",
+        "ChatGPT公式のChrome拡張機能にも機能が移される",
+        "ブラウジング機能自体が消滅するわけではない"
+      ],
+      "note": "Atlas終了後、同等の機能をどこで使えるようになるかを紹介します。",
+      "source": "OpenAI公式ヘルプセンター https://help.openai.com/ja-jp/articles/20001371"
+    },
+    {
+      "layout": "bullets",
+      "title": "ユーザーへの影響と注意点",
+      "bullets": [
+        "ブックマークは自動移行されない",
+        "Cookie・ログインセッションも他ブラウザにインポートできない",
+        "8月9日より前に、手動でのエクスポート・ログイン情報確認が必要"
+      ],
+      "note": "Atlasを実際に使っているユーザーが今すぐ確認すべき注意点を伝えます。",
+      "source": "ケータイWatch https://k-tai.watch.impress.co.jp/docs/news/2124737.html"
+    },
+    {
+      "layout": "bullets",
+      "title": "不明な点(正直に)",
+      "bullets": [
+        "Atlasの利用者数・利用実態は公式発表からは不明",
+        "終了決定に至った具体的な内部要因(利用者数低迷か戦略転換か)は不明"
+      ],
+      "note": "調査で分からなかった点を正直に伝えます。終了の背景にある本当の理由は公式には明かされていません。"
+    },
+    {
+      "layout": "bullets",
+      "title": "反対意見・弱点",
+      "bullets": [
+        "「機能移管」という説明は公式見解であり、それ以外の要因を排除するものではない",
+        "専用ブラウザという発想自体が時期尚早だった可能性も、メディアでは論評されている",
+        "この論評はメディアの見立てであり、OpenAI公式の見解ではない"
+      ],
+      "note": "公式説明をそのまま受け取るだけでなく、メディアの論評も紹介しつつ、それが推測であることを明記します。"
+    },
+    {
+      "layout": "cta",
+      "heading": "まとめ: 専用アプリより既存ツールへの統合という流れ",
+      "sub": "AIエージェント機能は、新しい器を作るより既存アプリに統合する方が実用的、という一つの学びとして見ることができる",
+      "action": "次のアクション: Atlas利用者は8月9日までにブックマーク・ログイン情報を確認する",
+      "note": "今日の内容をまとめます。AIプロダクトの設計を考える上でも参考になる事例だと伝えます。"
+    }
+  ]
+}

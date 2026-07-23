@@ -11,6 +11,8 @@
 | `youtube_assets.md` | 長尺タイトル10件・サムネ文言・概要欄・チャプター・Shorts台本3本 |
 | `canva_brief.md` | Canva移植仕様(templates/canva_brief_template.md準拠) |
 | `risk-and-quality-review.md` | 著作権・安全性チェック、品質自己評価(85/100点)、既知の制限 |
+| `dialogue_spec.json` | AI対話ナレーション形式・スライド連動モード(`docs/13_AI_Dialogue_Script.md`)。30枚全スライドを2AIペルソナが起承転結で解説する仕様(2026-07-23追加) |
+| `dialogue_script.md` | 上記から生成した対話ナレーション原稿(30スライド、目安約12分)。`--deck deck_spec.json`で見出し自動取得・スライド数の整合性を検証済み |
 
 テーマ選定の経緯・評価表は `research/2026-07-21_theme-evaluation.md` を参照。
 

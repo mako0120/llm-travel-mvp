@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "palette_preset": "forest_sand",
+    "footer": "出典: Variety・TechCrunch",
+    "title": "AI作曲Suno、急成長と著作権問題",
+    "font": "Yu Gothic"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "AI作曲Suno、急成長と著作権問題",
+      "note": "表紙です。AI音楽生成企業Sunoの急成長と、同時に抱える著作権問題について紹介する回だと伝えます。",
+      "sub": "評価額54億ドルへ。急成長の裏にある訴訟の行方",
+      "footnote": "出典: Variety・TechCrunch(2026年7月21日調査)"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日の流れ",
+      "items": [
+        "資金調達を数字で見る",
+        "評価額の急上昇",
+        "会員数・収益の実績",
+        "著作権をめぐる対立と和解",
+        "今後の注目点"
+      ],
+      "note": "今日扱う5つのトピックを紹介します。成長の数字と、法的な論点の両方を扱います。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回の結論",
+      "bullets": [
+        "Sunoが2026年6月、Series Dラウンドで4億ドルを調達し評価額54億ドルに到達",
+        "2026年2月時点で有料会員200万人・ARR3億ドルを達成",
+        "一方でユニバーサル・ソニー・GEMAとの法的措置は継続中"
+      ],
+      "note": "結論を3点で伝えます。急成長と法的リスクが同時進行している点がポイントです。",
+      "source": "Variety https://variety.com/2026/digital/news/ai-music-suno-funding-round-400-million-5-4-billion-valuation-1236765727/"
+    },
+    {
+      "layout": "cards",
+      "title": "成長を数字で見る",
+      "cards": [
+        {
+          "big": "54億ドル",
+          "label": "最新の評価額",
+          "text": "約7か月前の24.5億ドルから大幅上昇"
+        },
+        {
+          "big": "200万人",
+          "label": "有料会員数",
+          "text": "2026年2月時点(TechCrunch報道)"
+        },
+        {
+          "big": "3億ドル",
+          "label": "年間経常収益(ARR)",
+          "text": "同時点での実績"
+        }
+      ],
+      "note": "Sunoの成長スピードを数字で見ます。評価額・会員数・収益のいずれも急速に伸びています。",
+      "source": "Variety https://variety.com/2026/digital/news/ai-music-suno-funding-round-400-million-5-4-billion-valuation-1236765727/"
+    },
+    {
+      "layout": "bar_chart",
+      "title": "評価額の推移",
+      "categories": [
+        "約7か月前",
+        "2026年6月"
+      ],
+      "series": {
+        "name": "評価額(億ドル)",
+        "values": [
+          24.5,
+          54
+        ]
+      },
+      "note": "評価額が7か月ほどで倍以上になったことをグラフで見ます。急成長ぶりが分かります。",
+      "source": "Variety https://variety.com/2026/digital/news/ai-music-suno-funding-round-400-million-5-4-billion-valuation-1236765727/",
+      "number_format": "0.0"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回の資金調達の顔ぶれ",
+      "bullets": [
+        "Bond Capitalが主導",
+        "IVP・Forerunner・Union Square Ventures・Alkeon Capital・Quietが新規参加",
+        "既存投資家のMatrix・Lightspeed・Menlo Ventures・Schroders Capitalも参加"
+      ],
+      "note": "どんな投資家が参加したかを紹介します。著名なベンチャーキャピタルが名を連ねています。",
+      "source": "Variety https://variety.com/2026/digital/news/ai-music-suno-funding-round-400-million-5-4-billion-valuation-1236765727/"
+    },
+    {
+      "layout": "bullets",
+      "title": "著作権をめぐる対立と和解",
+      "bullets": [
+        "ユニバーサルミュージックグループ・ソニー・独GEMAが法的措置を継続中",
+        "一方、ワーナーミュージックグループは2025年11月に和解しライセンス契約を締結",
+        "業界内でも対応が分かれている状況"
+      ],
+      "note": "訴訟だけでなく、和解して協業する動きもある点を伝えます。業界内の対応が一枚岩ではないことがポイントです。",
+      "source": "TechCrunch https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/"
+    },
+    {
+      "layout": "bullets",
+      "title": "不明な点(正直に)",
+      "bullets": [
+        "「7か月前」の評価額(24.5億ドル)の正確な発表日は未特定",
+        "訴訟の現在の進行状況・和解の可能性は不明",
+        "日本国内でのSuno利用状況・著作権上の扱いは未確認"
+      ],
+      "note": "調査で分からなかった点を正直に伝えます。訴訟の帰趨は今後も注視が必要です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "反対意見・弱点",
+      "bullets": [
+        "評価額の急上昇は、訴訟リスクを投資家が過小評価している可能性も指摘できる",
+        "AI生成楽曲の権利関係は業界全体でもまだ定まっていない",
+        "急成長企業ゆえの持続可能性は未知数"
+      ],
+      "note": "良いニュースだけでなく、リスク面にも触れます。評価額と訴訟リスクのバランスをどう見るかは意見が分かれます。"
+    },
+    {
+      "layout": "cta",
+      "heading": "まとめ: 急成長と法的リスクは表裏一体",
+      "sub": "AIコンテンツ生成サービスを評価する際は、成長指標だけでなく権利関係の状況も合わせて見る視点が重要",
+      "action": "次のアクション: 自分が使うAI音楽ツールの利用規約・著作権の扱いを確認する",
+      "note": "今日の内容をまとめます。急成長企業を見る際は、数字だけでなく法的リスクにも目を向ける視点を持ち帰ってもらいます。"
+    }
+  ]
+}

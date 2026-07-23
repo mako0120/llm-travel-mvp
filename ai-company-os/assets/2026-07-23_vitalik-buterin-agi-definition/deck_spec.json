@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "palette_preset": "slate_azure",
+    "footer": "出典: Metaverse Post・KuCoin・CryptoTimes・Decrypt(本人の見解として扱う)",
+    "title": "Vitalik Buterin氏の新しいAGI定義(個人の見解)",
+    "font": "Yu Gothic"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "人類が消えても\n文明は続くか",
+      "note": "表紙です。Ethereum共同創設者Vitalik Buterin氏がXで示したAGIの新しい定義について紹介する回だと伝えます。個人の見解である旨を最初に明示します。",
+      "sub": "Vitalik Buterin氏がXで示した、新しいAGIの定義",
+      "footnote": "出典: Metaverse Post・KuCoin・CryptoTimes・Decrypt等(2026年7月23日調査)\n本人の見解として扱い、断定表現は避けています"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日の流れ",
+      "items": [
+        "何が投稿されたのか",
+        "AGIの定義を見る",
+        "AI進化の3つの波",
+        "リスクへの対応策",
+        "この議論をどう受け止めるか"
+      ],
+      "note": "今日扱う5つのトピックを紹介します。個人の見解として扱う姿勢を継続して伝えます。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回の結論(あくまで本人の見解)",
+      "bullets": [
+        "Ethereum共同創設者Vitalik Buterin氏が2026年7月20日、Xで独自のAGI定義を提示",
+        "機械の能力進化を「3つの波」に分類",
+        "AGIリスクへの対応策として「人間と機械の統合」を提案"
+      ],
+      "note": "結論を3点で伝えますが、いずれも本人の個人的な見解であることを強調します。",
+      "source": "Metaverse Post https://mpost.io/vitalik-buterin-maps-ai-progress-through-three-waves-and-questions-whether-llms-can-capture-all-human-capabilities/"
+    },
+    {
+      "layout": "quote",
+      "quote": "もしロボットの身体にアップロードされ、全人類が突然消滅したとしても、そのAIが独立して文明を維持・発展させられるほど強力であること",
+      "attribution": "Vitalik Buterin氏(2026年7月20日、X投稿の要約)",
+      "note": "Buterin氏が示したAGIの定義を紹介します。極端な思考実験ですが、直感的な区別を捉えている点がポイントです。"
+    },
+    {
+      "layout": "steps",
+      "title": "AI進化の3つの波",
+      "steps": [
+        {
+          "label": "①産業革命",
+          "text": "身体的な反復労働の自動化"
+        },
+        {
+          "label": "②コンピュータ時代",
+          "text": "論理で定義可能な知的作業"
+        },
+        {
+          "label": "③LLM時代",
+          "text": "大量データによる知的+一部身体的作業"
+        }
+      ],
+      "note": "Buterin氏による機械能力の進化の整理を紹介します。現在地がLLM時代である、という位置づけです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "リスクへの対応策: 人間と機械の統合",
+      "bullets": [
+        "脳とコンピュータのインターフェース(BCI)や意識のアップロードといった技術を想定",
+        "人類が競争力を保つための戦略として提示",
+        "具体的な技術的実現可能性・時期は不明"
+      ],
+      "note": "Buterin氏が提案するリスク対応策を紹介します。かなり先進的な提案であり、実現性は不明である点を伝えます。",
+      "source": "CryptoTimes https://www.cryptotimes.io/2026/07/20/vitalik-buterin-explores-ai-capability-waves-deeper-human-machine-integration/"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜこれだけ話題になったのか",
+      "bullets": [
+        "KuCoin・Metaverse Post・CryptoTimes・ChainCatcher・Decrypt・AMBCrypto等、多数の独立系メディアが一斉に取り上げた",
+        "著名な公人(Ethereum共同創設者)による発信という点も注目度を高めた",
+        "Decrypt等は「AGI開発競争へのEthereum主導の代替案」という文脈でも報道"
+      ],
+      "note": "なぜこの投稿がここまで話題になったのかを紹介します。多くの独立系メディアが取り上げた点が根拠です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "不明な点(正直に)",
+      "bullets": [
+        "Buterin氏自身のX投稿本文への直接アクセスはできておらず、報道機関の要約経由の確認",
+        "この定義が学術的・業界的にどの程度受け入れられているかは不明",
+        "「人間と機械の統合」提案の技術的実現可能性・時期は不明"
+      ],
+      "note": "調査で分からなかった点を正直に伝えます。本人の投稿本文自体を確認できていない点は重要な留保です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "反対意見・弱点",
+      "bullets": [
+        "測定しづらい定義であり、学術的なコンセンサスがあるわけではない",
+        "暗号資産業界の著名人の発言であり、AI研究の専門家としての見解ではない",
+        "断定的な結論を持つべきテーマではなく、あくまで一つの視点として受け止めるべき"
+      ],
+      "note": "この定義を絶対視しないよう注意を促します。あくまで一つの論点提起として扱う姿勢を伝えます。"
+    },
+    {
+      "layout": "cta",
+      "heading": "まとめ: 答えの出ない問いを、みんなで考えるきっかけに",
+      "sub": "AGIの定義に唯一の正解はまだない。様々な立場からの提案を知ることが、自分なりの理解を深める一歩になる",
+      "action": "次のアクション: 他の研究者・企業によるAGI定義も調べて比較してみる",
+      "note": "今日の内容をまとめます。結論を急がず、多様な視点を知ることの価値を伝えて締めくくります。"
+    }
+  ]
+}

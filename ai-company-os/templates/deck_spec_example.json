@@ -16,7 +16,7 @@
       "heading": "伝わるAI教材は、\n構成が9割。",
       "sub": "AI教材づくり 5つの基本 — build_deck.py 動作確認用サンプル",
       "footnote": "このデッキは全レイアウトの動作確認用サンプルです。数値はダミーです。",
-      "note": "これは build_deck.py のサンプルデッキです。全12種類のレイアウト(title / bullets / cards / steps / agenda / comparison / table / quote / bar_chart / line_chart / pie_chart / cta)を1枚ずつ使い、パイプラインの動作確認とレイアウトのプレビューを兼ねています。実制作ではこのJSONをコピーして書き換えてください。"
+      "note": "これは build_deck.py のサンプルデッキです。全14種類のレイアウト(title / bullets / cards / steps / agenda / comparison / table / quote / bar_chart / line_chart / pie_chart / cta / big_stat / diagram)を1枚ずつ使い、パイプラインの動作確認とレイアウトのプレビューを兼ねています。実制作ではこのJSONをコピーして書き換えてください。"
     },
     {
       "layout": "bullets",
@@ -125,6 +125,25 @@
       "number_format": "0%",
       "source": "サンプル(ダミー数値)",
       "note": "pie_chart レイアウトの例です。構成比を見せたいときに使います。カテゴリが5個を超えると読みにくくなるため、多い場合はcardsやtableへの言い換えを検討してください。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "受講者アンケートより(ダミー)",
+      "stat": "92%",
+      "caption": "「実際に手を動かして理解できた」と回答(ダミー数値)",
+      "source": "サンプル(ダミー数値)",
+      "note": "big_stat レイアウトの例です。1スライド1つの数字だけに焦点を当てたいときに使います。bulletsで数字を並べるより、印象に残る見せ方になります。"
+    },
+    {
+      "layout": "diagram",
+      "title": "教材が学習者に届くまで(概念図)",
+      "nodes": [
+        { "label": "構成を書く", "sublabel": "deck_outline_template.md" },
+        { "label": "JSON化する", "sublabel": "deck_spec.json" },
+        { "label": "生成・検品", "sublabel": "build_deck.py / verify_pptx.py" }
+      ],
+      "caption": "3つの工程を経て、教材が完成する",
+      "note": "diagram レイアウトの例です。概念同士のつながりや流れを、箇条書きではなく矢印でつないだ図として見せたいときに使います。ノードは2〜4個が目安です。"
     },
     {
       "layout": "cta",
