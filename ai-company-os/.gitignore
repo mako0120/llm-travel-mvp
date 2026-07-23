@@ -1,0 +1,7 @@
+# 生成バイナリはコミットしない (docs/02_Architecture.md)
+assets/**/*.pptx
+assets/**/*.pdf
+*.pyc
+__pycache__/
+.env
+.env.*

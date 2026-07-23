@@ -1,0 +1,54 @@
+name: AI Company OS CI
+
+# ai-company-os/ 配下の変更時のみ実行。アプリ本体の CI (ci.yml) には影響しない。
+on:
+  pull_request:
+    paths:
+      - "ai-company-os/**"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ai-company-os
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check required docs (00-13)
+        run: |
+          missing=0
+          for f in 00_Mission 01_Core_Rules 02_Architecture 03_Development \
+                   04_PowerPoint 05_Canva "06_Content_R&D" 07_AI_Education \
+                   08_GitHub 09_Notion 10_Self_Improvement 11_Output_Format \
+                   12_Project_Rules 13_AI_Dialogue_Script; do
+            if [ ! -f "docs/${f}.md" ]; then
+              echo "MISSING: docs/${f}.md"
+              missing=1
+            fi
+          done
+          exit $missing
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install python-pptx
+        run: pip install python-pptx
+
+      - name: verify_pptx self-test
+        run: python scripts/verify_pptx.py --self-test
+
+      - name: Build sample deck, verify, and export script (end-to-end pipeline)
+        run: |
+          python scripts/build_deck.py templates/deck_spec_example.json /tmp/sample-deck.pptx
+          python scripts/verify_pptx.py /tmp/sample-deck.pptx --min-slides 12 --max-slides 12
+          python scripts/export_script.py templates/deck_spec_example.json /tmp/sample-script.md
+
+      - name: generate_dialogue_script self-test and end-to-end pipeline
+        run: |
+          python scripts/generate_dialogue_script.py --self-test
+          python scripts/generate_dialogue_script.py templates/dialogue_spec_example.json /tmp/sample-dialogue-script.md
