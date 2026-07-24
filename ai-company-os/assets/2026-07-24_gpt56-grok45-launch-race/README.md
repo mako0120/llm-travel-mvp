@@ -38,9 +38,18 @@
 | `youtube_assets.md` | YouTube/Shorts向けタイトル案・概要欄・タグ・章立て |
 | `canva_brief.md` | Canva移植ブリーフ(レイアウト対応表、`templates/canva_brief_template.md`準拠) |
 | `risk-and-quality-review.md` | 著作権・品質自己評価(100点満点中94点、85点以上のため修正不要) |
-| `thumbnail.png` | YouTubeサムネイル(1280×720、`build_thumbnail.py`で生成) |
-| `thumbnail_spec.json` | サムネイル生成仕様 |
-| `thumbnail_brief.md` | サムネイルのフック文言・設計根拠(`templates/thumbnail_brief_template.md`準拠) |
+| `thumbnail.png` | YouTubeサムネイル初期版(1280×720、`build_thumbnail.py`のPillow版、hypeスタイル) |
+| `thumbnail_spec.json` | 上記Pillow版の生成仕様 |
+| `thumbnail_brief.md` | サムネイルのフック文言・設計根拠(`templates/thumbnail_brief_template.md`準拠、Canva版の更新内容を含む) |
+
+### Canva版サムネイル(2026-07-24、標準ルートに移行後)
+
+- Canvaデザイン(編集可): https://www.canva.com/d/m7oxMv_9Q6ZFRsH
+- この環境からはCanvaの書き出しファイルを直接ダウンロード・コミットできない
+  (`design.canva.ai`/`export-download.canva.com`へのアクセスがネットワーク
+  ポリシーで403)ため、`thumbnail.png`はPillow版のまま据え置いている。
+  Canva版を正式ファイルにする場合は、オーナー側でCanvaからPNGをダウンロードし、
+  `thumbnail.png`を差し替えてコミットする運用とする
 
 ## 適用したルール
 
