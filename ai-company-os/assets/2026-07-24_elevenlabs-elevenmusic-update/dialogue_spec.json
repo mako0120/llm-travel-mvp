@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "title": "ElevenLabs「ElevenMusic」大型アップデート",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "DigitalToday(2026-07-23)",
+      "TechCrunch(2026-05-27)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "自分の声がそのまま歌になるって知ってた?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、2026年7月23日、ElevenLabsがAI音楽生成サービス「ElevenMusic」を大型アップデートしました。",
+              "source": "DigitalToday(2026-07-23)"
+            },
+            {
+              "speaker": "host",
+              "text": "声を使って歌を作れるようになったんだよね。今日はそこを見ていこう。"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日は4パートで話します。前提知識から始めます。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AI音楽生成は、テキストや音声の指示からAIが楽曲を作る技術。参照音声は、スタイルを指定するためのお手本です。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "何が起きたかを表にすると、ElevenLabsが7月23日、ReferencesとVocalsという2つの新機能を追加しました。",
+              "source": "DigitalToday(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "タイムラインにすると、5月にMusic v2モデルを発表し、6月にプレビュー、7月23日に正式追加という流れです。",
+              "source": "TechCrunch(2026-05-27)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "References機能は、参照音声をアップロードすると、その曲のスタイル・雰囲気に合わせて音楽を生成します。",
+              "source": "DigitalToday(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字で見ると「10秒〜5分」。参照音声として使える長さの範囲です。",
+              "source": "DigitalToday(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "グラフにすると、最短10秒から最長300秒までという幅が分かります。",
+              "source": "DigitalToday(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Vocals機能は、自分の声や音声ライブラリの声を使って、オリジナルの歌を生成します。",
+              "source": "DigitalToday(2026-07-23)"
+            },
+            {
+              "speaker": "host",
+              "text": "自分の声で歌を作れるのはすごいね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "2つの機能を表で比べると、Referencesはスタイル指定、Vocalsは歌声生成という役割分担です。",
+              "source": "DigitalToday(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "対比で見ると、Referencesは参照音声、Vocalsは声そのものを使うという違いがあります。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Vocalsの仕組みを図にすると、声を選び、著作権チェックを経て、楽曲が生成されます。",
+              "source": "DigitalToday(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Styles機能を表にすると、最新モデルのMusic v2に正式対応しました。",
+              "source": "TechCrunch(2026-05-27)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回のアップデート内容を一覧表にまとめました。References、Vocals、Stylesの3つです。",
+              "source": "DigitalToday(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "著作権チェックの仕組みをカードにすると、無断の声の利用や権利侵害を防ぐ対策と考えられます。",
+              "source": "DigitalToday(2026-07-23)"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが機能の話。ここからは、なぜ今このタイミングだったのかを考えてみよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直にお伝えすると、料金体系や音声ライブラリの詳細は今回の発表では確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ここからは推測ですが、理由を3つのカードに整理しました。利用の幅を広げる狙い、競合対応、段階的な機能拡張です。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回見送った候補も共有します。Netchexの「Mesh」です。日本での知名度が低いため見送りました。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、これが意味することは、音楽制作の民主化・声の活用範囲拡大・権利保護の重要性の3つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここから実践の話だね。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "これが意味するのは、自分の声や好きな曲の雰囲気をもとに曲を作れる選択肢が増えているということです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "試すなら確認したいことを3つのカードにしました。用途、参照音声の準備、著作権への配慮です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "実際に試す進め方は、目的を決める、素材を用意する、著作権を確認する、の3ステップが目安です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "個人にとっては、専門知識がなくてもAIでオリジナル曲を作れる時代になってきているということです。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直に言うと、料金体系や音声ライブラリの詳細は非公開です。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "リスク配慮のポイントを3つのカードにまとめました。事実紹介に徹すること、悪用方法には触れないこと、推測は明示することです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "検品結果を表にまとめました。すべて合格しています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典を再掲します。DigitalToch、TechCrunchほかです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、AI音楽生成が「作曲」から「歌声」まで対応範囲を広げているということです。"
+            },
+            {
+              "speaker": "host",
+              "text": "興味があれば、著作権に配慮しながら試してみるのがよさそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AI音楽生成・声の技術は今後も続くテーマです。次回も独立系メディアの報道をもとに紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

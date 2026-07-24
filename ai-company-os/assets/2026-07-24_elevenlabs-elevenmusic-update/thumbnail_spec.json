@@ -1,0 +1,13 @@
+{
+  "palette_preset": "impact_red",
+  "style": "hype",
+  "banner_text": "2026年7月23日発表",
+  "lines": [
+    {"text": "声が", "color": "white", "size": 80},
+    {"text": "歌になる", "color": "accent", "size": 96},
+    {"text": "ElevenMusic新機能", "color": "white", "size": 62}
+  ],
+  "avatar_label": "リサーチAI",
+  "tag": "AI/テック",
+  "footer": "AI Company OS"
+}
