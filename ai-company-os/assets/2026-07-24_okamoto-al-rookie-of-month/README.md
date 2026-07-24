@@ -67,8 +67,14 @@
 Canvaコネクタ経由(ルートA)での生成を試みたが、生成候補に文字化け(意味不明な
 漢字の組み合わせ)があり、修正操作中にCanva接続が切断されたため、
 `build_thumbnail.py`のPillow版(ルートB、hypeスタイル)に切り替えて完成させた。
-再生時間バッジは、この時点では音声が未生成のため省略している(CI完了後、
-実測値が判明次第追加する)。
+再生時間バッジは、CI完了後の実測値(4:40)に更新済み。
+
+## 生成完了(音声・動画)
+
+- `dialogue_audio.wav`: GitHub Actions(VOICEVOX)で生成済み、コミット済み
+- `slide_timings.json`: 音声と同時にGitHub Actionsで生成済み、コミット済み
+- `deck_narrated.mp4`: `build_narrated_video.py`で生成済み(30スライド、音声約4:40)。
+  チャットで送付済み(リポジトリには未コミット、生成バイナリのため)
 
 ## 注意
 
