@@ -1,7 +1,8 @@
 {
-  "palette_preset": "navy_gold",
-  "hook": "ザッカーバーグが動いた理由",
-  "stat_badge": "3年ぶり",
+  "palette_preset": "impact_red",
+  "style": "impact",
+  "hook": "3年ぶりに投稿",
+  "ribbon": "Meta新モデル発表",
   "tag": "AI/テック",
   "footer": "AI Company OS"
 }

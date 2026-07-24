@@ -1,7 +1,8 @@
 {
-  "palette_preset": "navy_gold",
+  "palette_preset": "impact_red",
+  "style": "impact",
   "hook": "1日違いで発表",
-  "stat_badge": "$2→$30",
+  "ribbon": "海外2社が同週発表",
   "tag": "AI/テック",
   "footer": "AI Company OS"
 }

@@ -91,6 +91,19 @@ PALETTE_PRESETS = {
         "muted": "5A6474",
         "card": "F1F5FA",
     },
+    # サムネイル専用の高インパクト配色(MrBeast等の分析: 赤×黄の補色関係が
+    # 視認性・緊急感を生む)。デッキ本体の落ち着いた配色とは目的が異なるため、
+    # thumbnail生成時のみ選択する想定(ai-company-os/docs/14_YouTube_Thumbnail.md)。
+    "impact_red": {
+        "primary": "C81E1E",
+        "primary_dark": "3A0A0A",
+        "base": "FFD400",
+        "base_soft": "FFE873",
+        "accent": "FFD400",
+        "ink": "1A0A0A",
+        "muted": "F2B705",
+        "card": "FFF3C4",
+    },
 }
 DEFAULT_PALETTE = PALETTE_PRESETS["navy_gold"]
 WHITE = RGBColor(0xFF, 0xFF, 0xFF)

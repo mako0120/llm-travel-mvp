@@ -1,7 +1,8 @@
 {
-  "palette_preset": "navy_gold",
-  "hook": "政府限定のAIモデル",
-  "stat_badge": "Gemini新発表",
+  "palette_preset": "impact_red",
+  "style": "impact",
+  "hook": "政府限定のAI",
+  "ribbon": "Google新モデル3種",
   "tag": "AI/テック",
   "footer": "AI Company OS"
 }

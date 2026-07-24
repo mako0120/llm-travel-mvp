@@ -20,7 +20,6 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-import textwrap
 from pathlib import Path
 
 try:
@@ -78,21 +77,29 @@ def _text_size(draw, text, f, stroke_width=0):
     return bbox[2] - bbox[0], bbox[3] - bbox[1]
 
 
-def _fit_headline(draw, text, max_width, max_lines=2, start_size=150, min_size=64, stroke_width=6):
-    """複数行に折り返しつつ、指定の幅に収まる最大のフォントサイズを探す。"""
+def _fit_headline(draw, text, max_width, max_lines=2, start_size=150, min_size=48, stroke_width=6):
+    """1行に収まる最大サイズを探し、収まらなければ文字数で均等に2分割する。
+    (textwrap.wrap は空白のない日本語を左詰めで機械的に割るため、「発表」のような
+    単語がまたがって不格好に割れることがあった。文字数の均等2分割に変更している)"""
     for size in range(start_size, min_size - 1, -4):
         f = font(size)
-        avg_char_w = _text_size(draw, "国", f, stroke_width)[0] or 1
-        wrap_chars = max(1, int(max_width / avg_char_w))
-        lines = textwrap.wrap(text, width=wrap_chars) or [text]
-        if len(lines) > max_lines:
-            continue
-        widths = [_text_size(draw, ln, f, stroke_width)[0] for ln in lines]
-        if max(widths) <= max_width:
-            return f, lines, size
+        w, _h = _text_size(draw, text, f, stroke_width)
+        if w <= max_width:
+            return f, [text], size
+
+    if max_lines >= 2 and len(text) >= 2:
+        split = (len(text) + 1) // 2
+        two_lines = [text[:split], text[split:]]
+        for size in range(start_size, min_size - 1, -4):
+            f = font(size)
+            widths = [_text_size(draw, ln, f, stroke_width)[0] for ln in two_lines]
+            if max(widths) <= max_width:
+                return f, two_lines, size
+        f = font(min_size)
+        return f, two_lines, min_size
+
     f = font(min_size)
-    lines = textwrap.wrap(text, width=max(1, len(text) // max_lines + 1)) or [text]
-    return f, lines[:max_lines], min_size
+    return f, [text], min_size
 
 
 def rounded_rect(draw, xy, radius, fill=None, outline=None, width=1):
@@ -114,13 +121,46 @@ def draw_accent_icon(draw, cx, cy, r, color):
         draw.ellipse([px - rad, py - rad, px + rad, py + rad], fill=color)
 
 
+def draw_burst(draw, cx, cy, r_in, r_out, color, n=16):
+    """顔の代わりに視線を集める、漫画的な「衝撃線」(放射状バースト)を描く。
+    実在の人物・表情の代わりに、抽象図形だけで視覚的なインパクトを出す。"""
+    import math
+    for i in range(n):
+        a0 = math.radians(360 / n * i)
+        a1 = math.radians(360 / n * (i + 0.5))
+        p0 = (cx + r_in * math.cos(a0), cy + r_in * math.sin(a0))
+        p1 = (cx + r_out * math.cos(a1), cy + r_out * math.sin(a1))
+        p2 = (cx + r_in * math.cos(a0 + math.radians(360 / n)), cy + r_in * math.sin(a0 + math.radians(360 / n)))
+        draw.polygon([p0, p1, p2], fill=color)
+
+
+def draw_ribbon(draw, text, f, pal, corner="top-left"):
+    """参考にした高インパクト系サムネイルの「斜め帯バナー」を再現する。
+    誇張・未確認情報ではなく、事実の要約のみを短く載せる想定。"""
+    band_img = Image.new("RGBA", (620, 90), (0, 0, 0, 0))
+    bdraw = ImageDraw.Draw(band_img)
+    bdraw.rectangle([0, 15, 620, 75], fill=(*pal["accent"], 255))
+    tw, th = _text_size(bdraw, text, f, stroke_width=2)
+    bdraw.text(((620 - tw) // 2, 15 + (60 - th) // 2 - 4), text, font=f,
+                fill=pal["primary_dark"], stroke_width=2, stroke_fill=pal["accent"])
+    rotated = band_img.rotate(-14, expand=True, resample=Image.BICUBIC)
+    return rotated
+
+
 def build_thumbnail(spec: dict, out_path: str):
+    style = spec.get("style", "standard")  # "standard" or "impact"
     pal = palette(spec.get("palette_preset", "navy_gold"))
     img = Image.new("RGB", (W, H), pal["primary_dark"])
     draw = ImageDraw.Draw(img)
 
-    # 背景: 斜めの2トーン分割(単色より視覚的な奥行きを出しつつ、要素は増やさない)
-    draw.polygon([(0, 0), (W, 0), (W, H * 0.55), (0, H)], fill=pal["primary"])
+    if style == "impact":
+        # インパクト重視レイアウト(参考: 赤×黄の高コントラスト・放射状バースト・
+        # 斜め帯バナー)。出典: ai-company-os/research/2026-07-24_youtube-thumbnail-best-practices.md
+        draw_burst(draw, W * 0.5, H * 0.42, 90, 900, pal["primary"], n=20)
+        draw.ellipse([W * 0.5 - 260, H * 0.42 - 260, W * 0.5 + 260, H * 0.42 + 260], fill=pal["primary"])
+    else:
+        # 背景: 斜めの2トーン分割(単色より視覚的な奥行きを出しつつ、要素は増やさない)
+        draw.polygon([(0, 0), (W, 0), (W, H * 0.55), (0, H)], fill=pal["primary"])
 
     # 下部の帯(カテゴリタグ + フッター、細く控えめに)
     band_h = 74
@@ -133,12 +173,19 @@ def build_thumbnail(spec: dict, out_path: str):
     fw, _ = _text_size(draw, footer, footer_font)
     draw.text((W - fw - 36, H - band_h + 24), footer, font=footer_font, fill=pal["primary_dark"])
 
-    # 抽象アイコン(右上、ロゴではなく「つながり」を示す図形のみ)
-    draw_accent_icon(draw, W - 110, 110, 56, pal["base_soft"])
+    if style != "impact":
+        # 抽象アイコン(右上、ロゴではなく「つながり」を示す図形のみ)
+        draw_accent_icon(draw, W - 110, 110, 56, pal["base_soft"])
 
-    # 数字バッジ(任意、左上に角丸ボックスで表示)
+    # 斜め帯バナー(任意、事実の短い要約のみ。誇張・未確認の煽り文句は使わない)
+    ribbon_text = spec.get("ribbon")
+    if ribbon_text:
+        ribbon_img = draw_ribbon(draw, ribbon_text, font(30), pal)
+        img.paste(ribbon_img, (-40, -10), ribbon_img)
+
+    # 数字バッジ(任意、左上に角丸ボックスで表示。ribbonと併用しない)
     stat = spec.get("stat_badge")
-    if stat:
+    if stat and not ribbon_text:
         badge_font = font(56)
         bw, bh = _text_size(draw, stat, badge_font, stroke_width=3)
         pad_x, pad_y = 34, 22
@@ -150,17 +197,24 @@ def build_thumbnail(spec: dict, out_path: str):
     # メインフック(最大2行、太字相当はstroke_widthで表現)
     hook = spec["hook"]
     max_w = W - 100
-    stat_offset = 150 if stat else 60
-    f, lines, size = _fit_headline(draw, hook, max_w, max_lines=2, stroke_width=8)
+    top_offset = 230 if ribbon_text else (190 if stat else 60)
+    stroke_w = 12 if style == "impact" else 8
+    f, lines, size = _fit_headline(draw, hook, max_w, max_lines=2, stroke_width=stroke_w,
+                                    start_size=170 if style == "impact" else 150)
     line_h = int(size * 1.18)
     total_h = line_h * len(lines)
-    y0 = max(stat_offset, (H - band_h - total_h) // 2 + 20)
+    y0 = max(top_offset, (H - band_h - total_h) // 2 + 20)
+    text_fill = pal["base"] if style != "impact" else pal["base"]
     for i, ln in enumerate(lines):
-        lw, lh = _text_size(draw, ln, f, stroke_width=8)
+        lw, lh = _text_size(draw, ln, f, stroke_width=stroke_w)
         x = (W - lw) // 2
         y = y0 + i * line_h
-        draw.text((x, y), ln, font=f, fill=pal["base"],
-                   stroke_width=8, stroke_fill=pal["primary_dark"])
+        if style == "impact":
+            # ドロップシャドウ(斜め下にもう一枚描いて奥行きを出す)
+            draw.text((x + 6, y + 8), ln, font=f, fill=pal["primary_dark"],
+                       stroke_width=stroke_w, stroke_fill=pal["primary_dark"])
+        draw.text((x, y), ln, font=f, fill=text_fill,
+                   stroke_width=stroke_w, stroke_fill=pal["primary_dark"])
 
     Path(out_path).parent.mkdir(parents=True, exist_ok=True)
     img.save(out_path, "PNG")
@@ -181,7 +235,21 @@ def self_test():
     assert img.size == (W, H), f"unexpected size: {img.size}"
     # 168x94縮小時にファイルとして開けること(可読性の最終確認は目視だが、破損がないかは検証する)
     img.resize((168, 94)).save("/tmp/thumbnail_self_test_small.png")
-    print("SELF-TEST PASSED:", out)
+
+    sample_impact = {
+        "palette_preset": "impact_red",
+        "style": "impact",
+        "hook": "1日違いで発表",
+        "ribbon": "海外2社が同週発表",
+        "tag": "AI/テック",
+        "footer": "AI Company OS",
+    }
+    out2 = "/tmp/thumbnail_self_test_impact.png"
+    build_thumbnail(sample_impact, out2)
+    img2 = Image.open(out2)
+    assert img2.size == (W, H), f"unexpected size: {img2.size}"
+    img2.resize((168, 94)).save("/tmp/thumbnail_self_test_impact_small.png")
+    print("SELF-TEST PASSED:", out, out2)
 
 
 def main():

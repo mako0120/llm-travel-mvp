@@ -46,12 +46,45 @@
 - **168×94pxでの可読性チェック**: 生成後に縮小表示でテキストが判読できるかを
   確認する運用とする
 
+## 追加調査(2026-07-24・オーナー提示の参考サムネイルを受けて)
+
+オーナーから「全米が泣いた!最強のAIモデル復活」のような赤×黒背景・巨大な
+太字・斜め帯バナー・表情豊かな顔を使った実例が提示され、同系統のデザインを
+分析した。
+
+| 知見 | 出典 |
+|---|---|
+| バズるサムネイルの3要素は「人の顔・テキスト・高コントラスト」 | [LOCUS](https://www.locus-inc.co.jp/blog/thumbnail) |
+| MrBeastの定番構成は「口を開けた驚き顔・太字の黄or赤文字・謎めいた要素・シンプルな背景」 | [Artiphik](https://artiphik.com/blog/mrbeast-thumbnail-analysis) |
+| 赤は緊急感・興奮を、黄は赤の補色として高コントラストを生む。両者の組み合わせが注目を集める | [1of10(MrBeast分析記事)](https://1of10.com/blog/how-to-make-thumbnails-like-mrbeast/) |
+| 表情は脳内で文字より6万倍速く処理され、MIT の研究では顔の処理は100ミリ秒程度とされる。誇張された表情はサムネイルの小さいサイズでも「情報」として読み取れる | [touhfa.art](https://touhfa.art/blog/thumbnails/mrbeast-thumbnail-article/) |
+| 一方でMrBeast自身は「驚き顔」の効果が薄れてきたことをA/Bテストで確認し、口を閉じた表情の方が成果が良い場合があるとコメントしている(流行は固定的ではない) | [dotesports](https://dotesports.com/streaming/news/mrbeast-seemingly-discovers-new-youtube-thumbnail-meta-that-could-change-the-face-of-the-site) |
+| 色の効果は一律ではなく、業界・ターゲット層によって最適な配色は異なるためA/Bテストが推奨される | [Off Beat](https://www.offbeat-inc.co.jp/column/banner-design-ctr-improvement-trends-2026-1776301374500) |
+
+### 本プロジェクトでの反映
+
+- `build_thumbnail.py`に、赤×黒×黄の高コントラスト配色(`impact_red`パレット)・
+  放射状バースト(漫画的な衝撃線)・斜め帯バナーを組み合わせた`style: "impact"`
+  を追加した
+- **顔は追加していない**。「表情は訴求力が高い」という知見は確認したが、(1)実在
+  人物の写真は使わない方針を維持する必要があり、(2)架空のAI生成キャラクターを
+  作るには本環境で未検証・未承認の画像生成ツールが必要なため、放射状バーストを
+  表情の代替として採用するにとどめた。画像生成ツールの導入可否はオーナー確認待ち
+- 参考例にあった「全米が泣いた」のような誇張表現は、本プロジェクトの正直さ・
+  誇張回避ルールと衝突するため採用せず、斜め帯バナーには事実の要約のみを使う
+
 ## 出典一覧
 
 - Ampifire: https://ampifire.com/blog/best-youtube-thumbnail-guide-examples-best-practices-2026-for-high-ctr/
 - Awisee: https://awisee.com/blog/youtube-thumbnail-best-practices/
 - 1of10: https://1of10.com/blog/youtube-thumbnail-design/
 - StockSun: https://stock-sun.com/column/thumbnail/
+- LOCUS: https://www.locus-inc.co.jp/blog/thumbnail
+- Artiphik: https://artiphik.com/blog/mrbeast-thumbnail-analysis
+- 1of10(MrBeast分析): https://1of10.com/blog/how-to-make-thumbnails-like-mrbeast/
+- touhfa.art: https://touhfa.art/blog/thumbnails/mrbeast-thumbnail-article/
+- dotesports: https://dotesports.com/streaming/news/mrbeast-seemingly-discovers-new-youtube-thumbnail-meta-that-could-change-the-face-of-the-site
+- Off Beat: https://www.offbeat-inc.co.jp/column/banner-design-ctr-improvement-trends-2026-1776301374500
 
 ## 注意
 
