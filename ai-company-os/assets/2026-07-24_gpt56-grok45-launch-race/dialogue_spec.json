@@ -1,0 +1,382 @@
+{
+  "meta": {
+    "title": "OpenAI「GPT-5.6」 vs xAI「Grok 4.5」",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "OpenAI公式ブログ(2026-07-09)",
+      "TechCrunch(2026-07-09)",
+      "TechCrunch(2026-06-26)",
+      "US News/AP(2026-07-08)",
+      "Winbuzzer(2026-07-09)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "1日違いで競合2社がAIモデルを発表したって知ってた?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、2026年7月8日にxAIが「Grok 4.5」、翌9日にOpenAIが「GPT-5.6」を発表しました。",
+              "source": "US News/AP(2026-07-08)"
+            },
+            {
+              "speaker": "host",
+              "text": "しかもどちらもコーディング特化。今日はこの2つを比べてみよう。"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日は4パートで話します。前提知識から始めます。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "コーディングエージェントは、AIが自律的にコードを書き実行修正するツール。トークン単価は、100万トークンあたりの利用料金です。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "何が起きたかを表にすると、7月8日にGrok 4.5、7月9日にGPT-5.6が発表されました。",
+              "source": "US News/AP(2026-07-08)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "タイムラインにすると、実はGPT-5.6は6月26日にプレビューが発表されていて、政府の要請で制限提供されていたんです。",
+              "source": "TechCrunch(2026-06-26)"
+            },
+            {
+              "speaker": "host",
+              "text": "え、いきなり一般提供じゃなかったんだ。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Grok 4.5の概要を表にすると、xAI発表で、コーディング・エージェント向け。数万基のGPUで学習したとしています。",
+              "source": "US News/AP(2026-07-08)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字で見ると「$2」。Grok 4.5の入力100万トークンあたりの料金です。",
+              "source": "Winbuzzer(2026-07-09)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "GPT-5.6は3ティア構成です。Solが最上位、Terraが標準、Lunaが最安です。",
+              "source": "OpenAI公式ブログ(2026-07-09)"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "入力料金をグラフで比べると、Grok 4.5とGPT-5.6 Lunaが安く、Solが最も高いことが分かります。",
+              "source": "Winbuzzer(2026-07-09)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出力料金で比べると、その差はさらに広がります。",
+              "source": "OpenAI公式ブログ(2026-07-09)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字にすると「2倍安く」。TerraはGPT-5.5と同等性能で2倍安くなり、本番用途の既定になっています。",
+              "source": "OpenAI公式ブログ(2026-07-09)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "2社のアプローチを比べると、Grokは単一モデルで幅広くカバー、GPT-5.6は3段階で使い分ける設計です。"
+            },
+            {
+              "speaker": "host",
+              "text": "設計思想からして違うんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "提供チャネルを表にすると、Grok 4.5はGrok Build・Cursor経由、GPT-5.6はChatGPT・API・Copilot経由です。",
+              "source": "TechCrunch(2026-07-09)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "GPT-5.6 Solの政府審査プロセスを図にすると、プレビュー発表から13日間の制限提供を経て、商務省の検証後に一般提供されました。",
+              "source": "TechCrunch(2026-06-26)"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直にお伝えすると、これは異例のプロセスです。OpenAIは「制限が常態化すべきではない」とコメントしています。",
+              "source": "TechCrunch(2026-06-26)"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが仕組みと料金の話。ここからは、なぜこのタイミングだったのかを考えてみよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字で見ると「600億ドル」。Grok 4.5と連携するCursorの開発元を、SpaceXが買収すると発表しました。",
+              "source": "US News/AP(2026-07-08)"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ここからは推測ですが、理由を3つのカードに整理しました。市場の奪い合い、価格での差別化、審査プロセスの影響です。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回見送った候補も共有します。Mistralのロボティクスモデル、Perplexity Cometのアップデートです。"
+            },
+            {
+              "speaker": "host",
+              "text": "それぞれ見送った理由もあるんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。実用性で劣る、新規性が薄い、という理由です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、これが意味することは、価格競争・使い分け・統合の広がりの3つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここから実践の話だね。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "これが意味するのは、コーディング用途で選べるモデルと価格帯が広がっているということです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "試すなら確認したいことを3つのカードにしました。用途、料金の見積もり、既存ツールとの連携です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "実際に試す進め方は、目的を決める、モデルを選ぶ、既存ツール経由で試す、の3ステップが目安です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "個人にとっては、普段使うコーディングツールの裏側でモデルが日々更新されており、選択肢も増えています。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直に言うと、両モデルの詳細なベンチマークや、政府審査の具体的な基準は非公開です。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "リスク配慮のポイントを3つのカードにまとめました。事実紹介に徹すること、政府審査を中立に扱うこと、自社発表と明示することです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "検品結果を表にまとめました。すべて合格しています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典を再掲します。OpenAI公式、TechCrunch、US News、Winbuzzerほかです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、AIモデルの価格競争は『速さ』から『使い分け』の時代へ変わってきているということです。"
+            },
+            {
+              "speaker": "host",
+              "text": "興味があれば、まずは普段使うツール経由で試してみるのがよさそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AIモデルの価格競争・専門特化は今後も続くテーマです。次回も独立系メディアの報道をもとに紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

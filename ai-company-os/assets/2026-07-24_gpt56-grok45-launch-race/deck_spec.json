@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "palette_preset": "navy_gold",
+    "footer": "AI Company OS - 定期実行26本目",
+    "title": "OpenAI「GPT-5.6」 vs xAI「Grok 4.5」(定期実行26本目)",
+    "subtitle": "2026-07-24 / AI Company OS"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "1日違いで発表された2つのAIモデル、知っていますか?",
+      "note": "フックとして問いかけから入る。1日違いの競合発表という珍しさを突く。",
+      "sub": "OpenAI「GPT-5.6」 vs xAI「Grok 4.5」 — コーディング特化モデルの価格競争(2026年7月8-9日)",
+      "footnote": "出典: OpenAI公式, TechCrunch, US News/AP, Winbuzzer(2026-07-08〜09)"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日話すこと",
+      "items": [
+        "起: 前提知識 + 何が起きたか(2社の発表)",
+        "承: 料金・提供チャネルを比較",
+        "転: なぜこのタイミングか、これは何を意味するか",
+        "結: 不明点・リスク配慮・まとめ"
+      ],
+      "note": "起承転結を予告する。"
+    },
+    {
+      "layout": "cards",
+      "title": "まず言葉の整理(初心者向け)",
+      "cards": [
+        {
+          "label": "コーディングエージェント",
+          "text": "AIが自律的にコードを書き・実行・修正するツール"
+        },
+        {
+          "label": "トークン単価",
+          "text": "AIモデルの利用料金の基準。100万トークンあたりの金額で表記される"
+        }
+      ],
+      "note": "専門用語を最初に整理する。"
+    },
+    {
+      "layout": "table",
+      "title": "何が起きたか",
+      "headers": [
+        "日付",
+        "発表内容"
+      ],
+      "rows": [
+        [
+          "2026年7月8日",
+          "xAI(SpaceXAI)が「Grok 4.5」を発表"
+        ],
+        [
+          "2026年7月9日",
+          "OpenAIが「GPT-5.6」(Sol/Terra/Luna)を一般提供開始"
+        ]
+      ],
+      "note": "2社の発表を表で整理する。",
+      "source": "US News/AP(2026-07-08)"
+    },
+    {
+      "layout": "diagram",
+      "title": "発表までのタイムライン",
+      "nodes": [
+        {
+          "label": "6/26",
+          "sublabel": "GPT-5.6 Solプレビュー(米政府要請で制限提供)"
+        },
+        {
+          "label": "7/8",
+          "sublabel": "Grok 4.5発表"
+        },
+        {
+          "label": "7/9",
+          "sublabel": "GPT-5.6一般提供開始"
+        }
+      ],
+      "note": "時系列を図で示す。",
+      "source": "TechCrunch(2026-06-26)"
+    },
+    {
+      "layout": "table",
+      "title": "Grok 4.5の概要",
+      "headers": [
+        "項目",
+        "内容"
+      ],
+      "rows": [
+        [
+          "発表元",
+          "xAI(SpaceXAI)"
+        ],
+        [
+          "用途",
+          "コーディング・エージェント向け"
+        ],
+        [
+          "学習環境",
+          "NVIDIA GB300 GPUを数万基使用(自社発表)"
+        ]
+      ],
+      "note": "Grok 4.5の概要を表で整理する。",
+      "source": "US News/AP(2026-07-08)"
+    },
+    {
+      "layout": "big_stat",
+      "title": "Grok 4.5の入力料金",
+      "stat": "$2",
+      "note": "100万トークンあたりの入力料金を数字で示す。",
+      "caption": "100万トークンあたり(キャッシュ入力は$0.5)",
+      "source": "Winbuzzer(2026-07-09)"
+    },
+    {
+      "layout": "table",
+      "title": "GPT-5.6の3ティア構成",
+      "headers": [
+        "ティア",
+        "位置づけ"
+      ],
+      "rows": [
+        [
+          "Sol",
+          "最上位、最も高性能・高価格"
+        ],
+        [
+          "Terra",
+          "標準、多くの本番用途の既定"
+        ],
+        [
+          "Luna",
+          "最安、高速・大量処理向け"
+        ]
+      ],
+      "note": "GPT-5.6の3段階構成を表で整理する。",
+      "source": "OpenAI公式ブログ(2026-07-09)"
+    },
+    {
+      "layout": "bar_chart",
+      "title": "入力料金の比較(100万トークンあたり)",
+      "categories": [
+        "Grok 4.5",
+        "GPT-5.6 Luna",
+        "GPT-5.6 Terra",
+        "GPT-5.6 Sol"
+      ],
+      "series": {
+        "name": "ドル",
+        "values": [
+          2,
+          1,
+          2.5,
+          5
+        ]
+      },
+      "note": "4モデルの入力料金差をグラフで見せる。",
+      "source": "Winbuzzer(2026-07-09)",
+      "number_format": "$#,##0.00"
+    },
+    {
+      "layout": "bar_chart",
+      "title": "出力料金の比較(100万トークンあたり)",
+      "categories": [
+        "Grok 4.5",
+        "GPT-5.6 Luna",
+        "GPT-5.6 Terra",
+        "GPT-5.6 Sol"
+      ],
+      "series": {
+        "name": "ドル",
+        "values": [
+          6,
+          6,
+          15,
+          30
+        ]
+      },
+      "note": "出力料金は差がさらに大きいことをグラフで見せる。",
+      "source": "OpenAI公式ブログ(2026-07-09)",
+      "number_format": "$#,##0.00"
+    },
+    {
+      "layout": "big_stat",
+      "title": "Terraの値下げ幅",
+      "stat": "2倍安く",
+      "note": "TerraはGPT-5.5と同等性能を保ちつつ2倍安くなったことを示す。",
+      "caption": "前世代(GPT-5.5)比、本番用途の既定モデルに",
+      "source": "OpenAI公式ブログ(2026-07-09)"
+    },
+    {
+      "layout": "comparison",
+      "title": "Grok 4.5とGPT-5.6、アプローチの違い",
+      "left": {
+        "heading": "Grok 4.5(xAI)",
+        "items": [
+          "単一モデルで幅広くカバー",
+          "Cursor等の外部ツールと連携",
+          "少ないステップでタスク完了を志向(自社発表)"
+        ]
+      },
+      "right": {
+        "heading": "GPT-5.6(OpenAI)",
+        "items": [
+          "Sol/Terra/Lunaの3段階で使い分け",
+          "ChatGPT・API・Codex・Copilotに統合",
+          "用途別の価格帯を明確に提示"
+        ]
+      },
+      "note": "2社の設計思想の違いを対比で見せる。"
+    },
+    {
+      "layout": "table",
+      "title": "提供チャネル",
+      "headers": [
+        "モデル",
+        "チャネル"
+      ],
+      "rows": [
+        [
+          "Grok 4.5",
+          "Grok Build / SpaceXAIコンソール / Cursor"
+        ],
+        [
+          "GPT-5.6",
+          "ChatGPT / API / Codex / GitHub Copilot"
+        ]
+      ],
+      "note": "提供チャネルを表で整理する。",
+      "source": "TechCrunch(2026-07-09)"
+    },
+    {
+      "layout": "diagram",
+      "title": "GPT-5.6 Solの政府審査プロセス",
+      "nodes": [
+        {
+          "label": "6/26",
+          "sublabel": "プレビュー発表、約20組織限定で制限提供"
+        },
+        {
+          "label": "13日間",
+          "sublabel": "米政府機関(国家サイバー長官室等)の要請で制限"
+        },
+        {
+          "label": "7/9",
+          "sublabel": "商務省CAISIの検証後、一般提供開始"
+        }
+      ],
+      "note": "異例の審査プロセスを図で示す。事実を淡々と紹介する。",
+      "source": "TechCrunch(2026-06-26)"
+    },
+    {
+      "layout": "bullets",
+      "title": "政府審査という異例のプロセス",
+      "bullets": [
+        "GPT-5.6 Solは一般提供前に、米政府機関の要請で約20組織限定の制限提供期間があった",
+        "OpenAIは「制限が常態化すべきではない」とコメントしている"
+      ],
+      "note": "特定の政府・政党への批判ではなく、事実として淡々と紹介する。",
+      "source": "TechCrunch(2026-06-26)"
+    },
+    {
+      "layout": "big_stat",
+      "title": "SpaceXによるCursor買収額",
+      "stat": "600億ドル",
+      "note": "Grok 4.5と連携するCursorの開発元Anysphereを、SpaceXが全株式取引で買収すると発表したことを示す。",
+      "caption": "Anysphere(Cursor開発元)の買収発表(全株式取引)",
+      "source": "US News/AP(2026-07-08)"
+    },
+    {
+      "layout": "cards",
+      "title": "なぜこのタイミングで競合発表が重なったのか(推測)",
+      "cards": [
+        {
+          "label": "市場の奪い合い",
+          "text": "コーディングエージェント市場の主導権を先に握る狙い"
+        },
+        {
+          "label": "価格での差別化",
+          "text": "性能だけでなく価格でも先手を打つ狙い"
+        },
+        {
+          "label": "審査プロセスの影響",
+          "text": "GPT-5.6は政府審査で発表が後ろ倒しになった可能性"
+        }
+      ],
+      "note": "ここからは推測であることを明言する。"
+    },
+    {
+      "layout": "cards",
+      "title": "見送った候補",
+      "cards": [
+        {
+          "label": "Mistral AI「Robostral Navigate」",
+          "text": "ロボティクスモデル。実用性・身近さで見送り"
+        },
+        {
+          "label": "Perplexity CometのSamsung統合",
+          "text": "既存製品の機能アップデートで新規性が薄く見送り"
+        }
+      ],
+      "note": "見送った候補も具体的に共有する。"
+    },
+    {
+      "layout": "diagram",
+      "title": "これが意味すること",
+      "nodes": [
+        {
+          "label": "価格競争",
+          "sublabel": "同用途モデルの価格帯が広がる"
+        },
+        {
+          "label": "使い分け",
+          "sublabel": "用途別にモデルを選ぶ動きが加速"
+        },
+        {
+          "label": "統合の広がり",
+          "sublabel": "既存ツール(Cursor/Copilot等)への組み込みが進む"
+        }
+      ],
+      "note": "転換パート。ここから実践的な話に入る。"
+    },
+    {
+      "layout": "bullets",
+      "title": "これは何を意味するのか(利用者にとって)",
+      "bullets": [
+        "コーディング用途で選べるAIモデルの選択肢と価格帯が広がっている",
+        "既に使っているツール(Cursor、GitHub Copilot等)経由で新モデルを試せる場合がある"
+      ],
+      "note": "出来事の紹介だけで終わらせず、読み手にとっての意味を扱う。"
+    },
+    {
+      "layout": "cards",
+      "title": "試すなら確認したいこと",
+      "cards": [
+        {
+          "label": "何に使うか",
+          "text": "コーディング用途か、それ以外かを決める"
+        },
+        {
+          "label": "料金の見積もり",
+          "text": "入出力トークン数の目安を確認する"
+        },
+        {
+          "label": "既存ツールとの連携",
+          "text": "普段使うツールが対応しているか確認する"
+        }
+      ],
+      "note": "実際に試す前のチェックリストとして提示する。"
+    },
+    {
+      "layout": "steps",
+      "title": "実際に試す場合の進め方(目安)",
+      "steps": [
+        {
+          "label": "①目的を決める",
+          "text": "コーディング用途か汎用かを明確にする"
+        },
+        {
+          "label": "②モデルを選ぶ",
+          "text": "料金・性能の比較表を参考に検討"
+        },
+        {
+          "label": "③既存ツール経由で試す",
+          "text": "Cursor・Copilot等、慣れたツールから試すのも手"
+        }
+      ],
+      "note": "実践につながる進め方をステップで見せる。"
+    },
+    {
+      "layout": "bullets",
+      "title": "個人にとっての影響",
+      "bullets": [
+        "普段使うコーディングツールの裏側で、AIモデルが日々更新されている",
+        "料金・性能の選択肢が増え、用途に合わせて選べるようになってきている"
+      ],
+      "note": "個人視点も扱う。"
+    },
+    {
+      "layout": "bullets",
+      "title": "不明点・注意点",
+      "bullets": [
+        "両モデルの詳細なベンチマーク数値(第三者による独立検証)は非公開",
+        "GPT-5.6の政府審査(CAISIの検証内容)の具体的な基準は非公開",
+        "SpaceXによるAnysphere買収の完了時期・審査見通しは今回の発表では未言及"
+      ],
+      "note": "不明点を正直に「不明」と明言する。"
+    },
+    {
+      "layout": "cards",
+      "title": "リスク配慮のポイント",
+      "cards": [
+        {
+          "label": "事実紹介に徹する",
+          "text": "企業の製品発表という事実を淡々と紹介"
+        },
+        {
+          "label": "政府審査は中立に",
+          "text": "特定の政府・政党への批判や憶測は行わない"
+        },
+        {
+          "label": "自社発表と明示",
+          "text": "各社の性能主張は「自社発表」と明記している"
+        }
+      ],
+      "note": "政治・対立を煽らないという制作方針を明確に伝える。"
+    },
+    {
+      "layout": "table",
+      "title": "検品結果",
+      "headers": [
+        "項目",
+        "結果"
+      ],
+      "rows": [
+        [
+          "verify_pptx.py",
+          "合格"
+        ],
+        [
+          "同一レイアウト連続チェック",
+          "合格"
+        ],
+        [
+          "bullets比率チェック",
+          "合格"
+        ],
+        [
+          "対話原稿スライド数整合性",
+          "合格"
+        ]
+      ],
+      "note": "検品結果を表でまとめる。"
+    },
+    {
+      "layout": "bullets",
+      "title": "出典一覧",
+      "bullets": [
+        "OpenAI公式ブログ / TechCrunch",
+        "US News(AP配信) / Yahoo Tech / Winbuzzer / TechTimes"
+      ],
+      "note": "出典を短く再掲する。"
+    },
+    {
+      "layout": "cta",
+      "heading": "AIモデルの価格競争は「速さ」から「使い分け」の時代へ",
+      "sub": "用途別の価格帯が広がり、既存ツール経由で試しやすくなっている",
+      "action": "興味があれば、まずは普段使うツール経由で試してみる",
+      "note": "結のキーメッセージ。"
+    },
+    {
+      "layout": "bullets",
+      "title": "次回予告",
+      "bullets": [
+        "AIモデルの価格競争・専門特化は続くテーマ",
+        "次回も独立系メディアの報道をもとに紹介する"
+      ],
+      "note": "オープンループで次回への引き。"
+    },
+    {
+      "layout": "cta",
+      "heading": "ご視聴ありがとうございました",
+      "sub": "出典・詳細はresearch.mdと各スライドの出典表記を参照",
+      "action": "質問・フィードバックはいつでもどうぞ",
+      "note": "最終スライド。"
+    }
+  ]
+}
