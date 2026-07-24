@@ -37,6 +37,7 @@ Before starting work, read the following documents in order:
 12. `docs/11_Output_Format.md`
 13. `docs/12_Project_Rules.md`
 14. `docs/13_AI_Dialogue_Script.md`
+15. `docs/14_YouTube_Thumbnail.md`
 
 ## Startup protocol
 
