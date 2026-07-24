@@ -182,13 +182,54 @@ def draw_duration_badge(draw, text, pal):
 
 def draw_avatar_badge(draw, cx, cy, r, pal, label):
     """実在人物の写真の代わりに、円形の抽象アイコン+ペルソナ名ラベルを配置する。
-    dialogue_spec.jsonで既に定義しているAIペルソナ名(例: リサーチAI)を再利用する。"""
+    dialogue_spec.jsonで既に定義しているAIペルソナ名(例: リサーチAI)を再利用する。
+    小さいバッジとして使う版(standard/impactスタイル向け)。"""
     draw.ellipse([cx - r, cy - r, cx + r, cy + r], fill=pal["card"], outline=pal["accent"], width=6)
     draw_accent_icon(draw, cx, cy, r * 0.5, pal["primary"])
     f = font(28)
     tw, th = _text_size(draw, label, f, stroke_width=4)
     draw.text((cx - tw // 2, cy + r + 14), label, font=f, fill=pal["base"],
                stroke_width=4, stroke_fill=pal["primary_dark"])
+
+
+HEAD_TONE = (245, 214, 179)  # 実在の肌色を模したものではなく、絵文字的な汎用トーン
+
+
+def draw_mascot_face(draw, cx, cy, r, pal, label=None, expression="surprised"):
+    """実在人物の写真の代わりに使う、大きく表情豊かなフラットイラスト調の顔。
+    参考サムネイルの「驚いた表情の人物写真」に相当する位置・サイズを担うが、
+    実在の人物を想起させない絵文字的なデザインに留める(AGENTS.mdの肖像リスク
+    回避方針)。"""
+    import math
+    # 髪(頭頂部の丸みだけを暗色で表現。特定の髪型を模さない)
+    draw.pieslice([cx - r * 1.02, cy - r * 1.15, cx + r * 1.02, cy + r * 0.35],
+                  180, 360, fill=pal["primary_dark"])
+    # 顔(円)
+    draw.ellipse([cx - r, cy - r * 0.86, cx + r, cy + r * 1.06], fill=HEAD_TONE)
+
+    eye_dx, eye_dy = r * 0.38, r * 0.02
+    eye_r = r * 0.20 if expression == "surprised" else r * 0.14
+    for sign in (-1, 1):
+        ex, ey = cx + sign * eye_dx, cy + eye_dy
+        draw.ellipse([ex - eye_r, ey - eye_r, ex + eye_r, ey + eye_r], fill=(255, 255, 255), outline=(30, 20, 15), width=4)
+        pr = eye_r * 0.5
+        draw.ellipse([ex - pr, ey - pr, ex + pr, ey + pr], fill=(30, 20, 15))
+        # 眉(驚き=つり上がった太い弧)
+        bx0, by0 = ex - eye_r * 1.15, ey - eye_r * 2.1
+        bx1, by1 = ex + eye_r * 1.15, ey - eye_r * 1.0
+        draw.line([bx0, by0, ex, ey - eye_r * 2.3, bx1, by1], fill=(30, 20, 15), width=int(r * 0.045), joint="curve")
+
+    # 口(驚き=開いた楕円)
+    mx, my = cx, cy + r * 0.5
+    mw, mh = (r * 0.34, r * 0.4) if expression == "surprised" else (r * 0.4, r * 0.12)
+    draw.ellipse([mx - mw, my - mh, mx + mw, my + mh], fill=(120, 40, 40), outline=(30, 20, 15), width=4)
+
+    if label:
+        f = font(30)
+        tw, th = _text_size(draw, label, f, stroke_width=4)
+        bx0, by0 = cx - tw / 2 - 18, cy - r * 1.28 - th - 24
+        draw.rounded_rectangle([bx0, by0, bx0 + tw + 36, by0 + th + 24], radius=12, fill=pal["accent"])
+        draw.text((bx0 + 18, by0 + 10), label, font=f, fill=pal["primary_dark"], stroke_width=0)
 
 
 def build_thumbnail_hype(spec: dict, out_path: str):
@@ -199,12 +240,17 @@ def build_thumbnail_hype(spec: dict, out_path: str):
     img = Image.new("RGB", (W, H), pal["primary_dark"])
     draw = ImageDraw.Draw(img)
 
-    draw_burst(draw, W * 0.62, H * 0.55, 70, 760, pal["primary"], n=18)
-    draw.ellipse([W * 0.62 - 220, H * 0.55 - 220, W * 0.62 + 220, H * 0.55 + 220], fill=pal["primary"])
+    has_mascot = bool(spec.get("avatar_label"))
+    burst_cx = W * 0.40 if has_mascot else W * 0.62
+    draw_burst(draw, burst_cx, H * 0.55, 70, 760, pal["primary"], n=18)
+    draw.ellipse([burst_cx - 220, H * 0.55 - 220, burst_cx + 220, H * 0.55 + 220], fill=pal["primary"])
 
     banner_text = spec.get("banner_text", "")
     if banner_text:
         draw_top_banner(img, draw, pal, banner_text)
+
+    # 人物枠(顔)がある場合は右側に大きく確保し、見出しは左側の帯に収める
+    text_max_x = W - 430 if has_mascot else W - 46
 
     lines = spec["lines"]  # [{"text":..., "color": "base"|"accent"|"white", "size": int}]
     y = 168
@@ -214,10 +260,10 @@ def build_thumbnail_hype(spec: dict, out_path: str):
         size = ln.get("size", 70)
         f = font(size)
         text = ln["text"]
-        max_w = W - 90
+        max_w = text_max_x - 46
         while True:
             tw, th = _text_size(draw, text, f, stroke_width=10)
-            if tw <= max_w or size <= 40:
+            if tw <= max_w or size <= 32:
                 break
             size -= 4
             f = font(size)
@@ -234,7 +280,7 @@ def build_thumbnail_hype(spec: dict, out_path: str):
 
     avatar_label = spec.get("avatar_label")
     if avatar_label:
-        draw_avatar_badge(draw, W - 130, H - 210, 78, pal, avatar_label)
+        draw_mascot_face(draw, W - 230, H * 0.60, 210, pal, label=avatar_label)
 
     band_h = 74
     draw.rectangle([0, H - band_h, W, H], fill=pal["accent"])
