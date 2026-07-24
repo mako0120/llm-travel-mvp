@@ -34,6 +34,9 @@
 | `youtube_assets.md` | YouTube/Shorts向けタイトル案・概要欄・タグ・章立て |
 | `canva_brief.md` | Canva移植ブリーフ(レイアウト対応表、`templates/canva_brief_template.md`準拠) |
 | `risk-and-quality-review.md` | 著作権・品質自己評価(100点満点中95点、85点以上のため修正不要) |
+| `thumbnail.png` | YouTubeサムネイル(1280×720、`build_thumbnail.py`のPillow版、hypeスタイル) |
+| `thumbnail_spec.json` | サムネイル生成仕様 |
+| `thumbnail_brief.md` | サムネイルのフック文言・設計根拠(`templates/thumbnail_brief_template.md`準拠) |
 
 ## 適用したルール
 
@@ -59,11 +62,13 @@
 - 対立を煽る表現・他選手比較の誇張を避け、推測部分は「推測」と明示している
 - 実在選手名は事実として扱うが、写真・肖像・球団ロゴは使用しない
 
-## サムネイルについて(未完了)
+## サムネイルについて
 
-Canvaコネクタ経由での生成を試みたが、生成候補に文字化け(意味不明な漢字の
-組み合わせ)があり、修正操作中にCanva接続が切断されたため未完了。次回接続時に
-`.claude/skills/thumbnail-designer/SKILL.md`のルートAの手順で再開する。
+Canvaコネクタ経由(ルートA)での生成を試みたが、生成候補に文字化け(意味不明な
+漢字の組み合わせ)があり、修正操作中にCanva接続が切断されたため、
+`build_thumbnail.py`のPillow版(ルートB、hypeスタイル)に切り替えて完成させた。
+再生時間バッジは、この時点では音声が未生成のため省略している(CI完了後、
+実測値が判明次第追加する)。
 
 ## 注意
 

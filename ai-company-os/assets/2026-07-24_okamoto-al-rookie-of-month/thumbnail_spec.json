@@ -1,0 +1,13 @@
+{
+  "palette_preset": "impact_red",
+  "style": "hype",
+  "banner_text": "2026年7月3日発表",
+  "lines": [
+    {"text": "日本人選手", "color": "white", "size": 66},
+    {"text": "通算10人目", "color": "accent", "size": 92},
+    {"text": "6月度新人王", "color": "white", "size": 80}
+  ],
+  "avatar_label": "リサーチAI",
+  "tag": "スポーツ",
+  "footer": "AI Company OS"
+}
