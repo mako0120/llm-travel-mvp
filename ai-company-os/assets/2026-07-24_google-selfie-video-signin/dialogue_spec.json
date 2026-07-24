@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "title": "Google、Googleアカウントに「自撮り動画」サインインを追加",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Google公式ブログ(2026-07-23)",
+      "TechCrunch(2026-07-23)",
+      "9to5Google(2026-07-23)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "自分の顔がパスワード代わりになるって知ってた?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、2026年7月23日、GoogleがGoogleアカウントに自撮り動画でサインインできる機能を追加しました。",
+              "source": "Google公式ブログ(2026-07-23)"
+            },
+            {
+              "speaker": "host",
+              "text": "顔でサインインできるようになったんだね。今日はそこを見ていこう。"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日は4パートで話します。前提知識から始めます。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "生体認証は顔や指紋など身体の特徴を使った本人確認。サインインはアカウントにログインすることです。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "何が起きたかを表にすると、Googleが7月23日、自撮り動画によるサインイン機能を発表しました。",
+              "source": "Google公式ブログ(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "生体認証の主な種類を表にすると、顔認証・指紋認証・パスキーの3つが代表的です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "発表したのはJohn Gronberg氏とClaire Forszt氏、Google Identity担当のプロダクトマネージャーです。",
+              "source": "Google公式ブログ(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "設定方法はステップにすると、カメラを見て、首を振る等の動作に従い、複数角度を撮影する、の3ステップです。",
+              "source": "TechCrunch(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字にすると「動画1本」。必要なのはカメラで撮る自撮り動画1本だけです。",
+              "source": "TechCrunch(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "仕組みを図にすると、サインインに困ったら新しく動画を撮影し、設定時の動画と照合して本人確認します。",
+              "source": "TechCrunch(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "従来の認証手段と比べると、パスワード等は端末やメモを紛失すると使えなくなりますが、顔なら残ります。"
+            },
+            {
+              "speaker": "host",
+              "text": "紛失に強いのはいいね。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "対象外ユーザーを表にすると、Workspaceアカウント・子ども向けアカウント・高度な保護機能プログラム参加者です。",
+              "source": "TechCrunch(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "対象外の理由をカードにすると、企業・教育機関向けやより厳格な用途では別の手段が既に求められているためと考えられます。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "セキュリティ上の利点は、紛失に強いことと、撮影した動画が暗号化して保存されることです。",
+              "source": "TechCrunch(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "設定手順をまとめると、スマホはg.co/signin-selfie、PCはmyaccount.google.comから確認できます。",
+              "source": "TechCrunch(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "よくある疑問にもカードで答えます。動画は暗号化保存、対象国や日本語版の詳細は今回の発表では確認できていません。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが仕組みと設定の話。ここからは、なぜ今このタイミングだったのかを考えてみよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直にお伝えすると、保存期間や日本語版の提供時期は今回の発表では確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ここからは推測ですが、理由を3つのカードに整理しました。乗っ取り対策、生体認証の広がり、段階的な展開です。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回見送った候補も共有します。Microsoftのセキュリティツール、Metaの動画生成AIです。"
+            },
+            {
+              "speaker": "host",
+              "text": "それぞれ見送った理由もあるんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。他社比較中心で扱いが難しい、発表がやや古い、という理由です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、これが意味することは、認証手段の多様化・生体情報の活用拡大・プライバシー配慮の重要性の3つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここから実践の話だね。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "これが意味するのは、端末を紛失したときの復旧手段として顔という選択肢が増えているということです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "試すなら確認したいことを3つのカードにしました。対象アカウントか、設定場所、他の手段との併用です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "実際に試す進め方は、対象か確認する、設定する、他の手段も残す、の3ステップが目安です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "個人にとっては、アカウント復旧手段が増える一方、顔という生体情報を預ける意味も意識しておきたいところです。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直に言うと、保存期間の詳細や対象国のリストは非公開です。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "プライバシー配慮のポイントを3つのカードにまとめました。事実紹介に徹すること、生体情報への配慮、推測の明示です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "検品結果を表にまとめました。すべて合格しています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典を再掲します。Google公式、TechCrunchほかです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、認証手段は『覚える』から『自分自身』へ変わってきているということです。"
+            },
+            {
+              "speaker": "host",
+              "text": "興味があれば、対象アカウントか確認してみるのがよさそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "生体認証・アカウントセキュリティの進化は今後も続くテーマです。次回も独立系メディアの報道をもとに紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
