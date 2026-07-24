@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "title": "Black Forest Labs「FLUX 3」を発表",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "GlobeNewswire公式プレスリリース(2026-07-23)",
+      "wan27.org(2026-07-23)",
+      "DigitalToday(2026-07-23)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "20秒の動画を、セリフ・効果音・BGMごとAIが作れます。",
+              "source": "wan27.org(2026-07-23)"
+            },
+            {
+              "speaker": "host",
+              "text": "それはすごいね。何のニュース?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年7月23日、Black Forest Labsが多モーダル生成モデル「FLUX 3」を発表しました。",
+              "source": "GlobeNewswire公式プレスリリース(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日は4パートで話します。前提知識から始めます。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "マルチモーダルは画像・動画・音声等を扱えること。基盤モデルは様々な用途に応用できる土台となるAIモデルです。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "何が起きたかを表にすると、Black Forest Labsが7月23日、画像・動画・音声を1つのモデルで生成するFLUX 3を発表しました。",
+              "source": "GlobeNewswire公式プレスリリース(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字にすると「20秒」。セリフ・効果音・BGM付きで生成できる動画の長さです。",
+              "source": "wan27.org(2026-07-23)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "主な機能をカードにすると、動画生成、画像編集、文字の描画の3つです。",
+              "source": "wan27.org(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "統合モデルが扱う機能を表にすると、画像・動画・音声に加えてロボットの動作予測まで含まれます。",
+              "source": "wan27.org(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Self-Flowという仕組みを図にすると、複数のデータ種類を同じアーキテクチャで学習し、1つの重みから出力します。",
+              "source": "wan27.org(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "提供状況を表にすると、FLUX 3 Videoはアーリーアクセス中、Image・Actionは今後数週間で提供予定です。",
+              "source": "wan27.org(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "従来の生成AIと比べると、これまでは画像・動画・音声が別々のモデルでしたが、FLUX 3は1つにまとまっています。"
+            },
+            {
+              "speaker": "host",
+              "text": "使い分ける手間が減りそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ロボティクスへの展開もカードで紹介します。動画生成にとどまらず、ロボティクス分野への展開も視野に入れているとされます。",
+              "source": "DigitalToday(2026-07-23)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "モデル統合の流れについても触れます。個別モデルより一貫した生成結果を得やすくする狙いと考えられます。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典の確認結果を表にまとめました。発表日・主な機能とも複数情報源で一致しています。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "こんな人におすすめか、カードにすると、動画クリエイターやAI技術に関心がある人です。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "よくある疑問にも答えます。料金や日本語対応は今回の発表では確認できていません。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが機能の話。ここからは、なぜ今このタイミングだったのかを考えてみよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直にお伝えすると、料金体系・日本語対応・ロボット動作予測の実用段階は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ここからは推測ですが、理由を3つのカードに整理しました。生成AI競争の激化、業界の潮流、段階的な提供です。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回見送った候補も共有します。AMDのAIインフラ、Druvaのセキュリティツールです。"
+            },
+            {
+              "speaker": "host",
+              "text": "それぞれ見送った理由もあるんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。一般視聴者への訴求力で劣る、自己言及回避方針に該当する、という理由です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、これが意味することは、生成AIの統合・制作の効率化・物理世界への応用の3つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここから実践の話だね。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "これが意味するのは、動画制作で複数ツールを使い分けていた手間が減る可能性があるということです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "試すなら確認したいことを3つのカードにしました。何に使うか、提供状況、料金・利用条件です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "実際に試す進め方は、公式サイトを確認する、用途を決める、小さく試す、の3ステップが目安です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "個人にとっては、動画・画像制作のハードルがさらに下がっている可能性があるということです。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直に言うと、料金体系や実用段階の詳細は非公開です。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "リスク配慮のポイントを3つのカードにまとめました。事実紹介に徹すること、著作権への配慮、推測の明示です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "検品結果を表にまとめました。すべて合格しています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典を再掲します。GlobeNewswire、wan27.orgほかです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、生成AIは『作る』から『統合する』時代へ変わってきているということです。"
+            },
+            {
+              "speaker": "host",
+              "text": "興味があれば、公式サイトを確認してみるのがよさそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "マルチモーダル生成AI・ロボティクスの融合は今後も続くテーマです。次回も独立系メディアの報道をもとに紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
