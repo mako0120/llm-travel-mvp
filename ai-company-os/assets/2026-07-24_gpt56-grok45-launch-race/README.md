@@ -32,9 +32,9 @@
 | `narration_script.md` | 単独ナレーション原稿(30スライド、目安約2分) |
 | `dialogue_spec.json` | AI対話ナレーション・スライド連動モード仕様(30スライド全カバー、42発言) |
 | `dialogue_script.md` | 対話ナレーション原稿(30スライド、目安約5分) |
-| `dialogue_audio.wav` | 対話音声(VOICEVOX、GitHub Actions経由で生成予定)。生成後にチャットで直接送付 |
-| `slide_timings.json` | スライドごとの開始/終了/長さ(秒)。GitHub Actions経由で音声と同時に生成予定 |
-| `deck_narrated.mp4` | スライド画像+音声を結合したナレーション動画。生成後にチャットで直接送付(リポジトリには未コミット、生成バイナリのため) |
+| `dialogue_audio.wav` | 対話音声(VOICEVOX、GitHub Actions経由で生成済み)。チャットで直接送付 |
+| `slide_timings.json` | スライドごとの開始/終了/長さ(秒)。GitHub Actions経由で音声と同時に生成済み |
+| `deck_narrated.mp4` | スライド画像+音声を結合したナレーション動画。チャットで直接送付(リポジトリには未コミット、生成バイナリのため) |
 | `youtube_assets.md` | YouTube/Shorts向けタイトル案・概要欄・タグ・章立て |
 | `canva_brief.md` | Canva移植ブリーフ(レイアウト対応表、`templates/canva_brief_template.md`準拠) |
 | `risk-and-quality-review.md` | 著作権・品質自己評価(100点満点中94点、85点以上のため修正不要) |
@@ -65,6 +65,13 @@
 - 対立を煽る表現・他社比較の誇張を避け、推測部分は「推測」と明示している
 - 実在企業名は事実として扱うが、ロゴ・商標画像は使用しない
 - GPT-5.6の政府審査プロセスについて、特定の国・政府への批判・憶測は行っていない
+
+## 生成完了(音声・動画)
+
+- `dialogue_audio.wav`: GitHub Actions(VOICEVOX)で生成済み、コミット済み
+- `slide_timings.json`: 音声と同時にGitHub Actionsで生成済み、コミット済み
+- `deck_narrated.mp4`: `build_narrated_video.py`で生成済み(30スライド、音声約5:14)。
+  チャットで送付済み(リポジトリには未コミット、生成バイナリのため)
 
 ## 注意
 

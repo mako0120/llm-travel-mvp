@@ -63,6 +63,13 @@
 - 実在企業名は事実として扱うが、ロゴ・商標画像は使用しない
 - 政府機関限定という提供形態について、特定の国・政府への批判・憶測は行っていない
 
+## 生成完了(音声・動画)
+
+- `dialogue_audio.wav`: GitHub Actions(VOICEVOX)で生成済み、コミット済み
+- `slide_timings.json`: 音声と同時にGitHub Actionsで生成済み、コミット済み
+- `deck_narrated.mp4`: `build_narrated_video.py`で生成済み(30スライド、音声約5:21)。
+  チャットで送付済み(リポジトリには未コミット、生成バイナリのため)
+
 ## 注意
 
 - TechCrunch・9to5Google等の記事本文には直接アクセスできず(403エラー)、検索エンジンの
