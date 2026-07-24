@@ -147,8 +147,115 @@ def draw_ribbon(draw, text, f, pal, corner="top-left"):
     return rotated
 
 
+def draw_top_banner(img, draw, pal, text):
+    """参考例(オレンジ→赤グラデーションの斜めカット帯)を模した、画面上部の
+    帯バナー。事実の短い要約のみを載せる(誇張・期間限定等の未確認訴求は使わない)。"""
+    h1, h2 = 92, 150
+    grad = Image.new("RGB", (W, h2), pal["accent"])
+    gdraw = ImageDraw.Draw(grad)
+    for x in range(W):
+        t = x / W
+        r = int(pal["accent"][0] * (1 - t) + pal["primary"][0] * t)
+        g = int(pal["accent"][1] * (1 - t) + pal["primary"][1] * t)
+        b = int(pal["accent"][2] * (1 - t) + pal["primary"][2] * t)
+        gdraw.line([(x, 0), (x, h2)], fill=(r, g, b))
+    mask = Image.new("L", (W, h2), 0)
+    mdraw = ImageDraw.Draw(mask)
+    mdraw.polygon([(0, 0), (W, 0), (W, h1), (0, h2)], fill=255)
+    img.paste(grad, (0, 0), mask)
+    f = font(38)
+    tw, th = _text_size(draw, text, f, stroke_width=3)
+    draw.text((44, (h1 - th) // 2 - 4), text, font=f, fill=(255, 255, 255),
+               stroke_width=3, stroke_fill=pal["primary_dark"])
+
+
+def draw_duration_badge(draw, text, pal):
+    """YouTubeの動画時間オーバーレイを模した、右下の角丸バッジ。実際の動画尺
+    (dialogue_audio.wav由来の実測値)のみを表示し、架空の数字は使わない。"""
+    f = font(30)
+    tw, th = _text_size(draw, text, f)
+    pad_x, pad_y = 16, 8
+    box = [W - tw - pad_x * 2 - 24, 24, W - 24, 24 + th + pad_y * 2]
+    rounded_rect(draw, box, radius=8, fill=(0, 0, 0))
+    draw.text((box[0] + pad_x, box[1] + pad_y - 2), text, font=f, fill=(255, 255, 255))
+
+
+def draw_avatar_badge(draw, cx, cy, r, pal, label):
+    """実在人物の写真の代わりに、円形の抽象アイコン+ペルソナ名ラベルを配置する。
+    dialogue_spec.jsonで既に定義しているAIペルソナ名(例: リサーチAI)を再利用する。"""
+    draw.ellipse([cx - r, cy - r, cx + r, cy + r], fill=pal["card"], outline=pal["accent"], width=6)
+    draw_accent_icon(draw, cx, cy, r * 0.5, pal["primary"])
+    f = font(28)
+    tw, th = _text_size(draw, label, f, stroke_width=4)
+    draw.text((cx - tw // 2, cy + r + 14), label, font=f, fill=pal["base"],
+               stroke_width=4, stroke_fill=pal["primary_dark"])
+
+
+def build_thumbnail_hype(spec: dict, out_path: str):
+    """オーナーが提示した参考サムネイル(上部の斜め帯バナー+複数階層の巨大文字+
+    右下の再生時間バッジ+左下の人物枠)のレイアウトを、実在人物の写真・誇張表現を
+    使わずに再現するスタイル。`style: "hype"` で選択する。"""
+    pal = palette(spec.get("palette_preset", "impact_red"))
+    img = Image.new("RGB", (W, H), pal["primary_dark"])
+    draw = ImageDraw.Draw(img)
+
+    draw_burst(draw, W * 0.62, H * 0.55, 70, 760, pal["primary"], n=18)
+    draw.ellipse([W * 0.62 - 220, H * 0.55 - 220, W * 0.62 + 220, H * 0.55 + 220], fill=pal["primary"])
+
+    banner_text = spec.get("banner_text", "")
+    if banner_text:
+        draw_top_banner(img, draw, pal, banner_text)
+
+    lines = spec["lines"]  # [{"text":..., "color": "base"|"accent"|"white", "size": int}]
+    y = 168
+    color_map = {"base": pal["base"], "accent": pal["accent"], "white": (255, 255, 255),
+                 "dark": pal["primary_dark"]}
+    for ln in lines:
+        size = ln.get("size", 70)
+        f = font(size)
+        text = ln["text"]
+        max_w = W - 90
+        while True:
+            tw, th = _text_size(draw, text, f, stroke_width=10)
+            if tw <= max_w or size <= 40:
+                break
+            size -= 4
+            f = font(size)
+        fill = color_map.get(ln.get("color", "white"), (255, 255, 255))
+        x = 46
+        draw.text((x + 5, y + 7), text, font=f, fill=pal["primary_dark"],
+                   stroke_width=10, stroke_fill=pal["primary_dark"])
+        draw.text((x, y), text, font=f, fill=fill, stroke_width=10, stroke_fill=pal["primary_dark"])
+        y += int(size * 1.12)
+
+    duration = spec.get("duration_badge")
+    if duration:
+        draw_duration_badge(draw, duration, pal)
+
+    avatar_label = spec.get("avatar_label")
+    if avatar_label:
+        draw_avatar_badge(draw, W - 130, H - 210, 78, pal, avatar_label)
+
+    band_h = 74
+    draw.rectangle([0, H - band_h, W, H], fill=pal["accent"])
+    tag = spec.get("tag", "")
+    footer = spec.get("footer", "AI Company OS")
+    tag_font = font(34)
+    draw.text((36, H - band_h + 18), tag, font=tag_font, fill=pal["primary_dark"])
+    footer_font = font(24)
+    fw, _fh = _text_size(draw, footer, footer_font)
+    draw.text((W - fw - 36, H - band_h + 24), footer, font=footer_font, fill=pal["primary_dark"])
+
+    Path(out_path).parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_path, "PNG")
+    return out_path
+
+
 def build_thumbnail(spec: dict, out_path: str):
-    style = spec.get("style", "standard")  # "standard" or "impact"
+    style = spec.get("style", "standard")  # "standard" / "impact" / "hype"
+    if style == "hype":
+        return build_thumbnail_hype(spec, out_path)
+
     pal = palette(spec.get("palette_preset", "navy_gold"))
     img = Image.new("RGB", (W, H), pal["primary_dark"])
     draw = ImageDraw.Draw(img)
@@ -249,7 +356,27 @@ def self_test():
     img2 = Image.open(out2)
     assert img2.size == (W, H), f"unexpected size: {img2.size}"
     img2.resize((168, 94)).save("/tmp/thumbnail_self_test_impact_small.png")
-    print("SELF-TEST PASSED:", out, out2)
+
+    sample_hype = {
+        "palette_preset": "impact_red",
+        "style": "hype",
+        "banner_text": "2026年7月8日・9日に発表",
+        "lines": [
+            {"text": "海外2社が", "color": "white", "size": 58},
+            {"text": "同じ週に発表", "color": "accent", "size": 92},
+            {"text": "GPT-5.6 vs Grok 4.5", "color": "white", "size": 84},
+        ],
+        "duration_badge": "5:14",
+        "avatar_label": "リサーチAI",
+        "tag": "AI/テック",
+        "footer": "AI Company OS",
+    }
+    out3 = "/tmp/thumbnail_self_test_hype.png"
+    build_thumbnail(sample_hype, out3)
+    img3 = Image.open(out3)
+    assert img3.size == (W, H), f"unexpected size: {img3.size}"
+    img3.resize((168, 94)).save("/tmp/thumbnail_self_test_hype_small.png")
+    print("SELF-TEST PASSED:", out, out2, out3)
 
 
 def main():

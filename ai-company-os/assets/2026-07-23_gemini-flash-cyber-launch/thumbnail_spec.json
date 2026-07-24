@@ -1,8 +1,14 @@
 {
   "palette_preset": "impact_red",
-  "style": "impact",
-  "hook": "政府限定のAI",
-  "ribbon": "Google新モデル3種",
+  "style": "hype",
+  "banner_text": "2026年7月21日発表",
+  "lines": [
+    {"text": "使えるのは", "color": "white", "size": 58},
+    {"text": "政府機関だけ", "color": "accent", "size": 92},
+    {"text": "Gemini新モデル3種", "color": "white", "size": 78}
+  ],
+  "duration_badge": "5:21",
+  "avatar_label": "リサーチAI",
   "tag": "AI/テック",
   "footer": "AI Company OS"
 }

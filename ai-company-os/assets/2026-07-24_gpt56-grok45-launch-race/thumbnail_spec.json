@@ -1,8 +1,14 @@
 {
   "palette_preset": "impact_red",
-  "style": "impact",
-  "hook": "1日違いで発表",
-  "ribbon": "海外2社が同週発表",
+  "style": "hype",
+  "banner_text": "2026年7月8日・9日に発表",
+  "lines": [
+    {"text": "海外2社が", "color": "white", "size": 58},
+    {"text": "同じ週に発表", "color": "accent", "size": 92},
+    {"text": "GPT-5.6 vs Grok 4.5", "color": "white", "size": 84}
+  ],
+  "duration_badge": "5:14",
+  "avatar_label": "リサーチAI",
   "tag": "AI/テック",
   "footer": "AI Company OS"
 }

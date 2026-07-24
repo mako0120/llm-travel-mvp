@@ -1,8 +1,14 @@
 {
   "palette_preset": "impact_red",
-  "style": "impact",
-  "hook": "3年ぶりに投稿",
-  "ribbon": "Meta新モデル発表",
+  "style": "hype",
+  "banner_text": "2026年7月9日発表",
+  "lines": [
+    {"text": "3年ぶりに", "color": "white", "size": 58},
+    {"text": "ザッカーバーグが投稿", "color": "accent", "size": 66},
+    {"text": "Meta Muse Spark 1.1", "color": "white", "size": 78}
+  ],
+  "duration_badge": "5:42",
+  "avatar_label": "リサーチAI",
   "tag": "AI/テック",
   "footer": "AI Company OS"
 }
