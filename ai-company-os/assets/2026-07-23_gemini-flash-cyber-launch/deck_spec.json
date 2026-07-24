@@ -1,0 +1,471 @@
+{
+  "meta": {
+    "palette_preset": "navy_gold",
+    "footer": "AI Company OS - 定期実行25本目",
+    "title": "Google、Gemini新モデル3種を発表(定期実行25本目)",
+    "subtitle": "2026-07-23 / AI Company OS"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "政府機関だけが使えるAIモデル、知っていますか?",
+      "note": "フックとして問いかけから入る。挨拶ではなく、政府限定AIという珍しい提供形態を突く一言にする。",
+      "sub": "Google、Gemini新モデル3種を発表 — うち1つはサイバーセキュリティ専用(2026年7月21日)",
+      "footnote": "出典: Google公式, Google DeepMind公式, TechCrunch, 9to5Google(2026-07-21)"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日話すこと",
+      "items": [
+        "起: 前提知識 + 何が起きたか",
+        "承: 3モデルの中身と料金",
+        "転: なぜ今3モデル同時発表なのか、これは何を意味するか",
+        "結: 不明点・リスク配慮・まとめ"
+      ],
+      "note": "起承転結を予告する。"
+    },
+    {
+      "layout": "cards",
+      "title": "まず言葉の整理(初心者向け)",
+      "cards": [
+        {
+          "label": "Flash系モデル",
+          "text": "速度・コストを重視した軽量版のAIモデル"
+        },
+        {
+          "label": "ファインチューニング",
+          "text": "特定の用途に合わせて追加で調整すること"
+        }
+      ],
+      "note": "専門用語を最初に整理する。"
+    },
+    {
+      "layout": "table",
+      "title": "何が起きたか",
+      "headers": [
+        "項目",
+        "内容"
+      ],
+      "rows": [
+        [
+          "発表元",
+          "Google DeepMind"
+        ],
+        [
+          "発表日",
+          "2026年7月21日"
+        ],
+        [
+          "モデル数",
+          "3種類(3.6 Flash / 3.5 Flash-Lite / 3.5 Flash Cyber)"
+        ],
+        [
+          "報道",
+          "TechCrunch・9to5Google等が一斉報道"
+        ]
+      ],
+      "note": "発表の概要を表で整理する。",
+      "source": "Google公式ブログ(2026-07-21)"
+    },
+    {
+      "layout": "table",
+      "title": "3モデルの位置づけ",
+      "headers": [
+        "モデル名",
+        "特徴"
+      ],
+      "rows": [
+        [
+          "Gemini 3.6 Flash",
+          "主力モデル。コーディング・知的作業を強化"
+        ],
+        [
+          "Gemini 3.5 Flash-Lite",
+          "最も低コスト・高速な軽量モデル"
+        ],
+        [
+          "Gemini 3.5 Flash Cyber",
+          "サイバーセキュリティ専用、政府機関限定"
+        ]
+      ],
+      "note": "3モデルの違いを表で整理する。",
+      "source": "9to5Google(2026-07-21)"
+    },
+    {
+      "layout": "diagram",
+      "title": "3モデルの関係性",
+      "nodes": [
+        {
+          "label": "Flash-Lite",
+          "sublabel": "最軽量・最安"
+        },
+        {
+          "label": "Flash",
+          "sublabel": "主力・汎用"
+        },
+        {
+          "label": "Cyber",
+          "sublabel": "セキュリティ特化"
+        }
+      ],
+      "note": "軽量から特化まで、3モデルの位置関係を図で示す。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "トークン使用量の削減率",
+      "stat": "17%",
+      "note": "Gemini 3.6 Flashが前身モデルよりトークン使用量を最大17%削減したことを数字で示す。",
+      "caption": "Gemini 3.6 Flashの効率化(前身モデル比)",
+      "source": "9to5Google(2026-07-21)"
+    },
+    {
+      "layout": "table",
+      "title": "Gemini 3.6 Flashの料金・仕様",
+      "headers": [
+        "項目",
+        "内容"
+      ],
+      "rows": [
+        [
+          "入力(100万トークンあたり)",
+          "1.50ドル"
+        ],
+        [
+          "出力(100万トークンあたり)",
+          "7.50ドル"
+        ],
+        [
+          "知識のカットオフ日",
+          "2025年1月 → 2026年3月に更新"
+        ]
+      ],
+      "note": "料金と知識のカットオフ日を表で整理する。",
+      "source": "9to5Google(2026-07-21)"
+    },
+    {
+      "layout": "big_stat",
+      "title": "Flash-Liteの入力料金",
+      "stat": "$0.3",
+      "note": "Gemini 3.5 Flash-Liteが同クラス最安の、100万トークンあたり0.3ドルであることを示す。",
+      "caption": "100万トークンあたり(同クラス最安)",
+      "source": "9to5Google(2026-07-21)"
+    },
+    {
+      "layout": "bar_chart",
+      "title": "入力料金の比較(100万トークンあたり)",
+      "categories": [
+        "3.5 Flash-Lite",
+        "3.6 Flash"
+      ],
+      "series": {
+        "name": "ドル",
+        "values": [
+          0.3,
+          1.5
+        ]
+      },
+      "note": "Flash-LiteとFlashの料金差をグラフで見せる(Cyberは限定提供のため料金非公開)。",
+      "source": "9to5Google(2026-07-21)",
+      "number_format": "$#,##0.00"
+    },
+    {
+      "layout": "big_stat",
+      "title": "処理速度",
+      "stat": "350トークン/秒",
+      "note": "Gemini 3.5 Flash-Liteの高スループット処理能力を数字で示す。",
+      "caption": "Flash-Liteの1秒あたりの処理トークン数",
+      "source": "9to5Google(2026-07-21)"
+    },
+    {
+      "layout": "diagram",
+      "title": "エージェント検索の仕組み",
+      "nodes": [
+        {
+          "label": "Google検索"
+        },
+        {
+          "label": "Flash-Liteが処理",
+          "sublabel": "高速・低コスト"
+        },
+        {
+          "label": "エージェント検索結果"
+        }
+      ],
+      "note": "Flash-LiteがGoogle検索内の「エージェント検索」を担う仕組みを図で示す。",
+      "source": "9to5Google(2026-07-21)"
+    },
+    {
+      "layout": "cards",
+      "title": "Cyberモデルとは",
+      "cards": [
+        {
+          "label": "特化内容",
+          "text": "サイバーセキュリティの脆弱性の発見・修正"
+        },
+        {
+          "label": "提供先",
+          "text": "政府機関・信頼できるパートナー限定のパイロット"
+        }
+      ],
+      "note": "Cyberモデルの内容を2枚のカードで整理する。",
+      "source": "Google DeepMind公式ブログ(2026-07-21)"
+    },
+    {
+      "layout": "comparison",
+      "title": "Cyberモデルと通常モデルの違い",
+      "left": {
+        "heading": "3.6 Flash / 3.5 Flash-Lite",
+        "items": [
+          "API・AI Studioで誰でも利用可能",
+          "開発者向けに広く公開"
+        ]
+      },
+      "right": {
+        "heading": "3.5 Flash Cyber",
+        "items": [
+          "政府機関・信頼できるパートナー限定",
+          "限定的なパイロットプログラム"
+        ]
+      },
+      "note": "提供範囲の違いを対比で見せる。"
+    },
+    {
+      "layout": "table",
+      "title": "提供チャネル",
+      "headers": [
+        "チャネル",
+        "対象モデル"
+      ],
+      "rows": [
+        [
+          "Gemini API",
+          "3.6 Flash / 3.5 Flash-Lite"
+        ],
+        [
+          "Google AI Studio",
+          "3.6 Flash / 3.5 Flash-Lite"
+        ],
+        [
+          "Android Studio",
+          "3.6 Flash / 3.5 Flash-Lite"
+        ],
+        [
+          "Gemini Enterprise Agent Platform",
+          "3.6 Flash(企業向け)"
+        ]
+      ],
+      "note": "提供チャネルを表で整理する。",
+      "source": "9to5Google(2026-07-21)"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回含まれなかったもの",
+      "bullets": [
+        "Gemini 3.5 Proは今回の発表に含まれていない",
+        "TechCrunchはこの点を見出しで明示的に指摘している"
+      ],
+      "note": "正直に、含まれなかったものも伝える。",
+      "source": "TechCrunch(2026-07-21)"
+    },
+    {
+      "layout": "cards",
+      "title": "なぜ今このタイミングで3モデル同時発表なのか(推測)",
+      "cards": [
+        {
+          "label": "用途の細分化",
+          "text": "軽量・主力・特化を使い分けられるようにする狙い"
+        },
+        {
+          "label": "段階的な検証",
+          "text": "Cyberは限定提供でまず検証してから拡大か"
+        },
+        {
+          "label": "価格競争への対応",
+          "text": "低価格帯の競合モデルに対抗する狙い"
+        }
+      ],
+      "note": "ここからは推測であることを明言する。"
+    },
+    {
+      "layout": "cards",
+      "title": "見送った候補",
+      "cards": [
+        {
+          "label": "Alibaba Cloud Agent Native Cloud",
+          "text": "話題性・独自性でGeminiに劣るため見送り"
+        },
+        {
+          "label": "DeepSeek V4「安定版」",
+          "text": "リリース時期の情報が食い違い確度が低いため見送り"
+        },
+        {
+          "label": "Kimi K3の蒸留疑惑",
+          "text": "国家間の対立構造が強く高リスクのため見送り"
+        }
+      ],
+      "note": "見送った候補も具体的に共有する。"
+    },
+    {
+      "layout": "diagram",
+      "title": "AIモデルの多様化が意味すること",
+      "nodes": [
+        {
+          "label": "専門特化",
+          "sublabel": "用途に特化したモデル"
+        },
+        {
+          "label": "低価格化",
+          "sublabel": "選べる価格帯が増える"
+        },
+        {
+          "label": "高速化",
+          "sublabel": "処理速度も向上"
+        }
+      ],
+      "note": "転換パート。ここから実践的な話に入る。"
+    },
+    {
+      "layout": "bullets",
+      "title": "これは何を意味するのか(利用者にとって)",
+      "bullets": [
+        "用途に応じてモデルを使い分ける時代になってきている",
+        "低コストな選択肢(Flash-Lite)も増え、試すハードルが下がっている"
+      ],
+      "note": "出来事の紹介だけで終わらせず、読み手にとっての意味を扱う。"
+    },
+    {
+      "layout": "cards",
+      "title": "試すなら確認したいこと",
+      "cards": [
+        {
+          "label": "何に使うか",
+          "text": "主力用途か、軽量・高速処理かを決める"
+        },
+        {
+          "label": "料金の見積もり",
+          "text": "入出力トークン数の目安を確認する"
+        },
+        {
+          "label": "提供チャネル",
+          "text": "API・AI Studio等どこから使うか確認する"
+        }
+      ],
+      "note": "実際に試す前のチェックリストとして提示する。"
+    },
+    {
+      "layout": "steps",
+      "title": "実際に試す場合の進め方(目安)",
+      "steps": [
+        {
+          "label": "①目的を決める",
+          "text": "何をさせたいか明確にする"
+        },
+        {
+          "label": "②モデルを選ぶ",
+          "text": "Flash / Flash-Liteのどちらか検討"
+        },
+        {
+          "label": "③コストを見積もる",
+          "text": "料金表と使用量を照らし合わせる"
+        }
+      ],
+      "note": "実践につながる進め方をステップで見せる。"
+    },
+    {
+      "layout": "bullets",
+      "title": "個人にとっての影響",
+      "bullets": [
+        "普段使うAIサービスの裏側でモデルが日々更新されている",
+        "料金・速度の選択肢が増え、用途に合わせて選べるようになってきている"
+      ],
+      "note": "個人視点も扱う。"
+    },
+    {
+      "layout": "bullets",
+      "title": "不明点・注意点",
+      "bullets": [
+        "Cyberモデルの具体的な性能評価(ベンチマーク数値)は非公開",
+        "政府機関・信頼できるパートナーの具体的な選定基準は非公開"
+      ],
+      "note": "不明点を正直に「不明」と明言する。"
+    },
+    {
+      "layout": "cards",
+      "title": "リスク配慮のポイント",
+      "cards": [
+        {
+          "label": "事実紹介に徹する",
+          "text": "企業の製品発表という事実を淡々と紹介"
+        },
+        {
+          "label": "対立を煽らない",
+          "text": "見送った候補も含め対立構造は扱わない"
+        },
+        {
+          "label": "推測は明示",
+          "text": "推測部分は「推測」と明言している"
+        }
+      ],
+      "note": "政治・対立を煽らないという制作方針を明確に伝える。"
+    },
+    {
+      "layout": "table",
+      "title": "検品結果",
+      "headers": [
+        "項目",
+        "結果"
+      ],
+      "rows": [
+        [
+          "verify_pptx.py",
+          "合格"
+        ],
+        [
+          "同一レイアウト連続チェック",
+          "合格"
+        ],
+        [
+          "bullets比率チェック",
+          "合格"
+        ],
+        [
+          "対話原稿スライド数整合性",
+          "合格"
+        ]
+      ],
+      "note": "検品結果を表でまとめる。"
+    },
+    {
+      "layout": "bullets",
+      "title": "出典一覧",
+      "bullets": [
+        "Google公式ブログ / Google DeepMind公式ブログ",
+        "TechCrunch / 9to5Google / Android Authority"
+      ],
+      "note": "出典を短く再掲する。"
+    },
+    {
+      "layout": "cta",
+      "heading": "AIモデルは「1つを選ぶ」から「使い分ける」時代へ",
+      "sub": "軽量・主力・特化と、用途に応じた選択肢が増えている",
+      "action": "興味があれば、まずは無料枠や低価格モデルで試してみる",
+      "note": "結のキーメッセージ。"
+    },
+    {
+      "layout": "bullets",
+      "title": "次回予告",
+      "bullets": [
+        "AIモデルの専門特化・価格競争は続くテーマ",
+        "次回も独立系メディアの報道をもとに紹介する"
+      ],
+      "note": "オープンループで次回への引き。"
+    },
+    {
+      "layout": "cta",
+      "heading": "ご視聴ありがとうございました",
+      "sub": "出典・詳細はresearch.mdと各スライドの出典表記を参照",
+      "action": "質問・フィードバックはいつでもどうぞ",
+      "note": "最終スライド。"
+    }
+  ]
+}

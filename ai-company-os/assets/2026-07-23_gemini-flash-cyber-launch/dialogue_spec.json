@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "title": "Google、Gemini新モデル3種を発表",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Google公式ブログ(2026-07-21)",
+      "Google DeepMind公式ブログ(2026-07-21)",
+      "TechCrunch(2026-07-21)",
+      "9to5Google(2026-07-21)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "政府機関だけが使えるAIモデルがあるって知ってた?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、2026年7月21日、Googleが発表したGemini新モデル3種のうちの1つがそうです。",
+              "source": "Google公式ブログ(2026-07-21)"
+            },
+            {
+              "speaker": "host",
+              "text": "3つも同時発表、しかも1つは政府限定。今日はそこを見ていこう。"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日は4パートで話します。前提知識から始めます。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Flash系モデルは、速度・コストを重視した軽量版のAIモデルです。ファインチューニングは、特定の用途に合わせて追加調整することです。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "何が起きたかを表にすると、Google DeepMindが2026年7月21日、3種類の新モデルを発表しました。",
+              "source": "Google公式ブログ(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3モデルの位置づけを表にすると、3.6 Flashが主力、3.5 Flash-Liteが最軽量、3.5 Flash Cyberがセキュリティ特化です。",
+              "source": "9to5Google(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、軽量なFlash-Liteから汎用のFlash、特化型のCyberまで、役割がはっきり分かれています。"
+            },
+            {
+              "speaker": "host",
+              "text": "1つのモデルで全部やるんじゃなくて、役割分担してるんだね。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字で見ると「17%」。Gemini 3.6 Flashが前身モデルよりトークン使用量を削減した割合です。",
+              "source": "9to5Google(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3.6 Flashの料金・仕様を表にすると、入力1.50ドル、出力7.50ドル、知識のカットオフ日も2026年3月に更新されています。",
+              "source": "9to5Google(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字にすると「$0.3」。Flash-Liteの入力料金で、同クラス最安です。",
+              "source": "9to5Google(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "料金をグラフで比べると、Flash-Liteの安さがよく分かります。",
+              "source": "9to5Google(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字で見ると「350トークン/秒」。Flash-Liteの高速処理能力です。",
+              "source": "9to5Google(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "エージェント検索の仕組みを図にすると、Google検索の中でFlash-Liteが高速・低コストに処理を担っています。",
+              "source": "9to5Google(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Cyberモデルは、サイバーセキュリティの脆弱性の発見・修正に特化し、政府機関・信頼できるパートナー限定のパイロットプログラムです。",
+              "source": "Google DeepMind公式ブログ(2026-07-21)"
+            },
+            {
+              "speaker": "host",
+              "text": "誰でも使えるわけじゃないんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "通常モデルとの違いを比べると、3.6 FlashとFlash-Liteは誰でも使えますが、Cyberは限定提供です。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "提供チャネルを表にすると、Gemini API、AI Studio、Android Studio、企業向けのGemini Enterprise Agent Platformです。",
+              "source": "9to5Google(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直にお伝えすると、今回の発表にGemini 3.5 Proは含まれていません。TechCrunchもこの点を見出しで指摘しています。",
+              "source": "TechCrunch(2026-07-21)"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが仕組みと料金の話。ここからは、なぜこのタイミングだったのかを考えてみよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ここからは推測ですが、理由を3つのカードに整理しました。用途の細分化、段階的な検証、価格競争への対応です。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回見送った候補も共有します。Alibaba Cloud Agent Native Cloud、DeepSeek V4の安定版、Kimi K3の蒸留疑惑です。"
+            },
+            {
+              "speaker": "host",
+              "text": "それぞれ見送った理由もあるんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。話題性で劣る、リリース時期の情報が食い違う、政治的リスクが高い、という理由です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、AIモデルの多様化が意味することは、専門特化・低価格化・高速化の3つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここから実践の話だね。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "これが意味するのは、用途に応じてモデルを使い分ける時代になってきているということです。低コストな選択肢も増えています。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "試すなら確認したいことを3つのカードにしました。何に使うか、料金の見積もり、提供チャネルです。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "実際に試す進め方は、目的を決める、モデルを選ぶ、コストを見積もる、の3ステップが目安です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "個人にとっては、普段使うAIサービスの裏側でモデルが日々更新されており、選択肢も増えてきています。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直に言うと、Cyberモデルの性能評価や、政府機関の選定基準は非公開です。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "リスク配慮のポイントを3つのカードにまとめました。事実紹介に徹すること、対立を煽らないこと、推測は推測と明示することです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "検品結果を表にまとめました。すべて合格しています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典を再掲します。Google公式、Google DeepMind公式、TechCrunch、9to5Googleほかです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、AIモデルは『1つを選ぶ』から『使い分ける』時代へ変わってきているということです。"
+            },
+            {
+              "speaker": "host",
+              "text": "興味があれば、まずは無料枠や低価格モデルで試してみるのがよさそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AIモデルの専門特化・価格競争は今後も続くテーマです。次回も独立系メディアの報道をもとに紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
