@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "title": "Meta「Seller」アプリを発表",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Meta公式ブログ(2026-07-24)",
+      "TechCrunch(2026-07-24)",
+      "9to5Mac(2026-07-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "月間4億3000万点。これがFacebook Marketplaceの出品数です。",
+              "source": "TechCrunch(2026-07-24)"
+            },
+            {
+              "speaker": "host",
+              "text": "すごい数字だね。それで今日は何のニュース?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年7月24日、Metaが出品者向けの新アプリ「Seller」を発表しました。写真1枚でAIが出品情報を作ってくれます。",
+              "source": "Meta公式ブログ(2026-07-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日は4パートで話します。前提知識から始めます。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Facebook MarketplaceはFacebook内の個人間売買サービス。AI自動生成は、写真等からAIが文章等を自動で作ることです。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "何が起きたかを表にすると、Metaが7月24日、iOS向けの単独アプリ「Seller」を発表しました。",
+              "source": "Meta公式ブログ(2026-07-24)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字で見ると「4億3000万点」。世界のMarketplaceでの月間出品点数です。",
+              "source": "TechCrunch(2026-07-24)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "主な機能をカードにすると、AI自動出品、優先タスクを表示するホーム画面、既存アカウントとの自動同期の3つです。",
+              "source": "TechCrunch(2026-07-24)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "仕組みを図にすると、写真を撮る、AIが解析する、出品情報が完成する、という流れです。",
+              "source": "TechCrunch(2026-07-24)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AIが作る項目をカードにすると、タイトル・説明文・価格とカテゴリの3つです。",
+              "source": "TechCrunch(2026-07-24)"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ホーム画面の表示内容を表にすると、発送待ち商品・返信待ちメッセージ・価格見直し候補・販売実績です。",
+              "source": "TechCrunch(2026-07-24)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "従来の出品と比べると、これまでは手動入力でしたが、Sellerアプリは写真からAIが自動作成します。"
+            },
+            {
+              "speaker": "host",
+              "text": "手間がかなり減りそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "提供状況を表にすると、現時点では米国の18歳以上、iOSのみです。日本での提供は不明です。",
+              "source": "9to5Mac(2026-07-24)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "アカウント認証機能もカードで紹介します。無料の本人確認機能が追加され、取引の安全性を高める狙いと考えられます。",
+              "source": "TechCrunch(2026-07-24)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典の確認結果を表にまとめました。発表日・対応OS・出品点数、いずれも複数情報源で一致しています。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "こんな人におすすめか、カードにすると、頻繁に出品する人や、手間を減らしたい人です。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "よくある疑問にも答えます。日本で使えるかは不明、AIの精度データも今回の発表では確認できていません。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが機能の話。ここからは、なぜ今このタイミングだったのかを考えてみよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直にお伝えすると、AI生成の精度や修正フロー、日本での提供時期は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ここからは推測ですが、理由を3つのカードに整理しました。競合対応、ヘビーユーザー強化、AI活用の広がりです。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回見送った候補も共有します。Gemini 4の事前学習開始、AI Kill Switch法案です。"
+            },
+            {
+              "speaker": "host",
+              "text": "それぞれ見送った理由もあるんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。既存テーマと重複する、政治的テーマで高リスク、という理由です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、これが意味することは、出品作業の自動化・専用アプリの広がり・AI活用の日常化の3つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここから実践の話だね。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "これが意味するのは、フリマ・個人売買での出品作業の手間が減る可能性があるということです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "試すなら確認したいことを3つのカードにしました。対象地域か、対応OS、AI生成内容の確認です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "実際に試す進め方は、アプリを入手する、写真を撮る、AI生成内容を確認する、の3ステップが目安です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "個人にとっては、普段使う個人売買サービスにもAI自動生成機能が広がりつつあるということです。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直に言うと、AI生成の精度や日本での提供時期は非公開です。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "リスク配慮のポイントを3つのカードにまとめました。事実紹介に徹すること、他社比較の誇張を避けること、推測の明示です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "検品結果を表にまとめました。すべて合格しています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典を再掲します。Meta公式、TechCrunchほかです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、出品は『書く』から『撮るだけ』の時代へ変わってきているということです。"
+            },
+            {
+              "speaker": "host",
+              "text": "対象地域なら、試してみる価値がありそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AIによる日常タスクの自動化は今後も続くテーマです。次回も独立系メディアの報道をもとに紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
