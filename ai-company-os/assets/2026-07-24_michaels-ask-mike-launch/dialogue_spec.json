@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "title": "Michaels「Ask Mike」AIショッピングアシスタントを発表",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "PRNewswire公式プレスリリース(2026-07-21)",
+      "PYMNTS(2026-07-24時点)",
+      "Retail Dive(2026-07-24時点)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "約75,000件の会話を、たった6週間で作ったAIが処理しました。",
+              "source": "PRNewswire公式プレスリリース(2026-07-21)"
+            },
+            {
+              "speaker": "host",
+              "text": "6週間で? それはすごいスピードだね。何のニュース?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年7月21日、米Michaelsが、Google CloudのGemini EnterpriseでAIショッピングアシスタント「Ask Mike」を発表しました。",
+              "source": "PRNewswire公式プレスリリース(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日は4パートで話します。前提知識から始めます。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AIショッピングアシスタントは、自然な言葉で相談すると商品を探してくれるAI機能。Gemini Enterpriseは、Google Cloudが企業向けに提供するAI基盤です。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "何が起きたかを表にすると、Michaelsが7月21日、Google CloudのGemini Enterpriseで作ったAsk Mikeを発表しました。",
+              "source": "PRNewswire公式プレスリリース(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字にすると「約75,000件」。5月のリリース後、最初の数週間で発生した会話数です。",
+              "source": "PRNewswire公式プレスリリース(2026-07-21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "主な機能をカードにすると、自然な言葉で相談できること、商品を自動で提案してくれること、Web・アプリ両方で使えることの3つです。",
+              "source": "Retail Dive(2026-07-24時点)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "やり取りの内訳を表にすると、6割以上が商品探しに関するものでした。",
+              "source": "PRNewswire公式プレスリリース(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "使う流れを図にすると、作りたいものを伝える、AIが内容を解析する、商品が提案される、という3ステップです。",
+              "source": "Retail Dive(2026-07-24時点)"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "開発のスピードも表にまとめました。構想から本番稼働まで約6週間だったとGoogle Cloud担当者が説明しています。",
+              "source": "PYMNTS(2026-07-24時点)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "従来の商品検索と比べると、これまでは正確な商品名やカテゴリの絞り込みが必要でしたが、Ask Mikeは自然な言葉で伝えるだけで済みます。"
+            },
+            {
+              "speaker": "host",
+              "text": "商品名を覚えていなくても使えるのはいいね。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "実店舗小売業への広がりという観点でも紹介します。ECだけでなく、実店舗中心のクラフト用品チェーンでの導入事例です。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "小売業でのAI活用という流れについても触れます。商品探しの手間を減らして購買につなげる狙いがあると考えられます。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典の確認結果を表にまとめました。発表日・会話数・開発期間とも複数情報源で確認できています。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "こんな人におすすめか、カードにすると、小売・EC業界に関心がある人やAI活用事例を知りたい人です。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "よくある疑問にも答えます。日本での提供や追加料金の有無は、今回の発表では確認できていません。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが機能の話。ここからは、なぜ今このタイミングだったのかを考えてみよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直にお伝えすると、日本での提供予定や料金体系、75,000件の正確な集計期間は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ここからは推測ですが、理由を3つのカードに整理しました。競争環境、実績の後押し、夏の需要期です。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回見送った候補も共有します。AegisAIのセキュリティツール、Humanoid Roboticsの資金調達です。"
+            },
+            {
+              "speaker": "host",
+              "text": "それぞれ見送った理由もあるんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。B2B向けで訴求力に欠ける、製品発表ではなく資金調達のニュースだった、という理由です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、これが意味することは、AI対話型検索の広がり、開発スピードの変化、購買体験の変化の3つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここから実践の話だね。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "これが意味するのは、商品名やカテゴリを知らなくても欲しいものにたどり着きやすくなる可能性があるということです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "試すなら確認したいことを3つのカードにしました。対象国・地域、利用チャネル、提案内容の確認です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "実際に試す進め方は、公式サイトを確認する、目的を整理する、自然な言葉で相談してみる、の3ステップが目安です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "個人にとっては、商品を探す手間がAIとの対話で減る可能性があるということです。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直に言うと、日本展開や料金体系の詳細は非公開です。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "リスク配慮のポイントを3つのカードにまとめました。事実紹介に徹すること、誇張表現を避けること、推測の明示です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "検品結果を表にまとめました。すべて合格しています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典を再掲します。PRNewswire、Google Cloud Press Corner、Retail Dive、PYMNTSほかです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、AI対話型の商品探しが実店舗小売にも広がっているということです。"
+            },
+            {
+              "speaker": "host",
+              "text": "興味があれば、公式サイトを確認してみるのがよさそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "小売業でのAI活用事例は今後も続くテーマです。次回も独立系メディアの報道をもとに紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
