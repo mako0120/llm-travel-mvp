@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "title": "OpenAI「ChatGPT for Small Business」プログラム開始",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg(2026-07-21)",
+      "OpenAI公式ブログ(2026-07-21)",
+      "9to5Mac(2026-07-21)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "2週間で倍増、利用者1,000万人。OpenAIが中小企業支援に本腰を入れました。",
+              "source": "Bloomberg(2026-07-21)"
+            },
+            {
+              "speaker": "host",
+              "text": "2週間で倍って、かなり早いね。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。2026年7月21日、Codex・ChatGPT Workの利用者が合計1,000万人に到達したと発表され、同日『ChatGPT for Small Business』プログラムも始まりました。",
+              "source": "Bloomberg(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日は4パートで話します。前提知識から始めます。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ChatGPT Workは複数手順のタスクをこなすエージェント機能。Codexはコーディング支援エージェントです。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "何が起きたかを表にすると、OpenAIが7月21日、利用者数1,000万人到達と新プログラムを同時発表しました。",
+              "source": "Bloomberg(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字にすると『1,000万人』。ChatGPT Work公開から約2週間でほぼ倍増した数字です。",
+              "source": "Bloomberg(2026-07-21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "プログラムの内容をカードにすると、製品別ウェビナー、対面のAI Academyイベント、教育コンテンツの3つです。",
+              "source": "OpenAI公式ブログ(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "パートナー連携を表にすると、Dropbox・Shopify・Intuitや、Slack・Atlassian・Wixなどが含まれます。",
+              "source": "OpenAI公式ブログ(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "過去の実績をグラフにすると、参加者の78%が1日でAIワークフローを構築、42%が週5時間以上を削減しました。",
+              "source": "OpenAI公式ブログ(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "業種別の活用例もカードで紹介します。会計、マーケティング、ECなど幅広い業種向けの例が用意されています。",
+              "source": "OpenAI公式ブログ(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "利用者数の内訳も表にまとめました。ただし『アクティブ』の定義やCodex・Work別の内訳は公表されていません。",
+              "source": "Bloomberg(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "従来の中小企業のAI導入と比べると、これまでは自分で模索する必要がありましたが、今回は業種別のガイドやパートナー連携が用意されています。"
+            },
+            {
+              "speaker": "host",
+              "text": "始めるハードルが下がりそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "前回テーマとの違いも紹介します。定期実行22本目はWork・Codexアプリの統合そのものを扱いましたが、今回はその2週間後の利用者数到達とプログラム開始を扱います。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "なぜ同時発表なのかについても触れます。勢いを示しつつ裾野を広げたい狙いがあると考えられます。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典の確認結果を表にまとめました。利用者数・プログラム内容とも複数情報源で確認できています。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "こんな人におすすめか、カードにすると、小規模事業を営む人やAI活用事例に関心がある人です。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "よくある疑問にも答えます。日本での提供有無・対応言語は今回の発表では確認できていません。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが概要の話。ここからは、なぜ今このタイミングだったのかを考えてみよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直にお伝えすると、利用者数の定義や内訳、日本での提供有無は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回見送った候補も共有します。高木美帆さんの国民栄誉賞、AWS WAFの機能です。"
+            },
+            {
+              "speaker": "host",
+              "text": "それぞれ見送った理由もあるんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。実用性でやや下回ると判断した、鮮度が低い、という理由です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、これが意味することは、AIエージェントの急速な普及、中小企業への裾野の広がり、業務ツールとの連携強化の3つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここから実践の話だね。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "これが意味するのは、AIエージェントの導入ハードルが教育コンテンツやパートナー連携によって下がりつつあるということです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "試すなら確認したいことを3つのカードにしました。利用可能な地域、料金体系、業種別の活用例です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "実際に試す進め方は、公式サイトを確認する、自社の業務を整理する、小さく試す、の3ステップが目安です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "個人にとっては、小規模事業者でもAIエージェントを取り入れやすい環境が整いつつあるということです。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直に言うと、利用者数の定義の詳細は非公開です。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "リスク配慮のポイントを3つのカードにまとめました。事実紹介に徹すること、数字の性質を明記すること、推測の明示です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "検品結果を表にまとめました。すべて合格しています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典を再掲します。Bloomberg、OpenAI公式ブログほかです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、AIエージェントが中小企業の日常業務に入り始めているということです。"
+            },
+            {
+              "speaker": "host",
+              "text": "興味があれば、公式サイトを確認してみるのがよさそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AIエージェントの普及・中小企業支援の動向は今後も続くテーマです。次回も独立系メディアの報道をもとに紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
