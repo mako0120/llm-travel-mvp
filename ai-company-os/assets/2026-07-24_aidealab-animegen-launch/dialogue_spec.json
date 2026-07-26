@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "title": "AIdeaLab「AnimeGen」を無償公開",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "AIdeaLab公式プレスリリース・PR TIMES(2026-07-13)",
+      "ITmedia AI+(2026-07-13)",
+      "Ledge.ai(2026-07-13時点)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "無償・商用利用OK。国産アニメ特化AIが公開されました。",
+              "source": "AIdeaLab公式プレスリリース・PR TIMES(2026-07-13)"
+            },
+            {
+              "speaker": "host",
+              "text": "無料で商用にも使えるの? どこの会社?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "国内AIベンチャーのAIdeaLabです。2026年7月13日、アニメ特化の動画生成AI『AnimeGen』を無償公開しました。",
+              "source": "AIdeaLab公式プレスリリース・PR TIMES(2026-07-13)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日は4パートで話します。前提知識から始めます。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "動画生成AIはテキストや画像から動画を作るAI技術。GENIACは経産省・NEDOによる国内の生成AI開発力強化プロジェクトです。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "何が起きたかを表にすると、AIdeaLabが7月13日、Apache License 2.0のもとAnimeGenを無償・商用利用可能な形で公開しました。",
+              "source": "AIdeaLab公式プレスリリース・PR TIMES(2026-07-13)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字にすると『H200×24基』。KDDIのGPUクラスタでNVIDIA H200を24基使って学習したとされています。",
+              "source": "ITmedia AI+(2026-07-13)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "主な機能をカードにすると、テキストから動画を作るText to Video、画像を動かすImage to Video、動きを滑らかにするFrame Interpolationの3つです。",
+              "source": "Ledge.ai(2026-07-13時点)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "公開の詳細を表にすると、ベースはAlibabaのWan2.2、Hugging Faceでダウンロードでき、ブラウザ上のデモも用意されています。",
+              "source": "Ledge.ai(2026-07-13時点)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "開発の経緯を図にすると、2025年10月にベータ公開、GENIACの支援を受けて、2026年7月13日に正式公開されました。",
+              "source": "AIdeaLab公式プレスリリース・PR TIMES(2026-07-13)"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "GENIACについても表で紹介します。経産省・NEDOが実施する、国内の生成AI開発力強化を目的としたプロジェクトです。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AIdeaLabについてもカードで紹介します。GENIAC第2期・第3期に連続採択されている国内AIベンチャーです。",
+              "source": "AIdeaLab公式プレスリリース・PR TIMES(2026-07-13)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "従来のアニメ制作と比べると、これまでは各工程に多くの人手と時間がかかっていましたが、無償のAIツールで一部を効率化できる可能性があります。"
+            },
+            {
+              "speaker": "host",
+              "text": "現場の負担が減るといいね。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "アニメ業界の課題という背景も紹介します。人材不足・長時間労働が課題とされています。",
+              "source": "ITmedia AI+(2026-07-13)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "なぜ無償・商用利用可能にしたのかについても触れます。現場での実利用を広く得て改善を続けたい狙いがあると考えられます。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典の確認結果を表にまとめました。公開日・ライセンス・GENIAC支援とも複数情報源で確認できています。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "こんな人におすすめか、カードにすると、アニメ・映像制作に関心がある人や国産生成AIに関心がある人です。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "よくある疑問にも答えます。商用アニメと同等の品質かどうかは、第三者による詳細な検証結果を確認できていません。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが機能の話。ここからは、なぜ今このタイミングだったのかを考えてみよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直にお伝えすると、品質の具体的な比較や実際の導入事例は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回見送った候補も共有します。Etchedの資金調達、ChatGPT Healthです。"
+            },
+            {
+              "speaker": "host",
+              "text": "それぞれ見送った理由もあるんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。資金調達ニュースで実用性がやや劣る、係争中の訴訟と重なる、という理由です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、これが意味することは、国産生成AIの広がり、特定業界に特化したAI活用、無償公開によるエコシステム形成の3つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここから実践の話だね。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "これが意味するのは、動画制作の一部の工程を無償のAIツールで効率化できる可能性があるということです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "試すなら確認したいことを3つのカードにしました。デモを試す、ライセンス条件、必要な環境です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "実際に試す進め方は、デモを試す、Hugging Faceを確認する、小さく試す、の3ステップが目安です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "個人にとっては、動画制作に興味がある人にとって無償で試せるツールの選択肢が増えているということです。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直に言うと、品質の具体的な検証結果は非公開です。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "リスク配慮のポイントを3つのカードにまとめました。事実紹介に徹すること、品質への誇張を避けること、推測の明示です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "検品結果を表にまとめました。すべて合格しています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典を再掲します。AIdeaLab公式、ITmedia AI+ほかです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、国内ベンチャーがアニメ制作を支えるAIを無償公開したということです。"
+            },
+            {
+              "speaker": "host",
+              "text": "興味があれば、公式サイトのデモを試してみるのがよさそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "国内AIベンチャーの製品開発・業界特化AIの動向は今後も続くテーマです。次回も独立系メディアの報道をもとに紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
