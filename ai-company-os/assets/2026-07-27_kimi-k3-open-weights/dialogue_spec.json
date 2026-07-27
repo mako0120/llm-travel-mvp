@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "Moonshot AI「Kimi K3」オープンウェイト公開",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechTimes(2026-07)",
+      "Tom's Hardware(2026-07)",
+      "Simon Willison's Weblog(2026-07-16)",
+      "TECHi(2026-07)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "2.8兆パラメータの巨大AIモデル、中身が無料で公開されました。",
+              "source": "Tom's Hardware(2026-07)"
+            },
+            {
+              "speaker": "host",
+              "text": "2.8兆!? それは何のニュース?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "中国のMoonshot AIが開発した『Kimi K3』の重みが、2026年7月27日に無償公開されました。",
+              "source": "Simon Willison's Weblog(2026-07-16)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日は4パートで話します。前提知識から始めます。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "オープンウェイトは、AIモデルの重みを誰でも入手・自社運用できる形で公開する方式。パラメータは、モデルの中で学習によって調整される数値です。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "何が起きたかを表にすると、Moonshot AIが7月16日に発表し、7月27日00:00 UTCに重みを公開しました。",
+              "source": "Simon Willison's Weblog(2026-07-16)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字にすると『2.8兆』。史上最大のオープンウェイトAIモデルとされています。",
+              "source": "Tom's Hardware(2026-07)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "モデルの仕様を表にすると、エキスパート数は896、うち16個だけが各トークンで活性化します。",
+              "source": "Simon Willison's Weblog(2026-07-16)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "アーキテクチャの特徴をカードにすると、独自のアテンション機構とネイティブなマルチモーダル対応が挙げられます。",
+              "source": "Simon Willison's Weblog(2026-07-16)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "発表から公開までの流れを図にすると、7月16日の発表から約2週間かけて7月27日に重みが公開されました。",
+              "source": "TechTimes(2026-07)"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ダウンロードサイズも表にしました。MXFP4形式で約1.4テラバイト。16bit精度だと約5.6テラバイトです。",
+              "source": "TECHi(2026-07)"
+            },
+            {
+              "speaker": "host",
+              "text": "1.4テラバイト!? 個人で気軽にダウンロードできる規模じゃなさそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "オープンウェイトのメリットをカードで紹介します。自社運用・改変・外部送信不要の3つです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "クローズドAPI利用と比べると、オープンウェイト自己ホストはデータを外部に送信せずに済みますが、大規模なハードウェアが必要です。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "自己ホスティングの利点も紹介します。機密情報を外部に送らずに処理できる可能性がある点です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "誰が使えるのかも正直にお伝えします。個人が手軽に動かせる規模ではなく、主な利用者は企業・研究機関になりそうです。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "前モデルとの比較を表にすると、前モデルKimi K2.6から規模はおよそ3倍になりました。",
+              "source": "Tom's Hardware(2026-07)"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ベンチマークについては慎重に扱います。一部評価で高スコアという報道はありますが、情報源により数値が異なるため断定はしません。",
+              "source": "Tom's Hardware(2026-07)"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが内容の話。ここからは、これが何を意味するのかを考えてみよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直にお伝えすると、ベンチマークの一部数値や学習コストの詳細は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回見送った候補も共有します。鈴木誠也選手の18号本塁打、Huawei Cloudのタイ展開です。"
+            },
+            {
+              "speaker": "host",
+              "text": "それぞれ見送った理由もあるんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。既存テーマとの近さ、訴求力の面という理由です。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、これが意味することは、オープンモデルの大規模化、選択肢の拡大、インフラ要件の高さの3つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここから実践の話だね。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "企業にとっては、API利用と自己ホストを比較検討する余地が広がるということです。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "こんな人におすすめかをカードにしました。AI開発に関わる人、自社インフラでの活用を検討中の企業担当者です。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "よくある疑問にも答えます。商用利用の可否は本調査時点では確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "動向を追う進め方は、公式発表を確認する、独立系の検証を待つ、自社要件と照らす、の3ステップが目安です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "個人にとっては、直接このモデルを動かす場面は当面少なそうですが、これを使ったサービスは今後増えるかもしれません。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直に言うと、商用ライセンス条件の詳細は非公開です。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "リスク配慮のポイントを3つのカードにまとめました。政治的対立構造には触れないこと、事実紹介に徹すること、自己言及を避けることです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "検品結果を表にまとめました。すべて合格しています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典を再掲します。TechTimes、Tom's Hardwareほかです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、オープンウェイトの巨大AIモデルがまた一つ増えたということです。"
+            },
+            {
+              "speaker": "host",
+              "text": "興味があれば、公式サイトで最新情報を確認してみるのがよさそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AI/エージェント系のオープンモデル動向は今後も続くテーマです。次回も独立系メディアの報道をもとに紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
