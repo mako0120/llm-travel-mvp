@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "title": "Poolside「Laguna S 2.1」オープンウェイトコーディングモデル公開",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Poolside公式ブログ(2026-07-21)",
+      "VentureBeat(2026-07-21)",
+      "the-decoder(2026-07-21)",
+      "MarkTechPost(2026-07-21)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "10倍規模のAIモデルに、小型モデルが匹敵しました。",
+              "source": "VentureBeat(2026-07-21)"
+            },
+            {
+              "speaker": "host",
+              "text": "10倍!? それは何のニュース?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIスタートアップのPoolsideが、コーディング特化のオープンウェイトモデル『Laguna S 2.1』を公開しました。",
+              "source": "Poolside公式ブログ(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日は4パートで話します。前提知識から始めます。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "オープンウェイトは重みを誰でも入手・運用できる公開方式。MoEは一部の専門家だけを使う効率的な構造です。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "何が起きたかを表にすると、Poolsideが2026年7月21日にLaguna S 2.1を公開しました。",
+              "source": "Poolside公式ブログ(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字にすると『118Bパラメータ』。実際に動くのは約8Bだけです。",
+              "source": "VentureBeat(2026-07-21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "モデルの仕様を表にすると、256個のエキスパートと約100万トークンのコンテキスト長を持ちます。",
+              "source": "the-decoder(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "コーディング特化という切り口をカードにすると、自律的にコードを書き実行し修正する用途に特化しています。",
+              "source": "Poolside公式ブログ(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ベンチマークスコアも表にしました。Terminal-Bench 2.1で70.2%です。",
+              "source": "VentureBeat(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "公開の流れを図にすると、7月2日に小型版、7月21日に大型版という順番でした。",
+              "source": "Poolside公式ブログ(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ライセンスについてもカードで紹介します。商用利用も可能な寛容なライセンスです。",
+              "source": "MarkTechPost(2026-07-21)"
+            },
+            {
+              "speaker": "host",
+              "text": "商用利用もできるのは大きいね。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "クローズドAPI利用と比べると、オープンウェイト自己ホストはデータを外部に送信せずに済みますが、相応のハードウェアが必要です。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "自己ホスティングの利点も紹介します。機密性の高いコードを外部に送らずに処理できる可能性がある点です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "誰が使えるのかも正直にお伝えします。小型版は個人のPCでも動く規模とされています。",
+              "source": "Poolside公式ブログ(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "前身モデルとの比較を表にすると、小型版から大型版でパラメータ規模が大きく変わっています。",
+              "source": "Poolside公式ブログ(2026-07-21)"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ベンチマークについては慎重に扱います。紹介したスコアは自社評価であり、断定的な比較はしません。",
+              "source": "VentureBeat(2026-07-21)"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが内容の話。ここからは、これが何を意味するのかを考えてみよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直にお伝えすると、学習データの詳細や第三者検証の有無は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回見送った候補も共有します。Kimi K3の続報、NAVER・NVIDIAのAIファクトリー拡大です。"
+            },
+            {
+              "speaker": "host",
+              "text": "それぞれ見送った理由もあるんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。既存テーマとの重複、訴求力の面という理由です。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、これが意味することは、小型モデルの高性能化、コーディング特化モデルの広がり、選択肢の拡大の3つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここから実践の話だね。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "開発者にとっては、用途に応じた選択肢が広がるということです。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "こんな人におすすめかをカードにしました。AIコーディングツール開発者、自社インフラを検討中の開発チームです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "よくある疑問にも答えます。小型版は自分のPCでも試せる可能性があります。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "動向を追う進め方は、公式発表を確認する、独立系の検証を待つ、自社要件と照らす、の3ステップが目安です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "個人にとっては、小型版であれば個人開発者でも試せる可能性があるということです。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直に言うと、第三者による独立検証の有無はまだ確認できていません。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "リスク配慮のポイントを3つのカードにまとめました。政治的フレーミングを避けること、事実紹介に徹すること、自己言及を避けることです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "検品結果を表にまとめました。すべて合格しています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典を再掲します。Poolside公式、VentureBeatほかです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、オープンウェイトのコーディング特化モデルがまた一つ増えたということです。"
+            },
+            {
+              "speaker": "host",
+              "text": "興味があれば、公式サイトで最新情報を確認してみるのがよさそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AI/エージェント系のオープンモデル動向は今後も続くテーマです。次回も独立系メディアの報道をもとに紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
