@@ -11,10 +11,11 @@ import {
   type Theme,
 } from "@/lib/ai-company-os/catalog";
 
-type Filter = "all" | "pptx" | "audio" | "youtube";
+type Filter = "all" | "video" | "pptx" | "audio" | "youtube";
 
 const FILTERS: { key: Filter; label: string }[] = [
   { key: "all", label: "すべて" },
+  { key: "video", label: "動画あり" },
   { key: "pptx", label: "PowerPointあり" },
   { key: "audio", label: "音声あり" },
   { key: "youtube", label: "YouTube素材あり" },
@@ -27,7 +28,10 @@ export function WorksGallery({ themes, branch }: { themes: Theme[]; branch: stri
   const visible = useMemo(() => {
     const needle = query.trim().toLowerCase();
     return themes.filter((theme) => {
-      if (filter !== "all" && !theme.artifacts[filter as ArtifactKey]) return false;
+      if (filter === "video" && !theme.videoUrl) return false;
+      if (filter !== "all" && filter !== "video" && !theme.artifacts[filter as ArtifactKey]) {
+        return false;
+      }
       if (!needle) return true;
       return (
         theme.title.toLowerCase().includes(needle) ||
@@ -91,6 +95,18 @@ export function WorksGallery({ themes, branch }: { themes: Theme[]; branch: stri
                     {theme.title}
                   </a>
                 </h2>
+
+                {theme.videoUrl && (
+                  <video
+                    className="works-video"
+                    src={theme.videoUrl}
+                    controls
+                    preload="none"
+                    playsInline
+                  >
+                    お使いのブラウザは動画再生に対応していません。
+                  </video>
+                )}
 
                 <dl className="works-meta">
                   <div>

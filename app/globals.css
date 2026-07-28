@@ -971,3 +971,12 @@ code {
   /* 縦並びでは flex-basis が高さとして効くため、横並び用の指定を打ち消す */
   .works-search { flex: 0 0 auto; }
 }
+
+.works-video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  display: block;
+}

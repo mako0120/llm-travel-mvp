@@ -7,6 +7,7 @@
     "slides": 1111,
     "withPptx": 28,
     "withAudio": 28,
+    "withVideo": 26,
     "timedThemes": 26,
     "timedAudioSeconds": 8023.7,
     "averageQualityScore": 94.2
@@ -39,6 +40,7 @@
       "audioSeconds": 354.6,
       "qualityScore": 95,
       "themeScore": 82,
+      "videoUrl": "/videos/2026-07-28_open-secure-ai-alliance.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -79,6 +81,7 @@
       "audioSeconds": 272.0,
       "qualityScore": 90,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-28_nvidia-openai-ohio-datacenter-financing.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -121,6 +124,7 @@
       "audioSeconds": 309.3,
       "qualityScore": 95,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-28_ai-ram-shortage-pixel-price-hike.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -161,6 +165,7 @@
       "audioSeconds": 275.6,
       "qualityScore": 96,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-27_yamamoto-yoshinobu-100wins.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -201,6 +206,7 @@
       "audioSeconds": 266.7,
       "qualityScore": 94,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-27_poolside-laguna-s2-1.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -241,6 +247,7 @@
       "audioSeconds": 260.2,
       "qualityScore": 96,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-27_murakami-comeback-multi-homer.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -281,6 +288,7 @@
       "audioSeconds": 292.6,
       "qualityScore": 92,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-27_kimi-k3-open-weights.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -321,6 +329,7 @@
       "audioSeconds": 295.8,
       "qualityScore": 96,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-26_softbank-patching-as-a-service.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -361,6 +370,7 @@
       "audioSeconds": 297.8,
       "qualityScore": 94,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-26_google-gemma4-stealth-update.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -402,6 +412,7 @@
       "audioSeconds": 313.2,
       "qualityScore": 92,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-24_takagi-miho-national-honor-award.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -442,6 +453,7 @@
       "audioSeconds": 316.2,
       "qualityScore": 94,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-24_openai-project-camellia-datacenter.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -483,6 +495,7 @@
       "audioSeconds": 308.6,
       "qualityScore": 97,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-24_openai-chatgpt-small-business-program.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -524,6 +537,7 @@
       "audioSeconds": 280.4,
       "qualityScore": 95,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-24_okamoto-al-rookie-of-month.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -564,6 +578,7 @@
       "audioSeconds": 309.9,
       "qualityScore": 95,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-24_noetra-physical-ai-consortium.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -604,6 +619,7 @@
       "audioSeconds": 307.5,
       "qualityScore": 97,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-24_michaels-ask-mike-launch.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -644,6 +660,7 @@
       "audioSeconds": 290.6,
       "qualityScore": 97,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-24_meta-seller-app-launch.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -684,6 +701,7 @@
       "audioSeconds": 298.8,
       "qualityScore": 95,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-24_inaka-guys-1million-subscribers.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -725,6 +743,7 @@
       "audioSeconds": 314.2,
       "qualityScore": 94,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-24_gpt56-grok45-launch-race.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -765,6 +784,7 @@
       "audioSeconds": 286.3,
       "qualityScore": 98,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-24_google-selfie-video-signin.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -805,6 +825,7 @@
       "audioSeconds": 293.9,
       "qualityScore": 97,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-24_google-gemini-notebook-rename.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -846,6 +867,7 @@
       "audioSeconds": 270.9,
       "qualityScore": 94,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-24_elevenlabs-elevenmusic-update.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -886,6 +908,7 @@
       "audioSeconds": 291.9,
       "qualityScore": 97,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-24_black-forest-labs-flux3-launch.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -926,6 +949,7 @@
       "audioSeconds": 317.8,
       "qualityScore": 97,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-24_aidealab-animegen-launch.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -962,6 +986,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -997,6 +1022,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1037,6 +1063,7 @@
       "audioSeconds": 538.5,
       "qualityScore": 95,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-23_openai-presence-agent-platform.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -1076,6 +1103,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1117,6 +1145,7 @@
       "audioSeconds": 339.8,
       "qualityScore": 95,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-23_meta-muse-spark-launch.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -1156,6 +1185,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -1197,6 +1227,7 @@
       "audioSeconds": 320.6,
       "qualityScore": 96,
       "themeScore": null,
+      "videoUrl": "/videos/2026-07-23_gemini-flash-cyber-launch.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -1238,6 +1269,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
@@ -1272,6 +1304,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1308,6 +1341,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1345,6 +1379,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1380,6 +1415,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1415,6 +1451,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1451,6 +1488,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1487,6 +1525,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1526,6 +1565,7 @@
       "audioSeconds": null,
       "qualityScore": 79,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1560,6 +1600,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1594,6 +1635,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1629,6 +1671,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1664,6 +1707,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1700,6 +1744,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1735,6 +1780,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1773,6 +1819,7 @@
       "audioSeconds": null,
       "qualityScore": 85,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1808,6 +1855,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1843,6 +1891,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1879,6 +1928,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,
@@ -1917,6 +1967,7 @@
       "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
+      "videoUrl": null,
       "artifacts": {
         "deck_spec": true,
         "pptx": false,

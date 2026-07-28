@@ -25,8 +25,8 @@ export default function WorksPage() {
         <p className="section-label">AI Company OS</p>
         <h1>制作物一覧</h1>
         <p className="works-lead">
-          調査からPowerPoint・ナレーション原稿・AI対話音声までを自動生成した成果物の記録です。
-          各テーマの元ファイルは GitHub 上に置いてあります。
+          調査からPowerPoint・ナレーション原稿・AI対話音声・ナレーション動画までを自動生成した
+          成果物の記録です。動画はこのページでそのまま再生できます。
         </p>
       </header>
 
@@ -42,6 +42,10 @@ export default function WorksPage() {
         <div>
           <strong>{totals.withPptx}</strong>
           <span>PowerPoint</span>
+        </div>
+        <div>
+          <strong>{totals.withVideo}</strong>
+          <span>動画</span>
         </div>
         <div>
           <strong>{totals.withAudio}</strong>

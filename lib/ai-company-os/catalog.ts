@@ -34,6 +34,8 @@ export type Theme = {
   audioSeconds: number | null;
   qualityScore: number | null;
   themeScore: number | null;
+  /** public/videos に公開用動画があるテーマのみ設定される。無ければ null。 */
+  videoUrl: string | null;
   artifacts: Record<ArtifactKey, boolean>;
 };
 
@@ -46,6 +48,7 @@ export type Catalog = {
     slides: number;
     withPptx: number;
     withAudio: number;
+    withVideo: number;
     timedThemes: number;
     timedAudioSeconds: number;
     averageQualityScore: number | null;

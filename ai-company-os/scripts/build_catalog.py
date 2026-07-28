@@ -45,6 +45,11 @@ ARTIFACT_FILES = {
     "thumbnail": "thumbnail.png",
 }
 
+# 公開用の動画は public/videos/<テーマID>.mp4 に置く。
+# assets/ 側の deck_narrated.mp4 は毎回ローカルで組み立て直せる作業用ファイルなので
+# コミットせず(ai-company-os/.gitignore)、Webで配信する1本だけを public/ に置く。
+PUBLIC_VIDEO_DIR = "public/videos"
+
 DIR_NAME_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})_(.+)$")
 # risk-and-quality-review.md の「| **合計** | **100** | **95** |」から得点を拾う
 SCORE_RE = re.compile(r"\|\s*\*\*合計\*\*\s*\|\s*\*\*\d+\*\*\s*\|\s*\*\*(\d+)\*\*")
@@ -104,7 +109,7 @@ def summarize_deck(spec: dict) -> dict:
     }
 
 
-def build_entry(theme_dir: Path) -> dict | None:
+def build_entry(theme_dir: Path, video_dir: Path | None = None) -> dict | None:
     m = DIR_NAME_RE.match(theme_dir.name)
     if not m:
         return None
@@ -122,6 +127,13 @@ def build_entry(theme_dir: Path) -> dict | None:
         for key, filename in ARTIFACT_FILES.items()
     }
 
+    # 公開用動画は public/videos/<テーマID>.mp4。ブラウザで直接再生させるため、
+    # サイト自身のオリジンから配信する(GitHub raw は Content-Type が
+    # application/octet-stream + nosniff で返るため video タグで再生できない)。
+    video_url = None
+    if video_dir is not None and (video_dir / f"{theme_dir.name}.mp4").is_file():
+        video_url = f"/videos/{theme_dir.name}.mp4"
+
     return {
         "id": theme_dir.name,
         "date": date,
@@ -134,16 +146,17 @@ def build_entry(theme_dir: Path) -> dict | None:
         "audioSeconds": extract_audio_seconds(theme_dir),
         "qualityScore": extract_quality_score(theme_dir),
         "themeScore": extract_theme_score(theme_dir),
+        "videoUrl": video_url,
         "artifacts": artifacts,
     }
 
 
-def build_catalog(assets_dir: Path) -> dict:
+def build_catalog(assets_dir: Path, video_dir: Path | None = None) -> dict:
     entries = []
     for theme_dir in sorted(assets_dir.iterdir()):
         if not theme_dir.is_dir():
             continue
-        entry = build_entry(theme_dir)
+        entry = build_entry(theme_dir, video_dir)
         if entry:
             entries.append(entry)
 
@@ -163,6 +176,7 @@ def build_catalog(assets_dir: Path) -> dict:
             "slides": sum(e["slides"] for e in entries),
             "withPptx": sum(1 for e in entries if e["artifacts"]["pptx"]),
             "withAudio": sum(1 for e in entries if e["artifacts"]["audio"]),
+            "withVideo": sum(1 for e in entries if e["videoUrl"]),
             # 尺の合計は、タイミング情報がある分だけの合計であることを名前で示す
             "timedThemes": len(timed),
             "timedAudioSeconds": round(sum(e["audioSeconds"] for e in timed), 1),
@@ -210,7 +224,12 @@ def self_test() -> int:
         # テーマではないディレクトリ(無視されるべき)
         (assets / "not-a-theme").mkdir()
 
-        catalog = build_catalog(assets)
+        # 公開用動画は full-theme の分だけ用意する(minimal-theme には無い)
+        videos = Path(tmp) / "videos"
+        videos.mkdir()
+        (videos / "2026-01-02_full-theme.mp4").write_bytes(b"x")
+
+        catalog = build_catalog(assets, videos)
 
         def check(cond: bool, msg: str):
             nonlocal ok
@@ -233,18 +252,21 @@ def self_test() -> int:
         check(f["artifacts"]["pptx"] is True, "pptxの有無判定が誤り")
         check(f["artifacts"]["audio"] is False, "存在しない音声をTrueにしている")
         check(f["layouts"].get("bullets") == 2, "レイアウト集計が誤り")
+        check(f["videoUrl"] == "/videos/2026-01-02_full-theme.mp4", f"動画URLが誤り: {f['videoUrl']}")
 
         mn = catalog["themes"][1]
         check(mn["qualityScore"] is None, "無い品質スコアをnullにしていない")
         check(mn["audioSeconds"] is None, "無い音声尺をnullにしていない")
         check(mn["narrationMinutes"] is None, "ノート無しをnullにしていない")
         check(mn["subtitle"] is None, "無いサブタイトルをnullにしていない")
+        check(mn["videoUrl"] is None, "無い動画をnullにしていない")
 
         t = catalog["totals"]
         check(t["slides"] == 5, f"合計スライド数が誤り: {t['slides']}")
         check(t["withPptx"] == 1, f"pptx保有数が誤り: {t['withPptx']}")
         # 音声ファイル(.wav)は無いが、タイミング情報だけはある構成。両者を混同していないか検査する
         check(t["withAudio"] == 0, f"音声ファイル保有数が誤り(wavは無いはず): {t['withAudio']}")
+        check(t["withVideo"] == 1, f"動画保有数が誤り: {t['withVideo']}")
         check(t["timedThemes"] == 1, f"タイミング保有数が誤り: {t['timedThemes']}")
         check(t["timedAudioSeconds"] == 42.5, f"尺合計が誤り: {t['timedAudioSeconds']}")
         check(t["averageQualityScore"] == 95.0, f"平均品質スコアが誤り: {t['averageQualityScore']}")
@@ -266,7 +288,8 @@ def main() -> int:
         print(f"ERROR: assets ディレクトリが見つかりません: {assets_dir}")
         return 2
 
-    catalog = build_catalog(assets_dir)
+    video_dir = repo_root / PUBLIC_VIDEO_DIR
+    catalog = build_catalog(assets_dir, video_dir if video_dir.is_dir() else None)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(
         json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
@@ -276,7 +299,7 @@ def main() -> int:
     print(f"生成完了: {out_path}")
     print(
         f"  テーマ {t['themes']}件 / スライド計 {t['slides']}枚 / "
-        f"pptx {t['withPptx']}件 / 音声 {t['withAudio']}件"
+        f"pptx {t['withPptx']}件 / 音声 {t['withAudio']}件 / 動画 {t['withVideo']}件"
     )
     return 0
 
