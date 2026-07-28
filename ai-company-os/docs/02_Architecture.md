@@ -19,7 +19,7 @@ ai-company-os/
 | 役割 | 担当 | 責務 |
 |---|---|---|
 | CEO / 最終承認 | 人間 | 承認境界の判断、公開・課金・マージの決定 |
-| 企画・設計 | ChatGPT Work | Issue 設計、要件定義 |
+| 企画・設計 / 編集長 | ChatGPT Work | Issue 設計、要件定義。PowerPoint 初稿の全ページレビュー・改善指示(`docs/15_PPT_Handoff.md`) |
 | 実装・生成 | Claude Code | 成果物生成、スクリプト実装、検証、Draft PR |
 | レビュー | Codex | スコープ・安全・品質の検査 |
 | 全体管理 | Cowork (Fable 5) | 優先順位、進行、記録、改善提案 |
@@ -36,3 +36,7 @@ ai-company-os/
 
 - 完成デッキ(.pptx)は原則 GitHub Release または外部ストレージへ。リポジトリには生成スクリプトと構成 Markdown を残す(再現性優先)。
 - 10MB を超えるバイナリはコミットしない。
+- PowerPoint が Claude Code → ChatGPT Work → Codex の二段階品質ゲートを経る場合の
+  ファイル命名・置き場所は `docs/15_PPT_Handoff.md` に従う
+  (`deck.claude-draft.pptx` / `chatgpt_review.json` / `improvement_patch.md` /
+  `deck.chatgpt-reviewed.pptx`)。

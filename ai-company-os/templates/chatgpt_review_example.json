@@ -1,0 +1,38 @@
+{
+  "theme_slug": "2026-07-20_example-theme",
+  "reviewed_pptx": "deck.claude-draft.pptx",
+  "reviewer": "ChatGPT Work",
+  "review_date": "2026-07-20",
+  "overall_verdict": "needs_revision",
+  "slides": [
+    {
+      "slide_number": 3,
+      "issues": [
+        {
+          "category": "visibility",
+          "severity": "critical",
+          "description": "カード3枚のうち右端のカードがスライド右端で見切れている",
+          "suggested_fix": "cards の幅を縮めるか、2枚+2枚の2段組に分解する"
+        },
+        {
+          "category": "sources",
+          "severity": "minor",
+          "description": "big_stat の数字(120%)に出典が付いていない",
+          "suggested_fix": "ノートまたはフッターに一次情報のURLを追加する"
+        }
+      ]
+    },
+    {
+      "slide_number": 12,
+      "issues": [
+        {
+          "category": "speaker_notes",
+          "severity": "critical",
+          "description": "スピーカーノートがタイトルの繰り返しのみで、話す内容になっていない",
+          "suggested_fix": "このスライドで伝えたい結論と根拠を92–300字で書き直す"
+        }
+      ]
+    }
+  ],
+  "summary": "全体の章立ては妥当。3・12枚目の視認性とノート不足を優先修正すれば合格水準。"
+}
