@@ -44,15 +44,40 @@ ChatGPT 用の API 接続・MCP サーバーは未整備のため、次の手動
 1. Claude Code が `deck_spec.json` から `deck.claude-draft.pptx` を生成し、
    `python scripts/render_deck_images.py deck_spec.json deck_review_images/` で
    全ページを画像化する。
-2. 人間または Cowork が `deck_review_images/` の画像一式と下記チェック項目を
+2. Claude Code が渡す依頼書を生成する:
+
+   ```text
+   python scripts/export_review_request.py deck_spec.json review_request.md
+   ```
+
+   依頼書には、ChatGPT Work の役割・禁止事項・確認必須の5分類・スライドごとの
+   本文/ノート/出典/グラフ数値・返してほしい JSON 形式が入る。毎回手書きすると
+   指示が揺れてレビュー品質が安定しないため、仕様から機械的に生成する。
+3. 人間または Cowork が `review_request.md` と `deck_review_images/` の画像一式を
    ChatGPT Work に渡す。
-3. ChatGPT Work がページごとに確認し、`chatgpt_review.json` の内容(または
-   それに相当する指摘一覧)を返す。
-4. Claude Code が指摘を精査し、対応する変更を `deck_spec.json` に加え、
+4. ChatGPT Work がページごとに確認し、`chatgpt_review.json` を返す。
+5. Claude Code が受け取った記録を機械検証する:
+
+   ```text
+   python scripts/verify_chatgpt_review.py chatgpt_review.json --deck deck_spec.json
+   ```
+
+   ChatGPT の出力は自由記述のため、項目名の揺れ・未定義の分類・存在しない
+   スライド番号が混入しうる。**検証を通す前に `deck_spec.json` を書き換えない。**
+6. Claude Code が指摘を精査し、対応する変更を `deck_spec.json` に加え、
    何を・なぜ変えたかを `improvement_patch.md` に記録し、
    `build_deck.py` で `deck.chatgpt-reviewed.pptx` を再生成する。
-5. `python scripts/verify_pptx.py deck.chatgpt-reviewed.pptx` で機械検品を通す。
-6. Codex が `deck.chatgpt-reviewed.pptx` と `chatgpt_review.json` を確認する。
+7. `python scripts/verify_pptx.py deck.chatgpt-reviewed.pptx` で機械検品を通す。
+8. Codex が `deck.chatgpt-reviewed.pptx` と `chatgpt_review.json` を確認する。
+
+### 連携ツール
+
+| スクリプト | 役割 | 実行するタイミング |
+|---|---|---|
+| `export_review_request.py` | ChatGPT Work へ渡す依頼書を `deck_spec.json` から生成する | 初稿生成の直後(手順2) |
+| `verify_chatgpt_review.py` | 返ってきた `chatgpt_review.json` の構造・分類・スライド番号を検証する | 仕様反映の直前(手順5) |
+
+いずれも `--self-test` で、テーマの成果物なしにロジックの健全性を確認できる。
 
 ## ChatGPT Work が確認する必須項目
 
@@ -72,14 +97,33 @@ ChatGPT 用の API 接続・MCP サーバーは未整備のため、次の手動
 
 - `chatgpt_review.json` で `severity: "critical"` の指摘が、すべて
   `improvement_patch.md` 上で対応(反映済み)として記録されている。
+- `python scripts/verify_chatgpt_review.py chatgpt_review.json --deck deck_spec.json`
+  が PASS している(レビュー記録そのものが仕様どおりであること)。
 - `python scripts/verify_pptx.py deck.chatgpt-reviewed.pptx` が PASS している。
 - `deck.chatgpt-reviewed.pptx` が `deck_spec.json`(最新版)から再生成された
   ものであり、ChatGPT 側で直接編集されたバイナリではない。
 - `improvement_patch.md` に記載の変更点と `deck_spec.json` の実際の差分が一致する。
 
+## 前提と制約(正直な記録)
+
+- **ChatGPT は API/MCP で接続されていない。** この環境で利用可能なコネクタは
+  Canva / Notion / Slack / Vercel のみで、OpenAI 系コネクタは存在しない
+  (2026-07-28 時点、`ListConnectors` で確認済み)。したがって「ChatGPT Work」は
+  自動起動するエージェントではなく、**組織上の役割名**である。
+- 本ドキュメントの連携は、人間または Cowork が依頼書と画像を ChatGPT に手渡しし、
+  返答を `chatgpt_review.json` として保存する**完全な手動フロー**を前提とする。
+  `export_review_request.py` / `verify_chatgpt_review.py` は、その手渡しの
+  入口と出口を機械化して品質を安定させるためのもので、ChatGPT を呼び出さない。
+- `render_deck_images.py`(手順1で使う画像化スクリプト)は別ブランチで開発中で
+  あり、`main` にはまだ存在しない。`main` 単体で完結するのは手順2以降である。
+
+将来 API/コネクタ経由の自動連携に切り替える場合、それは**新規外部連携の導入**に
+あたり、`docs/01_Core_Rules.md` の承認境界により人間承認が必要になる。
+
 ## 承認境界
 
-この工程はドキュメント・テンプレート整備および既存パイプライン(`build_deck.py` /
-`render_deck_images.py` / `verify_pptx.py`)の再利用のみで完結する。
+この工程はドキュメント・テンプレート整備と、リポジトリ内で完結する検証スクリプト
+(`export_review_request.py` / `verify_chatgpt_review.py`)の追加のみで完結する。
+外部への通信・認証・課金は一切発生しない。
 `docs/01_Core_Rules.md` の承認境界(main 直接 push・本番公開・課金・外部連携の
 新規導入など)に変更はない。
