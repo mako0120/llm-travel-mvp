@@ -7,7 +7,7 @@
     "slides": 1141,
     "withPptx": 29,
     "withAudio": 29,
-    "withVideo": 28,
+    "withVideo": 29,
     "timedThemes": 29,
     "timedAudioSeconds": 9506.0,
     "averageQualityScore": 94.2
@@ -124,7 +124,7 @@
       "audioSeconds": 330.1,
       "qualityScore": 96,
       "themeScore": 81,
-      "videoUrl": null,
+      "videoUrl": "/videos/2026-07-28_meshy-ai-3d-funding.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
