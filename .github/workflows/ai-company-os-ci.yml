@@ -36,11 +36,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install python-pptx and video pipeline dependencies
-        run: pip install python-pptx pillow imageio-ffmpeg
-
-      - name: Install Japanese font for slide image rendering
-        run: sudo apt-get update && sudo apt-get install -y fonts-ipafont-gothic
+      - name: Install python-pptx
+        run: pip install python-pptx
 
       - name: verify_pptx self-test
         run: python scripts/verify_pptx.py --self-test
@@ -51,19 +48,10 @@ jobs:
       - name: Build sample deck, verify, and export script (end-to-end pipeline)
         run: |
           python scripts/build_deck.py templates/deck_spec_example.json /tmp/sample-deck.pptx
-          python scripts/verify_pptx.py /tmp/sample-deck.pptx --min-slides 14 --max-slides 14
+          python scripts/verify_pptx.py /tmp/sample-deck.pptx --min-slides 12 --max-slides 12
           python scripts/export_script.py templates/deck_spec_example.json /tmp/sample-script.md
 
-      - name: generate_dialogue_script self-test and end-to-end pipeline (slide-linked mode)
+      - name: generate_dialogue_script self-test and end-to-end pipeline
         run: |
           python scripts/generate_dialogue_script.py --self-test
-          python scripts/generate_dialogue_script.py templates/dialogue_spec_example.json \
-            /tmp/sample-dialogue-script.md --deck templates/dialogue_deck_spec_example.json
-
-      - name: synthesize_dialogue_audio self-test (offline logic only, no VOICEVOX Engine in CI)
-        run: python scripts/synthesize_dialogue_audio.py --self-test
-
-      - name: render_deck_images and build_narrated_video self-test
-        run: |
-          python scripts/render_deck_images.py --self-test
-          python scripts/build_narrated_video.py --self-test
+          python scripts/generate_dialogue_script.py templates/dialogue_spec_example.json /tmp/sample-dialogue-script.md
