@@ -91,3 +91,26 @@ jobs:
             git rebase "origin/${{ github.ref_name }}"
             git push origin "HEAD:${{ github.ref_name }}"
           fi
+
+      # 音声とタイミングが揃った直後に、ナレーション動画を組み立てて /works へ公開する。
+      # ここまで自動化しておかないと、新しいテーマを作るたびに手作業で動画を作って
+      # public/ へ置いてカタログを更新することになるため。
+      - name: Install video pipeline dependencies
+        run: |
+          pip install pillow imageio-ffmpeg
+          sudo apt-get update && sudo apt-get install -y fonts-ipafont-gothic
+
+      - name: Build narration video and publish to /works
+        run: python ai-company-os/scripts/publish_theme.py "${{ inputs.theme_dir }}"
+
+      - name: Commit published video and catalog
+        run: |
+          git add -A public/videos lib/ai-company-os/catalog.json
+          if git diff --cached --quiet; then
+            echo "No changes to publish (video and catalog already up to date)"
+          else
+            git commit -m "Publish narration video for ${{ inputs.theme_dir }} to /works (CI)"
+            git fetch origin "${{ github.ref_name }}"
+            git rebase "origin/${{ github.ref_name }}"
+            git push origin "HEAD:${{ github.ref_name }}"
+          fi
