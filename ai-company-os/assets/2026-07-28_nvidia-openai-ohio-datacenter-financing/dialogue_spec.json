@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "title": "NVIDIA、OpenAIのオハイオ・データセンターに2,500億ドル規模の資金保証を協議中",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Tom's Hardware(2026-07-27)",
+      "Yahoo Finance(2026-07-27)",
+      "Slashdot、WSJ報道の追随(2026-07-27)",
+      "Capacity(2026-07-27)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "総額5,000億ドル。史上最大級のデータセンター計画に、NVIDIAが2,500億ドルの保証を検討しています。",
+              "source": "Yahoo Finance(2026-07-27)"
+            },
+            {
+              "speaker": "host",
+              "text": "5,000億ドル!? それは何のニュース?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "OpenAIがオハイオ州に建設中のデータセンターをリースするための資金を、NVIDIAが保証する方向で協議中と報じられました。",
+              "source": "Tom's Hardware(2026-07-27)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日は4パートで話します。前提知識から始めます。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "データセンターはAIの学習・稼働に必要なサーバー施設。資金保証は、他社の支払いを裏付ける仕組みです。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "何が起きたかを表にすると、7月27日にWSJ発の報道として、NVIDIAがOpenAIの資金を保証する協議が伝えられました。",
+              "source": "Tom's Hardware(2026-07-27)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "数字にすると『2,500億ドル』。OpenAIがこの施設をリースするための費用を裏付けるものです。",
+              "source": "Tom's Hardware(2026-07-27)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "施設の規模を表にすると、10ギガワット規模で、第一段階は2028年完成目標です。",
+              "source": "Yahoo Finance(2026-07-27)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "関係者の関係を図にすると、SoftBankが施設を開発、OpenAIがリース、NVIDIAが資金を保証するという構図です。",
+              "source": "Tom's Hardware(2026-07-27)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "資金の内訳も表にしました。リース向けが2,500億ドル、チップ購入向けが別枠で最大3,500億ドルです。",
+              "source": "Tom's Hardware(2026-07-27)"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "プロジェクトの段階をカードにすると、800メガワットから始まり、最終的に10ギガワットまで拡張する計画です。",
+              "source": "Yahoo Finance(2026-07-27)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "重要な点として、まだ協議中で正式契約ではないことをカードで強調します。",
+              "source": "Capacity(2026-07-27)"
+            },
+            {
+              "speaker": "host",
+              "text": "まだ決まった話じゃないんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "既存テーマのCamelliaと比べると、場所も規模も関わる企業数も異なります。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "なぜNVIDIAが保証するのかも考えます。自社製品の需要確保が背景にあると考えられますが、推測です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "SoftBankの役割もカードで紹介します。電力子会社が施設の開発主体です。",
+              "source": "Tom's Hardware(2026-07-27)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "規模感を表にすると、実現すれば史上最大級のデータセンタープロジェクトとされています。",
+              "source": "Yahoo Finance(2026-07-27)"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "用地についても事実だけ伝えます。旧ウラン濃縮施設の跡地とされていますが、政策論には触れません。",
+              "source": "Tom's Hardware(2026-07-27)"
+            },
+            {
+              "speaker": "host",
+              "text": "ここまでが内容の話。ここからは、これが何を意味するのかを考えてみよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直にお伝えすると、チップ購入資金の協議の進捗の詳細は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回見送った候補も共有します。DeepSeek V4の安定版リリースです。"
+            },
+            {
+              "speaker": "host",
+              "text": "見送った理由もあるんだよね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。鮮度と情報の確度の面という理由です。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "図にすると、これが意味することは、AIインフラ投資の巨大化、企業間の相互依存の深まり、続報への注目の3つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここから実践の話だね。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "業界にとっては、AIインフラへの投資規模がこれまでにない水準に拡大していることを示す事例だということです。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "こんな人におすすめかをカードにしました。AIインフラに関心がある人、3社の動向を追っている人です。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "よくある疑問にも答えます。契約はまだ確定していません。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "動向を追う進め方は、公式発表を確認する、契約成立の報道を待つ、建設の進捗を追う、の3ステップが目安です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "個人にとっては、AIサービスの裏側にある巨大な投資規模を知る材料になるということです。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "正直に言うと、交渉が最終的に合意に至るかは分かりません。"
+            },
+            {
+              "speaker": "host",
+              "text": "分からないことは分からないって言うの、大事だよね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "リスク配慮のポイントを3つのカードにまとめました。協議中であることの明記、政治的論点を避けること、事実紹介に徹することです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "検品結果を表にまとめました。すべて合格しています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出典を再掲します。Tom's Hardware、Yahoo Financeほかです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今日のキーメッセージは、史上最大級のデータセンター計画の資金の裏側、ということです。"
+            },
+            {
+              "speaker": "host",
+              "text": "興味があれば、今後の正式発表を確認してみるのがよさそうだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AIインフラへの巨大投資の動向は今後も続くテーマです。次回も独立系メディアの報道をもとに紹介します。"
+            },
+            {
+              "speaker": "host",
+              "text": "次回もお楽しみに。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "本日はご視聴ありがとうございました。出典・詳細はresearch.mdと各スライドの出典表記を参照してください。"
+            },
+            {
+              "speaker": "host",
+              "text": "また次回、お会いしましょう。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
