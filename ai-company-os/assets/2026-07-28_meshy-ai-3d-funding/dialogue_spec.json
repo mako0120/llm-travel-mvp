@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "3Dモデルが1分で作れる時代に、過去最大の資金が入った",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "PR Newswire(公式、2026-07-21)",
+      "Yahoo Finance(2026-07-21)",
+      "3D Printing Industry(2026-07-21)",
+      "citybiz(2026-07-21)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "登録ユーザー1,200万人超。3D生成AIのMeshyが、約4億ドルを調達しました。", "source": "PR Newswire(2026-07-21)" },
+            { "speaker": "host", "text": "1,200万人!? もうそんなに使われてるんだ。" },
+            { "speaker": "analyst", "text": "評価額は15億ドル。AI 3Dの分野では過去最大の調達とされています。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、3D制作という重い工程に、大きなお金が入り始めたという話です。" },
+            { "speaker": "host", "text": "3Dって、日本だとゲームやアニメで大量に使うよね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "analyst", "text": "今日は、技術がどこまで来ているか、公表値と企業の主張をどう見分けるかを話します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "今回は公式プレスリリースがあり、複数メディアが同じ数字で報じています。" },
+            { "speaker": "host", "text": "一次情報があるのは安心だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "analyst", "text": "4パートで進めます。まず前提から。ここまでが入口、ここから中身です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "3Dアセットは、形を表すメッシュと、表面の見た目を表すテクスチャでできています。" },
+            { "speaker": "host", "text": "Text-to-3Dは、文章から直接それを作るってこと?" },
+            { "speaker": "analyst", "text": "そうです。「赤い椅子」と書けば、その立体が出てきます。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "そもそも3D制作は工程が多いんです。形を作り、質感を貼り、動かせるように整える。" },
+            { "speaker": "host", "text": "工程ごとに別のソフトと技能が要るのか。それは大変だ。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "発表は7月21日。創業者はMITで博士号を取ったEthan Hu氏です。", "source": "citybiz(2026-07-21)" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "調達額は約4億ドル。ただし「nearly」という表現で、正確な金額は公表されていません。" },
+            { "speaker": "host", "text": "そこも正確に言うんだね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "出資はIDG Capitalなど。既存株主も割当を超えて応募したと報じられています。", "source": "citybiz(2026-07-21)" },
+            { "speaker": "host", "text": "既に見てる投資家が上乗せしたってことか。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "グラフにしました。ただし単位が違うので、高さの比較ではなく規模感として見てください。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "数字にすると1,200万人超。作られたモデルは1億件を超えるとされています。", "source": "PR Newswire(2026-07-21)" },
+            { "speaker": "host", "text": "調達より先にユーザーがいた、という順番なんだ。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "入り口は2つ。文章から作るText-to-3Dと、写真から起こすImage-to-3Dです。" },
+            { "speaker": "host", "text": "手元に絵がある人は後者が早そうだね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "工程を図にすると、形・質感・仕上げの3段階。ここをまとめて担おうとしています。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "同社の説明では「数週間かかっていた制作が約1分、1モデル約1ドル」とされています。" },
+            { "speaker": "host", "text": "数週間が1分!? さすがに話がうますぎない?" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "そこは重要で、これは企業側の主張です。第三者が検証した数字ではありません。" },
+            { "speaker": "host", "text": "どのくらいの複雑さのモデルなのかも分からないと。" },
+            { "speaker": "analyst", "text": "その条件は確認できていません。なので断定はしません。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "成長指標はARRが前年比約12倍。ただし実額そのものは公表されていません。", "source": "PR Newswire(2026-07-21)" },
+            { "speaker": "host", "text": "倍率だけだと元がいくらか分からないもんね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "効いてくる場所を図にすると、ゲーム、映像、EC、そして個人制作まで広がります。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "日本は3Dを使う産業が多い。ただし国内の利用実績は、今回は確認できていません。" },
+            { "speaker": "host", "text": "そこは分からないままにしておくんだね。ここまでが中身です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "つまり画像、動画に続いて、3Dにも大きな資金が入る段階に来ています。" },
+            { "speaker": "host", "text": "でも、これで3Dの仕事が全部片づくわけじゃないよね?" },
+            { "speaker": "analyst", "text": "仕上げや調整が不要になったとまでは言えません。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "向いているのは試作や量産前の検討。慎重に見るべきは、最終品質がそのまま要る納品物です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "試すなら3ステップ。小さく試す、規約を読む、既存の工程のどこに挟むか見極める。" },
+            { "speaker": "host", "text": "規約は大事だね。商用で使えるかどうかは確認しないと。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "個人なら3Dソフトを覚えなくても試作に手が届く。企業なら外注と内製の選択肢が増えます。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "既存の制作者にとっては、たたき台が速くなる分、設計の判断に時間を回せる可能性があります。" },
+            { "speaker": "host", "text": "逆に単純な量産作業は影響を受けそうだね。" },
+            { "speaker": "analyst", "text": "ただ、これは推測です。実際どうなるかはまだ分かりません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "生成AIの対象は2D、動画と広がってきました。3Dはその次の層にあたります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "冷静に見る点を3つ。1分と1ドルは企業の主張、評価額は売上ではない、調達額は概数です。" },
+            { "speaker": "host", "text": "全部「数字はあるけど性質が違う」って話だね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことも挙げます。公式リリース本文、ARRの実額、国内実績、資金の使途です。" },
+            { "speaker": "host", "text": "公式の本文は読めなかったんだ。" },
+            { "speaker": "analyst", "text": "この環境からはアクセスできませんでした。そこも隠さず書いています。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "そして鮮度も正直に。発表は7月21日で、この動画の制作日から7日前です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "3Dの最初の一歩が、専門技能から外れ始めている。それが今回の要点です。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一つ。数字は、誰が言っているのかまで見ると見え方が変わります。" },
+            { "speaker": "host", "text": "公式発表と企業の主張は別物、か。出典を読み比べてみます。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
