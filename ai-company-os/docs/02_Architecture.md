@@ -6,7 +6,8 @@
 ai-company-os/
 ├── CLAUDE.md              # Claude Code の入口(憲章)
 ├── README.md              # 人間向け概要
-├── START_PROMPT_JA.md     # セッション開始時の実行指示
+├── START_PROMPT_JA.md     # Claude Code セッション開始時の実行指示
+├── CHATGPT_START_PROMPT_JA.md  # ChatGPT Work(企画・設計)の入社時実行指示
 ├── docs/                  # 00〜12 の運用ドキュメント(必読順)
 ├── templates/             # デッキ構成・JSONデッキ仕様・Canvaブリーフ・調査レポートの雛形
 ├── scripts/               # build_deck.py(JSON仕様→pptx生成)/ verify_pptx.py(自動検品)
