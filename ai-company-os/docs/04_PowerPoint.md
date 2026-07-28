@@ -83,6 +83,13 @@ PowerPoint を開かずに原稿だけを読んで推敲・リハーサルでき
 `build_deck.py` 方式(生成方式A)は、CI検証込みで再現性の高い定型フォーマットが必要な場合に引き続き使う。
 どちらの方式を使うかは、その時々の指示に従う。
 
+## 関連: Claude → ChatGPT Work → Codex 品質ゲート
+
+初稿(`out.pptx`)を ChatGPT Work の全ページレビューに渡す場合は、上記手順④の
+出力先を `deck.claude-draft.pptx` にし、レビュー反映後の再生成物を
+`deck.chatgpt-reviewed.pptx` とする。ファイル命名・レビュー記録・責任分担の
+詳細は `docs/15_PPT_Handoff.md` を参照する。
+
 ## 関連: AI対話ナレーション形式
 
 動画向けに、2人のAIペルソナが起承転結で掛け合うナレーション原稿を作りたい場合は、

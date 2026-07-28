@@ -42,6 +42,14 @@ jobs:
       - name: verify_pptx self-test
         run: python scripts/verify_pptx.py --self-test
 
+      - name: ChatGPT handoff tooling self-test and example validation (docs/15_PPT_Handoff.md)
+        run: |
+          python scripts/export_review_request.py --self-test
+          python scripts/verify_chatgpt_review.py --self-test
+          python scripts/verify_chatgpt_review.py templates/chatgpt_review_example.json \
+            --deck templates/deck_spec_example.json
+          python scripts/export_review_request.py templates/deck_spec_example.json /tmp/review-request.md
+
       - name: Build sample deck, verify, and export script (end-to-end pipeline)
         run: |
           python scripts/build_deck.py templates/deck_spec_example.json /tmp/sample-deck.pptx
