@@ -11,6 +11,10 @@
 | 成果物 | 場所 | 検証結果 |
 |---|---|---|
 
+PowerPoint が `docs/15_PPT_Handoff.md` の二段階品質ゲートを経ている場合は、
+`deck.claude-draft.pptx` と `deck.chatgpt-reviewed.pptx` を別の行として記載し、
+`chatgpt_review.json` の `overall_verdict` を検証結果欄に添える。
+
 ## 3. 能力検証の結果
 
 verified / usable with setup / unavailable / unsafe or unnecessary の分類表(その作業で使ったものだけでよい)。

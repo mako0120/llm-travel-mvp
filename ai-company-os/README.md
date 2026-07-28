@@ -22,6 +22,7 @@ Claude Code should read `CLAUDE.md`, then the documents in `docs/`.
 - Output format
 - Project rules
 - AI dialogue script
+- PPT handoff (Claude → ChatGPT Work → Codex quality gate)
 
 ## Important
 

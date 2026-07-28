@@ -30,7 +30,7 @@ Claude と ChatGPT が同時に編集する状態を作らない。
 
 | ファイル | 生成者 | 内容 |
 |---|---|---|
-| `deck_spec.json` | Claude Code | ただ。1つの正本(source of truth)。初稿・改善版とも常にこのファイルから生成する |
+| `deck_spec.json` | Claude Code | 単一の正本(source of truth)。初稿・改善版とも常にこのファイルから生成する |
 | `deck.claude-draft.pptx` | Claude Code | `build_deck.py` による初稿。ChatGPT Work のレビュー対象 |
 | `deck_review_images/slide_NNN.png` | Claude Code | `render_deck_images.py` による全ページ画像(3桁連番)。ChatGPT Work に渡す実体 |
 | `chatgpt_review.json` | ChatGPT Work | ページごとのレビュー結果。`templates/chatgpt_review_example.json` 準拠 |

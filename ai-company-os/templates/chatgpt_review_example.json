@@ -29,7 +29,7 @@
           "category": "speaker_notes",
           "severity": "critical",
           "description": "スピーカーノートがタイトルの繰り返しのみで、話す内容になっていない",
-          "suggested_fix": "このスライドで伝えたい結論と根拠を92–300字で書き直す"
+          "suggested_fix": "このスライドで伝えたい結論と根拠を100〜300字で書き直す"
         }
       ]
     }
