@@ -9,7 +9,7 @@
 
 本ドキュメントは、`docs/02_Architecture.md` の役割分担にある ChatGPT Work を
 「全ページを実際に画像として確認し、内容・構成・視認性・ノート・出典を改善する
-編集長」と位置付け、Claude Code の初稿とCodexの最終レビューの間に挿む
+編集長」と位置付け、Claude Code の初稿とCodexの最終レビューの間に配置する
 二段階品質ゲートを標準化する。
 
 ## 役割分担(この工程限定)
@@ -30,7 +30,7 @@ Claude と ChatGPT が同時に編集する状態を作らない。
 
 | ファイル | 生成者 | 内容 |
 |---|---|---|
-| `deck_spec.json` | Claude Code | 唱一の正本(source of truth)。初稿・改善版とも常にこのファイルから生成する |
+| `deck_spec.json` | Claude Code | ただ。1つの正本(source of truth)。初稿・改善版とも常にこのファイルから生成する |
 | `deck.claude-draft.pptx` | Claude Code | `build_deck.py` による初稿。ChatGPT Work のレビュー対象 |
 | `deck_review_images/slide_NNN.png` | Claude Code | `render_deck_images.py` による全ページ画像(3桁連番)。ChatGPT Work に渡す実体 |
 | `chatgpt_review.json` | ChatGPT Work | ページごとのレビュー結果。`templates/chatgpt_review_example.json` 準拠 |
