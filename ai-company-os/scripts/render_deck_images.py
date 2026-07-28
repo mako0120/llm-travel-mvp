@@ -379,27 +379,52 @@ class Renderer:
         self.title_bar(d, spec["title"])
         cats = spec["categories"]
         values = spec["series"]["values"] if "series" in spec else spec["values"]
-        max_v = max(values) if values else 1
-        max_v = max_v or 1
         x0, y0, y1 = px(1.0), px(1.9), px(6.2)
         area_w = W_IN - 2.0
         n = len(cats)
+
+        # 負の値を含む系列(前年比マイナス等)でも描けるよう、必ず0を含む範囲で正規化する。
+        # 0基準にしないと、負の棒で y の上下が反転し Pillow が ValueError を投げる。
+        vmin = min(list(values) + [0]) if values else 0
+        vmax = max(list(values) + [0]) if values else 1
+        # 値ラベルを置く余白を確保する。上は常に、下は負の値があるときだけ広げる
+        # (全て正なら棒は下端に接地させたいため)。
+        pad = ((vmax - vmin) or 1) * 0.1
+        vmax += pad
+        if values and min(values) < 0:
+            vmin -= pad
+        span = (vmax - vmin) or 1
+        plot_h = y1 - y0
+
+        def y_for(v: float) -> float:
+            return y1 - plot_h * ((v - vmin) / span)
+
+        y_base = y_for(0)
+
         if kind == "bar":
             gap = 0.3
             bw = (area_w - gap * (n - 1)) / n
             for i, (cat, v) in enumerate(zip(cats, values)):
-                bh = (y1 - y0) * (v / max_v)
                 x = x0 + px(i * (bw + gap))
-                d.rectangle([x, y1 - bh, x + px(bw), y1], fill=self.c["primary"])
-                draw_text(d, str(v), x, y1 - bh - px(0.35), bw, 12, self.c["ink"], align="center")
+                yv = y_for(v)
+                top, bottom = (yv, y_base) if v >= 0 else (y_base, yv)
+                if bottom - top < 1:  # 値0でも棒の位置が分かるよう最低1pxは描く
+                    bottom = top + 1
+                d.rectangle([x, top, x + px(bw), bottom], fill=self.c["primary"])
+                # 値ラベルは棒の外側(正なら上、負なら下)に置いて重ならないようにする
+                label_y = top - px(0.35) if v >= 0 else bottom + px(0.05)
+                draw_text(d, str(v), x, label_y, bw, 12, self.c["ink"], align="center")
                 draw_text(d, str(cat), x, y1 + px(0.1), bw, 11, self.c["muted"], align="center")
+            if vmin < 0:  # 負の値があるときだけ0の基準線を引く
+                d.line([x0, y_base, x0 + px(area_w), y_base], fill=self.c["muted"], width=2)
         else:  # line
             step = area_w / max(n - 1, 1)
             points = []
             for i, v in enumerate(values):
                 x = x0 + px(i * step)
-                yv = y1 - (y1 - y0) * (v / max_v)
-                points.append((x, yv))
+                points.append((x, y_for(v)))
+            if vmin < 0:
+                d.line([x0, y_base, x0 + px(area_w), y_base], fill=self.c["muted"], width=2)
             if len(points) > 1:
                 d.line(points, fill=self.c["primary"], width=4)
             for (x, yv), cat in zip(points, cats):
@@ -466,6 +491,16 @@ def self_test() -> int:
         {"layout": "cards", "title": "テスト", "cards": [{"label": "A", "text": "本文"}], "note": ""},
         {"layout": "big_stat", "title": "テスト", "stat": "123", "note": ""},
         {"layout": "diagram", "title": "テスト", "nodes": [{"label": "A"}, {"label": "B"}], "note": ""},
+        # 負の値・ゼロを含むチャート(前年比マイナス等)。0基準の正規化ができていないと
+        # Pillow が「y1 must be greater than or equal to y0」で落ちる。
+        {"layout": "bar_chart", "title": "テスト", "categories": ["A", "B"],
+         "series": {"name": "前年比", "values": [0, -12.9]}, "note": ""},
+        {"layout": "bar_chart", "title": "テスト", "categories": ["A", "B", "C"],
+         "series": {"name": "混在", "values": [5, -3, 0]}, "note": ""},
+        {"layout": "line_chart", "title": "テスト", "categories": ["A", "B"],
+         "series": {"name": "推移", "values": [-2, 4]}, "note": ""},
+        {"layout": "pie_chart", "title": "テスト", "categories": ["A", "B"],
+         "values": [60, 40], "note": ""},
     ]
     for i, sample in enumerate(samples, start=1):
         try:
