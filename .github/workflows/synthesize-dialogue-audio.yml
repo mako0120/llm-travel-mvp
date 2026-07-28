@@ -95,9 +95,11 @@ jobs:
       # 音声とタイミングが揃った直後に、ナレーション動画を組み立てて /works へ公開する。
       # ここまで自動化しておかないと、新しいテーマを作るたびに手作業で動画を作って
       # public/ へ置いてカタログを更新することになるため。
+      # python-pptx も必要。render_deck_images.py が配色プリセットを build_deck.py から
+      # 取り込んでおり、build_deck.py が python-pptx を読み込むため。
       - name: Install video pipeline dependencies
         run: |
-          pip install pillow imageio-ffmpeg
+          pip install pillow imageio-ffmpeg python-pptx
           sudo apt-get update && sudo apt-get install -y fonts-ipafont-gothic
 
       - name: Build narration video and publish to /works

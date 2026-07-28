@@ -102,7 +102,13 @@ def rebuild_catalog() -> bool:
     return result.returncode == 0
 
 
-def publish(theme_names: list[str]) -> int:
+def publish(theme_names: list[str], strict: bool = False) -> int:
+    """strict=True なら、名指ししたテーマを公開できなかった時に異常終了する。
+
+    CIから1テーマを指定して呼ぶ場合、公開に失敗しているのにジョブが緑になると
+    「動画が無いまま成功した」ことに気付けない。--all の一括処理では音声待ちの
+    テーマが混ざるのが正常なので、そちらは失敗扱いにしない。
+    """
     if not ASSETS_DIR.is_dir():
         print(f"ERROR: assets ディレクトリが見つかりません: {ASSETS_DIR}")
         return 2
@@ -119,6 +125,9 @@ def publish(theme_names: list[str]) -> int:
 
     rebuild_catalog()
     print(f"公開できたテーマ: {published} / {len(theme_names)}")
+    if strict and published < len(theme_names):
+        print("ERROR: 指定したテーマを公開できませんでした")
+        return 1
     return 0
 
 
@@ -170,6 +179,21 @@ def self_test() -> int:
         finally:
             PUBLIC_VIDEO_DIR = original
 
+        # 公開できなかった時に終了コードで分かること(CIが緑のまま素通りしないこと)
+        global ASSETS_DIR, rebuild_catalog
+        orig_assets, orig_rebuild = ASSETS_DIR, rebuild_catalog
+        try:
+            ASSETS_DIR = Path(tmp)
+            rebuild_catalog = lambda: True  # noqa: E731  カタログ生成は別スクリプトで検証済み
+            check(publish(["2026-01-01_partial"], strict=True) == 1,
+                  "名指ししたテーマを公開できないのに正常終了した")
+            check(publish(["2026-01-01_partial"], strict=False) == 0,
+                  "--all 相当の一括処理で音声待ちテーマを失敗扱いにしている")
+            check(publish(["存在しないテーマ"], strict=True) == 1,
+                  "存在しないテーマ名を指定したのに正常終了した")
+        finally:
+            ASSETS_DIR, rebuild_catalog = orig_assets, orig_rebuild
+
     print("SELF-TEST PASSED" if ok else "SELF-TEST FAILED")
     return 0 if ok else 1
 
@@ -193,7 +217,7 @@ def main() -> int:
     else:
         parser.error("テーマ名を指定するか、--all / --self-test を指定してください")
 
-    return publish(names)
+    return publish(names, strict=bool(args.theme) and not args.all)
 
 
 if __name__ == "__main__":
