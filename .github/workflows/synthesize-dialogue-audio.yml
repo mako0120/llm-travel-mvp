@@ -15,6 +15,14 @@ name: Synthesize Dialogue Audio (VOICEVOX)
 # CI自身が作るのはdialogue_audio.wav等でありdialogue_spec.jsonではないため、
 # 音声を作った直後にまた自分を呼ぶという無限ループも起きない。
 # ブランチ名を変更した場合はここの branches も更新すること。
+#
+# 2026-07-29追記(オーナー指示「/worksのプレビューに自動で追加されるように」):
+# /works ページ本体は別ブランチ(claude/feature-131-works-gallery、PR #132)にあり、
+# テーマ資産があるこのブランチ(claude/feature-65-ai-company-os)とはまだmainで
+# 合流していない。mainへのマージには人間承認が要るため待たず、生成した
+# public/videos/*.mp4 と lib/ai-company-os/catalog.json をworktree経由で
+# 直接コピーし、works側ブランチへも自動コミット+pushする(最終ステップ参照)。
+# 両PRがmainへマージされたら、この同期ステップと下のWORKS_BRANCHは不要になる。
 on:
   push:
     branches:
@@ -94,6 +102,7 @@ jobs:
       # (動画が無いのにCIが緑になる問題への対策、2026-07-28修正)。1テーマの公開失敗は
       # 記録した上で処理を続け、最後にまとめて失敗を報告する。
       - name: Synthesize dialogue audio and publish video for each pending theme
+        id: process
         if: steps.themes.outputs.count != '0'
         run: |
           git config user.name "github-actions[bot]"
@@ -154,6 +163,36 @@ jobs:
             echo "以下のテーマの公開に失敗しました:$failed"
             exit 1
           fi
+
+      # /works ページ本体は claude/feature-131-works-gallery ブランチ(PR #132)にあり、
+      # このブランチとはまだmainで合流していない。mainマージを待たずにプレビューへ
+      # 反映するため、生成済みの動画とカタログをworktree経由で直接コピーし、
+      # 向こうのブランチへも別コミットとしてpushする。差分が無ければ何もしない
+      # (このブランチの他ファイル・/worksのコード自体には一切触れない)。
+      # 両PRがmainへマージされたらこのステップとWORKS_BRANCHの指定は不要になる。
+      - name: Sync catalog + videos to /works preview branch
+        if: always() && steps.themes.outputs.count != '0'
+        run: |
+          WORKS_BRANCH="claude/feature-131-works-gallery"
+          git fetch origin "$WORKS_BRANCH"
+          worktree_dir="$(mktemp -d)"
+          git worktree add "$worktree_dir" "origin/$WORKS_BRANCH"
+          mkdir -p "$worktree_dir/public/videos" "$worktree_dir/lib/ai-company-os"
+          cp -a public/videos/. "$worktree_dir/public/videos/"
+          cp lib/ai-company-os/catalog.json "$worktree_dir/lib/ai-company-os/catalog.json"
+          (
+            cd "$worktree_dir"
+            git add public/videos lib/ai-company-os/catalog.json
+            if git diff --cached --quiet; then
+              echo "works側に変更なし"
+            else
+              git commit -m "Sync narration videos and catalog from ${{ github.ref_name }} (CI)"
+              git fetch origin "$WORKS_BRANCH"
+              git rebase "origin/$WORKS_BRANCH"
+              git push origin "HEAD:$WORKS_BRANCH"
+            fi
+          )
+          git worktree remove "$worktree_dir" --force
 
       - name: No pending themes
         if: steps.themes.outputs.count == '0'

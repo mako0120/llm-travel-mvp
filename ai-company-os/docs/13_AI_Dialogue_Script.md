@@ -160,6 +160,13 @@
   音声を作った直後にまた自分を呼ぶという無限ループは起きない
 - 手動での再実行(音声の作り直し等)が必要な場合は、従来どおり
   `actions_run_trigger(workflow_dispatch)`に`theme_dir`を指定して呼べる
+- `/works`ページ本体は別ブランチ`claude/feature-131-works-gallery`(PR #132)にあり、
+  テーマ資産のあるこのブランチとはまだmainで合流していない。mainマージ(人間承認が必要)
+  を待たずにプレビューへ反映するため、生成した`public/videos/*.mp4`と
+  `lib/ai-company-os/catalog.json`を`git worktree`経由で直接コピーし、works側
+  ブランチへも別コミットとしてpushする(ワークフロー最終ステップ)。両PRがmainへ
+  マージされたら、この同期ステップは不要になり、代わりに
+  `app/works/page.tsx`の`SOURCE_BRANCH`定数を`"main"`へ更新する
 
 **設計上の注意点(2026-07-23の初回実行、2026-07-28/29の自動化整備で判明した既知の罠)**:
 - Actions Artifact(`actions/upload-artifact`)のダウンロード元はAzure Blob Storage
