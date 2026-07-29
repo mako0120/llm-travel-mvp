@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "情報源を「約150」に絞ったAIが登場した理由",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "KDDI News Room(公式、2026-07-28)",
+      "ITmedia Mobile(2026-07-28)",
+      "マイナビニュース(2026-07-28)",
+      "ケータイ Watch(2026-07-28)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "情報源を、あえて「約150」に絞ったAIサービスが始まりました。", "source": "KDDI News Room(公式、2026-07-28)" },
+            { "speaker": "host", "text": "え、少なくない?もっと広い方がいいんじゃ?" },
+            { "speaker": "analyst", "text": "そこにこそ、狙いがあります。KDDIの新サービス「Buffmee」です。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、情報源を絞ることで、著作権への不安に答えようとしています。" },
+            { "speaker": "host", "text": "広さより、根拠のはっきりした情報を選んだんだ。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "analyst", "text": "今日は、生成AIと著作権の関係と、この「約150」という数字の中身を見ます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "先に限界を言います。公式発表はありますが、7つの記事本文は403で読めていません。" },
+            { "speaker": "host", "text": "数字が主役の回だから、そこ大事だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "analyst", "text": "4パートで進めます。ここまでが入口、ここから中身です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "まず前提です。生成AIは通常、インターネット上の膨大な文章を幅広く学習・参照します。" },
+            { "speaker": "host", "text": "そこで著作権の心配が出てくるんだね。" },
+            { "speaker": "analyst", "text": "その通りです。Buffmeeは、情報源を許諾済みに絞る道を選びました。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "AIが情報を扱う方法は大きく3つ。無断で幅広く学習、その場で検索、許諾契約に絞る、です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "Buffmeeが連携するコンテンツは、約150です。", "source": "KDDI News Room(検索結果の要約経由)" },
+            { "speaker": "host", "text": "思ったより絞ってるんだね。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "表にすると、連携数・提供元の例・配慮・確認できていないこと、この4つです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "発表は7月28日。KDDIが「あなたが成長するAI」として提供を始めました。" },
+            { "speaker": "host", "text": "料金はどうなってるんだろう?" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "発表の趣旨を一言でまとめると、絞って、出典を明記して届ける、です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "機能は3つ。検索する、要点整理する、提案する、です。" },
+            { "speaker": "host", "text": "普通の検索と何が違うの?" },
+            { "speaker": "analyst", "text": "参照先が許諾済みコンテンツに絞られている点が違います。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "料金は無料プランと、月額980円の無制限プレミアムプランです。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "「無断学習型」と「許諾コンテンツ型」。左右で比べると、こう変わります。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "著作権への配慮は3つ。情報源を絞る、出典を明記する、提供元を公表する、です。" },
+            { "speaker": "host", "text": "説明できる、っていうのが強みなんだね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "情報の流れを図にすると、出版社からBuffmeeへ、そしてユーザーへ、という3段階です。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで正直に言います。約150の内訳の全リストは、公表されていません。" },
+            { "speaker": "host", "text": "そこは分からないままなんだ。" },
+            { "speaker": "analyst", "text": "想定ユーザー数も非公開です。公式発表の数字だけを使っています。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "サービス開始のニュースと、実際に使われるかは別の話です。左右で整理しました。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでの数字、強み・弱み・結論をまとめるとこうなります。前半はここで一区切りです。" },
+            { "speaker": "host", "text": "ここからは、これが何を意味するのか、だね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "つまり、問いの立て方が「何でも答えるか」から「何を根拠に答えるか」へ移りつつあります。" },
+            { "speaker": "host", "text": "許諾契約という地味な費用にも、お金が向き始めたんだね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "確かなことと慎重に見るべきこと、左右で並べました。両方とも同じ重さで見てください。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "AIサービスを選ぶなら3ステップ。情報源を確認、出典表示を見る、料金と用途を照らす。" },
+            { "speaker": "host", "text": "①の「情報源を確認する」、すぐできそう。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "個人にとって、企業にとって、それぞれ何が変わるかをまとめました。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "ここからは推測です。出版社側に、新しい収益機会が生まれるかもしれません。" },
+            { "speaker": "host", "text": "推測は推測って、ちゃんと言ってくれるんだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "問われることの変化を図にしました。使えるかを見る、から、説明責任を見る、へです。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "冷静に見る点は3つ。開始直後、内訳は非公表、基盤モデルも非公開です。" },
+            { "speaker": "host", "text": "まだ「始まったばかり」ってことは、忘れちゃいけないね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "最後に、確認できなかったことを表にまとめます。内訳、記事本文、基盤モデル、想定ユーザー数です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "この動画の作り方も開示します。発表は着手日の前日で、使わなかった情報・混ぜなかった数字があります。" },
+            { "speaker": "host", "text": "作り方まで見せてくれると、安心して見られるね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "今日の要点は3つ。起きたこと、見どころ、持ち帰ることです。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "「何でも答えるAI」より「根拠を示せるAI」を選ぶ、という視点を持っておきましょう。" },
+            { "speaker": "host", "text": "自分の使っているAIも、一度確認してみようかな。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
