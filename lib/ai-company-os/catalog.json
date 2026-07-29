@@ -8,8 +8,8 @@
     "withPptx": 31,
     "withAudio": 35,
     "withVideo": 33,
-    "timedThemes": 34,
-    "timedAudioSeconds": 12097.8,
+    "timedThemes": 33,
+    "timedAudioSeconds": 11497.4,
     "averageQualityScore": 94.3
   },
   "themes": [
@@ -1111,7 +1111,7 @@
       },
       "bulletsRatio": 50.0,
       "narrationMinutes": 1.5,
-      "audioSeconds": 600.4,
+      "audioSeconds": null,
       "qualityScore": null,
       "themeScore": null,
       "videoUrl": null,
@@ -1121,7 +1121,7 @@
         "narration": true,
         "dialogue": true,
         "audio": true,
-        "timings": true,
+        "timings": false,
         "youtube": false,
         "canva": false,
         "review": false,
