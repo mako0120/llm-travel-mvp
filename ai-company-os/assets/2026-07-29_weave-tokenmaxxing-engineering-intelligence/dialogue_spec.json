@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "「AIをたくさん使った」は、成果を約束しない",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "WebWire(プレスリリース、2026-07-29)",
+      "TechStartups(2026-07-28)",
+      "Digg",
+      "IBM / Built In / Inc.com / The Pragmatic Engineer(tokenmaxxing概念解説)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "AIコーディングをたくさん使った。それは、成果が出たことを意味しません。", "source": "WebWire(プレスリリース、2026-07-29)" },
+            { "speaker": "host", "text": "え、使えば使うほどいいんじゃないの?" },
+            { "speaker": "analyst", "text": "その思い込みに挑む会社が、7月29日にシリーズAを調達しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、AIの利用量と実際の成果は別物です。" },
+            { "speaker": "host", "text": "量と質は違う、ってことだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "analyst", "text": "今日は「tokenmaxxing」という現象の中身と、この会社の数字がどこまで確かなのかを見ます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "先に限界を言います。7つの情報源すべてが403で、記事本文は読めていません。" },
+            { "speaker": "host", "text": "数字が主役の回だから、そこ大事だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "analyst", "text": "4パートで進めます。ここまでが入口、ここから中身です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "まず前提です。AIコーディングツールは自律的にコードを書き進めるツール群のことです。" },
+            { "speaker": "host", "text": "それを「たくさん使う」のが、tokenmaxxingってこと?" },
+            { "speaker": "analyst", "text": "そうです。利用量そのものが成果のように扱われてしまう現象です。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "普及・可視化・比較・本末転倒。この4段階で起きる、と整理できます。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "この会社が分析したとするコード貢献は、200万件超です。", "source": "TechStartups(検索結果の要約経由)" },
+            { "speaker": "host", "text": "200万件!大きい数字だね。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "表にすると、対象規模・顧客例・確認できていないこと、この3つです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "発表は7月29日。会社の名前はWeave、シリーズAで1,350万ドルです。" },
+            { "speaker": "host", "text": "調達額自体はそこまで大きくないんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "発表の趣旨を一言でまとめると、投資と進捗を分けて見る必要がある、です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "やることは3つ。データを集める、進捗と結びつける、支出に対して何が生まれたか示す。" },
+            { "speaker": "host", "text": "「使った量」じゃなく「生まれたもの」を見るんだね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "投資家はStandard Capitalがリード、Y Combinatorなども参加しています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "「使用量で測る」か「成果で測る」か。左右で比べると、こう変わります。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "「tokenmaxxing」は、利用量の最大化そのものが目的化する現象です。" },
+            { "speaker": "host", "text": "本末転倒だ。" },
+            { "speaker": "analyst", "text": "実はこの言葉、複数の独立したメディアがこの会社より前から使っています。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "仕組みを図にすると、普及・可視化・競争的な指標化、この3段階です。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで正直に言います。200万件・20,000人・500社は、会社自身の発表です。" },
+            { "speaker": "host", "text": "第三者が確認したわけじゃないんだ。" },
+            { "speaker": "analyst", "text": "その通りです。企業評価額も確認できていません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "資金調達のニュースと、現場での実感は別の話です。左右で整理しました。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでの数字、強み・弱み・結論をまとめるとこうなります。前半はここで一区切りです。" },
+            { "speaker": "host", "text": "ここからは、これが何を意味するのか、だね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "つまり、問いの立て方が「どれだけ使ったか」から「何が生まれたか」へ移りつつあります。" },
+            { "speaker": "host", "text": "計測そのものにもお金が向き始めたんだね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "確かなことと慎重に見るべきこと、左右で並べました。両方とも同じ重さで見てください。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "自社に当てはめるなら3ステップ。指標を疑う、成果を先に定義する、計測の必要性を検討する。" },
+            { "speaker": "host", "text": "①の「指標を疑う」、まず自分事にできそう。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "個人にとって、企業にとって、それぞれ何が変わるかをまとめました。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "ここからは推測です。「質を計測する仕事」の重要度が上がるかもしれません。" },
+            { "speaker": "host", "text": "推測は推測って、ちゃんと言ってくれるんだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "問われることの変化を図にしました。量をこなす、から、計測を疑う、へです。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "冷静に見る点は3つ。調達額は突出して大きくない、数字は自社発表、効果検証はまだない。" },
+            { "speaker": "host", "text": "まだ「発表段階」ってことは、忘れちゃいけないね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "最後に、確認できなかったことを表にまとめます。企業評価額、記事本文、第三者検証、顧客事例の詳細です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "この動画の作り方も開示します。発表は着手日当日で、使わなかった情報・混ぜなかった数字があります。" },
+            { "speaker": "host", "text": "作り方まで見せてくれると、安心して見られるね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "今日の要点は3つ。起きたこと、見どころ、持ち帰ることです。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "「使った量」ではなく「生まれた成果」を、先に言葉にしておきましょう。" },
+            { "speaker": "host", "text": "自分のAIの使い方も、一度振り返ってみようかな。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
