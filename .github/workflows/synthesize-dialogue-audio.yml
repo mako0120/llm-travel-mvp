@@ -128,11 +128,17 @@ jobs:
 
             mkdir -p "ai-company-os/assets/$theme"
             cp dialogue_audio.wav "ai-company-os/assets/$theme/dialogue_audio.wav"
+            git add "ai-company-os/assets/$theme/dialogue_audio.wav"
+            # フラットモードのdialogue_spec.json(スライド番号を持たない古い形式)では
+            # slide_timings.jsonが生成されない。存在しないパスをgit addすると
+            # exit code 128でジョブ全体が落ちるため、生成できた時だけ add する
+            # (2026-07-29、複数テーマ一括処理で発覚)。この場合、動画は
+            # publish_theme.pyがREQUIRED_FOR_VIDEO不足として正しくスキップし、
+            # 単一テーマ指定時の終了コード1で失敗として記録される(想定内)
             if [ -f slide_timings.json ]; then
               cp slide_timings.json "ai-company-os/assets/$theme/slide_timings.json"
+              git add "ai-company-os/assets/$theme/slide_timings.json"
             fi
-            git add "ai-company-os/assets/$theme/dialogue_audio.wav" \
-                    "ai-company-os/assets/$theme/slide_timings.json"
             if git diff --cached --quiet; then
               echo "音声に変更なし: $theme"
             else
