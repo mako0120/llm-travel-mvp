@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "title": "日常業務の9割をAIが引き受け、コストは半分に",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Microsoft AI公式ニュース(2026-07-27)",
+      "TechCrunch(2026-07-27)",
+      "Axios(2026-07-27)",
+      "SecurityWeek / Help Net Security / winbuzzer"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "セキュリティ業務の9割をAIが引き受け、コストは半分になる。そんな発表がありました。", "source": "Microsoft AI公式ニュース(2026-07-27)" },
+            { "speaker": "host", "text": "9割!? 人はもう要らないってこと?" },
+            { "speaker": "analyst", "text": "そうではなく、日常業務を専用AIに任せて、人は難しい判断に集中する、という設計です。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、今回の主役はモデルの性能そのものより「専用モデル+役割分担」という設計思想です。" },
+            { "speaker": "host", "text": "新しいモデルがすごい、って話じゃないんだ。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "analyst", "text": "今日は、この設計思想の中身と、9割・半分という数字がどこまで確かなのかを見ていきます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "先に限界を言います。公式発表はありますが、記事本文は6つとも403で読めていません。" },
+            { "speaker": "host", "text": "数字が主役の回だから、そこ大事だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "analyst", "text": "4パートで進めます。ここまでが入口、ここから中身です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "まず前提です。「専用AIモデル」はモデル本体、「エージェント基盤」はそれを使う仕組み全体です。" },
+            { "speaker": "host", "text": "今回はその両方が同時に出た、ってことか。" },
+            { "speaker": "analyst", "text": "その通りです。モデルが「MAI-Cyber-1-Flash」、基盤が「Project Perception」です。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "セキュリティ運用は検知・分析・判断・対応の4段階。図にするとこうです。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "そのうち約9割を、専用モデルが処理するとされています。", "source": "Microsoft AI公式発表(検索結果の要約経由)" },
+            { "speaker": "host", "text": "9割は大きいな。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "表にすると、9割の分担・コスト半減・比較対象・未確認の点、この4つです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "発表は7月27日、サンフランシスコのイベントでした。レビュー体制も説明されています。" },
+            { "speaker": "host", "text": "自分たちでちゃんとテストした、ってアピールなんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "発表の趣旨を一言でまとめると、日常業務をAIに任せ、人と最高性能のモデルは難しい判断に集中させる、です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "エージェント基盤の中身はRed・Blue・Greenの3体制。攻撃側視点・優先度判断・修正実行です。" },
+            { "speaker": "host", "text": "攻める役と守る役をAI同士でやらせるんだ。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "モデル自体のスペックも報道されています。137Bのモデルで、実際に動くのは50億パラメータだけです。" },
+            { "speaker": "host", "text": "全部は使わずに、必要な部分だけ動かすってこと?" },
+            { "speaker": "analyst", "text": "そのイメージです。専門メディア経由の情報なので、その点は補足しておきます。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "汎用モデルだけを使う場合と比べると、こう変わります。図の左右を見比べてください。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで正直に言います。ベンチマークの数字が、記事によって食い違っています。" },
+            { "speaker": "host", "text": "え、どっちが本当なの?" },
+            { "speaker": "analyst", "text": "「96%」と「95.95%」、両方の報道があり、原典を確認できていません。断定しません。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "役割分担を図にすると、日常業務・難しい業務・最終確認の3段階です。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "実は他社モデルとの比較値を示す記事もありました。でも一次情報で確認できず、使っていません。" },
+            { "speaker": "host", "text": "気になる数字でも、確認できなければ使わないんだね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "ベンチマークの点数と、実際の現場での実力は別の話です。左右で整理しました。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでの数字、強み・弱み・結論をまとめるとこうなります。ここで前半は一区切りです。" },
+            { "speaker": "host", "text": "ここからは、これが何を意味するのか、だね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "つまり、AIの設計が「1つの万能モデル」から「専用モデル+役割分担」へ移りつつあります。" },
+            { "speaker": "host", "text": "性能競争から、コスト構造の競争に変わってきたのかな。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "確かなことと慎重に見るべきこと、左右で並べました。両方とも同じ重さで見てください。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "自社に当てはめるなら3ステップ。現状整理、分担の当てはめ、検証の有無の確認です。" },
+            { "speaker": "host", "text": "③の検証の有無、地味だけど大事そう。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "個人にとって、企業にとって、それぞれ何が変わるかをまとめました。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "ここからは推測です。セキュリティ人材の仕事も、検証する役割の比重が増えるかもしれません。" },
+            { "speaker": "host", "text": "推測は推測って、ちゃんと言ってくれるんだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "問われることの変化を図にしました。自分で調べる、から、AIの判断を検証する、へです。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "冷静に見る点は3つ。プレビューはまだ先、数字は自社説明、比較は旧構成との比較です。" },
+            { "speaker": "host", "text": "まだ「発表段階」ってことは、忘れちゃいけないね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "最後に、確認できなかったことを表にまとめます。ベンチマークの正確な数値、記事本文、他社比較値、日本での提供時期です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "この動画の作り方も開示します。発表から2日後の着手で、使わなかった数字・混ぜなかった数字があります。" },
+            { "speaker": "host", "text": "作り方まで見せてくれると、安心して見られるね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "今日の要点は3つ。起きたこと、見どころ、持ち帰ることです。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "「性能」だけでなく「どこまで任せ、どこを見るか」を先に決めておきましょう。" },
+            { "speaker": "host", "text": "自分の会社の業務も、一度書き出してみようかな。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
