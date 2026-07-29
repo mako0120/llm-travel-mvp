@@ -134,28 +134,51 @@
 そこでVOICEVOX Engineを起動して音声化する**運用を2026-07-23にmainマージ済み
 (`.github/workflows/synthesize-dialogue-audio.yml`)。
 
-以後、新しいテーマの`dialogue_spec.json`ができたら**都度確認を挟まず、以下を標準手順として
-自動で実行する**:
+### 2026-07-29〜: dialogue_spec.jsonのpushで自動発火(オーナー指示「あたらしいのを
+作成したら随時追加されるように自動化しなさい」を受けて全自動化)
+
+以前は`dialogue_spec.json`を作成した後に`actions_run_trigger`で手動起動していたが、
+現在は**`dialogue_spec.json`をpushするだけで自動的に音声化→動画組み立て→
+`/works`公開→カタログ再生成まで走る**。手動の呼び出しは不要になった。
 
 ```text
-① dialogue_spec.jsonを作成・pushする
-② actions_run_trigger(workflow_dispatch)でsynthesize-dialogue-audio.ymlを実行する
-   (ref: 作業ブランチ, theme_dir: テーマディレクトリ名)
-③ 完了を待つ(CPU版VOICEVOXで61発言・約5分程度が目安)
-④ git pullしてassets/<テーマ>/dialogue_audio.wavを取得する
-⑤ SendUserFileでオーナーに直接送付する(Notionには添付せず、パスを明記するだけ)
+① dialogue_spec.jsonを作成・pushする(これだけでよい)
+② CIが自動発火し、完了を待つ(CPU版VOICEVOXで61発言・約5分程度が目安)
+③ git pullしてassets/<テーマ>/dialogue_audio.wavとdeck_narrated.mp4を取得する
+④ SendUserFileでオーナーに直接送付する(Notionには添付せず、パスを明記するだけ)
 ```
 
-**設計上の注意点(2026-07-23の初回実行で判明した既知の罠)**:
+自動発火の仕組み(`.github/workflows/synthesize-dialogue-audio.yml`):
+- `on.push.paths: ai-company-os/assets/**/dialogue_spec.json`で発火する。対象ブランチは
+  `on.push.branches`に列挙(現在は`claude/feature-65-ai-company-os`のみ。
+  作業ブランチを変えたらここも更新すること)
+- 対象テーマは`scripts/list_pending_audio_themes.py`が
+  「`dialogue_spec.json`はあるが`dialogue_audio.wav`が無い」ものとして検出する
+  (pushのbefore/after差分に依存しないため、force-pushや複数コミットの一括pushでも
+  正しく動く)
+- CI自身が作るのは`dialogue_audio.wav`等であり`dialogue_spec.json`ではないため、
+  音声を作った直後にまた自分を呼ぶという無限ループは起きない
+- 手動での再実行(音声の作り直し等)が必要な場合は、従来どおり
+  `actions_run_trigger(workflow_dispatch)`に`theme_dir`を指定して呼べる
+
+**設計上の注意点(2026-07-23の初回実行、2026-07-28/29の自動化整備で判明した既知の罠)**:
 - Actions Artifact(`actions/upload-artifact`)のダウンロード元はAzure Blob Storage
   (`blob.core.windows.net`)だが、このホストもClaude Codeのセッションからは接続不可。
   そのため音声ファイルはArtifactではなく、ワークフロー自身が`git commit`+`git push`で
   リポジトリへ直接コミットする形で取り出す
-- ワークフローの`workflow_dispatch`はデフォルトブランチ(main)に存在しないと
-  API経由でトリガーできない(GitHubの仕様)。ワークフローファイル自体の追加・変更は
-  必ずmainへの反映(=人間承認)が必要
+- `workflow_dispatch`はデフォルトブランチ(main)に存在しないとAPI経由で**手動**
+  トリガーできない(GitHubの仕様)。一方、`push`トリガーはそのブランチにpushされた
+  時点のワークフロー定義で動くため、**mainマージ前の作業ブランチでも自動発火する**
+  (この違いにより、上記の自動化はmainマージを待たずに機能している)
 - CI実行中に別コミットを同じブランチへpushすると、CI側のpushが競合して失敗する。
   ワークフロー側でpush前に`git fetch && git rebase`する対策を入れている
+- 動画パイプラインは`python-pptx`にも依存する(`render_deck_images.py`が配色
+  プリセットを`build_deck.py`から取り込むため)。`pip install`にpillow・
+  imageio-ffmpegだけを入れて`python-pptx`を忘れると、動画組み立てだけ失敗する
+  (2026-07-28に発見・修正)
+- `publish_theme.py`は単一テーマ名を指定すると、公開できなければ終了コード1を返す
+  (動画が無いのにCIが緑になっていた不具合の修正、2026-07-28)。`--all`の一括処理は
+  音声待ちテーマが混ざるのが正常なので、そちらは非0件でも失敗扱いにしない
 - VOICEVOX Engineへのリクエストのtext/speakerパラメータは`urllib.parse.urlencode`で
   URLエンコードすること(日本語・記号を含むテキストをエンコードせず渡すと
   `http.client.InvalidURL`で失敗する)

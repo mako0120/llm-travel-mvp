@@ -1,18 +1,32 @@
 name: Synthesize Dialogue Audio (VOICEVOX)
 
-# 手動トリガー専用(workflow_dispatch)。
+# 自動 + 手動の両対応。
 # GitHub Actionsのubuntu-latestランナーは通常のインターネットアクセス(Docker Hub含む)を
 # 持つため、VOICEVOX Engineをこの中で起動して対話ナレーションを音声化できる。
 # Claude Codeのリモートセッション自体はegressポリシーでDocker Hub等がブロックされており
 # セルフホストできないため、この用途に限りCI経由で実行する
 # (ai-company-os/research/2026-07-23_tts-options.md, docs/13_AI_Dialogue_Script.md参照)。
+#
+# 2026-07-29追記(オーナー指示「あたらしいのを作成したら随時追加されるように自動化しなさい」):
+# 新しいテーマの dialogue_spec.json が push されたら自動的に発火する。対象テーマは
+# scripts/list_pending_audio_themes.py が「dialogue_spec.json はあるが
+# dialogue_audio.wav が無い」ものとして検出するため、pushのbefore/after差分には
+# 依存しない(force-push・複数コミットの一括pushでも正しく動く)。
+# CI自身が作るのはdialogue_audio.wav等でありdialogue_spec.jsonではないため、
+# 音声を作った直後にまた自分を呼ぶという無限ループも起きない。
+# ブランチ名を変更した場合はここの branches も更新すること。
 on:
+  push:
+    branches:
+      - claude/feature-65-ai-company-os
+    paths:
+      - "ai-company-os/assets/**/dialogue_spec.json"
   workflow_dispatch:
     inputs:
       theme_dir:
-        description: "ai-company-os/assets/配下のテーマディレクトリ名"
-        required: true
-        default: "2026-07-23_jack-dorsey-buzz-platform"
+        description: "省略時: 音声合成待ちの全テーマを自動検出。指定時: そのテーマのみ処理(音声が既にあっても再生成する手動再実行用)"
+        required: false
+        default: ""
       voice_map:
         description: "話者マップ(例: host=3,analyst=2)"
         required: false
@@ -27,7 +41,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Determine themes needing audio
+        id: themes
+        run: |
+          if [ -n "${{ inputs.theme_dir }}" ]; then
+            echo "${{ inputs.theme_dir }}" > /tmp/themes.txt
+          else
+            python ai-company-os/scripts/list_pending_audio_themes.py > /tmp/themes.txt
+          fi
+          count=$(grep -c . /tmp/themes.txt || true)
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          echo "対象テーマ($count 件):"
+          cat /tmp/themes.txt
+
       - name: Start VOICEVOX Engine
+        if: steps.themes.outputs.count != '0'
         run: |
           docker run -d --name voicevox -p 50021:50021 voicevox/voicevox_engine:cpu-latest
           ready=0
@@ -47,72 +75,78 @@ jobs:
           fi
 
       - uses: actions/setup-python@v5
+        if: steps.themes.outputs.count != '0'
         with:
           python-version: "3.12"
 
-      - name: Synthesize dialogue audio
-        run: |
-          python ai-company-os/scripts/synthesize_dialogue_audio.py \
-            "ai-company-os/assets/${{ inputs.theme_dir }}/dialogue_spec.json" \
-            "dialogue_audio.wav" \
-            --voice-map "${{ inputs.voice_map }}" \
-            --slide-timings "slide_timings.json"
-
-      - name: Upload audio artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: dialogue-audio-${{ inputs.theme_dir }}
-          path: |
-            dialogue_audio.wav
-            slide_timings.json
-          retention-days: 14
-
-      # Claude Codeのリモートセッションからはblob.core.windows.net(Actions Artifactの
-      # ダウンロード先)へのegressもブロックされているため、Artifactに加えてリポジトリへ
-      # 直接コミットする(pptxと同じ「GitHub raw URL経由でNotionに添付する」ための導線)。
-      # slide_timings.jsonは、スライドと音声を連動させたナレーション動画
-      # (build_narrated_video.py)を組み立てるために必要。
-      - name: Commit audio and slide timings to repo
-        run: |
-          mkdir -p "ai-company-os/assets/${{ inputs.theme_dir }}"
-          cp dialogue_audio.wav "ai-company-os/assets/${{ inputs.theme_dir }}/dialogue_audio.wav"
-          if [ -f slide_timings.json ]; then
-            cp slide_timings.json "ai-company-os/assets/${{ inputs.theme_dir }}/slide_timings.json"
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "ai-company-os/assets/${{ inputs.theme_dir }}/dialogue_audio.wav" \
-                  "ai-company-os/assets/${{ inputs.theme_dir }}/slide_timings.json"
-          if git diff --cached --quiet; then
-            echo "No changes to commit (audio identical to existing file)"
-          else
-            git commit -m "Add synthesized dialogue audio + slide timings for ${{ inputs.theme_dir }} (CI/VOICEVOX)"
-            git fetch origin "${{ github.ref_name }}"
-            git rebase "origin/${{ github.ref_name }}"
-            git push origin "HEAD:${{ github.ref_name }}"
-          fi
-
-      # 音声とタイミングが揃った直後に、ナレーション動画を組み立てて /works へ公開する。
-      # ここまで自動化しておかないと、新しいテーマを作るたびに手作業で動画を作って
-      # public/ へ置いてカタログを更新することになるため。
       # python-pptx も必要。render_deck_images.py が配色プリセットを build_deck.py から
       # 取り込んでおり、build_deck.py が python-pptx を読み込むため。
       - name: Install video pipeline dependencies
+        if: steps.themes.outputs.count != '0'
         run: |
           pip install pillow imageio-ffmpeg python-pptx
           sudo apt-get update && sudo apt-get install -y fonts-ipafont-gothic
 
-      - name: Build narration video and publish to /works
-        run: python ai-company-os/scripts/publish_theme.py "${{ inputs.theme_dir }}"
-
-      - name: Commit published video and catalog
+      # 各テーマについて、音声合成 → コミット&push → 動画組み立て → /works へ公開 →
+      # コミット&push、を順に行う。テーマごとにpushするのは、複数テーマを一括処理する
+      # 場合に1テーマの失敗が他テーマの成果まで失わせないようにするため。
+      # publish_theme.py は単一テーマ名を指定すると、公開できなければ終了コード1を返す
+      # (動画が無いのにCIが緑になる問題への対策、2026-07-28修正)。1テーマの公開失敗は
+      # 記録した上で処理を続け、最後にまとめて失敗を報告する。
+      - name: Synthesize dialogue audio and publish video for each pending theme
+        if: steps.themes.outputs.count != '0'
         run: |
-          git add -A public/videos lib/ai-company-os/catalog.json
-          if git diff --cached --quiet; then
-            echo "No changes to publish (video and catalog already up to date)"
-          else
-            git commit -m "Publish narration video for ${{ inputs.theme_dir }} to /works (CI)"
-            git fetch origin "${{ github.ref_name }}"
-            git rebase "origin/${{ github.ref_name }}"
-            git push origin "HEAD:${{ github.ref_name }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          failed=""
+          while IFS= read -r theme; do
+            [ -z "$theme" ] && continue
+            echo "::group::$theme"
+
+            python ai-company-os/scripts/synthesize_dialogue_audio.py \
+              "ai-company-os/assets/$theme/dialogue_spec.json" \
+              "dialogue_audio.wav" \
+              --voice-map "${{ inputs.voice_map || 'host=3,analyst=2' }}" \
+              --slide-timings "slide_timings.json"
+
+            mkdir -p "ai-company-os/assets/$theme"
+            cp dialogue_audio.wav "ai-company-os/assets/$theme/dialogue_audio.wav"
+            if [ -f slide_timings.json ]; then
+              cp slide_timings.json "ai-company-os/assets/$theme/slide_timings.json"
+            fi
+            git add "ai-company-os/assets/$theme/dialogue_audio.wav" \
+                    "ai-company-os/assets/$theme/slide_timings.json"
+            if git diff --cached --quiet; then
+              echo "音声に変更なし: $theme"
+            else
+              git commit -m "Add synthesized dialogue audio + slide timings for $theme (CI/VOICEVOX)"
+              git fetch origin "${{ github.ref_name }}"
+              git rebase "origin/${{ github.ref_name }}"
+              git push origin "HEAD:${{ github.ref_name }}"
+            fi
+
+            if ! python ai-company-os/scripts/publish_theme.py "$theme"; then
+              echo "::error::$theme の動画公開に失敗しました"
+              failed="$failed $theme"
+            fi
+            git add -A public/videos lib/ai-company-os/catalog.json
+            if git diff --cached --quiet; then
+              echo "公開物に変更なし: $theme"
+            else
+              git commit -m "Publish narration video for $theme to /works (CI)"
+              git fetch origin "${{ github.ref_name }}"
+              git rebase "origin/${{ github.ref_name }}"
+              git push origin "HEAD:${{ github.ref_name }}"
+            fi
+
+            echo "::endgroup::"
+          done < /tmp/themes.txt
+
+          if [ -n "$failed" ]; then
+            echo "以下のテーマの公開に失敗しました:$failed"
+            exit 1
           fi
+
+      - name: No pending themes
+        if: steps.themes.outputs.count == '0'
+        run: echo "音声合成待ちのテーマはありません。何もしません。"
