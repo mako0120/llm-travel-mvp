@@ -3,14 +3,14 @@
   "repo": "mako0120/llm-travel-mvp",
   "assetsPath": "ai-company-os/assets",
   "totals": {
-    "themes": 55,
-    "slides": 1261,
-    "withPptx": 33,
-    "withAudio": 37,
-    "withVideo": 35,
-    "timedThemes": 35,
-    "timedAudioSeconds": 12108.2,
-    "averageQualityScore": 94.2
+    "themes": 56,
+    "slides": 1291,
+    "withPptx": 34,
+    "withAudio": 38,
+    "withVideo": 36,
+    "timedThemes": 36,
+    "timedAudioSeconds": 12402.9,
+    "averageQualityScore": 94.1
   },
   "themes": [
     {
@@ -83,6 +83,48 @@
       "qualityScore": 93,
       "themeScore": null,
       "videoUrl": "/videos/2026-07-29_microsoft-project-perception-mai-cyber.mp4",
+      "artifacts": {
+        "deck_spec": true,
+        "pptx": true,
+        "narration": true,
+        "dialogue": true,
+        "audio": true,
+        "timings": true,
+        "youtube": true,
+        "canva": true,
+        "review": true,
+        "research": true,
+        "thumbnail": false
+      }
+    },
+    {
+      "id": "2026-07-29_kddi-buffmee-licensed-content-ai",
+      "date": "2026-07-29",
+      "slug": "kddi-buffmee-licensed-content-ai",
+      "title": "情報源は「約150」だけ(定期実行54本目)",
+      "subtitle": "2026-07-29 / AI Company OS",
+      "palette": "slate_azure",
+      "footer": "AI Company OS - 定期実行54本目",
+      "slides": 30,
+      "layouts": {
+        "cards": 10,
+        "bullets": 4,
+        "comparison": 3,
+        "diagram": 3,
+        "table": 3,
+        "steps": 2,
+        "agenda": 1,
+        "big_stat": 1,
+        "cta": 1,
+        "quote": 1,
+        "title": 1
+      },
+      "bulletsRatio": 13.3,
+      "narrationMinutes": 4.0,
+      "audioSeconds": 294.7,
+      "qualityScore": 94,
+      "themeScore": 87,
+      "videoUrl": "/videos/2026-07-29_kddi-buffmee-licensed-content-ai.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
