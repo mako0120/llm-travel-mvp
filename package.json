@@ -11,6 +11,7 @@
     "test:roi": "node --test lib/roi/calculate.test.mjs",
     "test:policy-audit": "node --test lib/policy-audit/calculate.test.mjs",
     "test:estimate-intake": "node --test lib/estimate-intake/calculate.test.mjs",
+    "test:reply-score": "node --test lib/reply-score/calculate.test.mjs",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
   },

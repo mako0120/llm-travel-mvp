@@ -9,6 +9,7 @@ Next.js (App Router) / Supabase / Vercel / GitHub Actions / Claude Code 用ス�
 - `/demo` — 4種類の固定サンプル(英語・中国語・韓国語)から選び、日本語要約・緊急度・規約確認・外国語返信案の見え方を確認できるクリックデモ
 - `/workbench` — 固定サンプルの問い合わせキューから、返信優先順・施設ルール根拠(2件以上)・返信案のたたき台を1画面で確認できる、より実運用に近い検証用デモ
 - `/policy-audit` — 6カテゴリの施設ルールをAI回答可能・人間確認・情報不足へ分類し、優先整備項目を示す保存なしの診断デモ
+- `/reply-score` — 6件の固定サンプル問い合わせを返信優先度スコアで今すぐ返信・人間確認・追客候補へ分類し、集計を示す保存なしの診断デモ
 - 固定サンプルのみを扱う検証用デモであり、外部AI・外部API・認証・データベース・データ保存・自動送信は一切行いません
 - 返信案はあくまで参考表示であり、実際の送信は必ず人が内容を確認したうえで行うことを前提にしています
 - 価格は仮のものであり、正式な価格ではありません
@@ -25,6 +26,7 @@ npm run dev
 - `app/page.tsx` — LP(課題・対象・価値・使い方・仮価格・注意事項)
 - `app/demo/` — 固定サンプルによるクリックデモ(`page.tsx` / `reply-demo.tsx`)
 - `app/workbench/` / `lib/workbench/` — 施設ルール根拠付きワークベンチ(`page.tsx` / `workbench-demo.tsx` / `sample-data.ts` / `policy-links.ts`)
+- `app/reply-score/` / `lib/reply-score/` — 問い合わせ返信優先度ボード(`page.tsx` / `reply-score-board.tsx` / `calculate.mjs` / `calculate.test.mjs`)
 - `app/layout.tsx` / `app/globals.css` — 共通レイアウトとスタイル、検証用デモである旨のバナー
 - `lib/supabase/` — Supabaseクライアント(server / client。現在のLP・デモでは未使用)
 - `.github/workflows/ci.yml` — CI(lint / typecheck / build)

@@ -20,6 +20,7 @@ export default function WorkbenchPage() {
       </p>
       <p>
         施設ルールが十分か確認したい場合は、<Link href="/policy-audit">施設FAQ準備度診断</Link>をお試しください。
+        問い合わせの返信優先度を確認したい場合は、<Link href="/reply-score">問い合わせ返信優先度ボード</Link>をお試しください。
       </p>
       <WorkbenchDemo />
     </main>

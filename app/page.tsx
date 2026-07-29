@@ -108,6 +108,10 @@ export default function Home() {
           まず無料デモを試す
         </Link>
       </section>
+
+      <p className="breadcrumb">
+        宿泊施設向けの検証用デモ(問い合わせ返信優先度ボードなど)は<Link href="/reply-score">こちら</Link>から確認できます。
+      </p>
     </main>
   );
 }
