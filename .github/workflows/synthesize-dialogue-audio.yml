@@ -120,6 +120,16 @@ jobs:
             [ -z "$theme" ] && continue
             echo "::group::$theme"
 
+            # 前のテーマの出力を必ず消してから始める。フラットモードの
+            # dialogue_spec.json ではslide_timings.jsonを生成しないため、
+            # 消さずに残しておくと前のテーマの(スライド数が食い違う)
+            # slide_timings.jsonがそのまま「存在する」と誤判定され、
+            # 別テーマのディレクトリへ誤ってコピー・コミットされてしまう
+            # (2026-07-29、vitalik-buterin-agi-definitionでopenai-model-
+            # hugging-face-breachの30スライド分のタイミングが混入する
+            # 事故が実際に発生し、後日削除した)
+            rm -f dialogue_audio.wav slide_timings.json
+
             python ai-company-os/scripts/synthesize_dialogue_audio.py \
               "ai-company-os/assets/$theme/dialogue_spec.json" \
               "dialogue_audio.wav" \
