@@ -65,6 +65,7 @@ def build_video(theme_dir: Path) -> bool:
         ],
         capture_output=True,
         text=True,
+        stdin=subprocess.DEVNULL,
     )
     if result.returncode != 0:
         print(f"  動画の組み立てに失敗しました:\n{result.stdout[-800:]}{result.stderr[-800:]}")
@@ -96,7 +97,10 @@ def rebuild_catalog() -> bool:
         print("build_catalog.py が無いためカタログ更新をスキップしました")
         return False
     result = subprocess.run(
-        [sys.executable, str(builder)], capture_output=True, text=True
+        [sys.executable, str(builder)],
+        capture_output=True,
+        text=True,
+        stdin=subprocess.DEVNULL,
     )
     print(result.stdout.strip() or result.stderr.strip())
     return result.returncode == 0

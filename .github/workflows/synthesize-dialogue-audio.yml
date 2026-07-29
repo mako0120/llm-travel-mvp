@@ -99,7 +99,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           failed=""
-          while IFS= read -r theme; do
+          # mapfileで配列へ読み込んでからforで回す。`done < /tmp/themes.txt`で
+          # ループ全体の標準入力をファイルにリダイレクトすると、ループ内の
+          # 子プロセス(ffmpeg等)が標準入力を継承してファイルの残り行を
+          # 消費してしまい、2件目以降が処理されないままループが静かに
+          # 終わる不具合が実際に発生した(2026-07-29、バックログ4件中1件しか
+          # 処理されず、エラーも出ずに成功扱いになっていた)。配列化すれば
+          # ループの継続はfd 0に依存しなくなる
+          mapfile -t theme_list < /tmp/themes.txt
+          for theme in "${theme_list[@]}"; do
             [ -z "$theme" ] && continue
             echo "::group::$theme"
 
@@ -140,7 +148,7 @@ jobs:
             fi
 
             echo "::endgroup::"
-          done < /tmp/themes.txt
+          done
 
           if [ -n "$failed" ]; then
             echo "以下のテーマの公開に失敗しました:$failed"

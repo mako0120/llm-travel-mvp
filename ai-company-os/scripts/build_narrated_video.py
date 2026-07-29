@@ -120,7 +120,12 @@ def build(spec_path: str, audio_path: str, timings_path: str, out_path: str) -> 
             "-shortest",
             out_path,
         ]
-        result = subprocess.run(cmd, capture_output=True, text=True)
+        # stdin=DEVNULL: 呼び出し元がシェルのwhileループでファイルをstdinへ
+        # リダイレクトしている場合、ffmpegが標準入力を継承するとそのファイル
+        # 記述子を消費してしまい、ループが1回で終わる原因になる(CI実運用で発覚)。
+        result = subprocess.run(
+            cmd, capture_output=True, text=True, stdin=subprocess.DEVNULL
+        )
         if result.returncode != 0:
             print("ERROR: ffmpegの実行に失敗しました")
             print(result.stderr[-3000:])
