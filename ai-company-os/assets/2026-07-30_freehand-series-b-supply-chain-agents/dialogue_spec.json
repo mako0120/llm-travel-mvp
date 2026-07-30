@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "title": "Meta・Unilever・Dunkin'が仕事を任せた「AIチーム」",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "GlobeNewswire(2026-07-29)",
+      "Crunchbase News(2026-07-29)",
+      "Forbes(2026-07-29)",
+      "techfundingnews(2026-07-29)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {"speaker": "analyst", "text": "7,500万ドル。AIエージェント企業Freehandが調達した金額です。", "source": "GlobeNewswire(2026-07-29)"},
+            {"speaker": "host", "text": "どんな会社なの?"},
+            {"speaker": "analyst", "text": "Meta、Unilever、Dunkin'など著名企業のサプライチェーン支出を任されています。"}
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {"speaker": "host", "text": "まず結論から知りたい。"},
+            {"speaker": "analyst", "text": "調達額7,500万ドル、6社が導入企業として報じられています。", "source": "Crunchbase News(2026-07-29)"},
+            {"speaker": "host", "text": "効果はどれくらい?"},
+            {"speaker": "analyst", "text": "顧客報告で業務処理速度が5〜7倍になったといいます。"}
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {"speaker": "host", "text": "この動画、何が分かるようになる?"},
+            {"speaker": "analyst", "text": "発表の中身、仕組み、創業チームの経歴まで話します。"},
+            {"speaker": "host", "text": "分からなかったことも言う?"},
+            {"speaker": "analyst", "text": "もちろんです。数字を作らない、が私たちのルールなので。"}
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {"speaker": "host", "text": "この話、どこまで信じていいの?"},
+            {"speaker": "analyst", "text": "GlobeNewswireの一次発表に加え、Crunchbase Newsなど複数メディアが同じ内容を報道しています。", "source": "Crunchbase News / Forbes(2026-07-29)"},
+            {"speaker": "host", "text": "じゃあ全部一致してるんだ?"},
+            {"speaker": "analyst", "text": "実は一部の媒体で「シード調達」という食い違った表記もあり、本編で説明します。"}
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {"speaker": "host", "text": "じゃあ今日の流れを教えて。"},
+            {"speaker": "analyst", "text": "前提、発表の中身、仕組み、導入企業と効果数値、そして不明点の順です。"},
+            {"speaker": "host", "text": "よし、前提から入ろう。"}
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {"speaker": "analyst", "text": "企業は年間160億ドルをサプライチェーンソフトに費やしています。", "source": "CEOコメント(複数媒体経由)"},
+            {"speaker": "host", "text": "それだけじゃ済まないんだ。"},
+            {"speaker": "analyst", "text": "そうです。さらに3,480億ドルを、ソフトでできないことをする人材に費やしています。"}
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {"speaker": "analyst", "text": "改めて数字です。シリーズB調達額、7,500万ドル。", "source": "GlobeNewswire(2026-07-29)"},
+            {"speaker": "host", "text": "誰が主導したの?"},
+            {"speaker": "analyst", "text": "Battery VenturesとNewRoad Capital Partnersが共同で主導しています。"}
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {"speaker": "analyst", "text": "表で見ると、累計調達額は1億ドルになります。", "source": "Crunchbase News(2026-07-29)"},
+            {"speaker": "host", "text": "他にも投資家いるの?"},
+            {"speaker": "analyst", "text": "元米商務長官のPenny Pritzker氏が率いるPSP Growthも参加しています。"}
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {"speaker": "host", "text": "ここで発表の全体像、もう一度整理して。"},
+            {"speaker": "analyst", "text": "資金は請求処理から直接材料費・MRO費への対応領域拡大に使われます。", "source": "Crunchbase News(2026-07-29)"},
+            {"speaker": "host", "text": "前提はここまで。ここから中身に踏み込もう。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 10,
+          "lines": [
+            {"speaker": "analyst", "text": "軌跡を見ると、創業者は物流SaaS企業Pandoを売却済みです。", "source": "Crunchbase News"},
+            {"speaker": "host", "text": "実績あるチームなんだ。"},
+            {"speaker": "analyst", "text": "はい。2024年2月にFreehandを設立し、1年半で1億ドルを調達しています。"}
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {"speaker": "host", "text": "実際、何を処理するの?"},
+            {"speaker": "analyst", "text": "サプライヤーとの価格交渉、契約履行確認、支払い処理などです。"},
+            {"speaker": "host", "text": "人がやってた仕事だね。"},
+            {"speaker": "analyst", "text": "そうです。それをAIエージェントが自律的に処理します。"}
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {"speaker": "analyst", "text": "仕組みを図にすると、データ取り込み→判断→実行→成果管理です。", "source": "Crunchbase News(2026-07-29)"},
+            {"speaker": "host", "text": "「成果に責任を持つ」ってどういうこと?"},
+            {"speaker": "analyst", "text": "CEOの言葉です。単なる自動化ではなく、結果まで担うという趣旨です。"}
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {"speaker": "host", "text": "3ステップだとどうなる?"},
+            {"speaker": "analyst", "text": "取り込み、判断・実行、拡張の3つです。"},
+            {"speaker": "host", "text": "拡張ってどこまで広がるの?"},
+            {"speaker": "analyst", "text": "請求処理から直接材料費・MRO費まで広げる計画です。"}
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {"speaker": "analyst", "text": "表で見ると、導入企業は6社。業種も幅広いです。", "source": "Crunchbase News / Forbes(2026-07-29)"},
+            {"speaker": "host", "text": "テクノロジーから外食まであるんだね。"},
+            {"speaker": "analyst", "text": "はい。Meta、Unilever、J&J、Pfizer、Dunkin'、Cardinal Healthです。"}
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {"speaker": "analyst", "text": "1つ目の効果数値。支出の回収率、5〜10%です。", "source": "Crunchbase News(2026-07-29)"},
+            {"speaker": "host", "text": "これは誰の報告?"},
+            {"speaker": "analyst", "text": "顧客企業の報告値です。第三者検証ではありません。"}
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {"speaker": "host", "text": "他の数字もまとめて教えて。"},
+            {"speaker": "analyst", "text": "処理速度5〜7倍、サイクル短縮70%超です。", "source": "techfundingnews(2026-07-29)"},
+            {"speaker": "host", "text": "かなり大きい数字だね。"},
+            {"speaker": "analyst", "text": "そうですが、いずれも一企業の報告値であることに注意が必要です。"}
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {"speaker": "analyst", "text": "比較表にすると、従来の人手作業との違いがはっきりします。"},
+            {"speaker": "host", "text": "人だと担当者次第だったんだよね。"},
+            {"speaker": "analyst", "text": "そうです。AIエージェントは処理速度・回収率を数値で示せる点が違います。"}
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {"speaker": "analyst", "text": "CEOのNitin Jayakrishnan氏のコメントを紹介します。", "source": "複数媒体経由の引用"},
+            {"speaker": "host", "text": "どんな内容?"},
+            {"speaker": "analyst", "text": "「これはエンタープライズにおける真の自律性の始まりだ」という趣旨です。"}
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {"speaker": "host", "text": "創業チームの経歴、詳しく知りたい。"},
+            {"speaker": "analyst", "text": "物流SaaS企業Pandoを共同創業して売却済みの2人です。", "source": "Crunchbase News"},
+            {"speaker": "host", "text": "それで信頼されてるんだね。ここから先は転換点、注意点の話に入っていきましょう。"}
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {"speaker": "analyst", "text": "投資家のPenny Pritzker氏もコメントを寄せています。", "source": "複数媒体経由の引用"},
+            {"speaker": "host", "text": "どんな内容?"},
+            {"speaker": "analyst", "text": "「測定可能な生産性へと転換している数少ない企業の一つだ」という趣旨です。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            {"speaker": "analyst", "text": "投資家について分かっていること・いないことを整理します。"},
+            {"speaker": "host", "text": "分かってるのは参加した事実、分かってないのは出資比率、だよね?"},
+            {"speaker": "analyst", "text": "その通りです。企業評価額も非公表です。"}
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {"speaker": "host", "text": "さっき言ってた食い違い、詳しく教えて。"},
+            {"speaker": "analyst", "text": "一部の媒体だけが「シード調達」と表記していて、多数派の「シリーズB」と矛盾します。"},
+            {"speaker": "host", "text": "どっちを信じればいいの?"},
+            {"speaker": "analyst", "text": "資金調達履歴と整合する「シリーズB」を採用しつつ、食い違い自体を明示しています。"}
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {"speaker": "host", "text": "日本にはどう関係あるの?"},
+            {"speaker": "analyst", "text": "報道されている導入企業はいずれも米国発のグローバル企業です。"},
+            {"speaker": "host", "text": "日本企業が顧客にいる可能性は?"},
+            {"speaker": "analyst", "text": "そこは一次情報で確認できていません。正直にお伝えします。"}
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {"speaker": "analyst", "text": "確認できなかったことを表にまとめました。"},
+            {"speaker": "host", "text": "一番気になるのは企業評価額だね。"},
+            {"speaker": "analyst", "text": "はい。導入企業ごとの契約規模も非公表です。"}
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {"speaker": "host", "text": "AIに詳しくない人にも関係ある話?"},
+            {"speaker": "analyst", "text": "「ソフトでできないこと」に人件費がかかるという発想は他業務にも応用できます。"},
+            {"speaker": "host", "text": "資金調達の見せ方も参考になりそう。"},
+            {"speaker": "analyst", "text": "実績あるチームが再挑戦する形は、参考になる例です。"}
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {"speaker": "analyst", "text": "このニュースの読み解き方を3ステップで整理します。"},
+            {"speaker": "host", "text": "まず規模を見る、だよね。"},
+            {"speaker": "analyst", "text": "次に効果数値、最後にまだ分からない点を押さえる。この順番がおすすめです。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            {"speaker": "host", "text": "ここからは推測、って感じ?"},
+            {"speaker": "analyst", "text": "そうです。事業領域が直接材料費・MRO費まで広がるかもしれません。"},
+            {"speaker": "host", "text": "他社の追随もありそう。"},
+            {"speaker": "analyst", "text": "その可能性はありますが、断定はできません。ここまでが中身。ここからまとめです。"}
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {"speaker": "analyst", "text": "冷静に見ておきたい点が3つあります。"},
+            {"speaker": "host", "text": "1つ目は効果数値が顧客報告値ってことだよね。"},
+            {"speaker": "analyst", "text": "そうです。企業評価額も非公表で、表記の食い違いもあります。"}
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {"speaker": "analyst", "text": "今日の要点は3つ。7,500万ドル、導入企業6社、処理速度5〜7倍。"},
+            {"speaker": "host", "text": "サプライチェーンも、AIエージェントの現場なんだね。"},
+            {"speaker": "analyst", "text": "続報があれば、また整理してお届けします。"}
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {"speaker": "host", "text": "最後に一言お願いします。"},
+            {"speaker": "analyst", "text": "AIエージェントのニュースは、調達額・導入企業・効果数値の出所を分けて見てください。"},
+            {"speaker": "host", "text": "今日はここまで。ご覧いただきありがとうございました。"}
+          ]
+        }
+      ]
+    }
+  ]
+}
