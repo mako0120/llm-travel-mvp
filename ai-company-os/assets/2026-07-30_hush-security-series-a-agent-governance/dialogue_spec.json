@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "title": "気づけば社内に、15万体のAIエージェント",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "PRNewswire(2026-07-29)",
+      "SecurityWeek(2026-07-29)",
+      "fintech.global(2026-07-29)",
+      "ynetnews(2026-07-29)",
+      "Gartner / Omdia(SecurityWeek経由)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {"speaker": "analyst", "text": "2028年、Fortune500企業は平均15万体のAIエージェントを運用する見込みです。", "source": "Gartner(SecurityWeek経由)"},
+            {"speaker": "host", "text": "15万体って、誰が管理するの?"},
+            {"speaker": "analyst", "text": "それを見張る仕組みを作る会社が、今回シリーズAを調達しました。"}
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {"speaker": "host", "text": "まず結論から知りたい。"},
+            {"speaker": "analyst", "text": "調達額3,000万ドル、Akamaiが戦略投資家として参加しました。", "source": "PRNewswire(2026-07-29)"},
+            {"speaker": "host", "text": "Akamaiって聞いたことある。"},
+            {"speaker": "analyst", "text": "セキュリティ大手ですね。それが参加した意味も後で話します。"}
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {"speaker": "host", "text": "この動画、何が分かるようになる?"},
+            {"speaker": "analyst", "text": "発表の中身、仕組み、AIエージェントの統治がなぜ問題なのかまで話します。"},
+            {"speaker": "host", "text": "分からなかったことも言う?"},
+            {"speaker": "analyst", "text": "もちろんです。数字を作らない、が私たちのルールなので。"}
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {"speaker": "host", "text": "この話、どこまで信じていいの?"},
+            {"speaker": "analyst", "text": "PRNewswireの一次発表に加え、SecurityWeekなど複数メディアが同じ内容を報道しています。", "source": "SecurityWeek / fintech.global(2026-07-29)"},
+            {"speaker": "host", "text": "複数の独立メディアが裏取りしてるんだね。"},
+            {"speaker": "analyst", "text": "はい。ただし企業評価額や導入顧客名は、まだ確認できていません。"}
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {"speaker": "host", "text": "じゃあ今日の流れを教えて。"},
+            {"speaker": "analyst", "text": "前提、発表の中身、仕組み、2つの数字とAkamaiの参加、そして不明点の順です。"},
+            {"speaker": "host", "text": "よし、前提から入ろう。"}
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {"speaker": "analyst", "text": "AIエージェントが人手を介さず自律的にシステムへアクセスするケースが増えています。"},
+            {"speaker": "host", "text": "既存のID管理じゃダメなの?"},
+            {"speaker": "analyst", "text": "従業員向けの仕組みで、自律的に動くエージェント向けには作られていないんです。"}
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {"speaker": "analyst", "text": "改めて数字です。シリーズA調達額、3,000万ドル。", "source": "PRNewswire(2026-07-29)"},
+            {"speaker": "host", "text": "誰が投資したの?"},
+            {"speaker": "analyst", "text": "既存のBattery Ventures・YL Venturesに加え、Akamaiが新規参加しました。"}
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {"speaker": "analyst", "text": "表で見ると、累計調達額は4,100万ドルになります。", "source": "fintech.global(2026-07-29)"},
+            {"speaker": "host", "text": "シードからどれくらい経ってるの?"},
+            {"speaker": "analyst", "text": "2025年9月のシードから1年足らずです。"}
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {"speaker": "host", "text": "ここで発表の全体像、もう一度整理して。"},
+            {"speaker": "analyst", "text": "セキュリティ大手Akamaiが戦略投資家として参加したのが今回の目玉です。", "source": "SecurityWeek(2026-07-29)"},
+            {"speaker": "host", "text": "前提はここまで。ここから中身に踏み込もう。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 10,
+          "lines": [
+            {"speaker": "analyst", "text": "軌跡を見ると、創業チームは2019年に買収されたMeta Networks出身です。", "source": "Calcalist/CTech"},
+            {"speaker": "host", "text": "実績あるチームなんだ。"},
+            {"speaker": "analyst", "text": "はい。2025年9月にステルス解除して、今回1年足らずでシリーズAです。"}
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {"speaker": "host", "text": "「非人間ID」って何?APIキーと違うの?"},
+            {"speaker": "analyst", "text": "APIキーは長期間有効になりがちですが、非人間IDは必要な時だけ権限を与える発想です。"},
+            {"speaker": "host", "text": "CEOも同じようなこと言ってたね。"},
+            {"speaker": "analyst", "text": "「AIエージェントにはAPIキーではなく厳格なIDが必要」だと述べています。"}
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {"speaker": "analyst", "text": "仕組みを図にすると、登録→常設認証情報の排除→JIT権限付与→ログ記録です。", "source": "fintech.global(2026-07-29)"},
+            {"speaker": "host", "text": "緊急時はどうするの?"},
+            {"speaker": "analyst", "text": "中央のキルスイッチで停止できます。"}
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {"speaker": "host", "text": "実際、3ステップだとどうなる?"},
+            {"speaker": "analyst", "text": "登録、権限付与、監視・停止の3つです。"},
+            {"speaker": "host", "text": "権限はどのタイミングで与えるの?"},
+            {"speaker": "analyst", "text": "実行時にその場でスコープ限定の権限だけを与えます。"}
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {"speaker": "analyst", "text": "1つ目の衝撃的な数字。2028年に平均15万体超です。", "source": "Gartner(SecurityWeek経由)"},
+            {"speaker": "host", "text": "1年前はどうだったの?"},
+            {"speaker": "analyst", "text": "15体未満でした。桁違いの増加です。"}
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {"speaker": "host", "text": "表で見ると、その差はどれくらい?"},
+            {"speaker": "analyst", "text": "15体未満から15万体超。単純計算でも1万倍以上です。", "source": "Gartner(SecurityWeek経由)"},
+            {"speaker": "host", "text": "統治が追いつかないわけだね。"},
+            {"speaker": "analyst", "text": "そういうことです。"}
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {"speaker": "analyst", "text": "もう一つの数字、96%。統治モデルが未整備の組織の割合です。", "source": "Omdia(SecurityWeek経由)"},
+            {"speaker": "host", "text": "ほとんどの企業が備えられてないんだ。"},
+            {"speaker": "analyst", "text": "そうなんです。ここに市場機会があります。"}
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {"speaker": "analyst", "text": "96%が意味するのは、多くの企業がAIエージェント専用の設計をしていないということです。"},
+            {"speaker": "host", "text": "人向けの仕組みを流用してるってこと?"},
+            {"speaker": "analyst", "text": "そう考えられます。ここをHush Securityが埋めようとしています。"}
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {"speaker": "host", "text": "従来のVault型と何が違うの?"},
+            {"speaker": "analyst", "text": "Vault型は認証情報を保管庫に集約する発想で、比較的長期間有効です。"},
+            {"speaker": "host", "text": "Hushは認証情報自体を持たせないんだよね。"},
+            {"speaker": "analyst", "text": "はい。secretless設計と呼ばれています。"}
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {"speaker": "analyst", "text": "CEOのMicha Rave氏のコメントを紹介します。", "source": "複数媒体経由の引用"},
+            {"speaker": "host", "text": "どんな内容?"},
+            {"speaker": "analyst", "text": "「AIエージェントにはAPIキーではなく厳格なIDが必要だ」という趣旨です。"}
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {"speaker": "analyst", "text": "創業チームの経歴を整理します。全員Meta Networks出身、拠点はテルアビブです。", "source": "Calcalist/CTech"},
+            {"speaker": "host", "text": "実績のある人たちが再挑戦してるんだね。ここから先は転換点、注意点の話に入っていきましょう。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            {"speaker": "host", "text": "Akamaiが参加した意味、もう少し詳しく。"},
+            {"speaker": "analyst", "text": "CDN・エッジセキュリティの大手が、非人間IDという新領域に参加した形です(ここは推測を含みます)。"},
+            {"speaker": "host", "text": "製品連携もあるのかな?"},
+            {"speaker": "analyst", "text": "そこは一次情報で明言されていません。"}
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {"speaker": "analyst", "text": "Akamaiについて分かっていること・いないことを整理します。"},
+            {"speaker": "host", "text": "分かってるのは参加した事実、分かってないのは出資額、だよね?"},
+            {"speaker": "analyst", "text": "その通りです。今後、具体的な連携が発表されるか注目です。"}
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {"speaker": "analyst", "text": "確認できなかったことを表にまとめました。"},
+            {"speaker": "host", "text": "一番気になるのは企業評価額だね。"},
+            {"speaker": "analyst", "text": "はい。導入顧客名や各投資家の出資比率も非公表です。"}
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {"speaker": "host", "text": "日本にはどう関係あるの?"},
+            {"speaker": "analyst", "text": "拠点はイスラエルのテルアビブで、日本は含まれていません。"},
+            {"speaker": "host", "text": "日本企業が顧客にいる可能性は?"},
+            {"speaker": "analyst", "text": "そこは一次情報で確認できていません。正直にお伝えします。"}
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {"speaker": "host", "text": "AIに詳しくない人にも関係ある話?"},
+            {"speaker": "analyst", "text": "「誰が権限を持つか」という問いは、便利な自動化の裏に必ずあります。"},
+            {"speaker": "host", "text": "個人の情報管理にも通じそうだね。"},
+            {"speaker": "analyst", "text": "常設のパスワードに頼らない発想は、応用できると思います。"}
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {"speaker": "analyst", "text": "このニュースの読み解き方を3ステップで整理します。"},
+            {"speaker": "host", "text": "まず調達規模を見る、だよね。"},
+            {"speaker": "analyst", "text": "次に15万体・96%という数字、最後にまだ分からない点を押さえる。この順番がおすすめです。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            {"speaker": "host", "text": "ここからは推測、って感じ?"},
+            {"speaker": "analyst", "text": "そうです。AIエージェント向けID管理が業界標準になっていく可能性があります。"},
+            {"speaker": "host", "text": "他社の追随もありそう。"},
+            {"speaker": "analyst", "text": "その可能性はありますが、断定はできません。ここまでが中身。ここからまとめです。"}
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {"speaker": "analyst", "text": "冷静に見ておきたい点が3つあります。"},
+            {"speaker": "host", "text": "1つ目は企業評価額が非公表ってことだよね。"},
+            {"speaker": "analyst", "text": "そうです。Akamaiとの連携の具体的な中身もまだ示されていません。"}
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {"speaker": "analyst", "text": "今日の要点は3つ。3,000万ドル、15万体超、96%です。"},
+            {"speaker": "host", "text": "AIエージェント業界、セキュリティも大事な論点だね。"},
+            {"speaker": "analyst", "text": "続報があれば、また整理してお届けします。"}
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {"speaker": "host", "text": "最後に一言お願いします。"},
+            {"speaker": "analyst", "text": "AIエージェントのニュースは、調達額・統計の出典・誰が投資しているかを分けて見てください。"},
+            {"speaker": "host", "text": "今日はここまで。ご覧いただきありがとうございました。"}
+          ]
+        }
+      ]
+    }
+  ]
+}
