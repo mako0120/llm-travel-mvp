@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "title": "半導体の設計図を書くのはもうAIエージェントかもしれない",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "BusinessWire(2026-07-29)",
+      "HPCwire(2026-07-29)",
+      "TechFundingNews(2026-07-29)",
+      "TheNextWeb(2026-07-29)",
+      "Yahoo Finance(2026-07-29)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {"speaker": "analyst", "text": "1.34億ドル。半導体設計AIエージェント企業ChipAgentsの累計調達額です。", "source": "BusinessWire(2026-07-29)"},
+            {"speaker": "host", "text": "半年前より一気に増えてない?"},
+            {"speaker": "analyst", "text": "2月は7,400万ドルでした。今回、一気に拡大しています。"}
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {"speaker": "host", "text": "まず結論から知りたい。"},
+            {"speaker": "analyst", "text": "累計1.34億ドル、ARRは半年で6倍、導入企業は120社超です。", "source": "BusinessWire(2026-07-29)"},
+            {"speaker": "host", "text": "ARR6倍って相当だね。"},
+            {"speaker": "analyst", "text": "半導体エンジニアリングの現場で、実際に使われ始めている証拠だと思います。"}
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {"speaker": "host", "text": "この動画、何が分かるようになる?"},
+            {"speaker": "analyst", "text": "発表の中身、前回調達からの変化、エヌビディアとの提携まで話します。"},
+            {"speaker": "host", "text": "分からなかったことも言う?"},
+            {"speaker": "analyst", "text": "もちろんです。数字を作らない、が私たちのルールなので。"}
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {"speaker": "host", "text": "この話、どこまで信じていいの?"},
+            {"speaker": "analyst", "text": "BusinessWireの一次発表に加え、HPCwireなど複数メディアが同じ内容を報道しています。", "source": "HPCwire / TechFundingNews(2026-07-29)"},
+            {"speaker": "host", "text": "複数の独立メディアが裏取りしてるんだね。"},
+            {"speaker": "analyst", "text": "はい。ただし日本国内の顧客の有無は、まだ確認できていません。"}
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {"speaker": "host", "text": "じゃあ今日の流れを教えて。"},
+            {"speaker": "analyst", "text": "前提、発表の中身、前回との比較、エヌビディア提携、そして不明点の順です。"},
+            {"speaker": "host", "text": "よし、前提から入ろう。"}
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {"speaker": "analyst", "text": "最新チップの回路設計は工程が増え、人手だけでは時間がかかります。"},
+            {"speaker": "host", "text": "エンジニアも足りてないんでしょ?"},
+            {"speaker": "analyst", "text": "そうです。だからこそ、設計そのものをAIに任せる動きが広がっています。"}
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {"speaker": "analyst", "text": "改めて数字です。シリーズA累計調達額、1.34億ドル。", "source": "BusinessWire(2026-07-29)"},
+            {"speaker": "host", "text": "半年でどれくらい増えたの?"},
+            {"speaker": "analyst", "text": "2月時点の7,400万ドルから、ほぼ倍近くに増えました。"}
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {"speaker": "analyst", "text": "表で見ると、2月がシリーズA1、7月29日がシリーズA2です。", "source": "BusinessWire(2026-02-18 / 2026-07-29)"},
+            {"speaker": "host", "text": "新しい投資家も入った?"},
+            {"speaker": "analyst", "text": "B Capitalが新規参加しています。半導体の実需企業も継続して出資中です。"}
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {"speaker": "host", "text": "ここで発表の全体像、もう一度整理して。"},
+            {"speaker": "analyst", "text": "シリーズA2で6,000万ドルを追加調達。Micron・MediaTekなどが継続参加しています。", "source": "BusinessWire(2026-07-29)"},
+            {"speaker": "host", "text": "前提はここまで。ここから中身に踏み込もう。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 10,
+          "lines": [
+            {"speaker": "analyst", "text": "参考ですが、AIエージェント業界全体だと7月だけで18億ドルが動いています。", "source": "gravity.fast「AI Agent Startup Funding Tracker」(集計、参考情報)"},
+            {"speaker": "host", "text": "業界全体が過熱してるってこと?"},
+            {"speaker": "analyst", "text": "これは集計トラッカーの数値なので参考程度に。ChipAgentsはその中の1件です。"}
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {"speaker": "analyst", "text": "全体構造を図にすると、投資家→ChipAgents→半導体企業、そしてエヌビディアです。", "source": "BusinessWire / TheNextWeb"},
+            {"speaker": "host", "text": "エヌビディアはどこに入るの?"},
+            {"speaker": "analyst", "text": "チップ設計特化のAIモデルを共同開発するパートナーとして関わっています。"}
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {"speaker": "host", "text": "実際、このAIエージェントは何をするの?"},
+            {"speaker": "analyst", "text": "設計・検証の手順を自分で計画して、実行します。"},
+            {"speaker": "host", "text": "どれくらい時短になるの?"},
+            {"speaker": "analyst", "text": "従来数か月かかった作業を、数日から数時間に圧縮すると謳われています。"}
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {"speaker": "analyst", "text": "表で比較します。導入企業数は80社から120社超へ。", "source": "Yahoo Finance / BusinessWire"},
+            {"speaker": "host", "text": "ARRの伸びも表に出てる?"},
+            {"speaker": "analyst", "text": "はい。前年同期比140倍という成長のあと、半年でさらに6倍です。"}
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {"speaker": "host", "text": "そもそも「AIエージェント」って何が違うの?"},
+            {"speaker": "analyst", "text": "1つの質問に答えるだけじゃなく、複数の作業を自分で計画して実行するAIです。"},
+            {"speaker": "host", "text": "都度指示しなくていいんだ。"},
+            {"speaker": "analyst", "text": "そこが「AIアシスタント」との大きな違いだと業界でも言われています。"}
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {"speaker": "analyst", "text": "もう一つの数字。2026年上半期のARR成長率、6倍です。", "source": "BusinessWire / Yahoo Finance(2026-07-29)"},
+            {"speaker": "host", "text": "グラフにすると急カーブだね。"},
+            {"speaker": "analyst", "text": "はい。高い成長ペースが続いていることが分かります。"}
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {"speaker": "host", "text": "投資家の顔ぶれも気になる。"},
+            {"speaker": "analyst", "text": "新規はB Capital。Micron・MediaTek・Ericssonが継続参加しています。", "source": "BusinessWire / TechFundingNews(2026-07-29)"},
+            {"speaker": "host", "text": "半導体の実需企業が直接お金を出してるんだね。"},
+            {"speaker": "analyst", "text": "そこが今回の調達の特徴だと思います。"}
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {"speaker": "analyst", "text": "CEOはAIアシスタントと自律型エージェントを明確に分けて説明しています。"},
+            {"speaker": "host", "text": "何が違うと言ってるの?"},
+            {"speaker": "analyst", "text": "指示待ちか、目的だけで自分から動けるか。そこが決定的な差だと。"}
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {"speaker": "analyst", "text": "CEOのWilliam Wang氏のコメントを紹介します。", "source": "WebSearch経由の複数媒体要約(英語原文は一次確認できず)"},
+            {"speaker": "host", "text": "どんな内容?"},
+            {"speaker": "analyst", "text": "「顧客の成長が、業界がこの転換への準備ができている証拠だ」という趣旨です。"}
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {"speaker": "host", "text": "エヌビディアとの提携、詳しく知りたい。"},
+            {"speaker": "analyst", "text": "チップ設計特化のAIモデルを共同開発する形に拡大しました。", "source": "Qz / TheNextWeb(2026-07-29)"},
+            {"speaker": "host", "text": "エヌビディアがお金も出してるの?"},
+            {"speaker": "analyst", "text": "そこはCEOが明言を避けていて、公表されていません。"}
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {"speaker": "analyst", "text": "分かっていること・分かっていないことを整理します。"},
+            {"speaker": "host", "text": "分かってるのは提携拡大、分かってないのは出資の有無、だよね?"},
+            {"speaker": "analyst", "text": "その通りです。ここから先は転換点、注意点の話に入っていきましょう。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            {"speaker": "analyst", "text": "時系列で見ると、2月の調達から今回まで一貫して数字が伸びています。", "source": "BusinessWire"},
+            {"speaker": "host", "text": "波はなく右肩上がりってこと?"},
+            {"speaker": "analyst", "text": "少なくとも公表されている数字の範囲では、そう見えます。"}
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {"speaker": "host", "text": "日本にはどう関係あるの?"},
+            {"speaker": "analyst", "text": "投資家のMicronは広島に大規模な製造拠点を持っています。"},
+            {"speaker": "host", "text": "ChipAgents自体は日本で使われてるの?"},
+            {"speaker": "analyst", "text": "そこは一次情報で確認できていません。正直にお伝えします。"}
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {"speaker": "analyst", "text": "確認できなかったことを表にまとめました。"},
+            {"speaker": "host", "text": "一番気になるのはエヌビディアの出資の有無だね。"},
+            {"speaker": "analyst", "text": "はい。他にも120社超の内訳や評価額など、非公表の部分が複数あります。"}
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {"speaker": "host", "text": "半導体に詳しくない人にも関係ある話?"},
+            {"speaker": "analyst", "text": "「AIアシスタントから自律型エージェントへ」という視点は他業界にも応用できます。"},
+            {"speaker": "host", "text": "投資家の顔ぶれも参考になりそう。"},
+            {"speaker": "analyst", "text": "実際にその技術を使う企業が直接出資している形は、資金調達の参考例になります。"}
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {"speaker": "analyst", "text": "このニュースの読み解き方を3ステップで整理します。"},
+            {"speaker": "host", "text": "まず数字の大きさを見る、だよね。"},
+            {"speaker": "analyst", "text": "次に変化の幅、最後にまだ分からない点を押さえる。この順番がおすすめです。"}
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {"speaker": "host", "text": "ここからは推測、って感じ?"},
+            {"speaker": "analyst", "text": "そうです。開発サイクルの短縮や人手不足への対応が期待されます。"},
+            {"speaker": "host", "text": "導入格差も生まれそう。"},
+            {"speaker": "analyst", "text": "その可能性はありますが、断定はできません。ここまでが中身。ここからまとめです。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            {"speaker": "analyst", "text": "冷静に見ておきたい点が3つあります。"},
+            {"speaker": "host", "text": "1つ目は内訳が非公表ってことだよね。"},
+            {"speaker": "analyst", "text": "そうです。エヌビディアの出資有無も含め、CEOが明言を避けた点が複数あります。"}
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {"speaker": "analyst", "text": "業界変化の広がり方を図にすると、先行導入から実績の蓄積へという流れです。", "source": "BusinessWire(推測部分を含む)"},
+            {"speaker": "host", "text": "その先は他社にも広がっていく?"},
+            {"speaker": "analyst", "text": "そこはまだ推測の域です。今回の発表から言えるのはここまで。"}
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {"speaker": "analyst", "text": "今日の要点は3つ。累計1.34億ドル、ARR6倍、エヌビディア出資は未公表です。"},
+            {"speaker": "host", "text": "半導体設計、ここからも目が離せないね。"},
+            {"speaker": "analyst", "text": "続報があれば、また整理してお届けします。"}
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {"speaker": "host", "text": "最後に一言お願いします。"},
+            {"speaker": "analyst", "text": "AIエージェントのニュースは、成長率・導入社数・未公表点を分けて見てください。"},
+            {"speaker": "host", "text": "今日はここまで。ご覧いただきありがとうございました。"}
+          ]
+        }
+      ]
+    }
+  ]
+}
