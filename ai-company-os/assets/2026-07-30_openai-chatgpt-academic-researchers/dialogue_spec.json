@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "title": "OpenAIが研究者10万人に無料でAIを開放する理由",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "OpenAI公式(2026-07-29)",
+      "OpenAI Help Center",
+      "TechTimes(2026-07-29)",
+      "SiliconANGLE(2026-07-29)",
+      "Axios(2026-07-29)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {"speaker": "analyst", "text": "10万人。OpenAIが無料でAIを開放する研究者の数です。", "source": "OpenAI公式(2026-07-29)"},
+            {"speaker": "host", "text": "10万人!? それは大きい。いつの発表?"},
+            {"speaker": "analyst", "text": "2026年7月29日です。「ChatGPT for Academic Researchers」という新プログラム。"}
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {"speaker": "host", "text": "まず結論から知りたい。"},
+            {"speaker": "analyst", "text": "2027年までに研究者10万人へ拡大。承認されれば12か月無償です。", "source": "OpenAI公式"},
+            {"speaker": "host", "text": "12か月まるごと無料はすごいね。"},
+            {"speaker": "analyst", "text": "しかもこれ、2.5億ドル超の科学支援イニシアチブの一部にすぎません。"}
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {"speaker": "host", "text": "この動画、何が分かるようになる?"},
+            {"speaker": "analyst", "text": "発表の中身、応募条件、そして確認できなかったことまで正直に話します。"},
+            {"speaker": "host", "text": "「分からない」もちゃんと言うんだ。"},
+            {"speaker": "analyst", "text": "数字を作らない、が私たちのルールなので。"}
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {"speaker": "host", "text": "この話、どこまで信じていいの?"},
+            {"speaker": "analyst", "text": "OpenAI公式ブログとヘルプセンター、それにTechTimesなど4媒体が同じ発表を報道。", "source": "TechTimes / SiliconANGLE / Axios(2026-07-29)"},
+            {"speaker": "host", "text": "複数の独立メディアが裏取りしてるんだね。"},
+            {"speaker": "analyst", "text": "はい。ただし日本の大学が対象かどうかは、まだ確認できていません。"}
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {"speaker": "host", "text": "じゃあ今日の流れを教えて。"},
+            {"speaker": "analyst", "text": "前提、発表の中身、提供モデル、重み非公開の論点、そして不明点の順です。"},
+            {"speaker": "host", "text": "よし、前提から入ろう。"}
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {"speaker": "analyst", "text": "最先端AIの利用料は、予算の限られる研究室には重い負担です。"},
+            {"speaker": "host", "text": "研究費って潤沢じゃないもんね。"},
+            {"speaker": "analyst", "text": "だからこそ、AI企業側が無償開放するメリットも大きい。実績づくりにもなります。"}
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {"speaker": "analyst", "text": "改めて数字です。最終的な提供規模、10万人。", "source": "SiliconANGLE(2026-07-29)"},
+            {"speaker": "host", "text": "グラフにすると、どこまで伸びるのこれ?"},
+            {"speaker": "analyst", "text": "最初のコホートは1万人。そこから2027年までに10倍へ拡大する計画です。"}
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {"speaker": "analyst", "text": "表で見るとロードマップはこうです。7月29日に受付開始。", "source": "OpenAI公式 / AI Weekly"},
+            {"speaker": "host", "text": "もう先行アクセスしてる大学もあるんだよね?"},
+            {"speaker": "analyst", "text": "プリンストン高等研究所と仏エコール・ノルマル・シュペリウールがすでにアクセス中です。"}
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {"speaker": "host", "text": "ここで発表の全体像、もう一度整理して。"},
+            {"speaker": "analyst", "text": "プログラム名は「ChatGPT for Academic Researchers」。研究者に専用ワークスペースを1年間無償提供。", "source": "OpenAI公式(2026-07-29)"},
+            {"speaker": "host", "text": "前提はここまで。ここから中身に踏み込もう。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 10,
+          "lines": [
+            {"speaker": "analyst", "text": "全体構造を図にすると、OpenAI→対象機関→研究者→協力者、という流れです。", "source": "OpenAI Help Center"},
+            {"speaker": "host", "text": "誰でも予算からいきなり使えるわけじゃないんだ。"},
+            {"speaker": "analyst", "text": "そうです。段階を踏んでアクセスが広がる設計になっています。"}
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {"speaker": "host", "text": "個人が応募するには何が必要?"},
+            {"speaker": "analyst", "text": "3つです。所属確認、直近3年の論文実績、対象分野であること。", "source": "OpenAI Help Center"},
+            {"speaker": "host", "text": "学生はどう?"},
+            {"speaker": "analyst", "text": "対象は研究教員とポスドク。学生は直接の対象ではありません。"}
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {"speaker": "analyst", "text": "対象分野は7つ。生物科学、化学材料、計算機科学、地球惑星科学、工学、数学、物理学です。", "source": "OpenAI Help Center"},
+            {"speaker": "host", "text": "文系の研究者は?"},
+            {"speaker": "analyst", "text": "一次情報には載っていません。含まれるかは不明のままです。"}
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {"speaker": "host", "text": "使えるAIモデルは何なの?"},
+            {"speaker": "analyst", "text": "GPT-5.6 Sol Pro。OpenAIの一般提供モデルで最も高性能とされています。", "source": "Axios(2026-07-29)"},
+            {"speaker": "host", "text": "利用回数の上限とかは分かる?"},
+            {"speaker": "analyst", "text": "そこは一次情報でも確認できませんでした。"}
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {"speaker": "analyst", "text": "もう一つの数字、2.5億ドル超。上位イニシアチブ全体の規模です。", "source": "SiliconANGLE"},
+            {"speaker": "host", "text": "このプログラムにいくら割り当てられてるの?"},
+            {"speaker": "analyst", "text": "内訳は非公開です。ここも不明点として扱います。"}
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {"speaker": "host", "text": "普通の企業向け有償プランとは何が違う?"},
+            {"speaker": "analyst", "text": "有償プランは契約ベース。今回は所属・論文実績を審査して、無償で12か月提供する形です。"},
+            {"speaker": "host", "text": "審査ありの無償、という新しいパターンか。"}
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {"speaker": "analyst", "text": "参加が確認できた機関、プリンストン高等研究所と仏ENS。", "source": "SiliconANGLE(2026-07-29)"},
+            {"speaker": "host", "text": "これで全部?"},
+            {"speaker": "analyst", "text": "報道で確認できたのはこの2つのみ。他は網羅的には分かりません。"}
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {"speaker": "analyst", "text": "各社の報道に共通していた論調があります。「AIアクセスが発見の速度を左右する時代」。"},
+            {"speaker": "host", "text": "それ、誰かの発言そのまま?"},
+            {"speaker": "analyst", "text": "いえ、複数記事の趣旨を要約したものです。直接引用ではありません。"}
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {"speaker": "host", "text": "応募してから使えるまで、どんな流れ?"},
+            {"speaker": "analyst", "text": "応募、審査、承認、利用開始の4ステップです。", "source": "OpenAI Help Center"},
+            {"speaker": "host", "text": "審査ってどれくらいかかるの?"},
+            {"speaker": "analyst", "text": "そこは公表されていません。ここまでが中身。ここからは論点に入ります。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 19,
+          "lines": [
+            {"speaker": "analyst", "text": "無償でも、モデルの重み自体は非公開のままです。", "source": "TechTimes(2026-07-29)"},
+            {"speaker": "host", "text": "使えるけど、中身は見せない、ってこと?"},
+            {"speaker": "analyst", "text": "その通り。誤用防止が理由とされていますが、公開を求める研究者もいます。"}
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {"speaker": "host", "text": "両方の言い分、整理して。"},
+            {"speaker": "analyst", "text": "非公開派はリスク抑制と品質管理。公開派は検証のしやすさと再現性です。"},
+            {"speaker": "host", "text": "これはOpenAIだけの話じゃないんだよね?"},
+            {"speaker": "analyst", "text": "はい、AI業界全体に共通する論点として報じられていました。"}
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {"speaker": "host", "text": "気になるのは日本。対象に入ってる?"},
+            {"speaker": "analyst", "text": "確認できた参加機関はプリンストンと仏ENSのみ。日本の大学は分かりません。"},
+            {"speaker": "host", "text": "続報を待つしかないか。"},
+            {"speaker": "analyst", "text": "今後、国内の大学から参加発表が出るか、継続して確認する必要があります。"}
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {"speaker": "analyst", "text": "ここで確認できなかったことを表にまとめます。日本の対象可否、利用上限、予算内訳、審査日数、対象分野の範囲。"},
+            {"speaker": "host", "text": "けっこう多いね。"},
+            {"speaker": "analyst", "text": "分からないことを分からないと言う。それが私たちのルールです。"}
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {"speaker": "host", "text": "研究者じゃない人にも役立つ話ある?"},
+            {"speaker": "analyst", "text": "あります。誰に何を無料開放するか、という優先順位づけの参考例になります。"},
+            {"speaker": "host", "text": "社内のAI導入設計にも使えそう。"},
+            {"speaker": "analyst", "text": "所属・実績で審査する仕組み自体、応用できる考え方です。"}
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {"speaker": "analyst", "text": "2025年3月、OpenAIは5,000万ドル規模の助成プログラムを始めていました。", "source": "TechCrunch(2025-03-04、参考情報)"},
+            {"speaker": "host", "text": "今回はそれとどう違う?"},
+            {"speaker": "analyst", "text": "お金を配るのではなく、ツールへのアクセスそのものを無償提供する形です。"}
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {"speaker": "host", "text": "このニュース、どう受け止めればいい?"},
+            {"speaker": "analyst", "text": "3ステップです。まず規模を見る、次に対象条件を見る、最後に論点を見る。"},
+            {"speaker": "host", "text": "順番に見ていけば整理しやすいね。"}
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {"speaker": "host", "text": "これでどんな効果が期待できそう?"},
+            {"speaker": "analyst", "text": "文献調査やデータ解析の効率化。ここからは推測です。"},
+            {"speaker": "host", "text": "逆に懸念点は?"},
+            {"speaker": "analyst", "text": "対象分野に入らない研究者との利用機会の差、これも推測ですが考えられます。"}
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {"speaker": "analyst", "text": "冷静に見る点、3つ。予算の内訳は非公開。対象は教員とポスドクのみ。"},
+            {"speaker": "host", "text": "3つ目は?"},
+            {"speaker": "analyst", "text": "モデルの重みは非公開。「オープン」とは意味が違う、ということです。"}
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {"speaker": "analyst", "text": "AI企業の研究支援は、資金援助からツール開放へ広がってきています。"},
+            {"speaker": "host", "text": "その先はどうなりそう?"},
+            {"speaker": "analyst", "text": "実利用実績の蓄積、というのが見えてくる流れです。ここは推測にとどめます。"},
+            {"speaker": "host", "text": "論点はここまで。最後に今日の話をまとめよう。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 29,
+          "lines": [
+            {"speaker": "host", "text": "最後に今日の要点、まとめよう。"},
+            {"speaker": "analyst", "text": "最終目標10万人、対象分野は7つ、そしてモデルの重みは非公開。この3つです。"}
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {"speaker": "analyst", "text": "「無料」というニュースを見たら、規模・対象・非公開の範囲を分けて確認する。今日はその習慣づけの回でした。"},
+            {"speaker": "host", "text": "研究者の方は、応募条件ページを直接チェックするのが確実だね。"},
+            {"speaker": "analyst", "text": "はい。ここまでご覧いただき、ありがとうございました。"}
+          ]
+        }
+      ]
+    }
+  ]
+}
