@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "title": "2,000以上の情報源と照合。医師の資格確認をAIが担う",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "GlobeNewswire(2026-07-30)",
+      "MobiHealthNews(2026-07-30)",
+      "Fierce Healthcare(2026-07-30)",
+      "MedCity News(2026-07)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {"speaker": "analyst", "text": "2,000以上の情報源と照合。AIエージェント企業Assuredの資金調達です。", "source": "GlobeNewswire(2026-07-30)"},
+            {"speaker": "host", "text": "何を照合するの?"},
+            {"speaker": "analyst", "text": "医療従事者の資格情報です。資格認定という業務を自動化しています。"}
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {"speaker": "host", "text": "まず結論から知りたい。"},
+            {"speaker": "analyst", "text": "調達額1,900万ドル、導入は100超の事業者です。", "source": "GlobeNewswire(2026-07-30)"},
+            {"speaker": "host", "text": "もう実際に使われてるんだ。"},
+            {"speaker": "analyst", "text": "はい。Houston Methodistなどにも導入されています。"}
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {"speaker": "host", "text": "この動画、何が分かるようになる?"},
+            {"speaker": "analyst", "text": "発表の中身、資格認定という業務、Assuredの仕組みまで話します。"},
+            {"speaker": "host", "text": "分からなかったことも言う?"},
+            {"speaker": "analyst", "text": "もちろんです。数字を作らない、が私たちのルールなので。"}
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {"speaker": "host", "text": "この話、どこまで信じていいの?"},
+            {"speaker": "analyst", "text": "一次発表に加え複数のヘルスケア専門媒体が報じています。", "source": "MobiHealthNews / Fierce Healthcare(2026-07-30)"},
+            {"speaker": "host", "text": "何か気になる点は?"},
+            {"speaker": "analyst", "text": "調達のクローズ日と公表日にずれがあるとの情報があり、正直にお伝えします。"}
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {"speaker": "host", "text": "じゃあ今日の流れを教えて。"},
+            {"speaker": "analyst", "text": "前提、発表の中身、仕組み、効果数値、そして不明点の順です。"},
+            {"speaker": "host", "text": "よし、前提から入ろう。"}
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {"speaker": "analyst", "text": "資格認定とは、保険会社のネットワークに加入するための審査です。"},
+            {"speaker": "host", "text": "なんでそれが課題なの?"},
+            {"speaker": "analyst", "text": "州や保険会社ごとに要件が違い、遅れると医師が働き始める時期も遅れます。"}
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {"speaker": "analyst", "text": "改めて数字です。シリーズA調達額、1,900万ドル。", "source": "GlobeNewswire(2026-07-30)"},
+            {"speaker": "host", "text": "誰が主導したの?"},
+            {"speaker": "analyst", "text": "Insight Partnersです。"}
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {"speaker": "host", "text": "表で見ると、他の投資家は?"},
+            {"speaker": "analyst", "text": "First Round CapitalとKindred Venturesが継続参加しています。", "source": "GlobeNewswire(2026-07-30)"},
+            {"speaker": "host", "text": "累計だとどれくらい?"},
+            {"speaker": "analyst", "text": "2,500万ドルになります。"}
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {"speaker": "host", "text": "ここで発表の全体像、もう一度整理して。"},
+            {"speaker": "analyst", "text": "資金は提供者バックオフィス業務全般への対応拡大に使われます。", "source": "GlobeNewswire(2026-07-30)"},
+            {"speaker": "host", "text": "前提はここまで。ここから中身に踏み込もう。"}
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {"speaker": "analyst", "text": "軌跡を見ると、2024年初頭に2人の共同創業者が立ち上げました。", "source": "複数媒体経由の要約"},
+            {"speaker": "host", "text": "認証も取ってるんだよね。"},
+            {"speaker": "analyst", "text": "はい。NCQAのCVO公式認証を取得しています。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 11,
+          "lines": [
+            {"speaker": "host", "text": "実際、何を処理するの?"},
+            {"speaker": "analyst", "text": "データを2,000以上の情報源と照合し、誤りを検出します。"},
+            {"speaker": "host", "text": "書類作成も?"},
+            {"speaker": "analyst", "text": "はい。州・保険会社ごとの要件に合わせて自動作成します。"}
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {"speaker": "analyst", "text": "仕組みを図にすると、収集→照合→書類作成→実行という流れです。", "source": "MobiHealthNews / Fierce Healthcare(2026-07-30)"},
+            {"speaker": "host", "text": "全部AIエージェントがやるんだね。"},
+            {"speaker": "analyst", "text": "そうです。最後の手続き実行まで担います。"}
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {"speaker": "host", "text": "3ステップだとどうなる?"},
+            {"speaker": "analyst", "text": "検証、作成、実行の3つです。"},
+            {"speaker": "host", "text": "シンプルだね。"},
+            {"speaker": "analyst", "text": "はい。ただ中身は2,000以上の情報源照合という緻密な作業です。"}
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {"speaker": "analyst", "text": "表で見ると、Houston Methodistなど4社が名前に挙がっています。", "source": "Fierce Healthcare(検索結果経由)"},
+            {"speaker": "host", "text": "業種もバラバラだね。"},
+            {"speaker": "analyst", "text": "大規模医療システムからデジタルヘルス企業まで幅広いです。"}
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {"speaker": "analyst", "text": "1つ目の効果数値。保険ネットワーク加入が30%速いです。", "source": "GlobeNewswire(2026-07-30)"},
+            {"speaker": "host", "text": "これは誰の報告?"},
+            {"speaker": "analyst", "text": "顧客企業の報告値です。第三者検証ではありません。"}
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {"speaker": "host", "text": "もう一つの数字は?"},
+            {"speaker": "analyst", "text": "照合する情報源が2,000を超えます。", "source": "MobiHealthNews(2026-07-30)"},
+            {"speaker": "host", "text": "リアルタイムでチェックしてるんだね。"},
+            {"speaker": "analyst", "text": "はい。誤りや不備を提出前に検出します。"}
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {"speaker": "analyst", "text": "比較表にすると、従来の手作業との違いがはっきりします。"},
+            {"speaker": "host", "text": "何が変わったの?"},
+            {"speaker": "analyst", "text": "情報源との照合と書類作成が自動化されました。"}
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {"speaker": "analyst", "text": "CEOのVarun Krishnamurthy氏のコメントを紹介します。", "source": "複数媒体経由の引用"},
+            {"speaker": "host", "text": "どんな内容?"},
+            {"speaker": "analyst", "text": "「ケアもより早く提供されるようになる」という趣旨です。"}
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {"speaker": "host", "text": "もう一人の創業者は何て?"},
+            {"speaker": "analyst", "text": "「見過ごされているインフラ課題だ」と述べています。", "source": "複数媒体経由の引用"},
+            {"speaker": "host", "text": "Presidentの方だね。"},
+            {"speaker": "analyst", "text": "はい、Rahul Shivkumar氏です。"}
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {"speaker": "analyst", "text": "NCQA認証についても整理します。保険会社との代理契約を支援できる立場です。", "source": "複数媒体経由の要約"},
+            {"speaker": "host", "text": "信頼性の裏付けになるんだね。ここから先は転換点、注意点の話に入っていきましょう。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            {"speaker": "host", "text": "さっき言ってた発表日のずれ、詳しく教えて。"},
+            {"speaker": "analyst", "text": "公表は7月30日ですが、クローズは7月22日という情報もあります。"},
+            {"speaker": "host", "text": "どっちを基準にするの?"},
+            {"speaker": "analyst", "text": "一次発表の公表日を基準にしています。"}
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {"speaker": "host", "text": "日本にはどう関係あるの?"},
+            {"speaker": "analyst", "text": "州・保険会社ごとの要件は米国特有の仕組みで、日本国内の展開は確認できていません。"},
+            {"speaker": "host", "text": "課題自体は日本にもありそう。"},
+            {"speaker": "analyst", "text": "はい。資格認定という課題自体は一般論として展開できます。"}
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {"speaker": "analyst", "text": "確認できなかったことを表にまとめました。"},
+            {"speaker": "host", "text": "一番気になるのは企業評価額だね。"},
+            {"speaker": "analyst", "text": "はい。導入企業の内訳や出資比率も確認できていません。"}
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {"speaker": "host", "text": "AIに詳しくない人にも関係ある話?"},
+            {"speaker": "analyst", "text": "見過ごされているインフラ課題に注目する視点は、他業界にも応用できます。"},
+            {"speaker": "host", "text": "手続きの遅れが本業を遅らせる構造も共通しそう。"},
+            {"speaker": "analyst", "text": "その通りです。"}
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {"speaker": "analyst", "text": "このニュースの読み解き方を3ステップで整理します。"},
+            {"speaker": "host", "text": "まず規模を見る、だよね。"},
+            {"speaker": "analyst", "text": "次に効果数値、最後にまだ分からない点を押さえる。この順番がおすすめです。"}
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {"speaker": "host", "text": "ここからは推測、って感じ?"},
+            {"speaker": "analyst", "text": "そうです。医療従事者不足の緩和に一部寄与する可能性があります。"},
+            {"speaker": "host", "text": "業務範囲も広がりそう。"},
+            {"speaker": "analyst", "text": "その可能性はありますが、断定はできません。ここまでが中身。ここからまとめです。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            {"speaker": "analyst", "text": "冷静に見ておきたい点が3つあります。"},
+            {"speaker": "host", "text": "1つ目は効果数値が顧客報告値ってことだよね。"},
+            {"speaker": "analyst", "text": "そうです。企業評価額も非公表で、発表日にもずれがあります。"}
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {"speaker": "analyst", "text": "広がり方を図にすると、資格認定の自動化が今の段階です。", "source": "推測を含む整理"},
+            {"speaker": "host", "text": "業界標準まで広がる?"},
+            {"speaker": "analyst", "text": "そこは推測です。今回の発表から言えるのはここまで。"}
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {"speaker": "analyst", "text": "今日の要点は3つ。1,900万ドル、2,000超の情報源、30%速い。"},
+            {"speaker": "host", "text": "ヘルスケアのバックオフィスにもAIエージェントが広がってるんだね。"},
+            {"speaker": "analyst", "text": "続報があれば、また整理してお届けします。"}
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {"speaker": "host", "text": "最後に一言お願いします。"},
+            {"speaker": "analyst", "text": "AIエージェントのニュースは、調達額・効果数値の出所・発表日を分けて見てください。"},
+            {"speaker": "host", "text": "今日はここまで。ご覧いただきありがとうございました。"}
+          ]
+        }
+      ]
+    }
+  ]
+}
