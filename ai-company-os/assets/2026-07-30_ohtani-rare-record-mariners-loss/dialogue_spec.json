@@ -1,0 +1,295 @@
+{
+  "meta": {
+    "title": "71年間、誰も達成しなかった記録",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Full-Count(2026-07-29)",
+      "TBS NEWS DIG(2026-07-29)",
+      "中日スポーツ(2026-07-29)",
+      "MLB公式ストーリー(2026-07-28)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {"speaker": "analyst", "text": "71年間、誰も達成しなかった記録。大谷翔平選手が打ち立てました。", "source": "Full-Count(2026-07-29)"},
+            {"speaker": "host", "text": "でもチームは勝ったの?"},
+            {"speaker": "analyst", "text": "いえ、負けたんです。そこがこの記録のポイントです。"}
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {"speaker": "host", "text": "まず結論から知りたい。"},
+            {"speaker": "analyst", "text": "23号先頭打者弾、4打数3安打3打点。でも6対7で敗戦です。", "source": "TBS NEWS DIG(2026-07-29)"},
+            {"speaker": "host", "text": "個人成績はすごいのに?"},
+            {"speaker": "analyst", "text": "はい。マリナーズには5年3か月ぶりの黒星でした。"}
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {"speaker": "host", "text": "この動画、何が分かるようになる?"},
+            {"speaker": "analyst", "text": "試合の経過、記録の中身、なぜ負けたのかまで話します。"},
+            {"speaker": "host", "text": "分からなかったことも言う?"},
+            {"speaker": "analyst", "text": "もちろんです。数字を作らない、が私たちのルールなので。"}
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {"speaker": "host", "text": "この話、どこまで信じていいの?"},
+            {"speaker": "analyst", "text": "Full-Countや中日スポーツなど複数メディアが同じ試合結果を報じています。", "source": "中日スポーツ(2026-07-29)"},
+            {"speaker": "host", "text": "記録の算出方法は?"},
+            {"speaker": "analyst", "text": "そこは詳細な一次資料までは確認できていません。"}
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {"speaker": "host", "text": "じゃあ今日の流れを教えて。"},
+            {"speaker": "analyst", "text": "前提、試合の経過、負けた理由、記録の中身、そして不明点の順です。"},
+            {"speaker": "host", "text": "よし、前提から入ろう。"}
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {"speaker": "analyst", "text": "大谷選手はドジャースの1番・指名打者です。"},
+            {"speaker": "host", "text": "この試合が23号なんだよね。"},
+            {"speaker": "analyst", "text": "はい。しかも10試合ぶりの本塁打で、復調の兆しとも言われています。"}
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {"speaker": "analyst", "text": "改めて数字です。今季23号、先頭打者本塁打。", "source": "TBS NEWS DIG(2026-07-29)"},
+            {"speaker": "host", "text": "どんな一発だったの?"},
+            {"speaker": "analyst", "text": "オポジット方向、2ストライクからの本塁打でした。"}
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {"speaker": "host", "text": "表で見ると、他の打点は?"},
+            {"speaker": "analyst", "text": "4回に同点タイムリー、9回にも1点差に迫るタイムリーです。", "source": "MLB公式ストーリー(2026-07-28)"},
+            {"speaker": "host", "text": "ずっと打ち続けたんだね。"},
+            {"speaker": "analyst", "text": "そうです。今季8度目の猛打賞でした。"}
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {"speaker": "host", "text": "ここで試合の経過、もう一度整理して。"},
+            {"speaker": "analyst", "text": "序盤先制、中盤同点、終盤で逆転された、という流れです。", "source": "MLB公式ストーリー(2026-07-28)"},
+            {"speaker": "host", "text": "前提はここまで。ここから中身に踏み込もう。"}
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {"speaker": "analyst", "text": "流れを図にすると、1回先制、4回同点、8回逆転、9回力尽きる、です。", "source": "MLB公式ストーリー(2026-07-28)"},
+            {"speaker": "host", "text": "8回に何があったの?"},
+            {"speaker": "analyst", "text": "マリナーズのCanzone選手が勝ち越し2ランを放ちました。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 11,
+          "lines": [
+            {"speaker": "host", "text": "3つのハイライト、教えて。"},
+            {"speaker": "analyst", "text": "1回の先頭打者弾、4回の同点タイムリー、9回のタイムリー二塁打です。"},
+            {"speaker": "host", "text": "全部大事な場面だね。"},
+            {"speaker": "analyst", "text": "はい。それでもチームは勝てませんでした。"}
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {"speaker": "analyst", "text": "投手陣は1試合で5本塁打を許しました。", "source": "MLB公式ストーリー(2026-07-28)"},
+            {"speaker": "host", "text": "決勝弾は誰が?"},
+            {"speaker": "analyst", "text": "Canzone選手、この試合2本目の本塁打でした。"}
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {"speaker": "analyst", "text": "もう一つの数字。5年3か月ぶりの黒星です。", "source": "TBS NEWS DIG(2026-07-29)"},
+            {"speaker": "host", "text": "そんなに久しぶりなんだ。"},
+            {"speaker": "analyst", "text": "はい。2021年4月以来、13戦ぶりです。"}
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {"speaker": "host", "text": "表でみると、連勝はいつから?"},
+            {"speaker": "analyst", "text": "2021年4月19日から今回まで、13戦連続で勝っていました。"},
+            {"speaker": "host", "text": "その連勝がついに止まったんだね。"},
+            {"speaker": "analyst", "text": "そうです。"}
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {"speaker": "analyst", "text": "なぜ負けたか整理すると、被弾の多さとリードを守れなかったことです。"},
+            {"speaker": "host", "text": "併殺打も多かったんだよね。"},
+            {"speaker": "analyst", "text": "はい。得点機で3度あったと報じられています。"}
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {"speaker": "host", "text": "大谷選手の今季の位置づけ、教えて。"},
+            {"speaker": "analyst", "text": "先頭打者弾は10本目、猛打賞は8度目です。", "source": "中日スポーツ(2026-07-29)"},
+            {"speaker": "host", "text": "コンスタントに活躍してるんだね。"},
+            {"speaker": "analyst", "text": "はい。それでも今日はチームが負けました。"}
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {"speaker": "analyst", "text": "ここからが本題です。米データ会社が71年間唯一の記録を発見しました。", "source": "Full-Count(2026-07-29)"},
+            {"speaker": "host", "text": "どんな記録?"},
+            {"speaker": "analyst", "text": "4つの条件を1試合ですべて満たした、というものです。"}
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {"speaker": "host", "text": "表で見ると、4条件って何?"},
+            {"speaker": "analyst", "text": "3安打以上、3打点以上、先頭打者弾、そして敬遠です。", "source": "Full-Count(2026-07-29)"},
+            {"speaker": "host", "text": "全部この試合で満たしてるんだね。"},
+            {"speaker": "analyst", "text": "はい。それでもチームは負けました。"}
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {"speaker": "analyst", "text": "構造を図にすると、4条件と1955年以降のデータ、そして敗戦が重なります。", "source": "Full-Count(2026-07-29)"},
+            {"speaker": "host", "text": "敗戦まで含めて唯一なんだ。"},
+            {"speaker": "analyst", "text": "そうです。ここが今回の記録のポイントです。"}
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {"speaker": "analyst", "text": "個人の活躍とチームの結果を並べると対照的です。"},
+            {"speaker": "host", "text": "個人はすごいのに、チームは負けたんだね。ここから先は転換点、注意点の話に入っていきましょう。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            {"speaker": "analyst", "text": "分かっていること・いないことを整理します。"},
+            {"speaker": "host", "text": "分かってるのは記録の内容、分かってないのは算出方法、だよね?"},
+            {"speaker": "analyst", "text": "その通りです。"}
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {"speaker": "analyst", "text": "確認できなかったことを表にまとめました。"},
+            {"speaker": "host", "text": "大谷選手のコメントは?"},
+            {"speaker": "analyst", "text": "検索した範囲では確認できませんでした。"}
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {"speaker": "host", "text": "野球に詳しくない人にも関係ある話?"},
+            {"speaker": "analyst", "text": "個人の結果と組織の成果が別物になることがある、という教訓は仕事にも通じます。"},
+            {"speaker": "host", "text": "『史上唯一』の記録の見方も参考になりそう。"},
+            {"speaker": "analyst", "text": "条件の組み合わせ方次第で数多く存在しうる、という視点は大切です。"}
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {"speaker": "analyst", "text": "このニュースの読み解き方を3ステップで整理します。"},
+            {"speaker": "host", "text": "まず結果を見る、だよね。"},
+            {"speaker": "analyst", "text": "次に個人成績、最後に記録の中身を確認する。この順番がおすすめです。"}
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {"speaker": "host", "text": "ここからは推測、って感じ?"},
+            {"speaker": "analyst", "text": "そうです。この一発が復調のきっかけになる可能性があります。"},
+            {"speaker": "host", "text": "投手陣の立て直しも課題だね。"},
+            {"speaker": "analyst", "text": "その可能性はありますが、断定はできません。ここまでが中身。ここからまとめです。"}
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {"speaker": "analyst", "text": "冷静に見ておきたい点が3つあります。"},
+            {"speaker": "host", "text": "1つ目は算出方法が不明ってことだよね。"},
+            {"speaker": "analyst", "text": "そうです。1試合の結果とシーズン全体は切り分けて見る必要もあります。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            {"speaker": "analyst", "text": "シーズン後半への展開を図にすると、投手陣の立て直しが焦点です。", "source": "推測を含む整理"},
+            {"speaker": "host", "text": "プレーオフ争いにも影響する?"},
+            {"speaker": "analyst", "text": "そこは推測です。今回の試合結果から言えるのはここまで。"}
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {"speaker": "analyst", "text": "試合結果をまとめると、7-6でマリナーズの勝利でした。"},
+            {"speaker": "host", "text": "大谷選手は23号含む3安打3打点だったね。"},
+            {"speaker": "analyst", "text": "はい。71年間唯一の記録とともに、この試合は記憶に残りそうです。"}
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {"speaker": "analyst", "text": "今日の要点は3つ。23号、6対7の敗戦、71年間唯一の記録。"},
+            {"speaker": "host", "text": "個人の活躍とチームの結果、両方見る大事さを感じたよ。"},
+            {"speaker": "analyst", "text": "続報があれば、また整理してお届けします。"}
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {"speaker": "host", "text": "最後に一言お願いします。"},
+            {"speaker": "analyst", "text": "スポーツのニュースは、個人成績・チーム結果・記録の算出根拠を分けて見てください。"},
+            {"speaker": "host", "text": "今日はここまで。ご覧いただきありがとうございました。"}
+          ]
+        }
+      ]
+    }
+  ]
+}
