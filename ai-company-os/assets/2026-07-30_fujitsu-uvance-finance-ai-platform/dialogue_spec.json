@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "title": "融資審査を支援する「銀行専用AI」が動き出す",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "富士通公式(2026-07-28)",
+      "日本経済新聞(2026-07-28)",
+      "クラウドWatch(2026-07-28)",
+      "MarkeZine(2026-07-28前後)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {"speaker": "analyst", "text": "8月1日開発開始、2027年3月提供開始。富士通の金融機関向けAIです。", "source": "富士通公式(2026-07-28)"},
+            {"speaker": "host", "text": "銀行専用のAIってこと?"},
+            {"speaker": "analyst", "text": "はい。地方銀行を中心に、融資審査などを支援する専有型AIです。"}
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {"speaker": "host", "text": "まず結論から知りたい。"},
+            {"speaker": "analyst", "text": "8月開発開始、対象は地方銀行、マルチAIエージェント構成です。", "source": "日本経済新聞(2026-07-28)"},
+            {"speaker": "host", "text": "もう使えるの?"},
+            {"speaker": "analyst", "text": "いえ、これから開発する段階です。"}
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {"speaker": "host", "text": "この動画、何が分かるようになる?"},
+            {"speaker": "analyst", "text": "発表の中身、技術構成、支援する業務まで話します。"},
+            {"speaker": "host", "text": "分からなかったことも言う?"},
+            {"speaker": "analyst", "text": "もちろんです。数字を作らない、が私たちのルールなので。"}
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {"speaker": "host", "text": "この話、どこまで信じていいの?"},
+            {"speaker": "analyst", "text": "富士通公式に加え、日経やクラウドWatchなど複数メディアが報じています。", "source": "クラウドWatch / MarkeZine(2026-07-28)"},
+            {"speaker": "host", "text": "鮮度はどう?"},
+            {"speaker": "analyst", "text": "実は着手日の2日前の発表です。そこも正直にお伝えします。"}
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {"speaker": "host", "text": "じゃあ今日の流れを教えて。"},
+            {"speaker": "analyst", "text": "前提、発表の中身、仕組み、ソブリンティ、そして不明点の順です。"},
+            {"speaker": "host", "text": "よし、前提から入ろう。"}
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {"speaker": "analyst", "text": "金融機関は機密性が高く、人材不足やコスト増加も抱えています。"},
+            {"speaker": "host", "text": "だからAI基盤が整ってなかったんだ。"},
+            {"speaker": "analyst", "text": "そうです。地方銀行は特にその傾向が強いと考えられます。"}
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {"speaker": "analyst", "text": "スケジュールを見ると、8月に開発開始、来年3月に提供開始です。", "source": "クラウドWatch(2026-07-28)"},
+            {"speaker": "host", "text": "最初は何から?"},
+            {"speaker": "analyst", "text": "まず融資審査関連業務からです。"}
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {"speaker": "host", "text": "発表の中身、もう一度教えて。"},
+            {"speaker": "analyst", "text": "開発開始の発表であり、まだ提供開始ではありません。", "source": "富士通公式(2026-07-28)"},
+            {"speaker": "host", "text": "実績はまだないんだね。"},
+            {"speaker": "analyst", "text": "そうです。数字はこれからです。"}
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {"speaker": "analyst", "text": "基盤技術は「Kozuchi」、モデルは「Takane」です。", "source": "複数媒体経由の要約"},
+            {"speaker": "host", "text": "セキュリティは?"},
+            {"speaker": "analyst", "text": "ガードレール技術で生成AIの脆弱性に対応しています。"}
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {"speaker": "host", "text": "UvanceとKozuchiって何が違うの?"},
+            {"speaker": "analyst", "text": "Uvanceは事業ブランド、Kozuchiはその中のAI開発基盤です。"},
+            {"speaker": "host", "text": "今回はその金融特化版なんだね。"},
+            {"speaker": "analyst", "text": "その通りです。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 11,
+          "lines": [
+            {"speaker": "analyst", "text": "顧客理解AIエージェントは取引履歴やニーズを分析します。"},
+            {"speaker": "host", "text": "融資審査にも使うの?"},
+            {"speaker": "analyst", "text": "はい。必要な情報を整理し、照会対応も支援します。"}
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {"speaker": "host", "text": "営業行動最適化AIエージェントは?"},
+            {"speaker": "analyst", "text": "営業担当者の行動データを分析し、最適な営業活動を提案します。"},
+            {"speaker": "host", "text": "2つが連携するんだね。"},
+            {"speaker": "analyst", "text": "そうです。業務特性に応じて自律的に処理します。"}
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {"speaker": "analyst", "text": "仕組みを図にすると、2つのAIエージェントが連携する構造です。", "source": "複数媒体経由の要約"},
+            {"speaker": "host", "text": "何を支援するの?"},
+            {"speaker": "analyst", "text": "融資審査・照会対応・文書作成です。"}
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {"speaker": "host", "text": "提供後の展開はどうなる?"},
+            {"speaker": "analyst", "text": "第1段階は融資審査、第2は営業店業務、第3はカスタマーサービスです。"},
+            {"speaker": "host", "text": "段階的に広げていくんだね。"},
+            {"speaker": "analyst", "text": "はい。まずは限定的な範囲から始まります。"}
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {"speaker": "analyst", "text": "「ソブリンティ」とは、データ主権を保つという考え方です。", "source": "複数媒体経由の要約"},
+            {"speaker": "host", "text": "なぜそれが大事なの?"},
+            {"speaker": "analyst", "text": "金融データは機密性が高く、外部クラウド任せにできない事情があります。"}
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {"speaker": "analyst", "text": "改めて数字です。提供開始予定は2027年3月です。", "source": "クラウドWatch(2026-07-28)"},
+            {"speaker": "host", "text": "まだ先だね。"},
+            {"speaker": "analyst", "text": "そうです。今は開発が始まったばかりの段階です。"}
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {"speaker": "host", "text": "共創エコシステムって何?"},
+            {"speaker": "analyst", "text": "複数の金融機関がノウハウを蓄積・相互活用できる仕組みです。"},
+            {"speaker": "host", "text": "1行だけの話じゃないんだね。"},
+            {"speaker": "analyst", "text": "プラットフォームビジネスとしての構想だと考えられます。"}
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {"speaker": "analyst", "text": "比較表にすると、従来の個別開発との違いがはっきりします。"},
+            {"speaker": "host", "text": "何が違うの?"},
+            {"speaker": "analyst", "text": "共通基盤とノウハウ共有で、各行の負担を減らす構想です。"}
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {"speaker": "host", "text": "支援業務、もう一度整理して。"},
+            {"speaker": "analyst", "text": "融資審査、照会対応、文書作成の3つがまず対象です。"},
+            {"speaker": "host", "text": "他の業務は後から?"},
+            {"speaker": "analyst", "text": "はい。営業店業務等は提供開始後に順次実装されます。"}
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {"speaker": "analyst", "text": "課題認識について分かっていること・いないことを整理します。"},
+            {"speaker": "host", "text": "分かってるのは課題、分かってないのは投資額、だよね?"},
+            {"speaker": "analyst", "text": "その通りです。ここから先は転換点、注意点の話に入っていきましょう。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            {"speaker": "host", "text": "さっき言ってた鮮度の話、詳しく教えて。"},
+            {"speaker": "analyst", "text": "発表は着手日の2日前です。他に70点以上の新しい候補が無く、今回採用しました。"},
+            {"speaker": "host", "text": "正直に言うんだね。"},
+            {"speaker": "analyst", "text": "はい。数字だけでなく、選定理由も正直にお伝えします。"}
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {"speaker": "host", "text": "海外展開はあるの?"},
+            {"speaker": "analyst", "text": "今回の発表では国内の地方銀行が対象で、海外展開の言及はありません。"},
+            {"speaker": "host", "text": "都市銀行との違いは?"},
+            {"speaker": "analyst", "text": "地方銀行の方が人材・IT投資余力が限られると考えられますが、推測です。"}
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {"speaker": "analyst", "text": "確認できなかったことを表にまとめました。"},
+            {"speaker": "host", "text": "一番気になるのは投資額だね。"},
+            {"speaker": "analyst", "text": "はい。導入予定行数や経営陣コメントも確認できていません。"}
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {"speaker": "host", "text": "AIに詳しくない人にも関係ある話?"},
+            {"speaker": "analyst", "text": "専有環境でデータ主権を保つという発想は、他の機密性の高い業界にも応用できます。"},
+            {"speaker": "host", "text": "「開発開始」と「提供開始」を区別する視点も参考になりそう。"},
+            {"speaker": "analyst", "text": "その通りです。"}
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {"speaker": "analyst", "text": "このニュースの読み解き方を3ステップで整理します。"},
+            {"speaker": "host", "text": "まず段階を見る、だよね。"},
+            {"speaker": "analyst", "text": "次に技術構成、最後にまだ分からない点を押さえる。この順番がおすすめです。"}
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {"speaker": "host", "text": "ここからは推測、って感じ?"},
+            {"speaker": "analyst", "text": "そうです。融資審査の処理時間が短縮される可能性があります。"},
+            {"speaker": "host", "text": "他社も追随しそう。"},
+            {"speaker": "analyst", "text": "その可能性はありますが、断定はできません。ここまでが中身。ここからまとめです。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            {"speaker": "analyst", "text": "冷静に見ておきたい点が3つあります。"},
+            {"speaker": "host", "text": "1つ目は実績がまだ無いってことだよね。"},
+            {"speaker": "analyst", "text": "そうです。投資額や導入行数も非公表で、発表も2日前のものです。"}
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {"speaker": "analyst", "text": "AI活用の広がり方を図にすると、今は開発開始の段階です。", "source": "推測を含む整理"},
+            {"speaker": "host", "text": "共創エコシステムまで広がる?"},
+            {"speaker": "analyst", "text": "そこは推測です。今回の発表から言えるのはここまで。"}
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {"speaker": "analyst", "text": "今日の要点は3つ。8月開発開始、地方銀行対象、マルチAIエージェント。"},
+            {"speaker": "host", "text": "金融業界にもAIエージェントが広がっていくんだね。"},
+            {"speaker": "analyst", "text": "続報があれば、また整理してお届けします。"}
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {"speaker": "host", "text": "最後に一言お願いします。"},
+            {"speaker": "analyst", "text": "AIプラットフォームのニュースは、発表の段階・技術構成・確認できていない点を分けて見てください。"},
+            {"speaker": "host", "text": "今日はここまで。ご覧いただきありがとうございました。"}
+          ]
+        }
+      ]
+    }
+  ]
+}
