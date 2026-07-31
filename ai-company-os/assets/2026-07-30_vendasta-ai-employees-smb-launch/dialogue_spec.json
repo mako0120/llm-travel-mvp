@@ -1,0 +1,295 @@
+{
+  "meta": {
+    "title": "週1本ブログを書く「AI社員」が来た",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "AccessNewswire(2026-07-29)",
+      "Yahoo Finance(2026-07-29)",
+      "Morningstar(2026-07-29)",
+      "bignewsnetwork(2026-07-29)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {"speaker": "analyst", "text": "24時間で500件超。VendastaのAI社員が導入された数です。", "source": "Yahoo Finance(2026-07-29)"},
+            {"speaker": "host", "text": "AI社員って何?"},
+            {"speaker": "analyst", "text": "ブログやSNS投稿を自動で行う自律型AIエージェントです。"}
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {"speaker": "host", "text": "まず結論から知りたい。"},
+            {"speaker": "analyst", "text": "500件超の導入、2製品、60,000社超のパートナーです。", "source": "AccessNewswire(2026-07-29)"},
+            {"speaker": "host", "text": "資金調達の話じゃないんだ?"},
+            {"speaker": "analyst", "text": "そうです。今回は製品が実際に使えるようになった発表です。"}
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {"speaker": "host", "text": "この動画、何が分かるようになる?"},
+            {"speaker": "analyst", "text": "発表の中身、仕組み、500件超の数字の中身まで話します。"},
+            {"speaker": "host", "text": "分からなかったことも言う?"},
+            {"speaker": "analyst", "text": "もちろんです。数字を作らない、が私たちのルールなので。"}
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {"speaker": "host", "text": "この話、どこまで信じていいの?"},
+            {"speaker": "analyst", "text": "一次発表に加え複数の配信チャネルが報じていますが、独立取材の裏取りはまだありません。", "source": "研究メモ参照"},
+            {"speaker": "host", "text": "そこは正直に言うんだね。"},
+            {"speaker": "analyst", "text": "はい。プレスリリース配信であることを明示します。"}
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {"speaker": "host", "text": "じゃあ今日の流れを教えて。"},
+            {"speaker": "analyst", "text": "前提、発表の中身、仕組み、規模感、そして不明点の順です。"},
+            {"speaker": "host", "text": "よし、前提から入ろう。"}
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {"speaker": "analyst", "text": "中小企業は毎週の情報発信を続けるのが大変です。"},
+            {"speaker": "host", "text": "専任担当者を置けないもんね。"},
+            {"speaker": "analyst", "text": "そうです。代理店側も人手に限界があります。"}
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {"speaker": "analyst", "text": "改めて数字です。24時間で500件超の導入。", "source": "Yahoo Finance(2026-07-29)"},
+            {"speaker": "host", "text": "速いね。"},
+            {"speaker": "analyst", "text": "はい。一般提供開始からすぐの数字です。"}
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {"speaker": "analyst", "text": "表で見ると、2製品それぞれ役割が違います。", "source": "Yahoo Finance(2026-07-29)"},
+            {"speaker": "host", "text": "SNSとブログってこと?"},
+            {"speaker": "analyst", "text": "はい。AI Social Media ManagerとAI Bloggerです。"}
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {"speaker": "host", "text": "ここで発表の全体像、もう一度整理して。"},
+            {"speaker": "analyst", "text": "資金調達ではなく、実際に使える製品の一般提供開始という点が特徴です。", "source": "AccessNewswire(2026-07-29)"},
+            {"speaker": "host", "text": "前提はここまで。ここから中身に踏み込もう。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 10,
+          "lines": [
+            {"speaker": "analyst", "text": "Vendastaは2008年カナダ・サスカトゥーンで創業しました。", "source": "複数の企業情報サイト経由"},
+            {"speaker": "host", "text": "老舗なんだね。"},
+            {"speaker": "analyst", "text": "はい。60,000社超のパートナーで800万社超にリーチしています。"}
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {"speaker": "host", "text": "AI Social Media Managerは実際何をするの?"},
+            {"speaker": "analyst", "text": "ブランドの声を学習し、SNS投稿戦略を毎週自動生成します。"},
+            {"speaker": "host", "text": "投稿もしてくれるの?"},
+            {"speaker": "analyst", "text": "はい。スケジュール投稿から分析まで一貫して行います。"}
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {"speaker": "analyst", "text": "AI Bloggerは検索意図を調査してブログを書きます。"},
+            {"speaker": "host", "text": "SEOも考えてるんだ。"},
+            {"speaker": "analyst", "text": "そうです。毎週1本のペースで自動公開します。"}
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {"speaker": "analyst", "text": "仕組みを図にすると、Vendasta→チャネルパートナー→中小企業です。", "source": "複数媒体経由の要約"},
+            {"speaker": "host", "text": "直接は提供しないんだ?"},
+            {"speaker": "analyst", "text": "はい。代理店を介して届ける構造です。"}
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {"speaker": "host", "text": "3ステップだとどうなる?"},
+            {"speaker": "analyst", "text": "設定、自動運用、分析・改善の3つです。"},
+            {"speaker": "host", "text": "パートナーが最初に設定するんだね。"},
+            {"speaker": "analyst", "text": "そうです。そこからは自動で動きます。"}
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {"speaker": "analyst", "text": "1つ目の規模の数字。チャネルパートナー60,000社超です。", "source": "複数媒体経由の要約"},
+            {"speaker": "host", "text": "大きい規模だね。"},
+            {"speaker": "analyst", "text": "はい。代理店・MSP・通信会社などが含まれます。"}
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {"speaker": "analyst", "text": "もう1つ。リーチする中小企業は800万社超です。", "source": "複数媒体経由の要約"},
+            {"speaker": "host", "text": "500件はその一部なんだ。"},
+            {"speaker": "analyst", "text": "そうです。割合までは分かりません。"}
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {"speaker": "host", "text": "表でまとめると、規模感どうなる?"},
+            {"speaker": "analyst", "text": "パートナー60,000社超、リーチ800万社超、導入500件超です。"},
+            {"speaker": "host", "text": "まだ全体のごく一部なんだね。"},
+            {"speaker": "analyst", "text": "そう見えます。ただし内訳は不明です。"}
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {"speaker": "analyst", "text": "比較表にすると、基本的なチャットボットとの違いがはっきりします。"},
+            {"speaker": "host", "text": "何が違うの?"},
+            {"speaker": "analyst", "text": "チャットボットは応答するだけ、AI Employeeは業務プロセス全体を担います。"}
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {"speaker": "analyst", "text": "CEOのBrendan King氏のコメントを紹介します。", "source": "複数媒体経由の引用"},
+            {"speaker": "host", "text": "どんな内容?"},
+            {"speaker": "analyst", "text": "「完全自動運転で毎週必ずオンライン上に存在し続けられるように」という趣旨です。"}
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {"speaker": "host", "text": "導入支援もあるの?"},
+            {"speaker": "analyst", "text": "「AI Workforce Optimization Plan」という支援サービスがあります。", "source": "複数媒体経由の要約"},
+            {"speaker": "host", "text": "パートナー向けなんだね。ここから先は転換点、注意点の話に入っていきましょう。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            {"speaker": "analyst", "text": "ここは正直にお伝えします。今回はプレスリリース配信中心です。"},
+            {"speaker": "host", "text": "独立取材はないの?"},
+            {"speaker": "analyst", "text": "今回の調査では確認できませんでした。"}
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {"speaker": "host", "text": "日本にはどう関係あるの?"},
+            {"speaker": "analyst", "text": "拠点はカナダで、日本国内の展開は一次情報で確認できていません。"},
+            {"speaker": "host", "text": "今後日本にも来るかな?"},
+            {"speaker": "analyst", "text": "そこは分かりません。正直にお伝えします。"}
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {"speaker": "analyst", "text": "確認できなかったことを表にまとめました。"},
+            {"speaker": "host", "text": "一番気になるのは500件の内訳だね。"},
+            {"speaker": "analyst", "text": "はい。企業評価額や価格体系も非公表です。"}
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {"speaker": "host", "text": "AIに詳しくない人にも関係ある話?"},
+            {"speaker": "analyst", "text": "毎週の情報発信をAIに任せるという発想は、多くの業務に応用できます。"},
+            {"speaker": "host", "text": "代理店モデルも参考になりそう。"},
+            {"speaker": "analyst", "text": "はい。他分野のSaaS展開にも応用できる例です。"}
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {"speaker": "analyst", "text": "このニュースの読み解き方を3ステップで整理します。"},
+            {"speaker": "host", "text": "まず規模を見る、だよね。"},
+            {"speaker": "analyst", "text": "次に導入実績、最後にまだ分からない点を押さえる。この順番がおすすめです。"}
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {"speaker": "host", "text": "ここからは推測、って感じ?"},
+            {"speaker": "analyst", "text": "そうです。毎週の情報発信が当たり前になる中小企業が増えるかもしれません。"},
+            {"speaker": "host", "text": "他社も追随しそう。"},
+            {"speaker": "analyst", "text": "その可能性はありますが、断定はできません。ここまでが中身。ここからまとめです。"}
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            {"speaker": "analyst", "text": "冷静に見ておきたい点が3つあります。"},
+            {"speaker": "host", "text": "1つ目は500件の内訳が不明ってことだよね。"},
+            {"speaker": "analyst", "text": "そうです。独立取材の裏取りもまだありません。"}
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {"speaker": "analyst", "text": "AI活用の広がり方を図にすると、今は一部の先進的な企業が導入した段階です。", "source": "推測を含む整理"},
+            {"speaker": "host", "text": "この先業界標準になる?"},
+            {"speaker": "analyst", "text": "そこは推測です。今回の発表から言えるのはここまで。"}
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {"speaker": "analyst", "text": "今日の要点は3つ。500件超、2製品、60,000社超のパートナー。"},
+            {"speaker": "host", "text": "中小企業にもAI社員の時代が来たんだね。"},
+            {"speaker": "analyst", "text": "続報があれば、また整理してお届けします。"}
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {"speaker": "host", "text": "最後に一言お願いします。"},
+            {"speaker": "analyst", "text": "AIエージェントのニュースは、発表内容・報道体制・確認できていない点を分けて見てください。"},
+            {"speaker": "host", "text": "今日はここまで。ご覧いただきありがとうございました。"}
+          ]
+        }
+      ]
+    }
+  ]
+}
