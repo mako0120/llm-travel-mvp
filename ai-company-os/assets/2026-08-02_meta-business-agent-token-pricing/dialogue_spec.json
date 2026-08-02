@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "title": "無料お試し、終了。AIエージェントは今日から有料に。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechTimes(2026-07-16)",
+      "Enterprise DNA",
+      "BusinessToday(2026-07-03)",
+      "GREEN-API",
+      "Thrumos"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "1メッセージ、約4〜5セント。WhatsAppのAIエージェントが今日から有料です。", "source": "TechTimes" },
+            { "speaker": "host", "text": "今日からって、いつから?" },
+            { "speaker": "analyst", "text": "2026年8月1日、着手日の前日に発効しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず料金の基準を教えて。" },
+            { "speaker": "analyst", "text": "100万トークンあたり2.00ドルです。", "source": "TechTimes / Thrumos" },
+            { "speaker": "host", "text": "トークンって単位、聞き慣れないな。" },
+            { "speaker": "analyst", "text": "後で1メッセージ換算の数字も紹介します。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "製品の中身、料金の変化、今後の予定、そして不明点まで話します。" },
+            { "speaker": "host", "text": "不明点もあるんだ。" },
+            { "speaker": "analyst", "text": "はい。発効直後なので、実測データはまだありません。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "何が変わったの?" },
+            { "speaker": "analyst", "text": "無料お試し期間が終わり、トークン単位の従量課金になりました。", "source": "TechTimes / Enterprise DNA" },
+            { "speaker": "host", "text": "対象は?" },
+            { "speaker": "analyst", "text": "WhatsApp・Instagram・Messenger、世界全体です。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそもこのAIエージェントって何者?" },
+            { "speaker": "analyst", "text": "Meta Business Agent。2026年6月3日に世界展開した自律型エージェントです。", "source": "Enterprise DNA" },
+            { "speaker": "host", "text": "テストはしてたの?" },
+            { "speaker": "analyst", "text": "インド・メキシコ・ブラジルで約2年間テストしていました。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "どんな流れで動くの?" },
+            { "speaker": "analyst", "text": "質問を受けて、AIが自律的に対応し、予約や成約まで進みます。" },
+            { "speaker": "host", "text": "人が途中で入らないんだ。" },
+            { "speaker": "analyst", "text": "はい、そこが自律型と言われるポイントです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "具体的に何ができるの?" },
+            { "speaker": "analyst", "text": "質問応答、商品レコメンド、予約受付、リード選別、成約の5つです。", "source": "Enterprise DNA / Pragma-Code" },
+            { "speaker": "host", "text": "結構いろいろやるんだね。" },
+            { "speaker": "analyst", "text": "だからこそ課金の話が重要になってきます。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "どれくらい使われてるの?" },
+            { "speaker": "analyst", "text": "展開時点で100万以上の事業者が利用しています。", "source": "Enterprise DNA" },
+            { "speaker": "host", "text": "多いね。" },
+            { "speaker": "analyst", "text": "これは自社発表値ですが、規模感は分かります。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "全体の規模は?" },
+            { "speaker": "analyst", "text": "Meta全体で1日10億件超のビジネス関連スレッドが発生しています。", "source": "Enterprise DNA" },
+            { "speaker": "host", "text": "スケールが違うね。" },
+            { "speaker": "analyst", "text": "その規模だからこそ、課金化の影響も大きいと考えられます。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの流れを整理して。" },
+            { "speaker": "analyst", "text": "テスト、世界展開、有料化、そして10月に追加課金予定です。", "source": "Enterprise DNA / TechTimes" },
+            { "speaker": "host", "text": "まだ続きがあるんだ。" },
+            { "speaker": "analyst", "text": "はい、今回の有料化はゴールではありません。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "4段階で言うと?" },
+            { "speaker": "analyst", "text": "テスト、無料展開、有料化、追加課金予定の4つです。" },
+            { "speaker": "host", "text": "今はどの段階?" },
+            { "speaker": "analyst", "text": "3段階目、有料化がちょうど始まったところです。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "改めて基準の数字を。" },
+            { "speaker": "analyst", "text": "100万トークンあたり2.00ドル、1メッセージは2万〜2万5,000トークンです。", "source": "TechTimes / Enterprise DNA" },
+            { "speaker": "host", "text": "1メッセージだと何セントくらい?" },
+            { "speaker": "analyst", "text": "次のスライドで具体的にお伝えします。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "実際の料金感を教えて。" },
+            { "speaker": "analyst", "text": "シンプルな会話なら4〜5セント、複雑だと最大0.24ドル程度です。", "source": "TechTimes(要約)" },
+            { "speaker": "host", "text": "これは確定値?" },
+            { "speaker": "analyst", "text": "媒体側の概算です。Meta公式の確定値ではありません。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "旧料金との違いは?" },
+            { "speaker": "analyst", "text": "AI処理料金と配信料金が別々だったのが、トークン単価に統合されました。", "source": "Enterprise DNA" },
+            { "speaker": "host", "text": "シンプルになったんだね。" },
+            { "speaker": "analyst", "text": "請求の見え方としてはそうなります。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "無料期間と有料化後、何が変わる?" },
+            { "speaker": "analyst", "text": "『とりあえず試す』から『コストを踏まえて使う』に意識が変わります。" },
+            { "speaker": "host", "text": "運用の考え方が変わるんだ。" },
+            { "speaker": "analyst", "text": "そう思います。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "今後の予定も教えて。" },
+            { "speaker": "analyst", "text": "2026年10月1日、テンプレート外メッセージの課金も再開予定です。", "source": "Enterprise DNA" },
+            { "speaker": "host", "text": "これも新しい課金?" },
+            { "speaker": "analyst", "text": "いえ、過去2年間停止されていたものの再開です。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "タイムラインでまとめると?" },
+            { "speaker": "analyst", "text": "6月展開、8月課金開始、10月追加課金予定の3点です。" },
+            { "speaker": "host", "text": "段階的に進んでるんだね。" },
+            { "speaker": "analyst", "text": "はい、一気に全部変わったわけではありません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "対象範囲を確認したい。" },
+            { "speaker": "analyst", "text": "WhatsApp・Instagram・Messengerの3つ、世界全体です。", "source": "TechTimes / BusinessToday" },
+            { "speaker": "host", "text": "特定の国だけじゃないんだ。" },
+            { "speaker": "analyst", "text": "はい、グローバルな制度変更です。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "ここで注意点を聞いておきたい。" },
+            { "speaker": "analyst", "text": "利用実績の数字は自社発表値、料金目安は媒体側の概算です。" },
+            { "speaker": "host", "text": "どっちも鵜呑みにしない方がいいね。" },
+            { "speaker": "analyst", "text": "目安として受け止めるのがいいと思います。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことも教えて。" },
+            { "speaker": "analyst", "text": "公式原文全体、有料化後の実測影響、日本国内の導入数などです。" },
+            { "speaker": "host", "text": "まだこれからの部分もあるんだ。" },
+            { "speaker": "analyst", "text": "発効直後なので、当然といえば当然です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "日本との関係はどうなの?" },
+            { "speaker": "analyst", "text": "WhatsAppは日本では利用率が高くありません。" },
+            { "speaker": "host", "text": "じゃあ関係ない話?" },
+            { "speaker": "analyst", "text": "Instagram・Messengerも対象なので、完全に無関係ではありません。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "これまでのテーマとどう違うの?" },
+            { "speaker": "analyst", "text": "多くは『資金を調達した』段階、今回は『実際に使われ課金される』段階です。" },
+            { "speaker": "host", "text": "一歩先の話なんだね。" },
+            { "speaker": "analyst", "text": "そう捉えていただくと分かりやすいと思います。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "他のMeta関連テーマと重複してない?" },
+            { "speaker": "analyst", "text": "確認済みです。対象製品も切り口もそれぞれ異なります。" },
+            { "speaker": "host", "text": "同じ会社でもいろいろあるんだね。" },
+            { "speaker": "analyst", "text": "Metaだけでも複数のAI関連の動きがあります。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "この先、どんな影響がありそう?" },
+            { "speaker": "analyst", "text": "大量送信事業者はコスト増、シンプルな用途は低コストと考えられます。" },
+            { "speaker": "host", "text": "これは事実?" },
+            { "speaker": "analyst", "text": "いえ、当社の推測です。断定はしていません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "次の節目はいつ?" },
+            { "speaker": "analyst", "text": "2026年10月1日です。テンプレート外メッセージの課金再開が予定されています。" },
+            { "speaker": "host", "text": "覚えておきたいね。" },
+            { "speaker": "analyst", "text": "はい、続報が出るタイミングだと思います。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "事業者は今、何をすればいい?" },
+            { "speaker": "analyst", "text": "利用量の把握、コスト試算、会話設計の見直し、10月への備えの4つです。" },
+            { "speaker": "host", "text": "これは公式のアドバイス?" },
+            { "speaker": "analyst", "text": "いえ、一般的な実務アドバイスとしてまとめたものです。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "結局、何が変わって何が変わらないの?" },
+            { "speaker": "analyst", "text": "料金は変わりましたが、対応プラットフォームや機能自体は変わっていません。" },
+            { "speaker": "host", "text": "そこは安心材料だね。" },
+            { "speaker": "analyst", "text": "はい、事業者にとっては重要なポイントです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "この話から得られる教訓は?" },
+            { "speaker": "analyst", "text": "無料お試し期間はいずれ終わる前提で、早めのコスト試算が大事です。" },
+            { "speaker": "host", "text": "他には?" },
+            { "speaker": "analyst", "text": "料金制度の変更は一度で終わらないこともある、という点です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "最後に数字をもう一度。" },
+            { "speaker": "analyst", "text": "100万トークンあたり2.00ドル、利用事業者は100万以上です。" },
+            { "speaker": "host", "text": "10月の続きも忘れずに。" },
+            { "speaker": "analyst", "text": "はい、そこも含めてセットで覚えてください。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "今日のまとめをお願い。" },
+            { "speaker": "analyst", "text": "料金制度の変化には、いつも続きがある。それだけです。" },
+            { "speaker": "host", "text": "次回もまた出典付きで。" },
+            { "speaker": "analyst", "text": "はい、また次のテーマでお会いしましょう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
