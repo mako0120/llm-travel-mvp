@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "title": "優勝したポスターの星条旗、星の数が間違っていた。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Fox8",
+      "NewsNation",
+      "NBC4 WCMH-TV",
+      "ABC6",
+      "614NOW"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "優勝したポスターの星条旗、実は星の数が間違っていました。", "source": "614NOW" },
+            { "speaker": "host", "text": "え、それで優勝したの?" },
+            { "speaker": "analyst", "text": "はい。今日はこの話題を、出典付きで整理してお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "優勝賞金は1,000ドルでした。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "受賞作の問題点、SNSでの批判、主催者の対応までお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "何が起きたの?" },
+            { "speaker": "analyst", "text": "オハイオ州フェアのポスターコンテストで、AI生成作品が1位に選ばれました。", "source": "Fox8" },
+            { "speaker": "host", "text": "ルール違反だったの?" },
+            { "speaker": "analyst", "text": "いいえ、申告すればAI利用は認められていたルールでした。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "炎上までの流れを図で教えて。" },
+            { "speaker": "analyst", "text": "応募、受賞、誤りの指摘、SNSでの拡大という流れです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "受賞は2026年7月30日、着手日の4日前でした。" },
+            { "speaker": "host", "text": "つい最近の出来事なんだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "コンテストの概要を教えて。" },
+            { "speaker": "analyst", "text": "2024年開始、申告制でAI利用可、2026年は建国250周年の愛国的テーマでした。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "具体的にどこが間違っていたの?" },
+            { "speaker": "analyst", "text": "星条旗の星と縞の数、それにラベル表記にも誤りがあったとされています。", "source": "614NOW" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "誤りを整理すると?" },
+            { "speaker": "analyst", "text": "星の数、縞の数、その他のラベル表記。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "SNSではこんな声が上がりました。『AIに、美術コンテストの居場所はない』。" },
+            { "speaker": "host", "text": "厳しい言葉だね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "応募総数は?" },
+            { "speaker": "analyst", "text": "39作品でした。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "炎上の広がり方を図で教えて。" },
+            { "speaker": "analyst", "text": "受賞発表、誤りの指摘、SNS拡散、地方局の一斉報道。この4段階です。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "批判の内容をもっと詳しく。" },
+            { "speaker": "analyst", "text": "人間のアーティストへの不公平感と、審査プロセスへの疑問が中心です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "主催者はどう対応したの?" },
+            { "speaker": "analyst", "text": "違反ではなかったとしつつ、2027年からAI利用を禁止する方針を発表しました。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "批判と主催者の説明を比べると?" },
+            { "speaker": "analyst", "text": "どちらか一方に偏らず、両方の立場を公平にお伝えします。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "方針転換はいつから?" },
+            { "speaker": "analyst", "text": "2027年からです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、中立性について補足はある?" },
+            { "speaker": "analyst", "text": "はい。AI技術そのものを否定せず、審査プロセス・ルール整備という論点として扱っています。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "AIと創作の境界を図で教えて。" },
+            { "speaker": "analyst", "text": "道具として使うか、完全に生成させるか。この境界の扱いが議論の核心です。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "似た事例と混同しないの?" },
+            { "speaker": "analyst", "text": "2022年のコロラド州フェアの事例とは別の、今回新たに起きた出来事です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "鮮度について確認したい。" },
+            { "speaker": "analyst", "text": "受賞は4日前、炎上・方針発表は1〜2日前です。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで総括します。1つの受賞が、コンテストのルール見直しにまで発展しました。" },
+            { "speaker": "host", "text": "大きな影響だったね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "2027年ルールの詳細、他コンテストへの波及。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "似たテーマとの違いは?" },
+            { "speaker": "analyst", "text": "82本目とは異なる、美術コンテストの審査ルールという切り口です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことを整理すると?" },
+            { "speaker": "analyst", "text": "受賞経緯・主催者の方針は確認済み。受賞者本人の情報は未確認です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "公式声明の原文、受賞者本人の情報、批判と肯定の正確な比率です。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "コンテストの歴史は?" },
+            { "speaker": "analyst", "text": "2024年に始まった、比較的新しい取り組みでした。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "まとめ表を見せて。" },
+            { "speaker": "analyst", "text": "コンテスト名、受賞日、賞金、主催者の対応。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一度、主催者の言葉です。『AIの利用状況はここ数年で大きく変化した』。" },
+            { "speaker": "host", "text": "納得できる説明だね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "2027年の具体的なルール、他コンテストへの波及、この2点です。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "審査員も気づかなかったAIの『間違い』。あなたなら見抜けましたか。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
