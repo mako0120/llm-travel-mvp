@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "title": "1時間、15ドルで作られたデモが、630人の運命を変えたのかもしれない。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-07-22)",
+      "TechCrunch(2026-07-25)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "1時間、15ドルで作られたデモが、630人の運命を変えたのかもしれません。", "source": "TechCrunch(2026-07-22)" },
+            { "speaker": "host", "text": "どういうこと?" },
+            { "speaker": "analyst", "text": "Monday.comのレイオフの話題です。今日はこれをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "何が発表されたか、Monday.comとは何か、背景の出来事、因果関係の正直な開示、今後の見通しをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "まず何が発表されたの?" },
+            { "speaker": "analyst", "text": "2026年7月22日、Monday.comが630人のレイオフを発表しました。", "source": "TechCrunch(2026-07-22)" },
+            { "speaker": "host", "text": "大きな規模だね。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "規模はこちら、全世界の従業員の約20%、630人です。" },
+            { "speaker": "host", "text": "20%はかなりの割合だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "発表の概要をまとめて教えて。" },
+            { "speaker": "analyst", "text": "発表日、対象人数、理由、見込み費用。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "会社側は何と説明しているの?" },
+            { "speaker": "analyst", "text": "共同創業者は『コスト削減や人員をAIに置き換えるための決定ではない』と説明しています。", "source": "TechCrunch(2026-07-22)" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "Monday.comについて教えて。" },
+            { "speaker": "analyst", "text": "イスラエル発のワークマネジメントソフトウェア企業です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "再編の内容をもう少し詳しく。" },
+            { "speaker": "analyst", "text": "AIワークプラットフォームへの転換が目的とされ、2026年通年の売上成長率は19〜20%の維持を見込んでいます。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "Zinman氏のメモの要点は?" },
+            { "speaker": "analyst", "text": "AIから大きな価値を得ているとしつつ、今回の決定はコスト削減や人員置き換えが目的ではないと強調しています。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "発表までの経緯を図で教えて。" },
+            { "speaker": "analyst", "text": "2026年2月のデモ、その後の株価下落、そして7月22日の発表という流れです。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "背景にあるとされる出来事って?" },
+            { "speaker": "analyst", "text": "2026年2月、CNBCの記者がコーディング経験ゼロの状態で、代替機能を1時間未満・15ドル未満で作り上げました。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "そのデモの内容を詳しく教えて。" },
+            { "speaker": "analyst", "text": "Claude Codeを使い、Monday.comの代替機能を短時間・低コストで構築し、業界で話題になりました。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "株価への影響は?" },
+            { "speaker": "analyst", "text": "年初来50%超、直近高値からは約75%下落したと報じられています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "株価動向をまとめると?" },
+            { "speaker": "analyst", "text": "年初来50%超、高値から約75%。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、因果関係は確定しているの?" },
+            { "speaker": "analyst", "text": "いいえ。デモと株価下落・レイオフ判断の因果関係は『一因』と報じられているにとどまり、公式には断定されていません。" },
+            { "speaker": "host", "text": "そこは正直に伝えないとね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "この話、Anthropicの宣伝になっていない?" },
+            { "speaker": "analyst", "text": "いいえ。本テーマはAnthropicへの宣伝・推奨を目的とせず、複数の独立した報道機関が伝えた事実を淡々と紹介するにとどめています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて、会社側の説明です。『コスト削減や人員をAIに置き換えるための決定ではない』。" },
+            { "speaker": "host", "text": "繰り返し強調している点だね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "他の企業でも似た動きはあるの?" },
+            { "speaker": "analyst", "text": "TechCrunchは、AIを理由に挙げてレイオフを発表した企業が他にも複数あると報じています。個別の詳細比較は本テーマでは扱いません。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで総括します。Monday.comは630人のレイオフを発表し、理由をAIワークプラットフォームへの転換と説明しています。" },
+            { "speaker": "host", "text": "重い話題だね。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "影響を受ける人々への配慮は?" },
+            { "speaker": "analyst", "text": "630人という実在の人数であることを重く受け止め、個人を特定する情報や過度な演出は行わず、事実を淡々と伝えています。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "視聴者に聞いてみたいことは?" },
+            { "speaker": "analyst", "text": "AIによる効率化と雇用への影響、どうバランスさせるべきだと思いますか。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "業績の推移、AI転換の進捗、業界全体への広がり。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "似たテーマとの違いは?" },
+            { "speaker": "analyst", "text": "既存テーマのMeta関連は製品ローンチが主題ですが、本テーマはAIを理由にしたレイオフが主題であり、重複ではありません。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことは?" },
+            { "speaker": "analyst", "text": "レイオフ発表と会社説明は確認済み、因果関係の公式な断定や対象の内訳は未確認です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "出典をもう一度教えて。" },
+            { "speaker": "analyst", "text": "TechCrunchを中心に、Yahoo Finance・Tech Times・Calcalist・TheNextWebという複数の専門メディアです。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "配慮している点は?" },
+            { "speaker": "analyst", "text": "数字の創作をせず、Anthropicへの宣伝にならないよう配慮し、実在の人数への配慮を優先しています。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一度、会社側の説明です。『コスト削減や人員をAIに置き換えるための決定ではない』。" },
+            { "speaker": "host", "text": "重く受け止めたい言葉だね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて、今回の規模です。全世界の従業員の約20%、630人です。" },
+            { "speaker": "host", "text": "大きな数字だね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "AIを理由にしたレイオフの動向、そしてMonday.comの業績推移に注目していきましょう。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "AIが会社の形を変えるとき、そこで働く人々にも目を向け続けたいですね。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
