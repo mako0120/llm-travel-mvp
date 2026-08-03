@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "title": "オフィスのマットレスで寝る創業者。8週間で評価額は3倍以上に。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Forbes(2026-07-22)",
+      "TechCrunch(2026-07-23)",
+      "Forbes(2026-05-28)",
+      "Insurance Journal",
+      "Forbes(2026-07-26)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "週7日働き、オフィスのマットレスで寝泊まりする創業者がいます。", "source": "Forbes(2026-07-22)" },
+            { "speaker": "host", "text": "それで会社はどうなったの?" },
+            { "speaker": "analyst", "text": "8週間で3回資金調達し、評価額が3倍以上になりました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "評価額は今、40億ドルです。" },
+            { "speaker": "host", "text": "すごい規模だね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "資金調達の推移、企業文化、そして注意点まで話します。" },
+            { "speaker": "host", "text": "働き方の話も気になるね。" },
+            { "speaker": "analyst", "text": "はい、正直な補足も添えてお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "発表の概要は?" },
+            { "speaker": "analyst", "text": "Corgiという保険スタートアップが8週間で3回目の資金調達をしました。", "source": "Forbes" },
+            { "speaker": "host", "text": "収益も伸びてるんだよね?" },
+            { "speaker": "analyst", "text": "7ヶ月で4,000万ドルから4億5,000万ドル見込みへ、だそうです。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "資金調達の推移を教えて。" },
+            { "speaker": "analyst", "text": "5月にシリーズB、その後B1、そして7月に3回目です。" },
+            { "speaker": "host", "text": "評価額もそのたびに跳ね上がってるんだ。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "伸び率はどれくらい?" },
+            { "speaker": "analyst", "text": "13億ドルから40億ドル、3倍以上です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "話題の企業文化を教えて。" },
+            { "speaker": "analyst", "text": "週7日勤務、創業者のオフィス泊まり、24時間営業のカフェ併設です。" },
+            { "speaker": "host", "text": "かなり異色だね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "Corgiって何をする会社?" },
+            { "speaker": "analyst", "text": "AIで保険業務を効率化する会社です。トラック運送業界にも参入しています。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "収益の詳細は?" },
+            { "speaker": "analyst", "text": "4,000万ドルから4億5,000万ドル見込みへ、約11倍の伸びです。" },
+            { "speaker": "host", "text": "ただし見込み値なんだよね?" },
+            { "speaker": "analyst", "text": "そうです、実績が確定した数字ではありません。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "収益成長を数字で見ると?" },
+            { "speaker": "analyst", "text": "4,000万ドルから4億5,000万ドルへの伸びです。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "Forbesはこの企業文化を、急成長の象徴として報じています。", "source": "Forbes" },
+            { "speaker": "host", "text": "でも持続可能かどうかは別の話だよね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "資金調達をまとめると?" },
+            { "speaker": "analyst", "text": "5月に$160M、その後$106M、7月に3回目です。3回目は調達額が非公表です。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "事業拡大の動きは?" },
+            { "speaker": "analyst", "text": "トラック運送業界への参入と、データルーム機能をめぐる騒動です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "その騒動、詳しく分かるの?" },
+            { "speaker": "analyst", "text": "具体的な問題内容までは確認できていません。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "従来の保険業務と何が違うの?" },
+            { "speaker": "analyst", "text": "AIで審査・請求対応を効率化している、というのがCorgi側の主張です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、鮮度の話を確認したい。" },
+            { "speaker": "analyst", "text": "はい。この発表は着手日の12日前で、これまでで最も鮮度の妥協が大きいです。" },
+            { "speaker": "host", "text": "正直に教えてくれてありがたい。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "3回目ラウンドの具体的な調達額や、収益見込みの算出根拠までは分かっていません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "働き方についてはどう考えればいい?" },
+            { "speaker": "analyst", "text": "話題性はありますが、当社はこの働き方を推奨する意図はありません。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "8週間で何回調達したの?" },
+            { "speaker": "analyst", "text": "3回です。かなり異例のペースです。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "保険業界への影響は?" },
+            { "speaker": "analyst", "text": "AI活用への投資熱の高まりが考えられます。あくまで推測です。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "この発表が示すことは?" },
+            { "speaker": "analyst", "text": "保険テック分野への注目、急成長企業の働き方への関心が考えられます。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "結局、何が変わって何が変わってないの?" },
+            { "speaker": "analyst", "text": "評価額は急拡大しましたが、実際の収益実績はまだ見込み値の段階です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "既存テーマとは違うの?" },
+            { "speaker": "analyst", "text": "はい、保険テックというこれまで扱っていなかった切り口です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "学べることは?" },
+            { "speaker": "analyst", "text": "見込みと実績を混同しないこと、そして話題の裏側も確認する姿勢が大切です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。8週間で3回の資金調達、評価額40億ドル。ただし発表は12日前のものです。" },
+            { "speaker": "host", "text": "急成長ぶりがすごいね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "続報ではこんな懸念も。『評価額の急拡大は、公開市場の投資家を後回しにするリスクをはらむ』。", "source": "Forbes(2026-07-26)" },
+            { "speaker": "host", "text": "急成長の裏にはそういう見方もあるんだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "実績収益の公表、追加調達の有無、企業文化の持続性の3つです。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "前回のテーマと合わせて見ると?" },
+            { "speaker": "analyst", "text": "AIをめぐる投資・活用の広がりを、異なる角度から見てきたことになります。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "評価額の推移をもう一度教えて。" },
+            { "speaker": "analyst", "text": "13億ドルから40億ドル、2ヶ月余りで3倍以上です。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "急成長の話題ほど、見込みと実績を分けて見てみてください。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

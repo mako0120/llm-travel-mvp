@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "title": "自由度29のロボットが、欧州初の「10億ドル企業」になった。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "BusinessWire(2026-07-23)",
+      "Forbes(2026-07-21)",
+      "Tech.eu(2026-07-21)",
+      "The Robot Report",
+      "AI Business"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "29の方向に体を動かせるロボットを作る会社が、欧州で初めての10億ドル企業になりました。", "source": "BusinessWire" },
+            { "speaker": "host", "text": "どんな会社なの?" },
+            { "speaker": "analyst", "text": "Humanoidというロンドン拠点の会社です。今日はこの発表を整理してお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "評価額は13億5,000万ドルです。" },
+            { "speaker": "host", "text": "大きな金額だね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "会社の中身、ロボットの仕様、著名企業の参加の意味まで話します。" },
+            { "speaker": "host", "text": "『欧州初』っていう表現も気になるね。" },
+            { "speaker": "analyst", "text": "はい、その読み解き方もお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "発表の概要は?" },
+            { "speaker": "analyst", "text": "シリーズAで1億5,200万ドルを調達しました。", "source": "Forbes" },
+            { "speaker": "host", "text": "投資家も豪華なんだよね?" },
+            { "speaker": "analyst", "text": "はい、ドイツの自動車部品大手2社が参加しています。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "ロボットの仕様を教えて。" },
+            { "speaker": "analyst", "text": "可搬重量15kg、稼働時間4時間、自由度29です。" },
+            { "speaker": "host", "text": "産業用途を意識した仕様だね。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "仕組みを図で教えて。" },
+            { "speaker": "analyst", "text": "知覚・推論・動作制御を統合する独自プラットフォーム『KinetIQ』です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "他社との違いは?" },
+            { "speaker": "analyst", "text": "移動方式が車輪型で、二足歩行型とは異なる設計です。" },
+            { "speaker": "host", "text": "面白いアプローチだね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "調達額はいくら?" },
+            { "speaker": "analyst", "text": "1億5,200万ドルです。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "投資家を教えて。" },
+            { "speaker": "analyst", "text": "Prime Movers Lab主導、Bosch・Schaefflerも参加しています。", "source": "The Robot Report" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "一次発表ではこう位置づけられています。『欧州初のヒューマノイドロボティクス専業ユニコーン』。", "source": "BusinessWire" },
+            { "speaker": "host", "text": "大きな節目だね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "累計の調達額は?" },
+            { "speaker": "analyst", "text": "2億7,000万ドルです。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "これまでの歩みを教えて。" },
+            { "speaker": "analyst", "text": "2024年創業、そして今回のシリーズAまで、わずか2年ほどです。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "Bosch・Schaefflerの参加はどういう意味?" },
+            { "speaker": "analyst", "text": "産業用ロボットへの期待の表れと考えられますが、提携内容の詳細は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "産業用途での使われ方は?" },
+            { "speaker": "analyst", "text": "工場内の物流・搬送作業が想定されています。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "車輪型と二足歩行型、どっちがいいの?" },
+            { "speaker": "analyst", "text": "どちらが優れているかではなく、用途による違いとして捉えるとよいです。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、鮮度の話を確認したい。" },
+            { "speaker": "analyst", "text": "はい。この発表は着手日の11〜13日前です。" },
+            { "speaker": "host", "text": "74本目と同じくらいの鮮度なんだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "量産時期や、Bosch・Schaefflerとの提携内容の詳細までは分かっていません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "『欧州初のユニコーン』って何がすごいの?" },
+            { "speaker": "analyst", "text": "評価額の話であり、技術的な優位性を意味するわけではありません。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "創業からどれくらい経ってるの?" },
+            { "speaker": "analyst", "text": "約2年です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "導入企業が確認すべきことは?" },
+            { "speaker": "analyst", "text": "作業環境の適合性、量産時期、既存設備との連携、投資対効果の4つです。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "この発表が示すことは?" },
+            { "speaker": "analyst", "text": "産業用ロボット市場の拡大、欧州発企業への注目が考えられます。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "結局、何が変わって何が変わってないの?" },
+            { "speaker": "analyst", "text": "評価額は上がりましたが、量産・実用化はまだこれからです。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "既存テーマとは違うの?" },
+            { "speaker": "analyst", "text": "はい、ヒューマノイドロボットというこれまで扱っていなかった切り口です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "学べることは?" },
+            { "speaker": "analyst", "text": "評価額の高さと実用化の進捗を分けて考える姿勢が大切です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。評価額13.5億ドル、欧州初のユニコーン。ただし発表は11〜13日前のものです。" },
+            { "speaker": "host", "text": "節目のニュースだったね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "業界関係者はこう言います。『実用化への道のりは、資金調達の後にこそ本当の勝負が始まる』。" },
+            { "speaker": "host", "text": "ここからが本番ってことだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "量産開始の時期、提携内容、車輪型設計の実用性の3つです。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "74本目と合わせて見ると?" },
+            { "speaker": "analyst", "text": "業界は違いますが、どちらも資金調達の急拡大という共通点があります。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマの総括です。累計調達額2億7,000万ドル、欧州発の大きな一歩です。" },
+            { "speaker": "host", "text": "これからの実用化に期待だね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "『初の』という見出しほど、何を基準にした『初』かを確認してみてください。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
