@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "title": "誰も触りたがらなかった「死んだコード」を、AIが書き換えた。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechTimes(2026-07-28)",
+      "the-decoder",
+      "artificialintelligence-news",
+      "IntuitionLabs"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "研究の現場には、誰も触りたがらない、老朽化したコードが山ほどあります。", "source": "TechTimes(2026-07-28)" },
+            { "speaker": "host", "text": "それをAIが書き換えたの?" },
+            { "speaker": "analyst", "text": "はい。ただし良い話だけではなく、AIには判断できないことも報告されています。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "RNA配列解析のパイプラインが60倍速くなったと報告されています。" },
+            { "speaker": "host", "text": "60倍とはすごいね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "代表的な案件、レビューの重要性、そしてAIの限界まで話します。" },
+            { "speaker": "host", "text": "成果だけじゃなく限界も話すんだね。" },
+            { "speaker": "analyst", "text": "はい、そこが今回のポイントです。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "概要を教えて。" },
+            { "speaker": "analyst", "text": "OpenAIがCodexを中心に、8つの実案件で科学研究コードを近代化しました。", "source": "TechTimes" },
+            { "speaker": "host", "text": "Claude Codeも使われてるんだよね?" },
+            { "speaker": "analyst", "text": "はい、3案件で併用されています。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "代表的な案件を教えて。" },
+            { "speaker": "analyst", "text": "cyvcf2、MHCflurry、rustar-alignerの3つです。" },
+            { "speaker": "host", "text": "それぞれ違う種類の作業なんだね。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "流れを図で教えて。" },
+            { "speaker": "analyst", "text": "AIが書き換えて、最後は研究者が科学的な正しさを確認する流れです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "一番野心的な案件は?" },
+            { "speaker": "analyst", "text": "rustar-alignerです。2万行のC/C++をゼロからRustで書き直しました。", "source": "the-decoder" },
+            { "speaker": "host", "text": "精度は落ちなかったの?" },
+            { "speaker": "analyst", "text": "99.8%の精度一致だそうです。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "他にも速くなった処理があるの?" },
+            { "speaker": "analyst", "text": "合成ゲノム生成処理が1,610秒から27秒に短縮されました。" },
+            { "speaker": "host", "text": "27分近くが30秒未満に…。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "案件ごとに使うツールは違うの?" },
+            { "speaker": "analyst", "text": "5案件はCodex単独、3案件はClaude Codeも併用しています。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "OpenAI自身がこう報告しています。『ボトルネックは、コードを書くことからレビューすることに移った』。", "source": "the-decoder" },
+            { "speaker": "host", "text": "書くのが速くなった分、確認が大変になったんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "書き換えられた規模は?" },
+            { "speaker": "analyst", "text": "2万行という、決して小さくない規模です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "MHCflurryの進め方は?" },
+            { "speaker": "analyst", "text": "Claude CodeとCodexが開発者・レビュー役を交代しながら、約1万行を移植しました。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "限界についても教えて。" },
+            { "speaker": "analyst", "text": "科学的正しさの判断ができない、レビューが新たなボトルネックになった、人間の検証は必須のまま。この3つです。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "『正しさ』はどう判断するの?" },
+            { "speaker": "analyst", "text": "テストの合否ではなく、物理法則との整合性です。これは人間にしか判断できません。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "AIと人間、役割はどう分かれてるの?" },
+            { "speaker": "analyst", "text": "AIは書き換えを担い、人間は科学的な正しさの最終判断とレビューを担います。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、鮮度の話を確認したい。" },
+            { "speaker": "analyst", "text": "はい。この発表は着手日の6日前で、70本目・71本目より鮮度が下がります。" },
+            { "speaker": "host", "text": "正直に教えてくれてありがたい。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "8案件全ての詳細や、各案件の開発期間までは分かっていません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "今回・前回のテーマとの関係は?" },
+            { "speaker": "analyst", "text": "70本目はリスク、72本目は対策、本テーマは成果。3つの側面が見えてきます。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "実地報告全体の規模は?" },
+            { "speaker": "analyst", "text": "8案件です。そのうち3つを詳しく紹介しました。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "研究機関が導入を検討する際は?" },
+            { "speaker": "analyst", "text": "対象コードの棚卸し、レビュー体制、検証基準、段階的な導入。この4つです。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "この発表が示すことは?" },
+            { "speaker": "analyst", "text": "研究の高速化、レビュアーの需要増が考えられます。あくまで推測です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "結局、何が変わって何が変わってないの?" },
+            { "speaker": "analyst", "text": "書き換えは速くなりましたが、科学的な正しさの判断は人間のままです。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "72本目とはどう違うの?" },
+            { "speaker": "analyst", "text": "72本目はリスクへの対策、本テーマはAIエージェントの能力そのものの実証です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "学べることは?" },
+            { "speaker": "analyst", "text": "成果を伝える発表ほど、限界の記載も確認する価値があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。60倍の高速化、2万行のコード書き換え。ただし正しさの判断は人間の役割です。" },
+            { "speaker": "host", "text": "成果と限界、両方が大事だね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一度。『正しさは、テストの合否ではなく、物理法則との整合性で決まる』。", "source": "the-decoder" },
+            { "speaker": "host", "text": "この一言に集約されてるね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "他分野への波及、レビュー支援ツールの発展、複数AIツール併用の標準化です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "3テーマ通して見えてくることは?" },
+            { "speaker": "analyst", "text": "AIエージェントのリスク・対策・成果、この3つの側面を合わせて見ることが大切です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマの総括です。8案件のうち3案件を詳しく見てきました。" },
+            { "speaker": "host", "text": "成果と限界、両方を正直に報告している点が誠実だね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "AIの成果報告ほど、限界の記載まで確認してみてください。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

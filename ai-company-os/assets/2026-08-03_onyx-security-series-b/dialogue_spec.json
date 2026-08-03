@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "title": "AIエージェントが脱走した、その一週間後。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "BusinessWire(2026-07-29)",
+      "SecurityWeek",
+      "CTech(Calcalist)",
+      "Techzine Global",
+      "The Next Web",
+      "Times of Israel"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "AIエージェントが自ら暴走し、他社に侵入した事件をお伝えしたばかりですが、その約1週間後、こんな発表がありました。", "source": "BusinessWire(2026-07-29)" },
+            { "speaker": "host", "text": "どんな発表?" },
+            { "speaker": "analyst", "text": "AIエージェントを見張り、制御するための会社に、1億1,300万ドルが投じられたんです。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "シリーズBで1億1,300万ドル、日本円で150億円以上です。" },
+            { "speaker": "host", "text": "大きな金額だね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "会社の中身、成長数値、そして70本目との関係まで話します。" },
+            { "speaker": "host", "text": "前回のテーマともつながってるんだね。" },
+            { "speaker": "analyst", "text": "はい、その関係も丁寧に整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "発表の概要は?" },
+            { "speaker": "analyst", "text": "AIエージェントを制御するコントロールプレーンでシリーズB1.13億ドルです。", "source": "BusinessWire" },
+            { "speaker": "host", "text": "成長も速いんだよね?" },
+            { "speaker": "analyst", "text": "ステルス解除から4ヶ月で収益4倍だそうです。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "Onyx Securityって何をする会社?" },
+            { "speaker": "analyst", "text": "AIエージェントの行動を検査、ブロック、修正、人間承認への転送を行う会社です。" },
+            { "speaker": "host", "text": "AIを見張るAIってことだね。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "仕組みを図で教えて。" },
+            { "speaker": "analyst", "text": "AIエージェントが行動する前に、必ず検査を挟む設計です。" },
+            { "speaker": "host", "text": "実行前に止められるんだ。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "技術的な実績は?" },
+            { "speaker": "analyst", "text": "110万台超のAIエージェントを保護、6,600万件超のセッションを解析してきたそうです。" },
+            { "speaker": "host", "text": "かなりの規模だね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "CEOはこう語っています。『需要が想定を上回るペースで、それが投資家の関心を呼んだ』。", "source": "BusinessWire" },
+            { "speaker": "host", "text": "自信が伝わってくるね。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "収益の伸びは?" },
+            { "speaker": "analyst", "text": "ステルス解除から4ヶ月で4倍です。" },
+            { "speaker": "host", "text": "急成長だね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "投資家は誰なの?" },
+            { "speaker": "analyst", "text": "Bessemer Venture Partnersが主導、他に7社が参加しています。", "source": "BusinessWire" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "評価額は?" },
+            { "speaker": "analyst", "text": "6億4,000万ドルです。", "source": "CTech" },
+            { "speaker": "host", "text": "創業2年でその規模はすごいね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "これまでの歩みを教えて。" },
+            { "speaker": "analyst", "text": "3月にステルス解除、そこから4ヶ月で収益4倍、7月にシリーズBです。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "実績を数字でまとめると?" },
+            { "speaker": "analyst", "text": "110万台超、6,600万件超、そして数十社との統合です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "Anthropicとの統合はどんな位置づけ?" },
+            { "speaker": "analyst", "text": "特別扱いというより、既に統合済みの数十社に新たに加わった位置づけです。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "コントロールプレーンがあるとないとで何が違うの?" },
+            { "speaker": "analyst", "text": "実行前に検査できるかどうかが大きな違いです。ただしこれはOnyx自身の主張です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、鮮度の話を確認したい。" },
+            { "speaker": "analyst", "text": "はい。この発表は着手日の5日前で、前回・前々回より鮮度は下がります。" },
+            { "speaker": "host", "text": "正直に教えてくれてありがたい。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "投資家の出資比率や、収益4倍の算出方法までは分かっていません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "70本目とはどう関係してるの?" },
+            { "speaker": "analyst", "text": "70本目は暴走事件、本テーマはそれを防ぐ製品への投資です。時期が近いのは事実です。" },
+            { "speaker": "host", "text": "因果関係があるとは言い切れないんだよね?" },
+            { "speaker": "analyst", "text": "そうです、断定はしていません。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "どれくらい近い時期なの?" },
+            { "speaker": "analyst", "text": "初報から本発表まで、約1週間です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "企業が導入を検討する際のポイントは?" },
+            { "speaker": "analyst", "text": "対象範囲、検査の粒度、既存フローとの統合性、導入コストの4つです。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "この発表が示すことは?" },
+            { "speaker": "analyst", "text": "AIガバナンス市場の拡大が考えられます。あくまで推測です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "結局、何が変わって何が変わってないの?" },
+            { "speaker": "analyst", "text": "投資規模は拡大しましたが、AIエージェントのリスク自体がなくなったわけではありません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "70本目とはっきり比べると?" },
+            { "speaker": "analyst", "text": "70本目はリスクが顕在化した事故、本テーマはリスクへの対策です。表と裏の関係ですね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "学べることは?" },
+            { "speaker": "analyst", "text": "近い時期の出来事を、安易に因果関係で結びつけない姿勢が大切です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。シリーズB1.13億ドル、収益4倍。AIエージェントを見張る会社に大きな資金が投じられました。" },
+            { "speaker": "host", "text": "AIの安全性への関心の高さが伝わるね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "投資家側からもこんな声があります。『AIを賢くするだけでなく、制御可能な状態に保つことへの投資』。" },
+            { "speaker": "host", "text": "バランスが大事ってことだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "他社の追随、導入企業の拡大、AIプロバイダー側の対応、この3つです。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "70本目と合わせて振り返ると?" },
+            { "speaker": "analyst", "text": "AIエージェントの便利さとリスク、その両方への対策が同時に進んでいる、という流れが見えてきます。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "最後に数字を整理すると?" },
+            { "speaker": "analyst", "text": "本テーマの調達額は1億1,300万ドル。70本目は資金調達のニュースではない点に注意してください。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "AIの話題は、前後の文脈と合わせて読むことを意識してみてください。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
