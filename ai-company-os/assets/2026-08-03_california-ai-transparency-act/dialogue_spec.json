@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "title": "Midjourneyには、電子透かしがなかった",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechTimes(2026-08-02)",
+      "steg.ai",
+      "Secure Privacy",
+      "National Law Review",
+      "Hintze Law"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "違反1件、1日あたり5,000ドル。カリフォルニア州でAIの透かし義務が発効しました。", "source": "steg.ai" },
+            { "speaker": "host", "text": "透かし義務って?" },
+            { "speaker": "analyst", "text": "生成AI画像などに電子透かしを入れる義務です。2026年8月2日施行です。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず罰則を教えて。" },
+            { "speaker": "analyst", "text": "違反1件、1日あたり5,000ドル。累積していく仕組みです。", "source": "steg.ai" },
+            { "speaker": "host", "text": "毎日積み上がるんだ。" },
+            { "speaker": "analyst", "text": "はい、対応が遅れるほど負担が増えます。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "義務の中身、罰則、Midjourneyの件、そしてEUとの違いまで話します。" },
+            { "speaker": "host", "text": "昨日もEUの話をしたよね?" },
+            { "speaker": "analyst", "text": "はい、似ていますが中身は結構違います。整理してお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "何が施行されたの?" },
+            { "speaker": "analyst", "text": "カリフォルニア州のAI透明性法です。", "source": "steg.ai / TechTimes" },
+            { "speaker": "host", "text": "対象は?" },
+            { "speaker": "analyst", "text": "月間利用者100万人超の大規模な生成AI提供者です。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "義務は何個あるの?" },
+            { "speaker": "analyst", "text": "検出ツール、潜在的開示、可視的開示、ライセンス先への適用の4つです。" },
+            { "speaker": "host", "text": "結構具体的だね。" },
+            { "speaker": "analyst", "text": "はい、それぞれ内容が定められています。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "対象になる基準は?" },
+            { "speaker": "analyst", "text": "月間利用者100万人を超えるかどうかです。" },
+            { "speaker": "host", "text": "小さいサービスは対象外なんだ。" },
+            { "speaker": "analyst", "text": "はい、大規模事業者に限定した設計です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "検出ツールって具体的に何?" },
+            { "speaker": "analyst", "text": "利用者が無料で使える、生成・改変の有無を確認できるツールです。", "source": "steg.ai" },
+            { "speaker": "host", "text": "誰でも使えるんだ。" },
+            { "speaker": "analyst", "text": "はい、無料提供が義務です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "電子透かしについて教えて。" },
+            { "speaker": "analyst", "text": "見えない潜在的開示は必須、見える可視的開示は任意です。", "source": "steg.ai" },
+            { "speaker": "host", "text": "2段階あるんだね。" },
+            { "speaker": "analyst", "text": "はい、必須と任意で分かれています。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "4つの義務、表にすると?" },
+            { "speaker": "analyst", "text": "検出ツール・潜在的開示・可視的開示・ライセンス先適用です。" },
+            { "speaker": "host", "text": "整理すると分かりやすいね。" },
+            { "speaker": "analyst", "text": "必須と任意の区別がポイントです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "罰則、もう一度確認したい。" },
+            { "speaker": "analyst", "text": "1件・1日あたり5,000ドル、累積します。", "source": "steg.ai" },
+            { "speaker": "host", "text": "長引くほど厳しいんだね。" },
+            { "speaker": "analyst", "text": "はい、早期対応が大事になります。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "誰が提訴できるの?" },
+            { "speaker": "analyst", "text": "州司法長官に加え、市や郡の検事も提訴できます。", "source": "steg.ai" },
+            { "speaker": "host", "text": "執行の範囲が広いね。" },
+            { "speaker": "analyst", "text": "はい、勝訴すれば弁護士費用も認められます。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "具体例が挙がってるんだよね?" },
+            { "speaker": "analyst", "text": "はい、Midjourneyです。施行日時点で透かしがないと報じられています。", "source": "TechTimes" },
+            { "speaker": "host", "text": "これは確定情報?" },
+            { "speaker": "analyst", "text": "次のスライドで、情報の扱い方を丁寧に説明します。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "Midjourneyについて詳しく。" },
+            { "speaker": "analyst", "text": "2023年から業界団体に参加していますが、実装は未出荷と報じられています。", "source": "TechTimes" },
+            { "speaker": "host", "text": "参加はしてたんだ。" },
+            { "speaker": "analyst", "text": "はい、ただ実装まではまだ、という報道です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "この情報、どこまで信じていい?" },
+            { "speaker": "analyst", "text": "TechTimesの記事のみが情報源です。他の裏付けはありません。" },
+            { "speaker": "host", "text": "だから断定しないんだね。" },
+            { "speaker": "analyst", "text": "はい、報じられている内容として紹介するにとどめています。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "EUとの関係を教えて。" },
+            { "speaker": "analyst", "text": "実は同じ2026年8月2日に、EUとカリフォルニア両方で発効しています。" },
+            { "speaker": "host", "text": "偶然?" },
+            { "speaker": "analyst", "text": "そこは確認できていません。ただ同日というのは事実です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "中身の違いは?" },
+            { "speaker": "analyst", "text": "EUはチャットボット名乗りとラベル表示、カリフォルニアは検出ツールと透かしです。" },
+            { "speaker": "host", "text": "罰則の仕組みも違うんだよね?" },
+            { "speaker": "analyst", "text": "はい、EUは一括方式、カリフォルニアは累積方式です。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "施行までの経緯は?" },
+            { "speaker": "analyst", "text": "SB942として制定後、AB853で施行日が変更されました。" },
+            { "speaker": "host", "text": "改正があったんだね。" },
+            { "speaker": "analyst", "text": "はい、EUの日程に合わせる形での変更だったようです。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "対象基準をもう一度。" },
+            { "speaker": "analyst", "text": "月間利用者100万人超です。", "source": "Regulations.ai" },
+            { "speaker": "host", "text": "覚えておくね。" },
+            { "speaker": "analyst", "text": "これを超えると義務が発生します。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "小規模事業者はどうなるの?" },
+            { "speaker": "analyst", "text": "今回の義務は対象外です。" },
+            { "speaker": "host", "text": "将来変わる可能性は?" },
+            { "speaker": "analyst", "text": "基準見直しの可能性はありますが、現時点では確認できていません。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "ここで注意点を聞きたい。" },
+            { "speaker": "analyst", "text": "本テーマは公的機関の規制で、Midjourneyの件は単一情報源です。" },
+            { "speaker": "host", "text": "慎重に扱ってるんだね。" },
+            { "speaker": "analyst", "text": "はい、話題性があるからこそ慎重にしています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことも教えて。" },
+            { "speaker": "analyst", "text": "条文原文、Midjourneyの裏付け、執行事例、対象企業一覧の4点です。" },
+            { "speaker": "host", "text": "まだこれからの部分もあるね。" },
+            { "speaker": "analyst", "text": "施行直後なので、当然といえば当然です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "日本企業への影響は?" },
+            { "speaker": "analyst", "text": "基準を満たせば対象になりえますが、多くは関係しない可能性があります。" },
+            { "speaker": "host", "text": "断定はしないんだね。" },
+            { "speaker": "analyst", "text": "確認できていない以上、断定はできません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "既存テーマとの位置づけは?" },
+            { "speaker": "analyst", "text": "『規制される』段階の話が、EUに続いてカリフォルニアでも続いています。" },
+            { "speaker": "host", "text": "世界同時進行なんだね。" },
+            { "speaker": "analyst", "text": "そういう見え方ができると思います。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "昨日のテーマと重複してない?" },
+            { "speaker": "analyst", "text": "確認済みです。規制主体・罰則・技術要件が異なる別の法律です。" },
+            { "speaker": "host", "text": "デッキ内でも比較してるんだよね。" },
+            { "speaker": "analyst", "text": "はい、スライド16で明確に比較しています。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "どんな影響がありそう?" },
+            { "speaker": "analyst", "text": "電子透かし技術や検出ツール市場の拡大が考えられます。" },
+            { "speaker": "host", "text": "これも推測?" },
+            { "speaker": "analyst", "text": "はい、断定はしていません。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "事業者は今、何をすればいい?" },
+            { "speaker": "analyst", "text": "対象範囲の確認、検出ツールの整備、透かしの実装確認、EUとの重複整理です。" },
+            { "speaker": "host", "text": "法的助言ではないんだよね?" },
+            { "speaker": "analyst", "text": "はい、一般的な整理です。専門家への確認をおすすめします。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "結局、何が変わって何が変わらないの?" },
+            { "speaker": "analyst", "text": "大規模事業者に義務が増えましたが、AI利用自体は禁止されていません。" },
+            { "speaker": "host", "text": "そこは共通なんだね。" },
+            { "speaker": "analyst", "text": "はい、EUの話と同じ構造です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "この話から得られる教訓は?" },
+            { "speaker": "analyst", "text": "AI規制はEUだけでなく米国の州単位でも動いています。" },
+            { "speaker": "host", "text": "他には?" },
+            { "speaker": "analyst", "text": "話題性のある個別企業の話ほど、情報源の数を確認する価値があります。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "最後にもう一度まとめて。" },
+            { "speaker": "analyst", "text": "2026年8月2日施行、罰則は1件・1日あたり5,000ドルです。" },
+            { "speaker": "host", "text": "EUと同じ日なんだね。" },
+            { "speaker": "analyst", "text": "はい、仕組みは違いますが同日でした。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "今日のまとめをお願い。" },
+            { "speaker": "analyst", "text": "同じカテゴリのニュースこそ、違いを丁寧に確認する。それだけです。" },
+            { "speaker": "host", "text": "次回もまた出典付きで。" },
+            { "speaker": "analyst", "text": "はい、また次のテーマでお会いしましょう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
