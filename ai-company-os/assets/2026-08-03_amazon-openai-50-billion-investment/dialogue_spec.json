@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "title": "Amazonは、静かにOpenAIの株式5%を手に入れていた。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "PYMNTS(2026-07-31)",
+      "The Information",
+      "GeekWire",
+      "CNBC(2026-02-27)",
+      "Fortune(2026-07-30)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "Amazonが、四半期報告書の中で静かに明かしました。OpenAIの株式、約5%を手に入れていたんです。", "source": "PYMNTS(2026-07-31)" },
+            { "speaker": "host", "text": "派手な発表会見はなかったの?" },
+            { "speaker": "analyst", "text": "はい、10-Qという書類での開示でした。今日はこの中身を整理してお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "Amazonが投じた総額は500億ドルです。" },
+            { "speaker": "host", "text": "とんでもない金額だね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "投資の内訳、当初の発表、AWSとの提携拡大まで話します。" },
+            { "speaker": "host", "text": "半年越しの話なんだよね?" },
+            { "speaker": "analyst", "text": "はい、その背景も丁寧に見ていきます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "開示の概要は?" },
+            { "speaker": "analyst", "text": "投資500億ドルが完了し、株式約5%を取得しました。", "source": "PYMNTS" },
+            { "speaker": "host", "text": "AWSとの提携も広がったんだよね?" },
+            { "speaker": "analyst", "text": "はい、1,000億ドル規模に拡大しています。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "投資の内訳を教えて。" },
+            { "speaker": "analyst", "text": "第1四半期150億ドル、第2四半期137億ドル、6月30日以降に213億ドルです。" },
+            { "speaker": "host", "text": "段階的に積み上げてきたんだね。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "取得した株式は?" },
+            { "speaker": "analyst", "text": "約5%です。主要株主の一角に加わりました。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "そもそもいつ発表されたの?" },
+            { "speaker": "analyst", "text": "2026年2月27日です。OpenAIの1,100億ドル規模の資金調達ラウンドの一部でした。", "source": "CNBC" },
+            { "speaker": "host", "text": "SoftBankやNVIDIAも参加してたんだよね?" },
+            { "speaker": "analyst", "text": "そうです。当時の評価額は7,300億ドルでした。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "3社の関係を図で教えて。" },
+            { "speaker": "analyst", "text": "出資とAWSの提携拡大がセットになっている関係です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "AWSとの提携拡大の中身は?" },
+            { "speaker": "analyst", "text": "既存契約に1,000億ドルを積み増し、Frontierプログラムの独占提供者になりました。", "source": "GeekWire" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "契約規模はどれくらい?" },
+            { "speaker": "analyst", "text": "8年間で1,000億ドル規模です。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "Andy Jassy氏はこう語っていました。『OpenAIは大きな勝者の一つになる』。", "source": "CNBC経由" },
+            { "speaker": "host", "text": "長期的な投資判断なんだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "流れをまとめると?" },
+            { "speaker": "analyst", "text": "2月発表、四半期ごとの投資、7月末に完了。半年足らずでした。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "FrontierとTrainiumって何?" },
+            { "speaker": "analyst", "text": "Frontierは企業向けAIエージェント基盤、TrainiumはAmazon独自のAIチップです。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "Trainiumの利用規模は?" },
+            { "speaker": "analyst", "text": "約2ギガワット分です。大規模データセンター数カ所分に相当する水準です。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "提携前後で何が変わったの?" },
+            { "speaker": "analyst", "text": "投資が完了し、株式約5%を保有、AWS契約も拡大しました。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、鮮度の話を確認したい。" },
+            { "speaker": "analyst", "text": "はい。この開示は着手日の2〜3日前で、これまでで最も鮮度が高いテーマの一つです。" },
+            { "speaker": "host", "text": "SEC提出書類が根拠なんだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "株式比率の算出根拠や、AWS契約の詳細な価格条件までは分かっていません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "Amazon全体の投資とはどう関係するの?" },
+            { "speaker": "analyst", "text": "Jassy氏は今年の設備投資が2,200億ドル規模になると述べています。", "source": "Fortune(2026-07-30)" },
+            { "speaker": "host", "text": "それでも需要を満たせないんだよね?" },
+            { "speaker": "analyst", "text": "そうです、その趣旨のコメントもありました。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "Amazon全体の設備投資は?" },
+            { "speaker": "analyst", "text": "2,200億ドル規模の見通しです。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "業界への影響は?" },
+            { "speaker": "analyst", "text": "クラウド大手の囲い込み競争、AIチップ活用契約の広がりが考えられます。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "この開示が示すことは?" },
+            { "speaker": "analyst", "text": "IPO準備の進展、クラウド事業への波及が考えられます。あくまで推測です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "結局、何が変わって何が変わってないの?" },
+            { "speaker": "analyst", "text": "投資は完了しましたが、IPOの時期や契約の詳細はまだ非公表です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "既存テーマとは違うの?" },
+            { "speaker": "analyst", "text": "はい、SEC提出書類が起点という点が、これまでのテーマとは異なります。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "学べることは?" },
+            { "speaker": "analyst", "text": "何が『最初の発表』で何が『今回完了した』のかを分けて確認する価値があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。投資総額500億ドル、株式約5%。Amazonが主要株主に加わりました。" },
+            { "speaker": "host", "text": "静かだけど大きな出来事だったね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "提携拡大時、Jassy氏はこうも語っています。『独自の協業でステートフルな実行環境を提供できる』。" },
+            { "speaker": "host", "text": "技術的な協業への期待も大きいんだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "OpenAIのIPO動向、他社の出資動向、Trainium活用の実績です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "これまでのテーマと合わせて見ると?" },
+            { "speaker": "analyst", "text": "AIをめぐる動きは、技術・投資・企業間関係と、複数の切り口から見えてきます。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマの総括です。AWS契約1,000億ドル規模。巨大テック企業同士の関係の深さがうかがえます。" },
+            { "speaker": "host", "text": "出資と事業提携がセットなんだね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "地味な開示ほど、丁寧に読み解く価値があります。ぜひ試してみてください。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
