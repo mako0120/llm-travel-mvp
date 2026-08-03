@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "引退を決めた男が、最後に選んだパートナーは彼女だった。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "時事ドットコム(2026-07-28)",
+      "時事ドットコム(2026-07-29)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "引退を決めた男が、最後に選んだパートナーは彼女でした。", "source": "時事ドットコム(2026-07-28)" },
+            { "speaker": "host", "text": "誰のこと?" },
+            { "speaker": "analyst", "text": "錦織圭選手と大坂なおみ選手です。今日はこの話題をお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず日程を教えて。" },
+            { "speaker": "analyst", "text": "本戦は8月25日・26日に予定されています。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "発表の内容、引退シーズンの背景、両選手の関係、コメントまでお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "何が発表されたの?" },
+            { "speaker": "analyst", "text": "全米オープン混合ダブルスに、錦織選手と大坂選手がペアでエントリーしました。", "source": "時事ドットコム" },
+            { "speaker": "host", "text": "錦織選手は引退するんだよね?" },
+            { "speaker": "analyst", "text": "はい、今季限りでの引退を表明しています。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "発表までの流れを図で教えて。" },
+            { "speaker": "analyst", "text": "引退表明、全米オープン出場、大坂選手とのペア結成、そしてエントリー発表という流れです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "予選は8月24日に予定されています。" },
+            { "speaker": "host", "text": "もうすぐだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "両選手のプロフィールを教えて。" },
+            { "speaker": "analyst", "text": "錦織選手はユニクロ所属で今季引退予定、大坂選手はフリーです。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "引退シーズンについてもう少し教えて。" },
+            { "speaker": "analyst", "text": "今回が、キャリア最後の四大大会出場の一つとなります。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "ペアの概要は?" },
+            { "speaker": "analyst", "text": "選手2人、大会、予選・本戦の日程。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "エントリー発表日は?" },
+            { "speaker": "analyst", "text": "2026年7月27日です。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "両選手の関係を図で教えて。" },
+            { "speaker": "analyst", "text": "大坂選手が錦織選手に憧れ、学び、それぞれの道を歩んだ末に、混合ダブルスでタッグを組みました。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "関係をもっと詳しく。" },
+            { "speaker": "analyst", "text": "大坂選手は錦織選手に憧れ、学んだ経緯があるとされています。", "source": "時事ドットコム(2026-07-29)" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "錦織選手のコメントは?" },
+            { "speaker": "analyst", "text": "『うれしい』『感謝しかない』『楽しんでやりたい』という3つの言葉です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "シングルスとダブルスを比べると?" },
+            { "speaker": "analyst", "text": "シングルスはキャリアの集大成、ダブルスは大坂選手との新たな共演です。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "発表からの経過は?" },
+            { "speaker": "analyst", "text": "着手日の7日前です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、大事な点を確認したい。" },
+            { "speaker": "analyst", "text": "はい。本ラウンドの調査時点では、試合はまだ行われていません。エントリー段階です。" },
+            { "speaker": "host", "text": "そこは大事だね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "全米オープンまでの流れを図で教えて。" },
+            { "speaker": "analyst", "text": "エントリー発表、予選、本戦開始、本戦継続という流れです。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "まとめ表を見せて。" },
+            { "speaker": "analyst", "text": "発表日、ペア、予選日、本戦日。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "鮮度について確認したい。" },
+            { "speaker": "analyst", "text": "発表は着手日の7日前です。試合結果はまだ出ていません。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで総括します。引退シーズンの錦織選手が、大坂選手と共に全米オープンの舞台に立とうとしています。" },
+            { "speaker": "host", "text": "感慨深いね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "予選・本戦の結果、引退セレモニー。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "似たテーマとの違いは?" },
+            { "speaker": "analyst", "text": "83本目・85本目・88本目とは異なる、テニスという競技の話題です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことを整理すると?" },
+            { "speaker": "analyst", "text": "エントリー発表・日程は確認済み、試合結果はまだ確認できません。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "公式エントリーリスト原文、過去のペア経験の有無、そして試合結果です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "錦織選手のコメントをもう一度教えて。" },
+            { "speaker": "analyst", "text": "『感謝しかない』という言葉が印象的です。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "この話題から見える論点は?" },
+            { "speaker": "analyst", "text": "引退シーズンの意味、世代を超えた共演、今後の注目点、この3点です。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一度、錦織選手の言葉です。『うれしい。なおみちゃんのおかげで、感謝しかない』。" },
+            { "speaker": "host", "text": "温かい言葉だね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "予選・本戦の結果、引退セレモニー、大坂選手の今後、この3点です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマを総括します。引退シーズンの、特別な一戦へ向かっています。" },
+            { "speaker": "host", "text": "続報が楽しみだね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "最後のコートで、2人はどんな景色を見るのでしょうか。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

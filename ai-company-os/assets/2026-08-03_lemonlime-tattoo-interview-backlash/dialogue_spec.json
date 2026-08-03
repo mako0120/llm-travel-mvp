@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "title": "面接と引き換えに、会社のロゴを体に刻んだ人がいる。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Fortune(2026-07-31)",
+      "Futurism",
+      "Complex",
+      "SF Standard(2026-07-30)",
+      "KRON4"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "面接と引き換えに、会社のロゴを体に刻んだ人がいます。", "source": "Fortune(2026-07-31)" },
+            { "speaker": "host", "text": "え、本当に?" },
+            { "speaker": "analyst", "text": "はい。今日はこの話題を、出典付きで整理してお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "実際に7人が、会社のロゴのタトゥーを入れました。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "企画の内容、批判の内容、CEOの謝罪、今後の対応までお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "何が起きたの?" },
+            { "speaker": "analyst", "text": "YC出資のAIスタートアップLemonLimeのCEOが、パーティーで企画を持ちかけました。", "source": "SF Standard" },
+            { "speaker": "host", "text": "どんな企画?" },
+            { "speaker": "analyst", "text": "ロゴのタトゥーを入れれば、面接の機会を提供するというものです。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "炎上までの流れを図で教えて。" },
+            { "speaker": "analyst", "text": "企画の提案、7人がタトゥー、LinkedIn投稿、そして批判殺到という流れです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "企画の趣旨はこうでした。『会社のロゴのタトゥーを入れれば、面接の機会を提供する』。" },
+            { "speaker": "host", "text": "かなり大胆な企画だね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "企画の内容を整理すると?" },
+            { "speaker": "analyst", "text": "提案者、場所、条件。この3点です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "どんな批判が起きたの?" },
+            { "speaker": "analyst", "text": "就活生の切実さにつけ込んでいるという指摘が中心でした。", "source": "Futurism" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "SNSでは、あるドラマ作品との比較が拡散しました。『Black Mirror』のようだと。" },
+            { "speaker": "host", "text": "強烈な例えだね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "関係者の反応を整理すると?" },
+            { "speaker": "analyst", "text": "CEOは謝罪、SNSは強い批判、タトゥーを入れた7人の反応は未確認です。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "炎上の広がり方を図で教えて。" },
+            { "speaker": "analyst", "text": "投稿、批判、報道、謝罪という4段階です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "CEOの謝罪を詳しく教えて。" },
+            { "speaker": "analyst", "text": "7月30日にLinkedInで謝罪し、元の投稿を削除しました。", "source": "KRON4" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "謝罪の言葉です。『調子に乗ってしまい、間違っていた』。" },
+            { "speaker": "host", "text": "率直な言葉だね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "今後の対応は?" },
+            { "speaker": "analyst", "text": "レーザー除去費用を負担する意向を示しています。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "企画時の意図と実際の批判を比べると?" },
+            { "speaker": "analyst", "text": "話題性狙いの意図と、就活生への圧力という批判、大きな差がありました。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "謝罪日は?" },
+            { "speaker": "analyst", "text": "2026年7月30日、着手日の4日前です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、中立性について補足はある?" },
+            { "speaker": "analyst", "text": "はい。AI業界全体を批判せず、個別の出来事として扱い、CEO個人への人格攻撃も避けています。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "就活生の状況を図で教えて。" },
+            { "speaker": "analyst", "text": "厳しい就職活動環境、切実な期待、異例の条件、この構図が批判の核心です。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "まとめ表を見せて。" },
+            { "speaker": "analyst", "text": "企業名、人数、謝罪日、今後の対応。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "鮮度について確認したい。" },
+            { "speaker": "analyst", "text": "謝罪は着手日の4日前です。非常に新しい話題として扱っています。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで総括します。企画から謝罪まで、短期間で話が大きく進みました。" },
+            { "speaker": "host", "text": "スピード感のある展開だったね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "除去費用負担の実施状況、面接実施の有無。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "似たテーマとの違いは?" },
+            { "speaker": "analyst", "text": "82本目とは異なる、採用活動をめぐる炎上という切り口です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことを整理すると?" },
+            { "speaker": "analyst", "text": "企画の内容・謝罪は確認済み、7人のその後は未確認です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "元投稿の原文、7人のその後、除去費用負担の実施状況です。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "LemonLimeとYCの関係は?" },
+            { "speaker": "analyst", "text": "Y Combinatorが出資するAIスタートアップです。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "この件から見える論点は?" },
+            { "speaker": "analyst", "text": "採用活動の倫理、企業文化、対応の速さ、この3点です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一度、CEOの謝罪の言葉です。『その立場に置いてしまった人たちに謝罪する』。" },
+            { "speaker": "host", "text": "率直な謝罪だったね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "除去費用負担の実施、正式な対応、業界の議論、この3点です。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "会社への忠誠は、体に刻むものではないはずです。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
