@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "title": "ChatGPTの利用者が、静かに10億人を超えたかもしれない。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "The Information(2026-07-29)",
+      "PYMNTS",
+      "Memeburn",
+      "Gurufocus",
+      "Search Engine Land(2026-02-27)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "ChatGPTの週間利用者数が、10億人に迫っているという報道がありました。", "source": "The Information(2026-07-29)" },
+            { "speaker": "host", "text": "本当に10億人?" },
+            { "speaker": "analyst", "text": "実は、OpenAI自身はまだこの数字を認めていません。今日はそこも含めて丁寧にお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "『10億人に迫る』という報道ですが、OpenAI公式では未確認です。" },
+            { "speaker": "host", "text": "未確認なんだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "報道の中身、これまでの推移、競合との比較まで話します。" },
+            { "speaker": "host", "text": "未確認の情報を扱うのは慎重にね。" },
+            { "speaker": "analyst", "text": "はい、その姿勢を大事にします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "報道の概要は?" },
+            { "speaker": "analyst", "text": "OpenAIは2025年末までに10億人到達を内部目標にしていたとされます。", "source": "The Information" },
+            { "speaker": "host", "text": "遅れてるってこと?" },
+            { "speaker": "analyst", "text": "報道が事実なら、約7ヶ月遅れです。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "直近の公式発表は?" },
+            { "speaker": "analyst", "text": "2月時点で9億人超でした。" },
+            { "speaker": "host", "text": "そこからの推測が今回の報道なんだね。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "推移を教えて。" },
+            { "speaker": "analyst", "text": "去年2月は4億人、今年2月に9億人超、そして7月に10億人に迫るとの報道です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "『未確認』の意味を詳しく教えて。" },
+            { "speaker": "analyst", "text": "OpenAI自身の発表はなく、報道機関の引用にとどまっています。", "source": "PYMNTS" },
+            { "speaker": "host", "text": "具体的な数字も分からないんだよね?" },
+            { "speaker": "analyst", "text": "はい、何億何千万人かまでは分かっていません。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "報道の広がり方を図で教えて。" },
+            { "speaker": "analyst", "text": "The Informationの報道を、他の媒体が転載・紹介している状態です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "報道の趣旨はこうです。『内部目標より約7ヶ月遅れ』。" },
+            { "speaker": "host", "text": "目標自体も報道ベースなんだよね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "推移をまとめると?" },
+            { "speaker": "analyst", "text": "4億人、9億人超、そして10億人に迫るという未確認情報。この3段階です。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "競合サービスは?" },
+            { "speaker": "analyst", "text": "Gemini月間9億人超、Copilot4.2億人、Meta AI月間12億人です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "Meta AIが一番多いの?" },
+            { "speaker": "analyst", "text": "単純比較はできません。Meta AIは月間の数字ですから。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "週間と月間の違いを教えて。" },
+            { "speaker": "analyst", "text": "週間は直近7日間、月間は直近30日間の利用者数です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "単純比較の落とし穴は?" },
+            { "speaker": "analyst", "text": "単位を揃えず比較すると、誤った印象を持ってしまいます。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "内部目標との差は?" },
+            { "speaker": "analyst", "text": "約7ヶ月です。ただしこれも報道が前提の試算です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、鮮度の話を確認したい。" },
+            { "speaker": "analyst", "text": "はい。この報道は着手日の5日前で、基準にはわずかに届きません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "具体的な数値や、OpenAIが今後確認する時期までは分かっていません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "一番伝えたいことは?" },
+            { "speaker": "analyst", "text": "『10億人』はまだOpenAI自身が認めた事実ではない、という点です。" },
+            { "speaker": "host", "text": "見出しにも『かもしれない』とあったね。" },
+            { "speaker": "analyst", "text": "はい、あえてその留保を残しています。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "この報道の背景は?" },
+            { "speaker": "analyst", "text": "2月の9億人発表は、1,100億ドルの資金調達と同時でした。76本目のAmazon投資もその一部です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "業界への影響は?" },
+            { "speaker": "analyst", "text": "利用者数指標の重要性、公式発表までのタイムラグが考えられます。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "この報道が示すことは?" },
+            { "speaker": "analyst", "text": "成長ペースの鈍化、競争環境の激化が考えられます。あくまで推測です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "結局、何が変わって何が変わってないの?" },
+            { "speaker": "analyst", "text": "報道はありましたが、公式確認という点ではまだ変わっていません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "76本目とはどう関係するの?" },
+            { "speaker": "analyst", "text": "同じ2月の発表が起点ですが、扱う内容は投資と利用者数で異なります。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "学べることは?" },
+            { "speaker": "analyst", "text": "公式発表か報道段階か、単位が揃っているかを見分ける姿勢が大切です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。10億人に迫るという報道はありましたが、OpenAIはまだ認めていません。" },
+            { "speaker": "host", "text": "その点を忘れずにいたいね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一度。『OpenAIはこの水準への到達を公式には確認していない』。" },
+            { "speaker": "host", "text": "バズる数字の裏にある事実だね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "OpenAIの公式発表、競合の追随、有料転換率の動向です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "77・78本目と合わせて見ると?" },
+            { "speaker": "analyst", "text": "確定した事実と、まだ確認段階の情報が入り混じっていることが分かります。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマの総括です。10億人という数字は魅力的ですが、まだ報道段階です。" },
+            { "speaker": "host", "text": "冷静に見る視点が大事だね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "バズる数字ほど、まだ確定していないかを確認してみてください。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

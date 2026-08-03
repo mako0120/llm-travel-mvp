@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "title": "背表紙を切り落とし、原本を捨てる。それを裁判所は「合法」と認めた。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Fortune(2026-07-31)",
+      "GIGAZINE(2026-07-28)",
+      "NPR(2025-09-05)",
+      "Akin Gump",
+      "Authors Guild"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "本を裁断機にかけ、ページをスキャンし、原本を捨てる。そんな取り組みが、改めて話題になりました。", "source": "Fortune(2026-07-31)" },
+            { "speaker": "host", "text": "それって違法じゃないの?" },
+            { "speaker": "analyst", "text": "実は、この行為自体は裁判所が『合法』と判断しています。今日はこの複雑な話を整理します。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "15億ドル。ただしこれは別の論点についての和解金です。", "source": "NPR" },
+            { "speaker": "host", "text": "別の論点?" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "経緯、3つの法的論点、著名人の反応、Anthropicの反論まで話します。" },
+            { "speaker": "host", "text": "法的な整理が今日のポイントなんだね。" },
+            { "speaker": "analyst", "text": "はい、そこが一番大事です。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "Project Panamaって何?" },
+            { "speaker": "analyst", "text": "Anthropicが中古書籍を購入し、背表紙を切り落としてスキャンし、原本を廃棄する取り組みです。", "source": "GIGAZINE" },
+            { "speaker": "host", "text": "去年の夏に発覚した話なんだよね?" },
+            { "speaker": "analyst", "text": "はい、訴訟の資料で明るみに出ました。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "流れを図で教えて。" },
+            { "speaker": "analyst", "text": "購入、裁断・スキャン、そして原本廃棄という流れです。裁判所はこれを『置き換え』と判断しました。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "3つの論点を教えて。" },
+            { "speaker": "analyst", "text": "AI学習利用は適法、破壊的スキャンも適法、海賊版データの利用は違法。この3つです。", "source": "Akin Gump" },
+            { "speaker": "host", "text": "破壊的スキャン自体は適法なんだ。" },
+            { "speaker": "analyst", "text": "そうです、ここが誤解されやすいポイントです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "なぜ適法とされたの?" },
+            { "speaker": "analyst", "text": "購入した印刷本をデジタル版に置き換えただけ、と判断されたからです。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "和解金の単価は?" },
+            { "speaker": "analyst", "text": "1点あたり約3,000ドルです。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "2つの論点を整理すると?" },
+            { "speaker": "analyst", "text": "破壊的スキャンは適法、海賊版データの利用は違法で和解済み。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "Michael Burry氏はこう言っています。『Evil incarnate(悪の化身)』。" },
+            { "speaker": "host", "text": "強い言葉だね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "話題が広がった理由は?" },
+            { "speaker": "analyst", "text": "古書店主の証言、著名投資家・起業家の反応、この3つです。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "Elon Musk氏も、丁寧な保存方法を求めるコメントをしています。" },
+            { "speaker": "host", "text": "希少本への懸念だね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "再燃のきっかけを図で教えて。" },
+            { "speaker": "analyst", "text": "オランダの古書店主への取材記事がきっかけです。根本の話は1年近く前です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "一方でAnthropicは、『希少本を狙って破棄するプログラムはない』と反論しています。" },
+            { "speaker": "host", "text": "両方の声を聞くのが大事だね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "批判とAnthropicの反論を並べると?" },
+            { "speaker": "analyst", "text": "どちらかに肩入れせず、事実として両方お伝えします。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、鮮度の話を確認したい。" },
+            { "speaker": "analyst", "text": "はい。根本の話は去年の夏ですが、続報は着手日の3〜6日前です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "実際に破棄された冊数や、希少本が含まれていたかまでは分かっていません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "公平性について補足はある?" },
+            { "speaker": "analyst", "text": "はい。私たちはAnthropicのClaudeで動いているので、批判・擁護どちらにも偏らないよう配慮しています。" },
+            { "speaker": "host", "text": "論点を混同しないことも大事なんだね。" },
+            { "speaker": "analyst", "text": "そうです、そこは特に注意しました。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "判断が下されたのはいつ?" },
+            { "speaker": "analyst", "text": "2025年6月23日です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "時系列を教えて。" },
+            { "speaker": "analyst", "text": "2025年夏に発覚、6月に判断、9月に和解合意、そして2026年7月に最終承認と再燃です。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "この話題が示すことは?" },
+            { "speaker": "analyst", "text": "AI学習データの調達方法への関心の高まりが考えられます。あくまで推測です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "結局、何が変わって何が変わってないの?" },
+            { "speaker": "analyst", "text": "話題は再燃しましたが、法的判断や公式見解自体は変わっていません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "77本目とはどう違うの?" },
+            { "speaker": "analyst", "text": "同じAnthropicですが、安全性と著作権という全く別の論点です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "学べることは?" },
+            { "speaker": "analyst", "text": "『違法』『合法』という言葉ほど、どの論点かを確認する価値があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。破壊的スキャンは適法、海賊版データの利用は違法で和解済みです。" },
+            { "speaker": "host", "text": "2つを混同しないことが大事だね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一つ。古書店主は『一種の野蛮さ』と表現しました。" },
+            { "speaker": "host", "text": "事実と意見、両方を心に留めておきたいね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "和解金の分配状況、他社の同様の慣行、希少本をめぐる議論の行方です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "79本目と合わせて見ると?" },
+            { "speaker": "analyst", "text": "どちらも、バズる話題ほど丁寧な事実確認が大切だと分かるテーマでした。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマの総括です。2つの異なる論点を混同せず、批判と反論の両方を公平に紹介してきました。" },
+            { "speaker": "host", "text": "複雑な話題を整理できたね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "『違法』『合法』という言葉ほど、どの論点についてかを確認してみてください。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
