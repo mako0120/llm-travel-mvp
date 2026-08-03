@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "title": "あなたの「7iD」は、今日から別の名前になる。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "日本経済新聞(2026-07-31)",
+      "ITmedia NEWS(2026-07-31)",
+      "Impress Watch",
+      "ケータイWatch",
+      "ITmedia Mobile(2026-08-01)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "セブン-イレブンの会員証『7iD』、実はこれから名前が変わります。", "source": "ITmedia NEWS(2026-07-31)" },
+            { "speaker": "host", "text": "え、そうなの?" },
+            { "speaker": "analyst", "text": "セブン&アイが、3,000億円の出資と引き換えに、大きな決断をしました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "3社からの出資総額は3,000億円です。", "source": "日本経済新聞" },
+            { "speaker": "host", "text": "大きな金額だね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "出資の中身、7iDの行方、AI活用の話まで整理します。" },
+            { "speaker": "host", "text": "身近な話なんだね。" },
+            { "speaker": "analyst", "text": "はい、コンビニの会員証の話です。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "発表の概要は?" },
+            { "speaker": "analyst", "text": "ソフトバンク・PayPay・三井住友カードから3,000億円を受け入れました。", "source": "日本経済新聞" },
+            { "speaker": "host", "text": "自社株買いも同時にあったんだよね?" },
+            { "speaker": "analyst", "text": "はい、上限4,000億円の自社株買いも発表されています。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "出資した3社を教えて。" },
+            { "speaker": "analyst", "text": "ソフトバンク、PayPay、三井住友カード、それぞれ1,000億円ずつです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "7iDはどうなるの?" },
+            { "speaker": "analyst", "text": "PayPay IDに統合されます。" },
+            { "speaker": "host", "text": "1億人超の経済圏になるんだよね?" },
+            { "speaker": "analyst", "text": "はい、単純合算でその規模になります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "ポイントも変わるの?" },
+            { "speaker": "analyst", "text": "セブンマイルに代わって、PayPayポイントやVポイントが使えるようになります。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "統合後の規模は?" },
+            { "speaker": "analyst", "text": "単純合算で1億人超、国内最大級のポイント経済圏です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "PayPayの中山社長はこう語っています。『膨大なデータをAIエンジンに学習させ、最適な提案をしたい』。", "source": "ケータイWatch" },
+            { "speaker": "host", "text": "データ活用がAIの狙いなんだね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "出資の内訳を教えて。" },
+            { "speaker": "analyst", "text": "各社2.27%程度の株主に。自己株式を割り当てる方式です。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "AI・ロボット活用の中身は?" },
+            { "speaker": "analyst", "text": "清掃、商品補充、データ分析、この3つの領域が検討されています。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "データの規模感を教えて。" },
+            { "speaker": "analyst", "text": "セブン-イレブン2.2万店・1日200万人、PayPay利用者7,500万人・1日3,000万件です。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "セブン&アイのデイカスCEOも語っています。『リアルとデジタルがシームレスにつながる体験を』。" },
+            { "speaker": "host", "text": "両社とも前向きな姿勢だね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "自社株買いの規模は?" },
+            { "speaker": "analyst", "text": "上限4,000億円、8月3日に実施されます。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "今後のスケジュールは?" },
+            { "speaker": "analyst", "text": "7月31日発表、8月3日自社株買い実施、8月中旬に出資払込完了予定です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ポイントプログラムの変化を整理すると?" },
+            { "speaker": "analyst", "text": "7iD・セブンマイルから、PayPay ID・PayPayポイントへ、という大きな変化です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、鮮度の話を確認したい。" },
+            { "speaker": "analyst", "text": "はい。この発表は着手日の3日前で、ここ数サイクルの中では高い鮮度です。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "AI・ロボットの具体的な導入時期や、出資比率の算出根拠までは分かっていません。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "AI活用について補足はある?" },
+            { "speaker": "analyst", "text": "はい、まだ『検討』段階であり、導入が確定した事実ではありません。" },
+            { "speaker": "host", "text": "断定はしていないんだね。" },
+            { "speaker": "analyst", "text": "はい、続報を待つ必要があります。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "セブン-イレブンの規模は?" },
+            { "speaker": "analyst", "text": "全国2万2,000店、1日200万人が来店する規模です。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "この提携が示すことは?" },
+            { "speaker": "analyst", "text": "小売業界のデータ活用競争、店舗業務のAI化の広がりが考えられます。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "自社株買いとの関係は?" },
+            { "speaker": "analyst", "text": "既存の2兆円規模の方針の一部と位置づけられます。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "結局、何が変わって何が変わってないの?" },
+            { "speaker": "analyst", "text": "会員基盤は統合されますが、AI・ロボットの導入時期はまだ未定です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "既存テーマとは違うの?" },
+            { "speaker": "analyst", "text": "はい、国内の身近なコンビニを扱う切り口は初めてです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "学べることは?" },
+            { "speaker": "analyst", "text": "身近な変化ほど、いつ・どう変わるかを確認する価値があります。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。出資総額3,000億円、統合後のID数は1億人超です。" },
+            { "speaker": "host", "text": "身近なコンビニが大きく変わろうとしてるんだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "PayPay中山社長はこうも語っています。『長期的な顧客生涯価値の向上を目指す』。" },
+            { "speaker": "host", "text": "目先だけじゃない狙いがあるんだね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "ポイント移行の詳細、AI・ロボット導入の実態、他社の追随です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "今回の2テーマを振り返ると?" },
+            { "speaker": "analyst", "text": "海外のAI安全性の話題と、国内の身近な企業のAI活用。両方でAIが重要なキーワードでした。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "身近なサービスの変化ほど、丁寧に確認してみてください。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
