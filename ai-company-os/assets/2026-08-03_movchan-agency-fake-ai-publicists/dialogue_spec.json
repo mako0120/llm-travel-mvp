@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "title": "その広報担当者は、存在しない人間だった。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Futurism(2026-08-03)",
+      "Tech.eu(2026-08-03)",
+      "AI Weekly",
+      "Yahoo News",
+      "COINTURK FINANCE"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "あなたに営業メールを送ってきたその担当者は、実在しない人間だったかもしれません。", "source": "Futurism(2026-08-03)" },
+            { "speaker": "host", "text": "え、AIが人になりすましていたってこと?" },
+            { "speaker": "analyst", "text": "はい。今日はこの話題を、出典付きで整理してお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "少なくとも15人。AI生成の顔写真・経歴を持つ架空の広報担当者が確認されました。" },
+            { "speaker": "host", "text": "15人分も作っていたんだ。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "発覚の経緯、AI検出結果、PR会社側の説明、クライアントの反応までお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "何が発覚したの?" },
+            { "speaker": "analyst", "text": "英国のPR会社Movchan Agencyが、架空の担当者を使ってジャーナリストへ営業メールを送っていました。", "source": "Futurism" },
+            { "speaker": "host", "text": "調べたのは誰?" },
+            { "speaker": "analyst", "text": "Futurismの記者、Maggie Harrison Dupré氏です。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "発覚までの流れを図で教えて。" },
+            { "speaker": "analyst", "text": "架空の担当者を作成、営業メール送付、記者が違和感に気づき、AI検出ツールで検証・報道という流れです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "AI検出ツールPangramでの判定結果は100%でした。" },
+            { "speaker": "host", "text": "完全にAI生成だったんだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "架空の担当者にはどんな特徴があったの?" },
+            { "speaker": "analyst", "text": "AI生成の顔写真、作られた経歴、実在しそうな名前。この3点です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "創業者はこう説明しています。『Gmailの配信性への一時的な対応だった。判断が甘かった』。" },
+            { "speaker": "host", "text": "自ら認めているんだね。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "説明をもう少し詳しく教えて。" },
+            { "speaker": "analyst", "text": "Gmailの配信性更新でドメインの評判に問題が生じ、ウォームアップ済みドメインを購入した、という説明です。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "関係者の反応を整理すると?" },
+            { "speaker": "analyst", "text": "PR会社は運用縮小を説明、クライアントは無断だったと説明、記者が検証・報道しました。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "報道はいつ?" },
+            { "speaker": "analyst", "text": "2026年8月3日、まさに今日です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "なぜこれが問題なの?" },
+            { "speaker": "analyst", "text": "信頼の前提が崩れる、取材相手が実在しない、ジャーナリズムの土台に関わる。この整理です。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "クライアント企業の反応は?" },
+            { "speaker": "analyst", "text": "知らされていなかった、了承していなかったと説明しています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "似た話題は他にもあるの?" },
+            { "speaker": "analyst", "text": "別のPR会社の盗用疑惑や、AIエージェントが記者を装った報道もありますが、いずれも別の事案です。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "説明と受け止められ方を比べると?" },
+            { "speaker": "analyst", "text": "会社側は一時的な対応と説明、外部からは裏切りだという指摘があります。両方お伝えします。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "架空の名義の例は?" },
+            { "speaker": "analyst", "text": "『June Barton』という名前も、実在しない人物のものでした。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、公平性について補足はある?" },
+            { "speaker": "analyst", "text": "はい。本テーマは特定のAI企業を批判する内容ではなく、問題視されているのはなりすましという使い方です。" },
+            { "speaker": "host", "text": "AI技術そのものが悪いわけじゃないんだね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "信頼が崩れる仕組みを図で教えて。" },
+            { "speaker": "analyst", "text": "架空の人物を作り、実在するかのように振る舞い、相手が信頼して対応し、発覚時に信頼が崩れる。この4段階です。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "まとめ表を見せて。" },
+            { "speaker": "analyst", "text": "PR会社名、担当者数、報道日、AI検出結果、この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "鮮度について確認したい。" },
+            { "speaker": "analyst", "text": "報道は着手日当日です。非常に新しい話題として扱っています。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで総括します。少なくとも15人分の架空の担当者が、記者の調査とAI検出ツールで発覚しました。" },
+            { "speaker": "host", "text": "地道な調査で明らかになったんだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "運用縮小の状況、他社への波及、業界の対応策。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "似たテーマとの違いは?" },
+            { "speaker": "analyst", "text": "70本目・77本目とは異なる、PR・メディア業界でのなりすまし問題という切り口です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "問題視されていること・いないことを整理すると?" },
+            { "speaker": "analyst", "text": "なりすましと無断利用が問題視されており、AI技術そのものではありません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "元記事全文、正確な人数、他社への波及有無、クライアント名。これらは確認できていません。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "PR会社の対応は?" },
+            { "speaker": "analyst", "text": "運用を縮小すると説明しています。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一度。創業者自身の言葉です。『判断が甘かった』。" },
+            { "speaker": "host", "text": "率直な言葉だね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "運用縮小の実施、他社への波及、業界のルール整備、この3点です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "その広報担当者は、存在しない人間だった。この意外な事実をお伝えしました。" },
+            { "speaker": "host", "text": "身近な話として考えさせられるね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "次に届く営業メール、その相手は本当に実在しますか。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
