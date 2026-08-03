@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "元チームメートが、マウンドとバッターボックスで向き合った。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "福井新聞ONLINE(2026-08-02)",
+      "MLB.com日本版"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "かつてのチームメートが、マウンドとバッターボックスで向き合いました。", "source": "福井新聞ONLINE(2026-08-02)" },
+            { "speaker": "host", "text": "誰と誰?" },
+            { "speaker": "analyst", "text": "山本由伸投手と吉田正尚選手です。今日はこの話題をお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず結果を教えて。" },
+            { "speaker": "analyst", "text": "山本投手が、吉田選手を3打数無安打に抑えました。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "対決の経緯、結果、両選手の関係、試合全体の結果までお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "何が起きたの?" },
+            { "speaker": "analyst", "text": "ドジャース対レッドソックス戦で、両選手が直接対決しました。", "source": "福井新聞ONLINE" },
+            { "speaker": "host", "text": "元チームメートなんだよね?" },
+            { "speaker": "analyst", "text": "はい、共に元オリックス・バファローズ所属です。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "対決までの流れを図で教えて。" },
+            { "speaker": "analyst", "text": "オリックスでの同僚関係から、それぞれMLBへ移籍し、今回対決という流れです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "山本投手は8回4安打3失点という力投を見せました。" },
+            { "speaker": "host", "text": "頑張ったんだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "吉田選手の打席内容は?" },
+            { "speaker": "analyst", "text": "見逃し三振、中飛、一ゴロでした。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "対決の結果を詳しく教えて。" },
+            { "speaker": "analyst", "text": "吉田選手は3打数無安打、山本投手が個人対決では上回りました。", "source": "MLB.com日本版" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "対決の概要は?" },
+            { "speaker": "analyst", "text": "対戦日、カード、両選手の成績。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "試合全体の結果は?" },
+            { "speaker": "analyst", "text": "レッドソックスが2対3で勝利しました。" },
+            { "speaker": "host", "text": "山本投手は好投したのに?" },
+            { "speaker": "analyst", "text": "はい、個人対決とチーム結果は別だったということです。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "両選手のこれまでの関係を図で教えて。" },
+            { "speaker": "analyst", "text": "共にオリックス所属、チームメート、それぞれMLBへ、そして敵味方として再会という流れです。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "山本投手の成績への影響は?" },
+            { "speaker": "analyst", "text": "この敗戦で7敗目、通算11勝7敗となりました。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "なぜこの対決が注目されるの?" },
+            { "speaker": "analyst", "text": "元チームメート、投手対打者、MLBでの再会。この3点です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "個人対決とチーム結果を比べると?" },
+            { "speaker": "analyst", "text": "個人では山本投手が上回り、チームではレッドソックスが勝利しました。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "対戦日は?" },
+            { "speaker": "analyst", "text": "2026年8月2日、着手日の1日前です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、中立性について補足はある?" },
+            { "speaker": "analyst", "text": "はい。両チーム・両選手どちらか一方を過度に持ち上げる内容ではありません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "投手対打者の対決構図を図で教えて。" },
+            { "speaker": "analyst", "text": "山本投手が3球種を駆使し、吉田選手を3打数無安打に抑えました。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "まとめ表を見せて。" },
+            { "speaker": "analyst", "text": "対戦日、個人対決の結果、試合結果、通算成績。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "鮮度について確認したい。" },
+            { "speaker": "analyst", "text": "対戦は着手日の1日前です。非常に新しい話題として扱っています。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで総括します。個人対決では山本投手が上回りましたが、チームは敗れました。" },
+            { "speaker": "host", "text": "複雑な結果だったんだね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "両選手の今後の活躍、再戦の機会。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "似たテーマとの違いは?" },
+            { "speaker": "analyst", "text": "83本目・85本目とは競技も選手も異なる、野球の対決という切り口です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことを整理すると?" },
+            { "speaker": "analyst", "text": "対決の結果は確認済み、試合前後の詳しい会話内容は未確認です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "詳しい会話内容、オリックス時代のエピソード、公式戦初対決かどうかです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "山本投手の通算成績は?" },
+            { "speaker": "analyst", "text": "この試合を含め、11勝7敗です。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "両選手のプロフィールは?" },
+            { "speaker": "analyst", "text": "山本投手はドジャース、吉田選手はレッドソックス所属です。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一度、この対決を報じた記事の見出しです。『元オリックス対決、吉田正尚vs山本由伸の軍配は』。" },
+            { "speaker": "host", "text": "印象的な見出しだね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "両選手の今後の成績、再戦の機会、日本代表での共演、この3点です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "元チームメートが、マウンドとバッターボックスで向き合った。この話題をお伝えしました。" },
+            { "speaker": "host", "text": "感慨深い一戦だったね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "かつての仲間との対決は、これからも続きます。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

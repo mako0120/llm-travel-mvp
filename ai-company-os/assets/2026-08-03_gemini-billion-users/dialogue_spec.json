@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "気づけば、もう1つのAIも10億人に迫っていた。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-07-23)",
+      "Business Standard",
+      "demandsage",
+      "fatjoe"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "気づけば、もう1つのAIアシスタントも10億人に迫っていました。", "source": "TechCrunch(2026-07-23)" },
+            { "speaker": "host", "text": "え、ChatGPTだけじゃないの?" },
+            { "speaker": "analyst", "text": "はい、今日はこの話題を、出典付きで整理してお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "Geminiの月間利用者数は、9億5,000万人を超えました。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "発表の内容、79本目との違い、業界全体の競争までお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "何が発表されたの?" },
+            { "speaker": "analyst", "text": "Googleが決算発表で、Geminiが前年から3倍に成長したと説明しました。", "source": "TechCrunch" },
+            { "speaker": "host", "text": "公式な発表なんだね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "成長の流れを図で教えて。" },
+            { "speaker": "analyst", "text": "前年の利用者数から3倍に増加し、9.5億人に到達、10億人に接近という流れです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "前年からの成長率は3倍でした。" },
+            { "speaker": "host", "text": "1年でそんなに伸びたんだ。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "79本目のChatGPTの話とは違うの?" },
+            { "speaker": "analyst", "text": "はい、対象企業・指標・情報源、いずれも異なります。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "Geminiの特徴は?" },
+            { "speaker": "analyst", "text": "Google提供で、検索やAndroidと連携し、急成長しているという点です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "混同しないための違いをもう少し詳しく。" },
+            { "speaker": "analyst", "text": "79本目は未確認の報道ベース、本テーマはGoogle自身の公式発表です。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "10億人まであとどれくらい?" },
+            { "speaker": "analyst", "text": "約5,000万人です。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "競争する主要なAIアシスタントは?" },
+            { "speaker": "analyst", "text": "ChatGPT、Gemini、Claude、それぞれ急成長中です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "業界全体ではどんな状況?" },
+            { "speaker": "analyst", "text": "複数のAI企業が同時に大規模な利用者数を獲得している状況です。", "source": "demandsage" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "3社の規模感を教えて。" },
+            { "speaker": "analyst", "text": "ChatGPTは10億人規模、Geminiは9.5億人超、Claudeも急成長中です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "未確認情報と公式発表を比べると?" },
+            { "speaker": "analyst", "text": "79本目は非公式の報道ベース、本テーマはGoogleの公式決算発表です。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "報道日は?" },
+            { "speaker": "analyst", "text": "2026年7月23日、着手日の11日前です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、鮮度について確認したい。" },
+            { "speaker": "analyst", "text": "はい、正直にお伝えします。11日前とやや古い報道です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "成長の理由は?" },
+            { "speaker": "analyst", "text": "Googleサービスとの統合が推測されますが、あくまで推測です。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "まとめ表を見せて。" },
+            { "speaker": "analyst", "text": "提供元、月間利用者数、前年比、報道日。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "決算発表原文、利用者内訳、10億人到達の確定報道です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで総括します。Geminiは9.5億人から、さらに10億人へと迫っています。" },
+            { "speaker": "host", "text": "すごい勢いだね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "10億人到達の続報、他社の対抗策。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "似たテーマとの違いは?" },
+            { "speaker": "analyst", "text": "79本目とは異なる、複数社が同時に迫る業界トレンドという切り口です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことを整理すると?" },
+            { "speaker": "analyst", "text": "9.5億人という数字は確認済み、決算発表原文全体は未確認です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "10億人突破のタイミング、他社との競争、次の決算発表、この3点です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "Claudeの成長についても教えて。" },
+            { "speaker": "analyst", "text": "本パイプラインが使うClaudeも、同時期に大きく成長しています。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "3社を比較すると?" },
+            { "speaker": "analyst", "text": "ChatGPT、Gemini、Claude、それぞれ規模感が異なります。情報源の性質にも注意が必要です。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一度、この報道の核心です。『Geminiの利用者数は、前年から3倍に増加した』。" },
+            { "speaker": "host", "text": "印象的な数字だね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "業界全体の変化は?" },
+            { "speaker": "analyst", "text": "単一のAIの時代から、複数社が並び立つ時代へと変化しています。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "気づけば、もう1つのAIも10億人に迫っていた。この話題をお伝えしました。" },
+            { "speaker": "host", "text": "AI業界の勢いを感じたね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "10億人の座は、1つではないのかもしれません。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
