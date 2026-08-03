@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "title": "「なぜ、子どもに直接話しかけないの?」——AI CEOへの一言が拡散した。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "The AI Insider(2026-08-03)",
+      "Android Headlines(2026-08-03)",
+      "Archyde",
+      "Storyboard18",
+      "IBTimes Australia"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "AI企業のCEOが投稿した、ある提案が炎上しました。", "source": "The AI Insider(2026-08-03)" },
+            { "speaker": "host", "text": "何を提案したの?" },
+            { "speaker": "analyst", "text": "今日はこの話題を、出典付きで整理してお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "誰の投稿?" },
+            { "speaker": "analyst", "text": "OpenAIのCEO、Sam Altman氏です。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "提案の内容、巻き起こった批判、最も拡散した反論、肯定的な意見までお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "何が提案されたの?" },
+            { "speaker": "analyst", "text": "ChatGPT Workの活用例として、家族の予定を同期し、送迎中に流す『朝のポッドキャスト』の自動生成が提案されました。", "source": "The AI Insider" },
+            { "speaker": "host", "text": "なるほど、便利そうだけど……" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "炎上までの流れを図で教えて。" },
+            { "speaker": "analyst", "text": "投稿、批判の拡大、著名人の反論、そしてその反論がさらに拡散という流れです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "提案の趣旨はこうです。『子どもの活動・予定・ニュースをまとめた朝のポッドキャストを、送迎中に流せる』。" },
+            { "speaker": "host", "text": "効率的ではあるね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "提案の内容を整理すると?" },
+            { "speaker": "analyst", "text": "対象製品、想定シーン、生成する内容。この3点です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "どんな批判が起きたの?" },
+            { "speaker": "analyst", "text": "送迎中は親子の貴重な会話の機会だという指摘や、プライバシーへの懸念です。", "source": "Storyboard18" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "最も拡散したのはこの一言です。『なぜ親は子どもに直接話しかけないのか』。" },
+            { "speaker": "host", "text": "誰の言葉?" },
+            { "speaker": "analyst", "text": "『Gravity Falls』の制作者、Alex Hirsch氏です。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "この反論、どれくらい広がったの?" },
+            { "speaker": "analyst", "text": "Altman氏の元投稿よりも高いエンゲージメントを集めました。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "賛否を整理すると?" },
+            { "speaker": "analyst", "text": "批判的な意見、肯定的な意見、共通する論点。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "炎上の広がり方を図で教えて。" },
+            { "speaker": "analyst", "text": "投稿、批判、著名人の反論、社会的な議論への発展。この4段階です。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "批判の論点をもっと詳しく。" },
+            { "speaker": "analyst", "text": "会話をAIに代替させることへの懸念、子どものデータへの懸念が中心です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "肯定的な意見もあるんだよね?" },
+            { "speaker": "analyst", "text": "はい。長距離移動時に有用、情報を魅力的に伝えられるという意見です。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "批判と擁護を比べると?" },
+            { "speaker": "analyst", "text": "どちらか一方に偏らず、両方の声を公平にお伝えします。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "これはいつの出来事?" },
+            { "speaker": "analyst", "text": "2026年8月3日、まさに今日です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、中立性について補足はある?" },
+            { "speaker": "analyst", "text": "はい。特定の育児観や政治的立場を押し付けず、批判・肯定両方の声を対等に紹介しています。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "AIが代替できること・できないことを図で教えて。" },
+            { "speaker": "analyst", "text": "情報のまとめやスケジュール管理と、会話・つながりの境界が今回の議論の核心です。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "まとめ表を見せて。" },
+            { "speaker": "analyst", "text": "発言者、投稿日、最も拡散した反論、主な論点。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "鮮度について確認したい。" },
+            { "speaker": "analyst", "text": "投稿・炎上は着手日当日です。非常に新しい話題として扱っています。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで総括します。1つの製品活用例の提案が、大きな議論に発展しました。" },
+            { "speaker": "host", "text": "反響の大きさが印象的だね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "Altman氏の対応、OpenAIの製品説明の変化、議論の広がり。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "似たテーマとの違いは?" },
+            { "speaker": "analyst", "text": "70本目とは異なる、社会的反応という切り口です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことを整理すると?" },
+            { "speaker": "analyst", "text": "投稿の趣旨・批判・反論は確認済み。原文全体や比率は未確認です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "投稿原文全体、賛否の正確な比率、Altman氏本人の対応です。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "話題の広がり方をもう一度教えて。" },
+            { "speaker": "analyst", "text": "著名なクリエイターの一言が、拡散の起点になりました。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一度、この言葉です。『なぜ親は子どもに直接話しかけないのか』。" },
+            { "speaker": "host", "text": "考えさせられる言葉だね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "Altman氏の応答、議論の広がり、同様の提案が他でも起きるか、この3点です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "「なぜ、子どもに直接話しかけないの?」という一言が拡散した。この話題をお伝えしました。" },
+            { "speaker": "host", "text": "AIとの向き合い方を考えさせられたね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "AIに任せること、任せないこと。線引きは、まだ議論の途中です。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
