@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "title": "人類が80年解けなかった問題を、AIはコーヒー代で解いた",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechTimes(2026-08-02)",
+      "SiliconANGLE(2026-08-02)",
+      "TheNextWeb",
+      "explainx.ai",
+      "Pondero",
+      "Cryptonomist(2026-08-02)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "人類が数十年、中には80年近く解けなかった数学の問題を、AIがコーヒー代ほどのコストで解いてしまいました。", "source": "explainx.ai" },
+            { "speaker": "host", "text": "本当に?" },
+            { "speaker": "analyst", "text": "はい、OpenAIの内部モデル『Astra』が発表したものです。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "群論からフォン・ノイマン環まで、10の未解決問題を解いたと発表されました。", "source": "explainx.ai" },
+            { "speaker": "host", "text": "10問も…。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "10問の内容、コストの意味、数学者の反応、そして注意点まで話します。" },
+            { "speaker": "host", "text": "衝撃的な数字だけど、ちゃんと裏まで見ていくんだね。" },
+            { "speaker": "analyst", "text": "はい、事実と議論の途中の部分を分けてお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "概要を教えて。" },
+            { "speaker": "analyst", "text": "Astraが10問を解決し、Lean形式の機械検証可能な証明を添えて公開しました。", "source": "TechTimes" },
+            { "speaker": "host", "text": "誰でも確認できるってこと?" },
+            { "speaker": "analyst", "text": "そうです、GitHubで証明ファイルも公開されています。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "コストが気になる。" },
+            { "speaker": "analyst", "text": "10問すべてでおよそ2,000ドル、日本円で数十万円ほどとされています。", "source": "Cryptonomist" },
+            { "speaker": "host", "text": "破格だね…。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "代表的な成果を教えて。" },
+            { "speaker": "analyst", "text": "27年ぶりの非モジュラー群の構成、Connes剛性予想の反証、Ehrhart体積予想の証明の3つです。" },
+            { "speaker": "host", "text": "専門的だけど、どれもすごそうだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "流れを図で教えて。" },
+            { "speaker": "analyst", "text": "Astraが解いて、Lean形式の証明を生成し、GitHubで誰でも検証できる形にしています。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "なんでLean形式が大事なの?" },
+            { "speaker": "analyst", "text": "AIが生成した証明は検証しにくいという懸念がありましたが、Leanなら機械的に確認できます。", "source": "explainx.ai" },
+            { "speaker": "host", "text": "未証明の箇所はないの?" },
+            { "speaker": "analyst", "text": "報告ではゼロだそうです。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "公開資料はどれくらいあるの?" },
+            { "speaker": "analyst", "text": "249ページのマニュアル、62ページの経緯報告、そして証明ファイル一式です。" },
+            { "speaker": "host", "text": "かなりのボリュームだね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "数学者からの反応です。『大きなニュースだ』とThomas Bloom氏がコメントしています。", "source": "X投稿(Thomas Bloom氏)" },
+            { "speaker": "host", "text": "専門家も評価してるんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "特に注目されてる成果は?" },
+            { "speaker": "analyst", "text": "27年間誰も構成できなかった非モジュラー群です。" },
+            { "speaker": "host", "text": "27年って長いね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "この分野、これまでどんな流れだったの?" },
+            { "speaker": "analyst", "text": "3ヶ月前にも別の成果があり、今回はその延長線上にある大規模な成果です。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "10問はどんな分野に分かれてるの?" },
+            { "speaker": "analyst", "text": "群論、フォン・ノイマン環、高次元幾何学、量子計算複雑性、格子暗号、極値組合せ論です。" },
+            { "speaker": "host", "text": "幅広いね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "みんなの反応はどうなの?" },
+            { "speaker": "analyst", "text": "高揚感と警戒感、そして評価を保留する声、3つの温度感が入り混じっています。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "従来の査読とはどう違うの?" },
+            { "speaker": "analyst", "text": "今回は即日公開で機械検証可能ですが、正式な受容には従来の査読プロセスが必要になると考えられます。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、鮮度の話を確認したい。" },
+            { "speaker": "analyst", "text": "はい。この発表は着手日の2日前で、基準よりわずかに外れます。" },
+            { "speaker": "host", "text": "正直に教えてくれてありがたい。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったこともあるんだよね?" },
+            { "speaker": "analyst", "text": "はい。一次発表の原文全体や、マニュアルの詳細な数学的内容までは確認していません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "注意しておきたいことは?" },
+            { "speaker": "analyst", "text": "『2,000ドル』はトークンコストの試算であり、モデル開発の総コストではありません。" },
+            { "speaker": "host", "text": "モデル自体もまだ公開されてないんだよね?" },
+            { "speaker": "analyst", "text": "そうです、内部版のままです。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "3ヶ月前の成果ってどんな話だったの?" },
+            { "speaker": "analyst", "text": "OpenAIの別のモデルがErdős単位距離予想を反証していました。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "この技術、今後どうなりそう?" },
+            { "speaker": "analyst", "text": "研究の高速化、検証ツールの普及、査読プロセスの模索。この3つの変化が考えられます。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "Astraって今どんな位置づけなの?" },
+            { "speaker": "analyst", "text": "まだ内部版で、一般提供の時期は明らかにされていません。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "この発表が示すことは?" },
+            { "speaker": "analyst", "text": "AIが試すコストが下がるほど、未解決問題への挑戦の裾野が広がると考えられます。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "各分野への影響は?" },
+            { "speaker": "analyst", "text": "数学教育、研究者の役割、検証インフラの重要性、この3つに影響しうると考えられます。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "結局、何が変わって何が変わってないの?" },
+            { "speaker": "analyst", "text": "検証可能な成果は増えましたが、正式な受容にはまだ時間がかかりそうです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "同じ日にもう一つOpenAIのテーマがあるんだよね?" },
+            { "speaker": "analyst", "text": "はい、70本目の暴走エージェント事件です。こちらは成果、あちらはリスクという対照的な話です。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "この発表から学べることは?" },
+            { "speaker": "analyst", "text": "衝撃的な数字ほど、算出根拠を確認する価値があります。" },
+            { "speaker": "host", "text": "『機械検証可能』は査読と同じじゃないんだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。未解決問題10問を、約2,000ドルで解決しました。ただし内部版のモデルであることも覚えておいてください。" },
+            { "speaker": "host", "text": "衝撃的だけど、冷静に見る視点も大事だね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一つ。公開された証明ファイルには、未証明の箇所がゼロだと報告されています。", "source": "explainx.ai" },
+            { "speaker": "host", "text": "それだけ検証にこだわった発表なんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "査読の行方、モデルの公開時期、他分野への波及、この3つです。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "衝撃的な数字ほど、その算出根拠を確認してみてください。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
