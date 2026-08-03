@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "title": "人間に聞くのをやめた企業がある",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-07-30)",
+      "The Next Web",
+      "PYMNTS",
+      "Startup Fortune"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "人間に聞くのをやめた企業があります。AIの分身40万体に聞いたそうです。", "source": "The Next Web" },
+            { "speaker": "host", "text": "分身って何?" },
+            { "speaker": "analyst", "text": "AIで作った合成消費者です。Simileという会社が作っています。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "シリーズB2億ドル、評価額20億ドルです。", "source": "TechCrunch" },
+            { "speaker": "host", "text": "急成長だね。" },
+            { "speaker": "analyst", "text": "5ヶ月前のシリーズAから、一気に評価額が跳ね上がりました。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "会社の中身、CVSの事例、投資家、そして不明点まで話します。" },
+            { "speaker": "host", "text": "今回は鮮度の話もあるんだよね?" },
+            { "speaker": "analyst", "text": "はい、正直にお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "発表の概要は?" },
+            { "speaker": "analyst", "text": "合成消費者でシリーズB2億ドル、評価額20億ドルです。", "source": "TechCrunch" },
+            { "speaker": "host", "text": "主導した投資家は?" },
+            { "speaker": "analyst", "text": "Greenoaksです。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "Simileって何をする会社?" },
+            { "speaker": "analyst", "text": "実在の消費者に似せたAIの分身を作って、マーケティング調査に使う会社です。" },
+            { "speaker": "host", "text": "面白い発想だね。" },
+            { "speaker": "analyst", "text": "スタンフォード大学の研究が土台になっています。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "具体的な事例は?" },
+            { "speaker": "analyst", "text": "CVS Healthが40万体の合成消費者を使いました。", "source": "The Next Web" },
+            { "speaker": "host", "text": "40万体はすごい数だね。" },
+            { "speaker": "analyst", "text": "服薬継続率を高める施策の検証に使われました。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "仕組みを図で教えて。" },
+            { "speaker": "analyst", "text": "消費者データからAIの分身を作り、それに質問して意思決定に使います。" },
+            { "speaker": "host", "text": "人間の代わりに答えてくれるんだ。" },
+            { "speaker": "analyst", "text": "そういう発想です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "技術的な仕組みはどこまで分かってる?" },
+            { "speaker": "analyst", "text": "詳細は非公開です。Smallvilleという研究が土台と報じられています。" },
+            { "speaker": "host", "text": "これは推測なんだよね?" },
+            { "speaker": "analyst", "text": "はい、公式の技術文書ではありません。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "CEOは何て言ってるの?" },
+            { "speaker": "analyst", "text": "『世界をシミュレートできるなら、無数の介入策を試せる』と語っています。", "source": "複数媒体経由の引用" },
+            { "speaker": "host", "text": "壮大だね。" },
+            { "speaker": "analyst", "text": "『人類への窓』とも表現しています。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "調査の時間はどれくらい変わったの?" },
+            { "speaker": "analyst", "text": "4〜6週間かかっていたのが、15〜30分で完了したとCVSが報告しています。", "source": "The Next Web" },
+            { "speaker": "host", "text": "劇的だね。" },
+            { "speaker": "analyst", "text": "ただしCVS側の報告値である点は覚えておいてください。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "CVSの事例、まとめて教えて。" },
+            { "speaker": "analyst", "text": "2025年秋、40万体を使って服薬継続率向上策を検証しました。" },
+            { "speaker": "host", "text": "CVSも出資してるんだよね?" },
+            { "speaker": "analyst", "text": "はい、CVS Health Venturesとして参加しています。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "CVSはどんな課題を感じてたの?" },
+            { "speaker": "analyst", "text": "『フィールドテストできる質問数がボトルネックだった』と語っています。", "source": "The Next Web(意訳)" },
+            { "speaker": "host", "text": "人数の壁があったんだね。" },
+            { "speaker": "analyst", "text": "それを合成消費者で超えられる、という考え方です。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "他にもすごい数字があるって?" },
+            { "speaker": "analyst", "text": "模擬決算説明会で、質問10問中8問を正しく予測したそうです。", "source": "Bloomberg経由の引用" },
+            { "speaker": "host", "text": "本当に?" },
+            { "speaker": "analyst", "text": "算出方法の詳細は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "投資家の顔ぶれは?" },
+            { "speaker": "analyst", "text": "Greenoaks主導、Index・Bain Capital Ventures等が参加しています。" },
+            { "speaker": "host", "text": "CVSも投資家なんだよね。" },
+            { "speaker": "analyst", "text": "はい、実際に使っている企業自身も出資しています。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "シリーズAからどれくらい経ってるの?" },
+            { "speaker": "analyst", "text": "わずか5ヶ月です。", "source": "TechCrunch" },
+            { "speaker": "host", "text": "速いね。" },
+            { "speaker": "analyst", "text": "評価額の伸びも急激です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "時系列で整理すると?" },
+            { "speaker": "analyst", "text": "2月にシリーズA、事例が積み上がって、7月にシリーズBです。" },
+            { "speaker": "host", "text": "実績が評価されたんだね。" },
+            { "speaker": "analyst", "text": "そう見られます。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "急成長の理由は?" },
+            { "speaker": "analyst", "text": "CVSでの効果が投資家の評価を後押ししたと考えられます。" },
+            { "speaker": "host", "text": "これも推測?" },
+            { "speaker": "analyst", "text": "はい、公式な理由ではありません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "評価額をもう一度確認したい。" },
+            { "speaker": "analyst", "text": "20億ドルです。日本円で数千億円規模になります。" },
+            { "speaker": "host", "text": "大きいね。" },
+            { "speaker": "analyst", "text": "スタートアップとしてはかなりの規模です。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "従来の調査と何が違うの?" },
+            { "speaker": "analyst", "text": "規模とスピードが違います。ただし実在の人間そのものではありません。" },
+            { "speaker": "host", "text": "そこは忘れちゃいけないね。" },
+            { "speaker": "analyst", "text": "はい、大事な前提です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "ここで正直な話があるんだよね?" },
+            { "speaker": "analyst", "text": "はい。この発表は着手日の4日前のものです。" },
+            { "speaker": "host", "text": "本来の基準より古いんだ。" },
+            { "speaker": "analyst", "text": "着手日・前日の候補が見つからず、鮮度で妥協しました。正直にお伝えします。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことも教えて。" },
+            { "speaker": "analyst", "text": "公式原文全体、出資比率、技術の詳細、予測精度の算出方法です。" },
+            { "speaker": "host", "text": "まだ分からないことも多いんだね。" },
+            { "speaker": "analyst", "text": "はい、正直にお伝えしています。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "数字の性質について、もう一度教えて。" },
+            { "speaker": "analyst", "text": "調査時間短縮も予測精度も、当事者側の報告値です。" },
+            { "speaker": "host", "text": "第三者検証じゃないんだね。" },
+            { "speaker": "analyst", "text": "目安として受け止めるのがいいと思います。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "これまでのテーマとどう違うの?" },
+            { "speaker": "analyst", "text": "業務自動化やデータ基盤ではなく、『人間の代わりに答える』という切り口です。" },
+            { "speaker": "host", "text": "新しい方向性だね。" },
+            { "speaker": "analyst", "text": "はい、これまでにない切り口です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "既存テーマと重複してない?" },
+            { "speaker": "analyst", "text": "確認済みです。合成消費者・デジタルツイン市場調査を扱ったテーマはありません。" },
+            { "speaker": "host", "text": "差別化できてるんだね。" },
+            { "speaker": "analyst", "text": "はい。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "どんな影響がありそう?" },
+            { "speaker": "analyst", "text": "調査業界への影響やコスト低下、倫理的な議論の広がりが考えられます。" },
+            { "speaker": "host", "text": "これも推測?" },
+            { "speaker": "analyst", "text": "はい、断定はしていません。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "導入を考える企業は何を確認すべき?" },
+            { "speaker": "analyst", "text": "適用範囲の見極め、精度の検証、コスト比較、倫理面の確認です。" },
+            { "speaker": "host", "text": "公式ガイダンスではないんだよね?" },
+            { "speaker": "analyst", "text": "はい、一般的な整理です。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "結局、何が変わって何が変わらないの?" },
+            { "speaker": "analyst", "text": "調査の規模とスピードは変わりましたが、実在の人間ではない点は変わりません。" },
+            { "speaker": "host", "text": "バランスが大事だね。" },
+            { "speaker": "analyst", "text": "はい、その通りです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "この話から得られる教訓は?" },
+            { "speaker": "analyst", "text": "強いバズワードほど、事実と比喩を区別して読む価値があります。" },
+            { "speaker": "host", "text": "他には?" },
+            { "speaker": "analyst", "text": "鮮度が基準を満たさない場合は、正直に開示する姿勢が大切です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "最後にもう一度まとめて。" },
+            { "speaker": "analyst", "text": "シリーズB2億ドル、CVSは40万体の分身を使いました。" },
+            { "speaker": "host", "text": "4日前の発表だってことも覚えておくね。" },
+            { "speaker": "analyst", "text": "はい、セットで覚えてください。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "今日のまとめをお願い。" },
+            { "speaker": "analyst", "text": "強い数字ほど、出どころと鮮度を確認する。それだけです。" },
+            { "speaker": "host", "text": "次回もまた出典付きで。" },
+            { "speaker": "analyst", "text": "はい、また次のテーマでお会いしましょう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

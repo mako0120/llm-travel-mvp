@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "title": "「Datadogを置き換える」——1億ドルを手にしたスタートアップの宣言",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "BusinessWire(2026-07-29)",
+      "SiliconANGLE",
+      "Axios",
+      "CTech",
+      "TechTimes"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "『Datadogを置き換える』。あるスタートアップのCEOがそう言い切りました。", "source": "CTech" },
+            { "speaker": "host", "text": "強気だね。" },
+            { "speaker": "analyst", "text": "groundcoverという会社が、シリーズC1億ドルを調達しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "シリーズC1億ドル、累計1億6,000万ドルです。", "source": "BusinessWire" },
+            { "speaker": "host", "text": "結構な金額だね。" },
+            { "speaker": "analyst", "text": "主導したのはOne Peakです。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "会社の中身、強気発言の読み解き方、成長数値、不明点まで話します。" },
+            { "speaker": "host", "text": "今回も鮮度の話があるんだよね?" },
+            { "speaker": "analyst", "text": "はい、正直にお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "発表の概要は?" },
+            { "speaker": "analyst", "text": "観測性プラットフォームでシリーズC1億ドルです。", "source": "BusinessWire" },
+            { "speaker": "host", "text": "成長数値もすごいんだよね?" },
+            { "speaker": "analyst", "text": "ARR3倍、従業員2倍だそうです。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "groundcoverって何をする会社?" },
+            { "speaker": "analyst", "text": "eBPF・OpenTelemetry・BYOCの3つが特徴の観測性プラットフォームです。" },
+            { "speaker": "host", "text": "難しそうだね。" },
+            { "speaker": "analyst", "text": "システムの動作を監視する仕組みです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "仕組みを図で教えて。" },
+            { "speaker": "analyst", "text": "データを収集して、顧客のクラウド内で処理する設計です。" },
+            { "speaker": "host", "text": "外に出さないんだ。" },
+            { "speaker": "analyst", "text": "それがBYOCという設計思想です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "技術的な特徴、詳しく教えて。" },
+            { "speaker": "analyst", "text": "コード変更なしにデータ収集、業界標準に対応、データは外に出ません。" },
+            { "speaker": "host", "text": "AIエージェントの監視にも使えるの?" },
+            { "speaker": "analyst", "text": "そう位置づけられています。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "さっきの強気発言、詳しく教えて。" },
+            { "speaker": "analyst", "text": "『Datadogを置き換える。New Relicを置き換える』とCEOが語っています。", "source": "groundcover公式ブログ/CTech" },
+            { "speaker": "host", "text": "大手を名指しなんだね。" },
+            { "speaker": "analyst", "text": "はい、かなり強気です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "価格についても何か言ってる?" },
+            { "speaker": "analyst", "text": "『Datadogの価格モデルは老朽化している』と批判しています。", "source": "CTech(意訳)" },
+            { "speaker": "host", "text": "これはCEOの意見だよね?" },
+            { "speaker": "analyst", "text": "はい、Datadog社自身の見解ではありません。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "『模倣した』って見出しもあるんだよね?" },
+            { "speaker": "analyst", "text": "はい、TechTimesがそう題した記事を出しています。" },
+            { "speaker": "host", "text": "Datadogが認めたわけじゃないんだ。" },
+            { "speaker": "analyst", "text": "その通りです。メディアの切り口として扱っています。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "ARRの成長を教えて。" },
+            { "speaker": "analyst", "text": "過去1年で3倍になったと発表されています。", "source": "BusinessWire" },
+            { "speaker": "host", "text": "急成長だね。" },
+            { "speaker": "analyst", "text": "自社発表値ではありますが、強い数字です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "従業員数は?" },
+            { "speaker": "analyst", "text": "こちらも1年で2倍になったそうです。" },
+            { "speaker": "host", "text": "組織も急拡大してるんだね。" },
+            { "speaker": "analyst", "text": "はい、そう見られます。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "成長指標、まとめて教えて。" },
+            { "speaker": "analyst", "text": "ARR3倍、従業員2倍、顧客250社超、7桁ドル契約複数です。" },
+            { "speaker": "host", "text": "全部自社発表値なんだよね?" },
+            { "speaker": "analyst", "text": "はい、そこは念頭に置いてください。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "顧客数は?" },
+            { "speaker": "analyst", "text": "250社超、Fortune 5企業も含まれると発表されています。" },
+            { "speaker": "host", "text": "大企業にも導入されてるんだ。" },
+            { "speaker": "analyst", "text": "はい、幅広い層に導入されているようです。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "顧客の具体名は分かる?" },
+            { "speaker": "analyst", "text": "個別の企業名は公表されていません。" },
+            { "speaker": "host", "text": "そこは不明なんだね。" },
+            { "speaker": "analyst", "text": "はい、業種・規模の言及にとどまっています。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "投資家の顔ぶれは?" },
+            { "speaker": "analyst", "text": "One Peak主導、新規でモルガン・スタンレー系のファンドも参加です。" },
+            { "speaker": "host", "text": "大手金融機関も入ってるんだね。" },
+            { "speaker": "analyst", "text": "はい、既存投資家4社も継続参加しています。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "評価額はどれくらい?" },
+            { "speaker": "analyst", "text": "5億ドルと報じられています。", "source": "CTech" },
+            { "speaker": "host", "text": "急成長企業なんだね。" },
+            { "speaker": "analyst", "text": "観測性市場での存在感がうかがえます。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "創業からの流れを教えて。" },
+            { "speaker": "analyst", "text": "2021年創業、この1年で急成長してシリーズCに至りました。" },
+            { "speaker": "host", "text": "地道な期間があったんだね。" },
+            { "speaker": "analyst", "text": "はい、技術開発期を経ての急成長です。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "従来ツールと何が違うの?" },
+            { "speaker": "analyst", "text": "groundcover側は、効率的なデータ収集とBYOCを強みに挙げています。" },
+            { "speaker": "host", "text": "これもgroundcover側の見立てだよね?" },
+            { "speaker": "analyst", "text": "はい、第三者比較ではありません。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "ここで正直な話があるんだよね?" },
+            { "speaker": "analyst", "text": "はい。この発表は着手日の5日前のものです。" },
+            { "speaker": "host", "text": "本来の基準より古いんだ。" },
+            { "speaker": "analyst", "text": "着手日・前日の候補が見つからず、鮮度で妥協しました。正直にお伝えします。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことも教えて。" },
+            { "speaker": "analyst", "text": "公式原文全体、出資比率、顧客企業名、実際の乗り換え数です。" },
+            { "speaker": "host", "text": "まだ分からないことも多いんだね。" },
+            { "speaker": "analyst", "text": "はい、正直にお伝えしています。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "強気発言をどう受け止めればいい?" },
+            { "speaker": "analyst", "text": "市場シェアの実データではなく、一企業の主張として受け止めるといいと思います。" },
+            { "speaker": "host", "text": "資金調達発表ではよくある手法なんだよね?" },
+            { "speaker": "analyst", "text": "はい、そういう側面もあります。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "既存テーマとの位置づけは?" },
+            { "speaker": "analyst", "text": "64本目はデータ配送、本テーマは動作監視です。層が違います。" },
+            { "speaker": "host", "text": "基盤にもいろいろあるんだね。" },
+            { "speaker": "analyst", "text": "そう捉えていただくと分かりやすいと思います。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "64本目と詳しく比較すると?" },
+            { "speaker": "analyst", "text": "DataBahnは配送、groundcoverは監視という役割の違いがあります。" },
+            { "speaker": "host", "text": "重複はしてないんだね。" },
+            { "speaker": "analyst", "text": "確認済みです。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "どんな影響がありそう?" },
+            { "speaker": "analyst", "text": "価格競争やAIエージェント監視需要の取り込みが考えられます。" },
+            { "speaker": "host", "text": "これも推測?" },
+            { "speaker": "analyst", "text": "はい、断定はしていません。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "導入を考える企業は何を確認すべき?" },
+            { "speaker": "analyst", "text": "現状コストの把握、BYOCの適合性、移行コスト、監視ニーズの整理です。" },
+            { "speaker": "host", "text": "公式ガイダンスではないんだよね?" },
+            { "speaker": "analyst", "text": "はい、一般的な整理です。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "結局、何が変わって何が変わらないの?" },
+            { "speaker": "analyst", "text": "挑戦者が資金力を得ましたが、既存大手は依然として存在します。" },
+            { "speaker": "host", "text": "まだこれからなんだね。" },
+            { "speaker": "analyst", "text": "市場シェアの検証はこれからです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "この話から得られる教訓は?" },
+            { "speaker": "analyst", "text": "競合を名指しした強気発言は、資金調達発表でよく使われる手法です。" },
+            { "speaker": "host", "text": "他には?" },
+            { "speaker": "analyst", "text": "鮮度が基準を満たさない場合は、正直に開示する姿勢が大切です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "最後にもう一度まとめて。" },
+            { "speaker": "analyst", "text": "シリーズC1億ドル、ARR3倍・従業員2倍です。" },
+            { "speaker": "host", "text": "5日前の発表だってことも覚えておくね。" },
+            { "speaker": "analyst", "text": "はい、セットで覚えてください。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "今日のまとめをお願い。" },
+            { "speaker": "analyst", "text": "強気な発言ほど、誰が言ったかを確認する。それだけです。" },
+            { "speaker": "host", "text": "次回もまた出典付きで。" },
+            { "speaker": "analyst", "text": "はい、また次のテーマでお会いしましょう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
