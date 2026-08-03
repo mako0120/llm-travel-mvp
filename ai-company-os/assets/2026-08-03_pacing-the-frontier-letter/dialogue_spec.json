@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "title": "AIを作っている会社が、AIに『待った』をかけてほしいと政府に頼んだ。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechTimes(2026-07-28, 2026-07-29)",
+      "Fortune(2026-07-29)",
+      "TheNextWeb",
+      "AI Weekly",
+      "byteiota"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "AIを作っている会社自身が、AIの開発速度を落とす仕組みを政府に求めました。", "source": "TechTimes(2026-07-29)" },
+            { "speaker": "host", "text": "え、AI企業が自分からブレーキを求めたの?" },
+            { "speaker": "analyst", "text": "はい、意外なようで理由がある話です。今日はこれを整理します。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず数字を教えて。" },
+            { "speaker": "analyst", "text": "1,260人超。AI企業の現役従業員が数日で署名しました。", "source": "TheNextWeb" },
+            { "speaker": "host", "text": "結構な人数だね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "書簡の内容、両社が支持に踏み込んだ理由、求めていること・いないこと、そして公平性の話までお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "何が起きたの?" },
+            { "speaker": "analyst", "text": "7月28日に書簡が公開され、1,260人超が署名。翌29日、OpenAIとAnthropicが企業として正式に支持しました。", "source": "TechTimes" },
+            { "speaker": "host", "text": "たった1日で企業の支持まで進んだんだ。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "流れを図で教えて。" },
+            { "speaker": "analyst", "text": "書簡公開、署名、企業の正式支持、そして政府への要請へという流れです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "書簡の趣旨はこうです。『AIが自分自身の後継モデルを、人間が制御できる速度を超えて設計し始めるリスクに備えたい』。" },
+            { "speaker": "host", "text": "AIがAIを作るスピードが速すぎるのが心配なんだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "書簡は何を求めているの?" },
+            { "speaker": "analyst", "text": "不利益なく開発速度を落とせる国際的な仕組みと、その選択肢を今のうちに準備することです。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "誤解されやすい点があるって?" },
+            { "speaker": "analyst", "text": "はい。『今すぐ止めろ』という主張ではありません。この点が報道で強調されています。", "source": "TheNextWeb" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "OpenAIとAnthropicの対応を比べると?" },
+            { "speaker": "analyst", "text": "どちらも同じ7月29日、同じ形式で正式支持を表明しています。片方が主導した構図ではありません。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "支持までの速さは?" },
+            { "speaker": "analyst", "text": "書簡公開から、わずか1日です。", "source": "Fortune" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "技術的な懸念を図で教えて。" },
+            { "speaker": "analyst", "text": "AIがコードを書き、後継モデルを設計し、人間の理解速度を超え、制御が難しくなる。この4段階です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "なぜ今この懸念が高まったの?" },
+            { "speaker": "analyst", "text": "既報のOpenAIの暴走エージェント事件などが背景にあると報じられています。", "source": "TechTimes" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "署名した主な企業は?" },
+            { "speaker": "analyst", "text": "OpenAI、Anthropicに加え、Google DeepMindやMetaの従業員も署名しています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "評価は分かれる?" },
+            { "speaker": "analyst", "text": "はい。楽観的な見方と慎重な見方、両方を公平にお伝えします。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "タイミングも関係あるの?" },
+            { "speaker": "analyst", "text": "米政府には8月1日までの枠組み策定期限がありました。その直前の動きです。", "source": "TechTimes" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、公平性について補足はある?" },
+            { "speaker": "analyst", "text": "はい。私たちはAnthropicのClaudeで動いているので、OpenAIとAnthropicを対等に扱う方針を明示しています。" },
+            { "speaker": "host", "text": "批判記事ではないんだね。" },
+            { "speaker": "analyst", "text": "そうです、両社が対等に関わる自主的な取り組みの紹介です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "『減速できる仕組み』とはどんなイメージ?" },
+            { "speaker": "analyst", "text": "通常は開発を継続し、リスクの兆候があれば国際的な仕組みで減速を選べる、というイメージです。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "過去の関連トピックと整理すると?" },
+            { "speaker": "analyst", "text": "70本目のOpenAI事件、77本目のAnthropic開示とは異なる、業界としての自主規制の動きです。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "鮮度について確認したい。" },
+            { "speaker": "analyst", "text": "書簡公開・企業支持は着手日の5〜6日前です。続報はまだ確認できていません。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで総括します。1,260人超が署名し、わずか1日で企業支持に至りました。" },
+            { "speaker": "host", "text": "スピード感がすごいね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "政府の対応待ち、他社の追随、具体策の設計。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "似たテーマとの違いは?" },
+            { "speaker": "analyst", "text": "70本目・77本目とは異なる、業界全体の予防的な取り組みという切り口です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "求めることと求めないことをもう一度整理すると?" },
+            { "speaker": "analyst", "text": "求めるのは選択肢の準備、求めないのは今すぐの一時停止です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことは?" },
+            { "speaker": "analyst", "text": "書簡の原文全体、米政府の具体的な対応、署名者の内訳は確認できていません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "Anthropicの立場をもう一度教えて。" },
+            { "speaker": "analyst", "text": "CEOのDario Amodei氏自身が署名し、企業として正式に支持しています。", "source": "Fortune" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "まとめ表を見せて。" },
+            { "speaker": "analyst", "text": "書簡名、公開日、企業支持表明日、署名者数、この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一度。『必要になった時に減速できる選択肢を、今のうちに用意しておくべきだ』。" },
+            { "speaker": "host", "text": "大事な言葉だね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "政府の応答、他社の追随、具体的な仕組みの設計、この3点です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "AIを作っている会社自身が、AIに『待った』をかけてほしいと政府に頼んだ。この意外な事実をお伝えしました。" },
+            { "speaker": "host", "text": "複雑な話を整理できたね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "『待った』をかけたのは、AIではなく人間だったという点を覚えておいてください。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
