@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "title": "チャットボットは今日から「私はAIです」と名乗る義務が生じた",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "欧州委員会公式サイト",
+      "IBTimes UK(2026-08-02)",
+      "Bratby Law",
+      "Greenberg Traurig LLP",
+      "Sidley(Data Matters)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "最大1,500万ユーロ、または売上高の3%。AIの『名乗り義務』が発効しました。", "source": "IBTimes UK" },
+            { "speaker": "host", "text": "名乗り義務って?" },
+            { "speaker": "analyst", "text": "チャットボットが『私はAIです』と伝える義務です。2026年8月2日発効です。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず罰則から教えて。" },
+            { "speaker": "analyst", "text": "最大1,500万ユーロ、または売上高3%のいずれか高い方です。", "source": "IBTimes UK" },
+            { "speaker": "host", "text": "かなり厳しいね。" },
+            { "speaker": "analyst", "text": "GDPRに近い水準の罰則です。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "義務の中身、罰則、域外適用、そして似た規制との違いまで話します。" },
+            { "speaker": "host", "text": "似た規制と混同しやすいの?" },
+            { "speaker": "analyst", "text": "はい、2025年8月にも別の発効がありました。丁寧に整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "何が発効したの?" },
+            { "speaker": "analyst", "text": "EU AI Act第50条『透明性義務』です。", "source": "欧州委員会公式サイト" },
+            { "speaker": "host", "text": "具体的には?" },
+            { "speaker": "analyst", "text": "チャットボットの名乗り義務と、ディープフェイクのラベル表示義務です。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "変わったことを3つで言うと?" },
+            { "speaker": "analyst", "text": "チャットボットの名乗り、AI生成コンテンツの表示、ディープフェイクのラベルです。" },
+            { "speaker": "host", "text": "3本柱なんだね。" },
+            { "speaker": "analyst", "text": "はい、この3つが今回の中心です。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "対象範囲を整理して。" },
+            { "speaker": "analyst", "text": "直接対話、生成コンテンツ、感情認識、ディープフェイクの4分野です。" },
+            { "speaker": "host", "text": "結構広いね。" },
+            { "speaker": "analyst", "text": "それぞれ求められる対応が少しずつ違います。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "チャットボットの義務、詳しく教えて。" },
+            { "speaker": "analyst", "text": "AIと会話していることを利用者に明示しなければなりません。", "source": "IBTimes UK" },
+            { "speaker": "host", "text": "これまでは義務じゃなかったんだ。" },
+            { "speaker": "analyst", "text": "はい、今回初めて法的義務になりました。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "ディープフェイクの義務は?" },
+            { "speaker": "analyst", "text": "実在人物に似せた合成コンテンツにはラベルが必要です。", "source": "IBTimes UK" },
+            { "speaker": "host", "text": "騙すつもりがなくても?" },
+            { "speaker": "analyst", "text": "はい、意図の有無にかかわらず対象です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "4分野まとめて表にすると?" },
+            { "speaker": "analyst", "text": "直接対話・生成コンテンツ・感情認識・ディープフェイクで整理できます。" },
+            { "speaker": "host", "text": "分かりやすいね。" },
+            { "speaker": "analyst", "text": "それぞれの対応内容が異なるので、表が便利です。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "罰則、もう一度確認したい。" },
+            { "speaker": "analyst", "text": "最大1,500万ユーロ、または売上高3%です。", "source": "IBTimes UK" },
+            { "speaker": "host", "text": "大企業ほど負担が大きいんだね。" },
+            { "speaker": "analyst", "text": "売上高連動なので、そうなります。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "適用範囲は?" },
+            { "speaker": "analyst", "text": "EU域外の企業も対象になりえます。", "source": "IBTimes UK" },
+            { "speaker": "host", "text": "日本企業もってこと?" },
+            { "speaker": "analyst", "text": "EU向けにサービスを提供していれば、可能性があります。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "具体例を教えて。" },
+            { "speaker": "analyst", "text": "EU顧客向けの英国製チャットボットなどが例に挙がっています。" },
+            { "speaker": "host", "text": "拠点は関係ないんだ。" },
+            { "speaker": "analyst", "text": "はい、EU市場・EU利用者への影響で判断されます。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "図で整理すると?" },
+            { "speaker": "analyst", "text": "拠点の場所ではなく、EU市場への提供有無で判断する形です。" },
+            { "speaker": "host", "text": "分かりやすい基準だね。" },
+            { "speaker": "analyst", "text": "ただし個別の判断は専門家への確認が必要だと思います。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "混同注意って何?" },
+            { "speaker": "analyst", "text": "2025年8月にもGPAIモデルの義務が発効していました。" },
+            { "speaker": "host", "text": "今回とは違うの?" },
+            { "speaker": "analyst", "text": "はい、対象も内容も別です。整理して覚えるのがおすすめです。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "全体のタイムラインは?" },
+            { "speaker": "analyst", "text": "2024年成立、2025年8月GPAI義務、2026年8月今回、2027年8月完全対応です。" },
+            { "speaker": "host", "text": "段階的なんだね。" },
+            { "speaker": "analyst", "text": "一気にではなく、順番に施行されています。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "猶予はあるの?" },
+            { "speaker": "analyst", "text": "既存システムは電子透かしの義務だけ、12月2日まで猶予されます。", "source": "Sidley" },
+            { "speaker": "host", "text": "全部が猶予されるわけじゃないんだ。" },
+            { "speaker": "analyst", "text": "はい、名乗り義務やラベル表示は即座に適用されます。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "新規と既存、何が違う?" },
+            { "speaker": "analyst", "text": "新規はすべて即座に適用、既存は電子透かしだけ猶予があります。" },
+            { "speaker": "host", "text": "覚えておきたいね。" },
+            { "speaker": "analyst", "text": "はい、対応スケジュールに関わる重要な違いです。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "誰が取り締まるの?" },
+            { "speaker": "analyst", "text": "欧州委員会のAI Officeと、各加盟国の当局です。" },
+            { "speaker": "host", "text": "権限もこの日から?" },
+            { "speaker": "analyst", "text": "はい、8月2日に同時に発動しました。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "誰が対象になりそう?" },
+            { "speaker": "analyst", "text": "チャットボット提供企業や生成AIコンテンツ制作者などが考えられます。" },
+            { "speaker": "host", "text": "これは公式に言われてること?" },
+            { "speaker": "analyst", "text": "いえ、当社の推測です。断定はしていません。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "ここで注意点を聞きたい。" },
+            { "speaker": "analyst", "text": "本テーマは企業発表ではなく、公的機関の規制という点が違います。" },
+            { "speaker": "host", "text": "他には?" },
+            { "speaker": "analyst", "text": "発効直後なので、執行事例はまだ確認できていません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことも教えて。" },
+            { "speaker": "analyst", "text": "公式ガイドライン全文、執行事例、日本企業の対応状況です。" },
+            { "speaker": "host", "text": "まだこれからの部分もあるんだね。" },
+            { "speaker": "analyst", "text": "発効直後なので、当然といえば当然です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "日本企業への影響は?" },
+            { "speaker": "analyst", "text": "EU向けにサービスを提供していれば対象になりえます。" },
+            { "speaker": "host", "text": "無関係じゃないんだね。" },
+            { "speaker": "analyst", "text": "はい、確認しておく価値のある規制です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "これまでのテーマとどう違うの?" },
+            { "speaker": "analyst", "text": "多くは『作る・売る』段階、今回は『規制される』段階の話です。" },
+            { "speaker": "host", "text": "また一歩先の話なんだね。" },
+            { "speaker": "analyst", "text": "そう捉えていただくと分かりやすいと思います。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "既存テーマと重複してない?" },
+            { "speaker": "analyst", "text": "確認済みです。企業発表ではなく公的規制という点で明確に異なります。" },
+            { "speaker": "host", "text": "切り口が広がってきたね。" },
+            { "speaker": "analyst", "text": "資金調達、製品、料金、そして規制まで扱えるようになりました。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "どんな影響がありそう?" },
+            { "speaker": "analyst", "text": "コンプライアンスコストの増加やUIの変更が考えられます。" },
+            { "speaker": "host", "text": "これも推測?" },
+            { "speaker": "analyst", "text": "はい、断定はしていません。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "事業者は今、何をすればいい?" },
+            { "speaker": "analyst", "text": "対象範囲の確認、表示の見直し、猶予期限の把握などです。" },
+            { "speaker": "host", "text": "法的助言ではないんだよね?" },
+            { "speaker": "analyst", "text": "はい、一般的な整理です。専門家への確認をおすすめします。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "結局、何が変わって何が変わらないの?" },
+            { "speaker": "analyst", "text": "AIの利用自体は禁止されず、『使うなら明示する』が求められます。" },
+            { "speaker": "host", "text": "そこは安心材料だね。" },
+            { "speaker": "analyst", "text": "はい、規制の本質はそこだと思います。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "この話から得られる教訓は?" },
+            { "speaker": "analyst", "text": "AI関連ニュースは企業発表だけでなく法規制にも広がっています。" },
+            { "speaker": "host", "text": "他には?" },
+            { "speaker": "analyst", "text": "似た日付の規制と混同しないよう、対象を確認する価値があります。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "最後にもう一度まとめて。" },
+            { "speaker": "analyst", "text": "2026年8月2日発効、罰則は最大1,500万ユーロまたは売上高3%です。" },
+            { "speaker": "host", "text": "覚えておくね。" },
+            { "speaker": "analyst", "text": "はい、ぜひ日付とセットで覚えてください。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "今日のまとめをお願い。" },
+            { "speaker": "analyst", "text": "発効日と何が変わったかを、いつもセットで確認する。それだけです。" },
+            { "speaker": "host", "text": "次回もまた出典付きで。" },
+            { "speaker": "analyst", "text": "はい、また次のテーマでお会いしましょう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
