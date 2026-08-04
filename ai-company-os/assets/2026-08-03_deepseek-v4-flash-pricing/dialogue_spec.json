@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "軽量モデルが、旗艦モデルを超えてくる時代",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "codezine(2026-07-31頃)",
+      "tech-noisy"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "軽量モデルが、旗艦モデルを超えてくる時代が来ました。", "source": "codezine(2026-07-31頃)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "DeepSeekの軽量モデル、DeepSeek-V4-Flashの話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、価格、上位版との比較、価格競争、確認できたことをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "DeepSeekが軽量モデルDeepSeek-V4-Flashの公開ベータ提供を開始しました。", "source": "codezine" },
+          { "speaker": "host", "text": "着手日の3日前なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その発表日がこちら、着手日の3日前です。" },
+          { "speaker": "host", "text": "十分新しい話題だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "概要を教えて。" },
+          { "speaker": "analyst", "text": "提供元、モデル名、提供形態、特徴。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "DeepSeek-V4-Flashってどんなモデル?" },
+          { "speaker": "analyst", "text": "DeepSeekが提供する軽量モデルの公開ベータAPIです。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "価格はどうなってるの?" },
+          { "speaker": "analyst", "text": "入力0.14ドル、出力0.28ドル、上位版の約3分の1という水準です。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "入力価格は100万トークンあたり0.14ドルです。", "source": "tech-noisy" },
+          { "speaker": "host", "text": "かなり安いね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "analyst", "text": "上位版の約3分の1という価格でありながら、旗艦モデルを上回る性能とされています。" },
+          { "speaker": "host", "text": "それは意外だね。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "価格と性能の関係を整理すると?" },
+          { "speaker": "analyst", "text": "軽量版でありながら旗艦モデルを上回るとされる点が特徴的です。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "価格比較を教えて。" },
+          { "speaker": "analyst", "text": "入力0.14ドル、出力0.28ドル、上位版比で約3分の1です。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "analyst", "text": "出力価格は100万トークンあたり0.28ドルです。", "source": "tech-noisy" },
+          { "speaker": "host", "text": "入力の2倍なんだね。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "誰が報じているの?" },
+          { "speaker": "analyst", "text": "codezine、tech-noisy、BigGoファイナンスです。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "analyst", "text": "複数メディアが、AI業界全体の価格競争が激化している文脈の一つとして位置づけています。", "source": "BigGoファイナンス" },
+          { "speaker": "host", "text": "その評価自体は論評なんだね。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "この報道はどう広がったの?" },
+          { "speaker": "analyst", "text": "公開ベータ提供開始から3日後の本日、話題化しています。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "ここまでを総括します。軽量版でありながら旗艦モデルを超えるとされる点が今回の核心です。" },
+          { "speaker": "host", "text": "面白い話題だね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。特定国・企業への政治的評価は行わず、技術・価格の客観的な事実のみを扱います。" },
+          { "speaker": "host", "text": "そこは大事なポイントだね。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "これからどうなりそう?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、他社の対抗値下げ、利用の広がり、性能評価の検証が焦点になりそうです。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "どんな影響がありそう?" },
+          { "speaker": "analyst", "text": "開発者の選択肢の増加、業界全体の価格競争の激化が挙げられます。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "低価格化は、開発者にとってコスト面・性能面での選択肢の広がりを意味します。" },
+          { "speaker": "host", "text": "使い分けが進みそうだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "analyst", "text": "本テーマでは数字の創作をせず、性能評価の根拠が未確認であることも明記しています。" },
+          { "speaker": "host", "text": "そこは正直に伝えないとね。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "独立した複数のテック専門メディアです。この表の通りです。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "確認できたことと、確認できなかったことを正直に整理します。性能評価の基準の詳細はまだ確認できていません。" },
+          { "speaker": "host", "text": "そこは続報待ちだね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。DeepSeek-V4-Flashは、上位版の約3分の1という価格で公開ベータ提供が始まりました。" },
+          { "speaker": "host", "text": "改めて聞いても驚きの価格だね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "以前紹介したMiniMax H3とは違うの?" },
+          { "speaker": "analyst", "text": "扱う分野・話題の性質が異なり、重複ではありません。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "低価格・高性能の軽量モデル、どんな用途に使ってみたいですか。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "数字でおさらいすると?" },
+          { "speaker": "analyst", "text": "入力0.14ドル、出力0.28ドル、上位版比で約3分の1です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "改めて総括します。低価格化と高性能化が同時に進む、その一つの節目でした。" },
+          { "speaker": "host", "text": "続報が楽しみだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "analyst", "text": "第三者ベンチマークによる性能検証、そして他社の対応に注目していきましょう。" },
+          { "speaker": "host", "text": "続報をお楽しみに。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。DeepSeek-V4-Flashの公開ベータ提供開始の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

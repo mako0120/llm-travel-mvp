@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "レンジャーズ史上初の日本人選手が誕生する",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "FOOTBALL ZONE(2026-08-04)",
+      "サッカーキング(2026-08-04)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "レンジャーズ史上初の日本人選手が誕生するかもしれません。", "source": "FOOTBALL ZONE(2026-08-04)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "横田大祐選手の移籍口頭合意の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、横田選手について、レンジャーズFCとは、移籍条件、今後の見通しをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "ハノーファー96所属の横田大祐選手が、レンジャーズFC移籍で口頭合意したと報じられました。", "source": "FOOTBALL ZONE" },
+          { "speaker": "host", "text": "着手日から数時間以内の速報なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その報道日がこちら、着手日から数時間以内です。" },
+          { "speaker": "host", "text": "かなりタイムリーな話題だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "概要を教えて。" },
+          { "speaker": "analyst", "text": "選手、現所属、移籍先、状況。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "横田選手ってどんな選手?" },
+          { "speaker": "analyst", "text": "26歳のフォワードで、ドイツ2部ハノーファー96に所属しています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "レンジャーズFCってどんなクラブ?" },
+          { "speaker": "analyst", "text": "スコットランド・グラスゴーの、リーグ優勝55回を誇る名門クラブです。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "リーグ優勝回数は55回です。" },
+          { "speaker": "host", "text": "圧倒的な実績だね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "analyst", "text": "実現すれば、横田選手はレンジャーズFC史上初の日本人選手となります。", "source": "GOAL(2026-08-04)" },
+          { "speaker": "host", "text": "それは歴史的だね。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "移籍はどう進んでいくの?" },
+          { "speaker": "analyst", "text": "口頭合意から、メディカルチェックを経て、正式契約に至る見込みです。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "移籍条件の詳細は?" },
+          { "speaker": "analyst", "text": "移籍金330万ユーロにアドオン70万ユーロを加えた金額とされています。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "analyst", "text": "報じられている移籍金は330万ユーロ、日本円で約6億円相当です。", "source": "サッカーキング" },
+          { "speaker": "host", "text": "大きな移籍金だね。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "誰が報じているの?" },
+          { "speaker": "analyst", "text": "FOOTBALL ZONE、サッカーキング、GOAL、SOCCER DIGEST Webです。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "現所属と移籍先を比べると?" },
+          { "speaker": "analyst", "text": "ドイツ2部から、リーグ優勝55回の名門レンジャーズFCへ、大きなステップアップです。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。現時点は口頭合意の段階で、正式契約ではありません。" },
+          { "speaker": "host", "text": "そこは正確に伝えないとね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "この報道はどう広がったの?" },
+          { "speaker": "analyst", "text": "著名記者の一報を、複数のサッカー専門メディアが引用する形で広がりました。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "analyst", "text": "ここまでを総括します。実現すれば、名門クラブ史上初の日本人選手が誕生します。" },
+          { "speaker": "host", "text": "楽しみな話題だね。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "これからどうなりそう?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、メディカルチェック、正式契約の発表、新天地での活躍が焦点になりそうです。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "どんな影響がありそう?" },
+          { "speaker": "analyst", "text": "選手個人の挑戦、日本サッカー界への貢献、ファンの関心の高まりが挙げられます。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "本テーマでは数字の創作をせず、口頭合意段階であることも断定表現にしていません。" },
+          { "speaker": "host", "text": "そこは大事なポイントだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "独立した複数のサッカー専門メディアです。この表の通りです。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "確認できたことと、確認できなかったことを正直に整理します。クラブ公式の正式発表はまだ確認できていません。" },
+          { "speaker": "host", "text": "そこは今後の続報待ちだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。横田大祐選手が、名門レンジャーズFCへの移籍で口頭合意に達しました。" },
+          { "speaker": "host", "text": "改めて聞いても大きなニュースだね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "話題の広がり方をおさらいすると?" },
+          { "speaker": "analyst", "text": "口頭合意の一報から、複数媒体の報道を経て、着手日に話題化しました。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "レンジャーズFCでの横田選手の活躍、どんなプレーを期待しますか。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "数字でおさらいすると?" },
+          { "speaker": "analyst", "text": "移籍金330万ユーロ、アドオン70万ユーロ、レンジャーズFCのリーグ優勝回数は55回です。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "他の海外移籍テーマとは違うの?" },
+          { "speaker": "analyst", "text": "橋岡選手・鈴木選手のテーマとは、選手・移籍先クラブがそれぞれ異なり、重複ではありません。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "改めて総括します。名門レンジャーズFCへの挑戦が、口頭合意という形で報じられました。" },
+          { "speaker": "host", "text": "続報が楽しみだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "analyst", "text": "正式契約の発表、そして新天地での活躍状況に注目していきましょう。" },
+          { "speaker": "host", "text": "続報をお楽しみに。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。横田大祐選手のレンジャーズFC移籍口頭合意の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
