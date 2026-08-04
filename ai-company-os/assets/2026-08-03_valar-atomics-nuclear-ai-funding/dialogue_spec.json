@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "AIを動かすために、原子炉を作る会社が10億ドルを手にした",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "StartupHub.ai(2026-08-03)",
+      "zamin.uz(2026-08-03)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "AIを動かすために、原子炉を作る会社が10億ドルを手にしました。", "source": "StartupHub.ai(2026-08-03)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "Valar Atomicsの大型資金調達の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Valar Atomicsとは、資金調達の詳細、AIデータセンターとの関係をお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "原子炉スタートアップのValar Atomicsが、Sequoia主導で10億ドルの資金調達を実施したと報じられました。", "source": "StartupHub.ai" },
+          { "speaker": "host", "text": "着手日の前日の発表なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その調達額がこちら、10億ドルです。" },
+          { "speaker": "host", "text": "大きな金額だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、事業内容、調達額、評価額。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Valar Atomicsってどんな会社?" },
+          { "speaker": "analyst", "text": "小型モジュール式原子炉を開発するスタートアップです。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "小型モジュール式原子炉の特徴は?" },
+          { "speaker": "analyst", "text": "モジュール化・小型化により、迅速かつ安価な展開が期待されています。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "資金調達は10億ドル、評価額は約60億ドルとされ、過去の調達実績を大きく上回っています。", "source": "TechCrunch" },
+          { "speaker": "host", "text": "急成長しているんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "調達の推移を整理すると?" },
+          { "speaker": "analyst", "text": "過去の調達から評価額交渉を経て、今回の確定に至りました。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "過去の実績と比べると?" },
+          { "speaker": "analyst", "text": "今回は調達額・評価額ともに大きく上回っています。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "評価額は約60億ドルとされています。", "source": "zamin.uz" },
+          { "speaker": "host", "text": "急激な評価額の上昇だね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "誰が報じているの?" },
+          { "speaker": "analyst", "text": "StartupHub.ai、zamin.uz、TechCrunchです。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "AIデータセンターとどう関係するの?" },
+          { "speaker": "analyst", "text": "Nvidia AIチップに電力を供給する原子炉のデモンストレーションを実施しています。", "source": "StartupHub.ai" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "電力需要の背景を整理すると?" },
+          { "speaker": "analyst", "text": "AIデータセンターの消費電力拡大が、原子力への関心につながっているとされます。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "AIと原子力の関係を整理すると?" },
+          { "speaker": "analyst", "text": "AIの電力需要増加が、原子力発電への注目につながっています。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "ここまでを総括します。原子炉がAIの電源になる時代へ、その一つの節目が今回の資金調達です。" },
+          { "speaker": "host", "text": "興味深い話題だね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "これからどうなりそう?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、原子炉の実用化、他社の追随、規制の動向が焦点になりそうです。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "どんな影響がありそう?" },
+          { "speaker": "analyst", "text": "AI業界の電力調達戦略の多様化、原子力業界への投資拡大が挙げられます。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "他にも似たような動きはあるの?" },
+          { "speaker": "analyst", "text": "既存テーマのNVIDIA-OpenAIオハイオ州データセンター契約とはエネルギー源・当事者が異なり、本テーマは独立しています。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "本テーマでは数字の創作をせず、原子力発電の安全性についても過度な評価をしていません。" },
+          { "speaker": "host", "text": "そこは大事なポイントだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "独立した複数の報道・スタートアップ専門メディアです。この表の通りです。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "確認できたことと、確認できなかったことを正直に整理します。資金の具体的な使途の内訳はまだ確認できていません。" },
+          { "speaker": "host", "text": "そこは続報待ちだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。Valar Atomicsが、Sequoia Capital主導で10億ドルを調達しました。" },
+          { "speaker": "host", "text": "改めて聞いても大きな調達だね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "従来型原子炉と比べると?" },
+          { "speaker": "analyst", "text": "SMRは工場製造による標準化で迅速・安価な展開が期待されています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "AIの電源として原子力を活用する動き、どう思いますか。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "数字でおさらいすると?" },
+          { "speaker": "analyst", "text": "調達額10億ドル、評価額約60億ドル、過去の調達額は4億5,000万ドルでした。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "総括すると?" },
+          { "speaker": "analyst", "text": "AIの電力需要が原子力への投資を呼び込む、その一つの節目でした。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "資金の具体的な使途、そして原子炉の実用展開の進捗に注目していきましょう。" },
+          { "speaker": "host", "text": "続報をお楽しみに。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "続報が楽しみだね。" },
+          { "speaker": "analyst", "text": "はい、続報をお楽しみに。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。原子炉スタートアップValar Atomicsの資金調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
