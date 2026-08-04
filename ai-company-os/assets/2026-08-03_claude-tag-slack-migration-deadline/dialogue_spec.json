@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "今日から、Slackに「AIの同僚」が常駐する。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "財経新聞(2026-06-29)",
+      "Innovatopia"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "今日から、Slackに『AIの同僚』が常駐します。", "source": "財経新聞(2026-06-29)" },
+            { "speaker": "host", "text": "どういうこと?" },
+            { "speaker": "analyst", "text": "AnthropicのClaude Tagの話題です。今日はこれをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "何が起きたか、主な機能、従来との違い、管理者の課題、今後の見通しをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "まず何が起きたの?" },
+            { "speaker": "analyst", "text": "Anthropicが6月に発表したClaude Tagへの移行期限が、本日8月3日に到来しました。", "source": "財経新聞" },
+            { "speaker": "host", "text": "今日が期限日なんだね。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "その移行期限がこちら、本日2026年8月3日です。" },
+            { "speaker": "host", "text": "タイムリーな話題だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "概要を教えて。" },
+            { "speaker": "analyst", "text": "発表日、移行期限、移行期間、提供プラン。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "主な機能は?" },
+            { "speaker": "analyst", "text": "常駐型、タグ付け依頼、共有コンテキスト、基盤モデルの4点です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "Claude Tagについて教えて。" },
+            { "speaker": "analyst", "text": "Anthropicが提供する、Slack向けの常駐型AIエージェントです。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "従来との違いは?" },
+            { "speaker": "analyst", "text": "従来は個人が都度呼び出すツールでしたが、Claude Tagはチャンネルに常駐する存在として設計されています。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "位置づけを図で教えて。" },
+            { "speaker": "analyst", "text": "個人が呼び出すツールから、チームで共有する常駐型の存在への転換です。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "移行期間として30日間が設けられました。" },
+            { "speaker": "host", "text": "十分な準備期間があったんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "管理者にとっての課題は?" },
+            { "speaker": "analyst", "text": "常駐型AIへの転換に伴う権限管理の見直しが、一部媒体で課題として言及されています。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "利点と課題をまとめると?" },
+            { "speaker": "analyst", "text": "利点はチーム単位でのタスク委任、課題は権限管理の見直しです。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "Claude Tagが活用する基盤モデルは、Claude Opus 4.8です。" },
+            { "speaker": "host", "text": "最新のモデルを使っているんだね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "従来のClaude in Slackと比べると?" },
+            { "speaker": "analyst", "text": "個人が呼び出すツールから、チーム単位での委任が可能な常駐する存在へと変わりました。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、これは自社製品の宣伝になっていない?" },
+            { "speaker": "analyst", "text": "いいえ。本テーマはAnthropic自身の製品を扱い、本パイプライン自体もAnthropicの技術を利用しているため、利点だけでなく課題にも触れ、特定製品の利用を強く推奨する結論にはしていません。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "発表から移行期限までの流れを図で教えて。" },
+            { "speaker": "analyst", "text": "6月23日の発表から30日間の移行期間を経て、本日8月3日の期限を迎えました。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "なぜこの話題が注目されているの?" },
+            { "speaker": "analyst", "text": "AIが常駐する同僚になるという変化の分かりやすさ、具体的な期限があることです。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでを総括します。AIがSlackに常駐する存在へと変わる、その移行期限が本日到来しました。" },
+            { "speaker": "host", "text": "大きな節目だね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "利用の定着、管理体制の整備、他サービスへの波及。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "想定される影響は?" },
+            { "speaker": "analyst", "text": "チームの働き方の変化、管理者の役割の見直しが挙げられます。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "配慮している点は?" },
+            { "speaker": "analyst", "text": "数字の創作をせず、特定製品の利用を強く推奨する結論にもしていません。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "出典をもう一度教えて。" },
+            { "speaker": "analyst", "text": "財経新聞を中心とした複数の専門メディアです。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことは?" },
+            { "speaker": "analyst", "text": "発表日や主な機能は確認済み、管理者側の具体的な課題の詳細や利用状況の統計は未確認です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて確認します。本日、Claude Tagへの移行期限が到来しました。" },
+            { "speaker": "host", "text": "改めてタイムリーな話だね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "話題の広がり方を図で教えて。" },
+            { "speaker": "analyst", "text": "6月の発表から報道、そして本日の移行期限到来までの流れです。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "視聴者に聞いてみたいことは?" },
+            { "speaker": "analyst", "text": "常駐型AIエージェントと、どのように働きたいですか。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "数字でまとめると?" },
+            { "speaker": "analyst", "text": "6月23日の発表、30日間の移行期間、8月3日の期限です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて総括します。AIが職場に常駐する時代への、一つの節目でした。" },
+            { "speaker": "host", "text": "時代の変化を感じるね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "常駐型AIエージェントの利用状況、そして管理体制の整備に注目していきましょう。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "AIが職場の一員になる日は、もう始まっているのかもしれません。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
