@@ -1,0 +1,445 @@
+{
+  "meta": {
+    "title": "Logan PaulもJake Paulも出資した、Stripeに挑むAIスタートアップ",
+    "footer": "AI Company OS｜出典: TechCrunch(2026-07-20)ほか｜定期実行125本目",
+    "palette_preset": "navy_gold",
+    "subtitle": "Natural、AIエージェント決済でシリーズA3,000万ドルを調達"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "Logan PaulもJake Paulも出資した、Stripeに挑むAIスタートアップ",
+      "sub": "Natural、AIエージェント決済でシリーズA3,000万ドルを調達",
+      "footnote": "出典: TechCrunch(2026-07-20)ほか",
+      "note": "著名YouTuber兄弟も出資した、Stripeに挑むAI決済企業の話です。今回はNaturalの資金調達をお伝えします。"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日分かること",
+      "items": [
+        "何が起きたか",
+        "Naturalとはどんな会社か",
+        "AIエージェント決済とは何か",
+        "参加した著名投資家",
+        "確認できたこと・できなかったこと"
+      ],
+      "note": "今日お伝えする5つのポイントです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "何が起きたのか",
+      "bullets": [
+        "Naturalが2026年7月20日、シリーズAで3,000万ドルの調達を発表",
+        "主導投資家はForerunner Ventures(Kirsten Green氏)",
+        "累計調達額は4,000万ドル超",
+        "創業からわずか193日での調達"
+      ],
+      "note": "まず何が起きたのか整理します。",
+      "source": "TechCrunch(2026-07-20)"
+    },
+    {
+      "layout": "big_stat",
+      "title": "調達額",
+      "stat": "3,000万ドル",
+      "caption": "シリーズAラウンド(2026年7月20日発表)",
+      "note": "調達額はこちら、3,000万ドルです。",
+      "source": "TechCrunch(2026-07-20)"
+    },
+    {
+      "layout": "table",
+      "title": "調達概要",
+      "headers": [
+        "項目",
+        "内容"
+      ],
+      "rows": [
+        [
+          "企業名",
+          "Natural"
+        ],
+        [
+          "調達額",
+          "3,000万ドル(シリーズA)"
+        ],
+        [
+          "主導投資家",
+          "Forerunner Ventures"
+        ],
+        [
+          "累計調達額",
+          "4,000万ドル超"
+        ],
+        [
+          "発表日",
+          "2026年7月20日"
+        ]
+      ],
+      "note": "調達の概要を表にまとめました。"
+    },
+    {
+      "layout": "cards",
+      "title": "Naturalとはどんな会社?",
+      "cards": [
+        {
+          "label": "創業",
+          "text": "2025年、Kahlil Lalji氏(CEO)・Eric Wang氏・Walt Leung氏が創業"
+        },
+        {
+          "label": "事業内容",
+          "text": "AIエージェント同士の自律的な決済インフラを構築"
+        },
+        {
+          "label": "位置づけ",
+          "text": "既存の決済大手Stripeへの対抗軸とされる"
+        }
+      ],
+      "note": "Naturalがどんな会社か紹介します。"
+    },
+    {
+      "layout": "steps",
+      "title": "AIエージェント決済の仕組み(概要)",
+      "steps": [
+        {
+          "label": "1. エージェントが取引判断",
+          "text": "AIエージェントが商品・サービス購入を自律的に判断"
+        },
+        {
+          "label": "2. 決済実行",
+          "text": "Naturalの基盤を通じて支払い・請求を実行"
+        },
+        {
+          "label": "3. 取引完了",
+          "text": "人手を介さず取引が完結"
+        }
+      ],
+      "note": "AIエージェント決済の大まかな流れです。"
+    },
+    {
+      "layout": "diagram",
+      "title": "Naturalが解決する課題",
+      "nodes": [
+        {
+          "label": "従来の決済",
+          "sublabel": "人間の操作を前提とした設計"
+        },
+        {
+          "label": "Naturalのアプローチ",
+          "sublabel": "AIエージェントが自律的に決済"
+        },
+        {
+          "label": "目指す姿",
+          "sublabel": "人手を介さない取引の実現"
+        }
+      ],
+      "note": "従来の決済との違いを整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜ今、AIエージェント決済なのか",
+      "bullets": [
+        "AIエージェントが取引先への支払い・請求を自律的に行う需要が高まっているとされる",
+        "既存の決済インフラは人間の操作を前提に設計されているとされる",
+        "AIエージェントの普及とともに新しい決済基盤への需要が生まれているとされる"
+      ],
+      "note": "背景にある課題意識を整理します。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "累計調達額",
+      "stat": "4,000万ドル超",
+      "caption": "本ラウンド含む累計(2026年7月20日時点)",
+      "note": "累計調達額はこちら、4,000万ドル超です。",
+      "source": "TechCrunch(2026-07-20)"
+    },
+    {
+      "layout": "cards",
+      "title": "創業チーム",
+      "cards": [
+        {
+          "label": "Kahlil Lalji氏",
+          "text": "CEO・共同創業者"
+        },
+        {
+          "label": "Eric Wang氏",
+          "text": "共同創業者(フィンテック企業Ivella共同創業の経歴)"
+        },
+        {
+          "label": "Walt Leung氏",
+          "text": "共同創業者(Nextdoorのエンジニアリングマネージャー出身)"
+        }
+      ],
+      "note": "創業チームの3名を紹介します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "参加した著名投資家",
+      "bullets": [
+        "Forerunner Ventures(Kirsten Green氏)が主導",
+        "Human Capital、Abstract、Wischoff Venturesが参加",
+        "Logan Paul氏・Jake Paul氏のAntifundも出資に参加"
+      ],
+      "note": "参加した著名投資家を確認します。",
+      "source": "TechCrunch(2026-07-20)"
+    },
+    {
+      "layout": "diagram",
+      "title": "Naturalが対抗する構図",
+      "nodes": [
+        {
+          "label": "既存の決済大手",
+          "sublabel": "Stripe等、人間向け決済インフラの中心"
+        },
+        {
+          "label": "Natural",
+          "sublabel": "AIエージェント向け決済インフラを構築"
+        },
+        {
+          "label": "Stripe自身の動き",
+          "sublabel": "Stripeもエージェント決済機能の開発を進めているとされる"
+        }
+      ],
+      "note": "Naturalが対抗する構図を整理します。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "創業から調達までの日数",
+      "stat": "193日",
+      "caption": "2025年創業からわずか193日での調達",
+      "note": "創業から調達までの期間はこちら、193日です。",
+      "source": "TechFundingNews"
+    },
+    {
+      "layout": "steps",
+      "title": "資金の使途(推測)",
+      "steps": [
+        {
+          "label": "1. 製品開発",
+          "text": "決済インフラの機能拡張に活用される可能性"
+        },
+        {
+          "label": "2. 人材採用",
+          "text": "エンジニア体制の強化に活用される可能性"
+        },
+        {
+          "label": "3. 事業拡大",
+          "text": "顧客企業の獲得に活用される可能性"
+        }
+      ],
+      "note": "ここからは推測です。資金の使途を考えてみます。"
+    },
+    {
+      "layout": "cards",
+      "title": "Naturalの特徴(公表情報より)",
+      "cards": [
+        {
+          "label": "対象",
+          "text": "AIエージェント同士の取引"
+        },
+        {
+          "label": "競合",
+          "text": "Stripeを含む既存決済大手"
+        },
+        {
+          "label": "創業からの速さ",
+          "text": "193日での大型調達"
+        }
+      ],
+      "note": "Naturalの特徴を整理します。"
+    },
+    {
+      "layout": "table",
+      "title": "出典一覧",
+      "headers": [
+        "出典",
+        "日付"
+      ],
+      "rows": [
+        [
+          "TechCrunch",
+          "2026-07-20"
+        ],
+        [
+          "TechFundingNews",
+          "2026-07-20頃"
+        ],
+        [
+          "PR Newswire",
+          "2026-07-20頃"
+        ]
+      ],
+      "note": "出典を確認します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "正直な開示: 確認できなかったこと",
+      "bullets": [
+        "具体的な決済処理件数・取引額の実績は確認できていない",
+        "導入済みの顧客企業名は確認できていない",
+        "本ラウンドの企業評価額は確認できていない"
+      ],
+      "note": "ここは正直にお伝えします。確認できていない点があります。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "参加した著名投資家",
+      "stat": "Logan Paul氏・Jake Paul氏",
+      "caption": "Antifundを通じて出資に参加",
+      "note": "参加した著名投資家、Logan Paul氏・Jake Paul氏です。",
+      "source": "TechCrunch(2026-07-20)"
+    },
+    {
+      "layout": "steps",
+      "title": "AIエージェント経済圏の広がり(概観)",
+      "steps": [
+        {
+          "label": "1. AIエージェントの普及",
+          "text": "業務・消費の場面でAIエージェントが増加"
+        },
+        {
+          "label": "2. 取引の自動化",
+          "text": "商品・サービスの選定を自動化"
+        },
+        {
+          "label": "3. 決済の自動化",
+          "text": "Naturalのようなインフラが台頭"
+        }
+      ],
+      "note": "分野全体の流れを概観します。"
+    },
+    {
+      "layout": "cards",
+      "title": "この分野で意識すべきリスク",
+      "cards": [
+        {
+          "label": "セキュリティリスク",
+          "text": "AIエージェントによる誤った決済実行の可能性は一般論として存在"
+        },
+        {
+          "label": "規制対応",
+          "text": "新しい決済形態への規制動向には注意が必要"
+        },
+        {
+          "label": "投資判断は自己責任で",
+          "text": "特定企業への投資推奨ではない"
+        }
+      ],
+      "note": "リスクについても触れておきます。"
+    },
+    {
+      "layout": "bullets",
+      "title": "既存テーマとの違い",
+      "bullets": [
+        "AIエージェント向け決済インフラという切り口は本テーマが初めて",
+        "重複するテーマは既存assetsに確認されなかった"
+      ],
+      "note": "既存テーマとの違いを整理します。"
+    },
+    {
+      "layout": "table",
+      "title": "Stripeとの位置づけ比較(イメージ)",
+      "headers": [
+        "項目",
+        "内容"
+      ],
+      "rows": [
+        [
+          "Stripeの立ち位置",
+          "人間向け決済インフラの大手として広く普及"
+        ],
+        [
+          "Naturalの立ち位置",
+          "AIエージェント向け決済インフラの新興企業"
+        ]
+      ],
+      "note": "両社の立ち位置をイメージとして整理します(優劣を判定するものではありません)。"
+    },
+    {
+      "layout": "comparison",
+      "title": "鮮度の比較(round74との比較)",
+      "left": {
+        "heading": "round74(123本目)",
+        "items": [
+          "Baselayerは着手日前日"
+        ]
+      },
+      "right": {
+        "heading": "round75(125本目)",
+        "items": [
+          "Naturalは着手日の15日前",
+          "round72(約40日前)より改善"
+        ]
+      },
+      "note": "前回round74との鮮度を比較します。"
+    },
+    {
+      "layout": "diagram",
+      "title": "今後注目すべきポイント",
+      "nodes": [
+        {
+          "label": "導入拡大",
+          "sublabel": "実際の取引件数の推移に注目"
+        },
+        {
+          "label": "Stripeとの競争",
+          "sublabel": "既存大手の対応に注目"
+        },
+        {
+          "label": "次の資金調達",
+          "sublabel": "今後のラウンドの有無に注目"
+        }
+      ],
+      "note": "今後の注目ポイントを整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "視聴者への問いかけ",
+      "bullets": [
+        "AIエージェントが自律的に決済する時代、皆さんはどう思いますか?",
+        "既存の決済大手との競争、一緒に考えてみましょう"
+      ],
+      "note": "皆さんはどう思いますか、というところで問いかけます。"
+    },
+    {
+      "layout": "cards",
+      "title": "本テーマで大切にしたこと",
+      "cards": [
+        {
+          "label": "出典の明記",
+          "text": "TechCrunch等、複数の情報源を明示"
+        },
+        {
+          "label": "正直な開示",
+          "text": "確認できなかった点を隠さず記載"
+        },
+        {
+          "label": "中立性",
+          "text": "特定企業・特定人物への評価はせず、事実の紹介にとどめた"
+        }
+      ],
+      "note": "本テーマで大切にした3点です。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "調達段階",
+      "stat": "シリーズA",
+      "caption": "本格的な事業拡大に向けた段階",
+      "note": "調達段階を改めて確認します。シリーズAです。"
+    },
+    {
+      "layout": "cta",
+      "heading": "AIエージェントが、自律的に支払う時代へ",
+      "sub": "Natural、シリーズAで3,000万ドルを調達(2026年7月20日)",
+      "note": "今回もありがとうございました。Naturalの資金調達の話題をお届けしました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "まとめ",
+      "bullets": [
+        "Naturalがシリーズ Aで3,000万ドルを調達",
+        "AIエージェント向け決済インフラという切り口が今後も注目される可能性",
+        "次回もAI業界の動きをお届けします"
+      ],
+      "note": "最後にまとめます。次回もお楽しみに。"
+    }
+  ]
+}

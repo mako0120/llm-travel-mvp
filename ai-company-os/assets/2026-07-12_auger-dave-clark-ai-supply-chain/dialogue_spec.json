@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Amazonのオペレーションを率いた男が、次はAIでサプライチェーンを変える",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "GeekWire",
+      "425 Business",
+      "WWD(Sourcing Journal)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "Amazonのオペレーションを率いた男が、次はAIでサプライチェーンを変えようとしています。", "source": "GeekWire" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "AI企業Augerの資金調達の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Augerとはどんな会社か、AIサプライチェーンとは何かをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Augerが2026年7月12日、シリーズB追加ラウンドで5,000万ドルの調達を発表しました。", "source": "GeekWire" },
+          { "speaker": "host", "text": "追加ラウンドというのがポイントなんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その調達額がこちら、5,000万ドルです。" },
+          { "speaker": "host", "text": "追加ラウンドとしては大きな規模だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、調達額、主導投資家、発表日。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Augerってどんな会社?" },
+          { "speaker": "analyst", "text": "デイブ・クラーク氏らが創業、AIで企業のサプライチェーン意思決定を高速化する会社です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "デイブ・クラーク氏ってどんな人?" },
+          { "speaker": "analyst", "text": "元Amazon世界運営責任者、元Flexport CEOです。サプライチェーン領域での豊富な実務経験を持つとされます。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "Augerが解決する課題です。従来は会議・アラート・スプレッドシートへの依存が大きかったサプライチェーン管理を、AIで高速化する方向へ変えようとしています。" },
+          { "speaker": "host", "text": "実行のスピードが上がるんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "これまでの調達履歴は?" },
+          { "speaker": "analyst", "text": "2026年6月にシリーズBで2億ドル、今回7月に追加で5,000万ドルを調達しています。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "累計だとどれくらい?" },
+          { "speaker": "analyst", "text": "累計調達額はこちら、1億5,000万ドルです。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "新規の大口顧客は?" },
+          { "speaker": "analyst", "text": "Meta(VR/AR部門)、Fanatics、Kimberly-Clarkが新規顧客として加わったと報じられています。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "活用プロセスは?" },
+          { "speaker": "analyst", "text": "データ集約、AI分析、実行支援。この3段階で会議やアラートに頼らない実行を支援します。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "創業からの累計調達額を改めて確認します。1億5,000万ドルです。" },
+          { "speaker": "host", "text": "着実に規模を拡大しているんだね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "なぜ今、AIサプライチェーンなの?" },
+          { "speaker": "analyst", "text": "サプライチェーンの意思決定が会議・アラート依存で遅くなりがちとされ、大手企業ほど調整コストが大きいとされます。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "ここから先は推測ですが、製品開発、事業拡大、人材採用に資金が使われる可能性があります。" },
+          { "speaker": "host", "text": "そこは推測だと分かるように伝えないとね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "正直にお伝えします。" },
+          { "speaker": "analyst", "text": "本ラウンドの企業評価額、具体的な導入効果の定量的な実績、2026年6月ラウンドの一次情報は確認できていません。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "GeekWire、425 Business、WWD(Sourcing Journal)です。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "Augerの利用イメージは?" },
+          { "speaker": "analyst", "text": "大手企業のサプライチェーン部門が、AIによる分析・実行支援を活用するというイメージです。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "analyst", "text": "この分野のリスクにも触れます。データ精度への依存、導入コスト、そして投資判断はあくまで自己責任です。" },
+          { "speaker": "host", "text": "特定企業への投資推奨ではないんだね。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "AIサプライチェーン意思決定支援という切り口は本テーマが初めてで、重複ではありません。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "拠点やチームは?" },
+          { "speaker": "analyst", "text": "拠点はワシントン州ベルビュー、創業者はデイブ・クラーク氏とリー・アン・クラーク氏です。従業員数は確認できていません。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "host", "text": "業界での位置づけは?" },
+          { "speaker": "analyst", "text": "対象顧客は大手企業中心、競合領域は従来型のサプライチェーン管理ツール・コンサルティングです。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "2026年6月の調達は改めてどれくらい?" },
+          { "speaker": "analyst", "text": "2億ドルです。Insight PartnersとOak HC/FTが主導しました。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "同じroundのNaturalと比べて鮮度はどう?" },
+          { "speaker": "analyst", "text": "Naturalは着手日の15日前でしたが、Augerは着手日の23日前です。round72の約40日前よりは改善しています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "今後の展開は?" },
+          { "speaker": "analyst", "text": "顧客拡大、製品進化、次の資金調達の有無が注目されます。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "元Amazon幹部が挑むAIサプライチェーン改革、大手企業の導入が広がるかどうか、一緒に考えてみましょう。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "本テーマで大切にしたことは?" },
+          { "speaker": "analyst", "text": "出典の明記、正直な開示、中立性の3点です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "調達段階を改めて確認します。シリーズB追加ラウンド、つまり本格的な事業拡大に向けた段階です。" },
+          { "speaker": "host", "text": "これからが本番なんだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "まとめると?" },
+          { "speaker": "analyst", "text": "Augerがシリーズ B追加ラウンドで5,000万ドルを調達し、AIサプライチェーン意思決定支援という切り口が今後も注目される可能性があります。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Augerの資金調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
