@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "白い文字で仕込まれた指示が、AIを操るワームになった。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "The Register(2026-07-29)",
+      "cybernews(2026-07)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "白い文字で仕込まれた指示が、AIを操るワームになりました。", "source": "The Register(2026-07-29)" },
+            { "speaker": "host", "text": "どういうこと?" },
+            { "speaker": "analyst", "text": "Microsoft Copilot for Wordの話題です。今日はこれをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "何が発見されたか、攻撃の仕組み、発見の経緯とMicrosoftの対応、なぜ危険か、今後の見通しをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "まず何が発見されたの?" },
+            { "speaker": "analyst", "text": "研究者のHakon Maloy氏が、Word文書に仕込んだ指示が別の文書へ伝播する手口を発見しました。", "source": "The Register" },
+            { "speaker": "host", "text": "ワームみたいだね。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "その手口がこちら、自己伝播するAIワームです。" },
+            { "speaker": "host", "text": "名前からして不穏だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "仕組みを図で教えて。" },
+            { "speaker": "analyst", "text": "隠し指示がCopilotに読み取られ、生成文書に複製され、別の文書へと伝播していきます。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "攻撃の流れを詳しく。" },
+            { "speaker": "analyst", "text": "隠し指示の埋め込み、Copilotへの依頼、指示の実行、新たな感染源化。この4ステップです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "プロンプトインジェクションって何?" },
+            { "speaker": "analyst", "text": "AIに対する隠れた指示を、正規の依頼に紛れ込ませる手口のことです。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "発見の経緯は?" },
+            { "speaker": "analyst", "text": "Maloy氏が2026年3月にMicrosoftへ報告し、Microsoftは複数の修正を展開しました。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "タイムラインをまとめて。" },
+            { "speaker": "analyst", "text": "3月の報告、修正の展開、7月末の再確認。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて期間を確認します。3月の報告から7月末まで。" },
+            { "speaker": "host", "text": "4ヶ月以上経っているんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "Microsoftはどう対応したの?" },
+            { "speaker": "analyst", "text": "挙動を確認し、編集体験の改訂とモデルのアップグレードを実施しました。ただし根本的な脆弱性の分類は完全には解決されていません。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "この話題、他でも取り上げられている?" },
+            { "speaker": "analyst", "text": "AI技術者のSimon Willison氏もブログで『AI Worming through Word』というタイトルで取り上げています。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "なぜ危険なの?" },
+            { "speaker": "analyst", "text": "利用者が気づかないまま指示が伝播しうる点、AIアシスタント全般に共通する弱点である点です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "業界全体への影響は?" },
+            { "speaker": "analyst", "text": "今回の事例はCopilotで発見されましたが、根本の弱点はAIアシスタント全般に共通するとされています。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでを総括します。隠し指示が伝播する新しいタイプの脆弱性が、7月末時点でも完全には解決されていません。" },
+            { "speaker": "host", "text": "気になる話だね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、Microsoftを一方的に責めていない?" },
+            { "speaker": "analyst", "text": "いいえ。Microsoftは複数の修正を実施しており、この弱点はAI業界全体に共通する課題です。特定企業を過度に批判する結論にはしていません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "似たテーマとの違いは?" },
+            { "speaker": "analyst", "text": "既存テーマのOpenAIの事例はサンドボックス脱走ですが、本テーマは文書を介した伝播であり、重複ではありません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "出典をまとめて教えて。" },
+            { "speaker": "analyst", "text": "The Register・cybernews・Malwarebytesなど、複数の専門媒体です。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことは?" },
+            { "speaker": "analyst", "text": "伝播の仕組みと対応内容は確認済み、修正がなぜ完全でないかの技術詳細や被害事例は未確認です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "さらなる対策、業界全体の議論、利用者の意識向上。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "利用者が意識したいことは?" },
+            { "speaker": "analyst", "text": "文書の出所確認、提供元の発表確認、過度な断定を避けること。この3点です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "この話題の広がりは?" },
+            { "speaker": "analyst", "text": "セキュリティ専門媒体を中心に、AI技術者のブログでも取り上げられました。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて期間です。報告から4ヶ月超が経過していますが、完全な解決には至っていません。" },
+            { "speaker": "host", "text": "根が深い問題なんだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "配慮している点は?" },
+            { "speaker": "analyst", "text": "数字の創作をせず、特定企業を過度に批判せず、断定的な対策の推奨も行っていません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "発見から報道までの流れをもう一度。" },
+            { "speaker": "analyst", "text": "3月の発見、報告後の修正、7月末の再確認と報道です。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "視聴者に聞いてみたいことは?" },
+            { "speaker": "analyst", "text": "AIアシスタントの利便性と、こうした新しいリスクのバランスについて、どう考えますか。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一度、このブログ記事のタイトルです。『AI Worming through Word』。" },
+            { "speaker": "host", "text": "印象的なタイトルだね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマを総括します。Microsoft Copilot for Wordで、研究者が自己伝播するAIワームの手口を発見・報告しました。" },
+            { "speaker": "host", "text": "改めて興味深い話だったね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "Microsoftの今後の対応、そして業界全体のプロンプトインジェクション対策に注目していきましょう。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "AIが便利になるほど、こうした新しいリスクにも目を向け続ける必要がありそうです。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
