@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "海外生まれの頭脳が、日本仕様に生まれ変わった。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Admina by Money Forward",
+      "複数のAI専門メディア(2026-08)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "海外生まれの頭脳が、日本仕様に生まれ変わりました。", "source": "Admina by Money Forward" },
+            { "speaker": "host", "text": "どういうこと?" },
+            { "speaker": "analyst", "text": "Sakana AIの新しいAPIの話題です。今日はこれをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "何が始まったか、主な特徴、基盤モデルの変遷、話題になっている理由、今後の見通しをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "まず何が始まったの?" },
+            { "speaker": "analyst", "text": "2026年8月3日、Sakana AIが日本語特化LLM API『Sakana Namazu』の提供を開始しました。", "source": "Admina by Money Forward" },
+            { "speaker": "host", "text": "面白い名前だね。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "その名前がこちら、Sakana Namazuです。" },
+            { "speaker": "host", "text": "日本語に特化しているんだね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "提供概要を教えて。" },
+            { "speaker": "analyst", "text": "提供開始日、提供元、形態、特化領域。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "主な特徴は?" },
+            { "speaker": "analyst", "text": "日本語特化、ツール内蔵、互換API、簡単な導入の4点です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "Sakana AIについて教えて。" },
+            { "speaker": "analyst", "text": "日本のAIモデル開発企業です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "ポストトレーニングって何?" },
+            { "speaker": "analyst", "text": "既存の高性能モデルに追加の学習を適用し、日本の文化・価値観に合わせて調整する手法です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "仕組みを図で教えて。" },
+            { "speaker": "analyst", "text": "海外の高性能モデルに追加学習を施し、日本仕様のモデルとして提供しています。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "ベースとなるモデルは、2026年3月に無料サービス『Sakana Chat』で初めて公開されました。" },
+            { "speaker": "host", "text": "以前からあったんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "基盤モデルは変わったの?" },
+            { "speaker": "analyst", "text": "当初のDeepSeek・Llama・gpt-oss系から、Kimi K2.6系へ変更されました。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "変遷をまとめて。" },
+            { "speaker": "analyst", "text": "2026年3月の初公開、2026年8月のAPI提供開始。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "採用したAPI形式はOpenAI互換です。" },
+            { "speaker": "host", "text": "既存のコードから移行しやすいんだね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "Sakana ChatとSakana Namazuの違いは?" },
+            { "speaker": "analyst", "text": "Sakana Chatは無料の個人向けサービス、Sakana Namazuは開発者・企業向けのAPI提供です。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "なぜこの話題が注目されているの?" },
+            { "speaker": "analyst", "text": "日本発の日本語特化モデルという話題性、海外モデルを日本仕様に変えるという分かりやすい構図です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "提供開始までの流れを図で教えて。" },
+            { "speaker": "analyst", "text": "3月の初公開から、8月のAPI提供開始へと発展しています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、配慮している点はある?" },
+            { "speaker": "analyst", "text": "はい。一部で紹介されている特徴の詳細な安全対策は未確認であり、特定の利用方法を推奨する意図はありません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマを総括します。Sakana AIが、海外モデルを日本仕様に変えたAPIの提供を開始しました。" },
+            { "speaker": "host", "text": "興味深い取り組みだね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "企業・開発者への導入、基盤モデルの継続的な更新、国内AI市場への影響。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "想定される利用シーンは?" },
+            { "speaker": "analyst", "text": "企業の業務利用、開発者の導入のしやすさが挙げられます。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "配慮している点は?" },
+            { "speaker": "analyst", "text": "数字の創作をせず、特定の利用方法を強く推奨する結論にもしていません。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "出典をもう一度教えて。" },
+            { "speaker": "analyst", "text": "Admina by Money Forwardを中心とした複数の専門メディアです。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことは?" },
+            { "speaker": "analyst", "text": "提供開始日や基盤モデルの変遷は確認済み、利用者数や一部特徴の安全対策の詳細は未確認です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて確認します。日本語特化LLM API、Sakana Namazuです。" },
+            { "speaker": "host", "text": "改めて興味深いね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "話題の広がり方を図で教えて。" },
+            { "speaker": "analyst", "text": "提供開始、報道、話題化という流れです。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "視聴者に聞いてみたいことは?" },
+            { "speaker": "analyst", "text": "日本語特化AIと海外の汎用AI、どう使い分けたいですか。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "数字でまとめると?" },
+            { "speaker": "analyst", "text": "2026年3月の初公開、8月3日のAPI提供開始、基盤モデルの変更です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて総括します。日本発の、日本語特化AI APIの登場でした。" },
+            { "speaker": "host", "text": "国内発というのが心強いね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "Sakana Namazuの実際の活用事例、そして国内AI企業の今後の展開に注目していきましょう。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "日本語という土壌で育つAIが、これからどんな成果を見せてくれるか楽しみですね。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

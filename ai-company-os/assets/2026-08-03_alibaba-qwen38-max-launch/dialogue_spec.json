@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "2.4兆という数字が、AI業界の序列を揺さぶり始めた。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "gihyo.jp(2026-08-03)",
+      "ITmedia AI+(2026-08-03)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "2.4兆という数字が、AI業界の序列を揺さぶり始めました。", "source": "gihyo.jp(2026-08-03)" },
+            { "speaker": "host", "text": "どういうこと?" },
+            { "speaker": "analyst", "text": "Alibabaが発表したAIモデルの話題です。今日はこれをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "何が発表されたか、主な特徴、性能主張の内容、話題になっている理由、今後の見通しをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "まず何が発表されたの?" },
+            { "speaker": "analyst", "text": "2026年8月3日、Alibaba Cloudが2.4兆パラメータのAIモデル『Qwen3.8-Max』を正式リリースしました。", "source": "gihyo.jp" },
+            { "speaker": "host", "text": "2.4兆はすごい規模だね。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "その規模がこちら、2.4兆パラメータです。" },
+            { "speaker": "host", "text": "Alibaba Cloud史上最大級なんだね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "スペックを教えて。" },
+            { "speaker": "analyst", "text": "総パラメータ数、活性化パラメータ数、構成、コンテキストウィンドウ。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "主な特徴は?" },
+            { "speaker": "analyst", "text": "大規模MoE構成、長文脈対応、自律コーディング、オープン化予定の4点です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "Alibaba Cloudについて教えて。" },
+            { "speaker": "analyst", "text": "中国のクラウド・AIサービス企業です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "MoE構成って何?" },
+            { "speaker": "analyst", "text": "全パラメータのうち必要な部分だけを都度活性化する仕組みです。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "仕組みを図で教えて。" },
+            { "speaker": "analyst", "text": "全体の中から必要な部分だけを選んで活性化する構成です。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "コンテキストウィンドウは100万トークン、長い文脈を一度に扱えます。" },
+            { "speaker": "host", "text": "かなり長い文脈も扱えるんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "性能主張の内容は?" },
+            { "speaker": "analyst", "text": "著名AIモデルを超える性能を主張していると報じられていますが、評価基準の詳細は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "比較対象として挙げられているのは?" },
+            { "speaker": "analyst", "text": "報道内では、Anthropic・OpenAIのモデルが比較対象として言及されています。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "実際に活性化されるのは950億パラメータです。" },
+            { "speaker": "host", "text": "全体は2.4兆でも、実際に使うのはその一部なんだね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "総パラメータと活性化パラメータの違いは?" },
+            { "speaker": "analyst", "text": "総パラメータは2.4兆ですが、実際の計算に使われるのは950億です。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、この話、Anthropicを貶めていない?" },
+            { "speaker": "analyst", "text": "いいえ。本テーマではAnthropicのモデルが比較対象として言及されますが、いずれかへの宣伝・貶めを目的とせず、性能主張の真偽も断定していません。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "オープン化までの流れは?" },
+            { "speaker": "analyst", "text": "8月3日のリリースから、来週のオープンウェイト公開へと続く予定です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "なぜこの話題が注目されているの?" },
+            { "speaker": "analyst", "text": "2.4兆パラメータという規模の衝撃性、著名AIモデルとの比較に言及される構図です。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでを総括します。史上最大級のモデルが、AI業界に登場しました。" },
+            { "speaker": "host", "text": "大きな出来事だね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "オープンウェイト公開の詳細、第三者による性能検証、業界への影響。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "業界への影響は?" },
+            { "speaker": "analyst", "text": "大規模化競争、オープン化の流れ、利用者の選択肢拡大が挙げられます。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "配慮している点は?" },
+            { "speaker": "analyst", "text": "数字の創作をせず、性能主張の真偽を断定せず、特定企業への宣伝・貶めも避けています。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "出典をもう一度教えて。" },
+            { "speaker": "analyst", "text": "gihyo.jpを中心とした複数のテック専門メディアです。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことは?" },
+            { "speaker": "analyst", "text": "モデルの規模・構成は確認済み、性能主張の評価基準や公開の正確な日時は未確認です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて確認します。2.4兆パラメータのAIモデル、Qwen3.8-Maxです。" },
+            { "speaker": "host", "text": "改めてすごい規模だね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "話題の広がり方を図で教えて。" },
+            { "speaker": "analyst", "text": "リリース、報道、話題化という流れです。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "視聴者に聞いてみたいことは?" },
+            { "speaker": "analyst", "text": "モデルの規模拡大競争が、今後どこまで続くと思いますか。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "数字でまとめると?" },
+            { "speaker": "analyst", "text": "総パラメータ2.4兆、活性化パラメータ950億、コンテキストウィンドウ100万トークンです。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて総括します。2.4兆パラメータの、史上最大級のモデルが登場しました。" },
+            { "speaker": "host", "text": "興味深い発表だったね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "オープンウェイト版の公開、そして第三者による性能検証に注目していきましょう。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "AIモデルの規模競争は、これからも続いていきそうですね。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

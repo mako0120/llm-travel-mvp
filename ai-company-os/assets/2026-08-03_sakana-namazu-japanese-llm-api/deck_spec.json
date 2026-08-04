@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "title": "海外生まれの頭脳が、日本仕様に生まれ変わった。",
+    "footer": "AI Company OS｜出典: Admina by Money Forward(2026-08)｜定期実行100本目",
+    "palette_preset": "forest_sand",
+    "subtitle": "Sakana AI、日本語特化LLM API「Sakana Namazu」の提供を開始"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "海外生まれの頭脳が、日本仕様に生まれ変わった。",
+      "sub": "Sakana AI、日本語特化LLM API「Sakana Namazu」の提供を開始",
+      "footnote": "出典: Admina by Money Forward ほか(2026-08-03) ※着手日と同日の話題です",
+      "note": "本日はSakana AIが提供を開始した、日本語特化LLM API『Sakana Namazu』の話題をお届けします。"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日わかること",
+      "items": [
+        "何が始まったのか",
+        "主な特徴",
+        "基盤モデルの変遷",
+        "なぜ話題になっているのか",
+        "今後の見通し"
+      ],
+      "note": "今日は、何が始まったのか、主な特徴、基盤モデルの変遷、話題になっている理由、今後の見通しをお伝えします。"
+    },
+    {
+      "layout": "bullets",
+      "title": "何が始まったのか",
+      "bullets": [
+        "Sakana AIが2026年8月3日、日本語特化LLM API『Sakana Namazu』の提供を開始",
+        "日本語・日本の商習慣に特化したモデル",
+        "OpenAI互換のAPIで既存コードから利用しやすい設計"
+      ],
+      "source": "Admina by Money Forward",
+      "note": "2026年8月3日、Sakana AIが日本語特化LLM API『Sakana Namazu』の提供を開始しました。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "新しいAPI",
+      "stat": "Sakana Namazu",
+      "caption": "日本語・日本の商習慣に特化したLLM API",
+      "source": "Admina by Money Forward",
+      "note": "その名前がこちら、Sakana Namazuです。"
+    },
+    {
+      "layout": "table",
+      "title": "提供概要",
+      "headers": ["項目", "内容"],
+      "rows": [
+        ["提供開始日", "2026年8月3日"],
+        ["提供元", "Sakana AI"],
+        ["形態", "API(OpenAI互換)"],
+        ["特化領域", "日本語・日本の商習慣"]
+      ],
+      "note": "提供概要をまとめると、この表の通りです。"
+    },
+    {
+      "layout": "steps",
+      "title": "主な特徴",
+      "steps": [
+        { "label": "日本語特化", "text": "日本語・日本の商習慣に合わせた設計" },
+        { "label": "ツール内蔵", "text": "Web検索・コード実行ツールを内蔵" },
+        { "label": "互換API", "text": "OpenAI互換で移行しやすい" },
+        { "label": "簡単な導入", "text": "base_url変更とAPIキー設定のみで利用可能" }
+      ],
+      "note": "主な特徴を整理すると、この4点です。"
+    },
+    {
+      "layout": "cards",
+      "title": "Sakana AIとは",
+      "cards": [
+        { "label": "所在地", "text": "日本" },
+        { "label": "事業", "text": "AIモデルの開発" },
+        { "label": "今回の発表", "text": "日本語特化LLM APIの提供開始" }
+      ],
+      "note": "Sakana AIは、日本のAIモデル開発企業です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "ポストトレーニングとは",
+      "bullets": [
+        "既存の高性能モデルに、追加の学習を適用する手法",
+        "日本の文化・価値観に合わせた調整を行う",
+        "Namazuはこの手法をベースにしている"
+      ],
+      "source": "複数のAI専門メディア",
+      "note": "ポストトレーニングとは、既存の高性能モデルに追加の学習を適用し、日本の文化・価値観に合わせて調整する手法です。"
+    },
+    {
+      "layout": "diagram",
+      "title": "仕組み(概念)",
+      "nodes": [
+        { "label": "海外の高性能モデル", "sublabel": "ベースとなるモデル" },
+        { "label": "ポストトレーニング", "sublabel": "日本語・日本の文脈に合わせた追加学習" },
+        { "label": "Sakana Namazu", "sublabel": "日本仕様のモデルとして提供" }
+      ],
+      "note": "仕組みを図で見ると、海外の高性能モデルに追加学習を施し、日本仕様のモデルとして提供しています。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "初公開時期",
+      "stat": "2026年3月",
+      "caption": "無料サービス『Sakana Chat』で初めて公開",
+      "source": "複数のAI専門メディア",
+      "note": "Namazuのベースとなるモデルは、2026年3月に無料サービス『Sakana Chat』で初めて公開されました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "基盤モデルの変更点",
+      "bullets": [
+        "2026年3月公開時点: DeepSeek・Llama・gpt-oss系をベースに使用",
+        "今回のAPI提供: Kimi K2.6系へ変更",
+        "製品・サービス名は変更なし"
+      ],
+      "source": "複数のAI専門メディア",
+      "note": "基盤モデルは、当初のDeepSeek・Llama・gpt-oss系から、Kimi K2.6系へ変更されました。"
+    },
+    {
+      "layout": "table",
+      "title": "基盤モデルの変遷まとめ",
+      "headers": ["時期", "基盤モデル"],
+      "rows": [
+        ["2026年3月(初公開)", "DeepSeek・Llama・gpt-oss系"],
+        ["2026年8月(API提供開始)", "Kimi K2.6系"]
+      ],
+      "note": "基盤モデルの変遷をまとめると、この表の通りです。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "採用したAPI形式",
+      "stat": "OpenAI互換",
+      "caption": "base_url変更とAPIキー設定のみで移行可能",
+      "note": "採用したAPI形式は、OpenAI互換です。"
+    },
+    {
+      "layout": "comparison",
+      "title": "Sakana ChatとSakana Namazu",
+      "left": {
+        "heading": "Sakana Chat",
+        "items": ["2026年3月公開の無料サービス", "個人利用向け"]
+      },
+      "right": {
+        "heading": "Sakana Namazu(本テーマ)",
+        "items": ["2026年8月提供開始のAPI", "開発者・企業向け"]
+      },
+      "note": "Sakana Chatが無料の個人向けサービスであるのに対し、Sakana Namazuは開発者・企業向けのAPI提供です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜ話題になっているのか",
+      "bullets": [
+        "日本発のAI企業による日本語特化モデルという話題性",
+        "海外の高性能モデルを『日本仕様』に変えるという分かりやすい構図",
+        "OpenAI互換で導入しやすい設計"
+      ],
+      "note": "この話題が注目される理由は、日本発の日本語特化モデルという話題性、分かりやすい構図です。"
+    },
+    {
+      "layout": "diagram",
+      "title": "提供開始までの流れ",
+      "nodes": [
+        { "label": "2026年3月", "sublabel": "Sakana Chatとして初公開" },
+        { "label": "開発の継続", "sublabel": "基盤モデルの見直し" },
+        { "label": "2026年8月3日", "sublabel": "Sakana NamazuとしてAPI提供開始" }
+      ],
+      "note": "提供開始までの流れを図で見ると、3月の初公開から、8月のAPI提供開始へと発展しています。"
+    },
+    {
+      "layout": "bullets",
+      "title": "【重要】本テーマの配慮事項についての開示",
+      "bullets": [
+        "一部メディアで紹介されている特徴の詳細な安全対策は未確認",
+        "本テーマは特定の利用方法を推奨する意図はない",
+        "海外モデルを基盤とする点も含め、事実を淡々と紹介する"
+      ],
+      "note": "ここで大事な点を確認します。一部メディアで紹介されている特徴の詳細な安全対策は未確認であり、本テーマは特定の利用方法を推奨する意図はありません。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "本テーマの総括",
+      "stat": "海外モデルを、日本仕様に",
+      "caption": "Sakana AIが、日本語特化LLM APIの提供を開始した",
+      "note": "本テーマを総括します。Sakana AIが、海外モデルを日本仕様に変えたAPIの提供を開始しました。"
+    },
+    {
+      "layout": "steps",
+      "title": "今後の見通し(ここからは推測)",
+      "steps": [
+        { "label": "利用の広がり", "text": "企業・開発者への導入が進む可能性" },
+        { "label": "基盤モデルの更新", "text": "今後も基盤モデルの見直しが続く可能性" },
+        { "label": "日本語AI市場", "text": "国内AI企業の競争への影響" }
+      ],
+      "note": "ここからは推測です。企業・開発者への導入、基盤モデルの継続的な更新、国内AI市場への影響が焦点になりそうです。"
+    },
+    {
+      "layout": "cards",
+      "title": "想定される利用シーン",
+      "cards": [
+        { "label": "企業の業務利用", "text": "日本語・商習慣に合わせたAI活用" },
+        { "label": "開発者の導入", "text": "既存コードからの移行のしやすさ" },
+        { "label": "海外モデルとの使い分け", "text": "用途に応じた選択肢の一つ" }
+      ],
+      "note": "想定される利用シーンとしては、企業の業務利用、開発者の導入のしやすさが挙げられます。"
+    },
+    {
+      "layout": "bullets",
+      "title": "リスク・配慮事項",
+      "bullets": [
+        "数字の創作はせず、報道された内容のみを扱う",
+        "特定の利用方法を強く推奨する結論にはしない",
+        "海外モデルを基盤とする点を含め、事実を公平に紹介する"
+      ],
+      "note": "本テーマでは数字の創作をせず、特定の利用方法を強く推奨する結論にもしていません。"
+    },
+    {
+      "layout": "table",
+      "title": "出典一覧",
+      "headers": ["媒体", "内容"],
+      "rows": [
+        ["Admina by Money Forward", "API提供開始の要点を報道"],
+        ["複数のAI専門メディア", "基盤モデルの変遷・特徴を報道"]
+      ],
+      "note": "出典はこの表の通り、複数の専門メディアです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "確認できたこと・できなかったこと",
+      "bullets": [
+        "確認済み: 提供開始日・基盤モデルの変遷・API形式",
+        "確認済み: 主な特徴(ツール内蔵・互換API)",
+        "未確認: 実際の利用者数・料金体系の詳細",
+        "未確認: 一部特徴の具体的な安全対策の詳細"
+      ],
+      "note": "確認できたことと確認できなかったことを正直に整理します。利用者数・料金体系や、一部特徴の安全対策の詳細は確認できていません。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "Sakana Namazu",
+      "stat": "2026年8月3日、API提供開始",
+      "caption": "日本語・日本の商習慣に特化したLLM",
+      "note": "改めて確認します。日本語特化LLM API、Sakana Namazuです。"
+    },
+    {
+      "layout": "diagram",
+      "title": "この話題の広がり方",
+      "nodes": [
+        { "label": "提供開始", "sublabel": "8月3日、APIとして公開" },
+        { "label": "報道", "sublabel": "AI専門メディアが速報" },
+        { "label": "話題化", "sublabel": "開発者コミュニティで拡散" }
+      ],
+      "note": "提供開始から報道、話題化までの流れを図にすると、このようになります。"
+    },
+    {
+      "layout": "bullets",
+      "title": "視聴者への問いかけ",
+      "bullets": [
+        "日本語特化AIと海外の汎用AI、どう使い分けたいですか",
+        "国内発のAI企業に、今後どんなことを期待しますか"
+      ],
+      "note": "皆さんは、日本語特化AIと海外の汎用AIをどう使い分けたいですか。"
+    },
+    {
+      "layout": "cards",
+      "title": "数字で見るSakana Namazu",
+      "cards": [
+        { "label": "初公開", "text": "2026年3月" },
+        { "label": "API提供開始", "text": "2026年8月3日" },
+        { "label": "基盤モデル", "text": "Kimi K2.6系へ変更" }
+      ],
+      "note": "数字で見ると、2026年3月の初公開から、8月3日のAPI提供開始、基盤モデルの変更という経緯があります。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "本テーマの総括",
+      "stat": "日本発の、日本語特化AI API",
+      "caption": "Sakana AI、2026年8月3日にSakana Namazuの提供を開始",
+      "note": "改めて総括します。日本発の、日本語特化AI APIの登場でした。"
+    },
+    {
+      "layout": "cta",
+      "heading": "続報にも注目です",
+      "sub": "Sakana Namazuの実際の活用事例、国内AI企業の今後の展開に注目していきます",
+      "action": "続報をお楽しみに",
+      "note": "Sakana Namazuの実際の活用事例、そして国内AI企業の今後の展開に注目していきましょう。"
+    },
+    {
+      "layout": "bullets",
+      "title": "まとめ",
+      "bullets": [
+        "Sakana AIが日本語特化LLM API『Sakana Namazu』の提供を開始(2026年8月3日)",
+        "海外の高性能モデルにポストトレーニングを適用し、日本仕様に",
+        "OpenAI互換APIで既存コードから移行しやすい設計"
+      ],
+      "note": "今回もありがとうございました。Sakana Namazuの話題をお届けしました。次回もお楽しみに。"
+    }
+  ]
+}
