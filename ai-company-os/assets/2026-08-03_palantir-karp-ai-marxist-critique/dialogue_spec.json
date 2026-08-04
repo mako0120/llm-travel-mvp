@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "好決算の裏で、CEOがAI業界に「マルクス主義」と言い放った",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-08-03)",
+      "CNBC(2026-08-03)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "好決算の裏で、CEOがAI業界に『マルクス主義』と言い放ちました。", "source": "TechCrunch(2026-08-03)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "Palantirの好決算とCEOの発言の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、決算の詳細、カープ氏の発言の内容、事実と意見の切り分けをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Palantirが第2四半期決算を発表し、その後CEOがAI業界を批判する発言をしました。", "source": "TechCrunch" },
+          { "speaker": "host", "text": "着手日の前日の出来事なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その売上高がこちら、19億ドルで前年同期比93%増です。" },
+          { "speaker": "host", "text": "すごい成長率だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "決算概要を教えて。" },
+          { "speaker": "analyst", "text": "企業、発表日、売上高、利益。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Palantirってどんな会社?" },
+          { "speaker": "analyst", "text": "データ分析企業で、CEOのカープ氏は哲学と社会理論を専攻したことで知られます。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "決算のポイントは?" },
+          { "speaker": "analyst", "text": "大幅な増収増益、自社株買いの発表、業績見通しの上方修正です。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "カープ氏は株主向け書簡で、大規模言語モデルを開発する企業についてこのような表現を用いたと報じられています。", "source": "TechCrunch" },
+          { "speaker": "host", "text": "かなり強い表現だね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "発言の対象を整理すると?" },
+          { "speaker": "analyst", "text": "OpenAI・Anthropicなどを念頭に置いた発言と報じられています。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "カープ氏のこれまでの立場は?" },
+          { "speaker": "analyst", "text": "以前から同様の主張を繰り返しているとされています。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "決算と同時に、10億ドル規模の自社株買いも発表されました。", "source": "Benzinga" },
+          { "speaker": "host", "text": "投資家への還元も積極的なんだね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "誰が報じているの?" },
+          { "speaker": "analyst", "text": "TechCrunch、CNBC、Benzinga、techbuzz.aiです。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。決算数字は事実として扱いますが、カープ氏の発言は同氏個人の見解として紹介し、当否の評価は行いません。" },
+          { "speaker": "host", "text": "そこは分けて伝えないとね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "決算から発言までの流れは?" },
+          { "speaker": "analyst", "text": "決算発表、株主向け書簡、そして複数媒体の報道という流れです。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点を確認します。本パイプライン自体もAnthropicの技術を利用しているため、カープ氏の発言を自社の見解として提示せず、批判の妥当性についても特定の立場を取りません。" },
+          { "speaker": "host", "text": "そこは徹底しないとね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "ここまでを総括します。好決算と、業界への挑発的な発言が同時に話題になったことが今回の核心です。" },
+          { "speaker": "host", "text": "興味深い展開だね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "これからどうなりそう?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、AIラボ側の反応、業界内の議論、株価への影響が焦点になりそうです。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "どんな影響がありそう?" },
+          { "speaker": "analyst", "text": "データガバナンスをめぐる議論の活発化、企業向け信頼性の議論が挙げられます。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "他のAI企業テーマとは違うの?" },
+          { "speaker": "analyst", "text": "既存テーマにはPalantirを主題として扱ったものはなく、重複ではありません。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "本テーマでは数字の創作をせず、特定企業・特定研究所への支持や批判も行っていません。" },
+          { "speaker": "host", "text": "そこは大事なポイントだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "独立した複数の報道・金融専門メディアです。この表の通りです。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "確認できたことと、確認できなかったことを正直に整理します。OpenAI・Anthropic側からの公式な反応はまだ確認できていません。" },
+          { "speaker": "host", "text": "そこは続報待ちだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。Palantirの好決算と、CEOの発言が同時に話題になりました。" },
+          { "speaker": "host", "text": "改めて聞いても印象的な話題だね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "事実と発言を分けて整理すると?" },
+          { "speaker": "analyst", "text": "決算の事実と、カープ氏個人の見解を分けて紹介しています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "話題の広がり方をおさらいすると?" },
+          { "speaker": "analyst", "text": "決算発表から発言の報道、そして本日の話題化までの流れです。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "企業向けAIの信頼性、どう考えますか。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "数字でおさらいすると?" },
+          { "speaker": "analyst", "text": "売上高19億ドル、利益11億ドル、自社株買いは10億ドル規模です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "改めて総括します。好決算と、業界への一石が同時に投じられた、その一つの節目でした。" },
+          { "speaker": "host", "text": "続報が楽しみだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "analyst", "text": "AIラボ側の反応、そして企業向けAIをめぐる議論の行方に注目していきましょう。" },
+          { "speaker": "host", "text": "続報をお楽しみに。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Palantirの好決算とCEOの発言の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

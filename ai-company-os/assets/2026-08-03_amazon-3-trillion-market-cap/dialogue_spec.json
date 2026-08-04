@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "世界でたった5社しか到達していない領域に、Amazonが入った",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "CNBC(2026-08-03)",
+      "Bloomberg(2026-08-03)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "世界でたった5社しか到達していない領域に、Amazonが入りました。", "source": "CNBC(2026-08-03)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "Amazonの時価総額3兆ドル突破の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、3兆ドル企業クラブとは、決算の詳細、株価の動きをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Amazonが時価総額3兆ドルを突破し、史上5社目の3兆ドル企業となりました。", "source": "CNBC" },
+          { "speaker": "host", "text": "着手日の前日の出来事なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その時価総額がこちら、3兆ドルです。" },
+          { "speaker": "host", "text": "とてつもない金額だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "概要を教えて。" },
+          { "speaker": "analyst", "text": "企業、到達日、到達社数、牽引要因。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "先行する企業は?" },
+          { "speaker": "analyst", "text": "Nvidia、Alphabet、Microsoft、Appleです。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "3兆ドル企業クラブの顔ぶれを整理すると?" },
+          { "speaker": "analyst", "text": "半導体、検索・広告、ソフトウェア、デバイス、そしてeコマース・クラウドと、事業領域は様々です。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "host", "text": "3兆ドル到達までの歩みは?" },
+          { "speaker": "analyst", "text": "2024年6月の2兆ドル到達から、AI需要の拡大を経て、約2年で到達しました。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "analyst", "text": "AWSの売上高は422億ドルで、市場予想を上回りました。", "source": "PYMNTS" },
+          { "speaker": "host", "text": "好調な決算だったんだね。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "背景を整理すると?" },
+          { "speaker": "analyst", "text": "AI需要の拡大がAWS売上の急成長、そして時価総額3兆ドル到達につながっています。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "AWS売上高を比較すると?" },
+          { "speaker": "analyst", "text": "市場予想405.4億ドルに対し、実際は422億ドルでした。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "analyst", "text": "AWSの売上高は422億ドルで、市場予想を上回りました。" },
+          { "speaker": "host", "text": "投資家の期待を超えたんだね。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "誰が報じているの?" },
+          { "speaker": "analyst", "text": "CNBC、Bloomberg、PYMNTS、Yahoo Financeなどです。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "株価の動きは?" },
+          { "speaker": "analyst", "text": "当日一時5.3%上昇し、年初来では23%超の上昇となっています。", "source": "Bloomberg" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "株価上昇の流れを整理すると?" },
+          { "speaker": "analyst", "text": "先週の決算発表後の上昇局面が、3兆ドル到達につながりました。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "ここまでを総括します。AI需要が世界最大級の企業を押し上げていることが今回の核心です。" },
+          { "speaker": "host", "text": "大きな節目だね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "これからどうなりそう?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、AWSの成長継続、他社の動向、市場全体への影響が焦点になりそうです。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "どんな影響がありそう?" },
+          { "speaker": "analyst", "text": "投資家の関心の高まり、クラウド業界の競争激化が挙げられます。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "他のAmazonテーマとは違うの?" },
+          { "speaker": "analyst", "text": "既存のAmazon-OpenAI投資契約のテーマとは主題が異なり、重複ではありません。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "本テーマでは数字の創作をせず、特定企業の株式投資を推奨する結論にもしていません。" },
+          { "speaker": "host", "text": "そこは大事なポイントだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "独立した複数の報道・金融専門メディアです。この表の通りです。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "確認できたことと、確認できなかったことを正直に整理します。AWS決算の詳細な内訳はまだ確認できていません。" },
+          { "speaker": "host", "text": "そこは続報待ちだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。Amazonが、時価総額3兆ドルを突破しました。" },
+          { "speaker": "host", "text": "改めて聞いても大きな節目だね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "2兆ドル到達時と比べると?" },
+          { "speaker": "analyst", "text": "今回はAWSのAI需要が主な牽引役となっています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "話題の広がり方をおさらいすると?" },
+          { "speaker": "analyst", "text": "決算発表から株価上昇、そして3兆ドル到達までの流れです。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "AI需要が牽引する時価総額の拡大、今後も続くと思いますか。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "数字でおさらいすると?" },
+          { "speaker": "analyst", "text": "時価総額3兆ドル、AWS売上高422億ドル、年初来株価上昇率は23%超です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "改めて総括します。世界でたった5社しか到達していない領域に、Amazonが入った、その一つの節目でした。" },
+          { "speaker": "host", "text": "続報が楽しみだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "analyst", "text": "AWSの成長継続、そして他社の時価総額競争の動向に注目していきましょう。" },
+          { "speaker": "host", "text": "続報をお楽しみに。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Amazonの時価総額3兆ドル突破の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
