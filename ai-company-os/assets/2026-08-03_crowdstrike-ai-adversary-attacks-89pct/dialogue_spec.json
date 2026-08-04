@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "AIを武器にした攻撃が、89%も増えていた",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "CrowdStrike公式プレスリリース(2026-08-03)",
+      "CyberScoop(2026-08-03)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "AIを武器にした攻撃が、89%も増えていました。", "source": "CrowdStrike公式プレスリリース(2026-08-03)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "CrowdStrikeの年次脅威レポートの話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、AIの三つの役割、脆弱性悪用の高速化、サプライチェーン攻撃の事例をお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "CrowdStrikeが年次脅威レポートを公開し、AI活用型攻撃が前年比89%増加したと報告しました。", "source": "CrowdStrike公式プレスリリース" },
+          { "speaker": "host", "text": "着手日と同日の発表なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その増加率がこちら、前年比で89%増です。" },
+          { "speaker": "host", "text": "大きな増加だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "概要を教えて。" },
+          { "speaker": "analyst", "text": "発表元、レポート名、発表日、主な内容。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "CrowdStrikeってどんな会社?" },
+          { "speaker": "analyst", "text": "サイバーセキュリティ企業で、今回年次脅威レポートを公開しました。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "AIはどんな役割を果たしているの?" },
+          { "speaker": "analyst", "text": "道具、標的、増幅装置という三つの役割を担っているとされます。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "脆弱性悪用の高速化について、88%が48時間以内に発生したと報告されています。", "source": "CrowdStrike公式ブログ" },
+          { "speaker": "host", "text": "かなり速いスピードだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "スピードを整理すると?" },
+          { "speaker": "analyst", "text": "PoC公開からわずかな時間で悪用に至る事例が多いとされます。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "analyst", "text": "PoC公開済み脆弱性のうち、88%が48時間以内に悪用されたとされています。" },
+          { "speaker": "host", "text": "企業側は対応が大変そうだね。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "誰が報じているの?" },
+          { "speaker": "analyst", "text": "CrowdStrike公式、Yahoo Finance、CyberScoop、StockTitanです。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "サプライチェーン攻撃の事例は?" },
+          { "speaker": "analyst", "text": "131件のフレームワークへのnpmパッケージ混入が報告されています。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "詳細を教えて。" },
+          { "speaker": "analyst", "text": "関与集団、対象、レジストリ脅威に占める割合。この表の通りです。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "analyst", "text": "クラウド関連のサイバー犯罪活動は171%急増したと報告されています。", "source": "CrowdStrike公式ブログ" },
+          { "speaker": "host", "text": "そちらも大きな増加だね。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "攻撃の広がりを整理すると?" },
+          { "speaker": "analyst", "text": "攻撃支援からサプライチェーン、クラウドへと多方面に及んでいます。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。レポートの詳細な調査手法や、日本国内への具体的な影響事例は確認できていません。" },
+          { "speaker": "host", "text": "過度に不安を煽らないようにしているんだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "analyst", "text": "ここまでを総括します。AIが攻撃者の道具にも標的にもなっていることが今回の核心です。" },
+          { "speaker": "host", "text": "考えさせられる話題だね。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "これからどうなりそう?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、防御側の対応強化、AI基盤の防御強化、規制の整備が焦点になりそうです。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "どんな影響がありそう?" },
+          { "speaker": "analyst", "text": "企業のセキュリティ対応強化、開発者の検証強化が挙げられます。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "本テーマでは数字の創作をせず、過度な不安を煽らないよう配慮しています。" },
+          { "speaker": "host", "text": "そこは大事なポイントだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "CrowdStrike公式および独立した複数の専門メディアです。この表の通りです。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "確認できたことと、確認できなかったことを正直に整理します。調査手法の詳細はまだ確認できていません。" },
+          { "speaker": "host", "text": "そこは続報待ちだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。CrowdStrikeが、AI活用型攻撃が前年比89%増加したと発表しました。" },
+          { "speaker": "host", "text": "改めて聞いても大きな数字だね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "従来の攻撃とどう違うの?" },
+          { "speaker": "analyst", "text": "AI活用型攻撃は、生成の自動化とスピードの面で大きく異なります。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "話題の広がり方をおさらいすると?" },
+          { "speaker": "analyst", "text": "レポート公開から複数媒体の報道、そして本日の話題化までの流れです。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "AIが攻撃にも防御にも使われる時代、どう備えるべきだと思いますか。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "数字でおさらいすると?" },
+          { "speaker": "analyst", "text": "AI活用型攻撃は89%増、48時間以内の悪用率は88%、クラウド関連犯罪は171%増です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "改めて総括します。AIがサイバー攻防の最前線に立つ、その一つの節目でした。" },
+          { "speaker": "host", "text": "続報が楽しみだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "analyst", "text": "企業の対応強化、そしてAI基盤の防御技術の進展に注目していきましょう。" },
+          { "speaker": "host", "text": "続報をお楽しみに。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。AI活用型攻撃が急増しているというレポートの話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

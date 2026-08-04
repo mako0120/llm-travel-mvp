@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "無所属の日本代表DFを、5クラブが奪い合っている",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "フットボールチャンネル(2026-07-29)",
+      "Goal.com 日本"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "無所属の日本代表DFを、5クラブが奪い合っています。", "source": "フットボールチャンネル(2026-07-29)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "冨安健洋選手の練習参加の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、冨安選手について、クリスタル・パレスとは、プレシーズンマッチの様子、他クラブの関心をお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "アヤックスを退団した冨安健洋選手が、クリスタル・パレスの練習に参加していることが判明しました。", "source": "フットボールチャンネル" },
+          { "speaker": "host", "text": "着手日の数日前の話なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その判明日がこちら、着手日の3から6日前です。" },
+          { "speaker": "host", "text": "最近の動きなんだね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "概要を教えて。" },
+          { "speaker": "analyst", "text": "選手、現状、練習参加先、正式交渉。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "冨安選手ってどんな選手?" },
+          { "speaker": "analyst", "text": "日本代表のディフェンダーで、直前はアヤックスに所属していました。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "クリスタル・パレスってどんなクラブ?" },
+          { "speaker": "analyst", "text": "盟友の鎌田大地選手が所属する、プレミアリーグのクラブです。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "host", "text": "プレシーズンマッチではどうだったの?" },
+          { "speaker": "analyst", "text": "7月28日にベンチ入りし、7月31日の試合では実際にピッチに立ち、約28分間プレーしました。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "流れを整理すると?" },
+          { "speaker": "analyst", "text": "練習参加の判明からわずか数日で実戦デビューに至りました。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "実戦デビューの詳細は?" },
+          { "speaker": "analyst", "text": "対戦相手、出場時間、試合結果。この表の通りです。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "出場時間は約28分間で、チームは3対1で勝利しました。", "source": "超WORLDサッカー" },
+          { "speaker": "host", "text": "いい結果だったんだね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "誰が報じているの?" },
+          { "speaker": "analyst", "text": "フットボールチャンネル、Goal.com、超WORLDサッカー、RONSPOです。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "他のクラブも関心があるの?" },
+          { "speaker": "analyst", "text": "リバプールを含む他4クラブも冨安選手に関心を示していると報じられています。", "source": "RONSPO(Yahoo!ニュース経由)" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "関心を示すクラブを整理すると?" },
+          { "speaker": "analyst", "text": "クリスタル・パレスだけでなく複数のクラブが名前を挙げられています。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。現時点では正式な獲得交渉は行われていないと現地報道されています。" },
+          { "speaker": "host", "text": "そこは正確に伝えないとね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "ここまでを総括します。無所属となった冨安選手が、複数のプレミアクラブから注目されていることが今回の核心です。" },
+          { "speaker": "host", "text": "興味深い展開だね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "これからどうなりそう?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、正式契約の可能性、他クラブとの交渉、移籍市場全体の動きが焦点になりそうです。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "どんな影響がありそう?" },
+          { "speaker": "analyst", "text": "選手個人のキャリア再出発、日本サッカー界への影響が挙げられます。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "冨安選手のキャリアを整理すると?" },
+          { "speaker": "analyst", "text": "アヤックス退団からフリーエージェントを経て、現在は練習参加という段階です。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "本テーマでは数字の創作をせず、正式な獲得交渉が行われていない段階であることも断定表現にしていません。" },
+          { "speaker": "host", "text": "そこは大事なポイントだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "独立した複数のサッカー専門メディアです。この表の通りです。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "確認できたことと、確認できなかったことを正直に整理します。クラブ・選手側からの公式発表はまだ確認できていません。" },
+          { "speaker": "host", "text": "そこは続報待ちだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。冨安健洋選手が、クリスタル・パレスで練習に参加し、実戦デビューを果たしました。" },
+          { "speaker": "host", "text": "改めて聞いても興味深い話題だね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "他の海外移籍テーマとはどう違うの?" },
+          { "speaker": "analyst", "text": "冨安選手は既にフリーエージェントである点、練習参加の段階である点が異なります。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "話題の広がり方をおさらいすると?" },
+          { "speaker": "analyst", "text": "練習参加の判明から実戦デビュー、そして本日の話題化までの流れです。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "冨安選手の新天地、どのクラブになると思いますか。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "数字でおさらいすると?" },
+          { "speaker": "analyst", "text": "7月28日の練習参加判明から、7月31日の実戦デビュー、5クラブが関心を示しています。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "改めて総括します。無所属となったDFを、プレミアリーグの複数クラブが注目している、その一つの節目でした。" },
+          { "speaker": "host", "text": "続報が楽しみだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "analyst", "text": "正式な獲得交渉の行方、そして新天地の決定に注目していきましょう。" },
+          { "speaker": "host", "text": "続報をお楽しみに。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。冨安健洋選手のクリスタル・パレス練習参加の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
