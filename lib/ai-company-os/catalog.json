@@ -3,13 +3,13 @@
   "repo": "mako0120/llm-travel-mvp",
   "assetsPath": "ai-company-os/assets",
   "totals": {
-    "themes": 121,
-    "slides": 3241,
-    "withPptx": 99,
-    "withAudio": 103,
-    "withVideo": 101,
-    "timedThemes": 101,
-    "timedAudioSeconds": 33582.8,
+    "themes": 122,
+    "slides": 3271,
+    "withPptx": 100,
+    "withAudio": 104,
+    "withVideo": 102,
+    "timedThemes": 102,
+    "timedAudioSeconds": 33875.9,
     "averageQualityScore": 94.5
   },
   "themes": [
@@ -4932,6 +4932,47 @@
         "canva": false,
         "review": false,
         "research": false,
+        "thumbnail": false
+      }
+    },
+    {
+      "id": "2026-06-25_general-intuition-gameplay-ai-agents",
+      "date": "2026-06-25",
+      "slug": "general-intuition-gameplay-ai-agents",
+      "title": "ジェフ・ベゾスが賭けたのは、ゲームで賢くなるAIだった",
+      "subtitle": "General Intuition、ゲームプレイ動画でAIエージェントを訓練、3.2億ドルを調達",
+      "palette": "slate_azure",
+      "footer": "AI Company OS｜出典: TechCrunch・Axios・GamesBeat ほか(2026-06-25)｜定期実行120本目",
+      "slides": 30,
+      "layouts": {
+        "bullets": 8,
+        "big_stat": 5,
+        "cards": 4,
+        "table": 4,
+        "diagram": 3,
+        "steps": 2,
+        "agenda": 1,
+        "comparison": 1,
+        "cta": 1,
+        "title": 1
+      },
+      "bulletsRatio": 26.7,
+      "narrationMinutes": 5.4,
+      "audioSeconds": 293.1,
+      "qualityScore": null,
+      "themeScore": null,
+      "videoUrl": "/videos/2026-06-25_general-intuition-gameplay-ai-agents.mp4",
+      "artifacts": {
+        "deck_spec": true,
+        "pptx": true,
+        "narration": true,
+        "dialogue": true,
+        "audio": true,
+        "timings": true,
+        "youtube": true,
+        "canva": true,
+        "review": true,
+        "research": true,
         "thumbnail": false
       }
     }
