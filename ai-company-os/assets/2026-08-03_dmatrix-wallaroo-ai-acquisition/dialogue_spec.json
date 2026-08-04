@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "半導体だけじゃ足りない。AIチップ企業が仕掛けた4ヶ月で2件目の買収",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "HPCwire/AIwire(2026-08-03)",
+      "PR Newswire(2026-08-03)",
+      "Engineering.com(2026-08-03)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "半導体だけじゃ足りない。AIチップ企業が仕掛けたのは、4ヶ月で2件目の買収でした。", "source": "HPCwire/AIwire(2026-08-03)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "d-MatrixによるWallaroo.ai買収の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、d-Matrixとはどんな会社か、Wallaroo.aiとはどんな会社かをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "d-Matrixが2026年8月3日、Wallaroo.aiの買収を発表しました。", "source": "HPCwire/AIwire" },
+          { "speaker": "host", "text": "着手日の前日の出来事なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "過去4ヶ月の買収件数がこちら、2件目です。" },
+          { "speaker": "host", "text": "積極的な戦略だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "買収概要を教えて。" },
+          { "speaker": "analyst", "text": "買収企業、被買収企業、発表日、買収額。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "d-Matrixってどんな会社?" },
+          { "speaker": "analyst", "text": "AI推論向け半導体の開発企業で、シリコンからソフトウェアまでの一気通貫プラットフォームを目指しています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "d-Matrixの買収戦略は?" },
+          { "speaker": "analyst", "text": "半導体開発から、データセンター事業、オーケストレーション企業の買収へと展開しています。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "Wallaroo.aiとはどんな会社か。Kubernetes運用等の専門知識を持つAIオーケストレーション企業です。", "source": "Engineering.com" },
+          { "speaker": "host", "text": "専門性の高い技術を持っているんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "買収により統合される機能は?" },
+          { "speaker": "analyst", "text": "高性能シリコンとデプロイ自動化技術が統合され、一気通貫プラットフォームが目指されます。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "Wallaroo.aiが持つ専門知識は?" },
+          { "speaker": "analyst", "text": "Kubernetes運用からモデルサービング、デプロイ自動化、可観測性まで幅広くカバーしています。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。対応規模は単一サーバーノードからマルチラックまでです。", "source": "Converge Digest" },
+          { "speaker": "host", "text": "幅広い規模に対応しているんだね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "買収の狙いは?" },
+          { "speaker": "analyst", "text": "技術獲得、一気通貫化、低レイテンシー推論の実現が挙げられています。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。買収の事実は複数媒体で一致していますが、買収額は公表されておらず確認できていません。" },
+          { "speaker": "host", "text": "そこは正直に伝えないとね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "d-Matrixの買収の流れは?" },
+          { "speaker": "analyst", "text": "2026年4月のGigaIO買収から、8月のWallaroo.ai買収へとつながっています。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "AI推論プラットフォーム市場の背景は?" },
+          { "speaker": "analyst", "text": "半導体企業がソフトウェア企業を買収する動きが目立っているとされています。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "買収額を確認します。今回は両社から買収額が公表されていません。この点は正直に開示します。" },
+          { "speaker": "host", "text": "そこは隠さず伝えるべきだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "AI推論の一気通貫プラットフォームとは?" },
+          { "speaker": "analyst", "text": "シリコンからデプロイソフトウェアまでを一体で提供する構想です。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "AIオーケストレーションって初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "複数のシステム・処理を自動的に連携・管理する仕組みのことです。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "HPCwire・PR Newswire・Engineering.com・Converge Digestです。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "買収概要を再確認します。d-Matrixが、Wallaroo.aiを買収しました。" },
+          { "speaker": "host", "text": "改めて聞いても積極的な動きだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "d-MatrixまたはWallaroo.aiを主題とした既存テーマはなく、重複ではありません。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "ここからは推測ですが、半導体企業によるソフトウェア企業買収がさらに加速する可能性があります。" },
+          { "speaker": "host", "text": "業界全体に広がりそうだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "直近の買収は?" },
+          { "speaker": "analyst", "text": "2026年4月には、GigaIOのデータセンター事業を買収していました。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "買収前後で何が変わる?" },
+          { "speaker": "analyst", "text": "オーケストレーション技術の統合により、一気通貫でのプラットフォーム提供が見込まれています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "対応規模の広がりは?" },
+          { "speaker": "analyst", "text": "単一サーバーノードから、マルチラックのデータセンター規模まで対応する構想です。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "analyst", "text": "リスクも正直に開示します。買収額が非公表であり、取引規模の全体像は確認できていません。" },
+          { "speaker": "host", "text": "そこは冷静に見ないとね。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "本テーマで大切にしたことは?" },
+          { "speaker": "analyst", "text": "出典の明記、正直な開示、中立性の3点です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "技術獲得領域数を改めて確認します。Kubernetes運用・モデルサービング・デプロイ自動化・可観測性の4領域です。" },
+          { "speaker": "host", "text": "幅広い技術を獲得したんだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "半導体企業によるソフトウェア企業買収、今後も注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。d-MatrixによるWallaroo.ai買収の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

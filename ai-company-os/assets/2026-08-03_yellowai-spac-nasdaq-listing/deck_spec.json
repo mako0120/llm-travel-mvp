@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "title": "空箱の会社と合体して、AI企業が5.5億ドルの姿でNasdaqに現れる",
+    "footer": "AI Company OS｜出典: PR Newswire・Business Standard・AiThority ほか(2026-08-03)｜定期実行118本目",
+    "palette_preset": "forest_sand",
+    "subtitle": "Yellow.ai、Bluerock Acquisition Corp.との合併でNasdaq上場へ"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "空箱の会社と合体して、AI企業が5.5億ドルの姿でNasdaqに現れる",
+      "sub": "Yellow.ai、Bluerock Acquisition Corp.との合併でNasdaq上場へ",
+      "footnote": "出典: PR Newswire・Business Standard・AiThority ほか(2026-08-03)",
+      "note": "空箱の会社と合体して、AI企業が5.5億ドルの姿でNasdaqに現れます。エンタープライズ向けエージェント型AI企業Yellow.aiが、SPACとの合併によるNasdaq上場を発表しました。今日はこの話題をお届けします。"
+    },
+    {
+      "layout": "agenda",
+      "title": "今日わかること",
+      "items": [
+        "何が起きたのか",
+        "Yellow.aiとはどんな会社か",
+        "SPAC上場とはどんな仕組みか",
+        "取引の規模と条件",
+        "確認できたこと・できなかったこと",
+        "今後の見通し"
+      ],
+      "note": "今日わかることは6つです。何が起きたのか、Yellow.aiとはどんな会社か、SPAC上場とはどんな仕組みか、取引の規模と条件、確認できたこと・できなかったこと、そして今後の見通しです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "何が起きたのか",
+      "bullets": [
+        "Yellow.aiが2026年8月3日、Bluerock Acquisition Corp.との事業統合契約を発表",
+        "統合後のプロフォーマ・エクイティバリューは約5.5億ドル",
+        "Nasdaq Capital Marketにティッカー『YAI』で上場予定",
+        "両社取締役会の全会一致承認を取得済み"
+      ],
+      "source": "PR Newswire(2026-08-03)",
+      "note": "何が起きたのか整理します。Yellow.aiが2026年8月3日、Bluerock Acquisition Corp.との事業統合契約を発表しました。統合後の企業価値は約5.5億ドルです。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "統合後の企業価値",
+      "stat": "5.5億ドル",
+      "caption": "プロフォーマ・エクイティバリュー(2026年8月3日発表)",
+      "source": "Business Standard(2026-08-03)",
+      "note": "統合後の企業価値はこちら、約5.5億ドルです。エンタープライズAI企業としては非常に注目度の高い規模です。"
+    },
+    {
+      "layout": "table",
+      "title": "取引概要",
+      "headers": ["項目", "内容"],
+      "rows": [
+        ["対象企業", "Yellow.ai(エンタープライズ・エージェント型AI)"],
+        ["合併相手", "Bluerock Acquisition Corp.(Nasdaq上場SPAC)"],
+        ["統合後企業価値", "約5.5億ドル"],
+        ["Yellow.ai合併前評価額", "約3億ドル"],
+        ["上場予定ティッカー", "YAI"]
+      ],
+      "note": "取引概要を表にまとめました。対象企業はYellow.ai、合併相手はBluerock Acquisition Corp.です。"
+    },
+    {
+      "layout": "cards",
+      "title": "Yellow.aiとは",
+      "cards": [
+        {"label": "事業内容", "text": "エンタープライズ向けエージェント型AIプラットフォームの提供"},
+        {"label": "位置づけ", "text": "エンタープライズ・エージェンティックAIのグローバルリーダーと自称"},
+        {"label": "上場の狙い", "text": "SPAC合併によるNasdaq上場で成長資金を確保"}
+      ],
+      "note": "Yellow.aiとはどんな会社か紹介します。エンタープライズ向けエージェント型AIプラットフォームを提供する企業です。"
+    },
+    {
+      "layout": "steps",
+      "title": "SPAC上場の仕組み(概要)",
+      "steps": [
+        {"label": "1. SPAC設立", "text": "上場済みのブランクチェック企業(空箱の会社)が資金を保有"},
+        {"label": "2. 対象企業を選定", "text": "SPACが買収・合併対象の未上場企業を探す"},
+        {"label": "3. 事業統合契約", "text": "両社取締役会が合併条件に合意"},
+        {"label": "4. 株主承認・上場", "text": "SPAC株主の承認を経て統合企業として上場"}
+      ],
+      "note": "SPAC上場の仕組みを概要で紹介します。上場済みのブランクチェック企業と合併することで、対象企業が上場企業になる仕組みです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "取引の規模と条件",
+      "bullets": [
+        "Yellow.aiの合併前評価額は約3億ドル",
+        "統合後のプロフォーマ・エクイティバリューは約5.5億ドル",
+        "株式償還がない前提で2億ドル超の総調達額を見込む",
+        "完了は2026年下半期を見込み、Bluerock株主の承認等が条件"
+      ],
+      "source": "Investing.com",
+      "note": "取引の規模と条件を確認します。株式償還がない前提で2億ドル超の総調達額を見込んでいるとされます。"
+    },
+    {
+      "layout": "diagram",
+      "title": "取引完了までの流れ",
+      "nodes": [
+        {"label": "事業統合契約", "sublabel": "2026年8月3日発表"},
+        {"label": "株主承認等", "sublabel": "Bluerock株主の承認が条件"},
+        {"label": "上場完了(見込み)", "sublabel": "2026年下半期"}
+      ],
+      "note": "取引完了までの流れです。事業統合契約の発表から、株主承認等を経て、2026年下半期の完了を見込んでいます。"
+    },
+    {
+      "layout": "table",
+      "title": "アドバイザー体制",
+      "headers": ["役割", "担当"],
+      "rows": [
+        ["Yellow.ai財務アドバイザー", "Cantor Fitzgerald & Co."],
+        ["Bluerock資本市場アドバイザー", "Bluerock Capital Markets・Brookline Capital Markets"]
+      ],
+      "note": "アドバイザー体制です。Yellow.ai側はCantor Fitzgerald、Bluerock側は複数の資本市場アドバイザーが関わっています。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "合併前評価額",
+      "stat": "約3億ドル",
+      "caption": "Yellow.aiのpre-money評価額",
+      "source": "PR Newswire(2026-08-03)",
+      "note": "改めて数字を確認します。Yellow.aiの合併前評価額は約3億ドルとされています。"
+    },
+    {
+      "layout": "cards",
+      "title": "エージェント型AI市場での位置づけ(報道からの整理)",
+      "cards": [
+        {"label": "企業向けAI市場の拡大", "text": "エンタープライズ向けエージェント型AIへの投資が拡大している"},
+        {"label": "上場によるアクセス拡大", "text": "SPAC上場により資本市場からの資金調達手段が広がる"},
+        {"label": "ティッカー『YAI』", "text": "Nasdaq Capital Marketでの取引が予定される"}
+      ],
+      "note": "エージェント型AI市場での位置づけを報道から整理します。企業向けAI市場の拡大とともに、上場企業としての選択肢を広げる動きです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "確認できたこと・できなかったこと(正直な開示)",
+      "bullets": [
+        "統合後企業価値・合併前評価額・発表日は複数媒体で一致",
+        "Yellow.aiの現在の顧客数・売上規模等の詳細は確認できていない",
+        "取引完了後の具体的な資金使途の詳細は確認できていない",
+        "両社公式プレスリリース原文全体までは確認できていない"
+      ],
+      "note": "ここで確認できたこと・できなかったことを正直に整理します。企業価値や評価額は複数媒体で一致していますが、顧客数等の詳細は確認できていません。"
+    },
+    {
+      "layout": "diagram",
+      "title": "取引の主要当事者",
+      "nodes": [
+        {"label": "Yellow.ai", "sublabel": "エンタープライズ・エージェント型AI企業"},
+        {"label": "Bluerock Acquisition Corp.", "sublabel": "Nasdaq上場のブランクチェック企業"},
+        {"label": "統合後の企業(YAI)", "sublabel": "Nasdaq Capital Marketに上場予定"}
+      ],
+      "note": "取引の主要当事者です。Yellow.aiとBluerock Acquisition Corp.が統合し、YAIというティッカーで上場予定です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "鮮度についての正直な開示",
+      "bullets": [
+        "本発表は着手日の前日(2026年8月3日)である",
+        "`docs/06_Content_R&D.md`の鮮度基準(着手日の前日以内)を満たしている",
+        "round70では鮮度基準を満たす候補が見つからなかったが、本ラウンドでは解消できた"
+      ],
+      "note": "鮮度について確認します。本発表は着手日の前日であり、鮮度基準を満たしています。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "見込み総調達額",
+      "stat": "2億ドル超",
+      "caption": "株式償還がない前提での見込み額",
+      "source": "Investing.com",
+      "note": "見込み総調達額を確認します。株式償還がない前提で、2億ドル超の総調達額を見込んでいるとされます。"
+    },
+    {
+      "layout": "steps",
+      "title": "エンタープライズAI企業の上場手段(概要)",
+      "steps": [
+        {"label": "1. 従来型IPO", "text": "証券取引所に新規株式公開する伝統的な手法"},
+        {"label": "2. SPAC合併", "text": "上場済みのブランクチェック企業と合併する手法"},
+        {"label": "3. Yellow.aiの選択", "text": "SPAC合併によるNasdaq上場を選択"}
+      ],
+      "note": "エンタープライズAI企業の上場手段を概要で紹介します。Yellow.aiは、従来型IPOではなくSPAC合併という手法を選択しました。"
+    },
+    {
+      "layout": "cards",
+      "title": "初心者向け: SPACとは",
+      "cards": [
+        {"label": "SPACの正体", "text": "特定の事業を持たず、上場のための資金だけを保有する『空箱』企業"},
+        {"label": "合併のメリット", "text": "対象企業が比較的短期間で上場企業になれるとされる"},
+        {"label": "留意点", "text": "株主承認等の条件が満たされて初めて取引が完了する"}
+      ],
+      "note": "初心者向けにSPACを説明します。特定の事業を持たず、上場のための資金だけを保有する『空箱』企業のことです。"
+    },
+    {
+      "layout": "table",
+      "title": "出典一覧",
+      "headers": ["媒体", "日付"],
+      "rows": [
+        ["PR Newswire", "2026-08-03"],
+        ["Business Standard", "2026-08-03"],
+        ["AiThority", "2026-08-03"],
+        ["Investing.com", "2026-08-03"]
+      ],
+      "note": "出典一覧です。PR Newswire・Business Standard・AiThority・Investing.comという、独立した複数のプレスリリース配信・金融専門媒体です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "取引概要の再確認",
+      "bullets": [
+        "対象企業: Yellow.ai(エンタープライズ・エージェント型AI)",
+        "合併相手: Bluerock Acquisition Corp.",
+        "統合後企業価値: 約5.5億ドル",
+        "上場予定ティッカー: YAI(Nasdaq Capital Market)"
+      ],
+      "note": "取引概要を再確認します。Yellow.aiが、Bluerock Acquisition Corp.との合併で約5.5億ドルの企業価値でNasdaqに上場予定です。"
+    },
+    {
+      "layout": "table",
+      "title": "既存テーマとの関係(重複でないことの確認)",
+      "headers": ["確認項目", "結果"],
+      "rows": [
+        ["Yellow.aiを主題としたテーマ", "既存118テーマになし"],
+        ["Bluerock Acquisition Corp.を主題としたテーマ", "既存118テーマになし"],
+        ["判定", "重複ではない"]
+      ],
+      "note": "既存テーマとの関係を確認しました。Yellow.aiまたはBluerock Acquisition Corp.を主題として扱った既存テーマはなく、重複ではありません。"
+    },
+    {
+      "layout": "bullets",
+      "title": "業界への影響(ここからは推測)",
+      "bullets": [
+        "ここからは推測ですが、他のエージェント型AI企業もSPAC上場を検討する可能性がある",
+        "エンタープライズAI市場の資本市場からの注目度がさらに高まると見られる",
+        "上場後の株価動向・業績開示が今後の焦点になりそうである"
+      ],
+      "note": "ここからは推測です。他のエージェント型AI企業もSPAC上場を検討する可能性があり、業界の資本市場からの注目度がさらに高まると見られます。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "取締役会承認",
+      "stat": "全会一致",
+      "caption": "両社取締役会が本取引を全会一致で承認",
+      "source": "PR Newswire(2026-08-03)",
+      "note": "取締役会承認について確認します。両社取締役会が本取引を全会一致で承認しています。"
+    },
+    {
+      "layout": "comparison",
+      "title": "従来型IPOとSPAC合併の違い(概要)",
+      "left": {
+        "heading": "従来型IPO",
+        "items": ["証券取引所への新規株式公開手続き", "審査・準備に比較的長い期間を要するとされる"]
+      },
+      "right": {
+        "heading": "SPAC合併",
+        "items": ["既に上場済みのSPACと合併する手法", "比較的短期間で上場できるとされる"]
+      },
+      "note": "従来型IPOとSPAC合併の違いを概要で比較します。SPAC合併は比較的短期間で上場できる手法とされています。"
+    },
+    {
+      "layout": "diagram",
+      "title": "上場完了後の展開(概要)",
+      "nodes": [
+        {"label": "上場完了", "sublabel": "Nasdaq Capital Market、ティッカーYAI"},
+        {"label": "資金調達", "sublabel": "2億ドル超の総調達額見込み"},
+        {"label": "事業拡大", "sublabel": "エンタープライズAI事業のさらなる拡大へ"}
+      ],
+      "note": "上場完了後の展開を概要で示します。上場完了、資金調達を経て、事業拡大につなげる見込みです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "リスクと課題(正直な開示)",
+      "bullets": [
+        "取引完了は株主承認等の条件次第であり、確定した将来ではない",
+        "上場後の株価動向・業績は未知数",
+        "Yellow.aiの詳細な経営指標は本調査の範囲では確認できていない"
+      ],
+      "note": "リスクと課題を正直に開示します。取引完了は株主承認等の条件次第であり、確定した将来ではありません。"
+    },
+    {
+      "layout": "cards",
+      "title": "本テーマで大切にしたこと",
+      "cards": [
+        {"label": "出典の明記", "text": "複数の独立したプレスリリース配信・金融専門媒体の情報のみを使用"},
+        {"label": "正直な開示", "text": "確認できなかったことは明記し、創作しない"},
+        {"label": "中立性", "text": "特定企業・特定製品の利用を強く推奨する結論にはしていない"}
+      ],
+      "note": "本テーマで大切にしたことを紹介します。出典の明記、正直な開示、中立性の3点です。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "上場予定ティッカー",
+      "stat": "YAI",
+      "caption": "Nasdaq Capital Marketでの取引ティッカー",
+      "source": "PR Newswire(2026-08-03)",
+      "note": "上場予定ティッカーを確認します。Nasdaq Capital MarketでYAIというティッカーでの取引が予定されています。"
+    },
+    {
+      "layout": "cta",
+      "heading": "あなたはこのSPAC上場、どう見ますか",
+      "sub": "エンタープライズAI企業の資本市場での動き、今後も注目していきましょう",
+      "action": "続報が入り次第、改めてお届けします",
+      "note": "皆さんはこのSPAC上場、どう見ますか。エンタープライズAI企業の資本市場での動き、今後も注目していきましょう。"
+    },
+    {
+      "layout": "bullets",
+      "title": "まとめ",
+      "bullets": [
+        "Yellow.aiが2026年8月3日、Bluerock Acquisition Corp.との事業統合契約を発表",
+        "統合後のプロフォーマ・エクイティバリューは約5.5億ドル",
+        "Nasdaq Capital MarketにティッカーYAIで上場予定",
+        "完了は2026年下半期を見込み、株主承認等が条件"
+      ],
+      "note": "まとめです。Yellow.aiが2026年8月3日、Bluerock Acquisition Corp.との合併を発表しました。今回もご視聴ありがとうございました。"
+    }
+  ]
+}
