@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "GEの元トップが、AIエンジニア企業の取締役になった理由",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "GlobeNewswire(2026-07-29)",
+      "Goodwin Law(2026-07-29)",
+      "The SaaS News(2026-07-29)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "GEの元トップが、AIエンジニア企業の取締役になりました。", "source": "GlobeNewswire(2026-07-29)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "P-1 AIの産業設計AIエージェント『Archie』のシリーズA調達の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、P-1 AIとはどんな会社か、Archieとはどんなエージェントかをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "P-1 AIが2026年7月29日、シリーズAで5,000万ドルを調達したと発表しました。", "source": "GlobeNewswire" },
+          { "speaker": "host", "text": "元GE会長が取締役に就任したんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その調達額がこちら、5,000万ドルです。" },
+          { "speaker": "host", "text": "エンジニアリングAI分野への注目度が高いね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、拠点、調達額、主導投資家、発表日。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Archieってどんなエージェント?" },
+          { "speaker": "analyst", "text": "機械・電気・熱・流体・システム設計を対象とするAIエージェントです。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "P-1 AIのこれまでは?" },
+          { "speaker": "analyst", "text": "元DeepMindの科学者らが創業し、2025年のシード投資を経て、今回シリーズAを調達しました。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "取締役に就任したのは、元GE会長兼CEOのジェフ・イメルト氏です。", "source": "GlobeNewswire" },
+          { "speaker": "host", "text": "著名な経営者だね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "Archieが対応する設計領域は?" },
+          { "speaker": "analyst", "text": "機械設計から電気・熱・流体設計、システム設計まで幅広くカバーするとされています。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "対象産業は?" },
+          { "speaker": "analyst", "text": "データセンター・自動車・航空宇宙防衛という、高い精度が求められる産業です。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。2025年のシード投資額は2,300万ドルでした。", "source": "The SaaS News" },
+          { "speaker": "host", "text": "今回はその倍以上の規模だね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "資金使途は?" },
+          { "speaker": "analyst", "text": "プロダクト拡充、計算資源の増強、個人向け展開が挙げられています。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。調達額は複数媒体で一致していますが、実運用での導入実績の詳細は確認できていません。" },
+          { "speaker": "host", "text": "そこは正直に伝えないとね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "資金調達の流れは?" },
+          { "speaker": "analyst", "text": "2025年のシード投資から、2026年7月のシリーズAへとつながっています。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "鮮度について正直に開示します。本発表は着手日の6日前です。" },
+          { "speaker": "host", "text": "その点は隠さず伝えるべきだね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "対象業界数は?" },
+          { "speaker": "analyst", "text": "データセンター・自動車・航空宇宙防衛の3業界です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "ハードウェア設計AIの潮流は?" },
+          { "speaker": "analyst", "text": "ソフトウェアAIの普及に続き、ハードウェア設計領域にもAIが広がっているとされています。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "エンジニアリングAIって初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "AIエージェントが設計案の作成・検証を支援する技術です。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "GlobeNewswire・Goodwin Law・StreetInsider・The SaaS Newsです。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "調達概要を再確認します。P-1 AIが、NEA主導で5,000万ドルを調達しました。" },
+          { "speaker": "host", "text": "改めて聞いても注目度の高い金額だね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "P-1 AIまたはArchieを主題とした既存テーマはなく、重複ではありません。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "ここからは推測ですが、ハードウェア工学領域でのAI活用がさらに広がる可能性があります。" },
+          { "speaker": "host", "text": "業界全体に広がりそうだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "累計調達額は?" },
+          { "speaker": "analyst", "text": "シードとシリーズAを合わせて、約7,300万ドルとなります。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "ソフトウェアAIとの違いは?" },
+          { "speaker": "analyst", "text": "Archieは物理的な製品開発と直結する設計領域を対象にしています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "Archie Soloの位置づけは?" },
+          { "speaker": "analyst", "text": "法人向けのArchieに加え、個人向けの軽量版Archie Soloも提供が始まります。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "analyst", "text": "リスクも正直に開示します。実運用での具体的な導入実績・成果指標は確認できていません。" },
+          { "speaker": "host", "text": "そこは冷静に見ないとね。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "本テーマで大切にしたことは?" },
+          { "speaker": "analyst", "text": "出典の明記、正直な開示、中立性の3点です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "新規提供開始を改めて確認します。個人ユーザー向けの軽量版Archie Soloです。" },
+          { "speaker": "host", "text": "個人にも広がるんだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "ハードウェア設計へのAI活用、今後も注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。P-1 AIのシリーズA調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

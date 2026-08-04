@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Uber創業者が8年隠していた野望、17億ドルで世に出た",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-07-22)",
+      "Yahoo Finance(2026-07-22)",
+      "Forbes(2026-03-13)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "Uber創業者が8年間隠していた野望が、17億ドルで世に出ました。", "source": "TechCrunch(2026-07-22)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "トラビス・カラニック氏が率いる物理AI企業Atomsの大型出資の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Atomsとはどんな会社か、調達の規模、8年間のステルス期間についてお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Atomsが2026年7月22日、17億ドルの出資をa16z主導で調達したと発表しました。", "source": "TechCrunch" },
+          { "speaker": "host", "text": "非常に大きな金額だね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その調達額がこちら、17億ドルです。" },
+          { "speaker": "host", "text": "物理AI分野としては異例の規模だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、創業者、調達額、主導投資家、発表日。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "参加した出資者は?" },
+          { "speaker": "analyst", "text": "a16zに加え、Bain Capital・Fifth Wall等、そしてUberも出資者として参加しています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "カラニック氏のこれまでは?" },
+          { "speaker": "analyst", "text": "Uber創業、2018年の退任を経て、約8年間ステルスでAtomsを準備してきました。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "Atomsの中核製品は『ロボット用のホイールベース』とされます。", "source": "TechCrunch" },
+          { "speaker": "host", "text": "人間型ロボットではないんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "3つの事業は?" },
+          { "speaker": "analyst", "text": "食品生産のAtoms Food、鉱業のAtoms Mining、輸送のAtoms Transportです。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "対象産業の規模感は?" },
+          { "speaker": "analyst", "text": "いずれも世界経済を支える大規模な物理産業とされています。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。ステルス期間は約8年間です。", "source": "Forbes" },
+          { "speaker": "host", "text": "長期にわたる準備だったんだね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "戦略的な狙いは?" },
+          { "speaker": "analyst", "text": "物理AIへの投資、OEM的な立ち位置、大規模産業への展開が挙げられています。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。調達額は複数媒体で一致していますが、各事業の詳細な稼働実績は確認できていません。" },
+          { "speaker": "host", "text": "そこは正直に伝えないとね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "発表までの流れは?" },
+          { "speaker": "analyst", "text": "2018年の退任、2026年3月の事業公表、そして7月22日の出資発表という流れです。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "鮮度について正直に開示します。本発表は着手日の13日前です。" },
+          { "speaker": "host", "text": "その点は隠さず伝えるべきだね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "シード投資からの流れは?" },
+          { "speaker": "analyst", "text": "2018年の退任から2026年の今回発表まで、長期にわたる準備期間がありました。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "物理AIの潮流は?" },
+          { "speaker": "analyst", "text": "ソフトウェアAIから、実世界の産業を対象にした物理AIへと投資が広がっているとされています。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "物理AIって初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "ロボットやセンサーと組み合わせ、実際の作業を自動化する技術です。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "TechCrunch・Yahoo Finance・PYMNTS・Forbesです。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "調達概要を再確認します。Atomsが、a16z主導で17億ドルを調達しました。" },
+          { "speaker": "host", "text": "改めて聞いても大きな金額だね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "Atomsまたはカラニック氏を主題とした既存テーマはなく、重複ではありません。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "ここからは推測ですが、物理AI・産業ロボティクス領域への投資がさらに加速する可能性があります。" },
+          { "speaker": "host", "text": "業界全体に広がりそうだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "3つの事業領域は?" },
+          { "speaker": "analyst", "text": "Food・Mining・Transportの3つです。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "従来型との違いは?" },
+          { "speaker": "analyst", "text": "特定タスクに特化した車輪型ロボットを、高サイクルの産業環境向けに最適化しているとされています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "資金使途は?" },
+          { "speaker": "analyst", "text": "製品開発、人材採用、産業顧客との協業に充てられるとみられます。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "analyst", "text": "リスクも正直に開示します。各事業の稼働実績・収益化の状況は確認できていません。" },
+          { "speaker": "host", "text": "そこは冷静に見ないとね。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "本テーマで大切にしたことは?" },
+          { "speaker": "analyst", "text": "出典の明記、正直な開示、中立性の3点です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "取締役就任を改めて確認します。a16z共同創業者のベン・ホロウィッツ氏が就任しました。" },
+          { "speaker": "host", "text": "有力な布陣だね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "物理AI・産業ロボティクスへの投資、今後も注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Atomsの大型出資の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
