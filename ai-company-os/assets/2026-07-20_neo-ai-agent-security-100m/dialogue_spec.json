@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "AIエージェントが暴走する前に。セキュリティ界の精鋭が1億ドルで挑む",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Calcalistech(2026-07-20)",
+      "Ynetnews(2026-07)",
+      "Yahoo Finance(2026-07-29)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "AIエージェントが暴走する前に。セキュリティ界の精鋭が、1億ドルで挑みます。", "source": "Calcalistech(2026-07-20)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "AIセキュリティ企業Neoの資金調達の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Neoとはどんな会社か、AIエージェントの新しいセキュリティ課題をお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Neoが2026年7月20日、ステルスを脱し1億ドルの資金調達を発表しました。", "source": "Calcalistech" },
+          { "speaker": "host", "text": "大きな金額だね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その調達額がこちら、1億ドルです。" },
+          { "speaker": "host", "text": "AIセキュリティ分野への注目度の高さがうかがえるね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、調達額、主導投資家、発表日。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Neoってどんな会社?" },
+          { "speaker": "analyst", "text": "元SentinelOne幹部らが創業し、AIエージェントの普及によるセキュリティ課題の解決を目指しています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "AIエージェント普及の背景は?" },
+          { "speaker": "analyst", "text": "AIエージェントの利用拡大とともに、新しいセキュリティリスクが生まれているとされています。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "創業チームの経歴はこちら。SentinelOneやWiz、Palo Alto Networks出身者で構成されています。", "source": "Calcalistech" },
+          { "speaker": "host", "text": "著名企業出身者ばかりなんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "資金調達の構成は?" },
+          { "speaker": "analyst", "text": "2025年の非公開シード2,500万ドルと、今回のシリーズA7,500万ドルを合わせて1億ドルです。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "参加した投資家は?" },
+          { "speaker": "analyst", "text": "Andreessen HorowitzとBessemer Venture Partnersが主導しています。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。シリーズAの調達額は7,500万ドルです。", "source": "Calcalistech" },
+          { "speaker": "host", "text": "シリーズAとしては大規模だね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "AIエージェントの新しいセキュリティ課題は?" },
+          { "speaker": "analyst", "text": "自律的な行動、権限管理の複雑化が課題として挙げられています。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。調達額等は複数媒体で一致していますが、製品機能の詳細は確認できていません。" },
+          { "speaker": "host", "text": "そこは正直に伝えないとね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "創業から資金調達までの流れは?" },
+          { "speaker": "analyst", "text": "2025年の非公開シードから、2026年7月のステルス脱却へとつながっています。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "鮮度について正直に開示します。本発表は着手日の約2週間前です。" },
+          { "speaker": "host", "text": "以前のラウンドと比べると改善しているんだね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "シード調達額は?" },
+          { "speaker": "analyst", "text": "2025年に完了していた非公開のシードは2,500万ドルです。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "AIセキュリティ企業の系譜は?" },
+          { "speaker": "analyst", "text": "従来型セキュリティ企業出身者が、AIエージェント専用の新企業を創業する動きが見られます。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "AIエージェントセキュリティって初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "自律的に動くAIエージェント特有のリスクを管理する技術です。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "Calcalistech・Ynetnews・Yahoo Finance・citybizです。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "調達概要を再確認します。Neoが、合計1億ドルを調達しました。" },
+          { "speaker": "host", "text": "改めて聞いても著名なチームだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "Neoを主題とした既存テーマはなく、重複ではありません。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "ここからは推測ですが、AIエージェントセキュリティ分野への投資がさらに拡大する可能性があります。" },
+          { "speaker": "host", "text": "業界全体に広がりそうだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "創業チームの出身企業数は?" },
+          { "speaker": "analyst", "text": "SentinelOne・Wiz・Palo Alto Networksという、3社以上の著名企業出身者が集まっています。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "従来型セキュリティとの違いは?" },
+          { "speaker": "analyst", "text": "自律的に動くAIエージェント特有のリスク管理が求められています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "今後の展開は?" },
+          { "speaker": "analyst", "text": "製品開発の継続、顧客開拓を経て、業界内での評価が注目されます。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "analyst", "text": "リスクも正直に開示します。具体的な製品機能・技術詳細は確認できていません。" },
+          { "speaker": "host", "text": "そこは冷静に見ないとね。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "本テーマで大切にしたことは?" },
+          { "speaker": "analyst", "text": "出典の明記、正直な開示、中立性の3点です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "主導投資家数を改めて確認します。Andreessen HorowitzとBessemer Venture Partnersの2社です。" },
+          { "speaker": "host", "text": "有力な投資家がついているんだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "AIエージェント時代のセキュリティ対策、今後も注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Neoの資金調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

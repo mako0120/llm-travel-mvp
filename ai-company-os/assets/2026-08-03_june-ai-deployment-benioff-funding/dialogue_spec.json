@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "マーク・ベニオフが2,000万ドルを賭けた、AIの「導入問題」を解くAI",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-08-03)",
+      "Yahoo Finance(2026-08-03)",
+      "bitcoinworld.co.in(2026-08-03)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "マーク・ベニオフ氏が2,000万ドルを賭けたのは、AIの『導入問題』を解くAIでした。", "source": "TechCrunch(2026-08-03)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "AI企業Juneの資金調達の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Juneとはどんな会社か、『AIの導入問題』とは何かをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Juneが2026年8月3日、プレシードで2,000万ドルを調達したと発表しました。", "source": "TechCrunch" },
+          { "speaker": "host", "text": "着手日の前日の出来事なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その調達額がこちら、2,000万ドルです。" },
+          { "speaker": "host", "text": "プレシード段階としては注目度が高いね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、調達額、主導投資家、発表日。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Juneってどんな会社?" },
+          { "speaker": "analyst", "text": "元Salesforce幹部らが創業し、企業のAI導入の難しさという課題の解決を目指しています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "『AIの導入問題』とは?" },
+          { "speaker": "analyst", "text": "AIツールを確実に稼働させることの難しさから、専門家が支援する需要が高まっているとされています。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "フォワード・デプロイド・エンジニア、FDEとは何か。企業に常駐してAIシステムの立ち上げを支援する専門家のことです。", "source": "TechCrunch" },
+          { "speaker": "host", "text": "新しい職種なんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "Juneが目指す自動化は?" },
+          { "speaker": "analyst", "text": "従来は人手で行われていたFDE支援の一部を、AIで自動化することを目指しています。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "創業チームは?" },
+          { "speaker": "analyst", "text": "元Salesforce幹部のエフラット・ラポポート氏ら4名が共同創業しています。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。創業チームは4名で構成されています。", "source": "TechCrunch" },
+          { "speaker": "host", "text": "少数精鋭のチームなんだね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "参加した著名投資家は?" },
+          { "speaker": "analyst", "text": "マーク・ベニオフ氏に加え、マイケル・デル氏、アーロン・レヴィー氏、ジョージ・カーツ氏が参加しています。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。調達額等は複数媒体で一致していますが、具体的な製品仕様の詳細は確認できていません。" },
+          { "speaker": "host", "text": "そこは正直に伝えないとね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "資金の使途は?" },
+          { "speaker": "analyst", "text": "製品開発、人材採用、顧客開拓に充てられるとみられます。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "鮮度について確認します。本発表は着手日の前日であり、鮮度基準を満たしています。" },
+          { "speaker": "host", "text": "高い鮮度が確保できているんだね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "主導投資家は?" },
+          { "speaker": "analyst", "text": "マーク・ベニオフ氏の投資ビークル、Time Venturesが主導しています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "AI導入支援サービスの潮流は?" },
+          { "speaker": "analyst", "text": "AIツールの普及とともに、導入支援サービスへの需要が拡大しているとされています。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "AI導入支援って初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "AIツールを選ぶだけでなく、実際に業務で確実に動くようにする工程が重要とされています。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "TechCrunch・Yahoo Finance・bitcoinworld.co.inです。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "調達概要を再確認します。Juneが、マーク・ベニオフ氏のTime Ventures主導で2,000万ドルを調達しました。" },
+          { "speaker": "host", "text": "改めて聞いても著名な布陣だね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "Juneを主題とした既存テーマはなく、重複ではありません。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "ここからは推測ですが、AI導入支援分野への投資がさらに拡大する可能性があります。" },
+          { "speaker": "host", "text": "業界全体に広がりそうだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "参加した著名投資家数は?" },
+          { "speaker": "analyst", "text": "マーク・ベニオフ氏を含め、4名以上の著名テック起業家が参加しています。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "従来のAI導入との違いは?" },
+          { "speaker": "analyst", "text": "AIによる自動化で、より多くの企業がAIを確実に活用できる状態を目指しています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "今後の展開は?" },
+          { "speaker": "analyst", "text": "製品開発の継続、顧客開拓を経て、業界内での評価が注目されます。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "analyst", "text": "リスクも正直に開示します。具体的な製品仕様・提供開始時期は確認できていません。" },
+          { "speaker": "host", "text": "そこは冷静に見ないとね。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "本テーマで大切にしたことは?" },
+          { "speaker": "analyst", "text": "出典の明記、正直な開示、中立性の3点です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "調達段階を改めて確認します。プレシード段階、つまり本格的な事業拡大の前段階です。" },
+          { "speaker": "host", "text": "これからが本番なんだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "企業向けAI導入支援の動き、今後も注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Juneの資金調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
