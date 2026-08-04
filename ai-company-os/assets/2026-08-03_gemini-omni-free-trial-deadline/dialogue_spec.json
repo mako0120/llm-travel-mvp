@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "今日の23時59分で、無料枠が消える",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "窓の杜(Yahoo!ニュース経由)",
+      "Impress Watch"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "今日の23時59分で、無料枠が消えます。", "source": "窓の杜(Yahoo!ニュース経由)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "Gemini Omniの無料開放が本日終了する話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Gemini Omniとは、無料開放の内容、締切の詳細をお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Googleが動画生成AI『Gemini Omni』を無料開放しており、その締切が本日到来します。", "source": "窓の杜" },
+          { "speaker": "host", "text": "今日が最終日なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その締切がこちら、本日23時59分、太平洋時間です。" },
+          { "speaker": "host", "text": "急いだ方がよさそうだね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "概要を教えて。" },
+          { "speaker": "analyst", "text": "提供元、モデル名、対象、無料上限。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Gemini Omniってどんなモデル?" },
+          { "speaker": "analyst", "text": "2026年5月のGoogle I/Oで発表された動画生成モデルです。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "主な機能は?" },
+          { "speaker": "analyst", "text": "動画生成、動画編集、マルチターン編集、テンプレート適用の4点です。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "無料開放は7月29日に発表され、有料プラン未加入者が対象、最大10本の動画を無料で生成できます。", "source": "PC Watch" },
+          { "speaker": "host", "text": "気軽に試せるね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "流れを整理すると?" },
+          { "speaker": "analyst", "text": "7月29日の発表から、本日の締切に至ります。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "締切後はどうなるの?" },
+          { "speaker": "analyst", "text": "締切後は、利用に有料プランへの加入が必要になります。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "無料で生成できる動画の上限は最大10本です。" },
+          { "speaker": "host", "text": "十分試せる本数だね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "誰が報じているの?" },
+          { "speaker": "analyst", "text": "窓の杜、Impress Watch、Forest Watch、PC Watchです。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "使い方は?" },
+          { "speaker": "analyst", "text": "ツールメニューから『動画を作成』を選ぶだけです。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。本テーマは締切という事実のみを伝え、有料プランへの加入を強く推奨する結論にはしていません。" },
+          { "speaker": "host", "text": "そこは中立でいたいね。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "利用の流れをおさらいすると?" },
+          { "speaker": "analyst", "text": "ツールメニューから動画を作成し、締切後は有料プランが必要になります。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "ここまでを総括します。無料で試せる動画生成AIの機会が、本日が最後になります。" },
+          { "speaker": "host", "text": "今日を逃すと有料になるんだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "これからどうなりそう?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、有料プランへの移行、他社の対抗施策、動画生成AIの普及が焦点になりそうです。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "どんな影響がありそう?" },
+          { "speaker": "analyst", "text": "一般ユーザーの体験機会、業界全体の市場拡大が挙げられます。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "他のGeminiテーマとは違うの?" },
+          { "speaker": "analyst", "text": "既存のGemini関連テーマとは対象機能が異なり、重複ではありません。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "本テーマでは数字の創作をせず、有料プランへの加入を強く推奨する結論にもしていません。" },
+          { "speaker": "host", "text": "そこは大事なポイントだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "独立した複数のテック専門メディアです。この表の通りです。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "確認できたことと、確認できなかったことを正直に整理します。締切後の有料プランの詳細はまだ確認できていません。" },
+          { "speaker": "host", "text": "そこは続報待ちだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。Gemini Omniの無料開放は、本日23時59分、太平洋時間で終了します。" },
+          { "speaker": "host", "text": "改めて聞いてもタイムリーな話題だね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "締切前と締切後を比べると?" },
+          { "speaker": "analyst", "text": "無料で利用できるかどうかが大きく異なります。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "話題の広がり方をおさらいすると?" },
+          { "speaker": "analyst", "text": "発表から報道、そして本日の締切到来までの流れです。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "無料枠が終わる今日、動画生成AIを試してみたいと思いますか。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "数字でおさらいすると?" },
+          { "speaker": "analyst", "text": "7月29日の発表から、最大10本まで無料、締切は本日23時59分です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "改めて総括します。無料で試せる最後のチャンスが、本日という節目でした。" },
+          { "speaker": "host", "text": "急いで試したくなるね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "analyst", "text": "締切後の有料プランの詳細、そして動画生成AI業界の動向に注目していきましょう。" },
+          { "speaker": "host", "text": "続報をお楽しみに。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Gemini Omniの無料開放終了の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

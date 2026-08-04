@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "明日、Grokの声が丸ごと入れ替わる",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Innovatopia(2026-07-29〜30)",
+      "PC Watch(Yahoo!ニュース経由)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "明日、Grokの声が丸ごと入れ替わります。", "source": "Innovatopia(2026-07-29〜30)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "Grok Voice Think Fast 2.0がデフォルトになる話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、性能、料金と切り替え日、競合との比較をお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "xAIが発表した音声AI『Grok Voice Think Fast 2.0』が、明日デフォルトモデルに切り替わります。", "source": "Innovatopia" },
+          { "speaker": "host", "text": "もう明日なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その切り替え予定日がこちら、着手日の翌日、2026年8月5日です。" },
+          { "speaker": "host", "text": "本当にすぐだね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "概要を教えて。" },
+          { "speaker": "analyst", "text": "提供元、モデル名、発表日、デフォルト切り替え。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Grok Voice Think Fast 2.0ってどんなモデル?" },
+          { "speaker": "analyst", "text": "xAIが提供する次世代の音声AIモデルです。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "性能はどう向上したの?" },
+          { "speaker": "analyst", "text": "文字起こし精度の向上、推論トークンの削減、ノイズ耐性の強化です。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "料金は1分あたり0.08ドル、デフォルトモデルの切り替えは8月5日に予定されています。", "source": "PC Watch" },
+          { "speaker": "host", "text": "手頃な価格だね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "流れを整理すると?" },
+          { "speaker": "analyst", "text": "7月29日の発表から、8月5日の切り替え予定日まで、わずかな期間です。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "バージョン固定は必要?" },
+          { "speaker": "analyst", "text": "動作の変化を避けたい本番環境では、バージョン固定が推奨されています。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "推論トークンは前モデル比で約60%削減されたとされています。", "source": "Innovatopia" },
+          { "speaker": "host", "text": "大きな削減だね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "誰が報じているの?" },
+          { "speaker": "analyst", "text": "Innovatopia、PC Watch、ライブドアニュース、TestingCatalogです。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "競合との比較は?" },
+          { "speaker": "analyst", "text": "全体的な品質で82.9%の最高スコアを記録したとされていますが、これはxAI側の公表値です。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "比較の位置づけを整理すると?" },
+          { "speaker": "analyst", "text": "xAIが自社モデルを競合と比較した結果です。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。ベンチマーク数値はxAI側の公表値であり、第三者による独立検証は確認できていません。" },
+          { "speaker": "host", "text": "そこは中立に伝えないとね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "ここまでを総括します。音声AIの世代交代が、明日に迫っていることが今回の核心です。" },
+          { "speaker": "host", "text": "楽しみな話題だね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "これからどうなりそう?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、切り替え後の反応、競合の対抗、第三者検証が焦点になりそうです。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "どんな影響がありそう?" },
+          { "speaker": "analyst", "text": "開発者の性能向上への期待、運用者のバージョン固定判断が挙げられます。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "他のAIモデルテーマとは違うの?" },
+          { "speaker": "analyst", "text": "既存のAIモデル関連テーマとは対象企業・話題が異なり、重複ではありません。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "本テーマでは数字の創作をせず、ベンチマーク数値を断定的な事実として扱っていません。" },
+          { "speaker": "host", "text": "そこは大事なポイントだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "独立した複数のテック専門メディアです。この表の通りです。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "確認できたことと、確認できなかったことを正直に整理します。ベンチマーク数値の第三者検証はまだ確認できていません。" },
+          { "speaker": "host", "text": "そこは続報待ちだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。Grok Voice Think Fast 2.0が、明日デフォルトモデルへ切り替わる予定です。" },
+          { "speaker": "host", "text": "改めて聞いてもタイムリーな話題だね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "現行モデルと新モデルを比べると?" },
+          { "speaker": "analyst", "text": "8月5日を境にデフォルトが切り替わる予定です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "話題の広がり方をおさらいすると?" },
+          { "speaker": "analyst", "text": "発表から報道、そして本日の話題化までの流れです。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "音声AIの性能競争、今後どこまで進むと思いますか。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "数字でおさらいすると?" },
+          { "speaker": "analyst", "text": "料金は1分0.08ドル、推論トークンは約60%削減、文字起こし精度は1.5から2.0倍向上とされています。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "改めて総括します。音声AIの世代交代が、明日始まる、その一つの節目でした。" },
+          { "speaker": "host", "text": "続報が楽しみだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "analyst", "text": "切り替え後の実際の性能、そして第三者検証の結果に注目していきましょう。" },
+          { "speaker": "host", "text": "続報をお楽しみに。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Grok Voice Think Fast 2.0のデフォルト切り替えの話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
