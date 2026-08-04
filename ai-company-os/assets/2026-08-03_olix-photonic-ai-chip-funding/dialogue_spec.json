@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "光で動くAIチップに、英国史上最大級の賭け金が積まれた",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "DataCenterDynamics(2026-08-03)",
+      "TechTimes(2026-08-03)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "光で動くAIチップに、英国史上最大級の賭け金が積まれました。", "source": "DataCenterDynamics(2026-08-03)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "OLIXの大型資金調達の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、OLIXとは、フォトニック相互接続とは、出資者と資金の使い道をお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "英国のAIチップ新興OLIXが、シリーズBで3.12億ドルを調達したと発表しました。", "source": "DataCenterDynamics" },
+          { "speaker": "host", "text": "着手日の前日の発表なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その調達額がこちら、3.12億ドルです。" },
+          { "speaker": "host", "text": "大きな金額だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、所在地、事業内容、調達額・評価額。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "OLIXってどんな会社?" },
+          { "speaker": "analyst", "text": "英国のフォトニックAI推論チップを手がける新興企業です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "フォトニック相互接続って何?" },
+          { "speaker": "analyst", "text": "従来の銅線ではなく光を使ってデータをやり取りする技術です。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "評価額は半年前から3倍以上に上昇し、英国史上最大級の半導体資金調達とも報じられています。", "source": "TechTimes" },
+          { "speaker": "host", "text": "急成長だね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "評価額の推移を整理すると?" },
+          { "speaker": "analyst", "text": "半年で3倍以上という急激な上昇です。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "アーキテクチャの特徴は?" },
+          { "speaker": "analyst", "text": "特化型シリコン、フォトニック相互接続、ラックスケール計算を組み合わせています。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "評価額は33億ドル、半年前から3倍以上に上昇しています。" },
+          { "speaker": "host", "text": "投資家からの期待が高いんだね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "誰が報じているの?" },
+          { "speaker": "analyst", "text": "DataCenterDynamics、TechTimes、EU-Startupsなどです。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "出資者は?" },
+          { "speaker": "analyst", "text": "Arm、Netflix共同創業者、英国政府のファンドが名を連ねています。", "source": "EU-Startups" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "資金の使い道は?" },
+          { "speaker": "analyst", "text": "DX-1の完成からプラットフォーム拡張、2027年後半の顧客提供開始を目指しています。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "経営体制も変わったの?" },
+          { "speaker": "analyst", "text": "経営体制も強化され、著名な学者や経営幹部が新たに加わりました。", "source": "DataCenterDynamics" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "ここまでを総括します。光で動くAIチップに、英国最大級の賭け金が積まれたことが今回の核心です。" },
+          { "speaker": "host", "text": "興味深い話題だね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "これからどうなりそう?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、DX-1の完成、初期顧客の獲得、競合の動向が焦点になりそうです。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "どんな影響がありそう?" },
+          { "speaker": "analyst", "text": "AIインフラ業界の関心の高まり、英国スタートアップ業界への注目が挙げられます。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "他のAIインフラテーマとは違うの?" },
+          { "speaker": "analyst", "text": "既存のValar Atomicsのテーマとは、AIチップ本体と電源確保という違いがあり、重複ではありません。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "本テーマでは数字の創作をせず、技術的優位性の第三者検証が未確認であることも明記しています。" },
+          { "speaker": "host", "text": "そこは大事なポイントだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "独立した複数の報道・テック専門メディアです。この表の通りです。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "確認できたことと、確認できなかったことを正直に整理します。技術の詳細な優位性はまだ確認できていません。" },
+          { "speaker": "host", "text": "そこは続報待ちだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。OLIXが、3.12億ドルを調達しました。" },
+          { "speaker": "host", "text": "改めて聞いても大きな調達だね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "従来の電気配線と比べると?" },
+          { "speaker": "analyst", "text": "フォトニック相互接続は光を使う点が特徴的です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "話題の広がり方をおさらいすると?" },
+          { "speaker": "analyst", "text": "発表から報道、そして本日の話題化までの流れです。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "光で動くAIチップ、実用化されたらどう活用したいですか。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "数字でおさらいすると?" },
+          { "speaker": "analyst", "text": "調達額3.12億ドル、評価額33億ドル、顧客提供開始は2027年後半を目指しています。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "改めて総括します。AIインフラの主戦場が、チップの中身にも広がる、その一つの節目でした。" },
+          { "speaker": "host", "text": "続報が楽しみだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "analyst", "text": "DX-1の完成、そして初期顧客の獲得状況に注目していきましょう。" },
+          { "speaker": "host", "text": "続報をお楽しみに。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。OLIXの資金調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
