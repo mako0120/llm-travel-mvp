@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "AIが自分で株を売買する時代へ。創業1年で3度目の資金調達をした投資テック企業",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "PR Newswire(2026-07-09)",
+      "FF News(2026年7月)",
+      "FinTech Futures(2026年7月)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "AIが、自分で株を売買する時代へ。創業からわずか1年で、3度目の資金調達を成功させた投資テック企業があります。", "source": "PR Newswire(2026-07-09)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "GIM、Grace Investment Machineが、シリーズAで2,000万ドルを調達しました。今日はこの話題をお届けします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、GIMとはどんな会社か、資金調達の内訳と参加投資家をお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "GIMが2026年7月9日、シリーズAで2,000万ドルの資金調達を発表しました。", "source": "PR Newswire" },
+          { "speaker": "host", "text": "大きな金額だね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その調達額がこちら、2,000万ドルです。" },
+          { "speaker": "host", "text": "米国大手VCとHony Capitalが共同主導しているんだね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、拠点、調達額、累計額、発表日。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "GIMってどんな会社?" },
+          { "speaker": "analyst", "text": "2025年7月、Jiahao Xu氏が創業した、香港・北京・上海拠点のAIネイティブな投資テクノロジー企業です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "GIMの歩みは?" },
+          { "speaker": "analyst", "text": "2025年7月の創業から1年以内に3回の資金調達を実施し、今回のシリーズAで累計3,000万ドル超になりました。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "創業者はこちら。CEOのJiahao Xu氏です。", "source": "PR Newswire" },
+          { "speaker": "host", "text": "詳細な経歴はまだ確認できていないんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "資金調達の推移は?" },
+          { "speaker": "analyst", "text": "創業後まもなく1回目、1年以内に2回目、そして今回のシリーズAが3回目です。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "累計調達額は?" },
+          { "speaker": "analyst", "text": "3回のラウンドを合計すると3,000万ドルを超えています。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "投資家陣容はこちら。米国大手VCとHony Capitalが共同主導、IDG CapitalとMonolith Capitalが参加しています。", "source": "PR Newswire" },
+          { "speaker": "host", "text": "米国大手VCの社名までは分からないんだね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "投資家一覧を教えて。" },
+          { "speaker": "analyst", "text": "米国大手VC、Hony Capital、IDG Capital、Monolith Capitalの4者です。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "共同主導2社、参加2社を比較するとこの通りです。" },
+          { "speaker": "host", "text": "顔ぶれが整理しやすくなったね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "中核製品って何?" },
+          { "speaker": "analyst", "text": "「Visionary Machine」です。市場データを投資シグナルに変換するエージェント型AIシステムです。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "7層のエージェントアーキテクチャを採用していますが、各層の詳細な内訳は出典で明記されていません。" },
+          { "speaker": "host", "text": "そこは正直に伝えないとね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "エージェント型AI投資って初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "従来はリサーチ支援が中心でしたが、エージェント型AIは仮説生成・検証まで自律的に行う点が特徴です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "学術的な評価もあるの?" },
+          { "speaker": "analyst", "text": "研究論文「CogAlpha」がACL 2026でOral推薦を受けたと報じられています。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "analyst", "text": "ACL 2026は自然言語処理分野の主要国際会議です。そこでのOral推薦は学術的な評価の裏付けになります。" },
+          { "speaker": "host", "text": "研究面でも注目されているんだね。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。調達額や投資家名は複数媒体で一致していますが、AUMや取引実績は確認できていません。" },
+          { "speaker": "host", "text": "そこは冷静に見ないとね。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "host", "text": "未確認の項目を教えて。" },
+          { "speaker": "analyst", "text": "運用資産額、取引実績、バリュエーション、顧客数、共同主導VCの社名です。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "analyst", "text": "鮮度について正直に開示します。本発表は着手日の26日前で、鮮度基準を満たしていません。" },
+          { "speaker": "host", "text": "少し前のニュースなんだね。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "host", "text": "それでも採用したのはなぜ?" },
+          { "speaker": "analyst", "text": "round77の評価ではスコア68/100で基準をわずかに下回りますが、他に新しい候補が見つからず、成長性と学術的裏付けを踏まえてやむを得ず採用しました。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "資金の使い道は?" },
+          { "speaker": "analyst", "text": "資本市場向けの基盤モデル開発と、マルチエージェントシステムの改良が挙げられています。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "analyst", "text": "従来のリサーチ支援ツールとGIMのアプローチを比較するとこの通りです。" },
+          { "speaker": "host", "text": "自律性の度合いが違うんだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "analyst", "text": "公平性・中立性についても開示します。GIMは香港・北京・上海拠点の企業ですが、地政学的な論評は行っていません。" },
+          { "speaker": "host", "text": "事実を淡々と伝えることが大事だね。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "PR Newswire、FF News、FinTech Futures、citybiz、Morningstar・Yahoo Financeへの転載です。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "GIMを主題とした既存テーマはなく、重複ではありません。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "ここからは推測ですが、エージェント型AIによる資本市場向け自動化は今後さらに広がる可能性があります。" },
+          { "speaker": "host", "text": "成長速度も業界の資金需要の高さを示しているのかもね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "AIが自分で株を売買する時代、GIMの今後の展開を注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。GIMの資金調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
