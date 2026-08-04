@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "州議会の演説で、AIチャットボットへの「指示文」をそのまま読み上げてしまった日",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・引用を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "1News(2026-07-25)",
+      "Breitbart(2026-07-27)",
+      "Al Jazeera(2026-07-28)",
+      "TimesLIVE(2026-07-29)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "「もっと自然で、流れるような言い回しにしました」。この一言が、州議会の演説の中でそのまま読み上げられました。", "source": "1News(2026-07-25)" },
+          { "speaker": "host", "text": "え、それって演説の内容じゃないよね?" },
+          { "speaker": "analyst", "text": "ニューブランズウィック州議会での出来事です。今日はこれを、出典付き・政治的に中立な形でお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、話題となった一言、誰が・いつ・何が起きたか、報道の広がり、初心者向け解説、そして確認できたこと・できなかったことをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "州議会の演説中、AIチャットボットの言い回しのような一文が読み上げられ、映像がSNSで拡散しました。", "source": "1News" },
+          { "speaker": "host", "text": "映像も残ってるんだ。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その一言がこちらです。「この部分を、議会演説らしい自然な言い回しにしました」という趣旨です。" },
+          { "speaker": "host", "text": "たしかに、AIが文章を直したときによく言いそうな言い回しだね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "誰が、いつ、何が起きたか教えて。" },
+          { "speaker": "analyst", "text": "人物、場所、話題の一言、最初の報道日。この表の通りです。氏名・所属政党は事実確認としてのみ記載しています。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "演説はどんな内容だったの?" },
+          { "speaker": "analyst", "text": "ニューブランズウィック州のAdvocateという機関に関する演説でした。案件の中身自体には立ち入りません。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "話題になるまでの流れは?" },
+          { "speaker": "analyst", "text": "原稿にAIの返信が残っていた経緯自体は確認できていませんが、編集されないまま読み上げられ、映像が拡散しました。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "経緯を4段階で整理するとこうなります。", "source": "1News" },
+          { "speaker": "host", "text": "演説から報道まで、短期間で進んだんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "なぜAIの一言だと気づかれたの?" },
+          { "speaker": "analyst", "text": "演説の内容ではなく、文章の書き直し方についてのコメントだったことが手がかりになりました。", "source": "1News(2026-07-25)" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "analyst", "text": "最初の報道日はこちら、2026年7月25日、1Newsが報じました。" },
+          { "speaker": "host", "text": "そこから始まったんだね。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "その後の報道の流れは?" },
+          { "speaker": "analyst", "text": "7月25日から29日にかけて、Breitbart・Al Jazeera・TimesLIVEなど複数の媒体が続けて報じています。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "1回だけの言い間違いだったの?" },
+          { "speaker": "analyst", "text": "Yahoo Newsは「2回」に言及し、他の箇所にも指示文的な表現があったと報じられています。ただし詳細は確認できていません。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "これって、どういう失敗パターンなの?" },
+          { "speaker": "analyst", "text": "AIの返信に含まれる説明文が、本文と混ざったまま原稿に残ってしまう現象です。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "analyst", "text": "原稿制作からスピーチまでの一般的な流れを図にしました。" },
+          { "speaker": "host", "text": "どこで確認が抜けると、こうなっちゃうのか分かるね。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "政治的な話に踏み込むの?" },
+          { "speaker": "analyst", "text": "いいえ。政党の主張やAdvocate案件の是非には立ち入らず、AIの編集漏れという現象だけを扱います。本人の能力や適性への言及も行いません。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "メディアの報じ方に違いはある?" },
+          { "speaker": "analyst", "text": "話題性を重視した報道と、事実を淡々と伝える報道の両方があります。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "そもそも、なぜAIの指示文が原稿に残るの?初心者にも分かるように教えて。" },
+          { "speaker": "analyst", "text": "AIチャットボットは本文と一緒に説明コメントを返すことがあり、まるごとコピーするとそれが原稿に混ざってしまうんです。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "どうすれば防げるの?" },
+          { "speaker": "analyst", "text": "AIに依頼、出力を全文確認、不要な部分を削除、声に出して確認。この4段階が確認ポイントです。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "こういう失敗、他でも聞いたことある気がする。" },
+          { "speaker": "analyst", "text": "AI出力を十分確認せずに使ってしまうという失敗は、分野を問わず幅広く報告されています。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "失敗の型を図にすると、コピー、確認せず貼り付け、そのまま公開・使用、という流れです。" },
+          { "speaker": "host", "text": "どこか一段階でも確認が入れば、防げたかもしれないね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "ここから広がる論点は?" },
+          { "speaker": "analyst", "text": "AI活用そのものより、活用後の確認・編集プロセスの重要性が焦点になっています。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。使用したAIツール、本人からの公式な声明の有無、具体的な拡散規模の数字は確認できていません。" },
+          { "speaker": "host", "text": "そこは正直に伝えないとね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "1News・Breitbart・Yahoo News・Futurism・Al Jazeera・TimesLIVEです。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "analyst", "text": "鮮度について正直に開示します。最初の報道から10日、直近の続報からも6日が経過しており、厳密な基準は満たしていません。" },
+          { "speaker": "host", "text": "そこも隠さずに伝えるんだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "着手日から見て、どれくらい新しい話題なの?" },
+          { "speaker": "analyst", "text": "最初の報道は10日前、直近の続報は6日前です。比較的続報の続いた話題でした。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "本テーマで大切にしたことは?" },
+          { "speaker": "analyst", "text": "事実の限定、政治的論点を避けること、人格への言及を避けることの3点です。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "AI活用そのものと、確認プロセスは分けて考えるべきだね。" },
+          { "speaker": "analyst", "text": "その通りです。論点は活用の是非ではなく、確認プロセスにあります。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "ここからは推測です。公式な反応の有無や、再発防止の議論の広がりについて考えられる展開を紹介します。" },
+          { "speaker": "host", "text": "他の分野にも波及するかもしれないね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "AIの出力をそのまま使ってしまいそうになったこと、ありますか。続報が入り次第、改めてお届けします。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。AIチャットボットの指示文が議会演説で読み上げられた件を、出典付き・政治的に中立な形でお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
