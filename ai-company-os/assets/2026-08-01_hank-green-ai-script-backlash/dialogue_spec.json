@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "人気科学系YouTuberが、自分の台本に隠れていた「AIの口癖」で大炎上した日",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・引用を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-08-01)",
+      "Fortune(2026-08-04)",
+      "Northeast Times(2026-08-03)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "「I appreciate the pushback」。この一言が、人気科学系YouTuberを大炎上させました。", "source": "TechCrunch(2026-08-01)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "Hank Green氏の動画をめぐる、AI台本疑惑と謝罪の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、疑惑となった一言、本人の反応、そして活動休止についてお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Complexlyの動画内の一言が、ファンの間でAIっぽいと話題になりました。", "source": "TechCrunch" },
+          { "speaker": "host", "text": "動画の途中の、たった一言でってこと?" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その一言がこちら、「I appreciate the pushback」です。" },
+          { "speaker": "host", "text": "たしかに、ChatGPTがよく言いそうな相槌だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "誰が、いつ、何が起きたか教えて。" },
+          { "speaker": "analyst", "text": "人物、チャンネル、問題の一言、最初の報道日。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Hank Green氏ってどんな人?" },
+          { "speaker": "analyst", "text": "SciShowやCrash Courseで知られる、科学教育系の著名なYouTuberです。VidConの共同設立者でもあります。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "炎上までの流れは?" },
+          { "speaker": "analyst", "text": "動画公開から視聴者の指摘、拡散、本人の反応まで、短期間で進みました。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "経緯を4段階で整理するとこうなります。", "source": "TechCrunch・Gizmodo" },
+          { "speaker": "host", "text": "小さな違和感が、大きな話題になったんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "なぜAIの一言だと疑われたの?" },
+          { "speaker": "analyst", "text": "丁寧すぎる相槌のような言い回しが、AIっぽさの手がかりとされました。", "source": "Gizmodo・Kotaku" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "analyst", "text": "最初の報道日はこちら、2026年8月1日、TechCrunchが報じました。" },
+          { "speaker": "host", "text": "そこから始まったんだね。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "その後の報道の流れは?" },
+          { "speaker": "analyst", "text": "8月1日から、着手日当日の8月4日まで、続報が続いています。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "本人はどう反応したの?" },
+          { "speaker": "analyst", "text": "AI使用は認めつつ、一部の指摘については異なる説明をしています。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "動画制作の背景について、本人はこう説明しています。", "source": "Fortune(2026-08-04)" },
+          { "speaker": "host", "text": "大きなプレッシャーの中だったんだね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "analyst", "text": "そして、謝罪の言葉がこちらです。「I'm mortified」。", "source": "Fortune(2026-08-04)" },
+          { "speaker": "host", "text": "かなり率直な言葉だね。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "本人が否定した点、認めた点は?" },
+          { "speaker": "analyst", "text": "特定の指摘は否定しつつ、AIへの依存は認めています。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "Redditでの謝罪はどんな内容?" },
+          { "speaker": "analyst", "text": "愕然としているという心境と、動画本数を減らす方針が語られています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "analyst", "text": "自身のAI利用について、本人はこう評価しています。「not healthy」です。", "source": "TechCrunch(2026-08-01)" },
+          { "speaker": "host", "text": "率直に、健全ではなかったと認めているんだね。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "謝罪から活動休止までの流れは?" },
+          { "speaker": "analyst", "text": "反省から、具体的な活動量の見直しにつながっています。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "活動休止についてもう少し教えて。" },
+          { "speaker": "analyst", "text": "複数の媒体が、AI利用への反省を理由とした休止として報じています。", "source": "Northeast Times(2026-08-03)" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "host", "text": "批判側と本人、それぞれの見方は?" },
+          { "speaker": "analyst", "text": "両方省略せずに比較すると、一致する点・食い違う点があります。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "「AI台本」疑惑って、初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "生成AIがよく使う定型的な言い回しが、台本に残ってしまう現象のことです。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "host", "text": "ここから広がる論点は?" },
+          { "speaker": "analyst", "text": "AI活用そのものより、開示のあり方が焦点になっています。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "クリエイターとAI活用の境界線は?" },
+          { "speaker": "analyst", "text": "どこまでがリサーチ支援で、どこからが未編集の読み上げか、が論点です。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。再生回数や登録者数などの具体的な数字は確認できていません。" },
+          { "speaker": "host", "text": "そこは正直に伝えないとね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "TechCrunch・Northeast Times・Fortune・Gizmodo・Kotaku・Artvoiceです。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "analyst", "text": "鮮度について正直に開示します。着手日当日の報道まで含む、非常に鮮度の高い話題です。" },
+          { "speaker": "host", "text": "本当に、今まさに動いている話題なんだね。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "本テーマで大切にしたことは?" },
+          { "speaker": "analyst", "text": "本人の言葉の尊重、公平な両論併記、人格への言及回避の3点です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "ここからは推測です。活動再開の形や、業界への波及について考えられる展開を紹介します。" },
+          { "speaker": "host", "text": "他のクリエイターにも影響しそうだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "クリエイターのAI活用、どこまでなら「あり」だと思いますか。続報が入り次第、改めてお届けします。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Hank Green氏のAI台本疑惑と謝罪の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

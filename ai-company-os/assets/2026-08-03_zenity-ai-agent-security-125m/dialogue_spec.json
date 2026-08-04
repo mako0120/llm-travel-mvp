@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "10億台のAIエージェントを誰が守るのか。SoftBank・日立・LGが1.25億ドルを賭けた企業",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "SiliconANGLE(2026-08-03)",
+      "Fortune(2026-08-03)",
+      "BusinessWire(2026-08-03)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "10億台のAIエージェントを、誰が守るのか。SoftBank・日立・LGが、1.25億ドルを賭けました。", "source": "SiliconANGLE(2026-08-03)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "AIエージェントセキュリティ企業Zenityの資金調達の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Zenityとはどんな会社か、資金調達の内訳と参加投資家をお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Zenityが2026年8月3日、シリーズCで1.25億ドルの資金調達を発表しました。", "source": "SiliconANGLE" },
+          { "speaker": "host", "text": "大きな金額だね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その調達額がこちら、1.25億ドルです。" },
+          { "speaker": "host", "text": "Norwestが主導しているんだね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、調達額、累計額、主導投資家、発表日。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Zenityってどんな会社?" },
+          { "speaker": "analyst", "text": "2021年、Unit 8200出身の2人が創業した、AIエージェントセキュリティ企業です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "Zenityの歩みは?" },
+          { "speaker": "analyst", "text": "2021年の創業から事業を拡大し、2026年8月にシリーズCで1.25億ドルを調達しました。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "創業者の経歴はこちら。CEOのBen Kliger氏、CTOのMichael Bargury氏はともにUnit 8200出身です。", "source": "SiliconANGLE・Fortune" },
+          { "speaker": "host", "text": "Microsoft時代からの同僚なんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "資金調達の推移は?" },
+          { "speaker": "analyst", "text": "今回のシリーズC1.25億ドルにより、累計は約1.85億ドルとなりました。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "投資家陣容はどんな感じ?" },
+          { "speaker": "analyst", "text": "Norwestが主導し、新規参加4社、既存投資家4社が継続参加しています。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "新規参加はQumra Capital、SoftBank Vision Fund 2、日立ベンチャーズ、LGテクノロジーベンチャーズです。", "source": "Fortune" },
+          { "speaker": "host", "text": "日本にも馴染みのある企業が並んでいるね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "新規参加投資家は何社?" },
+          { "speaker": "analyst", "text": "4社です。SoftBankや日立、LGも含まれます。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "既存投資家はどうなった?" },
+          { "speaker": "analyst", "text": "Vertex Ventures、Third Point Ventures、DTCP、Intel Capitalが引き続き参加しています。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "analyst", "text": "新規4社、既存4社を比較するとこの通りです。" },
+          { "speaker": "host", "text": "顔ぶれが豪華だね。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。調達額等は複数媒体で一致していますが、顧客数やARRは確認できていません。" },
+          { "speaker": "host", "text": "そこは正直に伝えないとね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "AIエージェントセキュリティって初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "自律的に動くAIエージェント特有のリスクを管理・防止する技術です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "なぜ今この分野が注目されるの?" },
+          { "speaker": "analyst", "text": "導入拡大とともに新しいリスクが生まれ、専用セキュリティ企業への投資が拡大しています。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "analyst", "text": "鮮度について正直に開示します。本発表は着手日の1日前で、鮮度基準を満たしています。" },
+          { "speaker": "host", "text": "かなり新しい話題なんだね。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "累計調達額は?" },
+          { "speaker": "analyst", "text": "2021年の創業以来、今回のシリーズCを含めて約1.85億ドルです。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "host", "text": "資金の使い道は?" },
+          { "speaker": "analyst", "text": "製品開発の加速、グローバル展開、企業需要への対応が挙げられています。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "analyst", "text": "創業者2人を改めて紹介します。ともにUnit 8200出身、Microsoft時代からの同僚です。" },
+          { "speaker": "host", "text": "セキュリティ畑の生粋のチームだね。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "SiliconANGLE、Fortune、BusinessWire、Pulse2、Calcalistech、citybizです。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "調達概要を再確認します。Zenityが、シリーズCで1.25億ドルを調達しました。" },
+          { "speaker": "host", "text": "改めて聞いても大型の調達だね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "Zenityを主題とした既存テーマはなく、重複ではありません。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "analyst", "text": "ここからは推測ですが、AIエージェントセキュリティ分野への投資はさらに拡大する可能性があります。" },
+          { "speaker": "host", "text": "SoftBankや日立の参加は、日本の関心の高さも示しているのかもね。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "従来型セキュリティとの違いは?" },
+          { "speaker": "analyst", "text": "自律的に動くAIエージェント特有のリスク管理が求められています。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "今後の展開は?" },
+          { "speaker": "analyst", "text": "製品開発の継続、グローバル展開を経て、業界内での評価が注目されます。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "リスクも正直に開示します。具体的な顧客数・ARR・バリュエーションは確認できていません。" },
+          { "speaker": "host", "text": "そこは冷静に見ないとね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "10億台のAIエージェントを誰が守るのか、今後も注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Zenityの資金調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
