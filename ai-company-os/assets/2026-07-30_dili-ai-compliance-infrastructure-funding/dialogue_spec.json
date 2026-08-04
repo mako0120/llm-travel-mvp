@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "アメリカのインフラ投資ブームを、AIが陰から支えていた",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-07-30)",
+      "GlobeNewswire(2026-07-30)",
+      "Yahoo Finance(2026-07-30)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "アメリカのインフラ投資ブームを、AIが陰から支えていました。", "source": "TechCrunch(2026-07-30)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "AI企業Diliの資金調達の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Diliとはどんな会社か、AIコンプライアンス監査とは何かをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Diliが2026年7月30日、シリーズA1,500万ドルを含む累計2,170万ドルの調達を発表しました。", "source": "TechCrunch(2026-07-30)" },
+          { "speaker": "host", "text": "着手日の5日前の出来事なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "累計調達額がこちら、2,170万ドルです。" },
+          { "speaker": "host", "text": "シリーズA1,500万ドルを含む金額なんだね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、調達額、主導投資家、発表日。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Diliってどんな会社?" },
+          { "speaker": "analyst", "text": "2023年創業、建設・インフラ・エネルギー業界向けにAIでコンプライアンス監査を自動化する会社です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "監査プロセスは?" },
+          { "speaker": "analyst", "text": "データ取得、AI継続チェック、監査レポート。この3段階でプロジェクトデータの100%をリアルタイムで確認します。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "Diliが解決する課題です。従来はサンプリング方式で一部のみ確認していた監査を、AIでプロジェクトデータの100%を確認する方向へ変えようとしています。" },
+          { "speaker": "host", "text": "見落とし防止につながるんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "プレバイリング賃金って何?" },
+          { "speaker": "analyst", "text": "公共インフラ工事等で定められた最低賃金基準に関する制度とされ、違反すると罰則等のリスクがあるとされます。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "シリーズA単体だとどれくらい?" },
+          { "speaker": "analyst", "text": "シリーズA調達額はこちら、1,500万ドルです。Khosla Venturesが主導しました。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "創業チームは?" },
+          { "speaker": "analyst", "text": "Anand Chaturvedi氏とBrian Fernandez氏の2名です。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "参加した著名投資家は?" },
+          { "speaker": "analyst", "text": "Khosla Venturesに加え、Y CombinatorのGarry Tan氏、Brick & Mortar VenturesのDarren Bechtel氏らが参加しています。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "Diliの対象業界です。建設業界、インフラ業界、エネルギー業界と、幅広くコンプライアンス課題を抱える業界を対象としています。" },
+          { "speaker": "host", "text": "幅広い業界に関係するんだね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "なぜ今、建設業界向けAIコンプライアンスなの?" },
+          { "speaker": "analyst", "text": "アメリカでインフラ投資ブームが続いているとされ、工事現場が増えるほど監査対象も増えるとされます。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "ここから先は推測ですが、製品開発、事業拡大、人材採用に資金が使われる可能性があります。" },
+          { "speaker": "host", "text": "そこは推測だと分かるように伝えないとね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "創業年は?" },
+          { "speaker": "analyst", "text": "2023年です。Anand Chaturvedi氏とBrian Fernandez氏が共同創業しました。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "Diliの特徴は?" },
+          { "speaker": "analyst", "text": "プロジェクトデータの100%をリアルタイムでチェックする点、保険会社Allianzとの提携も報じられている点が特徴です。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "TechCrunch、GlobeNewswire、Yahoo Financeです。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "analyst", "text": "正直にお伝えします。本ラウンドの企業評価額、具体的な導入プロジェクト数、AIモデルの検知精度の詳細は確認できていません。" },
+          { "speaker": "host", "text": "そこは冷静に受け止めないとね。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "host", "text": "監査カバー率は改めてどれくらい?" },
+          { "speaker": "analyst", "text": "100%です。プロジェクトデータをリアルタイムでチェックするとDiliは公表しています。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "分野全体の流れは?" },
+          { "speaker": "analyst", "text": "従来型監査、デジタル化、そしてDiliのようなAI継続監視へと広がっているとされます。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "この分野のリスクにも触れます。誤検知の可能性、データ取り扱いへの配慮、そして投資判断はあくまで自己責任です。" },
+          { "speaker": "host", "text": "特定企業への投資推奨ではないんだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "建設・インフラ業界向けAIコンプライアンスという切り口は本テーマが初めてで、重複ではありません。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "同じ回のBaselayerと比べて鮮度はどう?" },
+          { "speaker": "analyst", "text": "Baselayerは着手日前日でしたが、Diliは着手日の5日前で、鮮度基準をわずかに外れる点を正直にお伝えします。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "今後の展開は?" },
+          { "speaker": "analyst", "text": "導入拡大、保険業界との連携、次の資金調達の有無が注目されます。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "AIによるコンプライアンス監査、インフラ投資ブームとの関係、一緒に考えてみましょう。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "本テーマで大切にしたことは?" },
+          { "speaker": "analyst", "text": "出典の明記、正直な開示、中立性の3点です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "調達段階を改めて確認します。シリーズA、つまり本格的な事業拡大に向けた段階です。" },
+          { "speaker": "host", "text": "これからが本番なんだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "まとめると?" },
+          { "speaker": "analyst", "text": "Diliがシリーズ Aを含む累計2,170万ドルを調達し、建設・インフラ業界向けAIコンプライアンスという切り口が今後も注目される可能性があります。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Diliの資金調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "AIが、不正を先に見つけていた。2,000万ドルを集めた「監視役」",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "AlleyWatch(2026-08-03)",
+      "TechFundingNews",
+      "BusinessWire(2024-05-01)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "AIが、不正を先に見つけていました。2,000万ドルを集めた『監視役』の話です。", "source": "AlleyWatch(2026-08-03)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "AI企業Baselayerの資金調達の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Baselayerとはどんな会社か、AIによる不正検知の仕組みをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Baselayerが2026年8月3日、シリーズAで2,000万ドルの調達を発表しました。", "source": "AlleyWatch(2026-08-03)" },
+          { "speaker": "host", "text": "着手日の前日の出来事なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その調達額がこちら、2,000万ドルです。" },
+          { "speaker": "host", "text": "シリーズAとしては注目度が高いね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、調達額、主導投資家、発表日。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Baselayerってどんな会社?" },
+          { "speaker": "analyst", "text": "2023年創業、金融機関・政府機関向けにAIで不正リスクを自動検知する会社です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "検知プロセスは?" },
+          { "speaker": "analyst", "text": "データ収集、AIリスク評価、アラート。この3段階で不正の兆候を継続的に分析します。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "Baselayerが解決する課題です。従来は人手中心・事後対応が多かった不正対策を、AIで継続的に自動監視する方向へ変えようとしています。" },
+          { "speaker": "host", "text": "事後対応から予防へ、という発想の転換だね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "これまでの調達履歴は?" },
+          { "speaker": "analyst", "text": "2024年5月にシードで650万ドル、今回のシリーズAで2,000万ドルを調達しています。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "累計だとどれくらい?" },
+          { "speaker": "analyst", "text": "累計調達額はこちら、4,700万ドルです。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "創業チームは?" },
+          { "speaker": "analyst", "text": "Jonathan Awad氏、Timothy Hyde氏、William Slessman氏の3名です。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "なぜ今、不正検知AIが注目されているの?" },
+          { "speaker": "analyst", "text": "金融機関・政府機関を狙った不正手口が高度化しているとされ、AIによる継続的な監視への需要が高まっているとされます。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "利用機関のイメージです。金融機関、政府機関、合計1,900以上の機関が利用しているとBaselayerは公表しています。" },
+          { "speaker": "host", "text": "かなりの規模だね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "主導投資家は?" },
+          { "speaker": "analyst", "text": "Koro CapitalとM13が主導投資家です。具体的な出資比率や企業評価額は確認できていません。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "創業年は?" },
+          { "speaker": "analyst", "text": "2023年です。Jonathan Awad氏ら3名が共同創業しました。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "ここから先は推測ですが、製品開発、人材採用、事業拡大に資金が使われる可能性があります。" },
+          { "speaker": "host", "text": "そこは推測だと分かるように伝えないとね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "Baselayerの特徴は?" },
+          { "speaker": "analyst", "text": "対象業界は金融機関・政府機関、提供価値は不正リスクの自動検知です。1,900以上の機関が利用と公表されています。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "AlleyWatch、TechFundingNews、BusinessWireです。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "analyst", "text": "正直にお伝えします。本ラウンドの企業評価額、AIモデルの具体的な検知アルゴリズム、具体的な顧客企業名は確認できていません。" },
+          { "speaker": "host", "text": "そこは冷静に受け止めないとね。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "host", "text": "利用機関数は改めてどれくらい?" },
+          { "speaker": "analyst", "text": "1,900以上です。金融・政府機関がBaselayerを利用しているとされます。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "分野全体の流れは?" },
+          { "speaker": "analyst", "text": "従来型審査、ルールベース検知、そしてBaselayerのようなAI継続監視へと広がっているとされます。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "この分野のリスクにも触れます。誤検知の可能性、プライバシーへの配慮、そして投資判断はあくまで自己責任です。" },
+          { "speaker": "host", "text": "特定企業への投資推奨ではないんだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "AI不正検知という切り口は本テーマが初めてで、重複ではありません。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "round73と比べて鮮度はどう?" },
+          { "speaker": "analyst", "text": "round73のJuneは着手日前日、Neoは約2週間前でした。今回のBaselayerも着手日前日で、高い鮮度を確保しています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "今後の展開は?" },
+          { "speaker": "analyst", "text": "製品の進化、顧客拡大、次の資金調達の有無が注目されます。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "AIによる不正検知、金融機関の安心・安全にどうつながるか、一緒に考えてみましょう。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "本テーマで大切にしたことは?" },
+          { "speaker": "analyst", "text": "出典の明記、正直な開示、中立性の3点です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "調達段階を改めて確認します。シリーズA、つまり本格的な事業拡大に向けた段階です。" },
+          { "speaker": "host", "text": "これからが本番なんだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "まとめると?" },
+          { "speaker": "analyst", "text": "Baselayerがシリーズ Aで2,000万ドルを調達し、AIによる不正検知という切り口が今後も注目される可能性があります。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Baselayerの資金調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
