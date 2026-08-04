@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "詐欺対策に24億ドル。Visaが賭けた「行動」で見抜くAI",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "CNBC(2026-08-03)",
+      "Bloomberg(2026-08-03)",
+      "SecurityWeek(2026-08-03)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "詐欺対策に24億ドル。Visaが賭けたのは『行動』で見抜くAIでした。", "source": "CNBC(2026-08-03)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "決済大手VisaがAI行動生体認証企業BioCatchを買収する話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、BioCatchとはどんな会社か、買収の規模、AI詐欺対策の背景をお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Visaが2026年8月3日、BioCatchを24億ドルで買収すると発表しました。", "source": "CNBC" },
+          { "speaker": "host", "text": "着手日の前日の出来事なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その買収額がこちら、24億ドルです。すべて現金です。" },
+          { "speaker": "host", "text": "大きな買収額だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "買収概要を教えて。" },
+          { "speaker": "analyst", "text": "買収企業、被買収企業、買収額、発表日、完了見込み。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "BioCatchってどんな会社?" },
+          { "speaker": "analyst", "text": "イスラエル発のAI行動生体認証企業で、約7.6億人のユーザーを保護しているとされます。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "行動生体認証AIの仕組みは?" },
+          { "speaker": "analyst", "text": "収集、分析、判定という3ステップでリアルタイムに判定します。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "保護する規模はこちら。約7.6億人・約350行・月間190億セッションです。", "source": "techtimes.com" },
+          { "speaker": "host", "text": "かなりの規模だね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "検知の流れは?" },
+          { "speaker": "analyst", "text": "ログイン試行から行動シグナル収集、AI分析、判定という流れです。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "業界の被害規模は?" },
+          { "speaker": "analyst", "text": "Visaは詐欺・アカウント乗っ取りが世界経済に年間1兆ドル超の損害を与えていると推計しています。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。詐欺被害額は1兆ドル超です。", "source": "CNBC" },
+          { "speaker": "host", "text": "想像以上の規模だね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "Visaの狙いは?" },
+          { "speaker": "analyst", "text": "不正対策事業の拡大、AI詐欺への対応強化、銀行との関係強化と報じられています。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。数字は複数媒体で一致していますが、統合計画の詳細は確認できていません。" },
+          { "speaker": "host", "text": "そこは正直に伝えないとね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "買収完了までの流れは?" },
+          { "speaker": "analyst", "text": "発表、規制当局の審査、2027年度第2四半期末までの完了見込みという流れです。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "規制承認が完了の条件であり、承認見通しの詳細は確認できていません。" },
+          { "speaker": "host", "text": "確定した将来ではないんだね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "処理データ量は?" },
+          { "speaker": "analyst", "text": "月間190億セッションを分析しているとされます。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "詐欺対策技術はどう進化してきたの?" },
+          { "speaker": "analyst", "text": "ルールベースから機械学習、そして行動生体認証へと進化してきたとされています。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "行動生体認証って初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "パスワードのような『知っているもの』ではなく、タイピングの癖のような『その人らしい動き』で本人確認する技術です。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "CNBC・Bloomberg・SecurityWeek・Benzinga・Yahoo Financeです。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "M&A概要を再確認します。Visaが、BioCatchを24億ドルの現金で買収します。" },
+          { "speaker": "host", "text": "改めて聞いても大きな買収だね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "VisaまたはBioCatchを主題とした既存テーマはなく、重複ではありません。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "ここからは推測ですが、決済業界全体でのAI不正対策投資の加速が予想されます。" },
+          { "speaker": "host", "text": "業界全体に広がりそうだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "保護する銀行数は?" },
+          { "speaker": "analyst", "text": "約350行を保護しているとされています。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "これまでと今回で何が変わる?" },
+          { "speaker": "analyst", "text": "行動生体認証技術と大規模な顧客基盤の取り込みが見込まれています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "AI詐欺と対策AIの関係は?" },
+          { "speaker": "analyst", "text": "詐欺の高度化と対策の高度化が、互いに進化していく構図にあるとされています。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "analyst", "text": "リスクも正直に開示します。買収完了は規制当局の承認が条件で、確定した将来ではありません。" },
+          { "speaker": "host", "text": "そこは冷静に見ないとね。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "本テーマで大切にしたことは?" },
+          { "speaker": "analyst", "text": "出典の明記、正直な開示、中立性の3点です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "買収完了見込みを改めて確認します。2027年度第2四半期末までです。" },
+          { "speaker": "host", "text": "続報を待ちたいね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "AI詐欺対策への投資、今後も注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。VisaによるBioCatch買収の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
