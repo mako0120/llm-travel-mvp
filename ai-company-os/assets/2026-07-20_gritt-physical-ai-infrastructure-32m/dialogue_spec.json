@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "力仕事をするAIロボットが、3,240万ドルを引き連れて現場にやってきた",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "BusinessWire(2026-07-20)",
+      "RoboticsTomorrow(2026-07-21)",
+      "RoboticsAndAutomationNews(2026-07-22)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "力仕事をするAIロボットが、3,240万ドルを引き連れて建設現場にやってきました。", "source": "BusinessWire(2026-07-20)" },
+          { "speaker": "host", "text": "力仕事をするAI?" },
+          { "speaker": "analyst", "text": "物理AI企業Grittが、プレシードとシリーズAで合わせて3,240万ドルを調達しました。今日はこの話題です。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Grittとはどんな会社か、資金調達の内訳をお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Grittが2026年7月20〜21日、プレシード+シリーズA計3,240万ドルを発表しました。", "source": "BusinessWire" },
+          { "speaker": "host", "text": "内訳が気になるね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その総額がこちら、3,240万ドルです。" },
+          { "speaker": "host", "text": "プレシードとシリーズAの合計なんだね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、事業領域、調達額、主導投資家。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Grittってどんな会社?" },
+          { "speaker": "analyst", "text": "ロボットアーム+AIを既存の建設機械に接続する物理AI企業で、Puneet Puri氏とVishal Dugar氏が率いています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "物理AIってどう動くの?" },
+          { "speaker": "analyst", "text": "既存の建設機械にロボットアームとAIを接続し、ミリ単位の精度で作業します。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "創業者はこちら。カーネギーメロン・スタンフォード・MIT出身のロボティクス・AI専門家です。", "source": "BusinessWire" },
+          { "speaker": "host", "text": "詳細な経歴はまだ確認できていないんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "資金調達の歩みは?" },
+          { "speaker": "analyst", "text": "プレシードのあと、今回のシリーズAで2,600万ドルを調達し、計3,240万ドルに到達しました。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "シリーズA単体は?" },
+          { "speaker": "analyst", "text": "2,600万ドルです。Obvious Venturesが主導しました。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "投資家陣容はこちら。Obvious Ventures主導、Union Square Ventures等が参加しています。", "source": "BusinessWire" },
+          { "speaker": "host", "text": "既存投資家も続けて支援しているんだね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "投資家一覧を教えて。" },
+          { "speaker": "analyst", "text": "シリーズA3社、既存投資家4社。合わせて7社です。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "シリーズA投資家と既存投資家を比較するとこの通りです。" },
+          { "speaker": "host", "text": "顔ぶれが整理しやすくなったね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "物理AIって初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "ソフトウェアAIエージェントは画面の中で動きますが、物理AIはロボットが現実世界で作業します。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "ソフトウェアAIエージェントと物理AIを比較するとこの通りです。" },
+          { "speaker": "host", "text": "扱う対象がデジタルか現実かで全然違うね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "実際の作業プロセスは?" },
+          { "speaker": "analyst", "text": "ピック・プレイス、組立、運搬という一連の作業をミリ単位の精度で行います。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "実際にもう動いているの?" },
+          { "speaker": "analyst", "text": "大規模太陽光発電施設の建設という厳しい屋外環境で、すでに稼働を開始しているとされています。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "analyst", "text": "報道によれば、最初は数ヶ月かかっていた学習が今は数日で完了するとされています。", "source": "BusinessWire" },
+          { "speaker": "host", "text": "それは第三者検証があるの?" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "学習プロセスをもう少し詳しく。" },
+          { "speaker": "analyst", "text": "初回導入は数ヶ月、複数現場のデータ蓄積で今は数日に短縮されたと報じられています。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "host", "text": "未確認の項目を教えて。" },
+          { "speaker": "analyst", "text": "導入現場数、売上、バリュエーション、顧客名、従業員数です。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。調達額や投資家名は複数媒体で一致していますが、導入現場数や売上は確認できていません。" },
+          { "speaker": "host", "text": "そこは冷静に見ないとね。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "鮮度について正直に開示します。本発表は着手日の14〜15日前で、鮮度基準を厳密には満たしていません。" },
+          { "speaker": "host", "text": "少し前のニュースなんだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "それでも採用したのはなぜ?" },
+          { "speaker": "analyst", "text": "round78の評価ではスコア74/100で、物理AIという分かりやすいフックと実際の稼働実績を踏まえて採用しました。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "業界への影響は?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、人手不足の現場に物理AIが後付けで導入される可能性があります。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "analyst", "text": "従来の重機操作とGritt導入後を概念的に比較するとこの通りです。" },
+          { "speaker": "host", "text": "作業の一部をAIが担う可能性があるんだね。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "analyst", "text": "公平性・中立性についても開示します。特定企業の利用を強く推奨する結論にはしていません。" },
+          { "speaker": "host", "text": "事実を淡々と伝えることが大事だね。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "BusinessWire、RoboticsTomorrow、RoboticsAndAutomationNews等、独立した複数の情報源です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "Grittを主題とした既存テーマはなく、他の物理AI系テーマとも対象企業が異なり重複ではありません。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "皆さんの現場にも来る日は近いか、というところで。" },
+          { "speaker": "analyst", "text": "力仕事をするAI、Grittの今後の展開を注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Grittの資金調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
