@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "ハンドルのない車が、ついに公道を正式に走れるようになった。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Federal Register(2026-07-31)",
+      "NHTSA公式"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "ハンドルのない車が、ついに公道を正式に走れるようになりました。", "source": "Federal Register(2026-07-31)" },
+            { "speaker": "host", "text": "本当に?" },
+            { "speaker": "analyst", "text": "アメリカの当局NHTSAが許可しました。今日はこの話題をお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "何が発表されたか、適用除外の詳細、Zooxとは何か、注目される理由、今後の見通しをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "まず何が発表されたの?" },
+            { "speaker": "analyst", "text": "NHTSAが2026年7月31日、Zoox車両に連邦自動車安全基準8項目の適用除外を許可しました。", "source": "Federal Register" },
+            { "speaker": "host", "text": "8項目とは大きいね。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "その数がこちら、8項目です。" },
+            { "speaker": "host", "text": "具体的にどんな基準なの?" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "概要をまとめて教えて。" },
+            { "speaker": "analyst", "text": "許可日、対象基準数、展開台数上限、有効期間。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "許可までの流れは?" },
+            { "speaker": "analyst", "text": "申請、意見公募、審査、許可という4ステップです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "Zooxについて教えて。" },
+            { "speaker": "analyst", "text": "Amazon傘下の自動運転タクシー企業で、ハンドル・運転席を持たない専用設計の車両を開発しています。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "適用除外の内容を詳しく。" },
+            { "speaker": "analyst", "text": "防曇装置、灯火、ブレーキ、乗員保護など4分野8項目です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "なぜそんな車が必要なの?" },
+            { "speaker": "analyst", "text": "従来の基準はハンドル・運転席を前提に設計されていますが、Zoox車両はそれらを持たない専用設計のため、除外が必要になります。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "商業展開できる台数は、年間最大2,500台までです。" },
+            { "speaker": "host", "text": "かなりの規模だね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "監督体制はどうなっているの?" },
+            { "speaker": "analyst", "text": "強化・適応型の監督体制のもとで運用され、有効期間も2年間に限定されています。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "8項目を詳しく教えて。" },
+            { "speaker": "analyst", "text": "防曇・ワイパー、灯火・後方視界、ブレーキ、車内衝突保護・ガラス材・乗員保護です。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "この適用除外は2026年7月31日から2028年7月31日までの2年間です。" },
+            { "speaker": "host", "text": "時限的な措置なんだね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "なぜこの話題が注目されているの?" },
+            { "speaker": "analyst", "text": "ハンドルのない車が正式に走れるようになる点、政府による正式な許可という重みです。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "一般的な自動運転車との違いは?" },
+            { "speaker": "analyst", "text": "一般的な車はハンドル・運転席を備えていますが、Zoox車両はそれらを持たない専用設計です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "比較すると?" },
+            { "speaker": "analyst", "text": "一般的な自動運転車と比べ、Zoox車両はより徹底した専用設計になっています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことは?" },
+            { "speaker": "analyst", "text": "許可内容と条件は確認済み、代替安全対策の技術詳細や展開時期は未確認です。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで総括します。NHTSAが安全基準8項目の適用除外を許可し、ハンドルのないZoox車両が正式に公道を走れるようになりました。" },
+            { "speaker": "host", "text": "大きな一歩だね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "商業展開の本格化、他社への波及、安全性の検証。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "業界への影響は?" },
+            { "speaker": "analyst", "text": "規制のあり方や、利用者の体験に変化をもたらす可能性があります。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "配慮している点は?" },
+            { "speaker": "analyst", "text": "数字の創作をせず、安全性についての断定的な評価も行っていません。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "出典をもう一度教えて。" },
+            { "speaker": "analyst", "text": "米国政府の官報Federal Registerを中心とした一次情報です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "視聴者に聞いてみたいことは?" },
+            { "speaker": "analyst", "text": "ハンドルのない車に、乗ってみたいと思いますか。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて確認します。8項目の適用除外により、年間最大2,500台まで商業展開が可能になりました。" },
+            { "speaker": "host", "text": "改めて大きな数字だね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "商業展開までの流れを図で教えて。" },
+            { "speaker": "analyst", "text": "許可は確認済みですが、その先の展開準備・開始時期は未確認です。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "この話題の広がりは?" },
+            { "speaker": "analyst", "text": "米国政府の官報を中心に、自動車・テック専門媒体でも報道されました。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "数字でまとめると?" },
+            { "speaker": "analyst", "text": "対象基準8項目、展開台数上限は年間最大2,500台、有効期間は2年間です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて総括します。NHTSAの許可により、ハンドルのないZoox車両が公道を正式に走れるようになりました。" },
+            { "speaker": "host", "text": "大きな転換点だね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "Zooxの商業展開の状況、そして自動運転専用の安全基準整備の動向に注目していきましょう。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "ハンドルのない車が街を走る日は、もうそう遠くないのかもしれません。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

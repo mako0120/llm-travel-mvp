@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "title": "18番でのバーディーが、彼女の運命を変えた。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "JLPGA公式(2026-08-02)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "18番でのバーディーが、彼女の運命を変えました。", "source": "JLPGA公式(2026-08-02)" },
+            { "speaker": "host", "text": "誰のこと?" },
+            { "speaker": "analyst", "text": "桑木志帆選手です。今日はこの話題をお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "何が起きたか、最終日の展開、プロフィール、日本勢にとっての意味、今後の見通しをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "まず何が起きたの?" },
+            { "speaker": "analyst", "text": "桑木選手が8月2日、AIG全英女子オープンでプレーオフを制しメジャー初優勝を果たしました。", "source": "JLPGA公式" },
+            { "speaker": "host", "text": "すごい快挙だね。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "その成果がこちら、メジャー初優勝です。" },
+            { "speaker": "host", "text": "本当におめでたいね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "大会概要を教えて。" },
+            { "speaker": "analyst", "text": "大会名、会場、優勝日、決着方法。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "最終日の展開を詳しく。" },
+            { "speaker": "analyst", "text": "18番前は1打差、18番でバーディーを奪いプレーオフへ、そして優勝を決めました。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "桑木選手について教えて。" },
+            { "speaker": "analyst", "text": "JLPGA所属のプロゴルファーで、この大会で日本勢として3人目の優勝者となりました。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "プレーオフの詳細は?" },
+            { "speaker": "analyst", "text": "1ホール目は両者パー、2ホール目でヘンセライト選手がボギー、桑木選手はパーをセーブして優勝を決めました。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "最終日の流れを図で教えて。" },
+            { "speaker": "analyst", "text": "18番のバーディーからプレーオフを経て優勝に至るまで、劇的な展開でした。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "この大会での日本勢の位置づけは、桑木選手が3人目です。" },
+            { "speaker": "host", "text": "日本人選手の活躍が続いているね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "歴代の優勝者を教えて。" },
+            { "speaker": "analyst", "text": "2019年渋野日向子選手、2025年山下美夢有選手、そして2026年桑木志帆選手です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "確認できる優勝の概要をまとめて。" },
+            { "speaker": "analyst", "text": "2019年、2025年、2026年、この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "海外メジャー優勝者としては、桑木選手が日本勢7人目となります。" },
+            { "speaker": "host", "text": "積み重なってきた記録なんだね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "先輩たちとの関係は?" },
+            { "speaker": "analyst", "text": "渋野選手・山下選手は先輩優勝者ですが、本テーマは桑木選手の2026年の優勝という新しい出来事を扱っており、重複ではありません。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "なぜこの優勝が注目されているの?" },
+            { "speaker": "analyst", "text": "プレーオフを制してのドラマ性、18番での劇的な追い上げが理由です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "プレーオフの流れをもう一度図で。" },
+            { "speaker": "analyst", "text": "2ホール目の明暗が優勝を分けました。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことは?" },
+            { "speaker": "analyst", "text": "優勝の経緯は確認済み、桑木選手の通算成績の全体像や具体的なショット内容は未確認です。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで総括します。桑木選手はプレーオフの末に、メジャー初優勝という大きな栄冠を手にしました。" },
+            { "speaker": "host", "text": "本当に見事だったね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "さらなる活躍、日本勢全体への好影響、国内外での注目。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "この大会について教えて。" },
+            { "speaker": "analyst", "text": "女子ゴルフの主要メジャー大会の一つで、イングランドで開催されます。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "配慮している点は?" },
+            { "speaker": "analyst", "text": "数字の創作をせず、他選手を貶める表現も避けています。政治的な話題とは無関係の、明るいニュースです。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "出典をもう一度教えて。" },
+            { "speaker": "analyst", "text": "JLPGA公式という一次情報です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "視聴者に聞いてみたいことは?" },
+            { "speaker": "analyst", "text": "桑木選手の今後の活躍に、どんなことを期待しますか。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて、桑木志帆選手のメジャー初優勝です。" },
+            { "speaker": "host", "text": "何度聞いても嬉しいニュースだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "話題の広がり方を図で教えて。" },
+            { "speaker": "analyst", "text": "優勝決定、公式発表、話題化という流れです。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "桑木選手のこれまでの歩みは?" },
+            { "speaker": "analyst", "text": "JLPGA所属として活動し、今回のメジャー初優勝が大きなハイライトです。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "数字でまとめると?" },
+            { "speaker": "analyst", "text": "通算5アンダー、プレーオフ2ホール目での決着、日本勢としての位置づけが確認できます。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて総括します。18番のバーディーから始まった、劇的なメジャー初優勝でした。" },
+            { "speaker": "host", "text": "感動的な展開だったね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "桑木選手の今後の活躍、そして日本勢のさらなる海外メジャー挑戦に注目していきましょう。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "18番のバーディーから始まった物語は、これからも続いていくのでしょう。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
