@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "無料で使える最新動画生成AIが、一部の国では使えないという矛盾。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "PC Watch(2026-08-03)",
+      "CGinterest(2026-08-03)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "無料で使える最新動画生成AIが、一部の国では使えないという矛盾があります。", "source": "PC Watch(2026-08-03)" },
+            { "speaker": "host", "text": "どういうこと?" },
+            { "speaker": "analyst", "text": "中国のMiniMaxが公開した動画生成AIの話題です。今日はこれをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "何が公開されたか、主な特徴、ライセンスの内容、話題になっている理由、今後の見通しをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "まず何が公開されたの?" },
+            { "speaker": "analyst", "text": "2026年8月3日、MiniMaxが動画生成AI『MiniMax H3』の重みをHugging Faceで公開しました。", "source": "PC Watch" },
+            { "speaker": "host", "text": "無料で使えるようになったんだね。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "その規模がこちら、33Bパラメータのオムニモーダルモデルです。" },
+            { "speaker": "host", "text": "かなり大規模だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "スペックを教えて。" },
+            { "speaker": "analyst", "text": "パラメータ数、出力時間、解像度、フレームレート、音声。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "主な特徴は?" },
+            { "speaker": "analyst", "text": "オムニモーダル、高解像度、音声同時生成、多素材参照の4点です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "MiniMaxについて教えて。" },
+            { "speaker": "analyst", "text": "中国のAIモデル開発企業です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "ライセンスの内容は?" },
+            { "speaker": "analyst", "text": "商用利用も可能ですが、ライセンス表記や、一定規模を超える場合の許諾が必要です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "動画生成の仕組みを図で教えて。" },
+            { "speaker": "analyst", "text": "複数の素材を統合的に理解し、高品質な動画として出力します。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "生成できる動画は、2K解像度・24fps・32kHzステレオ音声付きです。" },
+            { "speaker": "host", "text": "本格的なスペックだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "商用利用の条件を詳しく。" },
+            { "speaker": "analyst", "text": "ライセンス表記、年間売上2,000万ドル超での事前許諾、一部地域での別途相談の3点です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "除外地域を教えて。" },
+            { "speaker": "analyst", "text": "EU、英国、韓国、アメリカです。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "除外地域は4地域、EU・英国・韓国・アメリカです。" },
+            { "speaker": "host", "text": "主要国が含まれているね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "利用できる地域と比べると?" },
+            { "speaker": "analyst", "text": "多くの地域ではライセンス表記だけで利用できますが、この4地域では別途相談が必要です。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "なぜこの話題が注目されているの?" },
+            { "speaker": "analyst", "text": "無料公開でありながら地域制限があるという意外性、高性能なオープンウェイトモデルという点です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "公開までの流れを図で教えて。" },
+            { "speaker": "analyst", "text": "開発から発表、そして8月3日の公開に至っています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことは?" },
+            { "speaker": "analyst", "text": "スペックや除外地域は確認済み、除外地域の具体的な理由や性能評価の詳細は未確認です。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで総括します。高性能な動画生成AIが無料で公開されましたが、一部地域では別途相談が必要という条件付きです。" },
+            { "speaker": "host", "text": "面白い構図だね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "利用の広がり、除外地域の動向、業界への影響。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "業界への影響は?" },
+            { "speaker": "analyst", "text": "オープン化の流れと、地域ごとのライセンス対応の複雑さが挙げられます。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "配慮している点は?" },
+            { "speaker": "analyst", "text": "数字の創作をせず、地域規制の背景について断定的な政治的評価も行っていません。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "出典をもう一度教えて。" },
+            { "speaker": "analyst", "text": "PC Watchを中心とした複数のテック専門メディアです。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "視聴者に聞いてみたいことは?" },
+            { "speaker": "analyst", "text": "無料公開と地域制限のバランスについて、どう考えますか。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて確認します。33Bパラメータのオムニモーダルモデル、MiniMax H3です。" },
+            { "speaker": "host", "text": "改めて大規模なモデルだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "話題の広がり方を図で教えて。" },
+            { "speaker": "analyst", "text": "公開、報道、話題化という流れです。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "数字でまとめると?" },
+            { "speaker": "analyst", "text": "33Bパラメータ、最高2K解像度、32kHzステレオ音声、最大12ファイルの参照が可能です。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "業界内の位置づけは?" },
+            { "speaker": "analyst", "text": "高い評価とオープンな公開形態が特徴です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて総括します。無料公開と地域制限が共存する、新しい動画生成AIの登場でした。" },
+            { "speaker": "host", "text": "興味深い話題だったね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "MiniMax H3の実際の活用事例、そして除外地域の今後の動向に注目していきましょう。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "無料と制限が同居する時代、AIとの付き合い方も少しずつ変わっていくのかもしれません。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

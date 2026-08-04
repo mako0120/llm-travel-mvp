@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "大谷翔平が見つめる先で、彼はバットを振り抜いた。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Full-Count(2026-08-04)",
+      "日刊スポーツ(2026-08-04)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "大谷翔平選手が見つめる先で、彼はバットを振り抜きました。", "source": "Full-Count(2026-08-04)" },
+            { "speaker": "host", "text": "誰のこと?" },
+            { "speaker": "analyst", "text": "カブスの鈴木誠也選手です。今日はこの話題をお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "何が起きたか、本塁打の詳細、鈴木選手のプロフィール、この試合の構図、今後の見通しをお伝えします。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "まず何が起きたの?" },
+            { "speaker": "analyst", "text": "鈴木選手が8月3日のドジャース戦、初回第1打席で7試合ぶりの19号2ランを放ちました。", "source": "Full-Count" },
+            { "speaker": "host", "text": "待望の一発だね。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "その本塁打がこちら、今季19号です。" },
+            { "speaker": "host", "text": "順調に数字を伸ばしているね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "本塁打の詳細を教えて。" },
+            { "speaker": "analyst", "text": "日付、対戦相手、打球速度、飛距離。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "打席の流れを詳しく。" },
+            { "speaker": "analyst", "text": "無死一塁の場面、高めのフォーシームを捉え、左翼席への2ランとなりました。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "鈴木選手について教えて。" },
+            { "speaker": "analyst", "text": "シカゴ・カブス所属の外野手で、4年連続20本塁打まであと1本に迫っています。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "この試合の構図は?" },
+            { "speaker": "analyst", "text": "対戦相手のドジャースには大谷翔平選手が所属しており、『日本人対決』として報じられました。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "対戦の構図を図で教えて。" },
+            { "speaker": "analyst", "text": "カブスとドジャース、両選手が所属するチーム同士の一戦でした。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "この一発で、鈴木選手は4年連続20本塁打まであと1本に迫りました。" },
+            { "speaker": "host", "text": "大台が見えてきたね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "第2打席はどうだったの?" },
+            { "speaker": "analyst", "text": "2打席連続本塁打とはならず中飛に倒れましたが、初回の一発が大歓声を呼びました。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "本塁打の数字をまとめて。" },
+            { "speaker": "analyst", "text": "今季本塁打数、打球速度、飛距離、間隔。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "打球速度は106.6マイル、約171.5キロという強烈な当たりでした。" },
+            { "speaker": "host", "text": "本当に力強い一発だね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "なぜこの一発が注目されているの?" },
+            { "speaker": "analyst", "text": "大谷選手の前での一発という構図、そして7試合ぶりという待望のタイミングです。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "7試合ぶりまでの流れを図で教えて。" },
+            { "speaker": "analyst", "text": "前回の本塁打から7試合、待望のタイミングだったことが分かります。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、大谷選手を悪く言っているわけじゃないよね?" },
+            { "speaker": "analyst", "text": "はい。本テーマは鈴木選手の活躍を主題としますが、大谷選手・ドジャースを貶める表現は含みません。両者への敬意を持って紹介しています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "似たテーマとの違いは?" },
+            { "speaker": "analyst", "text": "既存テーマは大谷選手・村上選手自身の記録が主題ですが、本テーマは鈴木選手の本塁打が主題であり、重複ではありません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで総括します。鈴木選手が、大谷選手の前で7試合ぶりの今季19号を放ちました。" },
+            { "speaker": "host", "text": "見事な一発だったね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "今後の見通しは?" },
+            { "speaker": "analyst", "text": "4年連続20本塁打の達成、今後の対戦、シーズン終盤の活躍。ここからは推測です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "確認できている事実をまとめると?" },
+            { "speaker": "analyst", "text": "日付、本塁打数、打球速度・飛距離、間隔。この4点です。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "配慮している点は?" },
+            { "speaker": "analyst", "text": "数字の創作をせず、対戦相手を貶める表現も避けています。政治的な話題とは無関係の、明るいニュースです。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "出典をもう一度教えて。" },
+            { "speaker": "analyst", "text": "Full-Countを中心とした複数のスポーツ専門メディアです。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこと・できなかったことは?" },
+            { "speaker": "analyst", "text": "本塁打の詳細は確認済み、大谷選手自身の成績詳細や試合の最終結果は未確認です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて、鈴木誠也選手の7試合ぶりの19号2ランです。" },
+            { "speaker": "host", "text": "何度聞いても嬉しいニュースだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "話題の広がり方を図で教えて。" },
+            { "speaker": "analyst", "text": "本塁打、報道、話題化という流れです。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "視聴者に聞いてみたいことは?" },
+            { "speaker": "analyst", "text": "鈴木選手が4年連続20本塁打を達成できると思いますか。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "数字でまとめると?" },
+            { "speaker": "analyst", "text": "今季19号、打球速度106.6マイル、飛距離367フィートです。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて総括します。大谷選手の前での、待望の一発でした。" },
+            { "speaker": "host", "text": "印象的な一戦だったね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "鈴木選手の20本塁打達成、そして両チームの今後の対戦に注目していきましょう。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "大谷選手の前で放たれた一発は、鈴木選手にとって大きな一歩になったかもしれません。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
