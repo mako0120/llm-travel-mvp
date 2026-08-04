@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "ジェフ・ベゾスが賭けたのは、ゲームで賢くなるAIだった",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-06-25)",
+      "Axios(2026-06-26)",
+      "GamesBeat(2026-06)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "ジェフ・ベゾス氏が賭けたのは、ゲームで賢くなるAIでした。", "source": "TechCrunch(2026-06-25)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "General Intuitionの資金調達の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、General Intuitionとはどんな会社か、ゲームプレイ動画でAIを訓練する仕組みをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "General Intuitionが2026年6月25日、シリーズAで3.2億ドルの調達を発表しました。", "source": "TechCrunch" },
+          { "speaker": "host", "text": "大きな調達だね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その調達額がこちら、3.2億ドルです。" },
+          { "speaker": "host", "text": "AIスタートアップとしては非常に大きい規模だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、調達額、評価額、主導投資家。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "General Intuitionってどんな会社?" },
+          { "speaker": "analyst", "text": "ゲームプレイ動画データでAIエージェントを訓練する『行動基盤モデル』の開発を目指す企業です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "ゲームプレイ動画でAIを訓練する仕組みは?" },
+          { "speaker": "analyst", "text": "動画収集、行動ラベル紐づけ、モデル訓練、実世界への転用という流れです。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "Medalプラットフォームの強みはこちら。実際のコントローラー入力データが紐づいています。", "source": "TechCrunch" },
+          { "speaker": "host", "text": "観戦動画にはない強みなんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "技術の応用範囲は?" },
+          { "speaker": "analyst", "text": "現在はゲーム業界向けが中心ですが、将来的にはロボティクス・ドローン・自動運転シミュレーションへの応用を目指しています。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "実世界応用の具体例は?" },
+          { "speaker": "analyst", "text": "わずか8分間の実世界ロボティクスデータで、四足歩行ロボットを前方カメラのみで動かせたとされています。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。企業評価額は23億ドルです。", "source": "GamesBeat" },
+          { "speaker": "host", "text": "急成長を感じさせる評価額だね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "参加した著名投資家は?" },
+          { "speaker": "analyst", "text": "Khosla Venturesに加え、エリック・シュミット氏、ジェフ・ベゾス氏が参加しています。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。調達額等は複数媒体で一致していますが、商用顧客数等の詳細は確認できていません。" },
+          { "speaker": "host", "text": "そこは正直に伝えないとね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "資金調達の流れは?" },
+          { "speaker": "analyst", "text": "これまでの調達を経て、今回のシリーズAで累計調達額は4.54億ドルに達しました。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "鮮度について正直に開示します。本発表は着手日の約40日前です。" },
+          { "speaker": "host", "text": "そこは最大限正直に伝えるべきだね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "累計調達額は?" },
+          { "speaker": "analyst", "text": "本ラウンドを含めて、開示済みの累計調達額は4.54億ドルです。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "AIエージェント訓練の潮流は?" },
+          { "speaker": "analyst", "text": "テキストデータから動画データ、そしてゲームデータへと訓練データの幅が広がっているとされています。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "行動基盤モデルって初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "テキストを扱う言語基盤モデルに対し、実世界での行動を予測・生成する基盤モデルのことです。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "TechCrunch・Axios・GamesBeat・Pulse2です。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "調達概要を再確認します。General Intuitionが、シリーズAで3.2億ドルを調達しました。" },
+          { "speaker": "host", "text": "改めて聞いても大きな金額だね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "General Intuitionを主題とした既存テーマはなく、重複ではありません。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "ここからは推測ですが、ゲームデータを活用したAI訓練への注目がさらに高まる可能性があります。" },
+          { "speaker": "host", "text": "業界全体に広がりそうだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "APIオープン化予定は?" },
+          { "speaker": "analyst", "text": "2026年夏の終わりまでに、より多くの開発者向けにAPIを開放する計画とされています。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "観戦動画との違いは?" },
+          { "speaker": "analyst", "text": "Medalのデータは、映像と実際の入力が紐づく点が強みとされています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "訓練から実世界応用までの流れは?" },
+          { "speaker": "analyst", "text": "ゲーム内での訓練を経て、少量の実世界データで微調整することで実際の動作に応用できるとされています。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "analyst", "text": "リスクも正直に開示します。商用顧客数等の詳細な経営指標は確認できていません。" },
+          { "speaker": "host", "text": "そこは冷静に見ないとね。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "本テーマで大切にしたことは?" },
+          { "speaker": "analyst", "text": "出典の明記、正直な開示、中立性の3点です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "微調整データ量を改めて確認します。わずか8分間の実世界データです。" },
+          { "speaker": "host", "text": "少ないデータで動かせるのは印象的だね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "ゲームデータを活用したAI訓練、今後も注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。General Intuitionの資金調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
