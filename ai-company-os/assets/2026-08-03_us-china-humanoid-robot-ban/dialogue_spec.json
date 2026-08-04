@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "米国が、中国製ロボットを締め出した",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "CNN Business(2026-07-29)",
+      "The Japan Times(2026-07-29)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "米国が、中国製ロボットを締め出しました。", "source": "CNN Business(2026-07-29)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "米FCCによる中国製ロボット輸入禁止の話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、規制の内容と理由、対象と除外、政治的中立性についての開示をお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "米連邦通信委員会が、中国製の人型・四足ロボットの新規輸入を禁止する措置を発表しました。", "source": "CNN Business" },
+          { "speaker": "host", "text": "着手日の6から7日前なんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その発表日がこちら、2026年7月28日です。" },
+          { "speaker": "host", "text": "最近の動きなんだね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "概要を教えて。" },
+          { "speaker": "analyst", "text": "発表機関、対象、対象2、理由。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "どの機関が発表したの?" },
+          { "speaker": "analyst", "text": "FCCの決定は、ホワイトハウス主導の省庁横断組織が7月27日に行った判断に基づいています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "規制の内容は?" },
+          { "speaker": "analyst", "text": "新規の人型・四足ロボット、パワーインバーターが対象で、既存導入済みモデルは対象外です。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "FCCが挙げた理由は、サプライチェーンの脆弱性、サイバーセキュリティリスク、データプライバシーリスクです。", "source": "The Daily Caller(2026-07-29)" },
+          { "speaker": "host", "text": "安全保障を理由にしているんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "経緯を整理すると?" },
+          { "speaker": "analyst", "text": "7月27日の判断を受けて、7月28日にFCCが規制を発表しました。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "対象と除外を教えて。" },
+          { "speaker": "analyst", "text": "新規輸入の人型・四足ロボットとパワーインバーターが対象、既存導入済みモデルは除外です。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "対象品目は、人型・四足ロボットとパワーインバーターです。既存導入済みモデルは対象外です。", "source": "UPI" },
+          { "speaker": "host", "text": "そこは配慮されているんだね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "誰が報じているの?" },
+          { "speaker": "analyst", "text": "CNN Business、The Japan Times、UPI、The Daily Caller、The AI Insiderです。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "背景にはどんな構図があるの?" },
+          { "speaker": "analyst", "text": "中国が世界の人型ロボットの大部分を供給している構図があるとされています。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "影響範囲を整理すると?" },
+          { "speaker": "analyst", "text": "中国メーカー、米国の輸入企業、米国内メーカーそれぞれに関わる話題です。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点を確認します。本テーマは政策的な話題を扱うため、特定の政権・政党・国家への支持や批判は行わず、事実のみを客観的に紹介しています。" },
+          { "speaker": "host", "text": "そこは徹底しないとね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "ここまでを総括します。米国が国家安全保障上のリスクを理由に、中国製ロボットの新規輸入を禁止しました。" },
+          { "speaker": "host", "text": "大きな動きだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "これからどうなりそう?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、中国側の反応、米国内産業への影響、他分野への波及が焦点になりそうです。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "どんな影響がありそう?" },
+          { "speaker": "analyst", "text": "中国メーカーへの影響、米国輸入企業の調達先見直しが挙げられます。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "他のAI規制テーマとは違うの?" },
+          { "speaker": "analyst", "text": "EU AI Actやカリフォルニア州の透明性法とは、法域・規制対象がそれぞれ異なり、重複ではありません。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "本テーマでは数字の創作をせず、特定の政権・政党・国家への支持や批判もしていません。" },
+          { "speaker": "host", "text": "そこは大事なポイントだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "独立した複数の大手報道機関です。この表の通りです。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "確認できたことと、確認できなかったことを正直に整理します。中国側の公式な反応はまだ確認できていません。" },
+          { "speaker": "host", "text": "そこは続報待ちだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。米FCCが2026年7月28日、中国製人型・四足ロボットの輸入禁止を発表しました。" },
+          { "speaker": "host", "text": "改めて聞いても大きな決定だね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "規制前と規制後を比べると?" },
+          { "speaker": "analyst", "text": "新規の輸入が禁止される一方、既存導入済みモデルは対象外という違いがあります。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "話題の広がり方をおさらいすると?" },
+          { "speaker": "analyst", "text": "7月27日の判断を受けて、7月28日にFCCが規制を発表し、本日話題化しています。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "国家安全保障とロボット・AI技術の輸入、どう向き合うべきだと思いますか。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "数字でおさらいすると?" },
+          { "speaker": "analyst", "text": "7月27日の国家安全保障判断を受けて、7月28日にFCCが規制を発表しました。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "改めて総括します。先端技術をめぐる米中の競争が、また一歩進んだ、その一つの節目でした。" },
+          { "speaker": "host", "text": "続報が楽しみだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "analyst", "text": "中国側の反応、そして米国内産業への影響に注目していきましょう。" },
+          { "speaker": "host", "text": "続報をお楽しみに。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。米国が中国製ロボットの新規輸入を禁止した話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

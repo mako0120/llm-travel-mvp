@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "AIが、人類の暗号を解き始めた",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "ITmedia NEWS(2026-07-29頃)",
+      "PC Watch"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "AIが、人類の暗号を解き始めました。", "source": "ITmedia NEWS(2026-07-29頃)" },
+          { "speaker": "host", "text": "どういうこと?" },
+          { "speaker": "analyst", "text": "Claude Mythos Previewが暗号の新たな攻撃法を発見した話題です。今日はこれをお伝えします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、HAWKとAES-128への攻撃、実運用への影響、公平性についての開示をお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "AnthropicのAIモデルが、HAWKとAES-128に新たな攻撃法を発見しました。", "source": "ITmedia NEWS" },
+          { "speaker": "host", "text": "実運用には影響しないんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その発表時期がこちら、着手日の5から6日前です。" },
+          { "speaker": "host", "text": "最近の話題なんだね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "概要を教えて。" },
+          { "speaker": "analyst", "text": "発見者、対象1、対象2、実運用への影響。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Claude Mythos Previewってどんなモデル?" },
+          { "speaker": "analyst", "text": "Anthropicの実験的モデルで、今回は暗号研究に活用されました。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "HAWKへの攻撃はどんな内容?" },
+          { "speaker": "analyst", "text": "鍵強度を実質的に半減させる新攻撃法で、約60時間の作業で検証されたとされます。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "HAWKへの攻撃は約60時間の作業で検証されたとされています。", "source": "ITmedia NEWS" },
+          { "speaker": "host", "text": "意外と短い時間だね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "AES-128への攻撃はどんな内容?" },
+          { "speaker": "analyst", "text": "7ラウンド版を対象に、メビウス・ブリッジという新手法で攻撃を高速化しました。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "攻撃手法を整理すると?" },
+          { "speaker": "analyst", "text": "従来手法をメビウス・ブリッジで最適化し、大幅に高速化しています。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "AES-128攻撃の詳細は?" },
+          { "speaker": "analyst", "text": "対象、手法、高速化倍率。この表の通りです。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "analyst", "text": "攻撃の高速化倍率は、従来手法と比較して200から800倍とされています。", "source": "Qiita" },
+          { "speaker": "host", "text": "かなりの高速化だね。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "誰が報じているの?" },
+          { "speaker": "analyst", "text": "ITmedia NEWS、PC Watch、Qiita、TechBriefly JP、tech-noisyです。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。今回の発見は現行の実運用システムには影響せず、本番ソフトウェアへの変更も不要とされています。" },
+          { "speaker": "host", "text": "そこは安心できるポイントだね。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "発見に至る経緯は?" },
+          { "speaker": "analyst", "text": "当初は不可能と回答したモデルが、プロンプトの調整を経て発見に至ったとされています。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点を確認します。本テーマはAnthropic自身のモデルによる発見を扱い、本パイプライン自体もAnthropicの技術を利用しています。" },
+          { "speaker": "host", "text": "そこは正直に伝えないとね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "analyst", "text": "ここまでを総括します。AIが暗号研究の最前線に立ち、新たな攻撃法を発見したことが今回の核心です。" },
+          { "speaker": "host", "text": "興味深い話題だね。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "これからどうなりそう?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、標準化プロセスへの影響、他の暗号方式への応用が焦点になりそうです。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "どんな影響がありそう?" },
+          { "speaker": "analyst", "text": "研究者の新たな手法の広がり、標準化団体の再評価が挙げられます。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "本テーマでは数字の創作をせず、実運用への影響がないことも明確に伝えています。" },
+          { "speaker": "host", "text": "過度に不安を煽らないようにしているんだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "独立した複数の技術専門メディアです。この表の通りです。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "確認できたことと、確認できなかったことを正直に整理します。攻撃手法の具体的な数学的詳細は一次論文まで確認できていません。" },
+          { "speaker": "host", "text": "そこは続報待ちだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "改めて確認します。Claude Mythos Previewが、暗号アルゴリズムの新たな攻撃法を発見しました。" },
+          { "speaker": "host", "text": "改めて聞いても驚きの発見だね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "従来の暗号研究とどう違うの?" },
+          { "speaker": "analyst", "text": "従来は人間の研究者が中心でしたが、今回はAIモデルが新たな攻撃法を発見した点が特徴的です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "話題の広がり方をおさらいすると?" },
+          { "speaker": "analyst", "text": "発表から報道、そして本日の話題化までの流れです。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "AIが暗号研究の最前線に立つ時代、どう向き合いたいですか。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "数字でおさらいすると?" },
+          { "speaker": "analyst", "text": "HAWK攻撃は約60時間、AES-128攻撃の高速化は200から800倍です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "改めて総括します。AIが人類の暗号研究に挑む、その一つの節目でした。" },
+          { "speaker": "host", "text": "続報が楽しみだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "analyst", "text": "暗号標準化プロセスへの影響、そして他の暗号方式への応用に注目していきましょう。" },
+          { "speaker": "host", "text": "続報をお楽しみに。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。AIが暗号アルゴリズムの新たな弱点を発見した話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
