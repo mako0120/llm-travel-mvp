@@ -56,7 +56,7 @@ export type Catalog = {
   themes: Theme[];
 };
 
-export const catalog = catalogJson as Catalog;
+export const catalog = catalogJson as unknown as Catalog;
 
 /** 成果物の表示名。カードのバッジに使う。 */
 export const ARTIFACT_LABELS: Partial<Record<ArtifactKey, string>> = {
