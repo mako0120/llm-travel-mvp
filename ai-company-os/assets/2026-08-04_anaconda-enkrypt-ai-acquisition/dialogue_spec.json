@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "title": "スキャンしたMCPサーバーの73%が脆弱?14万3000件の穴を見つけた企業をAnacondaが買収",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "HPCwire/AIwire(2026-08-04)",
+      "Anaconda公式ブログ(2026-08-04)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "スキャンしたMCPサーバーの73%が脆弱かもしれない、14万3000件の穴を見つけた企業を、Anacondaが買収しました。", "source": "HPCwire/AIwire(2026-08-04)" },
+            { "speaker": "host", "text": "14万3000件?かなりすごい数字だね。" },
+            { "speaker": "analyst", "text": "はい。データサイエンス・AIプラットフォーム企業のAnacondaが、AIセキュリティ・コンプライアンス企業Enkrypt AIを買収したと2026年8月4日に発表しました。買収金額は非公開です。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "今日は何がわかるようになる?" },
+            { "speaker": "analyst", "text": "何が起きたか、14万3000件という数字の中身、初心者向けにMCPとは何か、Enkrypt AIが2か月で見つけたこと、Anacondaの買収の狙いと文脈、そして確認できたこと・できなかったことを順にお伝えします。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "まず何が起きたの?" },
+            { "speaker": "analyst", "text": "AnacondaがEnkrypt AIを買収したと発表しました。買収金額は非公開です。", "source": "HPCwire/AIwire(2026-08-04)" },
+            { "speaker": "host", "text": "Enkrypt AIって何をしていた会社なの?" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "今回明らかになった脆弱性の件数がこちら、14万3000件です。買収発表までの2か月間でスキャンして見つかった数だとしています。" },
+            { "speaker": "host", "text": "2か月でそんなに見つかるものなんだ。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "買収概要を教えて。" },
+            { "speaker": "analyst", "text": "買収する側がAnaconda、される側がEnkrypt AI、発表日は2026年8月4日、買収金額は非公開です。直前には2026年7月にコーディングエージェント「Kilo Code」の買収も発表されています。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "買収でどんな機能が統合されるの?" },
+            { "speaker": "analyst", "text": "300以上の攻撃カテゴリにわたる事前配備のレッドチーミング、実行時のランタイムガードレール、NIST・EU AI Act準拠の自動化機能です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "Enkrypt AIのスキャンって具体的にはどんな流れ?" },
+            { "speaker": "analyst", "text": "25,000のMCPサーバーを対象に268,000のツールをスキャンし、143,000件の脆弱性を発見しました。これは対象サーバーの73%に影響する規模です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "そもそもMCPって何?" },
+            { "speaker": "analyst", "text": "Model Context Protocolの略で、AIエージェントが外部のツールやデータに接続するための共通規格です。MCPサーバーを通じて社内システムやAPIなど様々なツールを呼び出します。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "スキャンされたツールの数はどれくらい?" },
+            { "speaker": "analyst", "text": "268,000個です。25,000のMCPサーバーにまたがってスキャンされた数として公表されています。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "数字を整理してもらえる?" },
+            { "speaker": "analyst", "text": "はい、この表の通りです。サーバー数25,000、ツール数268,000、脆弱性数143,000、割合は73%です。いずれもEnkrypt AI自身の公表値である点に注意してください。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "グラフで見るとどうなる?" },
+            { "speaker": "analyst", "text": "単位は千件です。サーバー数25、ツール数268、脆弱性件数143で、脆弱性件数はツール数の半分以上を占めています。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "73%ってかなり高い割合だよね?" },
+            { "speaker": "analyst", "text": "スキャン対象の25,000サーバーのうち、7割超で脆弱性が見つかったという公表値です。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "Anacondaってそもそもどんな会社?" },
+            { "speaker": "analyst", "text": "データサイエンス・AIプラットフォーム企業です。2026年7月にオープンソースのコーディングエージェント「Kilo Code」を買収したばかりでした。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "Enkrypt AI自体の情報はどれくらいわかっているの?" },
+            { "speaker": "analyst", "text": "事業領域と2か月のスキャン実績は公表されていますが、創業者名・従業員数・設立年は本調査の範囲では確認できていません。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "買収前と買収後で何が変わるの?" },
+            { "speaker": "analyst", "text": "買収前はセキュリティ機能を自社に持っていませんでしたが、買収後はプロンプトを書く段階から本番稼働まで一貫してAIセキュリティ・ガバナンス・コンプライアンスを提供するとAnacondaは説明しています。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "そのパイプライン全体像を教えて。" },
+            { "speaker": "analyst", "text": "プロンプト作成、開発・実装、事前配備のレッドチーミング、そして本番稼働時のランタイムガードレールという流れです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "この買収、単発の話なの?" },
+            { "speaker": "analyst", "text": "いいえ。2026年7月のKilo Code買収に続くものです。開発を強化したKilo Code買収に続き、今回はセキュリティを強化する形になっています。", "source": "HPCwire/AIwire(2026-08-04)" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "事業ポートフォリオ全体で見るとどうなる?" },
+            { "speaker": "analyst", "text": "既存のデータサイエンス・AIプラットフォーム事業に、Kilo Code、そしてEnkrypt AIが加わる形です。ただし統合の具体的なスケジュールは未確認です。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの話、どこまでが確定事実なの?" },
+            { "speaker": "analyst", "text": "買収の発表やスキャン実績の数字、統合される機能は確認できています。一方、買収金額や創業者情報、脆弱性の内訳、統合スケジュールは未確認です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "正直に言うと、確認できなかったことは?" },
+            { "speaker": "analyst", "text": "買収金額、Enkrypt AIの創業者情報、脆弱性の深刻度別内訳、統合スケジュール、そして他のAIセキュリティ企業との技術的な違いは確認できていません。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "未確認事項を一覧で見たい。" },
+            { "speaker": "analyst", "text": "この表の通りです。買収金額、創業者情報、脆弱性の内訳、統合スケジュール、他社との違い、いずれも本調査の範囲では確認できていません。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "業界的にはどういう位置づけなの?" },
+            { "speaker": "analyst", "text": "ここからは推測ですが、AIエージェントやMCPの普及に伴い、セキュリティ企業の買収・統合が業界で進んでいると考えられます。ただしEnkrypt AI固有の優位性は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "141本目で扱ったObsidian Securityとは関係あるの?" },
+            { "speaker": "analyst", "text": "分野は近いですが、141本目は資金調達、本テーマは買収という異なる事象です。対象企業も別で、重複ではありません。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "実在企業名を扱う上で気をつけていることは?" },
+            { "speaker": "analyst", "text": "実在企業名はテキストとしてのみ使用し、ロゴ・写真は使いません。特定企業・製品の利用を強く推奨する結論にもしていません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "出典は何を使っているの?" },
+            { "speaker": "analyst", "text": "HPCwire/AIwireの報道記事と、Anaconda公式ブログの2つを主な出典としています。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "このニュース、鮮度はどうなの?" },
+            { "speaker": "analyst", "text": "発表は2026年8月4日、着手日は2026年8月5日で、1日以内という良好な鮮度です。採用スコアは75点でした。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "既存テーマと重複していない?" },
+            { "speaker": "analyst", "text": "Anaconda/Enkrypt AI買収を主題とした既存テーマはなく、141本目のObsidian Securityとも事象・対象企業が異なるため重複ではありません。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "最後に、この動画の立場をもう一度確認したい。" },
+            { "speaker": "analyst", "text": "買収という事実の紹介に留め、製品導入を断定的に推奨してはいません。143,000件という数字もEnkrypt AI自身の公表値であり、第三者検証ではない点に留意しています。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "この先どうなっていくと思う?" },
+            { "speaker": "analyst", "text": "AIエージェントの数だけ増える穴、セキュリティ企業の買収は今後どこまで続くのでしょうか。続報を、確定事実と未確認情報を区別しながら注目していきましょう。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめです。Anacondaが、Enkrypt AIを買収したと発表しました。Enkrypt AIは2か月で25,000のMCPサーバー・268,000のツールをスキャンし、143,000件の脆弱性を発見したと公表しています。" },
+            { "speaker": "host", "text": "一方で買収金額や創業者情報、脆弱性の内訳、統合スケジュールは未確認なんだね。" },
+            { "speaker": "analyst", "text": "その通りです。正直にお伝えしました。今回もご視聴ありがとうございました。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

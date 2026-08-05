@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "AIを世界一売り込む会社のはずが、自社の社員には「使いすぎるな」と言い始めた",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・通達の内容を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "404 Media(2026-08-04)",
+      "Slashdot(2026-08-04)",
+      "TechRadar(2026-08-04)",
+      "The Next Web(2026-08-04)",
+      "AI Weekly(2026-08-04)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "AIを世界一売り込んでいるはずの会社が、自社の社員には『使いすぎるな』と言い始めました。", "source": "404 Media(2026-08-04)" },
+          { "speaker": "host", "text": "え、Microsoftが?どういうこと?" },
+          { "speaker": "analyst", "text": "Microsoftの幹部副社長Jay Parikh氏が社内メールで、AIトークン予算目標の運用を通達したんです。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、tokenmaxxingとは何か、Parikh氏の発言、何が変わったか、既存テーマとの関係、そして確認できたこと・できなかったことをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "2026年7月から、Microsoft社内の各事業部門がAIトークン予算目標のもとで運用されるようになりました。エンジニア個人も利用量を追跡できます。", "source": "404 Media(2026-08-04)ほか" },
+          { "speaker": "host", "text": "背景には何があったの?" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "報道日はこちら、2026年8月4日です。5つの独立したメディアが同じ日に報じています。" },
+          { "speaker": "host", "text": "着手日と完全に同日だね。すごい鮮度だ。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "ニュースの概要を教えて。" },
+          { "speaker": "analyst", "text": "発表主体、通達内容、個人への影響、背景、対応策、報道日。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "登場人物は?" },
+          { "speaker": "analyst", "text": "Microsoft、通達を出したJay Parikh氏、対象となった各事業部門、そして切替先のGPT-5.6です。" }
+        ]},
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "そもそも『tokenmaxxing』ってどういう意味?" },
+          { "speaker": "analyst", "text": "AIの利用量を最大化することが、あたかも生産性の高さであるかのように扱われてしまう現象を指す言葉です。2026年7月頃から使われ始めました。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "その構図はこちらです。利用量が指標化されると、本来の目的である成果とズレてしまうことがあります。" },
+          { "speaker": "host", "text": "たくさん使う=頑張っている、とは限らないんだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "なぜMicrosoftがこんな通達を出したの?" },
+          { "speaker": "analyst", "text": "AI製品を積極的に売り込む一方で、社内エンジニアのAI利用コストが膨らんでいた実態があったとみられます。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "analyst", "text": "Parikh氏の発言その1です。『Tokenmaxxing is not what we are optimizing for.』トークン最大化を目指しているのではない、ということです。", "source": "404 Media(2026-08-04)" },
+          { "speaker": "host", "text": "はっきり言い切ってるね。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "発言その2です。『トークン数を減らすことを目指しているのではなく、1トークンあたりのインパクトを最大化することを目指している』。" },
+          { "speaker": "host", "text": "単純な節約とは違う考え方なんだね。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "その考え方を図にすると?" },
+          { "speaker": "analyst", "text": "トークン数を減らすことが目的ではなく、同じ利用量でどれだけ意味のある成果につながるかを重視する、という説明です。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "tokenmaxxing的な発想と、何が違うの?" },
+          { "speaker": "analyst", "text": "tokenmaxxingは利用量そのものが評価されがちですが、Parikh氏は1トークンあたりのインパクトを重視する立場です。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "analyst", "text": "背景として、多くのエンジニアが月に数百ドル〜数千ドル分のAIトークンを消費していたと報じられています。", "source": "404 Media・The Next Web(2026-08-04)" },
+          { "speaker": "host", "text": "具体的な平均額までは分かってないの?" },
+          { "speaker": "analyst", "text": "そこは報道各社も示していません。未確認です。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "モデルも変わったんだよね?" },
+          { "speaker": "analyst", "text": "はい、社内デフォルトAIモデルをより安価とされるGPT-5.6に切り替えました。ただし削減率・削減額は不明です。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "一連の流れを整理すると?" },
+          { "speaker": "analyst", "text": "実態の把握、幹部の通達、予算目標の導入、モデルの切替。この4ステップです。" }
+        ]},
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "要するにポイントは3つ?" },
+          { "speaker": "analyst", "text": "量ではなく質を重視すること、個人も利用量を追跡できるようになったこと、モデルもコスト意識で選ばれたことです。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "この制度、分かってないこともあるんだよね?" },
+          { "speaker": "analyst", "text": "はい。適用開始時期や適用範囲は分かっていますが、部門別の予算額や評価への影響は分かっていません。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "これって前に取り上げた話と同じ言葉じゃない?" },
+          { "speaker": "analyst", "text": "『tokenmaxxing』という言葉自体は、過去にスタートアップWeave社の資金調達ニュースで取り上げています。今回はMicrosoft自身が使った、別の新しい事象です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "2つのテーマを比較するとこうです。主体も文脈も異なります。" },
+          { "speaker": "host", "text": "同じ言葉でも指してるものは別なんだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "analyst", "text": "ここからは正直な開示です。未確認事項を一覧にしました。" },
+          { "speaker": "host", "text": "何がまだ分かっていないの?" },
+          { "speaker": "analyst", "text": "部門別の予算額、削減率、社内の具体的な反応、広報コメントの有無は、いずれも確認できていません。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "host", "text": "確認できたこと・できなかったことをまとめると?" },
+          { "speaker": "analyst", "text": "通達の内容自体は複数メディアで確認できましたが、具体的な金額や社内の反応の詳細は確認できていません。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "鮮度について改めて開示します。報道は着手日と完全に同日、5つの独立したメディアが同日に報じています。" },
+          { "speaker": "host", "text": "でもそれが未確認事項を補うわけじゃないんだね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "採用スコアは?" },
+          { "speaker": "analyst", "text": "82点で採用されました。意外性のあるフックと複数メディアによる裏付けの強さが評価されています。" }
+        ]},
+        { "slide": 25, "lines": [
+          { "speaker": "analyst", "text": "公平性・中立性についても開示します。通達の内容は中立的に報告し、AI活用全般についての価値判断は行いません。" },
+          { "speaker": "host", "text": "MicrosoftやOpenAIを推奨したり批判したりする話じゃないんだね。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "他の会社にも広がっていくのかな?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、AIコストの管理は多くの企業の悩みどころになりつつあるとみられます。ただし他企業への広がりは確認できていません。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "今、分かっていることとまだ分からないことを整理すると?" },
+          { "speaker": "analyst", "text": "通達の内容と発言そのものは分かっていますが、具体的な数値や社内の反応はまだ答えの出ていない開かれた問いです。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "host", "text": "出典はどこ?" },
+          { "speaker": "analyst", "text": "404 Media、Slashdot、TechRadar、The Next Web、AI Weeklyという5つの独立した情報源です。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "AIを売り込む側の会社が、AIコストとどう向き合うんだろう。" },
+          { "speaker": "analyst", "text": "答えを断定せず、確認できたこと・できなかったことを区別しながら、開かれた問いとして注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Microsoft社内のAIトークン予算目標の通達をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}
