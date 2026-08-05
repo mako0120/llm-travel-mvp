@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "W杯メンバーに選ばれなかった男が、オランダ王者から約31億円の値がついた",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "フットボールチャンネル(2026-08-05)",
+      "ライブドアニュース(2026-08-05)",
+      "Yahoo!ニュース(東スポWEB配信、2026-08-05)",
+      "Yahoo!ニュース(GOAL配信、2026-08-05)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "W杯メンバーに選ばれなかった男が、オランダ王者から約31億円の値がつきました。", "source": "フットボールチャンネル(2026-08-05)" },
+          { "speaker": "host", "text": "え、W杯落選から一転?" },
+          { "speaker": "analyst", "text": "日本代表MF佐野航大選手が、NECからPSVアイントホーフェンへの移籍で合意したと本日報じられました。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、佐野選手とPSVについて、移籍金の範囲、合意と正式契約の違いを、確定事実と未確認情報を分けてお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "佐野選手がPSVへの移籍に合意したと報じられました。契約年数は5年です。", "source": "フットボールチャンネル(2026-08-05)" },
+          { "speaker": "host", "text": "移籍金はいくらなの?" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "移籍概要はこちらの表の通りです。移籍元NEC、移籍先PSV、契約年数5年です。" },
+          { "speaker": "host", "text": "現時点はまだ合意なんだね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "佐野選手ってどんな選手?" },
+          { "speaker": "analyst", "text": "22歳のMFで、NECナイメヘン所属です。日本代表のW杯メンバーには選ばれなかったと報じられています。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "『エールディヴィジ』って初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "オランダの1部リーグです。NECもPSVもこのリーグに所属していて、PSVは前季王者です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "PSVってどんなクラブ?" },
+          { "speaker": "analyst", "text": "前季エールディヴィジ王者で、オランダの盟主クラブです。そこが佐野選手の移籍先として合意に達したと報じられています。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "host", "text": "今季の成績は?" },
+          { "speaker": "analyst", "text": "リーグ戦34試合で3得点7アシスト、公式戦通算では39試合出場です。", "source": "フットボールチャンネル(2026-08-05)" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "analyst", "text": "移籍が正式契約に至る一般的な流れはこちらです。合意、メディカルチェック、正式契約・公式発表の順に進みます。" },
+          { "speaker": "host", "text": "佐野選手は今どの段階なの?" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "今回の交渉はどう進んだの?" },
+          { "speaker": "analyst", "text": "今夏序盤からPSVは関心を示していましたが、当初はNECの希望額を高いと判断していました。ホッフェンハイムとの話が破談後、急速に進みました。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "analyst", "text": "NEC側の当初希望額は、約36億円と報じられています。" },
+          { "speaker": "host", "text": "そんなに高かったんだ。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "analyst", "text": "ここが重要なポイントです。移籍金は27億円から31億円超まで、媒体により幅のある報道です。", "source": "フットボールチャンネル(2026-08-05)" },
+          { "speaker": "host", "text": "確定額じゃないんだね。" },
+          { "speaker": "analyst", "text": "その通りです。単一の数字を確定額として断定しません。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "グラフで見るとどう?" },
+          { "speaker": "analyst", "text": "NEC当初希望額36億円、報道下限27億円、報道上限31億円です。いずれも報道に基づく数字です。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "analyst", "text": "ここが今回最も重要な注意点です。合意は確定していますが、メディカルチェックを経た正式契約はまだです。" },
+          { "speaker": "host", "text": "つまり、まだ完全に決まったわけじゃないんだね。" },
+          { "speaker": "analyst", "text": "その通りです。この違いを本テーマでは明確に区別します。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "なんでCL予選を欠場したの?" },
+          { "speaker": "analyst", "text": "メディカルチェックを受けるため、8月4日の対オリンピアコス戦への出場を見送ったと報じられています。", "source": "Yahoo!ニュース(東スポWEB配信、2026-08-05)" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "佐野選手は8月4日、CL3次予選・対オリンピアコス戦を欠場しました。" },
+          { "speaker": "host", "text": "移籍を優先させたんだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "NECとPSVを比べるとどう変わる?" },
+          { "speaker": "analyst", "text": "NECではリーグ34試合で3得点7アシストの主力選手でした。PSVとは5年契約で合意したと報じられています。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "analyst", "text": "W杯メンバーには選ばれませんでしたが、リーグでは主力として活躍を続けました。" },
+          { "speaker": "host", "text": "それでオランダ王者からの移籍合意なんだね。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "analyst", "text": "今回のニュースの位置づけを図で示します。W杯落選、リーグでの活躍、そしてPSVからの移籍合意という流れです。" },
+          { "speaker": "host", "text": "選手の気持ちまでは分からないもんね。" },
+          { "speaker": "analyst", "text": "その通りです。あくまで事実の並びであり、心境の推測はしません。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "host", "text": "確認できたこと・できなかったことをまとめると?" },
+          { "speaker": "analyst", "text": "移籍合意や契約年数は確認できていますが、確定移籍金や正式契約は確認できていません。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "未確認の項目を教えて。" },
+          { "speaker": "analyst", "text": "確定移籍金、メディカルチェックの完了、正式契約、PSVでの役割、選手本人のコメントです。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "出典について整理しました。複数の日本語メディアが、オランダ紙の報道を踏まえて同日に報じています。" },
+          { "speaker": "host", "text": "独立した複数の媒体が報じているんだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "round81の評価ではスコア79/100でした。意外性のあるストーリーと鮮度が評価されています。" },
+          { "speaker": "host", "text": "正直にスコアも書いてあるんだね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "analyst", "text": "本件の報道は着手日と同日で、シリーズの中でも最高水準の鮮度です。" },
+          { "speaker": "host", "text": "でもそれが確定額や正式契約の有無を補うわけじゃないんだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "analyst", "text": "公平性・配慮についても開示します。実在の選手名はテキストのみで扱い、選手の心境についての推測は行っていません。" },
+          { "speaker": "host", "text": "事実を淡々と伝えることが大事だね。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "フットボールチャンネル、ライブドアニュース、東スポWEB配信、GOAL配信という複数の情報源です。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "佐野航大選手・PSVを主題とした既存テーマはなく、他の日本人選手移籍テーマとも対象が異なり重複ではありません。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "契約年数はこちら、5年と報じられています。" },
+          { "speaker": "host", "text": "長期契約での合意なんだね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "正式契約までたどり着くのかな。" },
+          { "speaker": "analyst", "text": "続報を、確認できたこと・できなかったことを区別しながら注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。佐野航大選手のPSV移籍合意の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

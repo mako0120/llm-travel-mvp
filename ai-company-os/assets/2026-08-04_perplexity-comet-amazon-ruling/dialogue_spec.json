@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "title": "「AIがあなたの代わりに買い物をするのは違法か」— 連邦控訴裁判所が出した衝撃の答え",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・法的な論点を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg Law(2026-08-04)",
+      "MarketScreener(2026-08-04)",
+      "GeekWire",
+      "Courthouse News Service"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "AIがあなたの代わりに買い物をするのは違法か。連邦控訴裁判所が答えを出しました。", "source": "Bloomberg Law(2026-08-04)" },
+          { "speaker": "host", "text": "衝撃の答えって、どっちなの?" },
+          { "speaker": "analyst", "text": "PerplexityのAIエージェント「Comet」を巡る裁判で、第9巡回区控訴裁判所が2026年8月4日、Amazon側の差止命令を取り消しました。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Cometとは何か、CFAAとは何か、タイムライン、判決の核心的な法解釈、そして確認できたこと・できなかったことをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "PerplexityのAIエージェント『Comet』が、Amazonのアカウントページに無断アクセスしたとされた裁判で、控訴審が差止命令を取り消しました。", "source": "Bloomberg Law(2026-08-04)" },
+          { "speaker": "host", "text": "取り消されたのはいつの命令?" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "判決が下されたのはこちら、2026年8月4日です。" },
+          { "speaker": "host", "text": "着手日のたった1日前だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "事件概要を教えて。" },
+          { "speaker": "analyst", "text": "訴えた側、対象のエージェント、主張された法律、当初の差止命令、そして控訴審の判決。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "登場人物は?" },
+          { "speaker": "analyst", "text": "Perplexity AI、Amazon、当初の命令を出したChesney判事、そして今回判決を下した第9巡回区控訴裁判所です。" }
+        ]},
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "そもそも『Comet』って何?" },
+          { "speaker": "analyst", "text": "ユーザーに代わってウェブサイト上で閲覧・購入等のタスクを実行できるAIエージェントです。こうした行為はエージェント型コマースと呼ばれます。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "Cometが買い物を代行する仕組みはこちらです。ユーザーが指示し、Cometが代わりにAmazon等を操作します。" },
+          { "speaker": "host", "text": "その操作がアカウントページへのアクセスにあたる、というのがAmazonの主張だったんだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "『CFAA』って初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "コンピュータ不正アクセス禁止法という米国の連邦法です。他人のシステムに無権限でアクセスする行為を規制します。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "analyst", "text": "なぜ『誰がアクセスしたか』が争点になるのかの流れはこちらです。開発企業なのか、ユーザーなのかが問われました。" },
+          { "speaker": "host", "text": "AIが間に入ると、アクセスの主体が曖昧になるんだね。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "両者の主張はどう違ったの?" },
+          { "speaker": "analyst", "text": "Amazonは無断アクセスによるCFAA違反を主張し、Perplexityは操作主体はユーザー自身だという立場でした。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "host", "text": "ここまでの流れをタイムラインで教えて。" },
+          { "speaker": "analyst", "text": "3月9日の差止命令、その後の執行停止、6月11日の口頭弁論、そして8月4日の判決。4つのステップです。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "analyst", "text": "日付を一覧にするとこちらです。それぞれの出来事が具体的にいつ起きたかを整理しました。" },
+          { "speaker": "host", "text": "半年近くかけて決着したんだね。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "analyst", "text": "差止命令から判決取り消しまでの期間はこちら、約5か月です。" },
+          { "speaker": "host", "text": "控訴審までしっかり時間をかけて判断されたんだね。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "判決の核心ポイントは?" },
+          { "speaker": "analyst", "text": "差止命令の取り消し、サーバーにアクセスしたのはユーザー自身という法解釈、そしてエージェント型コマースを巡る初期の重要判断です。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "『エージェント型コマース』って何?" },
+          { "speaker": "analyst", "text": "AIエージェントがユーザーに代わって第三者サイトでタスクを行う仕組み全般を指す言葉です。今回の判決の背景にある大きな論点です。" }
+        ]},
+        { "slide": 17, "lines": [
+          { "speaker": "analyst", "text": "判決の法的ロジックの概要はこちらです。ユーザーが指示し、実際にアクセスしているのはユーザー自身と裁判所は判断しました。" },
+          { "speaker": "host", "text": "だからPerplexity自身はアクセス主体にあたらない、となったんだね。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "差止命令があった時と判決後で何が変わったの?" },
+          { "speaker": "analyst", "text": "差止命令下ではアクセス・操作が禁じられていましたが、判決によりこの禁止の根拠がなくなりました。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "この判決って結局どういう意味を持つの?" },
+          { "speaker": "analyst", "text": "Perplexityには法的な追い風、Amazonには差止の根拠が認められなかった結果、業界全体には初期の重要判例として注目されています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "ここからは正直な開示です。未確認事項を一覧にしました。", "source": "Bloomberg Law(2026-08-04)ほか" },
+          { "speaker": "host", "text": "Amazon側はこれで終わりなの?" },
+          { "speaker": "analyst", "text": "更なる上訴を行うかどうかは、本調査の範囲では確認できていません。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "確認できたこと・できなかったことをまとめると?" },
+          { "speaker": "analyst", "text": "タイムラインや判決の核心的な法解釈は確認できましたが、Amazon側の今後の対応や利用者数、技術的詳細は確認できていません。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "鮮度について改めて開示します。判決は着手日の1日前、新しい鮮度基準を明確に満たしています。" },
+          { "speaker": "host", "text": "でもそれが未確認事項を補うわけじゃないんだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "公平性・中立性についても開示します。判決の当否についての論評は行わず、認定された事実のみを中立的に報告します。" },
+          { "speaker": "host", "text": "法的な話だからこそ、事実を淡々と伝えることが大事だね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "評価スコアは?" },
+          { "speaker": "analyst", "text": "round81の評価ではスコア83/100でした。分かりやすい問いと社会的インパクト、着手日の1日前という鮮度が評価されています。" }
+        ]},
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "Bloomberg Law、MarketScreener、GeekWire、Courthouse News Serviceという複数の独立した情報源です。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "Perplexity・Comet・CFAAを主題とした既存テーマはなく、Amazon関連の既存テーマとも対象が異なり重複ではありません。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "業界全体ではどうなの?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、エージェント型コマースが広がる中での初期の重要判例と位置づけられます。他社への波及範囲は確認できていません。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 28, "lines": [
+          { "speaker": "host", "text": "要するにポイントは3つ?" },
+          { "speaker": "analyst", "text": "逆転勝訴、サーバーへのアクセス主体はユーザー自身という核心的な法解釈、そしてエージェント型コマースを占う初期の重要判例です。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "AIエージェントは誰の代わりに動いているのか、この問いはまだ続くんだね。" },
+          { "speaker": "analyst", "text": "Amazon側の今後の対応や他社への波及を、確認できたこと・できなかったことを区別しながら注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Perplexity「Comet」を巡る控訴審判決をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

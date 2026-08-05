@@ -133,6 +133,22 @@ PALETTE_PRESETS = {
         "muted": "5B7168",
         "card": "F0F7F4",
     },
+    # 2026-08-05〜追加。スポーツ移籍・移籍金系テーマ向け
+    # (深いクリムゾンの「移籍市場の緊迫感」+ゴールドの「移籍金・栄光」)。
+    # 既存プリセット(navy_gold/forest_sand/slate_azure/steel_amber/indigo_cyan/
+    # graphite_emerald/impact_red)とは重複しない配色として、佐野航大選手の
+    # PSVアイントホーフェン移籍合意テーマで新規追加。impact_red(サムネイル専用)
+    # とは用途が異なり、こちらはデッキ本体用の落ち着いたクリムゾン系。
+    "crimson_gold": {
+        "primary": "7A1F2B",
+        "primary_dark": "4A1119",
+        "base": "F3E3C9",
+        "base_soft": "D9B98C",
+        "accent": "D4A017",
+        "ink": "2A1712",
+        "muted": "8A6F5C",
+        "card": "FBF3E6",
+    },
     # サムネイル専用の高インパクト配色(MrBeast等の分析: 赤×黄の補色関係が
     # 視認性・緊急感を生む)。デッキ本体の落ち着いた配色とは目的が異なるため、
     # thumbnail生成時のみ選択する想定(ai-company-os/docs/14_YouTube_Thumbnail.md)。
