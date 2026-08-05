@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "title": "NVIDIAとマイケル・デル氏が24億ドル評価の新星に賭けた。しかも相手は100億ドル契約の“謎の大手AI企業”",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg(2026-08-04)",
+      "MarketScreener(2026-08-04)",
+      "Yahoo Finance(Bloomberg配信、2026-08-04)",
+      "TheNextWeb(2026-08-04)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "NVIDIAとマイケル・デル氏が24億ドル評価の新星に賭けました。しかも相手は100億ドル契約の謎の大手AI企業です。", "source": "Bloomberg(2026-08-04)" },
+          { "speaker": "host", "text": "謎の大手AI企業?" },
+          { "speaker": "analyst", "text": "AIクラウドインフラ企業Voltaが、シリーズAで3億ドルを調達したと本日2026年8月4日、Bloombergが報じました。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Voltaとはどんな会社か、豪華な投資家陣、そして100億ドル契約の謎の相手について、確定事実と未確認情報を分けて詳しくお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "VoltaがシリーズAで3億ドル(転換優先株式)を調達したと発表しました。a16zとAltimeterが共同主導です。", "source": "Bloomberg(2026-08-04)" },
+          { "speaker": "host", "text": "評価額はどれくらい?" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "今回調達した資金額がこちら、3億ドルです。" },
+          { "speaker": "host", "text": "シリーズAとしてはかなり大きいね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、事業領域、調達額、評価額、共同主導投資家。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "豪華な投資家陣って具体的には?" },
+          { "speaker": "analyst", "text": "a16zとAltimeterが共同主導し、NVIDIA、個人としてMichael Dell氏、そしてAzoraとMatter Venture Partnersも参加しました。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "Voltaってどんな会社?" },
+          { "speaker": "analyst", "text": "AIクラウドインフラ企業で、2026年に入ってから創業しました。法人名はVolta AI Infra Holdings Pte. Ltd.です。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "host", "text": "『AIクラウドインフラ』って初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "AIの学習・推論には大量のGPUが必要です。その計算力をデータセンターで用意し、AI開発企業に貸し出す事業です。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "analyst", "text": "なぜ巨額の資金が必要かの流れはこちらです。需要急増、高額な調達コスト、そして資金調達で対応します。" },
+          { "speaker": "host", "text": "チップそのものが高いんだね。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "従来型クラウドとはどう違うの?" },
+          { "speaker": "analyst", "text": "従来型は汎用的な計算資源が中心ですが、Voltaが手がけるのはAIモデル向けに特化した計算力とチップアクセスの提供です。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "資金調達の全体像は?" },
+          { "speaker": "analyst", "text": "エクイティ出資、融資枠の確保、そして顧客との契約。3つのステップで整理できます。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "analyst", "text": "3億ドル、50億ドル、100億ドル。この3つの数字を混同しないよう表に整理しました。" },
+          { "speaker": "host", "text": "それぞれ性質が違うんだね。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "グラフで見るとどう?" },
+          { "speaker": "analyst", "text": "300、2,400、5,000、10,000。単位は百万ドルです。桁の違いに注目してください。", "source": "Bloomberg(2026-08-04)" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "analyst", "text": "調達後評価額はこちら、24億ドルです。" },
+          { "speaker": "host", "text": "シリーズAとしては非常に高い評価額だね。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "なぜ融資枠まで確保するの?" },
+          { "speaker": "analyst", "text": "AIチップは非常に高額なので、出資に加えて融資枠でも調達力を高める動きが増えています。実際の利用状況は未確認です。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "ここが今回いちばん重要な注意点です。契約の存在と、相手企業名が非公開であることは確定事実です。", "source": "Bloomberg(2026-08-04)" },
+          { "speaker": "host", "text": "でも相手がAnthropicだって話も見たけど?" },
+          { "speaker": "analyst", "text": "それは一部メディアの推測にとどまり、Bloomberg等の一次報道では確認されていません。事実として扱いません。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "確認できたこと・できなかったことをまとめると?" },
+          { "speaker": "analyst", "text": "調達額・評価額・投資家陣・融資枠・契約の存在は確認できましたが、契約相手企業名や売上、技術的詳細は確認できていません。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "未確認の項目を教えて。" },
+          { "speaker": "analyst", "text": "契約相手企業名、Anthropicとの関連、売上、契約先以外の顧客基盤、技術的詳細、融資枠の実際の利用状況です。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "analyst", "text": "投資家について分かっていること・いないことを整理しました。" },
+          { "speaker": "host", "text": "出資額の内訳までは分からないんだね。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "Voltaのビジネスモデルの概要はこちらです。資金調達でチップを確保し、大手AI開発企業に計算力を提供します。" },
+          { "speaker": "host", "text": "発表内容に基づく流れなんだね。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "出資と融資枠って何が違うの?" },
+          { "speaker": "analyst", "text": "出資は株式と引き換えで返済義務が一般にありません。融資枠は借り入れた分に返済義務が伴います。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "host", "text": "業界全体ではどうなの?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、AI開発企業向けの計算力需要が急増する中での資金調達と位置づけられます。Volta固有の市場シェアは確認できていません。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "要するにポイントは3つ?" },
+          { "speaker": "analyst", "text": "豪華すぎる投資家陣、3本立ての巨額な資金、そして契約相手が非公開という謎です。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "analyst", "text": "round80の評価ではスコア85/100でした。鮮度と規模感が評価された一方、契約相手についての懸念点も記録されています。" },
+          { "speaker": "host", "text": "正直に両方書いてあるんだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "analyst", "text": "鮮度について改めて開示します。着手日当日で、このシリーズ最高水準です。" },
+          { "speaker": "host", "text": "でもそれが契約相手の非公開という不確実性を補うわけじゃないんだね。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "analyst", "text": "公平性・中立性についても開示します。特定企業の利用を強く推奨する結論にはしていませんし、Anthropicとの関連も断定していません。" },
+          { "speaker": "host", "text": "事実を淡々と伝えることが大事だね。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "Bloomberg、MarketScreener、Yahoo Finance、TheNextWebという複数の独立した情報源です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "Voltaを主題とした既存テーマはなく、Gritt等のAIインフラ系テーマとも事業内容が異なり重複ではありません。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "謎の契約相手、いつか明かされるのかな。" },
+          { "speaker": "analyst", "text": "Voltaの続報を、確認できたこと・できなかったことを区別しながら注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Voltaの資金調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

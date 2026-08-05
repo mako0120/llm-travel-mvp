@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "創業者はシリコンバレーに一度も飛ばなかった。1億ドルの資金調達を「主導」したのは、自社のAIエージェントだった",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-07-09)",
+      "Bloomberg(2026-07-09)",
+      "SiliconANGLE(2026-07-09)",
+      "Pulse2"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "創業者は、シリコンバレーに一度も飛びませんでした。", "source": "TechCrunch(2026-07-09)" },
+          { "speaker": "host", "text": "え、資金調達なのに?" },
+          { "speaker": "analyst", "text": "1億ドルの資金調達を「主導」したのは、自社のAIエージェントだったんです。Lyzrという会社の話です。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Lyzrとはどんな会社か、AIエージェントが具体的に何をしたのかをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Lyzrが2026年7月9日、シリーズBで1億ドルの資金調達を発表しました。", "source": "TechCrunch" },
+          { "speaker": "host", "text": "評価額は約5億ドルなんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その調達額がこちら、1億ドルです。" },
+          { "speaker": "host", "text": "シリーズBとしてはかなり大きい金額だね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、事業、調達額、評価額、発表日。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Lyzrってどんな会社?" },
+          { "speaker": "analyst", "text": "企業向けのAIエージェントを開発する会社です。今回の話題の中心は、自社製品を自社の資金調達に使った点です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "評価額はいくらだったの?" },
+          { "speaker": "analyst", "text": "約5億ドルと報じられています。1億ドルのシリーズB実施後の評価額です。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "そのAIエージェントの名前は「SivaClaw」です。Lyzr自身が開発した製品です。", "source": "SiliconANGLE" },
+          { "speaker": "host", "text": "自社の製品を自社の資金調達に使ったんだね。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "SivaClawは具体的に何をしたの?" },
+          { "speaker": "analyst", "text": "投資家からの質問対応、投資メモの作成、スライド閲覧の追跡です。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "analyst", "text": "従来は創業者がシリコンバレーへ実際に飛んでいましたが、今回は飛びませんでした。" },
+          { "speaker": "host", "text": "働き方が変わってきたんだね。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "何社くらいに対応したの?" },
+          { "speaker": "analyst", "text": "130社を超える投資家からの質問に対応したと報じられています。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "analyst", "text": "SivaClawの役割は3つ。質問対応、メモ作成、関心度の追跡です。", "source": "Pulse2" },
+          { "speaker": "host", "text": "整理すると分かりやすいね。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "結果はどうだったの?" },
+          { "speaker": "analyst", "text": "シリコンバレー・中東・金融セクターの投資家から、4億ドル相当の関心が集まったそうです。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "analyst", "text": "関心を寄せた地域はこの3つです。" },
+          { "speaker": "host", "text": "中東の投資家も関心を持っていたんだね。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "なぜここまで話題になったの?" },
+          { "speaker": "analyst", "text": "意外性、具体的な数字、そして創業者が飛ばずに済んだという象徴的な変化が理由です。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "host", "text": "そもそもAIエージェントって何?初心者にも分かるように教えて。" },
+          { "speaker": "analyst", "text": "指示を受けて自律的にタスクを遂行するAIプログラムのことです。Lyzrはこれを企業向けに開発しています。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "analyst", "text": "ここで大事な点です。資金調達全体を人間の関与ゼロで完結させたとは、出典も明言していません。" },
+          { "speaker": "host", "text": "自律性を誇張しないことが大事だね。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "プロセス全体の流れを教えて。" },
+          { "speaker": "analyst", "text": "投資家との接点、資料の準備、そして調達の成立という流れです。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "analyst", "text": "調達額やSivaClawのタスクは複数媒体で一致していますが、リード投資家の社名は確認できていません。" },
+          { "speaker": "host", "text": "そこは冷静に見ないとね。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "host", "text": "未確認の項目を教えて。" },
+          { "speaker": "analyst", "text": "リード投資家名、顧客数・売上高、人間とAIの分担比率、130社超の内訳、技術的な仕組みです。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "analyst", "text": "鮮度について正直に開示します。本発表は着手日の26日前で、鮮度基準を満たしていません。" },
+          { "speaker": "host", "text": "少し前のニュースなんだね。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "host", "text": "それでも採用したのはなぜ?" },
+          { "speaker": "analyst", "text": "round80の評価ではスコア76/100で、意外性の高いフックと複数媒体の裏付けを踏まえて採用しました。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "出典はどこ?" },
+          { "speaker": "analyst", "text": "TechCrunch、Bloomberg、SiliconANGLE、Pulse2という複数の独立した主要媒体です。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "analyst", "text": "出典一覧はこの表の通りです。" },
+          { "speaker": "host", "text": "日付もほぼ揃っているね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "Lyzr・SivaClawを主題とした既存テーマはなく、重複ではありません。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "analyst", "text": "公平性・中立性についても開示します。AIエージェントの是非についての一方的な論評は行っていません。" },
+          { "speaker": "host", "text": "事実を淡々と伝えることが大事だね。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "今後どうなりそう?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、AIエージェントが重要な意思決定プロセスに関わる事例は今後も増えそうです。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "analyst", "text": "このテーマの強みと弱みを整理するとこの通りです。" },
+          { "speaker": "host", "text": "強みも弱みも正直に伝えるのが大事だね。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "自社製品を自社の一番大事な仕事に使う、この事例をどう見ますか。Lyzrの今後を注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Lyzrの資金調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

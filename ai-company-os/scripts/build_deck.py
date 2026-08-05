@@ -31,6 +31,7 @@
   slate_azure  — スレート+空色+アズール(テック・プロダクト)
   steel_amber  — 鋼グレー+砂アンバー+セーフティオレンジ(産業・ロボティクス・現場)
   indigo_cyan  — 深紫+ラベンダー+シアン(シミュレーション・デジタルツイン・仮想空間系)
+  graphite_emerald — 深グラファイト+ミントシルバー+エメラルド(AIインフラ・データセンター・資金調達系)
 
 規則(ビルド時に強制):
   - 全スライドに note(スピーカーノート)必須。欠けていればエラー終了
@@ -116,6 +117,21 @@ PALETTE_PRESETS = {
         "ink": "1C1B33",
         "muted": "63628C",
         "card": "F4F3FC",
+    },
+    # 2026-08-04〜追加。AIインフラ・データセンター・資金調達系テーマ向け
+    # (深グラファイトの「データセンター」+エメラルドの「資本・回路発光」)。
+    # 既存プリセット(navy_gold/forest_sand/slate_azure/steel_amber/indigo_cyan/
+    # impact_red)とは重複しない配色として、Volta AI Infra Holdings(AIクラウド
+    # インフラ企業の資金調達)テーマで新規追加。
+    "graphite_emerald": {
+        "primary": "1B2A2E",
+        "primary_dark": "0F1B1E",
+        "base": "CFE8DE",
+        "base_soft": "8FC2AE",
+        "accent": "00D2A0",
+        "ink": "121C1F",
+        "muted": "5B7168",
+        "card": "F0F7F4",
     },
     # サムネイル専用の高インパクト配色(MrBeast等の分析: 赤×黄の補色関係が
     # 視認性・緊急感を生む)。デッキ本体の落ち着いた配色とは目的が異なるため、
