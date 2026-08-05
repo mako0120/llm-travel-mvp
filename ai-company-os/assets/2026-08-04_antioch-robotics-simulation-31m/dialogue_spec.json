@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "ロボットを壊さずに鍛える。元Teslaオートパイロット開発者が作った『シミュレーションだけの道場』に3,140万ドル",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "AlleyWatch(2026-08-04)",
+      "RoboticsAndAutomationNews(2026-05-03)",
+      "SiliconANGLE(2026-04-16)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "ロボットを壊さずに鍛える、シミュレーションだけの道場に3,140万ドルです。", "source": "AlleyWatch(2026-08-04)" },
+          { "speaker": "host", "text": "シミュレーションだけの道場?" },
+          { "speaker": "analyst", "text": "元Tesla Autopilot開発者が創業したAntiochに、SEC提出書類で新たな資金調達が判明しました。発表は今日です。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Antiochとはどんな会社か、そして出典の性質について詳しくお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "AntiochがSEC提出書類に基づき、新たに3,140万ドルを調達したことが判明しました。", "source": "AlleyWatch(2026-08-04)" },
+          { "speaker": "host", "text": "SEC提出書類で分かったんだ。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その金額がこちら、3,140万ドルです。" },
+          { "speaker": "host", "text": "企業の発表じゃなくて提出書類からなんだね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、事業領域、調達額、投資家数。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "Antiochってどんな会社?" },
+          { "speaker": "analyst", "text": "ロボティクスチームがソフトウェアだけで自律システムを構築・テストできる基盤を提供する、2025年創業の企業です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "創業者はどんな人?" },
+          { "speaker": "analyst", "text": "Harry Mellsop氏はTeslaのAutopilotチーム出身です。他3名と2025年に共同創業しました。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "host", "text": "シミュレーションだけで鍛えるって、初心者にはどう説明する?" },
+          { "speaker": "analyst", "text": "実機テストは壊れたり時間がかかったりします。それをソフトウェアだけで代替しようという発想です。" }
+        ]},
+        { "slide": 9, "lines": [
+          { "speaker": "analyst", "text": "開発の流れはこちらです。仮想空間で構築し、テストし、現場に展開します。" },
+          { "speaker": "host", "text": "破損リスクがないのがいいね。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "従来のやり方とはどう違うの?" },
+          { "speaker": "analyst", "text": "従来は実機で試験しますが、Antiochはソフトウェア上で構築・テスト・展開まで完結させようとします。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "資金調達の歩みは?" },
+          { "speaker": "analyst", "text": "以前850万ドルのシードを発表し、今回の提出書類で3,140万ドルが判明、累計4,400万ドルです。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "analyst", "text": "この2つのラウンドを混同しないよう整理しました。金額も情報源も別物です。", "source": "AlleyWatch(2026-08-04) / RoboticsAndAutomationNews(2026-05-03)" },
+          { "speaker": "host", "text": "投資家が同じかも分からないんだね。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "グラフで見るとどう?" },
+          { "speaker": "analyst", "text": "850万ドル、3,140万ドル、累計4,400万ドル。ただし累計は単純合計と一致しません。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "analyst", "text": "累計調達額はこちら、4,400万ドルです。" },
+          { "speaker": "host", "text": "内訳の説明はまだ確認できていないんだよね。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "Form Dって何?" },
+          { "speaker": "analyst", "text": "私募の際にSECへ提出する届出書類です。投資家数は分かりますが、主導投資家名までは通常書かれません。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "ここが今回の一番重要な注意点です。鮮度は最高水準ですが、出典はSEC提出書類の報道のみです。", "source": "AlleyWatch(2026-08-04)" },
+          { "speaker": "host", "text": "だから主導投資家名が分からないんだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "確認できたこと・できなかったことをまとめると?" },
+          { "speaker": "analyst", "text": "調達額や投資家数は確認できましたが、主導投資家名や資金使途、顧客数は確認できていません。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "未確認の項目を教えて。" },
+          { "speaker": "analyst", "text": "主導投資家名、個別の投資家名、資金使途、顧客数、売上、企業評価額です。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "analyst", "text": "投資家について分かっていること・いないことを整理しました。" },
+          { "speaker": "host", "text": "以前のシード投資家と同じかも分からないんだね。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "host", "text": "なぜシミュレーションがそんなに大事なの?" },
+          { "speaker": "analyst", "text": "実機テストは時間もコストもかかり壊れるリスクもあります。シミュレーションならそれを避けられます。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "analyst", "text": "物理AIとロボティクスシミュレーション基盤を比較するとこの通りです。" },
+          { "speaker": "host", "text": "現実で動くか、仮想空間で完結させるかの違いだね。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "host", "text": "業界全体ではどうなの?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、自律システム開発が加速する中での資金調達と位置づけられます。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "要するにポイントは3つ?" },
+          { "speaker": "analyst", "text": "元Tesla Autopilotの創業者、着手日当日の鮮度、そして情報の厚みの薄さです。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "analyst", "text": "round79の評価ではスコア73/100でした。鮮度は評価されましたが、出典の薄さも懸念点として記録されています。" },
+          { "speaker": "host", "text": "正直に両方書いてあるんだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "analyst", "text": "鮮度について改めて開示します。着手日当日で、このシリーズ最高水準です。" },
+          { "speaker": "host", "text": "でもそれが出典の薄さを補うわけじゃないんだね。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "analyst", "text": "公平性・中立性についても開示します。特定企業の利用を強く推奨する結論にはしていません。" },
+          { "speaker": "host", "text": "事実を淡々と伝えることが大事だね。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "今回はAlleyWatch、以前のシードはRoboticsAndAutomationNews等、独立した複数の情報源です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "Antiochを主題とした既存テーマはなく、Gritt等の物理AI系テーマとも事業内容が異なり重複ではありません。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "主導投資家の名前、いつか明かされるのかな。" },
+          { "speaker": "analyst", "text": "Antiochの続報を、確認できたこと・できなかったことを区別しながら注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Antiochの資金調達の話題をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

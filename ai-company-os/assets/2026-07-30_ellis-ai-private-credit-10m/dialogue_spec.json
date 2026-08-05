@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "不動産で成功した男の次の挑戦は「AIでプライベートクレジットを丸ごと自動化」。Kushner氏も出資",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "BusinessWire(2026-07-30)",
+      "TechCrunch(2026-07-31)",
+      "Alternative Credit Investor(2026-07-30)",
+      "Yahoo Finance / Las Vegas Sun(BusinessWire配信の転載)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "不動産投資プラットフォームCadreを成功させた男が、また新しい会社を立ち上げました。今度の狙いは、プライベートクレジット市場をAIで丸ごと自動化することです。", "source": "BusinessWire(2026-07-30)" },
+          { "speaker": "host", "text": "また新しい会社を?" },
+          { "speaker": "analyst", "text": "Ryan Williams氏の新会社「Ellis」が、著名投資家Josh Kushner氏も出資する形で、1,000万ドル超のシード資金を調達してステルスモードから脱しました。今日はこの話題をお届けします。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、創業者Ryan Williams氏とCadreの実績、Ellisとはどんな会社か、投資家陣容、そしてEllis自身の規模とパートナーネットワークの違いをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "Ellisが2026年7月30日、ステルスモードから脱し、1,000万ドル超のシード資金調達を発表しました。ラウンドはFirst Round Capitalが主導しています。", "source": "BusinessWire(2026-07-30)" },
+          { "speaker": "host", "text": "Kushner氏も出資したんだね。" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "その調達額がこちら、1,000万ドル超です。" },
+          { "speaker": "host", "text": "具体的な上振れ数字までは分からないんだね。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "調達概要を教えて。" },
+          { "speaker": "analyst", "text": "企業名、事業領域、調達ラウンド、調達額、主導投資家、創業者、発表日。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "創業者Ryan Williams氏ってどんな人?" },
+          { "speaker": "analyst", "text": "2014年、Josh Kushner氏・Jared Kushner氏とともに不動産投資プラットフォームCadreを共同創業したことで知られる人物です。" }
+        ]},
+        { "slide": 7, "lines": [
+          { "speaker": "analyst", "text": "Cadre成功からEllis創業への歩みを概要で示すとこの通りです。不動産テックでの実績を経て、新しい金融領域に挑んでいます。" },
+          { "speaker": "host", "text": "連続起業家なんだね。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "host", "text": "そのEllisとは何なの?" },
+          { "speaker": "analyst", "text": "プライベートクレジット市場に特化したAIネイティブな運用基盤です。分断された金融システムをつなぎ、AIエージェントが照合・レポーティング・コンプライアンス・異常検知を支援します。", "source": "BusinessWire(2026-07-30)" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 9, "lines": [
+          { "speaker": "analyst", "text": "Ellisの仕組みを概要で示すとこの通りです。分断された金融システムを、EllisのAIエージェントがつなぎます。" },
+          { "speaker": "host", "text": "バラバラだったものを一元化するイメージだね。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "host", "text": "初心者向けに、プライベートクレジットって何?" },
+          { "speaker": "analyst", "text": "銀行を介さず、投資ファンドなどが企業に直接お金を貸す仕組みです。近年、資金調達手段として世界的に急拡大している分野です。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "なぜAI運用基盤が必要なの?" },
+          { "speaker": "analyst", "text": "融資先ごとに契約・データ形式がバラバラになりやすく、手作業での照合・レポーティングはミスや遅延が生じやすいためです。ただし実際の効果・精度は本調査の範囲では確認できていません。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "analyst", "text": "Ellisが支援する4つの機能はこちらです。照合、レポーティング、コンプライアンス、異常検知です。", "source": "BusinessWire(2026-07-30)" },
+          { "speaker": "host", "text": "事務作業をまるごとAIが支援するんだね。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "投資家一覧を教えて。" },
+          { "speaker": "analyst", "text": "First Round Capitalが主導し、645 Ventures、Harlem Capital、Khosla Venturesなど8社が参加しています。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "analyst", "text": "主導投資家のFirst Round Capitalについてです。今回のシードラウンドを主導した投資会社として公表されています。" },
+          { "speaker": "host", "text": "早期からこの領域を評価しているんだね。" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "host", "text": "主導と参加、それぞれの顔ぶれを比較すると?" },
+          { "speaker": "analyst", "text": "First Round Capitalが主導1社、645 Venturesなど8社が参加という構図です。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "個人投資家として参加したのがこちら。Mellody Hobson氏、Thrive Capitalのマネージングパートナーとして知られるJosh Kushner氏、Immad Akhund氏です。", "source": "BusinessWire(2026-07-30)" },
+          { "speaker": "host", "text": "著名な顔ぶれだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 17, "lines": [
+          { "speaker": "analyst", "text": "ここで公平性についての開示です。Josh Kushner氏は著名なテック・金融系投資家として参加した事実のみを扱い、Kushner家の政治的な関わりについての論評は一切行っていません。" },
+          { "speaker": "host", "text": "他の著名投資家と同じ扱いなんだね。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "host", "text": "もう一つ大きな数字があるんだよね?" },
+          { "speaker": "analyst", "text": "はい、Ellisが接する広いパートナーネットワークの累計運用資産は500億ドル超と報じられています。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "analyst", "text": "ここはとても大事な点です。500億ドル超は、あくまでパートナーネットワーク側の累計AUMで、Ellis自身が運用・管理する資産額ではありません。" },
+          { "speaker": "host", "text": "混同しちゃいけない数字なんだね。" }
+        ]},
+        { "slide": 20, "lines": [
+          { "speaker": "host", "text": "パートナーネットワークの位置づけは?" },
+          { "speaker": "analyst", "text": "複数の設計パートナーとの共同開発の先に、累計500億ドル超のAUMに相当する広いネットワークがあります。Ellis自身は基盤を提供する企業です。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "analyst", "text": "プラットフォーム開発の進め方を報道から整理すると、設計パートナーとの共同開発、ネットワークへの展開、そして今回のシード資金獲得という流れです。" },
+          { "speaker": "host", "text": "着実にステップを踏んでいるんだね。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "host", "text": "従来型の運用とEllisのアプローチはどう違うの?" },
+          { "speaker": "analyst", "text": "従来は複数システムのデータを手作業で照合していましたが、Ellisはこれらの業務をAIエージェントが支援すると報じられています。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "analyst", "text": "実務者への示唆です。業務効率化の選択肢が増える可能性がある一方、導入時は精度・セキュリティ・既存システムとの連携可否を個別に確認する必要があります。" },
+          { "speaker": "host", "text": "特定の製品を勧める話ではないんだね。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "host", "text": "確認できたこと・できなかったことを教えて。" },
+          { "speaker": "analyst", "text": "調達額や主導投資家、創業者経歴は複数媒体で一致していますが、Ellis自身のバリュエーション・顧客数・AUM・売上は確認できていません。", "source": "BusinessWire・TechCrunch(2026-07-30/31)" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 25, "lines": [
+          { "speaker": "analyst", "text": "未確認事項を一覧にしました。調達額の具体的な上振れ数字、バリュエーション、顧客数、AUM・売上、投資家ごとの出資額の内訳、いずれも確認できていません。" },
+          { "speaker": "host", "text": "分かっている範囲を正直に区切っているんだね。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "鮮度についてはどう?" },
+          { "speaker": "analyst", "text": "本発表は着手日の4〜5日前であり、鮮度基準の着手日前日以内には届いていませんが、比較的良好な水準です。" }
+        ]},
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "BusinessWire、TechCrunch、Alternative Credit Investor、Yahoo Finance・Las Vegas Sunへの転載という、独立した複数の媒体です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "Ellis、またはRyan Williams氏を主題とした既存テーマはなく、重複ではありません。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "analyst", "text": "ここからは推測ですが、プライベートクレジット市場の拡大とともにAI運用基盤への投資需要はさらに高まる可能性があります。" },
+          { "speaker": "host", "text": "連続起業家の参入も注目度の高さを示しているのかもね。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "host", "text": "皆さんはどう思いますか、というところで。" },
+          { "speaker": "analyst", "text": "不動産の次はプライベートクレジット、AIによる金融の自動化をどう見ますか。Ellisの今後の展開を、確認できたこと・できなかったことを区別しながら注目していきましょう。今回もご視聴ありがとうございました。" }
+        ]}
+      ]
+    }
+  ]
+}
