@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "title": "社内でAIエージェントが勝手に動き回る時代、その“見張り役”企業が評価額11億ドルのユニコーンになった",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "SiliconANGLE(2026-08-04)",
+      "Pulse2(2026-08-04)",
+      "SecurityWeek(2026-08-04)",
+      "Unite.AI(2026-08-04)",
+      "citybiz(2026-08-04)",
+      "FinSMEs(2026-08-04)",
+      "Yahoo Finance(fintech.global配信、2026-08-05表記)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "社内でAIエージェントが勝手に動き回る時代、その見張り役企業が評価額11億ドルのユニコーンになりました。", "source": "SiliconANGLE(2026-08-04)" },
+            { "speaker": "host", "text": "見張り役?どういうこと?" },
+            { "speaker": "analyst", "text": "非人間ID・AIエージェントのセキュリティを手がけるObsidian Securityが、シリーズDで8,500万ドルを調達したと2026年8月4日に発表しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "今日は何がわかるようになる?" },
+            { "speaker": "analyst", "text": "何が起きたか、非人間IDとは何か、Obsidian Securityとはどんな会社か、顧客動向、創業者・経営陣、そして確認できたこと・できなかったことを順にお伝えします。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "まず何が起きたの?" },
+            { "speaker": "analyst", "text": "Obsidian SecurityがシリーズDで8,500万ドルを調達したと発表しました。評価額は11億ドルに到達し、ユニコーン企業になりました。", "source": "SiliconANGLE(2026-08-04)" },
+            { "speaker": "host", "text": "誰が投資したの?" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "今回調達した資金額がこちら、8,500万ドルです。" },
+            { "speaker": "host", "text": "シリーズDとしてはかなり大きいね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "調達概要を教えて。" },
+            { "speaker": "analyst", "text": "企業名、事業領域、調達額、評価額、主導投資家。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "投資家陣は具体的には?" },
+            { "speaker": "analyst", "text": "Crescent Cove Advisorsが主導し、既存投資家のGreylock PartnersとMenlo Venturesも参加しました。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "評価額11億ドルってどれくらいすごいの?" },
+            { "speaker": "analyst", "text": "評価額10億ドルを超える企業は一般に「ユニコーン企業」と呼ばれます。今回のラウンドでObsidianはその水準に到達しました。", "source": "Pulse2(2026-08-04)" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "そもそも「非人間ID」って何?" },
+            { "speaker": "analyst", "text": "人間ではなく、AIエージェントやAPIキー、サービスアカウントなどシステムが持つ「身元」のことです。企業がClaudeやChatGPT、Copilot Studioなどを業務に導入する動きが広がっています。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "それがなぜセキュリティの課題になるの?" },
+            { "speaker": "analyst", "text": "AIエージェントがサードパーティアプリに組み込まれ、人の監視なしに自律的に動作する場面が増えているからです。ここに新しいセキュリティリスクが生まれます。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "Obsidian Security自体はどんな会社?" },
+            { "speaker": "analyst", "text": "非人間ID・AIエージェントのセキュリティを手がける米セキュリティ企業です。現CEOはHasan Imam氏、会長兼チーフプロダクトオフィサーは共同創業者のGlenn Chisholm氏です。", "source": "Unite.AI(2026-08-04)" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "従来のID管理と何が違うの?" },
+            { "speaker": "analyst", "text": "従来型は人間の従業員アカウントが中心ですが、Obsidianの領域はAIエージェントやAPIキーなど人間以外の身元、その自律的な挙動そのものを監視・ガバナンスします。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "顧客はどれくらいいるの?" },
+            { "speaker": "analyst", "text": "年間10万ドル超を支払う顧客が100社超、年間100万ドル超を支払う顧客が14社超、Fortune 500企業60社が顧客に含まれると公表されています。", "source": "SiliconANGLE(2026-08-04)" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "数字を整理してもらえる?" },
+            { "speaker": "analyst", "text": "はい、この表の通りです。ただしいずれも「以上」を示す公表値である点に注意してください。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "グラフで見るとどうなる?" },
+            { "speaker": "analyst", "text": "100社超、14社超、60社という桁の違いが分かります。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "Fortune 500企業60社、どんな業界?" },
+            { "speaker": "analyst", "text": "金融・SNS・通信業界の企業が含まれると公表されています。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "創業者について教えて。" },
+            { "speaker": "analyst", "text": "共同創業者のGlenn Chisholm氏は現在会長兼チーフプロダクトオフィサー、現CEOはHasan Imam氏です。Chisholm氏は前職、Cylance社のCTOでした。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "Cylanceってどんな会社だったの?" },
+            { "speaker": "analyst", "text": "自律型機械学習によるマルウェア対策ソリューションを手がけた会社で、後にBlackBerryに14億ドルで買収されました。", "source": "Unite.AI(2026-08-04)" },
+            { "speaker": "host", "text": "自律的な脅威を見抜く経験が今につながっているのかもね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "調達した資金は何に使うの?" },
+            { "speaker": "analyst", "text": "研究開発の拡大と、Fortune 500・Global 2000企業へのさらなる導入拡大に使う方針です。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "AIエージェントがなぜ新しい攻撃対象面になるの?" },
+            { "speaker": "analyst", "text": "自律稼働、権限・アクセスの拡大、そして人間中心の従来型セキュリティでは捕捉しにくい「監視の空白」という流れです。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの話、どこまでが確定事実なの?" },
+            { "speaker": "analyst", "text": "調達額・評価額・投資家陣・顧客数の公表値・創業者経歴は複数媒体で確認できています。一方、検知アルゴリズムの技術的詳細や競合関係、日本展開は未確認です。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "正直に言うと、確認できなかったことは?" },
+            { "speaker": "analyst", "text": "Obsidianの具体的な検知アルゴリズム、Anaconda社によるEnkrypt AI買収など競合他社との関係、日本市場での展開状況は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "未確認事項を一覧で見たい。" },
+            { "speaker": "analyst", "text": "この表の通りです。技術詳細、競合関係、日本展開、累計調達額、いずれも本調査の範囲では確認できていません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "業界的にはどういう位置づけなの?" },
+            { "speaker": "analyst", "text": "ここからは推測ですが、AIエージェント導入が広がる中で非人間ID管理への関心が高まっていると考えられます。ただしObsidian固有の市場シェアは確認できていません。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "このテーマ、評価スコアはどれくらいなの?" },
+            { "speaker": "analyst", "text": "80/100です。良好な鮮度と複数媒体での事実の一致が評価された一方、累計調達額や技術詳細が未確認である点が懸念点です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "このニュース、鮮度はどうなの?" },
+            { "speaker": "analyst", "text": "発表は2026年8月4日(一部媒体は8月5日表記)で、着手日から2日以内という基準を満たす良好な鮮度です。ただしこれが未確認事項を補うわけではありません。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "公平性の面では何か気をつけたことある?" },
+            { "speaker": "analyst", "text": "実在企業名・人物名はテキストとしてのみ使用し、特定企業・製品の利用を強く推奨する結論にはしていません。政治的中立性も保っています。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "出典はどこから?" },
+            { "speaker": "analyst", "text": "SiliconANGLE、Pulse2、SecurityWeek、Unite.AI、citybiz、FinSMEs、Yahoo Financeという複数の独立した媒体で確認しています。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "過去のテーマと重複してないよね?" },
+            { "speaker": "analyst", "text": "Obsidian Securityを主題とした既存テーマはなく、Zenity等のAIエージェントセキュリティ系テーマとも対象企業が異なるため重複ではありません。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "社内で動くAIエージェント、その見張り役は今後どう増えていくのでしょうか。" },
+            { "speaker": "host", "text": "続報を確定事実と未確認情報を区別しながら注目していきましょう。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。Obsidian SecurityがシリーズDで8,500万ドルを調達し、評価額11億ドルのユニコーン企業になったと発表しました。", "source": "SiliconANGLE(2026-08-04)" },
+            { "speaker": "host", "text": "一方で検知アルゴリズムの詳細や競合関係、日本展開、累計調達額は未確認、ということも忘れずに。" },
+            { "speaker": "analyst", "text": "その通りです。今回もご視聴ありがとうございました。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
