@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "title": "世界で最も使われるプログラミング言語の一つが、AIに「本文は書かせない」と宣言した",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・ポリシーの内容を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Rust公式Inside Rust Blog(2026-08-05)",
+      "Linuxiac",
+      "Socket.dev",
+      "rust-lang/rust-forge Pull Request #1040"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        { "slide": 1, "lines": [
+          { "speaker": "analyst", "text": "世界で最も使われるプログラミング言語の一つが、AIに「本文は書かせない」と宣言しました。", "source": "Rust公式Inside Rust Blog(2026-08-05)" },
+          { "speaker": "host", "text": "本文は書かせないって、思い切ってるね。何があったの?" },
+          { "speaker": "analyst", "text": "Rustのコア開発リポジトリ『rust-lang/rust』の5つのチームが、2026年8月5日、LLM利用に関する公式ポリシーを採択したんです。" }
+        ]},
+        { "slide": 2, "lines": [
+          { "speaker": "host", "text": "今日は何が分かるようになる?" },
+          { "speaker": "analyst", "text": "何が起きたか、Rustとは何か、ポリシーの適用範囲、許可と禁止の線引き、方針の核心、そして確認できたこと・できなかったことをお伝えします。" }
+        ]},
+        { "slide": 3, "lines": [
+          { "speaker": "host", "text": "まず何が起きたの?" },
+          { "speaker": "analyst", "text": "rust-lang/rust内の5チームが、2026年8月5日にLLM利用ポリシーを採択しました。許可と禁止が明確に線引きされています。", "source": "Rust公式Inside Rust Blog(2026-08-05)" },
+          { "speaker": "host", "text": "発表されたのはいつ?" }
+        ]},
+        { "slide": 4, "lines": [
+          { "speaker": "analyst", "text": "発表日はこちら、2026年8月5日です。" },
+          { "speaker": "host", "text": "着手日と完全に同日だね。すごい鮮度だ。" }
+        ]},
+        { "slide": 5, "lines": [
+          { "speaker": "host", "text": "ニュースの概要を教えて。" },
+          { "speaker": "analyst", "text": "対象リポジトリ、採択したチーム、採択日、内容、提案の一次情報、そして適用範囲。この表の通りです。" }
+        ]},
+        { "slide": 6, "lines": [
+          { "speaker": "host", "text": "登場人物は?" },
+          { "speaker": "analyst", "text": "rust-lang/rust、5つのチーム、提案者のjyn514氏、そして発表の場となったInside Rust Blogです。" }
+        ]},
+        { "slide": 7, "lines": [
+          { "speaker": "host", "text": "そもそもRustってどんな言語?" },
+          { "speaker": "analyst", "text": "安全性と処理速度を両立させることを目指したプログラミング言語で、世界中で幅広く使われています。" }
+        ]},
+        { "slide": 8, "lines": [
+          { "speaker": "analyst", "text": "なぜコア開発が重要なのかはこちらです。ここで決まるルールが、Rustを使うすべての開発者に影響します。" },
+          { "speaker": "host", "text": "だから注目度が高いんだね。" }
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        { "slide": 9, "lines": [
+          { "speaker": "host", "text": "そもそもなぜLLM利用ポリシーが話題になるの?" },
+          { "speaker": "analyst", "text": "AIの開発現場での活用が広がる中、コア開発でどこまで使ってよいかは多くのプロジェクトの悩みどころなんです。" }
+        ]},
+        { "slide": 10, "lines": [
+          { "speaker": "analyst", "text": "重要な注記です。このポリシーが適用されるのはrust-lang/rustというモノレポのみで、Rustプロジェクト全体の統一見解ではありません。" },
+          { "speaker": "host", "text": "そこ、誤解しやすいポイントだね。" }
+        ]},
+        { "slide": 11, "lines": [
+          { "speaker": "host", "text": "許可と禁止の線引きはどうなってるの?" },
+          { "speaker": "analyst", "text": "質問応答や非公開レビューは許可、ドキュメントや安全性コメントのLLM生成、そしてLLMでのマージ判断は禁止です。" }
+        ]},
+        { "slide": 12, "lines": [
+          { "speaker": "analyst", "text": "禁止されている具体例はこちらです。個人アカウントでのLLM生成物、ドキュメント全般、安全性コメント、そしてLLMによるマージ判断です。" },
+          { "speaker": "host", "text": "かなり厳しく線を引いてるんだね。" }
+        ]},
+        { "slide": 13, "lines": [
+          { "speaker": "host", "text": "逆にOKなことは?" },
+          { "speaker": "analyst", "text": "質問への回答、コード分析、非公開レビュー、改善案の提案は許可されています。開示付きなら翻訳や些細な変更にも使えます。" }
+        ]},
+        { "slide": 14, "lines": [
+          { "speaker": "host", "text": "LLMにレビューさせるのは大丈夫なの?" },
+          { "speaker": "analyst", "text": "レビューさせること自体はOKですが、あくまで参考情報どまり。マージするか拒否するかは必ず人間が判断します。", "source": "Rust公式Inside Rust Blog(2026-08-05)" }
+        ]},
+        { "slide": 15, "lines": [
+          { "speaker": "analyst", "text": "方針の核心はこちらです。『LLMは、より良く書くために使う。より速く書くためではない』。" },
+          { "speaker": "host", "text": "write better, not fasterってことだね。" }
+        ]},
+        { "slide": 16, "lines": [
+          { "speaker": "analyst", "text": "その意味を図にするとこうです。人間の理解・著作・レビューを置き換えず、LLMは補助として使うという考え方です。" },
+          { "speaker": "host", "text": "スピードより質を優先する、ということだね。" }
+        ]},
+        { "slide": 17, "lines": [
+          { "speaker": "host", "text": "実際にはどんな流れでLLMを使うの?" },
+          { "speaker": "analyst", "text": "分析・要約に使い、限定利用は開示し、人間が検証し、最終的に人間が判断する。この4ステップです。" }
+        ]},
+        { "slide": 18, "lines": [
+          { "speaker": "analyst", "text": "ポリシーを採択したチーム数はこちら、5つです。" },
+          { "speaker": "host", "text": "5つのチームが揃ってこのルールを採用したんだね。" }
+        ]},
+        { "slide": 19, "lines": [
+          { "speaker": "host", "text": "出典は?" },
+          { "speaker": "analyst", "text": "Rust公式Inside Rust Blog、Linuxiac、Socket.dev、そしてrust-lang/rust-forgeのPull Request #1040です。" }
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        { "slide": 20, "lines": [
+          { "speaker": "analyst", "text": "ここからは正直な開示です。未確認事項を一覧にしました。" },
+          { "speaker": "host", "text": "何がまだ分かっていないの?" },
+          { "speaker": "analyst", "text": "Socket.dev見出しの『数か月』の具体的内容や、他チームへの波及は、本調査の範囲では確認できていません。" }
+        ]},
+        { "slide": 21, "lines": [
+          { "speaker": "host", "text": "確認できたこと・できなかったことをまとめると?" },
+          { "speaker": "analyst", "text": "ポリシーの内容自体は確認できましたが、背景事情や今後の波及、執行方法は確認できていません。" }
+        ]},
+        { "slide": 22, "lines": [
+          { "speaker": "analyst", "text": "鮮度について改めて開示します。発表は着手日と完全に同日、このシリーズで可能な最高水準の鮮度です。" },
+          { "speaker": "host", "text": "でもそれが未確認事項を補うわけじゃないんだね。" }
+        ]},
+        { "slide": 23, "lines": [
+          { "speaker": "host", "text": "評価スコアは?" },
+          { "speaker": "analyst", "text": "round82の評価ではスコア78/100でした。話題性のあるフックと着手日当日という鮮度が評価されています。" }
+        ]},
+        { "slide": 24, "lines": [
+          { "speaker": "analyst", "text": "公平性・中立性についても開示します。ポリシーの内容は中立的に報告し、AI活用全般についての論評は行いません。" },
+          { "speaker": "host", "text": "Rustの特定リポジトリの話であって、AI全般の是非を論じる話ではないんだね。" }
+        ]},
+        { "slide": 25, "lines": [
+          { "speaker": "host", "text": "既存テーマと重複してない?" },
+          { "speaker": "analyst", "text": "Rust・RustのLLMポリシーを主題とした既存テーマはなく、round82で挙がったCodebergの別候補とも組織・出来事が異なり重複ではありません。" }
+        ]},
+        { "slide": 26, "lines": [
+          { "speaker": "host", "text": "業界全体ではどうなの?" },
+          { "speaker": "analyst", "text": "ここからは推測ですが、主要言語の明文化は他プロジェクトの先行事例として注目されます。ただし波及範囲は確認できていません。" }
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        { "slide": 27, "lines": [
+          { "speaker": "host", "text": "要するにポイントは3つ?" },
+          { "speaker": "analyst", "text": "明確な線引き、本文はAIに書かせないという姿勢、そして最終判断は必ず人間が行うという原則です。" }
+        ]},
+        { "slide": 28, "lines": [
+          { "speaker": "host", "text": "他のプロジェクトにも広がっていくのかな?" },
+          { "speaker": "analyst", "text": "ポリシーの内容自体は分かっていますが、他プロジェクトへの波及は、まだ答えの出ていない開かれた問いです。" }
+        ]},
+        { "slide": 29, "lines": [
+          { "speaker": "host", "text": "この動き、他のオープンソースプロジェクトにどう影響していくんだろう。" },
+          { "speaker": "analyst", "text": "答えを断定せず、確認できたこと・できなかったことを区別しながら、開かれた問いとして注目していきましょう。" }
+        ]},
+        { "slide": 30, "lines": [
+          { "speaker": "analyst", "text": "今回もありがとうございました。Rustのコア開発でのLLM利用ポリシー採択をお届けしました。" },
+          { "speaker": "host", "text": "次回もお楽しみに。" }
+        ]}
+      ]
+    }
+  ]
+}

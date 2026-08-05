@@ -149,6 +149,23 @@ PALETTE_PRESETS = {
         "muted": "8A6F5C",
         "card": "FBF3E6",
     },
+    # 2026-08-05〜追加。半導体・メモリ規格系テーマ向け
+    # (深いコバルトブルーの「回路基板・シリコン」+エレクトリックバイオレットの
+    # 「新規格・ブレイクスルー」)。既存プリセット(navy_gold/forest_sand/
+    # slate_azure/steel_amber/indigo_cyan/graphite_emerald/crimson_gold/
+    # impact_red)とは重複しない配色として、SK hynix・SanDiskのHBF
+    # (High Bandwidth Flash)標準仕様発表テーマで新規追加。slate_azureと
+    # 同系統の寒色系だが、accentを紫にすることで質感を明確に差別化している。
+    "cobalt_violet": {
+        "primary": "1B3A5C",
+        "primary_dark": "10233A",
+        "base": "DCE6F5",
+        "base_soft": "A9C0D8",
+        "accent": "7B4FFF",
+        "ink": "16202E",
+        "muted": "5A6B80",
+        "card": "F2F6FA",
+    },
     # サムネイル専用の高インパクト配色(MrBeast等の分析: 赤×黄の補色関係が
     # 視認性・緊急感を生む)。デッキ本体の落ち着いた配色とは目的が異なるため、
     # thumbnail生成時のみ選択する想定(ai-company-os/docs/14_YouTube_Thumbnail.md)。
