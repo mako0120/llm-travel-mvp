@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "title": "AIによる資料作成が、AI業界最大手に丸ごと買収された日",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "https://finance.yahoo.com/technology/ai/articles/openai-acquires-presentation-startup-nextslide-194113669.html",
+      "https://www.unite.ai/openai-acquires-nextslide-the-ai-presentation-startup/",
+      "https://finance.biggo.com/news/b94705c0-0ab6-43f6-b0e0-0bbc682232cb",
+      "https://cryptobriefing.com/openai-acquires-nextslide-chatgpt/",
+      "https://www.techbuzz.ai/articles/openai-acquires-nextslide-folds-team-into-chatgpt",
+      "https://techcrunch.com/2021/10/19/instacart-acquires-caper-ai-a-smart-cart-and-instant-checkout-startup-for-350m-as-it-moves-deeper-into-physical-retail-tech",
+      "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "AIで資料を作るAIが、AI業界最大手に丸ごと買収されたらしいね。", "source": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/" },
+            { "speaker": "analyst", "text": "2026年8月8日、OpenAIがNextSlideを買収し、チーム全員をChatGPT開発チームへ統合したとTechCrunchが報じました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "買収額は非公開です。OpenAIの小規模買収ではよくあることだと報じられています。", "source": "https://finance.yahoo.com/technology/ai/articles/openai-acquires-presentation-startup-nextslide-194113669.html" },
+            { "speaker": "host", "text": "金額もチームの人数も、非公開のことが多いんだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで整理するの？" },
+            { "speaker": "analyst", "text": "NextSlideの製品、買収の時系列、創業者の経歴、市場規模、そしてこの先の推測まで、5つの流れで見ていきます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマを選んだ理由は、報道が昨日、着手日から1日前だからです。鮮度の高いニュースです。" },
+            { "speaker": "host", "text": "しかも、AIで資料を作る会社が、AI業界最大手に買収されたという構図自体が面白いよね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "analyst", "text": "NextSlideは、プロンプトやメモ、文書を編集可能なプレゼン資料に変換するAIツールを作っていました。", "source": "https://www.unite.ai/openai-acquires-nextslide-the-ai-presentation-startup/" },
+            { "speaker": "host", "text": "デザインの知識がなくても資料が作れる、というやつだね。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "時系列で見ると、買収自体は2026年初めに成立し、公表は8月7日から8日にかけて行われました。" },
+            { "speaker": "host", "text": "成立から公表まで、数か月も間が空いていたんだ。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "この話、どのメディアが報じているの？" },
+            { "speaker": "analyst", "text": "一次報道はTechCrunch。Yahoo Finance、Unite.AI、BigGo Financeなど複数のメディアが内容を裏付けています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "買収成立から公表まで、数か月というタイムラグがあったと報じられています。" },
+            { "speaker": "host", "text": "ここまでが前提。ここから、NextSlideという会社の中身に入っていこう。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "今回の買収は、製品を存続させるというより、チームをChatGPT開発チームに統合する形です。" },
+            { "speaker": "host", "text": "いわゆる人材獲得を目的とした買収、ということだね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "構造を図にすると、NextSlideという会社を、OpenAIが買収し、チームがChatGPT開発チームに統合される、という流れです。" },
+            { "speaker": "host", "text": "NextSlideという会社としての活動は、これで終わりということかな。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "買収の前と後で、何が変わったの？" },
+            { "speaker": "analyst", "text": "独立した会社から、OpenAI傘下のChatGPT開発チームの一部へと立場が変わりました。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "創業者Ahmed Beshry氏の前職Caper AIは、2021年にInstacartへ3.5億ドルで売却されています。", "source": "https://techcrunch.com/2021/10/19/instacart-acquires-caper-ai-a-smart-cart-and-instant-checkout-startup-for-350m-as-it-moves-deeper-into-physical-retail-tech" },
+            { "speaker": "host", "text": "3.5億ドル。これは前職の話で、今回のNextSlide買収額とは別なんだね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "経歴を整理すると、スマートカート事業の売却経験を持つ起業家が、次にAIプレゼン生成という領域で会社を立ち上げた形です。" },
+            { "speaker": "host", "text": "一度成功した起業家が、また新しい分野に挑戦して、また買収されたんだ。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "製品の中身をもう少し具体的に知りたいな。" },
+            { "speaker": "analyst", "text": "プロンプトやメモ、文書を渡すと、編集可能なプレゼン資料として出力する、という仕組みです。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "NextSlideは創業からおよそ1年強という短期間で、今回の買収公表を迎えました。", "source": "https://www.unite.ai/openai-acquires-nextslide-the-ai-presentation-startup/" },
+            { "speaker": "host", "text": "1年強か。かなりのスピード展開だね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "AIでプレゼン資料を作るツールって、他にもあるよね？" },
+            { "speaker": "analyst", "text": "Microsoft PowerPointのCopilot、Google Slides、Canva、それに独立系のGammaなどが同じ領域にいます。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "参考までに、別会社のGammaは2025年11月時点で利用者7,000万人、評価額21億ドルと報じられています。", "source": "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/" },
+            { "speaker": "host", "text": "それだけ大きい市場に、OpenAIも参入してきたということか。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "NextSlideとGammaを比べると、公開されている情報量に大きな差があります。NextSlideの数字の多くは非公開です。" },
+            { "speaker": "host", "text": "同じ領域でも、会社によって公開の度合いがだいぶ違うんだね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことを一覧にしました。金額、人数、統合スケジュール、資金調達履歴、正確な成立日、この5点です。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱っているのが分かりやすいね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "私たちChatGPTユーザーにとって、今何が変わるの？" },
+            { "speaker": "analyst", "text": "現時点で具体的な新機能は発表されていません。今すぐ何かを変える必要がある話ではなさそうです。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "この図はあくまで推測です。ChatGPTが資料作成を含むマルチモーダルな業務ツールへ広がる可能性が指摘されています。" },
+            { "speaker": "host", "text": "公式のロードマップではなく、あくまで見方の一つなんだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "Microsoft PowerPointのCopilotとは、どう住み分けるの？" },
+            { "speaker": "analyst", "text": "そこは分かっていません。企業向け・個人向けでの役割分担があるかどうかも、確認できていない推測の範囲です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "推測として考えられる論点は、競合関係の強まり、人材獲得型買収の広がり、独立系ツールへの影響、この3つです。" },
+            { "speaker": "host", "text": "どれも断定はできない、あくまで推測ということだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "この情報、どこまで信頼していいの？" },
+            { "speaker": "analyst", "text": "企業の自社発表ではなく、複数メディアの報道に基づいています。契約書や公式ブログへの直接アクセスはできていません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "この買収だけで、OpenAIが資料作成市場を独占するとは言えません。PowerPointやGammaなど既存ツールは引き続き存在します。" },
+            { "speaker": "host", "text": "特定の企業や製品を一方的に推す話ではないんだね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "タイトルはかなり強めの言い方だったけど、大丈夫？" },
+            { "speaker": "analyst", "text": "見出しは注目を集める表現ですが、本文は事実と推測を分け、誇張せずに整理しています。断定的な結論も出していません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "これから何に注目しておけばいい？" },
+            { "speaker": "analyst", "text": "新機能の公表、競合の反応、同種の買収が今後も続くかどうか、この3点に注目です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。2026年8月8日、OpenAIがNextSlideを買収し、チーム全員をChatGPT開発チームへ統合したと報じられました。" },
+            { "speaker": "host", "text": "金額・人数・スケジュールは非公開のままなんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はTechCrunchを中心に、Yahoo Finance、Unite.AI、BigGo Financeなどです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdに一覧でまとめてあるんだね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "AIで資料を作る仕事が、AIに飲み込まれていく。それでも、事実と推測は分けて追っていきます。" },
+            { "speaker": "host", "text": "統合後の具体的な機能が分かったら、また出典付きでお届けしよう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
