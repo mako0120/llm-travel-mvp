@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "title": "ジェンスン・フアンCEOが向かった先は、アメリカでも中国でもなくアルメニアだった",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+      "https://finance.yahoo.com/technology/ai/articles/firebird-opens-region-largest-ai-143555418.html",
+      "https://www.prnewswire.com/news-releases/firebird-opens-the-regions-largest-ai-factory-and-announces-global-expansion-302846589.html",
+      "https://www.morningstar.com/news/pr-newswire/20260808ln22240/firebird-opens-the-regions-largest-ai-factory-and-announces-global-expansion",
+      "https://theaiinsider.tech/2026/08/09/firebird-opens-armenia-ai-factory-plans-70000-plus-nvidia-gpus-by-2027/",
+      "https://www.firebird.ai/news-firebird-grand-opening.html",
+      "https://www.unite.ai/firebird-opens-the-cis-regions-largest-ai-factory-in-armenia/",
+      "https://armenpress.am/en/article/1257541/amp",
+      "https://www.techbuzz.ai/articles/firebird-launches-cis-region-s-largest-ai-factory-in-armenia",
+      "https://www.tahawultech.com/home-slide/firebird-launches-cis-regions-largest-ai-factory-in-armenia-to-accelerate-innovation/"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "ジェンスン・フアンCEOが向かった先、アメリカでも中国でもなくアルメニアだったらしいよ。", "source": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/" },
+            { "speaker": "analyst", "text": "2026年8月8日、FirebirdがアルメニアのHrazdanでCIS地域最大のAI工場を開所しました。その開所式にNVIDIA CEO本人が登壇しています。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、初期投資は5億ドル。フェーズ2が終わる頃には総投資額が約50億ドルに達する見込みです。", "source": "https://www.prnewswire.com/news-releases/firebird-opens-the-regions-largest-ai-factory-and-announces-global-expansion-302846589.html" },
+            { "speaker": "host", "text": "5億ドルから50億ドルって、一気に10倍規模だね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで整理するの？" },
+            { "speaker": "analyst", "text": "規模、登壇者、Perplexityとの関係、そして『CIS地域最大』の正確な意味まで、5つの流れで見ていきます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマを選んだ理由は、発表が昨日、着手日から1日前だからです。鮮度の高いニュースです。" },
+            { "speaker": "host", "text": "それに、世界最大級のAI工場と聞いてアルメニアを思い浮かべる人は少ないんじゃないかな。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "analyst", "text": "FirebirdはNVIDIAのDSXプラットフォームとDell PowerEdgeサーバーを組み合わせて、この施設を作りました。", "source": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/" },
+            { "speaker": "host", "text": "AIの学習や推論を大規模にこなすための施設、ということだね。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "この話、どのメディアが報じているの？" },
+            { "speaker": "analyst", "text": "一次発表はNVIDIA公式ブログ。Yahoo Finance、PR Newswire、ARMENPRESSなど複数のメディアが内容を裏付けています。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "開所式にはアルメニアのニコル・パシニャン首相と、NVIDIAのジェンスン・フアンCEOが出席しました。", "source": "https://armenpress.am/en/article/1257541/amp" },
+            { "speaker": "host", "text": "ここは出席の事実だけを扱うところだね。政治的な評価はしないんだよね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "『AI工場』とは、大量のGPUを集めてAIの学習・推論を行う大規模施設のことです。" },
+            { "speaker": "host", "text": "ここまでが前提。ここから、実際の規模の話に入っていこう。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "構成を図にすると、NVIDIAのDSXという設計基盤とDellのハードウェアを組み合わせて、施設が作られています。" },
+            { "speaker": "host", "text": "2社の技術を組み合わせて実現しているんだね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "フェーズ1として、Blackwell世代のGPUが6,144基、すでに稼働しています。", "source": "https://www.unite.ai/firebird-opens-the-cis-regions-largest-ai-factory-in-armenia/" },
+            { "speaker": "host", "text": "6,144基って、かなりの数字だね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "この後のフェーズ2、3はいつ完成するの？" },
+            { "speaker": "analyst", "text": "正確な完成時期は公表されていません。ここは不明として扱います。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "フェーズ2が終わると、Blackwell世代とVera Rubin世代を合わせて70,000基超のGPU規模を目指す計画です。", "source": "https://theaiinsider.tech/2026/08/09/firebird-opens-armenia-ai-factory-plans-70000-plus-nvidia-gpus-by-2027/" },
+            { "speaker": "host", "text": "6,144基から70,000基超って、10倍以上の拡大だね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "総投資額の見込みは約50億ドル。初期投資5億ドルから大きく積み増す計画です。" },
+            { "speaker": "host", "text": "GPUの数も投資額も、どちらも一桁近く増える計画なんだ。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "現在と完成時、並べて見るとどう違うの？" },
+            { "speaker": "analyst", "text": "GPU基数も投資額も大きく拡大しますが、完成時期そのものは非公表という点は変わりません。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "Firebirdはアルメニア以外も含めたグローバル展開で、2028年末までに2ギガワット規模を目指しています。", "source": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/" },
+            { "speaker": "host", "text": "アルメニア単体の話じゃなくて、もっと大きな計画の一部なんだね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "展開先にはカザフスタンや、その他の『フロンティア市場』も含まれるとされていますが、具体名は未特定です。" },
+            { "speaker": "host", "text": "アルメニアはあくまで最初の拠点、ということかな。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "この施設、実際に誰が使うの？" },
+            { "speaker": "analyst", "text": "AI検索のPerplexityが最初の顧客の1社として発表されています。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "Perplexityは回答エンジンと、AIによる『デジタル同僚』プラットフォームのためにこの基盤を使うとされています。" },
+            { "speaker": "host", "text": "具体的にどれだけの計算資源を使うかまでは分からないんだね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "私たち利用者にとって、これってすぐ関係あるの？" },
+            { "speaker": "analyst", "text": "今回の発表自体はインフラの話なので、個人向けサービスがすぐ変わるわけではありません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで表現を正確に確認します。報じられているのは『CIS地域最大』であって、『世界最大』ではありません。" },
+            { "speaker": "host", "text": "似ているようで、範囲がだいぶ違う言い方だね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "『CIS地域最大』と『世界最大』、何がどう違うの？" },
+            { "speaker": "analyst", "text": "『CIS地域最大』は複数メディアが一致して報じている事実ですが、米国・中国との直接比較はこの情報だけでは判断できません。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことを一覧にしました。完成時期、他の顧客、投資条件、出資構造、この4点です。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱っているのが分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "この図はあくまで推測です。フェーズ2・3に向けては追加投資や電力調達が必要になると考えられます。" },
+            { "speaker": "host", "text": "公式のロードマップではなく、あくまで見方の一つなんだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "今後、どんな論点が出てきそう？" },
+            { "speaker": "analyst", "text": "CIS地域でのAI基盤競争、顧客企業の拡大、電力面の論点、この3つが推測として考えられます。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "タイトルはかなり印象的な言い方だったけど、大丈夫？" },
+            { "speaker": "analyst", "text": "見出しは注目を集める表現ですが、本文は事実と推測を分け、『CIS地域最大』と『世界最大』も混同していません。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "アルメニア首相の出席という事実は扱いますが、アルメニアの政治や政府方針についての評価は一切行っていません。" },
+            { "speaker": "host", "text": "あくまで経済・技術インフラのニュースとして見ていくんだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "これから何に注目しておけばいい？" },
+            { "speaker": "analyst", "text": "フェーズ2の進捗、顧客の広がり、他拠点の状況、この3点に注目です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。2026年8月8日、FirebirdがアルメニアでCIS地域最大のAI工場を開所し、Perplexityが最初の顧客になったと発表されました。" },
+            { "speaker": "host", "text": "フェーズ2以降の時期や他の顧客は、まだ分からないままなんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はNVIDIA公式ブログを中心に、PR Newswire、Yahoo Finance、ARMENPRESSなどです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdに一覧でまとめてあるんだね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "世界最大級と呼びたくなる話ほど、正確な範囲を確かめてから伝えたい。それが今日の締めくくりです。" },
+            { "speaker": "host", "text": "フェーズ2の続報が出たら、また出典付きで追いかけよう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
