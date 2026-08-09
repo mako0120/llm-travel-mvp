@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "title": "社員がこっそり使っていたAIコーディングツールが、会社に丸見えになる時代へ",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "https://ai.watch.impress.co.jp/docs/news/2131486.html",
+      "https://robotstart.info/article/2026/08/07/382247.html",
+      "https://businessnetwork.jp/article/36475/",
+      "https://www.softbank.jp/corp/news/press/sbkk/2025/20251211_01/",
+      "https://aismiley.co.jp/ai_news/softbank-agentic-star/",
+      "https://businessnetwork.jp/article/31937/"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "社員がこっそり使っていたAIコーディングツール、会社に丸見えになる時代が来たらしいよ。", "source": "https://ai.watch.impress.co.jp/docs/news/2131486.html" },
+            { "speaker": "analyst", "text": "2026年8月7日、ソフトバンクが『AGENTIC STAR』SaaS版に『LLM Gateway』機能を標準搭載すると発表しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、提供開始は2026年8月上旬。既存の導入企業にも順次適用されます。", "source": "https://ai.watch.impress.co.jp/docs/news/2131486.html" },
+            { "speaker": "host", "text": "新規契約だけじゃなくて、もう使っている企業にも順番に広がっていくんだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで整理するの？" },
+            { "speaker": "analyst", "text": "基礎知識、管理機能の中身、導入前後の変化、企業と従業員それぞれへの影響、そして不明点まで、5つの流れで見ていきます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマを選んだ理由は、発表が2日前だからです。鮮度の高いニュースです。" },
+            { "speaker": "host", "text": "それに、自分が使ってるAIツールが会社から見えるようになるって、他人事じゃない話だよね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "analyst", "text": "AIコーディングツールと契約LLMの間にゲートウェイを置いて、AGENTIC STARの管理機能を適用する仕組みです。", "source": "https://ai.watch.impress.co.jp/docs/news/2131486.html" },
+            { "speaker": "host", "text": "ツールとAIの間に、いわば検問所を作るイメージかな。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "この話、どのメディアが報じているの？" },
+            { "speaker": "analyst", "text": "AI Watchが最初に報じ、ロボスタとBUSINESS NETWORKが同内容を裏付けています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "まず前提知識です。AIコーディングツールとは、コードの提案・補完・生成をAIが行う開発支援ツールのことです。" },
+            { "speaker": "host", "text": "個人が勝手に契約して使ってることも多くて、会社からは見えにくいんだよね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "舞台となるAGENTIC STARは、ソフトバンクが2025年12月11日に提供開始した法人向けAIエージェント基盤です。", "source": "https://www.softbank.jp/corp/news/press/sbkk/2025/20251211_01/" },
+            { "speaker": "host", "text": "ここまでが前提。ここから、実際の規模の話に入っていこう。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "AGENTIC STARは80種類以上のツールを使い分けられる基盤として提供開始されました。", "source": "https://aismiley.co.jp/ai_news/softbank-agentic-star/" },
+            { "speaker": "host", "text": "80種類以上って、かなり幅広いね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "AGENTIC STARにはいくつか提供形態があるんだよね？" },
+            { "speaker": "analyst", "text": "はい。今回LLM Gatewayが搭載されるのは、そのうち『SaaSモデル』です。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "提供開始からLLM Gateway搭載の発表まで、約8か月です。" },
+            { "speaker": "host", "text": "半年ちょっとで、また新しい機能が加わったんだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "ここからが本題です。LLM Gatewayは、AIコーディングツールと契約LLMの間に置かれるゲートウェイ機能です。", "source": "https://ai.watch.impress.co.jp/docs/news/2131486.html" },
+            { "speaker": "host", "text": "ツールの使い勝手はそのままに、企業側のルールを適用できるってことだね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "仕組みを図にするとどうなるの？" },
+            { "speaker": "analyst", "text": "コーディングツールとLLMの間にゲートウェイが入って、そこで管理機能が適用される形です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "流れはこうです。利用、経由、適用、到達の4ステップ。" },
+            { "speaker": "host", "text": "社員から見たら、普段どおり使っているだけなんだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "適用される管理機能は4つ。ガードレール、機密情報の取り扱い制限、ログ記録、モデル管理です。", "source": "https://ai.watch.impress.co.jp/docs/news/2131486.html" },
+            { "speaker": "host", "text": "この4つがそろうと、かなりしっかりしたガバナンスになるね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "導入前と導入後、何が一番変わるの？" },
+            { "speaker": "analyst", "text": "見えにくかった利用実態が把握できるようになる一方、ツール自体の使い勝手は維持されるとされています。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて時期を確認すると、提供開始は2026年8月上旬です。", "source": "https://ai.watch.impress.co.jp/docs/news/2131486.html" },
+            { "speaker": "host", "text": "もうすぐそこまで来ているタイミングなんだね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "対象範囲はどこまでなの？" },
+            { "speaker": "analyst", "text": "SaaS版が対象で、既存の導入企業にも順次適用されますが、完了時期は明言されていません。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "企業の情報システム部門にとってはどう関係あるの？" },
+            { "speaker": "analyst", "text": "利用実態を把握しやすくなりますが、対応ツールの範囲は自社で確認する必要があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "働く側の私たちにとってはどうなの？" },
+            { "speaker": "analyst", "text": "利用状況が見える形になりますが、ツール自体の使い勝手は維持されるとされています。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことを一覧にしました。対応ツール名、利用企業数、価格、展開完了時期です。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱っているのが分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "この図はあくまで推測です。今後、対応ツールが拡大していく可能性はありますが、公式な計画は確認できていません。" },
+            { "speaker": "host", "text": "公式のロードマップではなく、あくまで見方の一つなんだね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "今後、どんな論点が出てきそう？" },
+            { "speaker": "analyst", "text": "他社の追随、従業員の受け止め方、価格の開示、この3つが推測として考えられます。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "タイトルはかなり印象的な言い方だったけど、大丈夫？" },
+            { "speaker": "analyst", "text": "見出しは注目を集める表現ですが、本文はこれをガバナンス機能として正確に扱い、誇張していません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマはソフトバンク自社製品の発表ですが、利用を強く勧める結論にはしていません。" },
+            { "speaker": "host", "text": "あくまで公表された事実の整理として見ていくんだね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "公表されているのは業務ルールに沿った運用の実現です。個人評価に使うといった明言はされていません。" },
+            { "speaker": "host", "text": "『監視』と『ガバナンス』、似ているようで意味が違うね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "これから何に注目しておけばいい？" },
+            { "speaker": "analyst", "text": "対応ツールの公表、導入企業数、価格・費用体系、この3点に注目です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。2026年8月7日、ソフトバンクはAGENTIC STAR SaaS版にLLM Gatewayを標準搭載すると発表しました。" },
+            { "speaker": "host", "text": "対応ツールや価格、企業数はまだ分からないままなんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はAI Watchを中心に、ロボスタ、BUSINESS NETWORK、ソフトバンク公式リリースなどです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdに一覧でまとめてあるんだね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "『監視』ではなく『ガバナンス』。その線引きを正確に伝えたい。それが今日の締めくくりです。" },
+            { "speaker": "host", "text": "対応ツールの続報が出たら、また出典付きで追いかけよう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
