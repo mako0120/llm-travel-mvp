@@ -3,14 +3,14 @@
   "repo": "mako0120/llm-travel-mvp",
   "assetsPath": "ai-company-os/assets",
   "totals": {
-    "themes": 162,
-    "slides": 4471,
-    "withPptx": 140,
-    "withAudio": 144,
-    "withVideo": 142,
-    "timedThemes": 142,
-    "timedAudioSeconds": 48672.6,
-    "averageQualityScore": 94.5
+    "themes": 163,
+    "slides": 4501,
+    "withPptx": 141,
+    "withAudio": 145,
+    "withVideo": 143,
+    "timedThemes": 143,
+    "timedAudioSeconds": 49026.2,
+    "averageQualityScore": 94.6
   },
   "themes": [
     {
@@ -40,6 +40,47 @@
       "qualityScore": 95,
       "themeScore": null,
       "videoUrl": "/videos/2026-08-10_zoox-paid-robotaxi-launch.mp4",
+      "artifacts": {
+        "deck_spec": true,
+        "pptx": true,
+        "narration": true,
+        "dialogue": true,
+        "audio": true,
+        "timings": true,
+        "youtube": true,
+        "canva": true,
+        "review": true,
+        "research": true,
+        "thumbnail": false
+      }
+    },
+    {
+      "id": "2026-08-09_st-clair-college-unitree-r1",
+      "date": "2026-08-09",
+      "slug": "st-clair-college-unitree-r1",
+      "title": "北米の大学に、初めて『4,900ドルからのロボット』が届いた",
+      "subtitle": "カナダ・St. Clair Collegeが、北米の大学として初めてUnitree R1ヒューマノイドロボットを受領(2026年8月9日発表)。研究・イノベーション部門でAI/LLM研究プラットフォームとして活用へ——4,900〜10,500ドルは製品一般の価格帯であり、同校の実際の調達価格は非公開",
+      "palette": "cobalt_violet",
+      "footer": "AI Company OS｜出典: St. Clair College公式(2026-08-09)ほか｜161本目",
+      "slides": 30,
+      "layouts": {
+        "bullets": 7,
+        "cards": 7,
+        "big_stat": 4,
+        "table": 4,
+        "diagram": 2,
+        "steps": 2,
+        "agenda": 1,
+        "comparison": 1,
+        "cta": 1,
+        "title": 1
+      },
+      "bulletsRatio": 23.3,
+      "narrationMinutes": 6.1,
+      "audioSeconds": 353.6,
+      "qualityScore": 95,
+      "themeScore": null,
+      "videoUrl": "/videos/2026-08-09_st-clair-college-unitree-r1.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
