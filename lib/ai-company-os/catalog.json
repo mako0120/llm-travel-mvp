@@ -3,14 +3,14 @@
   "repo": "mako0120/llm-travel-mvp",
   "assetsPath": "ai-company-os/assets",
   "totals": {
-    "themes": 151,
-    "slides": 4141,
-    "withPptx": 129,
-    "withAudio": 133,
-    "withVideo": 131,
-    "timedThemes": 131,
-    "timedAudioSeconds": 44479.5,
-    "averageQualityScore": 94.6
+    "themes": 152,
+    "slides": 4171,
+    "withPptx": 130,
+    "withAudio": 134,
+    "withVideo": 132,
+    "timedThemes": 132,
+    "timedAudioSeconds": 44879.7,
+    "averageQualityScore": 94.5
   },
   "themes": [
     {
@@ -81,6 +81,48 @@
       "qualityScore": 95,
       "themeScore": null,
       "videoUrl": "/videos/2026-08-08_firebird-armenia-ai-factory.mp4",
+      "artifacts": {
+        "deck_spec": true,
+        "pptx": true,
+        "narration": true,
+        "dialogue": true,
+        "audio": true,
+        "timings": true,
+        "youtube": true,
+        "canva": true,
+        "review": true,
+        "research": true,
+        "thumbnail": false
+      }
+    },
+    {
+      "id": "2026-08-07_uber-tokenmaxxing-era-ending",
+      "date": "2026-08-07",
+      "slug": "uber-tokenmaxxing-era-ending",
+      "title": "「tokenmaxxing」を生み出した張本人が、その終わりを宣言した",
+      "subtitle": "Uber CTO、2026年AI予算を数か月で使い切った末に「tokenmaxxing時代の終わり」を発言(2026年8月7日Fortune報道)",
+      "palette": "steel_amber",
+      "footer": "AI Company OS｜出典: Fortune(2026-08-07)ほか｜150本目",
+      "slides": 30,
+      "layouts": {
+        "bullets": 7,
+        "cards": 5,
+        "big_stat": 4,
+        "diagram": 3,
+        "table": 3,
+        "comparison": 2,
+        "quote": 2,
+        "agenda": 1,
+        "cta": 1,
+        "steps": 1,
+        "title": 1
+      },
+      "bulletsRatio": 23.3,
+      "narrationMinutes": 6.8,
+      "audioSeconds": 400.2,
+      "qualityScore": 93,
+      "themeScore": null,
+      "videoUrl": "/videos/2026-08-07_uber-tokenmaxxing-era-ending.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
