@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "AIの利益効果、ゴミ収集トラック業界にも到達していた",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "https://www.bloomberg.com/news/articles/2026-08-07/garbage-truck-margin-boost-shows-the-ai-profit-boom-has-begun",
+      "https://finance.yahoo.com/technology/ai/articles/waste-connections-using-ai-expand-151300555.html",
+      "https://news.futunn.com/en/post/77344217/ai-dividends-flow-into-traditional-industries-from-garbage-trucks-to"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "ゴミ収集トラックの会社に、AIで年間2,000万ドルの効果が出てるらしいよ。", "source": "https://www.bloomberg.com/news/articles/2026-08-07/garbage-truck-margin-boost-shows-the-ai-profit-boom-has-begun" },
+            { "speaker": "analyst", "text": "2026年8月7日、BloombergがS&P500企業のAI利益率効果について報じました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、S&P500のおよそ25社が、AIによる利益率効果を数値で開示しています。", "source": "https://www.bloomberg.com/news/articles/2026-08-07/garbage-truck-margin-boost-shows-the-ai-profit-boom-has-begun" },
+            { "speaker": "host", "text": "22V Researchっていう調査会社の分析なんだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで整理するの？" },
+            { "speaker": "analyst", "text": "概要、用語解説、Waste Connectionsの事例、数字の違い、そして不明点まで、5つの流れで見ていきます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマを選んだ理由は、発表が2日前という新しさと、意外性のある切り口です。" },
+            { "speaker": "host", "text": "AIの話ってテック企業ばかりだと思ってたから、ゴミ収集業界っていうのは意外だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "analyst", "text": "Bloombergが、廃棄物処理大手Waste Connections社を具体例として取り上げました。", "source": "https://www.bloomberg.com/news/articles/2026-08-07/garbage-truck-margin-boost-shows-the-ai-profit-boom-has-begun" },
+            { "speaker": "host", "text": "AI価格設定ツールで、年間約2,000万ドルの改善効果なんだよね。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "この話、どのメディアが報じているの？" },
+            { "speaker": "analyst", "text": "Bloombergが主要な出典で、Yahoo Finance・Futunnが同内容を補強しています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "具体的な数字です。年間約2,000万ドルのEBITDA改善効果とされています。", "source": "https://finance.yahoo.com/technology/ai/articles/waste-connections-using-ai-expand-151300555.html" },
+            { "speaker": "host", "text": "年間換算での数字なんだね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで用語を整理します。EBITDAは本業の収益力を測る利益指標、ベーシスポイントは1bpで0.01%です。" },
+            { "speaker": "host", "text": "180ベーシスポイントなら、利益率が1.8ポイント上がったってことだね。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "Waste Connectionsって、どんな会社なの？" },
+            { "speaker": "analyst", "text": "北米の廃棄物処理・リサイクル大手で、ゴミ収集トラックによる収集運搬が主力事業です。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "AI価格設定ツールの効果を整理すると、対象は価格設定プロセス、効果はすでに実現している数字です。" },
+            { "speaker": "host", "text": "テスト中じゃなくて、もう実現した効果なんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "180bpと150bp、2つ数字があるけど違いは何？" },
+            { "speaker": "analyst", "text": "全体平均が180bp、AIだけの寄与分に絞ると150bpに縮小します。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "仕組みを図にすると、価格設定の最適化が収益性の改善につながり、EBITDA効果として現れます。" },
+            { "speaker": "host", "text": "算出プロセスの詳細はまだ公開されてないんだよね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "AIのルート最適化っていうのも進めてるんだよね？" },
+            { "speaker": "analyst", "text": "はい。走行距離の削減、人員配置の効率化、収集作業の生産性向上を狙っています。", "source": "https://www.bloomberg.com/news/articles/2026-08-07/garbage-truck-margin-boost-shows-the-ai-profit-boom-has-begun" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "重要な注意点です。ルート最適化はまだテスト段階として報じられています。" },
+            { "speaker": "host", "text": "価格設定ツールとは違って、まだ確定した効果じゃないんだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでの数字をまとめます。25社、180bp、150bp、約2,000万ドルです。" },
+            { "speaker": "host", "text": "それぞれ意味が違うから、混同しないように整理しておこう。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことを一覧にしました。22V Researchの方法論、25社の内訳、測定期間です。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱ってるのが分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "Waste Connectionsの取り組み、時系列で見るとどうなるの？" },
+            { "speaker": "analyst", "text": "価格設定ツールの導入、EBITDA効果の実現、そして現在進行中のルート最適化のテストという流れです。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "この話が意外性を持つのは、AI活用の話題がテック企業中心になりがちだからです。" },
+            { "speaker": "host", "text": "日常的で身近なゴミ収集の現場に、定量的な効果が出てるのが面白いよね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "22V Researchっていう会社自体はどんな会社なの？" },
+            { "speaker": "analyst", "text": "分析結果の中身は分かる一方、設立時期や規模など組織自体の詳細は確認できていません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "投資家にとってはどんな意味があるの？" },
+            { "speaker": "analyst", "text": "AI効果の定量開示が業種を問わず広がりつつあること、算出方法で数字が変わりうることが参考になります。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "企業のAI導入担当にとってはどう？" },
+            { "speaker": "analyst", "text": "地味な業務プロセスこそ効果を測りやすいこと、実現済みと試験中を区別して語ることが参考になります。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "実践としては、区別した測定の仕組み、実現済みと試験中の区別、定型業務からの着手をおすすめします。" },
+            { "speaker": "host", "text": "自分の職場に当てはめて考えられる整理だね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "従来のイメージと、今回の実態を比べるとどう違うの？" },
+            { "speaker": "analyst", "text": "最先端テック企業中心の議論から、伝統的産業の現場業務にも効果が広がっている実態が見えます。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "タイトルはかなり印象的な言い方だったけど、大丈夫？" },
+            { "speaker": "analyst", "text": "見出しは注目を集める表現ですが、本文はWaste Connections1社の事例として扱い、投資推奨はしていません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "この図はあくまで推測です。他の産業への広がりや開示の標準化は、公式な見通しではありません。" },
+            { "speaker": "host", "text": "推測は推測と、きちんと分けて示しているんだね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "今後、どんな論点が出てきそう？" },
+            { "speaker": "analyst", "text": "25社の内訳の開示、ルート最適化の本格導入、開示基準の標準化、この3つが推測として考えられます。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "これから何に注目しておけばいい？" },
+            { "speaker": "analyst", "text": "25社の内訳、ルート最適化の進捗、決算での言及、この3点に注目です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。S&P500の25社がAIの利益率効果を定量開示し、Waste Connectionsは年間約2,000万ドルの効果です。" },
+            { "speaker": "host", "text": "でも25社の内訳や詳しい方法論は、まだ分からないままなんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はBloombergを中心に、Yahoo Finance、Futunnです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdに一覧でまとめてあるんだね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "AIの恩恵は、最先端テック企業だけの話じゃなかった。次は、あなたの業界かもしれない。それが今日の締めくくりです。" },
+            { "speaker": "host", "text": "続報が出たら、また出典付きで追いかけよう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
