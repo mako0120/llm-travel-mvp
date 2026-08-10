@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "title": "「tokenmaxxing」を生み出した張本人が、その終わりを宣言した",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "https://fortune.com/2026/08/07/uber-ai-spending-tokenmaxxing-is-over-cto/",
+      "https://finance.yahoo.com/technology/ai/articles/blowing-entire-2026-ai-budget-174815792.html",
+      "https://uk.finance.yahoo.com/news/ubers-cto-says-company-coming-052313786.html",
+      "https://www.aol.com/articles/ubers-cto-says-company-coming-052313000.html",
+      "https://thenextweb.com/news/uber-cto-tokenmaxxing-era-ending-ai-spending",
+      "https://www.thehansindia.com/tech/uber-cto-says-tokenmaxxing-era-is-ending-after-ai-budget-burnout-1106069",
+      "https://www.briefs.co/news/uber-tech-chief-heaviest-ai-token-expenses-are-behind-us/"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "『tokenmaxxing』って言葉を作った張本人が、その終わりを宣言したらしいよ。", "source": "https://fortune.com/2026/08/07/uber-ai-spending-tokenmaxxing-is-over-cto/" },
+            { "speaker": "analyst", "text": "2026年8月7日、FortuneがUberのCTOの発言を報じました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、CTOはAIコストの傾向を理由に『tokenmaxxing時代の終わりに近づいている』と発言しました。", "source": "https://fortune.com/2026/08/07/uber-ai-spending-tokenmaxxing-is-over-cto/" },
+            { "speaker": "host", "text": "水曜日のX投稿での発言なんだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで整理するの？" },
+            { "speaker": "analyst", "text": "基礎知識、Uberが火付け役とされる経緯、発言の中身、既存テーマとの関係、そして不明点まで、5つの流れで見ていきます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマを選んだ理由は、発表が2日前という新しさと、展開のオチの強さです。" },
+            { "speaker": "host", "text": "言葉を広めた張本人が、自分でその終わりを語るってなかなかない展開だよね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "analyst", "text": "UberのCTOがX投稿で発言し、Fortuneが2026年8月7日に報じました。", "source": "https://fortune.com/2026/08/07/uber-ai-spending-tokenmaxxing-is-over-cto/" },
+            { "speaker": "host", "text": "背景には、Uber自身がこの言葉の火付け役だったという経緯があるんだよね。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "この話、どのメディアが報じているの？" },
+            { "speaker": "analyst", "text": "Fortuneが最初に報じ、Yahoo Finance・AOL・TheNextWebが同内容を裏付けています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "Naga氏の発言をそのまま引用します。『いわゆるtokenmaxxing時代の終わりに近づいているもう一つのシグナルだと思う』。", "source": "https://fortune.com/2026/08/07/uber-ai-spending-tokenmaxxing-is-over-cto/" },
+            { "speaker": "host", "text": "複数のメディアで文言が一致してるのが確認済みなんだね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで用語を整理します。tokenmaxxingとは、企業が従業員にAI利用を最大限に増やすよう促す2026年上半期のトレンドです。" },
+            { "speaker": "host", "text": "多くの企業が投資対効果に疑問を持って、方針から後退してるとされてるんだよね。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "Uberとこの言葉、どういう関係があるの？" },
+            { "speaker": "analyst", "text": "2026年前半、Uberは社員にAI活用を強く促し、利用量でエンジニアを順位付ける仕組みまで作っていました。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "2026年4月時点で、Claude Code向けの2026年通年分の予算をすでに使い切っていたとされます。", "source": "https://finance.yahoo.com/technology/ai/articles/blowing-entire-2026-ai-budget-174815792.html" },
+            { "speaker": "host", "text": "4月の時点でもう使い切ってたって、かなりのペースだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "Uberが行っていた施策は3つ。AI活用の強い奨励、利用量でのリーダーボード、そして急速な支出です。" },
+            { "speaker": "host", "text": "ここまでが前提。ここから、実際の変化の話に入っていこう。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "4月と8月、比べるとどう違うの？" },
+            { "speaker": "analyst", "text": "同じ会社・同じCTOが、わずか数か月で正反対のトーンの発言をしています。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "2026年の年始からフロンティア級AIツールを使う従業員は4倍に増えたとされています。", "source": "https://finance.yahoo.com/technology/ai/articles/blowing-entire-2026-ai-budget-174815792.html" },
+            { "speaker": "host", "text": "4倍って、これはUber側の自己申告なんだよね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "利用者は増える一方で、AIトークン1件あたりのコストは低下しているという逆説的な状況です。" },
+            { "speaker": "host", "text": "具体的な下落率は報道されてなくて、不明として扱ってるんだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "コスト低下の要因は4つ。プロンプトキャッシュの改善、モデル見直し、利用状況の可視化、オープンウェイトモデルの試験導入です。", "source": "https://finance.yahoo.com/technology/ai/articles/blowing-entire-2026-ai-budget-174815792.html" },
+            { "speaker": "host", "text": "技術的な工夫を積み重ねてコストを下げてるんだね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "もう一つの引用です。『次の段階は、誰が一番使ったかではなく、いかに効率的に使うかで特徴づけられる』。" },
+            { "speaker": "host", "text": "使う量から、使い方の質へと軸が移ってるんだね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことを一覧にしました。予算の金額、傾向の定量数値、次の段階の具体的な制度です。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱ってるのが分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "このシリーズ、tokenmaxxingを扱うの3回目だよね？" },
+            { "speaker": "analyst", "text": "はい。Weaveは測定問題の提起、Microsoftは社内での引き締め、そして今回は火付け役自身による終焉宣言です。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "3つのテーマの流れを図にすると、火付け役から測定問題の提起、社内引き締めを経て、火付け役自身の終焉宣言という流れです。" },
+            { "speaker": "host", "text": "一連の流れに、ちゃんとオチがついた形だね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "企業のAI導入担当にとってはどんな意味があるの？" },
+            { "speaker": "analyst", "text": "利用量そのものを目標にしないこと、コスト管理の技術的な選択肢、可視化の重要性が参考になります。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "エンジニア個人にとってはどう？" },
+            { "speaker": "analyst", "text": "使った量より、効率的な使い方が重視される方向への変化が考えられますが、Uber一社の方針である点には注意が必要です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "実践としては、AI利用量を評価指標にしていないか、技術的な削減余地、可視化の有無、成果の記録、この4点の確認をおすすめします。" },
+            { "speaker": "host", "text": "自分の職場に当てはめて考えられる整理だね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "発想の転換を並べるとどうなるの？" },
+            { "speaker": "analyst", "text": "誰が一番使ったかを競う発想から、いかに効率的に使うかを重視する発想への転換です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "タイトルはかなり印象的な言い方だったけど、大丈夫？" },
+            { "speaker": "analyst", "text": "見出しは注目を集める表現ですが、本文はUber一社の発言として扱い、AI活用全般の価値判断や特定企業の推奨はしていません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "この図はあくまで推測です。他社への波及や新しい評価指標の広がりは、公式な見通しではありません。" },
+            { "speaker": "host", "text": "推測は推測と、きちんと分けて示しているんだね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "今後、どんな論点が出てきそう？" },
+            { "speaker": "analyst", "text": "業界全体への波及、予算・数値の開示、評価指標の変化、この3つが推測として考えられます。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "これから何に注目しておけばいい？" },
+            { "speaker": "analyst", "text": "予算・数値の開示、次の段階の名称、他社の反応、この3点に注目です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。2026年8月7日、UberのCTOはtokenmaxxing時代の終わりを発言しました。" },
+            { "speaker": "host", "text": "でも具体的な数字や次の段階の制度は、まだ分からないままなんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はFortuneを中心に、Yahoo Finance、AOL、TheNextWebなどです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdに一覧でまとめてあるんだね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "言葉を生み出した者が、その終わりを語る。次の段階の名前は、まだ誰も知らない。それが今日の締めくくりです。" },
+            { "speaker": "host", "text": "続報が出たら、また出典付きで追いかけよう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
