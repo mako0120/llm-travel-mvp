@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "title": "本日、米国で初めて『ハンドルのない車』がお金を取り始めた",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/",
+      "https://www.cnbc.com/2026/08/05/amazon-zoox-paid-robotaxi-rides-las-vegas.html",
+      "https://lasvegassun.com/news/2026/aug/06/free-rides-no-more-zoox-robotaxi-service-to-begin/",
+      "https://www.ktnv.com/news/zoox-to-begin-charging-for-robotaxi-rides-in-las-vegas",
+      "https://www.techtimes.com/articles/323440/20260806/zoox-begins-charging-las-vegas-robotaxi-rides-starting-this-sunday.htm",
+      "https://www.cnbc.com/2026/03/11/uber-amazon-zoox-partnership-robotaxi-demand.html",
+      "https://techcrunch.com/2026/03/11/zoox-plans-to-put-its-robotaxis-on-the-uber-app-in-vegas-this-year/"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "今日、ハンドルのない車が初めてお金を取り始めたらしいよ。", "source": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/" },
+            { "speaker": "analyst", "text": "2026年8月10日、Amazon傘下Zooxがラスベガスで有料配車サービスを始めました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、専用設計のロボタクシーが米国で初めて運賃を徴収したんです。", "source": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/" },
+            { "speaker": "host", "text": "料金はUberXより2〜4割高めなんだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで整理するの？" },
+            { "speaker": "analyst", "text": "料金の仕組み、車両の特徴、規制との関係、不明点まで、5つの流れで見ていきます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "先に言うと、これは着手日当日、まさに本日起きた出来事です。" },
+            { "speaker": "host", "text": "鮮度で言えば、これ以上ないタイミングだね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "この話、どこが報じてるの？" },
+            { "speaker": "analyst", "text": "TechCrunch・CNBCに加え、Las Vegas Sunなど地元メディアも同じ内容を確認しています。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "『米国初』の意味を確認しておきます。ハンドル・ペダルなしの車が運賃を取るのは初めてです。", "source": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/" },
+            { "speaker": "host", "text": "今まで似たような車はあったけど、お金を取るのは今日が初めてなんだね。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの経緯を時系列で見せてよ。" },
+            { "speaker": "analyst", "text": "7月末に規制の許可、8月5日に開始予告、そして本日8月10日に実際の開始です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで用語を整理します。Zoox車両は最初から自動運転専用に設計された『専用設計車』です。" },
+            { "speaker": "host", "text": "前後どちらにも走れる、対称な形なんだよね。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "車両の特徴をもう少し詳しく教えてよ。" },
+            { "speaker": "analyst", "text": "ハンドル・ペダルなし、双方向対称、そしてAmazon傘下Zooxが開発した車両です。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "料金は基本料金に距離と時間を加えて算出され、長いルートでも追加料金はありません。", "source": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/" },
+            { "speaker": "host", "text": "でも空港やイベント会場は追加料金がありうるんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "料金をまとめると、価格帯はコンフォート帯ですが、基本運賃の金額自体は非公表です。" },
+            { "speaker": "host", "text": "具体的な金額は分からないんだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "昨日までとの違いを整理してよ。" },
+            { "speaker": "analyst", "text": "昨日までは無料試乗、今日から正式に運賃を取る商用サービスに切り替わりました。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "予約はどうやるの？" },
+            { "speaker": "analyst", "text": "今はZoox自社アプリで予約できます。Uberアプリ連携は年内予定ですが、開始日は不明です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "Uber連携は2026年3月に発表済みで、ラスベガスの後はロサンゼルスへの拡大も報じられています。", "source": "https://www.cnbc.com/2026/03/11/uber-amazon-zoox-partnership-robotaxi-demand.html" },
+            { "speaker": "host", "text": "でも具体的にいつ始まるかはまだ分からないんだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "そもそも、なんで今日から有料化できたの？" },
+            { "speaker": "analyst", "text": "7月31日にNHTSAが、ハンドル等を求める安全基準から一時的な適用除外を許可したからです。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "既存テーマとの関係を整理します。前回はこの規制上の許可自体を扱いました。" },
+            { "speaker": "host", "text": "今回はその許可を使って、実際にサービスが始まった話なんだね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "図にすると、規制の許可、準備期間、そして本日の商用開始という流れです。" },
+            { "speaker": "host", "text": "許可から実際のサービス開始まで、約1週間だったんだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことも一覧にしました。基本運賃の金額、車両台数、他都市展開などです。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱ってるのが分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "利用者にとってはどんな意味があるの？" },
+            { "speaker": "analyst", "text": "配車の選択肢が一つ増え、予約前に運賃を確認できる点がポイントです。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "業界全体で見るとどう？" },
+            { "speaker": "analyst", "text": "先行するWaymoとの比較軸が増え、規制の実運用例にもなります。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "実践としては、対象エリアの確認、運賃の比較、追加料金の確認、この3点をおすすめします。" },
+            { "speaker": "host", "text": "実際に使う前に確認しておきたいことだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "見出しはかなり強い言い方だったけど、大丈夫？" },
+            { "speaker": "analyst", "text": "本文は事実に基づき、特定企業の推奨や安全性の断定はしていません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "今後、どんな論点が出てきそう？" },
+            { "speaker": "analyst", "text": "他都市への拡大、Uber連携の実際の開始、Waymoとの価格競争、この3つが推測として考えられます。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "これから何に注目しておけばいい？" },
+            { "speaker": "analyst", "text": "基本運賃の開示、Uber連携の正式開始、他都市への拡大、この3点に注目です。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでを仕様早見表としてまとめました。提供エリア、車両の特徴、予約方法、法的根拠です。" },
+            { "speaker": "host", "text": "一枚で全体像が分かるね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "料金の水準、もう一回確認していい？" },
+            { "speaker": "analyst", "text": "UberXの標準運賃より2〜4割高い、コンフォート帯の価格設定です。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "本日を境に変わったことは、無料から有料へ、体験から事業へ、規制から実運用へ、この3つです。" },
+            { "speaker": "host", "text": "節目の一日だったんだね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。本日、Zooxはハンドルのない専用設計車で米国初の有料配車を始めました。" },
+            { "speaker": "host", "text": "でも基本運賃や車両台数は、まだ非公表なんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はTechCrunch・CNBCを中心に、地元メディアの続報です。" },
+            { "speaker": "host", "text": "詳細はresearch.mdに一覧でまとめてあるんだね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "ハンドルのない車が、今日から運賃を取っている。それが今日の締めくくりです。" },
+            { "speaker": "host", "text": "続報が出たら、また出典付きで追いかけよう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

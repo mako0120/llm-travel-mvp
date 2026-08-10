@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "title": "訴えられた側が「そっちのセキュリティが甘かったのが原因」と反論した",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "https://www.axios.com/2026/08/06/openai-apple-motion-to-dismiss",
+      "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
+      "https://www.bloomberg.com/news/articles/2026-08-06/openai-asks-judge-to-toss-apple-suit-alleging-trade-secret-theft",
+      "https://9to5mac.com/2026/08/06/openai-apple-thrown-out-lawsuit/",
+      "https://www.claimsjournal.com/news/national/2026/08/07/339348.htm",
+      "https://thenextweb.com/news/openai-motion-dismiss-apple-trade-secrets-case",
+      "https://theaiinsider.tech/2026/08/06/openai-files-motion-to-dismiss-apples-trade-secrets-lawsuit-cites-security-lapses/"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "訴えられた側が『そっちのセキュリティが甘い』って反論したらしいよ。", "source": "https://www.axios.com/2026/08/06/openai-apple-motion-to-dismiss" },
+            { "speaker": "analyst", "text": "2026年8月6日、OpenAIがAppleの営業秘密訴訟の却下を裁判所に申立てました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "31ページの申立書の中心は、Apple自身のiCloud運用が『認証情報の隙間』を生んだという主張です。", "source": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/" },
+            { "speaker": "host", "text": "訴えられた側が原因を相手に押し返した形なんだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで整理するの？" },
+            { "speaker": "analyst", "text": "背景、反論の核心、法的根拠、双方の主張の中立整理、今後のスケジュールまで、5つの流れで見ていきます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "先に正直に言うと、申立ては4日前で、通常の鮮度基準を満たしていません。" },
+            { "speaker": "host", "text": "しかも2ラウンド連続の例外採用なんだよね。そこも正直に伝えないとね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "analyst", "text": "そもそもAppleが、OpenAIと元Apple社員2名を営業秘密の不正利用で訴えていました。", "source": "https://www.axios.com/2026/08/06/openai-apple-motion-to-dismiss" },
+            { "speaker": "host", "text": "その訴訟に対して、今回OpenAIが却下を求めたんだね。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "この話、どこが報じてるの？" },
+            { "speaker": "analyst", "text": "Axios・TechCrunch・Bloombergを中心に、9to5MacやTheNextWebなど複数のメディアが裏付けています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "OpenAIが提出した却下申立書は31ページに及びます。", "source": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/" },
+            { "speaker": "host", "text": "かなりのボリュームだね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "報道によれば、『fail』という語が変化形を含めておよそ50回近く登場するそうです。", "source": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/" },
+            { "speaker": "host", "text": "Appleの『失敗』を繰り返し指摘する、かなり踏み込んだ論調なんだね。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "時系列で整理するとどうなるの？" },
+            { "speaker": "analyst", "text": "提訴、8月4〜5日ごろの仮差止命令申立て、そして8月6日の却下申立て、という流れです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで用語を整理します。却下申立ては、訴えが法的に成立しないとして審理前に却下を求める手続きです。" },
+            { "speaker": "host", "text": "認められても、事実関係の白黒がついたわけじゃないんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "そもそもAppleは何を訴えてたの？" },
+            { "speaker": "analyst", "text": "営業秘密の不正利用、不適切な引き抜き、そしてOpenAIの消費者向けハードウェア参入が背景にあるとされています。", "source": "https://www.axios.com/2026/08/06/openai-apple-motion-to-dismiss" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "OpenAIの反論の核心は『認証情報の隙間』理論です。Appleの社内運用が隙間を生んだという主張です。", "source": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/" },
+            { "speaker": "host", "text": "会社端末の個人メッセージを審査する一方、業務で個人iCloudを奨励してたんだよね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "その『隙間』、もう少し詳しく教えて。" },
+            { "speaker": "analyst", "text": "データが混在し、退職後もサーバーへのアクセスが続いた、という流れをOpenAIは主張しています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "申立書からの引用です。『根拠のない口実的な訴訟を、自社の力不足の埋め合わせに使うべきではない』。" },
+            { "speaker": "host", "text": "かなり強い言葉で反論してるね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "法的にはどういう根拠で却下を求めてるの？" },
+            { "speaker": "analyst", "text": "保護対象の営業秘密が未立証であること、不正行為の具体的な主張が不足していること、この2点です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで両者の主張を並べて整理します。Appleの訴状での主張と、OpenAIの反論です。" },
+            { "speaker": "host", "text": "どっちが正しいかは、僕たちは判断しないんだよね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "この動画って、どっちかの肩を持つの？" },
+            { "speaker": "analyst", "text": "いいえ。私企業間の商業訴訟の事実報道であり、どちらが正しいかは判断・断定しません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことも一覧にしました。元社員の氏名、具体的な営業秘密の内容などです。" },
+            { "speaker": "host", "text": "分からないことは推測で埋めず、不明として扱ってるのが分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "この先のスケジュールはどうなってるの？" },
+            { "speaker": "analyst", "text": "8月17日にOpenAIの正式回答期限、10月1日にサンノゼ連邦地裁で審理が予定されています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "『却下申立て』が何を意味しないかも整理しておきます。勝敗が決まったわけではありません。" },
+            { "speaker": "host", "text": "裁判所が認めるとは限らないし、Apple側の反論もこれからなんだね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "なんでAppleはハードウェア参入をそんなに気にするの？" },
+            { "speaker": "analyst", "text": "Appleは長年ハードウェア市場で強い立場にあり、新規参入企業の動きに敏感とされています。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "企業の人事・法務担当にとってはどんな意味があるの？" },
+            { "speaker": "analyst", "text": "退職者アクセスの棚卸し、業務・個人アカウントの線引き、採用時の情報管理ルールが参考になります。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "エンジニア個人にとってはどう？" },
+            { "speaker": "analyst", "text": "転職時の情報の扱いや、業務・個人アカウントを分ける習慣が参考になりますが、本件固有の事情である点には注意が必要です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "実践としては、退職者アクセスの遮断、アカウントの線引き、審査ポリシーの明示、採用ルールの整備、この4点の確認をおすすめします。" },
+            { "speaker": "host", "text": "自分の職場に当てはめて考えられる整理だね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "見出しはかなり強い言い方だったけど、大丈夫？" },
+            { "speaker": "analyst", "text": "本文は申立書の内容に基づく事実として扱い、鮮度の例外採用も中立性も一貫して明示しています。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "今後、どんな論点が出てきそう？" },
+            { "speaker": "analyst", "text": "Appleの反論内容、仮差止命令の行方、業界への波及、この3つが推測として考えられます。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "これから何に注目しておけばいい？" },
+            { "speaker": "analyst", "text": "8月17日の回答期限、Appleの反論内容、10月1日の審理、この3点に注目です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。2026年8月6日、OpenAIはApple自身の運用に問題があったと主張し、却下を申立てました。" },
+            { "speaker": "host", "text": "でもApple側の反論や最終判断は、まだ出てないんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はAxios・TechCrunch・Bloombergを中心とした複数のメディアです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdに一覧でまとめてあるんだね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "却下されるか、審理入りするか。まだ結論は出ていません。それが今日の締めくくりです。" },
+            { "speaker": "host", "text": "続報が出たら、また出典付きで追いかけよう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
