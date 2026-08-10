@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "北米の大学に、初めて『4,900ドルからのロボット』が届いた",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "https://www.stclaircollege.ca/news/r1-humanoid-robot-arrives-st-clair-college",
+      "https://academica.ca/top-ten/st-clair-receives-unitree-r1-humanoid-robot",
+      "https://windsor.ctvnews.ca/st-clair-college-welcomes-humanoid-robot"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "北米の大学に、初めて4,900ドルからのロボットが届いたらしいよ。", "source": "https://www.stclaircollege.ca/news/r1-humanoid-robot-arrives-st-clair-college" },
+            { "speaker": "analyst", "text": "2026年8月9日、カナダのSt. Clair CollegeがUnitree R1を受領したと発表しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、北米の大学として初めての受領で、研究・イノベーション部門に配備されました。", "source": "https://www.stclaircollege.ca/news/r1-humanoid-robot-arrives-st-clair-college" },
+            { "speaker": "host", "text": "AI/LLM研究のプラットフォームとして使うんだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで整理するの？" },
+            { "speaker": "analyst", "text": "受領の中身、ロボットの特徴、製品情報との違い、不明点まで、5つの流れで見ていきます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "この発表は着手日から1日前で、鮮度基準をしっかり満たしています。" },
+            { "speaker": "host", "text": "複数の情報源が同じ内容を報じているのも安心材料だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "この話、どこが報じてるの？" },
+            { "speaker": "analyst", "text": "St. Clair College公式に加え、Academica Group、CTV News Windsorが同じ内容を確認しています。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "『北米初』の意味を確認しておきます。これは製品の発表ではなく、大学が受領した事象が初めてなんです。", "source": "https://www.stclaircollege.ca/news/r1-humanoid-robot-arrives-st-clair-college" },
+            { "speaker": "host", "text": "ロボット自体は前から売られてたんだね。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの経緯を時系列で見せてよ。" },
+            { "speaker": "analyst", "text": "4月にR1が出荷開始、8月9日に大学受領の発表、そして本日この動画でお伝えしています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで用語を整理します。応用研究プラットフォームとは、実際の業務に近い場面でAI技術を検証する枠組みです。" },
+            { "speaker": "host", "text": "ヒューマノイドロボットは人型で人間に近い動作ができるロボットのことだね。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "今回の受領、具体的にはどうなってるの？" },
+            { "speaker": "analyst", "text": "研究・イノベーション部門に配備され、産業界パートナーと協力する予定です。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "ロボットができることは、歩く、走る、話す、踊るの4つです。", "source": "https://windsor.ctvnews.ca/st-clair-college-welcomes-humanoid-robot" },
+            { "speaker": "host", "text": "結構いろんな動作ができるんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "ここからは製品自体の仕様です。身長約1.21メートル、重量約25キロ、関節数26個です。" },
+            { "speaker": "host", "text": "これはSt. Clair Collegeの発表じゃなくて、製品解説記事の情報なんだよね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "価格はどれくらいなの？" },
+            { "speaker": "analyst", "text": "構成により4,900ドルから10,500ドルです。ただし大学の実際の購入金額は不明です。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "製品と今回のニュース、どう違うのか整理してよ。" },
+            { "speaker": "analyst", "text": "製品自体は既存品、今回新しいのは大学が受領して研究に使うという事例です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて強調します。これは新製品発表ではなく、教育機関への導入事例です。" },
+            { "speaker": "host", "text": "製品スペックと大学の発表を混同しないことが大事なんだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "関係を図で見せてよ。" },
+            { "speaker": "analyst", "text": "メーカーのUnitreeがR1を作り、St. Clair Collegeが受領し、研究・イノベーション部門に配備されました。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "研究の狙いは3つ、産業効率・生産性・意思決定への効果を検証することです。" },
+            { "speaker": "host", "text": "実際の現場に近い形で検証するんだね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことも一覧にしました。調達価格、パートナー企業名、成果の公開時期などです。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱ってるのが分かりやすいね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "教育機関にとってはどんな意味があるの？" },
+            { "speaker": "analyst", "text": "先行事例としての注目度と、比較的検討しやすい価格帯がポイントです。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "学生や研究者にとってはどう？" },
+            { "speaker": "analyst", "text": "実機で研究できる機会や産業界との接点が生まれる可能性があります。具体的な参加方法はまだ不明です。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "今後の流れです。配備は完了、この先は研究開始、産業界との検証、成果公開と続きます。" },
+            { "speaker": "host", "text": "でも開始時期や公開時期はまだ分からないんだね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "実践としては、目的の見極め、産業界連携の重要性、続報の確認をおすすめします。" },
+            { "speaker": "host", "text": "参考にする側も確認しておきたいポイントだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "見出しはかなり強い言い方だったけど、大丈夫？" },
+            { "speaker": "analyst", "text": "本文は事実に基づき、政治的な論争には踏み込まず、特定企業の推奨もしていません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "今後、どんな論点が出てきそう？" },
+            { "speaker": "analyst", "text": "他の教育機関への波及、パートナー公表、研究成果の発表時期、この3つが推測として考えられます。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでの内容を、確定事実・製品情報・不明点に分けて早見表にまとめました。" },
+            { "speaker": "host", "text": "混同しないことが大事なんだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "覚えておきたい数字、もう一回教えてよ。" },
+            { "speaker": "analyst", "text": "R1は26個の関節を持ち、人間に近い動作を可能にしています。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "この受領で変わったこと、変わらないこと、そして未確定なことを整理しました。" },
+            { "speaker": "host", "text": "研究成果が出るかはこれから次第なんだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "『安いロボット』っていう表現、大丈夫なの？" },
+            { "speaker": "analyst", "text": "製品一般の価格帯という事実に基づく表現で、大学の実際の購入金額は不明のままお伝えしています。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "今後注目したいのは、パートナー公表、研究成果の発表、他大学への波及の3点です。" },
+            { "speaker": "host", "text": "続報が出たら、また出典付きで追いかけよう。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はSt. Clair College公式、Academica Group、CTV News Windsorです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdに一覧でまとめてあるんだね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "北米の大学に、初めて安価なロボットが届いた。研究はこれからです。それが今日の締めくくりです。" },
+            { "speaker": "host", "text": "続報が出たら、また出典付きで追いかけよう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
