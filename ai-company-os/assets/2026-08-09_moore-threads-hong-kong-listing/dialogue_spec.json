@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "title": "株価420%、赤字94%減の『中国版NVIDIA』が香港上場を計画",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "https://www.bloomberg.com/news/articles/2026-08-09/china-ai-chip-designer-moore-threads-plans-hong-kong-listing",
+      "https://www.scmp.com/business/banking-finance/article/3361754/chinese-gpu-maker-confidentially-files-hong-kong-ipo-amid-fundraising-wave-sources",
+      "https://www.scmp.com/tech/tech-trends/article/3363448/moore-threads-plans-hong-kong-listing-after-posting-147-jump-first-half-revenue",
+      "https://thenextweb.com/news/moore-threads-hong-kong-listing-ai-chip-nvidia-china",
+      "https://cryptobriefing.com/moore-threads-hong-kong-listing-share-surge/",
+      "https://bambooworks.substack.com/p/bamboo-works-weekly-moore-threads"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "株価が420%上がって、赤字が9割以上消えた会社があるらしいよ。", "source": "https://www.bloomberg.com/news/articles/2026-08-09/china-ai-chip-designer-moore-threads-plans-hong-kong-listing" },
+            { "speaker": "analyst", "text": "中国のAI半導体企業Moore Threadsです。2026年8月9日、香港上場を計画していると報じられました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、上海上場後の株価急騰を背景に、香港上場を計画しているという発表です。", "source": "https://www.bloomberg.com/news/articles/2026-08-09/china-ai-chip-designer-moore-threads-plans-hong-kong-listing" },
+            { "speaker": "host", "text": "売上147%増、純損失94%縮小って、財務もかなり改善してるね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで整理するの？" },
+            { "speaker": "analyst", "text": "会社概要、財務実績、上場の狙い、政治的中立性への配慮、不明点まで、5つの流れで見ていきます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "先に言うと、これは着手日から1日前の発表で、鮮度基準を満たしています。" },
+            { "speaker": "host", "text": "複数のメディアが同じ数字を報じてるのも安心材料だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "この話、どこが報じてるの？" },
+            { "speaker": "analyst", "text": "Bloombergの一次報道に加え、South China Morning Post等が同じ内容を確認しています。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "まず株価です。2025年12月の上海上場以来、420%を超えて上昇しています。", "source": "https://www.bloomberg.com/news/articles/2026-08-09/china-ai-chip-designer-moore-threads-plans-hong-kong-listing" },
+            { "speaker": "host", "text": "あくまで上場来の上昇率で、時価総額の絶対額は分かってないんだね。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "Moore Threadsは北京拠点のAI半導体設計企業で、GPUの設計を手がけています。" },
+            { "speaker": "host", "text": "『中国版NVIDIA』って呼ばれてるけど、あくまでメディアの通称なんだね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの経緯を時系列で見せてよ。" },
+            { "speaker": "analyst", "text": "2025年12月に上海上場、2026年上半期に業績改善、そして8月9日に香港上場計画の報道です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "上海上場時には80億元を調達したと報じられています。", "source": "https://www.scmp.com/tech/tech-trends/article/3363448/moore-threads-plans-hong-kong-listing-after-posting-147-jump-first-half-revenue" },
+            { "speaker": "host", "text": "そこから株価が420%超上がった、という流れなんだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで用語を整理します。STARマーケットは上海のハイテク企業向け市場、H株は中国企業が香港に上場する際の株式です。" },
+            { "speaker": "host", "text": "今回はその香港側のメインボードへの上場が計画されてるんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "上海と香港、それぞれどう違うの？" },
+            { "speaker": "analyst", "text": "上海はすでに上場済みで大きく値上がりしていますが、香港側は取締役会承認の段階で、時期は未定です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "財務実績を3つの数字でまとめると、売上147%増、純損失94%縮小、株価420%超上昇です。" },
+            { "speaker": "host", "text": "いずれも大きな改善・上昇だね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "純損失の具体的な数字は？" },
+            { "speaker": "analyst", "text": "前年同期の2億7,090万元から、今年は1,160万元へ縮小しました。", "source": "https://www.bloomberg.com/news/articles/2026-08-09/china-ai-chip-designer-moore-threads-plans-hong-kong-listing" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "グラフにするとこうです。270.9百万元から11.6百万元へ、1年でおよそ9割以上縮小しています。" },
+            { "speaker": "host", "text": "数字で見ると縮小の勢いがよく分かるね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "売上のほうも確認していい？" },
+            { "speaker": "analyst", "text": "2026年上半期の売上は17.4億元で、前年同期比147%増です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "香港上場の狙いは、国際化戦略の深化と、優秀な人材の確保とされています。", "source": "https://www.scmp.com/business/banking-finance/article/3361754/chinese-gpu-maker-confidentially-files-hong-kong-ipo-amid-fundraising-wave-sources" },
+            { "speaker": "host", "text": "具体的な調達額や時期はまだ公表されてないんだね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "香港市場全体としてはどんな状況なの？" },
+            { "speaker": "analyst", "text": "2026年の香港IPO調達額は420億ドルを超え、過去6年で最高水準です。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "『中国版NVIDIA』という呼び方は、市場ポジショニングに基づく通称です。" },
+            { "speaker": "host", "text": "NVIDIA製品との技術的な性能比較の結果ではないんだね、そこは注意が必要だ。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "中国企業を扱うテーマだから、ここは気になるところだね。" },
+            { "speaker": "analyst", "text": "本テーマはビジネス・財務・技術の話題として扱い、地政学的な論評は一切行いません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことも一覧にしました。上場時期、調達額、時価総額、性能比較などです。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱ってるのが分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "投資家にとってはどんな意味があるの？" },
+            { "speaker": "analyst", "text": "国際的なアクセスが広がる可能性がある一方、まだ黒字化前で、時期も未確定です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "業界全体で見るとどう？" },
+            { "speaker": "analyst", "text": "香港IPO市場全体の活況の一例で、資金調達手段の多様化を示しています。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "香港上場に向けた現在地は、取締役会承認と関係者との協議段階です。" },
+            { "speaker": "host", "text": "正式申請や上場時期は、まだ確定していないんだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "実践としては、正式申請の有無、調達額の比較、財務実績の推移、この3点をおすすめします。" },
+            { "speaker": "host", "text": "続報を追うときのチェックポイントだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "見出しはかなり強い言い方だったけど、大丈夫？" },
+            { "speaker": "analyst", "text": "本文は報道された数値の範囲にとどめ、特定企業への投資推奨もしていません。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "今後、どんな論点が出てきそう？" },
+            { "speaker": "analyst", "text": "上場時期の具体化、調達規模、他の中国AI半導体企業との比較、この3つが推測として考えられます。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでを会社概要早見表としてまとめました。本社、事業内容、上海上場、財務実績、香港上場計画です。" },
+            { "speaker": "host", "text": "一枚で全体像が分かるね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。株価420%超上昇、純損失94%縮小、売上147%増を背景に、香港上場が計画されています。" },
+            { "speaker": "host", "text": "でも具体的な時期や調達額は、まだ不明なんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はBloombergを中心に、South China Morning Post等の続報です。" },
+            { "speaker": "host", "text": "詳細はresearch.mdに一覧でまとめてあるんだね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "『中国版NVIDIA』が、香港市場を目指している。それが今日の締めくくりです。" },
+            { "speaker": "host", "text": "続報が出たら、また出典付きで追いかけよう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
