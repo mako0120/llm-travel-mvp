@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "title": "もう人間の許可はいらない。Claude Codeが自分で判断して動き出す",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "https://www.techi.com/claude-code-auto-mode-default-11-percent-miss-rate/",
+      "https://finance.biggo.com/news/70b588e8-3e64-42e9-a28e-cc2851090d66",
+      "https://thenewstack.io/claude-code-auto-mode/",
+      "https://mezha.net/eng/bukvy/1ad90c40_anthropic_will_make/",
+      "https://egamers.io/claude-code-turns-auto-mode-on-by-default-as-anthropic-targets-rubber-stamped-approvals/",
+      "https://blockchain.news/news/claude-code-auto-mode-default-pro-max-team"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "『もう人間の許可はいらない』——Claude Codeが自分で判断して動き出すらしいよ。", "source": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/" },
+            { "speaker": "analyst", "text": "2026年8月9日、TechCrunchがAnthropicの発表を報じました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、Claude CodeのPro・Max・Team全アカウントで、8月14日からAuto Modeが既定設定になります。", "source": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/" },
+            { "speaker": "host", "text": "毎回の承認が、もう標準じゃなくなるんだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで整理するの？" },
+            { "speaker": "analyst", "text": "基礎知識、従来方式との違い、発表された数字、責任者の発言と賛否両論、そして不明点まで、5つの流れで見ていきます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマを選んだ理由は、発表が1日前という新しさと、AIが自分で判断して動き出すという展開のインパクトです。" },
+            { "speaker": "host", "text": "89%対13.6%とか、具体的な数字も複数あるんだよね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "analyst", "text": "AnthropicがAuto Modeを既定設定にすると発表し、TechCrunchが2026年8月9日に報じました。", "source": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/" },
+            { "speaker": "host", "text": "対象はPro・Max・Teamの全アカウントなんだね。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "この話、どのメディアが報じているの？" },
+            { "speaker": "analyst", "text": "TechCrunchが最初に報じ、The Decoder・TECHi・BigGo Financeなどが同内容を裏付けています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで用語を整理します。Auto ModeはClaude Codeの実行モードの一つで、一定の基準に該当しない操作は自動実行されます。" },
+            { "speaker": "host", "text": "テスト版自体は2026年3月からあったんだね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "従来方式とAuto Mode、何が違うの？" },
+            { "speaker": "analyst", "text": "従来は毎回の承認が『反射的なクリック』になっていた一方、Auto Modeは基準を超える操作だけに承認を求めます。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "分類器が『不可逆的・破壊的・環境外』かどうかを判定し、該当しなければ自動実行されます。", "source": "https://thenewstack.io/claude-code-auto-mode/" },
+            { "speaker": "host", "text": "その判定基準の細かい中身は、確認できなかったんだよね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "Auto Modeに関わる要素は3つ。分類による自動判定、追加の安全機能、対象プランです。" },
+            { "speaker": "host", "text": "ここまでが前提。ここから、発表された数字の話に入っていこう。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "1,053名の有償テスターを対象とした調査で、Auto Modeは有害な操作の89%を検知しました。", "source": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/" },
+            { "speaker": "host", "text": "89%ってかなり高い検知率だね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "同じ調査で、人間によるレビューは13.6%しか検知できませんでした。", "source": "https://www.techi.com/claude-code-auto-mode-default-11-percent-miss-rate/" },
+            { "speaker": "host", "text": "89%と13.6%、かなりの差があるね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "グラフにするとこうです。Auto Modeの89%に対し、人間レビューは13.6%にとどまります。" },
+            { "speaker": "host", "text": "見るとその差がよく分かるね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "全許可プロンプトの97%が承認されていて、Anthropicはこれを『反射的なクリック』と表現しています。", "source": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/" },
+            { "speaker": "host", "text": "97%って、ほとんど中身を見ずに承認していたってことなのかな。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "Anthropicはこの状態を『承認疲れ』と説明していますが、これはAnthropic側の解釈である点には留意が必要です。" },
+            { "speaker": "host", "text": "第三者による検証はまだ確認できていないんだね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "Auto Mode採用チームはプルリクエスト数が約25%増加したと報告されています。" },
+            { "speaker": "host", "text": "ただ、これは無作為化された比較試験じゃないんだよね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "Claude Code責任者のBoris Cherny氏はこう述べています。『チームは何か月も前からAuto Modeのみを使っており、承認プロンプトに戻ることは考えられない』。" },
+            { "speaker": "host", "text": "責任者自身が、もう戻れないと言ってるんだね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "時系列を整理すると、2026年3月にテスト版公開、8月9日に発表報道、8月14日から既定化という流れです。" },
+            { "speaker": "host", "text": "半年弱でテストから既定化まで進んだんだね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "全アカウントが対象ってわけじゃないんだよね？" },
+            { "speaker": "analyst", "text": "Enterprise・APIは当面オプトインのまま据え置かれ、管理者が確認する時間を確保したうえで拡大する方針とされています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "既定化とあわせて、プロンプトインジェクション対策や、管理者が設定できる拒否ルールなどの安全機能も展開されているとされます。" },
+            { "speaker": "host", "text": "安全面の強化も同時に進めているんだね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことを一覧にしました。判定基準の詳細、オフに戻せるかどうか、セキュリティ事例の有無です。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱ってるのが分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "開発者個人にとってはどんな意味があるの？" },
+            { "speaker": "analyst", "text": "承認の頻度は減りますが、何が自動化される範囲なのかを理解し、設定を確認しておくことが大切です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "企業・開発チームにとってはどう？" },
+            { "speaker": "analyst", "text": "開発速度への影響、ガバナンス設計の見直し、Enterprise/APIが当面現状維持である点を踏まえた検討が参考になります。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "賛否両論を並べると、生産性向上を支持する見方と、判定基準の不透明さを懸念する見方の両方があります。" },
+            { "speaker": "host", "text": "どちらか一方に決めつけないことが大事なんだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "このシリーズ自体、Claude Codeで作られてるんだよね？大丈夫なの？" },
+            { "speaker": "analyst", "text": "はい。だからこそ自己宣伝にならないよう、生産性向上の主張と自動化リスクへの懸念の両方を中立的に扱い、特定製品の利用を強く推奨する結論にはしていません。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "この図はあくまで推測です。Enterprise・APIへの拡大や、他社への波及は公式な見通しではありません。" },
+            { "speaker": "host", "text": "推測は推測と、きちんと分けて示しているんだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "今後、どんな論点が出てきそう？" },
+            { "speaker": "analyst", "text": "判定基準の透明性、セキュリティ事例の有無、他社の追随、この3つが推測として考えられます。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。2026年8月14日、Claude CodeのPro/Max/Team全アカウントでAuto Modeが既定になります。" },
+            { "speaker": "host", "text": "でも判定基準の詳細やセキュリティ事例は、まだ分からないままなんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はTechCrunchを中心に、The Decoder、TECHi、BigGo Financeなどです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdに一覧でまとめてあるんだね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "承認は、人間からアルゴリズムへ。次に問われるのは、その基準の中身だ。それが今日の締めくくりです。" },
+            { "speaker": "host", "text": "続報が出たら、また出典付きで追いかけよう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

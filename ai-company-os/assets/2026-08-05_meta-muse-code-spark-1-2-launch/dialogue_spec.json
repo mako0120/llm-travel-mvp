@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "Meta、AIコーディングエージェント「Muse Code」と新モデル「Muse Spark 1.2」を発表",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Meta AI Research公式ブログ「Introducing Muse Code and Muse Spark 1.2」",
+      "MarkTechPost(2026-08-05)",
+      "Forbes(2026-08-06)",
+      "VentureBeat(2026-08-06)",
+      "Technology.org(2026-08-07)",
+      "Pulse2",
+      "research/2026-08-10_theme-evaluation-round93.md"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "Metaが『Muse Code』と『Muse Spark 1.2』を同時発表したんだって。" },
+            { "speaker": "analyst", "text": "2026年8月5日から7日にかけて、複数の海外メディアが報じています。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論は2つ。Metaにとって初の専用コーディングエージェントと、共同学習した新モデルの同時投入です。" },
+            { "speaker": "host", "text": "料金にも意外な仕組みがあるって聞いたよ。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何がわかるの?" },
+            { "speaker": "analyst", "text": "仕組み、料金、そして利用前に確認したいことまで、出典付きで整理していきます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "でもこれ、発表から数日経ってるニュースだよね?" },
+            { "speaker": "analyst", "text": "その通りです。正直にお伝えすると、通常の『2日以内』という基準は満たしていません。26件前後検索しても代わりの候補が見つからず、例外的な最終手段として採用しました。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "analyst", "text": "報道日もメディアごとにばらついています。MarkTechPostが8月5日、Forbes・VentureBeatが8月6日、Technology.orgが8月7日です。" },
+            { "speaker": "host", "text": "だから取り上げるタイミングも遅れたんだね。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "Muse Codeは、Metaにとって初の専用コーディングエージェントです。長時間稼働・マルチエージェント型の開発ワークフロー向けに設計されています。" },
+            { "speaker": "host", "text": "Metaが専用のコーディング製品を出すのは初めてなんだ。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "整理すると、Muse Spark 1.2はMuse Codeと共同学習され、Meta Model API経由で提供されます。" },
+            { "speaker": "host", "text": "モデルとエージェントをセットで作り込んだんだね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "『コーディングエージェント』って、そもそも何なの?" },
+            { "speaker": "analyst", "text": "人間の指示をもとに、計画からコーディング、検証までを一括で行うAIのことです。Git worktreeという言葉もこの後出てくるので覚えておいてください。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "Muse Codeは、ターミナルから単一コマンドで導入できます。大規模リポジトリ全体の計画・コーディング・検証を一括で担う設計です。" },
+            { "speaker": "host", "text": "導入のハードルは低そうだね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "大規模プロジェクトは複数のサブタスクに自動分割され、書き込み可能なサブエージェントが独立して変更を加えます。" },
+            { "speaker": "host", "text": "でも自分のメイン作業には影響しないんだよね?" },
+            { "speaker": "analyst", "text": "はい、開発者本人のメイン作業コピーには影響を与えない設計です。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでを、導入方法・対象範囲・並行処理・監査性・セッション継続の5項目で表にまとめました。" },
+            { "speaker": "host", "text": "この後、それぞれ詳しく見ていくんだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "AIモデルを単体で使うのと、Muse Codeを使うのとで何が違うの?" },
+            { "speaker": "analyst", "text": "単体だとタスクの指示や並行管理を人手で行いますが、Muse Codeは分割・並行実行・記録を自動で担います。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "並行処理を支えるのがGit worktreeです。サブエージェントごとに独立した作業領域で動きます。" },
+            { "speaker": "host", "text": "だからメインのコピーが荒らされる心配がないんだ。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "もう1つの特徴が監査性です。全サブエージェント・ツール呼び出し・介入・キャンセルが再生可能なイベントログとして記録されます。" },
+            { "speaker": "host", "text": "後から何が起きたか確認できるのは安心だね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "作業中にノートPCを閉じたらどうなるの?" },
+            { "speaker": "analyst", "text": "セッションは継続します。プロセスがクラッシュしても大丈夫で、muse resumeコマンドでログから前回セッションを復元できます。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "前に扱ったMuse Spark 1.1の回と、今回は何が違うの?" },
+            { "speaker": "analyst", "text": "24本目はMuse Spark 1.1単体とZuckerberg氏のX投稿が中心でした。今回はMuse Spark 1.2に加え、初の専用エージェントであるMuse Codeを同時に投入したという、別の出来事です。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "Muse Spark 1.2は、コード生成・複雑なデバッグ・コードベース理解を1.1から改善したとされています。" },
+            { "speaker": "host", "text": "具体的な点数とかはあるの?" },
+            { "speaker": "analyst", "text": "具体的なベンチマーク数値と第三者検証の状況は、今回の調査では確認できていません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "料金は標準ティアで、入力が100万トークンあたり1.25ドル、出力が4.25ドルです。キャッシュ入力は0.15ドルとさらに安くなります。" },
+            { "speaker": "host", "text": "グラフにするとこうです、という感じで表にしてもらえると分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "『contributor』ティアって何?" },
+            { "speaker": "analyst", "text": "自分のプロンプトや応答をMeta社のAI学習に使う同意をすると割引されるティアです。標準ティアの12分の1程度という言及もありますが、これは1つの情報源のみの記述で、確度は低いと考えてください。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "contributorティアを選ぶ前に確認したいことをまとめました。正確な値引き率、同意の範囲、機密情報の扱いは、いずれも公開情報からは確認できていません。" },
+            { "speaker": "host", "text": "契約前にMeta公式の情報を確認するのが安全だね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "他にも分からないことはある?" },
+            { "speaker": "analyst", "text": "Muse CodeのGA時期、ベンチマークの第三者検証、contributorティアの正確な割引率、日本語対応の詳細です。いずれも不明として正直にお伝えします。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "個人開発者にとっては、専用エージェントの選択肢が1つ増えるという意味があります。" },
+            { "speaker": "host", "text": "でも早期ベータだから、まずは小さいタスクで試すのがよさそうだね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "企業やチームにとっては、監査ログの仕組みがエンタープライズ導入の検討材料になりえます。" },
+            { "speaker": "host", "text": "一方でcontributorティアを選ぶなら、社内コードの機密性を事前に確認しないとね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "実際に検討する場合の流れです。公式ブログの確認、料金比較、データポリシーの確認、小規模タスクでのお試し、の順です。" },
+            { "speaker": "host", "text": "いきなり本番のプロジェクトに投入するのは避けたほうがよさそうだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "実際、どんな場面で使われそうなの?" },
+            { "speaker": "analyst", "text": "あくまで推測ですが、大規模なリファクタリングや長時間のマイグレーション、監査ログが必要なチーム開発などが考えられます。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "気になる点や反対意見もありそう。" },
+            { "speaker": "analyst", "text": "データ提供への懸念、第三者検証のないベンチマーク主張への慎重な見方、早期ベータゆえの不確実性が想定されます。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "この動画は、Meta社の公式発表という事実紹介であり、特定企業の利用を強く推奨する結論にはしていません。" },
+            { "speaker": "host", "text": "推測部分もちゃんと『推測』と言ってくれてるのが安心だね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "今後の論点として、コーディングエージェント市場の競争がさらに加速する可能性、料金モデルが他社にも広がるかどうかが挙げられます。" },
+            { "speaker": "host", "text": "GA時期はまだ分からないから、続報を待つしかないね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "使用した主な出典です。Meta公式ブログを軸に、MarkTechPost、Forbes、VentureBeat、Technology.orgを突き合わせました。contributorティアの割引率はPulse2のみの言及です。" },
+            { "speaker": "host", "text": "出典がはっきりしてると安心して見られるね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "Metaのコーディングエージェント参入、今回はここまでだね。" },
+            { "speaker": "analyst", "text": "発表から3〜5日後の取り上げという例外運用だったことを、あらためてお伝えして終わります。続報が出次第、また整理します。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
