@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "R&D予算の40%がAIトークン代に消えた会社が、社員のAI利用を丸ごと可視化するツールを作った",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "https://www.rippling.com/blog/introducing-ai-spend-console",
+      "https://www.rippling.com/platform/ai/ai-spend-console",
+      "https://blog.pebblous.ai/blog/rippling-ai-spend-employee-roi/en/",
+      "https://www.techbuzz.ai/articles/rippling-s-ai-spending-wake-up-call-sparks-new-roi-tracker",
+      "https://startupfortune.com/rippling-built-an-ai-spending-tracker-after-nearly-burning-its-rd-budget-on-tokens/",
+      "https://stockpil.com/rippling-ai-spend-console",
+      "https://bitcoinworld.co.in/rippling-ai-spend-console/",
+      "https://techrseries.com/employee-engagement/rippling-launches-ai-spend-console-to-track-ai-usage-and-roi-across-the-business/"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "R&D予算の40%が、AIトークン代に消えてた会社があるらしいよ。", "source": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/" },
+            { "speaker": "analyst", "text": "2026年8月7日、TechCrunchがHR大手Ripplingの内部事情を報じました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、AIトークン支出がR&D人件費予算の40%に達する軌道にあったんです。", "source": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/" },
+            { "speaker": "host", "text": "しかも月次80%のペースで増え続けてたんだよね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで整理するの？" },
+            { "speaker": "analyst", "text": "数字の中身、社内調査で分かったこと、作ったツール、既存テーマとの関係、不明点まで、5つの流れで見ていきます。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "先に正直に言うと、発表は3日前で、通常の鮮度基準を満たしていません。" },
+            { "speaker": "host", "text": "探しても2日以内の候補が見つからなかったから、例外的に採用したんだね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "analyst", "text": "2026年3月、CFOのAdam Swiecicki氏が経営陣に危機的な数字を報告しました。", "source": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/" },
+            { "speaker": "host", "text": "そこから社内調査、ツール開発、発表まで進んだんだね。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "この話、どこが報じてるの？" },
+            { "speaker": "analyst", "text": "TechCrunchを筆頭に、Rippling自身の公式発表や複数の専門メディアが数字を裏付けています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "40%というのは、R&D部門の給与総額と同じ規模の金額をAIトークンに使っていた、ということです。", "source": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/" },
+            { "speaker": "host", "text": "人件費と肩を並べるレベルって、なかなかの規模だね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "増加ペースも見ておきましょう。月次80%増で、このまま続けば翌年には人件費のほぼ90%に達する計算だったそうです。", "source": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/" },
+            { "speaker": "host", "text": "放っておいたらとんでもないことになってたんだね。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "時系列で整理するとどうなるの？" },
+            { "speaker": "analyst", "text": "3月に危機発覚、そして8月7日に『AI Spend Console』の発表という流れです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで用語を整理します。トークンは使うほど費用がかかる従量課金の単位で、Ripplingは人事・給与クラウドの会社です。" },
+            { "speaker": "host", "text": "そのエンジニア組織の人件費予算並みの金額が、AIに消えかけてたってことだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "社内調査では、10〜15%の社員が総AI支出の約60%を占めていました。", "source": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/" },
+            { "speaker": "host", "text": "中には月5万ドル超を使ってたエンジニアもいたんだよね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "なんでそんなに膨らんだの？" },
+            { "speaker": "analyst", "text": "常に最高額のモデルを選ぶ習慣と、利用状況を可視化・誘導する仕組みが無かったことが背景です。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでの数字を一覧にしました。40%、月次80%増、10〜15%の社員が60%、月5万ドル超です。" },
+            { "speaker": "host", "text": "こうやって並べると、危機感の大きさが伝わるね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "それで作った『AI Spend Console』って、何ができるツールなの？" },
+            { "speaker": "analyst", "text": "社員別の可視化、成果とのROI評価、そして支出が本当に価値を生んでいるかの見極め、この3つです。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "Claude・Cursor・Codexを横断して利用状況を集約し、GitHubやSalesforceの成果データと突き合わせます。", "source": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/" },
+            { "speaker": "host", "text": "コードレビューでのやり直しが多い人まで見えちゃうんだね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "CFOの発言をそのまま引用します。『いくら使っているかではなく、それが何を生み出しているかが問題だ』。" },
+            { "speaker": "host", "text": "コスト管理じゃなくて、成果管理を目指してる言葉だね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "導入した効果はどうだったの？" },
+            { "speaker": "analyst", "text": "支出はR&D人件費予算の40%から約15%まで低下。7月は4月とほぼ同じ利用量でも、支出は4月の37%だったそうです。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "しかもこのツール、Ripplingは自社利用にとどめず、他企業向けにも外販しています。" },
+            { "speaker": "host", "text": "自分たちが困ったからこそ、同じ悩みを持つ会社も多いと見てるんだね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "このシリーズ、同じ問題領域を扱うの4回目だよね？" },
+            { "speaker": "analyst", "text": "はい。Weaveは測定問題の提起、Microsoftは社内引き締め、Uberは終焉宣言、そして今回は実際に製品を作って外販までした事例です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "4つのテーマの流れを図にすると、測定問題の提起から始まり、社内引き締め、終焉宣言を経て、危機対応ツールの製品化に至ります。" },
+            { "speaker": "host", "text": "だんだん対応が具体的になってきてる流れだね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことも一覧にしました。正確な支出総額、算出期間の詳細、機能の全容などです。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱ってるのが分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "企業のAI導入担当にとってはどんな意味があるの？" },
+            { "speaker": "analyst", "text": "利用量そのものを目標にしないこと、可視化の重要性、成果との突き合わせが参考になります。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "エンジニア個人にとってはどう？" },
+            { "speaker": "analyst", "text": "使った量より成果とセットで見られる方向への変化が考えられますが、Rippling一社の取り組みである点には注意が必要です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "実践としては、評価指標の設計、可視化の有無、モデルの使い分け、成果の記録、この4点の確認をおすすめします。" },
+            { "speaker": "host", "text": "自分の職場に当てはめて考えられる整理だね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "見出しはかなり強い言い方だったけど、大丈夫？" },
+            { "speaker": "analyst", "text": "本文はRippling一社の発表として扱い、特定企業の推奨や誇張はしていません。鮮度の例外採用も正直に開示しています。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "今後、どんな論点が出てきそう？" },
+            { "speaker": "analyst", "text": "他社への波及、外販の成果、評価指標の広がり、この3つが推測として考えられます。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "これから何に注目しておけばいい？" },
+            { "speaker": "analyst", "text": "正確な支出総額の開示、他社の反応、外販の実績、この3点に注目です。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "まとめます。2026年8月7日、Ripplingは危機的なAI支出への対応として開発したツールを発表しました。" },
+            { "speaker": "host", "text": "でも正確な総額や機能の全容は、まだ非公表なんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はTechCrunchを中心に、Rippling公式発表やstockpilなどです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdに一覧でまとめてあるんだね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "『いくら使ったか』ではなく、『何が生まれたか』。それが今日の締めくくりです。" },
+            { "speaker": "host", "text": "続報が出たら、また出典付きで追いかけよう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
