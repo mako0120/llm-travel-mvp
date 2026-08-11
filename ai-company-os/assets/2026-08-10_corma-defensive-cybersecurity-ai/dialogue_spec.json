@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "title": "Corma、防御専用サイバーセキュリティAIの「フロンティア研究所」としてステルス解除",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Fortune(2026-08-10) Exclusive: Corma raises $60 million from Sequoia, Khosla Ventures for AI trained to defend against cyberattacks",
+      "SiliconANGLE(2026-08-10) Corma launches with $60M in funding for defensive cybersecurity AI"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "攻撃側がAIを使うなら、防御側もAIを使えばいい……そんな会社が出てきたらしいね？", "source": "Fortune(2026-08-10)" },
+            { "speaker": "analyst", "text": "2026年8月10日、テルアビブとサンフランシスコ拠点のCormaが、防御専用サイバーセキュリティAIの『フロンティア研究所』を標榜してステルスを解除しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、Sequoia Capital主導で6,000万ドルのシード資金調達を実施したと発表しています。" },
+            { "speaker": "host", "text": "6,000万ドル、いきなり大きい金額から入ってきたね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで見ていくの？" },
+            { "speaker": "analyst", "text": "Cormaの基礎知識から、資金調達の中身、実績数字の読み解き方まで、5つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは着手日から1日前という新しい話題で、攻撃と防御の対比がはっきりしたフックになります。" },
+            { "speaker": "host", "text": "創業チームの構成も異色なんだよね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそも、業界全体はどういう状況なの？" },
+            { "speaker": "analyst", "text": "攻撃側でAIの利用が高度化していると指摘される中、防御側にもAIを充てるという位置づけでCormaは報じられています。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "Fortuneが独自取材として報じたほか、SiliconANGLE、Sequoia Capital自身の公式ブログなど複数メディアが同時期に取り上げました。", "source": "Fortune(2026-08-10)" },
+            { "speaker": "host", "text": "1社の発表じゃなくて、いろんなところが報じてるんだね。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "時系列は、2025年の設立、6週間前の先行デプロイ、そして今回のステルス解除の3段階です。" },
+            { "speaker": "host", "text": "ここまでが前提。ここから会社の中身に入っていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "会社の基本情報を教えて。" },
+            { "speaker": "analyst", "text": "2025年設立、テルアビブとサンフランシスコに拠点、テルアビブに20名。CEOはAlon Pluda氏です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "『フロンティア研究所』ってどういう意味？" },
+            { "speaker": "analyst", "text": "最先端の基盤モデル自体を独自開発する組織を指す言葉で、Cormaは防御専用に特化した初のフロンティア研究所を名乗っています。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "展開するAIエージェントは、既存のセキュリティツール群をまたいで動き、人間を置き換えず『仮想従業員』のように機能する設計とされています。" },
+            { "speaker": "host", "text": "具体的な操作範囲までは分かってないんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "従来のやり方とどう違うの？" },
+            { "speaker": "analyst", "text": "人手中心の運用に対し、Cormaは既存ツールを横断して自律的に動くエージェントを『仮想従業員』として位置づけています。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "資金調達額は6,000万ドル。Sequoia Capitalが主導し、Khosla VenturesとCoatueが参加しました。", "source": "SiliconANGLE(2026-08-10)" },
+            { "speaker": "host", "text": "投資家の顔ぶれも豪華だね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "Sequoiaは自社の公式ブログでも提携を発表していて、力の入れようがうかがえます。" },
+            { "speaker": "host", "text": "投資家側からも積極的にアピールしてるんだね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "テルアビブの従業員数は20名。サンフランシスコ拠点の人数は本調査では不明です。" },
+            { "speaker": "host", "text": "まだ小さなチームなんだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "創業チームは、Google・DeepMind出身のAI研究者と、イスラエルの精鋭諜報部隊Unit 8200出身のサイバーセキュリティ専門家で構成されると報じられています。" },
+            { "speaker": "host", "text": "ここは事実として淡々とお伝えして、地政学的な論評はしないでおこう。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "CEOのAlon Pluda氏のもと、AI研究とサイバーセキュリティ、異なる専門性を持つメンバーで創業チームが構成されています。" },
+            { "speaker": "host", "text": "グラフにするとこうです、って感じで役割がはっきり分かれてるね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "発表前から、もう実際に使われてたの？" },
+            { "speaker": "analyst", "text": "発表の6週間前に、最初のモデルをフォーチュン100・フォーチュン500企業にすでにデプロイしていたと報じられています。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "デプロイ先とされる業界は、医療、金融サービス、エネルギー・重要インフラ、小売です。" },
+            { "speaker": "host", "text": "具体的な企業名までは公表されてないんだね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "発表された数字の1つ目、脅威対応時間を94%超短縮したとされていますが、これはCorma社自身の発表による自社測定値です。" },
+            { "speaker": "host", "text": "94%超って、かなり大きい数字だね。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "もう1つの数字は、セキュリティカバレッジを15倍に拡大したというもの。これも自社測定値です。" },
+            { "speaker": "host", "text": "15倍っていうのも、インパクトのある数字だね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "この2つはいずれも自社発表の数値で、測定期間・比較対象・算出方法は出典記事に記載がなく不明です。第三者検証も確認できていません。" },
+            { "speaker": "host", "text": "数字は大きいけど、鵜呑みにはできないってことだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "AIエージェントは既存のセキュリティツール群をまたいで動き、人間のセキュリティチームを置き換えるのではなく補う設計だと説明されています。" },
+            { "speaker": "host", "text": "あくまで人間のサポート役という位置づけなんだね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "導入を考える企業は、何を確認すればいいの？" },
+            { "speaker": "analyst", "text": "権限範囲、数字の測定方法、具体的な導入事例の開示、この3点を確認することを勧めます。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "企業は独自検証を経てから判断すること、投資家は今後の開示を注視すること、一般の読者は業界動向の一例として捉えること、それぞれ実践的な示唆があります。" },
+            { "speaker": "host", "text": "立場によって見るべきポイントが違うんだね。ここから、まとめに入ろう。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "創業チームの経歴については、どう扱ってるの？" },
+            { "speaker": "analyst", "text": "Unit 8200出身という経歴は事実として淡々と扱い、地政学的な論評は一切行わず、経済ニュースの枠組みで整理する方針です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことは、デプロイ先企業の社名、数字の測定方法、一般提供時期・料金、企業評価額の4点です。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱ってるんだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "発表された実績数字を第三者検証済みの事実であるかのように断定せず、あくまで報道されている範囲の事実にとどめます。" },
+            { "speaker": "host", "text": "特定企業・製品を強く推す結論にもしないんだね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はFortune・SiliconANGLE・Sequoia Capital公式ブログほか、6つの情報源です。" },
+            { "speaker": "host", "text": "詳細はresearch.mdに一覧でまとめてあるんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "最後にもう一度まとめると？" },
+            { "speaker": "analyst", "text": "6つの独立した情報源が、同じ時期にこの発表を報じました。単発の噂ではなく、複数の裏付けがある話題です。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "攻撃側がAIを使うなら、防御側もAIを使う。ただし94%超・15倍という数字は自社発表であることを忘れずに、続報を出典付きで追っていきます。" },
+            { "speaker": "host", "text": "数字の大きさに流されず、冷静に見ていこう。次回もまた出典付きでお届けします。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
