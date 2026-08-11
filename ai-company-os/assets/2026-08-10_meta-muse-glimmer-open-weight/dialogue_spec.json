@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "title": "自分のノートPCで、AIエージェントが動く時代へ ― Meta「Muse Glimmer」",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg「Meta Releases Muse Glimmer AI Model People Can Run on Their Laptop」",
+      "CNBC「Meta launches Muse Glimmer open-weight AI model」",
+      "TechCrunch「Meta's new Glimmer AI model offers a hint at Zuckerberg's personal intelligence vision」",
+      "MarkTechPost",
+      "Phoronix",
+      "Open Source For You",
+      "Yahoo Finance"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "24GBのGPU1枚で、AIエージェントが自宅で動くらしいよ。" },
+            { "speaker": "analyst", "text": "Metaが2026年8月10日に発表した『Muse Glimmer』です。今日はこれを見ていきましょう。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "つまり結論はどういうこと？" },
+            { "speaker": "analyst", "text": "コンシューマー向けGPU1枚で、クラウドなしでもエージェントAIが動くということです。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどこまで分かるようになるの？" },
+            { "speaker": "analyst", "text": "数字の根拠と、既存シリーズとの違い、そして不明な点までセットで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "なんで今このタイミングで取り上げるの？" },
+            { "speaker": "analyst", "text": "発表が着手日の1日前と新しく、複数の独立系メディアが同時に報じているからです。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな順番で話すの？" },
+            { "speaker": "analyst", "text": "基礎知識からスペック、速度の数字、既存シリーズとの違いまで進みます。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "どのくらい話題になったの？" },
+            { "speaker": "analyst", "text": "Bloomberg、CNBC、TechCrunchに加えYahoo Financeまで、幅広く報じられています。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "要点は3つ。初の専用オープンウェイト型、Apache 2.0で無償公開、そして株価反応です。" },
+            { "speaker": "host", "text": "株価の変動幅は分かってるの？" },
+            { "speaker": "analyst", "text": "そこは報道からは確認できず、具体的な数字は不明のままです。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "図にするとこうです。OpenAIやAnthropicはクローズド路線、Metaはオープン路線です。" },
+            { "speaker": "host", "text": "ここが前提。ここから中身に入っていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "まず『オープンウェイトモデル』は、重みを誰でもダウンロードできるモデルのことです。" },
+            { "speaker": "host", "text": "オープンソースとは違うんだ。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "『エージェントAI』は複数ステップの推論やツール利用、失敗からの回復までこなすAIです。" },
+            { "speaker": "host", "text": "1問1答のチャットボットとは別物なんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "Muse Glimmerは既存のMuse Sparkから蒸留して作られています。" },
+            { "speaker": "host", "text": "能力を引き継ぎつつ、軽くしたってことか。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "規模は300億パラメータ、いわゆる30Bクラスの密モデルです。" },
+            { "speaker": "host", "text": "最大級ではないけど、それが軽さの理由でもあるんだね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "表にするとこうです。量子化・デコーディング方式・必要VRAM・ライセンスをまとめました。" },
+            { "speaker": "host", "text": "必要なのは24GBのGPU1枚、ライセンスはApache 2.0か。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "仕組みは2つ。4bit量子化でサイズを圧縮し、DFlash投機的デコーディングで生成を速くしています。" },
+            { "speaker": "host", "text": "その組み合わせでコンシューマーGPUに収まるんだ。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "グラフにするとこうです。RTX 5090で3.1倍、M5 Maxで1.8倍、M4 Maxで1.5倍です。" },
+            { "speaker": "host", "text": "3機種とも速くなってるんだね。1つずつ見ていこう。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "NVIDIA RTX 5090では3.1倍。3機種の中で最も高い倍率です。" },
+            { "speaker": "host", "text": "比較対象は分かってるの？" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "Apple M5 Maxでは1.8倍です。Appleのシリコンでも動作対象になっています。" },
+            { "speaker": "host", "text": "ノートPCも意識した設計なんだね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "Apple M4 Maxでは1.5倍。3機種すべてで速度向上が確認されています。" },
+            { "speaker": "host", "text": "でもさっきの疑問、比較対象は結局どうなの？" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "実はそこは不明です。自社測定値で、比較対象や測定条件は公開されていません。" },
+            { "speaker": "host", "text": "数字はすごいけど、鵜呑みにしすぎないよう気をつけよう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "Museシリーズは今回が初登場ではありません。7月のSpark 1.1から続いています。" },
+            { "speaker": "host", "text": "今回で3回目のMuse関連ニュースなんだね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "表で比べると、過去2回はモデル単体・コーディングエージェントが焦点でした。" },
+            { "speaker": "host", "text": "今回は『ローカルで動く』という別の切り口なんだ。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて条件です。無償のApache 2.0、24GB GPU1枚、オフライン動作。" },
+            { "speaker": "host", "text": "ここまでが確定している事実だね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "個人にとっては、クラウド費用を気にせずローカルで試せる可能性が広がります。" },
+            { "speaker": "host", "text": "まずは自分のGPUが24GB以上あるか確認するところからだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "企業にとっては、社外にデータを出せない業務での活用余地が生まれます。" },
+            { "speaker": "host", "text": "検討するならライセンスやサポート体制も要確認だね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "想定シーンはオフライン環境、プライバシー重視業務、コスト抑制、エッジ活用の4つです。" },
+            { "speaker": "host", "text": "でもこれは想定であって、実際の利用実績はまだ確認できてないんだよね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "クラウド型は高性能、ローカル完結型はオフラインとデータ保護が強みです。" },
+            { "speaker": "host", "text": "どちらが優れているというより、使い分けの話なんだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "オープン化には検証しやすいという利点と、サポートは薄いという留意点、両方が一般的に言われます。" },
+            { "speaker": "host", "text": "これは特定の批判じゃなくて、一般的な考え方の整理なんだね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて不明点です。株価の変動幅、実際のダウンロード数、速度倍率の測定条件は不明です。" },
+            { "speaker": "host", "text": "分からないことは分からないと、はっきり言っておこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "今日お伝えしたのは事実整理であって、特定の製品を強く勧めるものではありません。" },
+            { "speaker": "host", "text": "気になった人は、紹介した一次情報を自分でも確認してみてね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "出典はBloomberg、CNBC、TechCrunchなど、本編で紹介した各メディアです。" },
+            { "speaker": "host", "text": "最後まで見てくれてありがとう。また次のニュースで会おう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
