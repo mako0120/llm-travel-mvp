@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "title": "NVIDIA、ウォール街6社と5,000億ドルのAIインフラ資金調達で提携",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg(2026-08-10) Nvidia Taps Wall Street for $500 Billion Funding Commitment",
+      "CNBC(2026-08-11) Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are 'investable asset'"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "AIチップが、不動産みたいな担保になったって聞いたけど本当？", "source": "Bloomberg(2026-08-10)" },
+            { "speaker": "analyst", "text": "2026年8月10日から11日にかけて、NVIDIAがウォール街大手6社とAIインフラ向けに5,000億ドル超を調達するための覚書を締結したと発表しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、ウォール街の大手6社と5,000億ドル超を調達する覚書を締結しました。" },
+            { "speaker": "host", "text": "5,000億ドル、桁が違うね。まだ覚書の段階なんだよね？" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "この動画を見ると何が分かるの？" },
+            { "speaker": "analyst", "text": "規模と参加企業、覚書と確定融資の違い、コンピュート資産を担保にする新しい発想、この3点が分かります。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは着手日から1〜2日前という新しい話題で、5,000億ドルという桁の大きさがフックになります。" },
+            { "speaker": "host", "text": "ウォール街の大手6社全社が応じたというのも意外だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで見ていくの？" },
+            { "speaker": "analyst", "text": "基礎知識から参加企業、覚書段階であることの確認、既存テーマとの違いまで、5つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "そもそも、何がどうなった発表なの？" },
+            { "speaker": "analyst", "text": "NVIDIAが、ウォール街の資産運用・投資銀行大手6社と、AIインフラ向けに5,000億ドル超を調達する覚書を締結したという構図です。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "Bloombergが第一報を伝え、CNBCがフアンCEOへのインタビューを交えて報じたほか、Fortune、Axios、CNN Businessも同時期に取り上げています。", "source": "Bloomberg(2026-08-10)" },
+            { "speaker": "host", "text": "1社の発表じゃなくて、いろんなところが報じてるんだね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "時系列は、2026年8月10日にBloombergが第一報、翌11日にCNBCがフアンCEOのインタビューを報道、という流れです。" },
+            { "speaker": "host", "text": "ここまでが前提。ここから基礎知識に入っていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "『覚書(MOU)』ってどういう意味？" },
+            { "speaker": "analyst", "text": "当事者間の合意事項を確認する文書のことです。最終契約とは異なり、詳細条件は今後詰める段階を指すことが多いんです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "AIインフラには大規模なGPUサーバー群とデータセンター設備が必要で、自己資金だけでは賄いきれなくなっているとされます。" },
+            { "speaker": "host", "text": "だから外部から大きな資金を調達する動きが広がってるんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "『コンピュート資産の資金化』って、具体的にどういうこと？" },
+            { "speaker": "analyst", "text": "GPUサーバー群やデータセンター設備を、商業用不動産や有料道路のような資産として扱い、それを担保に資金を借り入れる仕組みです。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "規模をあらためて確認すると、AIインフラ向けに5,000億ドル超の調達を目指すという発表です。", "source": "Bloomberg / CNBC(2026-08-10〜11)" },
+            { "speaker": "host", "text": "あくまで覚書段階の数字なんだね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "参加した6社ってどこ？" },
+            { "speaker": "analyst", "text": "Apollo Global Management、BlackRock、Blackstone、Brookfield Asset Management、Goldman Sachs、KKRです。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "ジェンスン・フアンCEOはCNBCのインタビューで、この6社にのみ声をかけ、全社が応じたと述べています。", "source": "CNBC(2026-08-11)" },
+            { "speaker": "host", "text": "声をかけた全社が応じたっていうのはすごいね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "担保にする、っていう部分をもう一度整理して。" },
+            { "speaker": "analyst", "text": "コンピュートインフラを資産として位置づけ、それを担保に資金を借り入れ、AIインフラ向けに供給する枠組みが想定されています。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "従来型は企業の信用力に基づく社債発行が中心ですが、今回はコンピュートインフラ自体を担保にする発想です。" },
+            { "speaker": "host", "text": "資金調達の仕方そのものが変わろうとしてるんだね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "この資金って、結局どこに流れるの？" },
+            { "speaker": "analyst", "text": "フロンティアAI研究所、AI関連企業、クラウドプロバイダーに及ぶとされていますが、具体的な配分先は不明です。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでの数字をカードで振り返ると、5,000億ドル超、参加6社、覚書という段階、5媒体の報道の4つです。" },
+            { "speaker": "host", "text": "グラフにするとこうです、って感じで数字が整理されてるね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "ここ、大事なところだよね？" },
+            { "speaker": "analyst", "text": "はい。今回は覚書の段階であり、5,000億ドル全額が即座に融資・調達されることが確定しているわけではありません。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "覚書は合意事項を確認する文書で、詳細条件は今後詰める段階。確定した融資はそれとは別の、条件が確定した契約です。" },
+            { "speaker": "host", "text": "数字の大きさだけで早合点しちゃいけないんだね。ここから、事実と不明点を整理しよう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの話、事実と推測はちゃんと分かれてる？" },
+            { "speaker": "analyst", "text": "参加企業や枠組みの発表内容は検証済みの事実です。設備投資拡大が背景にあるという整理は、合理的な推測として区別しています。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことは、最終契約への条件、具体的な融資条件、各社の個別出資額、具体的な配分先の4点です。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱ってるんだね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "この発表を見るとき、何を確認すればいいの？" },
+            { "speaker": "analyst", "text": "覚書の段階であること、続報で確定条件が出るか、資金の実際の配分先、この3点を意識することを勧めます。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "投資家は続報を継続確認、企業は新しい資金調達手法の広がりとして捉え、一般の読者は確定額と誤解しないこと、それぞれ示唆があります。" },
+            { "speaker": "host", "text": "立場によって見るべきポイントが違うんだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "似たようなNVIDIAの資金調達ニュース、前にもあったよね？" },
+            { "speaker": "analyst", "text": "7月28日発表の既存テーマは、NVIDIA・OpenAIによるオハイオ州の特定データセンター向け資金保証の協議でした。今回は別の発表です。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "当事者、対象、規模のすべてが異なります。今回はOpenAIが当事者ではなく、ウォール街の資産運用会社6社との枠組みです。" },
+            { "speaker": "host", "text": "似た名前でも、中身は全然違う発表なんだね。ここから、まとめに入ろう。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "この発表、どういう方針で扱ってるの？" },
+            { "speaker": "analyst", "text": "特定企業・製品の利用を推奨する結論にはせず、政治的な争点には踏み込まず、覚書段階であることを繰り返し明示しています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はBloomberg・CNBCほか、5つの独立した情報源です。" },
+            { "speaker": "host", "text": "単発の噂ではなく、複数の裏付けがある話題なんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "主な出典を一覧にしました。詳細はresearch.mdにまとめてあります。" },
+            { "speaker": "host", "text": "気になった人は元記事も見てみてね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "5,000億ドルは覚書段階の数字であり、確定した融資ではないことを忘れずに、続報を出典付きで追っていきます。" },
+            { "speaker": "host", "text": "数字の大きさに流されず、冷静に見ていこう。次回もまた出典付きでお届けします。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
