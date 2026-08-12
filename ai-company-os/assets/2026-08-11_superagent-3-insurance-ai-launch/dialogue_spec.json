@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "SUPERAGENT AI、保険代理店向けAI「ビジネスパートナー」SUPERAGENT 3.0を一般公開",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "https://finance.yahoo.com/technology/ai/articles/superagent-ai-3-0-launches-121700984.html",
+      "https://www.prweb.com/releases/superagent-to-unveil-3-0-tomorrow-the-first-glimpse-of-what-vertical-agi-in-insurance-looks-like-302846519.html",
+      "FFNews(SUPERAGENT AIの過去発表を継続的に報じているが、3.0固有の記事URLは本調査の範囲では未特定)",
+      "BusinessWire(SUPERAGENT AIの過去のプレスリリース配信元だが、3.0固有の記事URLは本調査の範囲では未特定)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "保険屋の仕事が、会話だけで終わる日が来たらしいよ。電話対応も見積もりも、しゃべるだけでいいんだって。", "source": "https://finance.yahoo.com/technology/ai/articles/superagent-ai-3-0-launches-121700984.html" },
+            { "speaker": "analyst", "text": "2026年8月11日、SUPERAGENT AI社が保険代理店向けAI『ビジネスパートナー』SUPERAGENT 3.0を一般公開しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、電話対応からトレーニングまで、単一の会話インターフェースで動かせるAIです。" },
+            { "speaker": "host", "text": "画面をあちこちクリックしなくていい、ってことだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな流れで見ていくの？" },
+            { "speaker": "analyst", "text": "何が変わるか、具体的な業務、料金、自己評価の見方、確認できなかったこと、この5つです。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは着手日から1日以内の、かなり新しい発表です。業務ソフトのあり方に関わる変化が注目点です。" },
+            { "speaker": "host", "text": "保険代理店って、地味に事務作業が多いイメージがあるな。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそも『SUPERAGENT AI』ってどんな会社？" },
+            { "speaker": "analyst", "text": "保険代理店向けにAI製品を開発する企業です。『ビジネスパートナー』は会話で指示するAIという位置づけです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "『保険代理店』のほうも確認しておきたいな。" },
+            { "speaker": "analyst", "text": "保険会社と契約者の間に立ち、提案・契約手続き・アフターサポートを行う事業者です。日常業務の量が多い業種です。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "全体の仕組みを図で見せてくれる？" },
+            { "speaker": "analyst", "text": "会話で指示し、データ変更前は必ず許可を求め、電話対応まで含めて実行する、という構造です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "従来型ソフトと比べると、画面操作から会話へ、ツールの使い分けから単一インターフェースへの転換です。" },
+            { "speaker": "host", "text": "ここまでが前提。ここから具体的に何ができるのか見ていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "会話から実行までの流れは、指示、確認、実行の3ステップです。" },
+            { "speaker": "host", "text": "確認が挟まるのは安心材料だね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "具体的にはどんな業務をこなせるの？" },
+            { "speaker": "analyst", "text": "電話対応、営業支援(キャンペーン・見積もり・データ取得)、品質改善(通話分析・トレーニング)の3つです。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "例えば『今四半期に失注した全リードへの巻き返しキャンペーンを作って』と伝える使い方が紹介されています。", "source": "https://finance.yahoo.com/technology/ai/articles/superagent-ai-3-0-launches-121700984.html" },
+            { "speaker": "host", "text": "それだけの指示で動いてくれるの？" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "指示すると、電話ステップまで含めた実行可能なプレイブックを生成し、その通りに進めるとされています。" },
+            { "speaker": "host", "text": "プレイブックまで自動で組み立ててくれるのは大きいね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "通話分析はどんな機能なの？" },
+            { "speaker": "analyst", "text": "顧客対応を8つの評価軸でスコアリングし、どの断り文句が成約を妨げているかを特定できます。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "数字で確認すると、評価軸は8つです。" },
+            { "speaker": "host", "text": "感覚じゃなくて、数値で振り返れるのはいいね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "困難な顧客対応をAIトレーニングペルソナとして再現し、担当者がロールプレイで練習できる機能もあります。" },
+            { "speaker": "host", "text": "苦手な断り文句のパターンで、実践練習できるってことか。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "主要機能をまとめると、許可を求める仕組み、単一の会話インターフェース、セルフオンボーディングの3つです。" },
+            { "speaker": "host", "text": "料金と使い始め方も気になるな。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "料金はどれくらいなの？" },
+            { "speaker": "analyst", "text": "Pro・Scale・Enterpriseの3段階で、Proは月額約499ドルから、14日間の無料トライアルもあるそうです。ここから注意点に入ろう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "使い始めるまでの流れは？" },
+            { "speaker": "analyst", "text": "公開登録から、チャット誘導型のセルフオンボーディングを経て、会話形式での利用開始まで進みます。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "3.0で確認できている変更点は、このセルフオンボーディングの実現と一般公開というタイミングです。" },
+            { "speaker": "host", "text": "以前のバージョンとの違いの詳細までは分からないんだね。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "この発表、けっこう強気な言い方をしてるって聞いたよ。" },
+            { "speaker": "analyst", "text": "同社は『保険業界史上最大のAIローンチ』と自称しています。ただしこれは自己評価で、第三者の評価ではありません。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "見出しだけ見ると客観的な事実に見えがちですが、実際は自己評価で、実績数値も非公開です。" },
+            { "speaker": "host", "text": "印象と実際の内容、ズレがあるのはよくあるパターンだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことも教えて。" },
+            { "speaker": "analyst", "text": "導入代理店数は自己申告で500以上とされますが独立監査はなし。資金調達状況・『史上最大』の裏付け・評価軸の具体名称もあわせて不明として扱っています。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "事実は公開日時や機能の概要そのもの。許可を求める仕組みの設計意図の解釈は当社の見方です。" },
+            { "speaker": "host", "text": "事実と推測、ちゃんと分けて聞けるのがいいね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "前に扱った保険料率AIのCorgiと、今回は関係あるの？" },
+            { "speaker": "analyst", "text": "企業も製品も別です。あちらは保険料率の評価に特化、今回は代理店業務全体を会話でこなす製品です。最後にまとめと今後の展開に入ろう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "視聴者にとっての示唆は、経営者、現場担当者、AIニュースを追う立場、それぞれで違います。" },
+            { "speaker": "host", "text": "特に『史上最大』を鵜呑みにしない視点は大事だね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "発表・報道はいずれも2026年8月11日、着手日は8月12日で、2日以内という鮮度の基準を満たしています。" },
+            { "speaker": "host", "text": "ここは正直に伝えておきたいポイントだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はYahoo Finance、PRWeb、FFNews、BusinessWireです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdに一覧でまとめてあるんだね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "このテーマ、煽り気味になってないか心配だよ。" },
+            { "speaker": "analyst", "text": "そうはしていません。『史上最大』は自己評価と明示し、確認できなかったことは不明のまま扱っています。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "今後は導入実績の公表、資金調達状況の発表、第三者評価の登場が考えられますが、いずれも未確定です。" },
+            { "speaker": "host", "text": "続報が出たら、また整理し直す必要があるね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後にもう一度まとめると？" },
+            { "speaker": "analyst", "text": "会話だけで業務が完結する新製品ですが、『史上最大』は同社自身の言葉。事実として、今後も出典付きで追っていきます。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
