@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "xAI、常時稼働の自律型AIエージェント「Grok Bot」ベータ版を発表",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "https://www.unite.ai/xai-launches-grok-bot-always-on-ai-teammates-with-their-own-cloud-computers/",
+      "https://finance.yahoo.com/news/spacexai-unveils-grok-bot-work-team-ai-agents",
+      "https://x.ai/news",
+      "https://www.basenor.com/grok-bot-public-beta-is-live-what-you-need-to-know/"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "あなたの会社に、24時間眠らないAI社員が来たらしいよ。専用のクラウドコンピュータまで持ってるんだって。", "source": "https://www.unite.ai/xai-launches-grok-bot-always-on-ai-teammates-with-their-own-cloud-computers/" },
+            { "speaker": "analyst", "text": "2026年8月11日、xAIが常時稼働の自律型AIエージェント群『Grok Bot』のベータ版を発表しました。", "source": "https://x.ai/news" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "一番の特徴は、各Botが専用のクラウドコンピュータを持ち、24時間稼働する点です。" },
+            { "speaker": "host", "text": "呼び出すたびに動く従来のAIとは、そもそも仕組みが違うんだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな流れで見ていくの？" },
+            { "speaker": "analyst", "text": "何が発表されたか、仕組み、提供プラン、社内での利用例、確認できなかったこと、この5つです。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは着手日から1日以内の、かなり新しい発表です。仕組み自体が今までと違う点が注目です。" },
+            { "speaker": "host", "text": "AIアシスタントって、基本は人が呼び出して使うものってイメージだったな。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそも『xAI』と『Grok』って何？" },
+            { "speaker": "analyst", "text": "xAIはイーロン・マスク氏が率いるAI企業で、Grokはそこが開発するAIのブランド名です。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "『Grok Bot』のほうは？" },
+            { "speaker": "analyst", "text": "常時稼働の自律型AIエージェント群です。既存ツールにサインインして、監督なしで複数ステップの業務を完了します。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "全体の仕組みを図で見せてくれる？" },
+            { "speaker": "analyst", "text": "専用クラウドコンピュータを土台に、既存ツールへサインインし、監督なしで複数ステップを完了する、という構造です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "流れを3ステップにすると、起動、サインイン、実行の順です。ここから本題の中身に入ろう。" },
+            { "speaker": "host", "text": "起動して、サインインして、あとは任せる、ってことか。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "従来のAIアシスタントと比べると、都度呼び出す方式から、常時稼働で監督なしに進める方式への転換です。" },
+            { "speaker": "host", "text": "『使う』から『任せておく』に変わる感じだね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "Grok Botって、新しい単体プランなの？" },
+            { "speaker": "analyst", "text": "いいえ。SuperGrok Heavy・Cursor Ultra・Cursor Teams Premiumという既存の上位プランに組み込まれる形です。", "source": "https://www.basenor.com/grok-bot-public-beta-is-live-what-you-need-to-know/" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "対応プラットフォームは、Linux版を含むデスクトップ版と、iOS版が報じられています。" },
+            { "speaker": "host", "text": "パソコンでもスマホでも動くんだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "xAI社内での利用例が3種類あります。夜間に営業メールを作るBot、デモ環境を直すBot、事務作業を担うBotです。" },
+            { "speaker": "host", "text": "それぞれ詳しく聞きたいな。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "夜間に営業メールを作るBotって、どんな動きなの？" },
+            { "speaker": "analyst", "text": "outbound Botです。夜間にアカウントを調査し、個別化した営業メールを作成すると報じられています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "demo-readiness Botは、デモ環境の不具合を検知して修正するBotです。" },
+            { "speaker": "host", "text": "商談直前にデモが壊れてる、みたいな事故を防ぐわけか。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "このほかCRM記録の整備、通話メモの更新、請求書処理、バグの再現を行うBotも社内で使われています。" },
+            { "speaker": "host", "text": "地味だけど時間を取られる作業ばかりだね。ここから今後の予告に入ろう。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "この先の展開についても何か言ってるの？" },
+            { "speaker": "analyst", "text": "マスク氏は、今週後半に予定されているGrok 4.6のリリースに合わせ、より広範な展開を予告しています。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "時系列にすると、8月11日にベータ版発表、今週後半にGrok 4.6、それに合わせて展開拡大の予告、という順です。" },
+            { "speaker": "host", "text": "『予告』であって、まだ確定はしていない、ってことだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことも教えて。" },
+            { "speaker": "analyst", "text": "ベータ版の具体的な料金、利用者数・導入企業数、Grok 4.6の正確な日付、実際の評価、この4点は不明として扱っています。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "事実は公式発表や仕組み・プラン・社内利用例そのもの。専用クラウドの設計意図の解釈は当社の見方です。" },
+            { "speaker": "host", "text": "事実と推測、ちゃんと分けて聞けるのがいいね。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "前に扱ったGrok 4.5やGrok Voiceの話と、今回は関係あるの？" },
+            { "speaker": "analyst", "text": "対象製品も内容も別です。基盤モデルや音声機能ではなく、常時稼働の自律型エージェントという新しい製品カテゴリです。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "見出しだけ見ると『AIが何でも自律してこなす』印象になりがちですが、実際は既存の上位プラン限定の提供です。" },
+            { "speaker": "host", "text": "印象と実際の内容、ズレがあるのはよくあるパターンだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "視聴者にとっての示唆は、ビジネス利用者、開発者・情シス担当者、AIニュースを追う立場、それぞれで違います。" },
+            { "speaker": "host", "text": "特に権限管理・セキュリティ面は気になるポイントだね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "このテーマ、危険を煽る内容になってるの？" },
+            { "speaker": "analyst", "text": "そうはしていません。確認できなかったことは不明のまま扱い、称賛も断定もせず事実関係の整理に徹しています。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "発表・報道はいずれも2026年8月11日、着手日は8月12日で、2日以内という鮮度の基準を満たしています。" },
+            { "speaker": "host", "text": "ここまでが注意点。最後にまとめとよくある疑問に入ろう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "よくある疑問も整理してくれる？" },
+            { "speaker": "analyst", "text": "誰でもすぐ使えるのか、既存発表と同じ話なのか、料金や利用者数は分かるのか、それぞれ『いいえ』『別の話』『不明』です。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "最も一次情報に近いのはx.ai公式ニュースページで、Unite.AI・Yahoo Financeが同日に確認・報道しています。" },
+            { "speaker": "host", "text": "そこは正直に伝えておきたいポイントだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はx.ai公式ニュースページ、Unite.AI、Yahoo Finance、Basenorです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdに一覧でまとめてあるんだね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "今後はGrok 4.6のリリース、Grok Botの展開拡大、料金・利用実績の公表が考えられますが、いずれも未確定です。" },
+            { "speaker": "host", "text": "続報が出たら、また整理し直す必要があるね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "最後にもう一度まとめると？" },
+            { "speaker": "analyst", "text": "常時稼働・専用クラウドという新しい仕組みですが、当面は既存の上位プランに組み込まれた限定的なベータ提供です。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "24時間眠らないAI社員は、まだ一部の契約者だけのもの。次はGrok 4.6と共にどこまで広がるか、事実として追っていきます。" },
+            { "speaker": "host", "text": "今後の続報にも注目していこう。次回もまた出典付きでお届けします。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

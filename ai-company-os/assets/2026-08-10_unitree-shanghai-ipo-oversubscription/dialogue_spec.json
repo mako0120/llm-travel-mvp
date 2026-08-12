@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "中国Unitree、上海IPOに個人投資家から申込倍率5,526倍の殺到",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg「Unitree's Shanghai IPO 5,526 Times Subscribed by Retail Buyers」",
+      "The Tribune「Chinese humanoid robot maker Unitree launches USD 904 million IPO; issue open for subscription」",
+      "Seoul Economic Daily「Unitree Sets IPO Price, to Raise 6.1 Billion Yuan」"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "ロボットの会社に、投資家が5,526倍殺到したって聞いたけど本当？", "source": "Bloomberg(2026-08-10)" },
+            { "speaker": "analyst", "text": "2026年8月10日、中国のヒューマノイドロボット企業Unitreeが上海証券取引所科創板でIPO申込を開始し、個人投資家からの申込倍率が5,526倍に達しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、リテール部分の申込倍率は5,526倍、申込件数は980万件です。" },
+            { "speaker": "host", "text": "980万件、桁が違うね。まだ確認できていないこともあるんだよね？" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "この動画を見ると何が分かるの？" },
+            { "speaker": "analyst", "text": "申込倍率と申込件数の規模、IPO価格や評価額、そしてまだ確認できていないこと、この3点が分かります。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは着手日から2日前という新しい話題で、5,526倍・980万件という桁違いの数字がフックになります。" },
+            { "speaker": "host", "text": "ヒューマノイドロボット企業のIPOっていうのも注目だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで見ていくの？" },
+            { "speaker": "analyst", "text": "基礎知識から価格・評価額の深掘り、まだ確認できていないこと、既存テーマとの違いまで、5つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "そもそも、何がどうなった発表なの？" },
+            { "speaker": "analyst", "text": "Unitreeが上海証券取引所科創板でIPO申込を開始したところ、個人投資家からの申込が殺到したという構図です。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "Bloombergが申込倍率を、The Tribuneが調達額と評価額を、Seoul Economic DailyがIPO価格を、それぞれ報じています。", "source": "各社(2026-08-10)" },
+            { "speaker": "host", "text": "1社の発表じゃなくて、いろんなところが報じてるんだね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "スケジュールは、申込開始が8月10日、払込期限が8月12日、割当結果発表が8月14日頃の予定です。" },
+            { "speaker": "host", "text": "ここまでが前提。ここから基礎知識に入っていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "そもそも『IPO』ってどういう意味？" },
+            { "speaker": "analyst", "text": "非公開の企業が証券取引所に株式を上場し、一般の投資家が売買できるようにすることです。今回の公募価格は1株150.80元でした。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "『科創板』っていうのは何？" },
+            { "speaker": "analyst", "text": "上海証券取引所内にある、半導体・AI・ロボティクスなど先端技術企業向けの市場です。Unitreeはここへの上場を選びました。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "IPOの一般的な流れは、申込→払込→割当→上場の順です。" },
+            { "speaker": "host", "text": "でも実際の上場日は、まだ分かってないんだよね？" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "『申込倍率』って、具体的にどういう意味？" },
+            { "speaker": "analyst", "text": "割り当てられた株式数に対して何倍の申込があったかを示す指標です。今回のリテール部分は5,526倍に達しました。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "IPO価格をあらためて確認すると、1株150.80元です。", "source": "Seoul Economic Daily(2026-08-10)" },
+            { "speaker": "host", "text": "この価格から、調達額と評価額が決まるんだね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "調達予定額と評価額はいくらなの？" },
+            { "speaker": "analyst", "text": "調達予定額は約61億元、ドル換算で約9.04億ドル。評価額は約90.4億ドルとされています。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "評価額をもう一度確認すると、約90.4億ドルです。", "source": "The Tribune(2026-08-10)" },
+            { "speaker": "host", "text": "90億ドル規模の企業として値付けされたんだね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "申込件数の980万件も、あらためて聞くとすごいね。" },
+            { "speaker": "analyst", "text": "個人投資家からの申込は980万件に達したと報じられています。", "source": "Bloomberg(2026-08-10)" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでの数字をカードで振り返ると、申込倍率5,526倍、申込980万件、価格150.80元、評価額90.4億ドルの4つです。" },
+            { "speaker": "host", "text": "グラフにするとこうです、って感じで数字が整理されてるね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "そもそもUnitreeって、どんな会社なの？" },
+            { "speaker": "analyst", "text": "中国のヒューマノイドロボット企業で、開発・製造を手がけています。今回、その企業自体が上海証券取引所に上場しようとしています。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "分かっていることと、まだ分かっていないことを整理すると、申込段階の数字は分かっていますが、上場日や株価動向はまだ分かっていません。" },
+            { "speaker": "host", "text": "数字の大きさだけで早合点しちゃいけないんだね。ここから、注意点を整理しよう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "ここ、大事なところだよね？" },
+            { "speaker": "analyst", "text": "はい。申込・払込・割当のスケジュールは確認できていますが、実際の上場日は本調査の範囲では確認できていません。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの話、事実と推測はちゃんと分かれてる？" },
+            { "speaker": "analyst", "text": "価格や申込倍率は検証済みの事実です。投資家の関心の高さが背景にあるという整理は、合理的な推測として区別しています。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことは、実際の上場日、機関投資家部分の倍率、IPO後の株価動向、財務情報の詳細の4点です。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱ってるんだね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "この発表を見るとき、何を確認すればいいの？" },
+            { "speaker": "analyst", "text": "実際の上場日、割当結果、上場後の値動き、この3点を意識することを勧めます。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "投資家は続報を継続確認、業界に関心がある人は一事例として捉え、一般の読者は確約と混同しないこと、それぞれ示唆があります。" },
+            { "speaker": "host", "text": "立場によって見るべきポイントが違うんだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "Unitreeのニュース、前にもあったよね？" },
+            { "speaker": "analyst", "text": "8月9日発表の既存テーマは、Unitreeのロボット製品R1がカナダの大学に導入された事例でした。今回は別の発表です。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "主題、当事者、扱う対象のすべてが異なります。今回はUnitree社自体の株式上場・資金調達の話です。" },
+            { "speaker": "host", "text": "同じ会社名でも、中身は全然違う発表なんだね。ここから、まとめに入ろう。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "この発表、どういう方針で扱ってるの？" },
+            { "speaker": "analyst", "text": "特定企業・製品の利用を推奨する結論にはせず、政治的な論調には踏み込まず、上場日がまだ不明であることを繰り返し明示しています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一度数字で確認すると、申込倍率5,526倍、申込件数980万件です。実際の上場日はまだ確認できていません。" },
+            { "speaker": "host", "text": "桁違いの数字だけど、冷静に見ていく必要があるんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "主な出典を一覧にしました。詳細はresearch.mdにまとめてあります。" },
+            { "speaker": "host", "text": "気になった人は元記事も見てみてね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "5,526倍殺到しても、上場日や株価動向はまだ確認できていないことを忘れずに、続報を出典付きで追っていきます。" },
+            { "speaker": "host", "text": "数字の大きさに流されず、冷静に見ていこう。次回もまた出典付きでお届けします。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
