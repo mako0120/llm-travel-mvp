@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "title": "Anthropic、ビットコインマイナーのRiot Platformsと91億ドルのコンピュートリース契約を締結",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "CNBC(2026-08-11) Riot Platforms strikes deal with Anthropic as bitcoin miners shift focus to AI infrastructure",
+      "Data Center Dynamics(2026-08-11) Riot Platforms agrees 191MW, 20-year lease agreement with Anthropic worth $9.1bn"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "ビットコインを掘っていた会社が、Anthropicと91億ドルの契約を結んだらしいね？", "source": "CNBC(2026-08-11)" },
+            { "speaker": "analyst", "text": "2026年8月11日、Riot Platforms社がテキサス州ロックデールの拠点から191メガワットのコンピュート容量を20年間Anthropicに供給する契約を発表しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、契約ベースの収益は約91億ドル。発表を受けてRiot Platforms株は急騰しました。" },
+            { "speaker": "host", "text": "91億ドル、いきなり大きい金額から入ってきたね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで見ていくの？" },
+            { "speaker": "analyst", "text": "基礎知識から契約の中身、株価反応の数値の幅、確認できなかったことまで、5つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは着手日から1日前という新しい話題で、91億ドルという桁の大きさがフックになります。" },
+            { "speaker": "host", "text": "ビットコインマイナーがAIインフラに転換するという構図も分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそも、何がどうなった契約なの？" },
+            { "speaker": "analyst", "text": "Riot Platforms社が自社の電力インフラである191メガワットの容量を、20年間Anthropicにリースする契約です。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "CNBCが業界転換の文脈で報じたほか、Data Center Dynamicsが契約条件を詳しく伝えています。", "source": "CNBC(2026-08-11)" },
+            { "speaker": "host", "text": "1社の発表じゃなくて、いろんなところが報じてるんだね。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "時系列は、2026年8月の発表、2027年12月までの段階稼働、2028年6月のフル稼働、2048年6月の契約満了の流れです。" },
+            { "speaker": "host", "text": "ここまでが前提。ここから契約の中身に入っていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "契約の概要を教えて。" },
+            { "speaker": "analyst", "text": "テキサス州ロックデールのキャンパスから191メガワットの容量を、Riot PlatformsがAnthropicへ20年間提供する契約です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "『データセンターリース契約』ってどういう意味？" },
+            { "speaker": "analyst", "text": "データセンターの電力・設備容量を一定期間、特定の企業に貸し出す契約です。自前で建設せずに大規模な計算資源を確保できます。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "『コンピュート容量』は、AIの学習・推論を行うサーバー群が消費する電力の規模をメガワットで表したものです。" },
+            { "speaker": "host", "text": "電力そのものが取り合いになってるんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "なんでビットコインマイナーがAIに転換するの？" },
+            { "speaker": "analyst", "text": "もともとマイニング用に確保していた大規模な電力インフラが、急増するAI需要の受け皿として活用される構図です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "容量をあらためて確認すると、191メガワットのデータセンター電力容量です。", "source": "Data Center Dynamics(2026-08-11)" },
+            { "speaker": "host", "text": "かなり大きな規模だね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "金額の内訳はどうなってるの？" },
+            { "speaker": "analyst", "text": "契約ベースの収益は約91億ドル。5年延長を2回行使すれば最大161億ドルに達する見込みです。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "延長オプションを行使した場合の総額は最大161億ドルと報じられています。" },
+            { "speaker": "host", "text": "あくまで延長した場合の見込みなんだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "191メガワットは一気に使えるようになるの？" },
+            { "speaker": "analyst", "text": "いいえ、段階的です。2027年12月までに96メガワット、2028年6月までにフル稼働を目指すスケジュールです。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでの数字をカードで振り返ると、191メガワット・20年・91億ドル・最大161億ドルの4つです。" },
+            { "speaker": "host", "text": "グラフにするとこうです、って感じで数字が整理されてるね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "91億ドルは20年契約全体の累計見込み額であり、契約締結時点で一括支払いされたわけではありません。" },
+            { "speaker": "host", "text": "数字の大きさだけで早合点しちゃいけないんだね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "株価はどう動いたの？" },
+            { "speaker": "analyst", "text": "発表を受けて急騰しましたが、報道機関により測定タイミングが異なり、17%から25%程度まで数値に幅があります。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "CoinDeskは約20%、24/7 Wall St.は約17%と報じていて、25%程度とする報道もあります。", "source": "CoinDesk(2026-08-11)" },
+            { "speaker": "host", "text": "同じ発表なのに、報じ方によって数字が変わるんだね。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "時間外取引・プレマーケット・寄り付き後など、株価を切り取るタイミングが異なるための差だと考えられます。" },
+            { "speaker": "host", "text": "だから特定の一つの数値には断定しないんだね。ここから、業界全体の話に入ろう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "この契約って、業界全体で見るとどういう位置づけなの？" },
+            { "speaker": "analyst", "text": "ビットコインマイニング企業が保有する電力インフラが、AI需要の受け皿になる業界全体の潮流の一例とされています。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "従来のマイニング収益は価格変動に左右されますが、AIインフラのリース収益は長期契約に基づく見通しが立てやすくなります。" },
+            { "speaker": "host", "text": "その分、AI企業側の需要に依存する新しいリスクもあるんだね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの話、事実と推測はちゃんと分かれてる？" },
+            { "speaker": "analyst", "text": "容量や金額の数字は検証済みの事実です。91億ドルが一括支払いでないという整理は、合理的な推測として区別しています。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことは、Anthropicの公式コメントの有無、電力の具体的な用途、他契約との関係性、Riotの今後の方針の4点です。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱ってるんだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "この契約を見るとき、何を確認すればいいの？" },
+            { "speaker": "analyst", "text": "91億ドルの性質、業界動向が一時的か構造的か、株価反応の数値の幅、この3点を意識することを勧めます。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "投資家は収益計上時期を継続確認、企業は電力確保競争の一例として捉え、一般の読者は数値の幅を踏まえて鵜呑みにしないこと、それぞれ示唆があります。" },
+            { "speaker": "host", "text": "立場によって見るべきポイントが違うんだね。ここから、まとめに入ろう。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "Anthropicが関わるテーマだけど、扱い方に気をつけてる点はある？" },
+            { "speaker": "analyst", "text": "本シリーズ自体がClaude Codeで制作・運用されているため、称賛的な表現は避け、契約規模や株価反応を淡々と報告しています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はCNBC・Data Center Dynamicsほか、5つの独立した情報源です。" },
+            { "speaker": "host", "text": "単発の噂ではなく、複数の裏付けがある話題なんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "主な出典を一覧にしました。詳細はresearch.mdにまとめてあります。" },
+            { "speaker": "host", "text": "気になった人は元記事も見てみてね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "91億ドルは累計の見込み額であり、株価上昇率も報道により幅があることを忘れずに、続報を出典付きで追っていきます。" },
+            { "speaker": "host", "text": "数字の大きさに流されず、冷静に見ていこう。次回もまた出典付きでお届けします。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
