@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "title": "エースにも、こんな日がある。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "日刊ゲンダイDIGITAL「山本由伸は佐々木朗希を\"踏み台\"に12勝目へ…翌日登板で際立つエースの修正力」",
+      "MLB.com「yoshinobu yamamoto post game q and a 8th loss」",
+      "MLB.com「yoshinobu yamamoto 8th loss vs angels」"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "4回2/3、99球、6失点。", "source": "MLB.com(2026-08-11)" },
+            { "speaker": "host", "text": "え、それってどれくらい珍しいの?" },
+            { "speaker": "analyst", "text": "山本由伸投手が対エンゼルス戦で、メジャー移籍後ワーストとなる6失点を喫しました。今日はこの記録を淡々とお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "結論から教えて。" },
+            { "speaker": "analyst", "text": "山本投手は対エンゼルス戦で6失点。これはメジャー移籍後ワーストの数字です。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "何が起きたか、登板成績の内訳、今シーズンの成績、好不調の波について、不明点と今後の見方です。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "なぜ今この話題を扱うの?" },
+            { "speaker": "analyst", "text": "着手日から1日前の登板で鮮度が高く、MLB.comと日刊ゲンダイDIGITALが同じ内容を報じています。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "これって、前に扱った100勝達成の話と同じ?" },
+            { "speaker": "analyst", "text": "いいえ、別の話です。100勝達成テーマは通算記録の節目、本テーマは特定の一試合の登板結果を扱います。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "対戦の基本情報を教えて。" },
+            { "speaker": "analyst", "text": "会場はエンゼルスタジアム、山本投手は中7日で今シーズン23度目の先発でした。試合はエンゼルスが7-4で勝利しています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "そもそも「登板成績」ってどう見ればいいの?" },
+            { "speaker": "analyst", "text": "投球回は投げたイニング数、被安打・与四死球は相手に許した数、失点は投手の責任として記録される点数です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "「勝敗」はどうやって決まるの?" },
+            { "speaker": "analyst", "text": "1試合ごとに勝ち・負け・付かずが記録され、シーズンを通じて積み重なって通算成績になります。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "この試合の流れを整理して。" },
+            { "speaker": "analyst", "text": "中7日での登板、4回2/3・99球の投球、そしてエンゼルスが7-4で勝利し山本投手が8敗目という流れでした。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "投球回は4回2/3でした。" },
+            { "speaker": "host", "text": "先発投手としては短めなんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "投球数はどれくらい?" },
+            { "speaker": "analyst", "text": "99球でした。4回2/3でこの球数です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "内訳を教えて。" },
+            { "speaker": "analyst", "text": "被安打6、与四死球6、失点6という記録でした。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "この6失点が、メジャー移籍後ワーストの数字です。" },
+            { "speaker": "host", "text": "そこまでの記録は珍しいね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "試合結果は?" },
+            { "speaker": "analyst", "text": "エンゼルスが7-4でドジャースを下して勝利しました。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "今シーズン全体の成績は?" },
+            { "speaker": "analyst", "text": "今シーズン23度目の先発で、通算成績は10勝8敗となりました。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "全体の流れを図で教えて。" },
+            { "speaker": "analyst", "text": "23度目の先発から始まり、6安打・6四死球を許し、メジャー移籍後ワーストの6失点、エンゼルスが勝利して8敗目となりました。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "100勝を達成した頃と比べるとどう?" },
+            { "speaker": "analyst", "text": "同じ投手でも、登板によって内容は変わります。これは野球というスポーツの一般的な性質です。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "エースクラスの投手でもこういうことはあるの?" },
+            { "speaker": "analyst", "text": "はい。シーズン中に好不調の波が生じることは一般的で、1試合の結果がシーズン全体を決めるものではありません。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、選手を茶化すような扱いはしてないよね?" },
+            { "speaker": "analyst", "text": "はい。揶揄・嘲笑的な表現は一切使わず、客観的な記録を淡々と報告する構成にしています。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "この結果を知ると何が変わるの?" },
+            { "speaker": "analyst", "text": "今回はあくまで23度目の先発の中の一試合です。10勝8敗という数字は今後の登板次第で変化していく途中経過です。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "この登板を見るポイントは?" },
+            { "speaker": "analyst", "text": "客観的な記録を確認すること、シーズン全体の中で位置づけること、不明点は不明のまま受け止めることです。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "同じ日に大谷翔平選手も試合に出てたよね?" },
+            { "speaker": "analyst", "text": "はい、3試合連続本塁打となる42号ソロを放っています。ただし詳細は既存テーマに譲り、本テーマでは深追いしません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "事実と不明点を整理すると?" },
+            { "speaker": "analyst", "text": "投球内容や試合結果は事実ですが、選手本人のコメントの詳細や次回登板日程は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "不明点を詳しく教えて。" },
+            { "speaker": "analyst", "text": "コメントの詳細、具体的な失点シーンの詳細、次回登板の正確な日程。いずれも出典で確認できていません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "注意点はある?" },
+            { "speaker": "analyst", "text": "断定的な評価・予測はせず、出典に明記のない数字も使用していません。選手を貶める表現も一切使いません。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "既存の山本投手のテーマとの違いをもう一度教えて。" },
+            { "speaker": "analyst", "text": "100勝達成テーマ、吉田正尚選手との対戦テーマ、そして本テーマ。いずれも扱う試合・出来事が異なり、重複ではありません。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "出典をもう一度教えて。" },
+            { "speaker": "analyst", "text": "日刊ゲンダイDIGITALとMLB.comの複数記事が、この登板内容を報じています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できたことと、できなかったことを整理します。投球内容や試合結果は確認済み、選手のコメントの詳細等は未確認です。" },
+            { "speaker": "host", "text": "正直に分けてあるのが分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "最後にひとこと。" },
+            { "speaker": "analyst", "text": "山本由伸投手の次回登板、そして今シーズン終盤の成績にも注目していきましょう。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "山本由伸投手の対エンゼルス戦の登板記録を、出典付きで淡々とお伝えしました。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
