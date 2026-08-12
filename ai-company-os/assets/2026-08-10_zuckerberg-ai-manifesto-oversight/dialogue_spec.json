@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "title": "AI企業のトップが、政府に「もっと見てほしい」と言った ― ザッカーバーグ氏の6,500語マニフェスト",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "ABC News「Zuckerberg manifesto pushes open-source approach on AI as Meta releases latest model」",
+      "U.S. News「Zuckerberg Manifesto Pushes an Open-Source Approach on AI as Meta Releases Its Latest Model」",
+      "Forbes「Zuckerberg Calls For More AI Oversight In New Manifesto」",
+      "Quartz「Mark Zuckerberg AI essay pushes back on doomers, open source」",
+      "Bloomberg「Five takeaways from Zuckerberg's 6,500-word manifesto on AI」",
+      "Variety「Mark Zuckerberg Outlines Meta AI Manifesto」"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "AI企業のトップが、政府に『もっと見てほしい』と言ったらしいよ。" },
+            { "speaker": "analyst", "text": "Meta CEOザッカーバーグ氏が2026年8月10日に公開した6,500語のマニフェストです。今日はこれを見ていきましょう。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "結論から言うと何が書いてあったの？" },
+            { "speaker": "analyst", "text": "AIの管理・監督のあり方について、政府にもっと関与してほしいという趣旨の提案が含まれていました。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどこまで分かるようになるの？" },
+            { "speaker": "analyst", "text": "提案の中身と出典、そして同日発表の別テーマとの違い、不明点までセットで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "なんで今このタイミングで取り上げるの？" },
+            { "speaker": "analyst", "text": "発表が着手日の2日前と新しく、複数の独立系メディアが同時に報じているからです。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな順番で話すの？" },
+            { "speaker": "analyst", "text": "基礎知識から3つの核心提案、大統領令との関係、既存テーマとの違いまで進みます。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "どのくらい話題になったの？" },
+            { "speaker": "analyst", "text": "ABC News、Forbes、Bloombergなど、幅広いメディアが報じています。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "要点は3つ。6,500語という分量、超知能の管理集中への懸念、そして個人のエンパワーメントという理念です。" },
+            { "speaker": "host", "text": "その理念のもとで、具体的な提案が出てくるんだね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "図にするとこうです。懸念の表明から、オープンソースの主張、そして具体的な提案へとつながります。" },
+            { "speaker": "host", "text": "ここが前提。ここから中身に入っていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "まず『マニフェスト』は、理念や立場を文章でまとめて公表する声明文のことです。" },
+            { "speaker": "host", "text": "製品発表とは違って、政策提言も含んでるんだね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "『超知能』は人間の知能を大きく上回るとされる、仮説的なAIの発展段階を指す言葉です。" },
+            { "speaker": "host", "text": "定義自体、まだ業界で固まってないんだ。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "マニフェストは2本柱です。管理集中への懸念と、オープンソース・個人エンパワーメントの主張です。" },
+            { "speaker": "host", "text": "この2つが土台になって、提案が組み立てられるんだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "核心提案の1つ目。完成モデルを待たず、訓練途中のチェックポイントを政府と共有すべきという提案です。" },
+            { "speaker": "host", "text": "そこが今回いちばん意外なポイントだね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "2つ目は、現行の大統領令が定める30日間の任意レビュー制度への異論です。" },
+            { "speaker": "host", "text": "既にある制度に対して、意見を述べたってことか。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "3つ目は、Meta自身の取り組み。取締役会が承認する安全ガイドラインの審査体制を新設すると表明しました。" },
+            { "speaker": "host", "text": "政府への提案だけじゃなく、自社の体制も見直すんだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "表にするとこうです。チェックポイント共有、大統領令への異論、Meta社内の新体制の3つです。" },
+            { "speaker": "host", "text": "ここまでが3つの核心提言だね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "大統領令とマニフェストの提案を並べると、こう整理できます。どちらが望ましいかの評価はしません。" },
+            { "speaker": "host", "text": "事実として違いを整理するだけなんだね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "改めてポイントを3つのカードにまとめました。訓練途中、30日間、取締役会です。" },
+            { "speaker": "host", "text": "数字とキーワードで見ると分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "時系列にすると、8月10日の公開、同日の各社報道、そして現時点ではまだ政府の反応は不明です。" },
+            { "speaker": "host", "text": "続報が出るかどうか、これから注目だね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "注意点は3つ。共有の具体的な手法、政策への影響、そして運用開始時期。いずれも不明です。" },
+            { "speaker": "host", "text": "分からないことは分からないと、はっきり言っておこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "同じ8月10日、同じMetaの発表として、Muse Glimmerというモデルもあります。" },
+            { "speaker": "host", "text": "そっちは既存テーマで、モデル自体を扱ってるんだよね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "図にするとこうです。同じ企業・同じ日の発表ですが、焦点が異なる別のテーマとして扱っています。" },
+            { "speaker": "host", "text": "本テーマはあくまで政策提言の部分に絞ってるんだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで方針を明確にします。特定の政権・政党の是非を評価する結論にはしません。" },
+            { "speaker": "host", "text": "誰が何を提案したかという事実整理にとどめるんだね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "個人にとっては、AI企業のガバナンスが将来の製品にも影響しうるテーマとして注視できます。" },
+            { "speaker": "host", "text": "でも今の時点で断定的な予測はできないんだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "企業にとっては、AIの安全審査のあり方が今後変わる可能性があり、検討材料になります。" },
+            { "speaker": "host", "text": "制度化の有無や時期はまだ分からないんだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "オープンソースAIには、検証しやすいという論点と、リスク管理が課題になるという論点、両方あります。" },
+            { "speaker": "host", "text": "これは特定の立場への賛否じゃなくて、一般論の整理なんだね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "連邦政府からの公式な反応は本調査の範囲では確認できていません。" },
+            { "speaker": "host", "text": "Quartzは『悲観論者への反論』という論調で報じてるんだよね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "改めて不明点です。公開の正確な日時、政府の正式な反応、Meta新体制の運用開始時期は不明です。" },
+            { "speaker": "host", "text": "分からないことは、はっきり不明と伝えよう。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "今後は、政府の反応やMeta新体制の運用状況を事実ベースで追いかけていきます。" },
+            { "speaker": "host", "text": "既存テーマとあわせて、Metaの動き全体も見ていきたいね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "今日お伝えしたのは事実整理であって、特定の政権や企業の是非を判断するものではありません。" },
+            { "speaker": "host", "text": "気になった人は、紹介した一次情報を自分でも確認してみてね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "出典はABC News、Forbes、Bloombergなど、本編で紹介した各メディアです。" },
+            { "speaker": "host", "text": "最後まで見てくれてありがとう。また次のニュースで会おう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
