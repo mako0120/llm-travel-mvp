@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "あと2ポイントで、世界2位を破れていた。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "The Big Lead「Down but never out: Elena Rybakina prevails over Naomi Osaka at National Bank Open」",
+      "National Bank Open公式サイト「Big-Hitting Battle Between Osaka and Rybakina…」",
+      "CTV News「Rybakina tops Osaka at NBO Toronto, Gauff advances on walkover after Bencic withdraws」",
+      "CKPG Today"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "あと2ポイントで、世界2位を破れていました。", "source": "The Big Lead(2026-08-11)" },
+            { "speaker": "host", "text": "え、そんなに際どかったの?" },
+            { "speaker": "analyst", "text": "大坂なおみ選手が世界2位ルバキナ選手と初対戦。フルセットの末、惜しくも敗れました。今日はこの大接戦をお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "結論から教えて。" },
+            { "speaker": "analyst", "text": "スコアは4-6、7-6の5、6-4。世界2位のルバキナ選手が、フルセットの末に勝利しました。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "何が起きたか、セットごとの攻防、あと一歩だった場面、数字まとめ、不明点と今後の見方です。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "なぜ今この話題を扱うの?" },
+            { "speaker": "analyst", "text": "着手日から1日前の対戦で鮮度が高く、複数メディアが一致して報道しています。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "これって、以前扱った話の続き?" },
+            { "speaker": "analyst", "text": "はい。173本目で扱った「初対戦が決まった」という話の後日談です。今回は実際の結果をお伝えします。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "対戦の基本情報を教えて。" },
+            { "speaker": "analyst", "text": "会場はSobeys Stadium、試合時間は2時間33分。世界2位のルバキナ選手との初対戦でした。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "そもそも「WTA1000」って?" },
+            { "speaker": "analyst", "text": "女子テニスの中でも上位に位置づけられる大会カテゴリーです。グランドスラムに次ぐ規模・注目度を持ちます。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "「タイブレーク」「ブレークポイント」も教えて。" },
+            { "speaker": "analyst", "text": "タイブレークは6-6になった際の短い決着方式、ブレークポイントは相手のサーブを奪える可能性がある局面です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "3セットの流れを整理して。" },
+            { "speaker": "analyst", "text": "第1セットは大坂選手が奪取、第2セットはタイブレークの末にルバキナ選手が奪取、第3セットもルバキナ選手が制しました。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "第1セットは6-4、大坂選手が先取です。" },
+            { "speaker": "host", "text": "世界2位相手に幸先いいスタートだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "第2セットのタイブレークは?" },
+            { "speaker": "analyst", "text": "大坂選手が2ポイントで勝利という場面まで迫っていました。そこからルバキナ選手が追いつきます。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "この数字に注目です、2ポイント。" },
+            { "speaker": "host", "text": "本当にあと一歩だったんだね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "その後どうなったの?" },
+            { "speaker": "analyst", "text": "ルバキナ選手がタイブレークを制し、7-6の5で第2セットを奪取しました。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "決勝セットの第3セットは?" },
+            { "speaker": "analyst", "text": "大坂選手が2対3の場面で4度のブレークポイントを握りましたが、いずれも決めきれませんでした。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "改めてこの数字です、4度。" },
+            { "speaker": "host", "text": "4回もチャンスがあったのか…惜しい。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "最終的な第3セットの結果は?" },
+            { "speaker": "analyst", "text": "ルバキナ選手が6-4で奪取し、勝利を決めました。試合時間は2時間33分でした。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "数字をまとめると?" },
+            { "speaker": "analyst", "text": "最終スコア、各セットの経過、試合時間、会場。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "全体の流れを図で教えて。" },
+            { "speaker": "analyst", "text": "第1セットは先取、第2セットは逆転され、第3セットも好機を決めきれず、ルバキナ選手が勝利しました。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "優勢だった場面と、そうでなかった場面を並べると?" },
+            { "speaker": "analyst", "text": "大坂選手は複数回チャンスを作りながらも、いずれも決めきれなかったことが分かります。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "この結果を知ると何が変わるの?" },
+            { "speaker": "analyst", "text": "対戦成績は0勝1敗ですが、内容としては世界2位を追い詰めた接戦だったと言えます。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "この試合を見るポイントは?" },
+            { "speaker": "analyst", "text": "セットごとの経過を確認すること、タイブレークやブレークポイントの数字から接戦度を読み取ることです。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "事実と不明点を整理すると?" },
+            { "speaker": "analyst", "text": "スコアや試合時間は事実ですが、選手本人のコメントや今後の予定は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "不明点を詳しく教えて。" },
+            { "speaker": "analyst", "text": "選手本人のコメント、準決勝の詳細、大坂選手の今後の予定。いずれも確認できていません。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、大坂選手を落胆させるような扱いはしてないよね?" },
+            { "speaker": "analyst", "text": "はい。敗退という結果ですが、過度に落胆させる表現もルバキナ選手を過度に持ち上げる表現もしていません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "注意点はある?" },
+            { "speaker": "analyst", "text": "選手本人のコメントは扱わず、出典に明記のない数字も一切使用していません。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "ルバキナ選手はこの後どうなるの?" },
+            { "speaker": "analyst", "text": "この勝利で準決勝進出を決めました。準決勝の日程・対戦相手は本テーマの範囲外です。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "出典をもう一度教えて。" },
+            { "speaker": "analyst", "text": "The Big Lead、National Bank Open公式サイト、CTV News、CKPG Todayが同じ結果を報じています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できたことと、できなかったことを整理します。スコアや試合時間は確認済み、選手のコメント等は未確認です。" },
+            { "speaker": "host", "text": "正直に分けてあるのが分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "最後にひとこと。" },
+            { "speaker": "analyst", "text": "大坂選手の今後の大会、そしてルバキナ選手の準決勝にも注目していきましょう。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "大坂なおみ選手と世界2位ルバキナ選手の初対戦、フルセットの大接戦をお届けしました。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

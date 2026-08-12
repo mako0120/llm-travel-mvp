@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "title": "Anthropic、Macquarie・GICと提携し「Theseus Infrastructure」設立",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg(2026-08-10) Anthropic, Macquarie and GIC Form Venture for AI Data Centers",
+      "Data Center Dynamics(2026-08-10) GIC and Macquarie form Theseus Infrastructure to serve Anthropic's data center needs"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "AIの巨大データセンターを、Anthropicは建てないらしいね？", "source": "Bloomberg(2026-08-10)" },
+            { "speaker": "analyst", "text": "2026年8月10日、AnthropicがMacquarie Asset Management・GICと提携し、データセンター専門の新会社『Theseus Infrastructure』を設立したと発表しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、出資の大半はGIC・Macquarie側が負担し、Anthropicは主要入居者として長期契約を結びます。" },
+            { "speaker": "host", "text": "Anthropicが自分でお金を出すわけじゃないんだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで見ていくの？" },
+            { "speaker": "analyst", "text": "基礎知識から資金調達の構図の変化、174本目との違い、確認できなかったことまで、5つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは着手日から2日前という新しい話題で、500億ドルの自己投資計画からの転換という構図がフックになります。" },
+            { "speaker": "host", "text": "Bloombergだけじゃなく、Macquarie自身も公式発表してるんだね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそも、何がどうなった提携なの？" },
+            { "speaker": "analyst", "text": "Macquarie・GICが出資してTheseus Infrastructureという会社を新設し、Anthropicがアンカーテナントとして入居する構図です。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "Bloombergが提携全体を報じたほか、Data Center Dynamicsが枠組みを詳しく伝えています。", "source": "Bloomberg(2026-08-10)" },
+            { "speaker": "host", "text": "1社の発表じゃなくて、当事者のMacquarieも自分で発表してるんだね。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "時系列は、以前の500億ドル計画の表明、2026年8月10日の今回の発表、今後の米国内でのサイト開発という流れです。" },
+            { "speaker": "host", "text": "ここまでが前提。ここから提携の中身に入っていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "提携の概要を教えて。" },
+            { "speaker": "analyst", "text": "新会社Theseus InfrastructureをMacquarie・GICが出資して設立し、Anthropicがアンカーテナントとして長期契約で入居する提携です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "『アンカーテナント』ってどういう意味？" },
+            { "speaker": "analyst", "text": "開発された施設に最初から入居し、長期契約で賃料を支払う主要な入居者のことです。施設側の資金調達の裏付けになります。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "MacquarieはオーストラリアのMacquarie Groupの資産運用部門、GICはシンガポール政府系ファンドです。" },
+            { "speaker": "host", "text": "どちらもAI企業じゃなくて、お金を運用する側なんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "資金調達の構図はどう変わったの？" },
+            { "speaker": "analyst", "text": "以前はAnthropicが自ら500億ドルを投資する計画でしたが、今回は資産運用会社が出資し、Anthropicはリースする側になりました。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "役割を整理すると、Anthropicは入居者、Macquarie・GICは出資者、Theseus Infrastructureは開発・運営を専門に行う会社です。", "source": "Data Center Dynamics(2026-08-10)" },
+            { "speaker": "host", "text": "3社それぞれに役割がはっきり分かれてるんだね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "以前の500億ドルの計画って何だったの？" },
+            { "speaker": "analyst", "text": "Anthropicが米国内のデータセンターに投資する計画として、以前表明していた金額です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "今回はAnthropic自身の設備投資負担・資金調達リスクを圧縮できると考えられます。" },
+            { "speaker": "host", "text": "建てるのをやめて、借りる側に回ったんだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの発表内容をまとめると？" },
+            { "speaker": "analyst", "text": "2026年8月10日発表、3社での提携、当面米国内が対象、Anthropicが電気料金上昇分を負担する約束、この4点です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "Anthropicは施設周辺地域の消費者電気料金の上昇分を負担することを約束しています。" },
+            { "speaker": "host", "text": "データセンターが増えると電気料金が上がる懸念に、先回りで応えてるんだね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "確定していることと、これから決まることは？" },
+            { "speaker": "analyst", "text": "提携の枠組み・当面米国が対象なのは確定していますが、稼働時期やサイト候補地はまだこれからです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "これって174本目のRiot Platformsの話と同じじゃないの？" },
+            { "speaker": "analyst", "text": "違います。174本目は既存拠点を直接リースする契約でしたが、今回は資産運用会社が出資して新設会社が施設を開発する構図です。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "出資者・施設の性質・Anthropicの役割・対象地域、いずれも174本目とは異なります。", "source": "research.md参照" },
+            { "speaker": "host", "text": "似た話に見えて、お金の出どころが全然違うんだね。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "重複コンテンツになってないか心配だけど。" },
+            { "speaker": "analyst", "text": "既存事業者からの直接リースと、新設会社への出資では資金調達の性質が根本的に異なります。既存テーマにもTheseus Infrastructureを扱ったものはありませんでした。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "業界全体を見ると、資産運用会社がAIインフラ出資の担い手になる動きが広がっているとされています。" },
+            { "speaker": "host", "text": "AI企業が自前で全部建てる時代じゃなくなってきてるんだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの話、事実と推測はちゃんと分かれてる？" },
+            { "speaker": "analyst", "text": "提携の枠組みは検証済みの事実です。戦略的転換だという解釈は、報道内容からの合理的な推測として区別しています。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったことは、投資総額、施設数・規模、稼働時期・サイト候補地、出資比率の内訳の4点です。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱ってるんだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "そういえば、このシリーズ自体はどうやって作られてるの？" },
+            { "speaker": "analyst", "text": "本パイプラインであるAI Company OS自体が、Anthropicが提供するClaude Codeを使って制作されています。この事実を隠さず明示しています。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "今日はAnthropicの話ばっかりじゃない？" },
+            { "speaker": "analyst", "text": "本日は174本目・177本目に続き、これで3件目です。特定企業への偏りではなく、鮮度基準を機械的に適用した結果、他の候補が基準を満たさなかったためです。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "この提携、これから何を確認すればいいの？" },
+            { "speaker": "analyst", "text": "500億ドルの計画とTheseus Infrastructureの投資総額は別物であること、サイト候補地がまだ不明であることを意識するのが大事です。ここから、まとめに入ろう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "投資家は投資総額の続報を、企業は新しい資金調達方式の広がりとして、一般の読者は数字の混同に注意して見るとよいでしょう。" },
+            { "speaker": "host", "text": "立場によって見るべきポイントが違うんだね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "500億ドルは以前の自己投資計画の金額であり、Theseus Infrastructure自体の投資総額ではありません。混同しないよう注意が必要です。" },
+            { "speaker": "host", "text": "数字の出どころを混ぜて考えちゃいけないんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はBloomberg・Data Center Dynamicsほか、Macquarie自身の公式発表を含む5つの情報源です。" },
+            { "speaker": "host", "text": "気になった人は元記事も見てみてね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "投資総額や施設数はまだ未確定な部分が多いことを忘れずに、続報を出典付きで追っていきます。" },
+            { "speaker": "host", "text": "数字の大きさに流されず、冷静に見ていこう。次回もまた出典付きでお届けします。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
