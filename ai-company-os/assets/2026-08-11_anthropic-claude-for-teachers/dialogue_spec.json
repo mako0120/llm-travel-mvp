@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "Anthropic「Claude for Teachers」発表、OpenAI・Googleに続き教室向けAI競争に参入",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "KEYT/News Channel 3-12(Stacker経由、2026-08-11) Anthropic unveils Claude for Teachers, joining OpenAI and Google in race to dominate classroom AI"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "OpenAIとGoogleに続いて、Anthropicも先生向けのAIを出したらしいね？", "source": "KEYT/News Channel 3-12(Stacker経由、2026-08-11)" },
+            { "speaker": "analyst", "text": "2026年8月11日、Anthropicが教員向けAIアシスタント『Claude for Teachers』を発表したと報じられました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、全米50州の学習指導要領を組み込めるとされています。" },
+            { "speaker": "host", "text": "50州分に対応できるのは、けっこう具体的な機能だね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで見ていくの？" },
+            { "speaker": "analyst", "text": "基礎知識から発表内容の深掘り、OpenAI・Googleとの構図、確認できなかったことまで、5つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは着手日から1日前という新しい話題で、OpenAI・Googleに続く参入という構図がフックになります。" },
+            { "speaker": "host", "text": "教室向けAIの顔ぶれが、これでほぼ出そろった感じだね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそも、何がどうなった発表なの？" },
+            { "speaker": "analyst", "text": "Anthropicが、教員が授業準備で使えるAIアシスタントを発表したという話です。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "本調査で確認できた出典は、KEYT/News Channel 3-12掲載のStacker配信記事、1件にとどまります。", "source": "KEYT/News Channel 3-12(Stacker経由、2026-08-11)" },
+            { "speaker": "host", "text": "そこは正直に、1件だけって伝えておくべきだね。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "これまでOpenAIとGoogleが先行していたとされる中、今回Anthropicが加わった形です。" },
+            { "speaker": "host", "text": "ここまでが前提。ここから発表の中身に入っていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "発表の概要を教えて。" },
+            { "speaker": "analyst", "text": "製品名はClaude for Teachers。全米50州の学習指導要領を組み込め、授業計画づくりなどに使えるとされています。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "『教員向けAIアシスタント』って、そもそもどういうもの？" },
+            { "speaker": "analyst", "text": "教員の授業準備を支援する生成AIツールです。生徒に直接向き合う存在ではなく、裏方の道具です。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "『学習指導要領』は、州ごとに定められた、生徒が身につけるべき学習内容の基準です。" },
+            { "speaker": "host", "text": "州によって基準が違うから、先生は自分の州の基準に合わせないといけないんだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "『教材の個別最適化』は？" },
+            { "speaker": "analyst", "text": "生徒一人ひとりの理解度に合わせて教材を調整する考え方です。どこまで自動化されるかは不明です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "報じられている用途は3つ。授業計画の作成、教材の個別最適化、データ活用による指導改善です。" },
+            { "speaker": "host", "text": "グラフにするとこうです、って感じで用途が整理されてるね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "1つ目の授業計画づくりは、具体的にどう支援するの？" },
+            { "speaker": "analyst", "text": "教員が日々作る授業計画(lesson plans)の作成を支援できるとされています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "2つ目は、生徒一人ひとりに合わせて指導教材を個別最適化できるという用途です。" },
+            { "speaker": "host", "text": "同じ教材を全員に配るんじゃなくて、調整できるってことだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "3つ目のデータ活用は?" },
+            { "speaker": "analyst", "text": "授業の効果などのデータを活用して、指導方法を改善するのに役立てられるとされています。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "50州の学習指導要領を組み込むというのは、州ごとに違う基準をツール側で扱えるようにする機能だと考えられます。" },
+            { "speaker": "host", "text": "ただ、具体的にどう組み込むかまでは書かれてないんだよね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "OpenAIやGoogleの教育向け製品と比べてどうなの?" },
+            { "speaker": "analyst", "text": "両社とも教育向けAI製品を展開しているとされますが、具体的な製品名は本調査の範囲では確認できていません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "『教室向けAI競争』という見出し表現は、3社がそれぞれ教育向け製品を持っている状況を指しているとみられます。" },
+            { "speaker": "host", "text": "各社が名指しで張り合ってると言い切ってるわけではないんだね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでをカードで振り返ると、1社の発表、50州対応、3つの用途、確認できた出典は1記事です。" },
+            { "speaker": "host", "text": "数字が少ない部分も、ちゃんと少ないままお伝えするんだね。ここから、注意点の話に入ろう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "AIが先生の代わりになる、みたいな話じゃないんだよね?" },
+            { "speaker": "analyst", "text": "はい。出典記事も支援ツールとして紹介しており、本テーマでも教員の代替という論調は取りません。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "画期的・最高といった宣伝的な表現も使わず、Claude for Teachersを推奨する結論にもしません。" },
+            { "speaker": "host", "text": "あくまで事実の報告に徹するってことだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "Anthropicが関わるテーマだけど、扱い方に気をつけてる点はある?" },
+            { "speaker": "analyst", "text": "本パイプライン自体がAnthropicのClaude Codeで制作されているため、称賛表現は避け、OpenAI・Googleにも公平に言及しています。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの話、事実と推測はちゃんと分かれてる?" },
+            { "speaker": "analyst", "text": "発表日や用途は事実です。機能の目的の解釈などは、推測として区別しています。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できなかったのは、価格・提供時期・対象学年の詳細・OpenAIとGoogleの具体名・導入実績の5点です。" },
+            { "speaker": "host", "text": "数字を作らず、正直に不明として扱ってるんだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "学校や先生は、この発表を見て何を確認すればいいの?" },
+            { "speaker": "analyst", "text": "続報を待つこと、自校のカリキュラムとの整合性、既存ツールとの比較検討、この3つを勧めます。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "教員は補助ツールの一つとして検討、学校管理者は比較・導入基準の整理、保護者・生徒は代替ではないと理解すること、それぞれ示唆があります。" },
+            { "speaker": "host", "text": "立場によって見るべきポイントが違うんだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "授業準備の様子は、どう変わるとされてるの?" },
+            { "speaker": "analyst", "text": "授業計画のたたき台や教材の個別最適化をAIが支援するとされますが、最終判断は教員が行う前提です。ここから、まとめに入ろう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "全体像として見ると、OpenAI・Googleが先行する中、Anthropicが2026年8月11日にClaude for Teachersを発表した形です。" },
+            { "speaker": "host", "text": "3社の顔ぶれが並んだのが、今回のポイントだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "使った出典はKEYT/News Channel 3-12掲載のStacker配信記事、1件です。詳細はresearch.mdにまとめてあります。" },
+            { "speaker": "host", "text": "気になった人は元記事も見てみてね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "Claude for Teachersは教員を支援する補助ツールの一つとして報じられており、推奨や断定はしていません。続報を出典付きで追っていきます。" },
+            { "speaker": "host", "text": "数字の少なさも含めて、冷静に見ていこう。次回もまた出典付きでお届けします。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
