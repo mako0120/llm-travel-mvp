@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "Neros Technologies、自律型防衛ドローンでシリーズC 2.5億ドルを調達",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "PRNewswire(2026-08-11) NEROS RAISES $250M SERIES C AT $2.5B VALUATION TO SCALE AUTONOMOUS AND INTERCEPTOR DRONE PROGRAMS",
+      "Bloomberg(2026-08-11) Neros Raises $250 Million, Triples Valuation to $2.5 Billion for Drone Expansion",
+      "Pulse2 / FinSMEs / Dealroom / Yahoo Finance / Morningstar(いずれも2026-08-11)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "評価額が1年で25億ドルに達した防衛ドローン企業があるらしいね？", "source": "PRNewswire(2026-08-11)" },
+            { "speaker": "analyst", "text": "2026年8月11日、Neros Technologiesがシリーズ Cで2.5億ドルを調達し、評価額25億ドルに達したと発表しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "資金はArcher AIとBanditという2つの製品ラインの量産体制拡大に使われるとされています。" },
+            { "speaker": "host", "text": "2.5億ドル、いきなり大きい金額から入ってきたね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで見ていくの？" },
+            { "speaker": "analyst", "text": "資金調達の内訳から製品の中身、契約・生産計画、確認できなかったことまで、5つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは着手日から2日以内という新しい発表で、25億ドルという評価額の大きさがフックになります。" },
+            { "speaker": "host", "text": "防衛産業への資金流入という時事性も高いテーマだね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそもNeros Technologiesってどんな会社なの？" },
+            { "speaker": "analyst", "text": "2023年、元プロドローンレーサーの2人がカリフォルニア州で設立した防衛技術企業です。低コストの使い捨て型ドローンを作っています。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "『自律型防衛ドローン』ってどういう意味？" },
+            { "speaker": "analyst", "text": "人が細かく操縦しなくても、AIが位置保持や誘導などの一部の判断を支援するドローンのことです。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "Bloombergは評価額が3倍になったと報道しています。前回評価額は約8.3億ドルと当社で逆算しました。", "source": "Bloomberg(2026-08-11)" },
+            { "speaker": "host", "text": "ここまでが前提。ここから資金調達の中身に入っていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "資金調達の推移はどうなってるの？" },
+            { "speaker": "analyst", "text": "シリーズAの3,500万ドル、シリーズBの7,500万ドルから、今回2.5億ドルへと急拡大しています。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "出資者はSequoia CapitalとAmerican Strategic Technology Fundが共同リード。Thiel Capital等も参加しています。", "source": "PRNewswire(2026-08-11)" },
+            { "speaker": "host", "text": "著名な投資家が名を連ねてるんだね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "CEOはどんなコメントを出してるの？" },
+            { "speaker": "analyst", "text": "『複数能力を持つドローンメーカーへ発展する。年間100万機生産という使命は変わらない』と述べています。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "Archer AIの仕組みを図にすると、手動FPV操縦の基盤に、2つの自律機能が付加された構成です。" },
+            { "speaker": "host", "text": "グラフにするとこうです、って感じで仕組みが見えるね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "『Archer AI』って具体的にどんな製品なの？" },
+            { "speaker": "analyst", "text": "手動FPVドローンに、終末誘導とGPS非受信下での位置保持という自律機能を加えたプラットフォームです。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "もう一つの『Bandit』は？" },
+            { "speaker": "analyst", "text": "対無人機の迎撃を目的としたドローンです。小型ドローンを対象とし、年内の実戦投入が計画されていると報じられています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "2つを比べると、Archer AIは攻撃・偵察用途の基盤、Banditは迎撃が主目的という違いがあります。" },
+            { "speaker": "host", "text": "似た名前だけど役割は別物なんだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "どんな契約先があるの？" },
+            { "speaker": "analyst", "text": "米陸軍とは別途、最大5億ドル規模の契約があり、米海兵隊や特殊作戦軍の全構成部隊とも契約があるとされています。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "生産目標は2028年までに年間100万機。現在は週約1,200機を生産していると報じられています。" },
+            { "speaker": "host", "text": "かなり野心的な目標だね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "今回の資金はどう使われるの？" },
+            { "speaker": "analyst", "text": "製造拠点の拡大を土台に、Archer AIとBanditそれぞれの量産ラインを拡張していく計画です。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "参考情報として単価も紹介すると、基本型は約2,000ドル、完全装備で約5,000ドルと報じられています。" },
+            { "speaker": "host", "text": "ただしこれは専門メディアの推定値で、公式発表ではないんだね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "時系列でみると、2023年の設立から2025年のシリーズA・B、2026年8月のシリーズCへとつながっています。" },
+            { "speaker": "host", "text": "ここまでが製品と資金の中身。ここからは注意点に入ろう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "確認できていないこともあるんだよね？" },
+            { "speaker": "analyst", "text": "はい。株主構成の詳細、Archer AIの技術仕様の詳細、Banditの実戦での検証データは確認できていません。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "同盟国の具体的な国名、生産ペースの計測時点、単価や累計調達額の一次資料も未確認です。" },
+            { "speaker": "host", "text": "数字を並べるだけじゃなく、分からない部分もちゃんと示すんだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "整理すると、調達額や出資者は事実、評価額の逆算は推測、生産ペースや単価は参考値という扱いです。" },
+            { "speaker": "host", "text": "事実と推測、参考値をごっちゃにしないってことだね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "見出しだけ見ると『最強の迎撃ドローン』みたいに見えちゃいそうだけど？" },
+            { "speaker": "analyst", "text": "実際は資金調達の発表であり、性能の優劣を裏付ける第三者検証データがあるわけではありません。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "投資動向としてみると、著名なベンチャー投資家と防衛特化ファンドが揃って参加した点が注目です。" },
+            { "speaker": "host", "text": "特定の兵器の優劣ではなく、資金の流れとして見るんだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "視聴者にとってはどう役立てればいいの？" },
+            { "speaker": "analyst", "text": "投資動向を追う立場、AI技術動向を追う立場、ニュースの読み方、それぞれの視点をまとめました。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマでは、兵器性能の誇張や軍事行動の扇動、政治的な価値判断は一切行っていません。" },
+            { "speaker": "host", "text": "ここまでが注意点。ここから最後にまとめよう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマの鮮度を確認すると、報道は着手日の2日前で、鮮度基準を満たしています。" },
+            { "speaker": "host", "text": "新しい話題だってことが数字でも裏付けられてるんだね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "主な出典はPRNewswire・Yahoo Finance・Morningstar・Pulse2・FinSMEs・Dealroom・Bloombergです。" },
+            { "speaker": "host", "text": "複数の独立したメディアが同じ内容を報じてるんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "今回のポイントは、2.5億ドルの調達は事実だが、性能や配備実績の第三者検証はまだ確認できていないという点です。" },
+            { "speaker": "host", "text": "確定事実と計画段階の情報を分けて見る、ってことだね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "資金は集まりましたが、次に問われるのは計画どおりの量産と配備が実現するかどうかです。" },
+            { "speaker": "host", "text": "特定企業への評価ではなく、事実整理として今後も注目していこう。それでは、また次回。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
