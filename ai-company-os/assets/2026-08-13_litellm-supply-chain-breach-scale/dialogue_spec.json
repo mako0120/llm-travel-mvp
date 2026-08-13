@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "title": "LiteLLM侵害、2,500社以上を巻き込んだ「5カ月越しの発覚」",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "CloudSEK公式ブログ(2026-08-11)",
+      "SecurityWeek",
+      "The Hacker News",
+      "PRNewswire",
+      "FBI FLASHアドバイザリー(2026年7月)経由の報道"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "2,500社以上、43万4,000件のCI/CDパイプライン。これがAIプロキシ「LiteLLM」を狙った攻撃の規模です。", "source": "CloudSEK公式ブログ(2026-08-11)" },
+            { "speaker": "host", "text": "そんな大事件、今起きてるの?" },
+            { "speaker": "analyst", "text": "実はこの攻撃自体は5カ月も前のものなんです。今日はその『真の規模』を暴いたレポートを整理します。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "まず結論の数字を教えて。" },
+            { "speaker": "analyst", "text": "CloudSEKが高確度で影響を受けた可能性があると特定した組織は、2,500社以上です。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日の要点をざっと教えて。" },
+            { "speaker": "analyst", "text": "攻撃は2026年3月発生、規模を開示するレポートは8月11日公開。NVIDIAやAWSも名前が挙がっています。" },
+            { "speaker": "host", "text": "発生と発覚のタイミングが違うんだね。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "そこ、詳しく教えて。攻撃はいつ起きたの?" },
+            { "speaker": "analyst", "text": "攻撃自体は2026年3月です。でも、その本当の規模が分かったのは8月11日、着手日のわずか2日前でした。" },
+            { "speaker": "host", "text": "つまり『攻撃が今起きた』わけじゃないんだね。" },
+            { "speaker": "analyst", "text": "そうです。この2つの日付を混同しないことが今日いちばん大事なポイントです。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな流れで話すの?" },
+            { "speaker": "analyst", "text": "基礎知識、時系列、影響規模、確認できたこと・できなかったこと、そして今チェックすべきことです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "時系列を先に教えて。" },
+            { "speaker": "analyst", "text": "3月に攻撃発生、公開はたった40分。でも自動化されたCI/CDが取り込んで、20日間も気づかれず、8月11日に規模が判明しました。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "そもそもLiteLLMって何?" },
+            { "speaker": "analyst", "text": "複数のAIモデルへの呼び出しをまとめて扱えるオープンソースの『AIプロキシ』ツールです。" },
+            { "speaker": "host", "text": "だから多くの企業が使っていたんだね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "侵入経路を図で教えて。" },
+            { "speaker": "analyst", "text": "侵害されたパッケージを、皮肉にもセキュリティスキャナーのTrivyが取り込んでしまい、そこから拡散しました。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "『サプライチェーン攻撃』って何?" },
+            { "speaker": "analyst", "text": "みんなが使う部品を狙って、間接的に多数の組織へ被害を広げる攻撃手法です。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "攻撃した側の情報は?" },
+            { "speaker": "analyst", "text": "脅威アクター名は『Team PCP』、侵害されたのはv1.82.7とv1.82.8、公開はわずか40分でした。", "source": "CloudSEK公式ブログ" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "3月時点と今とで、見え方は変わった?" },
+            { "speaker": "analyst", "text": "当初は短時間の公開で済んだように見えましたが、レポートで実際にはもっと大きく広がっていたと分かりました。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "パイプラインの数は?" },
+            { "speaker": "analyst", "text": "43万4,000件です。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "侵害はどれくらい続いたの?" },
+            { "speaker": "analyst", "text": "約20日間、侵害状態が続いていたとされています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "公開時間は?" },
+            { "speaker": "analyst", "text": "約40分間です。それでもこれだけの規模に広がったのが今回の特徴です。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "名前が挙がった企業は?" },
+            { "speaker": "analyst", "text": "NVIDIA、AWS、Cisco、Salesforce、Siemens、X Corp、Orangeなどです。ただし、いずれも可能性があるという位置づけです。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの事実を整理して。" },
+            { "speaker": "analyst", "text": "攻撃発生は3月、侵入経路はTrivy、レポート公開は8月11日。この3点を混同しないことが重要です。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "CloudSEKのレポートはこう位置づけられています。『2026年最大級のAIサプライチェーン侵害』だと。" },
+            { "speaker": "host", "text": "かなり強い表現だね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "この件、FBIも動いてるの?" },
+            { "speaker": "analyst", "text": "はい。2026年7月にFLASHアドバイザリーを出し、盗まれた認証情報の悪用リスクを警告しています。" },
+            { "speaker": "host", "text": "レポートより前のタイミングなんだね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "そのアドバイザリー、いつ出たの?" },
+            { "speaker": "analyst", "text": "2026年7月です。CloudSEKのレポートより先に、法執行機関はリスクを把握していたとみられます。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "被害の広がり方をもう一度整理して。" },
+            { "speaker": "analyst", "text": "40分の公開→自動化CI/CDが取り込み→Trivy経由で20日間継続→8月11日に規模判明、という流れです。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "私たちは何を確認すればいいの?" },
+            { "speaker": "analyst", "text": "LiteLLMのバージョン、スキャナーの設定、CI/CDの認証情報の見直し、この3点をチェックしてみてください。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "気をつけたい点は?" },
+            { "speaker": "analyst", "text": "2,500社以上は可能性のリストであって、実害の確定情報ではありません。ここは断定しないでください。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "確認できたこととできなかったこと、分けて教えて。" },
+            { "speaker": "analyst", "text": "攻撃時期やレポート公開日は確認できています。でも、実害の有無や企業のコメントはまだ確認できていません。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "確認できなかったことを一覧で教えて。" },
+            { "speaker": "analyst", "text": "実害の有無、公式コメント、完全なリスト、今後の対応状況。この4点です。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "このレポート、鵜呑みにしていいの?" },
+            { "speaker": "analyst", "text": "いいえ。CloudSEK自身の分析であり、第三者による独立検証はまだ確認できていません。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "今後注目したいことは?" },
+            { "speaker": "analyst", "text": "名指し企業のコメント、パッチの状況、実態調査の3つです。あくまで推測です。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "今後どうなると考えられる?" },
+            { "speaker": "analyst", "text": "追加コメント、業界的な点検の広がり、規制の議論。いずれも推測にとどまります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "最後にもう一度。2,500社以上、43万4,000件のCI/CDパイプライン。これがCloudSEKが8月11日に開示した規模です。" },
+            { "speaker": "host", "text": "数字のインパクトがすごいね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "攻撃が起きたのは3月。でも、その本当の大きさが分かったのは、つい2日前だったんです。" },
+            { "speaker": "host", "text": "その区別、忘れないようにしたいね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "最後に一言。" },
+            { "speaker": "analyst", "text": "似た『発覚型』ニュースほど、発生日と開示日を分けて捉えてみてください。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
