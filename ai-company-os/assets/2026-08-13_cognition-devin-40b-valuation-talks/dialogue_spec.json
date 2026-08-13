@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "Cognition(Devin開発元)、評価額400億ドルでの資金調達交渉中と報道",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg「AI Startup Cognition in New Funding Talks at $40 Billion Value」(2026-08-12)",
+      "TechCrunch「AI coding startup Cognition reportedly already in talks to raise at $40B valuation」(2026-08-12)",
+      "PYMNTS / Benzinga / TechFundingNews(いずれも2026年8月)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "3か月足らずで評価額が1.5倍って、そんなことある?", "source": "Bloomberg(2026-08-12)" },
+            { "speaker": "analyst", "text": "AIコーディングエージェント『Devin』のCognitionが、評価額400億ドルでの資金調達交渉に入ったと報じられています。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "前回2026年5月は260億ドルでした。今回はまだ交渉の初期段階です。" },
+            { "speaker": "host", "text": "『交渉中』というところがポイントだね、決定事項じゃないんだ。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで見ていくの?" },
+            { "speaker": "analyst", "text": "会社の紹介から数字の推移、投資家、そして懐疑的な見方まで、6つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは着手日から1〜2日以内という新しい報道で、3か月足らずで評価額が50%以上上がるかもという急成長ぶりがフックです。" },
+            { "speaker": "host", "text": "AIにエンジニアの仕事を任せる、というコンセプト自体も分かりやすいよね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそもCognitionってどんな会社なの?" },
+            { "speaker": "analyst", "text": "米サンフランシスコ拠点、2023年11月設立と報じられる会社です。創業者はみんな国際情報オリンピックの金メダリストなんです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "『Devin』って具体的に何をするAIなの?" },
+            { "speaker": "analyst", "text": "指示を受け取って、計画からコード記述・デバッグまでを自律的に進め、成果物を提出する。2024年3月に世界初の自律型AIソフトウェアエンジニアとして発表されました。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで用語を整理しておきます。評価額は企業価値の見積もり、ARRは年間の売上規模の目安です。" },
+            { "speaker": "host", "text": "どちらも将来を保証する数字じゃない、というのは覚えておかないとね。ここから数字の中身に入っていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "評価額はどう推移してきたの?" },
+            { "speaker": "analyst", "text": "2024年の20億ドルから、2025年9月に102億ドル、2026年5月に260億ドル、そして今回400億ドル以上での交渉に入ったと報じられています。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "グラフにすると、完了済みのラウンドだけでも右肩上がりなのが分かります。", "source": "PYMNTS・TechCrunch・Bloomberg" },
+            { "speaker": "host", "text": "1年ちょっとで20億ドルから260億ドルって、桁が変わってるね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "で、今回の交渉目標は?" },
+            { "speaker": "analyst", "text": "400億ドル以上です。ただしまだ交渉の初期段階で、条件が変わる可能性もあります。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "ラウンドを一覧にすると、調達額も評価額と一緒に拡大してきたことが分かります。" },
+            { "speaker": "host", "text": "最後の行だけ『交渉中・未確定』と書いてあるのが大事なポイントだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "評価額だけじゃなくて、実際の売上はどうなの?" },
+            { "speaker": "analyst", "text": "ARRは2024年9月の約100万ドルから、2025年6月に約7,300万ドル、2026年5月には約4億9,200万ドルへと急拡大しています。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "今は、そのARRが10億ドルに迫っているとされています。ただし正確な数値は非公開です。", "source": "Bloomberg(2026-08-12)" },
+            { "speaker": "host", "text": "前回のおよそ倍って考えるとすごい伸びだけど、あくまで『迫っている』という表現なんだね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "そんなに伸びた背景は何なの?" },
+            { "speaker": "analyst", "text": "企業利用が半年連続で毎月50%増、2025年7月に買収したWindsurfの統合、そして前回ラウンドの土台の3つが報じられています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "今回の交渉、具体的にはどこまで分かってるの?" },
+            { "speaker": "analyst", "text": "交渉は初期段階、評価額400億ドル以上・調達額10億ドル超が目標とされていますが、最終的に不成立の可能性もあるとBloombergは付記しています。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "前回と今回を比べると、前回は完了済みの確定ラウンド、今回はまだ交渉中という違いが一番大きいです。" },
+            { "speaker": "host", "text": "同じ『資金調達』でも、確定と交渉中では重みが全然違うね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "投資家は誰が入っているの?" },
+            { "speaker": "analyst", "text": "過去にはPeter Thiel氏のFounders Fundなどが名前を連ねていますが、今回の交渉の新規投資家名は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "CEOのScott Wu氏は、AIコーディングエージェントは人間の代替ではなく、地味な作業を引き受ける存在だという趣旨を語ったとされています。" },
+            { "speaker": "host", "text": "『代替』じゃなくて『補助』という位置付け、大事な言い方だね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの流れを時系列でおさらいすると?" },
+            { "speaker": "analyst", "text": "2023年11月の創業、2024年3月のDevin発表、2025年7月のWindsurf買収を経て、評価額が急拡大してきました。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "Devinが担うとされる仕事は、レガシー更新やプラットフォーム移行のような地味な作業です。社内では自社コードの89%を書いているとの報道もあります。" },
+            { "speaker": "host", "text": "89%はすごい数字だけど、測定方法はまだ確認できていないんだよね。ここから少し踏み込んだ話をしよう。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "いいことばかりじゃないよね?懐疑的な見方はないの?" },
+            { "speaker": "analyst", "text": "2024年の発表直後、独立した開発者らがデモの一部を再現できないと指摘し、ベンチマーク結果にも留保が必要という声があります。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "見出しだけ見ると『評価額400億ドル確定』みたいに感じちゃいそうだね。" },
+            { "speaker": "analyst", "text": "実際は交渉の初期段階の報道で、Devin自身も人間の代替ではなく補助という位置付けだと説明されています。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "投資動向、AI技術動向、社内導入検討、それぞれの立場での実践的な示唆をまとめました。" },
+            { "speaker": "host", "text": "特に導入検討する立場は、『代替』じゃなく『補助』という前提で見極める必要があるね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "正直に言うと、まだ分からないこともあるよね?" },
+            { "speaker": "analyst", "text": "交渉の完了時期の見込み、新規投資家の具体名、正確なARRの数値は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "他にも、Devinの具体的な顧客数やWindsurf買収額の正式な金額など、一覧にして未確認として整理しました。" },
+            { "speaker": "host", "text": "数字を推測で埋めない、というのが大事な姿勢だね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "資金調達の金額・時期は事実ですが、Windsurf統合との因果関係は当社の推測、新規投資家名などは不明として分けています。" },
+            { "speaker": "host", "text": "事実と推測、まだ分からないことを、きちんと分けて見る必要があるね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "このテーマ、扱い方で気をつけていることは?" },
+            { "speaker": "analyst", "text": "『評価額400億ドルになった』と断定せず、一貫して『交渉中』『報じられている』という表現を使っています。懐疑的な指摘も隠していません。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "このテーマ、鮮度はどうなの?" },
+            { "speaker": "analyst", "text": "中心となる報道は2026年8月11〜12日、着手日の1〜2日前です。2日以内という当社の基準を満たしています。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "主な出典はBloomberg、TechCrunch、PYMNTS、Benzinga、TechFundingNewsなどです。" },
+            { "speaker": "host", "text": "詳しくはresearch.mdを見てほしいね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "評価額400億ドルへの道のりは、まだ交渉というスタートラインに立ったばかりです。" },
+            { "speaker": "host", "text": "今回はCognitionの資金調達交渉と、その背景をお伝えしました。次回もまた出典付きでお届けします。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
