@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "Anthropic、Claude生成コンテンツへの電子透かし付与を発表(EU AI Act対応)",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Anthropic公式ニュース(2026-08-11〜12)",
+      "Euronews「EU compliance, delivered globally: Anthropic to watermark Claude's output worldwide」",
+      "TechXplore「Anthropic unveils AI watermarks to comply with EU law」",
+      "Axios「Anthropic's text watermarks signal new front in AI detection」",
+      "Interesting Engineering(2026-08-11〜12)",
+      "Search Engine Journal(2026-08-11〜12)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "Claudeが書いた文章に、見えない印がつくようになるらしいよ。" },
+            { "speaker": "analyst", "text": "2026年8月11日から12日にかけて、AnthropicがEU AI Act第50条対応として電子透かしの付与を発表しました。", "source": "Anthropic公式ニュース、Euronewsほか(2026-08-11〜12)" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、この対応はEU域内に限らず世界全体に適用されるとされています。" },
+            { "speaker": "host", "text": "EUの規制対応なのに、世界中でやるんだ。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな流れで話してくれるの?" },
+            { "speaker": "analyst", "text": "背景から基礎知識、数字での深掘り、そして自己参照リスクへの配慮まで、5つの流れでお伝えします。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "着手日から1〜2日前という新しい話題で、規制と技術が交差する時事性の高いテーマです。" },
+            { "speaker": "host", "text": "世界全体で適用っていう規模感も気になるところだね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "analyst", "text": "EU AI Act第50条という透明性要件に対応する形で、Anthropicが行動規範に署名したと発表しました。" },
+            { "speaker": "host", "text": "その結果、Claudeの生成テキストに電子透かしがつくわけだね。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "2026年8月2日以降のモデルからすでに対応が始まっているとされます。" },
+            { "speaker": "host", "text": "発表は8月11日から12日。じゃあ12月2日って何?" },
+            { "speaker": "analyst", "text": "EUの猶予期間終了日で、それまでに旧モデルにも対応を広げる予定とされています。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "Anthropic公式に加え、Euronews・TechXplore・Axiosなど複数の独立した媒体が一致して報じています。" },
+            { "speaker": "host", "text": "1社だけの発表じゃなくて、複数の媒体が裏付けてるのは安心材料だね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "発表主体・対応内容・時期・適用範囲・根拠、この5点を表で整理しました。" },
+            { "speaker": "host", "text": "ここから先は、専門用語を1つずつかみ砕いていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "そもそもEU AI Act第50条って何なの?" },
+            { "speaker": "analyst", "text": "AI生成コンテンツの透明性、つまり利用者が判別できるようにすることを求める条文とされています。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "電子透かしって、具体的にどういうもの?" },
+            { "speaker": "analyst", "text": "目に見えない形で埋め込まれる機械可読なマーキングのことです。ただ、具体的な仕組みまでは確認できていません。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "もう1つの用語が来歴情報です。いつ・何によって作られたかを示す、署名付きの情報とされます。" },
+            { "speaker": "host", "text": "透かしと来歴情報、2段構えってことだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "これまでは機械可読なマーキングはなかったとされますが、今回はそれを世界全体に広げる対応です。" },
+            { "speaker": "host", "text": "導入前と導入後で、けっこう変わるんだね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "ポイントは3つ。機械可読な電子透かし、署名付きの来歴情報、そして世界全体での適用です。" },
+            { "speaker": "host", "text": "ここから、日付の数字を具体的に見ていこう。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "1つ目の数字は2026年8月2日。この日以降のモデルから対応が始まっているとされます。" },
+            { "speaker": "host", "text": "もう対応はスタート済みってことだ。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "2つ目は2026年12月2日。EUの猶予期間終了日までに、旧モデルへの対応も完了する予定とされます。" },
+            { "speaker": "host", "text": "つまり、あと数か月で対応が広がっていく計画ってことだね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "3つ目はEU域内に限らず世界全体という適用範囲です。" },
+            { "speaker": "host", "text": "地域限定にしない理由は、Anthropic自身は明言していないんだよね?" },
+            { "speaker": "analyst", "text": "そうです。運用を一律にする方が合理的という見方はできますが、あくまで推測にとどめます。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "8月2日・8月11〜12日・12月2日、この3つの時期を表にまとめました。" },
+            { "speaker": "host", "text": "スケジュールが整理できたところで、根拠の枠組みも見ておきたい。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "そもそも『行動規範』って何を指してるの?" },
+            { "speaker": "analyst", "text": "EUがAI生成コンテンツの透明性のために設けた、企業が任意で署名する枠組みとされています。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでの骨子をカードで振り返ります。1社の発表、6媒体の一致した報道、8月2日と12月2日という日付です。" },
+            { "speaker": "host", "text": "数字が少ない部分は正直に伝える、というのがこのシリーズのスタンスだよね。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "生成、透かし付与、判別材料になる、という流れを図にしました。" },
+            { "speaker": "host", "text": "ただ、判別の実際の精度はまだ分からないってことだね。" },
+            { "speaker": "analyst", "text": "その通りです。ここからは、これが実際にどう関わってくるかを見ていきましょう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "個人としては、この発表をどう受け止めればいいの?" },
+            { "speaker": "analyst", "text": "検出・検証の具体的な方法は確認できていないので、生成物の真正性を過信も過小評価もしないのが実践的です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "企業側はどう向き合えばいい?" },
+            { "speaker": "analyst", "text": "AI生成コンテンツの表示ルール整備の参考材料になりえますが、業務影響の詳細はまだ分かっていません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "技術的仕組み・検出方法・UXへの影響など、5点は確認できていません。" },
+            { "speaker": "host", "text": "わからないことをちゃんとわからないと言うの、大事だね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "事実・推測・不明を分けると、日付や適用範囲は事実、判別手がかりとしての位置づけは推測です。" },
+            { "speaker": "host", "text": "ここまで整理してくれると、鵜呑みにせずに読めるね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "OpenAIやGoogleも似たようなことをやってるの?" },
+            { "speaker": "analyst", "text": "本ラウンドの調査範囲では確認できていません。存在しない競合動向を作り話にはしません。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "ここでちょっと大事な話をしないといけないよね。" },
+            { "speaker": "analyst", "text": "はい。私たちのこの制作パイプライン自体が、Anthropic社のClaudeを基盤にしています。だからこそ、賞賛や宣伝的な表現は使わず、AIが人間の仕事を代替するという言い方もしません。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "続報を待つこと、一次情報にあたること、そして判別精度を過信しないこと。この3つを勧めます。" },
+            { "speaker": "host", "text": "ここまでが本編。最後にまとめよう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "個人・企業・情報の受け手、それぞれの立場での実践的な示唆を整理しました。" },
+            { "speaker": "host", "text": "どの立場でも、断定しすぎないことが共通してるね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "Anthropic公式ニュースに加え、Euronews・TechXplore・Axiosなど、確認できた出典を一覧にしました。" },
+            { "speaker": "host", "text": "気になる人はresearch.mdで詳しく見てほしいね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "電子透かしの付与は、AI生成コンテンツの透明性表示が広がる一つの動きとして報じられています。" },
+            { "speaker": "host", "text": "特定企業の利用を勧める結論にはせず、事実の整理はここまで。また次回、出典付きでお届けします。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

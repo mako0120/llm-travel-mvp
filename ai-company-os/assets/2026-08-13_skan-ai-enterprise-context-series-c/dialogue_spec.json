@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "Skan AI、業務観察型AIエージェント基盤でシリーズC 6,300万ドル調達",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "PRNewswire / Yahoo Finance(2026-08-12) Skan AI Raises $63 Million to Give Enterprise AI the Context It's Missing: How Work Actually Gets Done",
+      "VentureBeat(2026-08-12) Skan AI raises $63 million betting that watching how employees actually work is the missing layer of enterprise AI",
+      "TheNextWeb / FinSMEs / unite.ai / Dealroom.co(いずれも2026-08-12)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "あなたの仕事のやり方を、AIが観察して覚えているらしいよ？", "source": "VentureBeat(2026-08-12)" },
+            { "speaker": "analyst", "text": "2026年8月12日、メンロパーク拠点のSkan AIがシリーズCで6,300万ドルを調達したと発表しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "Cathay InnovationとDell Technologies Capitalが共同でリードしたラウンドです。" },
+            { "speaker": "host", "text": "6,300万ドル、いきなり大きい金額から入ってきたね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで見ていくの？" },
+            { "speaker": "analyst", "text": "資金の内訳から製品の中身、顧客実績、そしてプライバシーの論点まで、6つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは着手日から1日以内という新しい発表で、AIが働き方を観察してコピーするという分かりやすいフックがあります。" },
+            { "speaker": "host", "text": "Dell Technologies Capitalという大手が参加しているのも話題性があるね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそもSkan AIってどんな会社なの？" },
+            { "speaker": "analyst", "text": "米カリフォルニア州メンロパーク拠点、2018年設立と報じられる企業です。米国大手銀行トップ10のうち7行を顧客に持つとされています。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "『業務観察型AIコンテキストプラットフォーム』って、なんだか難しい言葉だね。" },
+            { "speaker": "analyst", "text": "従業員が実際にどうアプリを使って仕事をしているかを観察・記録し、そのデータでAIエージェントを作る仕組みのことです。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "観察結果を『Context Graph』という業務の地図に蒸留し、それを拠り所にAIエージェントを作る、という流れです。", "source": "VentureBeat(2026-08-12)" },
+            { "speaker": "host", "text": "ここまでが前提。ここから資金調達の中身に入っていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "改めて、今回のシリーズCの規模はどれくらいなの？" },
+            { "speaker": "analyst", "text": "6,300万ドルです。Cathay InnovationとDell Technologies Capitalが共同でリードしました。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "参加した投資家はCiti Ventures、Bloomberg Beta、State Farm Ventures、Wipro Venturesです。" },
+            { "speaker": "host", "text": "金融系の名前が多いのは、銀行が顧客に多いことと関係ありそうだね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "過去の資金調達との比較は?" },
+            { "speaker": "analyst", "text": "2020年のシリーズAが1,400万ドル、2022年のシリーズBが4,000万ドル、そして今回が6,300万ドルです。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "累計調達額は、今回を経ておよそ1.2億ドルに達したと複数の媒体が報じています。" },
+            { "speaker": "host", "text": "6年ちょっとで1.2億ドル、着実に積み上げてきた感じだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "時系列で整理するとどうなるの？" },
+            { "speaker": "analyst", "text": "2018年の設立から、2020年シリーズA、2022年シリーズB、そして2026年8月のシリーズCへとつながります。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "CEOのAvinash Misra氏は、AIモデルを『車』に、業務の実態を示す仕組みを『ナビゲーションシステム』に例えています。", "source": "unite.ai(2026-08-12)" },
+            { "speaker": "host", "text": "なるほど、車自体より道案内の方が大事だ、という考え方だね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "観察から実際にAIが動くまで、どういう流れなの?" },
+            { "speaker": "analyst", "text": "観察、蒸留、構築、そして人間の監督という4ステップで進むと説明されています。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "『Skan AI Blueprint』って何?" },
+            { "speaker": "analyst", "text": "レガシー環境や規制業務も含め、AI活用の機会を発見して優先順位をつける製品です。今回GAが発表されました。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "もう一つの『Skan AI Agents』は?" },
+            { "speaker": "analyst", "text": "観測された数千件の業務ケースをもとに構築される、実行担当のAIエージェントです。人間の監督と監査可能性を備えるとされています。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "つまりBlueprintが『どこにAIの機会があるか』を見つけ、Agentsが『実際にやる』役割分担です。" },
+            { "speaker": "host", "text": "地図を作る人と、実際に運転する人、みたいな関係だね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "実際にどんな企業が使っているの?" },
+            { "speaker": "analyst", "text": "米国大手銀行トップ10のうち7行、Unum、Mitieなどが顧客として報じられ、累計5億ドル超の顧客価値を主張しているとされます。", "source": "Dealroom.co(2026-08-12)" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "あるマネーロンダリング対策業務では、AIエージェントがケースの60%を処理しているとVentureBeatが報じています。", "source": "VentureBeat(2026-08-12)" },
+            { "speaker": "host", "text": "数字にするとこう、というやつだね。ここから少し踏み込んだ話をしよう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "画面を観察するって、正直ちょっと怖い響きだね。プライバシーは大丈夫なの?" },
+            { "speaker": "analyst", "text": "Skan側の説明では、企業が観察対象を限定でき、スクリーンショットは端末上でのみ処理し、送信するのは匿名化したメタデータのみだとしています。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "CEOは欧州の労使協議会の承認事例を挙げていますが、VentureBeatは同じ仕組みが業績の低いチームの可視化にもつながりうると指摘しています。", "source": "VentureBeat(2026-08-12)" },
+            { "speaker": "host", "text": "配慮策があることと、懸念が消えることは別、ということだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "見出しだけ見ると『監視ツールが登場した』みたいに感じちゃいそうだね。" },
+            { "speaker": "analyst", "text": "Skan側は個人監視ではなく業務プロセスの観察だと説明していますが、配慮策の第三者検証はまだ確認できていません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "正直にお伝えすると、調達後の評価額や、顧客銀行の具体的な社名は確認できていません。" },
+            { "speaker": "host", "text": "観察の技術的な詳細も、まだ分からないことが多いんだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "他にも確認できていないことはある?" },
+            { "speaker": "analyst", "text": "配慮策の第三者監査の有無、AML事例の測定方法、人員削減の具体的な規模などは未確認として一覧にしました。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "調達額や出資者は複数メディアが確認した事実ですが、プライバシー配慮策はSkan側の説明に基づく報道です。" },
+            { "speaker": "host", "text": "事実と、企業側の説明と、まだ分からないことを、きちんと分けて見る必要があるね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "私たちがこのニュースから学べることは?" },
+            { "speaker": "analyst", "text": "投資動向、AI技術動向、そして自社でAI導入を検討する立場、それぞれで確認すべき点をまとめました。特に導入検討では配慮策を鵜呑みにしないことが大事です。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマは、業務観察という扇動にも隠蔽にもなりうる話題を、中立的に扱うよう心がけています。" },
+            { "speaker": "host", "text": "良い・悪いの判断はせず、事実と論点を並べる、というスタンスだね。ここまでが中身、最後にまとめよう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "このテーマ、鮮度はどうなの?" },
+            { "speaker": "analyst", "text": "中心となる報道は2026年8月12日、着手日の1日前です。2日以内という当社の基準を満たしています。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "主な出典はYahoo Finance、VentureBeat、TheNextWeb、PRNewswire、FinSMEsなどです。" },
+            { "speaker": "host", "text": "詳しくはresearch.mdを見てほしいね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "資金と製品は揃いましたが、次に問われるのはプライバシーへの配慮を保ちながら実運用に耐えられるかどうかです。" },
+            { "speaker": "host", "text": "今回はSkan AIのシリーズC調達と、それに伴うプライバシーの論点をお伝えしました。次回もまた出典付きでお届けします。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
