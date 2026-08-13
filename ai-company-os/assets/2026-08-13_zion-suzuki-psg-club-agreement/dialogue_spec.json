@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "title": "パルマとPSG、「クラブ間合意」に到達。移籍金は約64億円。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "footballchannel.jp「日本代表GK鈴木彩艶、PSG移籍へ“クラブ間合意”と現地報道 移籍金は約63億円、ユベントスへの期限付き移籍も合意」",
+      "Yahoo!ニュース(theWORLD配信)「鈴木彩艶が欧州王者PSG移籍へ! 移籍金64億円でパルマとクラブ間合意とロマーノ氏」",
+      "Football Tribe Japan(2026-08-12)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "analyst", "text": "パルマとPSG、「クラブ間合意」に到達したそうです。", "source": "footballchannel.jp(2026-08-11〜12)" },
+            { "speaker": "host", "text": "え、あの鈴木彩艶選手の話!?" },
+            { "speaker": "analyst", "text": "はい。移籍金は約64億円とされています。今日はこの続報をお伝えします。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "host", "text": "結論から教えて。" },
+            { "speaker": "analyst", "text": "パルマ・PSG間で「クラブ間合意」に到達したと現地報道です。ただし正式発表にはまだ至っていません。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日は何が分かるようになる?" },
+            { "speaker": "analyst", "text": "クラブ間合意とは何か、移籍金の推移、ユベントス構想、そして今後の注目ポイントです。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "なぜ今この話題を扱うの?" },
+            { "speaker": "analyst", "text": "着手日から1〜2日前と鮮度が高く、複数メディアが追随した報道で、移籍金更新という新情報もあるからです。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "これって、以前扱った話の続き?" },
+            { "speaker": "analyst", "text": "はい。85本目で扱った「PSGが正式オファーを提示」という話の続報です。今回はクラブ間合意への進展をお伝えします。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "基本情報を教えて。" },
+            { "speaker": "analyst", "text": "移籍先はPSG、移籍金はボーナス込み約3,500万ユーロ、約63〜64億円とされ、現段階はクラブ間合意です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "slides": [
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "そもそも「クラブ間合意」って何?" },
+            { "speaker": "analyst", "text": "クラブ同士が移籍条件で合意した段階です。まだ移籍決定ではなく、この後に医療検査や本人との契約交渉が続きます。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "この情報、どこから来てるの?" },
+            { "speaker": "analyst", "text": "著名記者ファブリツィオ・ロマーノ氏らの現地報道を、日本語メディアが伝えたものです。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "この後どんな手続きが続くの?" },
+            { "speaker": "analyst", "text": "一般的には、クラブ間合意の後に医療検査、契約締結を経て公式発表に至ります。ただし本件の進捗は不明です。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "移籍金の推移をグラフにすると?" },
+            { "speaker": "analyst", "text": "85本目時点は約60億円、今回は約63〜64億円。この通り更新されています。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "ユーロで見ると、ボーナス込み約3,500万ユーロです。" },
+            { "speaker": "host", "text": "結構な金額だね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "日本円だといくらになるの?" },
+            { "speaker": "analyst", "text": "約63億円から64億円とされ、媒体によって表現に幅があります。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "主要事実をまとめると?" },
+            { "speaker": "analyst", "text": "選手・移籍先・移籍金・現在の状況。この4つがポイントです。状況はクラブ間合意の段階です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "全体の流れを図で教えて。" },
+            { "speaker": "analyst", "text": "パルマからPSGへの合意に加え、PSGからユベントスへの期限付き移籍構想も合意済みとされています。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "この数字に注目です、期限付き移籍。" },
+            { "speaker": "host", "text": "ユベントスにも行くってこと?" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "期限付き移籍構想の要点は?" },
+            { "speaker": "analyst", "text": "移籍元はPSG、移籍先はユベントス、買取オプションなし。ただし開始時期は不明です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "85本目との数字比較は?" },
+            { "speaker": "analyst", "text": "段階・移籍金・競合クラブとの関係、いずれも進展が見られます。この表の通りです。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "ここ、大事な注意点があるんだよね?" },
+            { "speaker": "analyst", "text": "はい。クラブ間合意の段階であり、正式な移籍決定・移籍発表ではありません。断定的な表現は使いません。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "確定していることと、していないことを分けると?" },
+            { "speaker": "analyst", "text": "クラブ間合意到達や移籍金の報道は確認できていますが、公式発表や本人コメントはまだ確認できていません。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "「期限付き移籍」も教えて。" },
+            { "speaker": "analyst", "text": "選手が一時的に別クラブでプレーし、期限が来ると戻る移籍形態です。買取オプションがなければ自動獲得権はありません。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "経緯をタイムラインで整理して。" },
+            { "speaker": "analyst", "text": "8月3日のオファー提示から、8月11〜12日のクラブ間合意へ。今後は正式発表に至る見込みですが時期は不明です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "この進展を知ると何が変わるの?" },
+            { "speaker": "analyst", "text": "オファー提示からクラブ間合意へ進み、実現の可能性がより具体的になったと言えます。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "今後の注目ポイントは?" },
+            { "speaker": "analyst", "text": "両クラブの公式発表の有無、本人コメント、そしてユベントス移籍の開始時期です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "不明点を詳しく教えて。" },
+            { "speaker": "analyst", "text": "公式発表、本人コメント、契約詳細、移籍時期、医療検査の状況。いずれも出典で確認できていません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "ちょっと待って、特定クラブを持ち上げすぎてない?" },
+            { "speaker": "analyst", "text": "していません。特定クラブを過度に推奨せず、鈴木選手個人への敬意を保ったうえで淡々と紹介しています。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "表現の方針はどうなってるの?" },
+            { "speaker": "analyst", "text": "クラブ間合意を移籍決定と言い換えず、すべて報道ベースの表現で統一しています。出典にない数字は使いません。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "出典をもう一度教えて。" },
+            { "speaker": "analyst", "text": "footballchannel.jp、Yahoo!ニュース(theWORLD配信)、Football Tribe Japanが同じ内容を報じています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できたことと、できなかったことを整理します。クラブ間合意の報道は確認済み、公式発表はまだです。" },
+            { "speaker": "host", "text": "正直に分けてあるのが分かりやすいね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "host", "text": "最後にひとこと。" },
+            { "speaker": "analyst", "text": "両クラブの公式発表、そしてユベントスへの期限付き移籍構想の行方にも注目していきましょう。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "鈴木彩艶選手のPSG移籍、クラブ間合意という進展をお届けしました。正式発表にはまだ至っていません。" },
+            { "speaker": "host", "text": "今回もありがとうございました。次回もお楽しみに。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
