@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "30億ダウンロード。AlibabaのQwenが、Meta・Googleを追い抜いた。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg「Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google」(2026-08-15)",
+      "Hugging Face「state of open models」レポート(2026-08-14公開)",
+      "Fortune・Business Standard・Storyboard18・Yahoo Finance(2026-08-15以降、Bloomberg記事を配信・引用)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "30億ダウンロード。Alibabaのオープンウェイトモデルが、そこまで伸びてる。", "source": "Bloomberg(2026-08-15)" },
+            { "speaker": "analyst", "text": "過去6か月間の世界累計です。Meta・Googleを上回るとBloombergが報じました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、Qwenが世界最多水準のダウンロード数になりました。" },
+            { "speaker": "host", "text": "GoogleやMetaは、具体的にどれくらいの数字なの?" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな内容を扱うの?" },
+            { "speaker": "analyst", "text": "数字の中身、Meta・Googleとの比較、そして意味すること・意味しないことまで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "着手日の前日という新しい話題で、複数の主要メディアが同じ数字を配信しています。" },
+            { "speaker": "host", "text": "裏付けが厚いということだね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "時系列で整理するとどうなるの?" },
+            { "speaker": "analyst", "text": "8/14にHugging Faceがレポート公開、8/15にBloombergがQwenの数字を報道。この2つの日付が肝心です。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "今日は6つの流れでお伝えします。理由、2つの日付、基礎知識、数字比較、意味の整理、そして今後の見通しです。" },
+            { "speaker": "host", "text": "順番に見ていこう。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "情報源はBloombergだけなの?" },
+            { "speaker": "analyst", "text": "いいえ。Hugging Faceのデータに加え、Fortuneなど複数の主要メディアが同じ内容を配信しています。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "ここが重要です。レポート公開日の8/14と、報道日の8/15は別の日付です。" },
+            { "speaker": "host", "text": "混同しないよう、ここからの数字はしっかり出典を確認していこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "そもそも「オープンウェイトモデル」って何?" },
+            { "speaker": "analyst", "text": "モデルの重みを一般公開し、誰でもダウンロード・改変できるようにしたAIモデルのことです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "「ダウンロード数」って、そのまま利用者数と考えていいの?" },
+            { "speaker": "analyst", "text": "いいえ、そこは注意が必要です。集計方法や期間の定義がプラットフォームごとに異なりうるので、本調査の範囲では完全な同一性は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "配布経路にも違いがあります。AlibabaはQwenを自社クラウド経由でも配布しています。" },
+            { "speaker": "host", "text": "東南アジアやアフリカの企業顧客にも届けているんだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "数字をグラフで見せてよ。" },
+            { "speaker": "analyst", "text": "Qwenが約30億件、Googleが4億1,800万件、Metaが2億2,700万件です。差は歴然としています。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "まずGoogle。Hugging Faceのレポートによると2026年のダウンロード数は4億1,800万件です。", "source": "Hugging Face(2026-08-14)" },
+            { "speaker": "host", "text": "決して小さい数字じゃないのに、Qwenとの差が大きいね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "続いてMeta。同じレポートで2026年は2億2,700万件でした。", "source": "Hugging Face(2026-08-14)" },
+            { "speaker": "host", "text": "Googleよりもさらに差が開くんだ。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "そしてQwen。過去6か月で30億超えです。ただし集計期間がGoogle・Metaとは異なる点には注意が必要です。" },
+            { "speaker": "host", "text": "「6か月」と「2026年」で単純比較していいのか、という点だね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "Qwenは460以上のモデルをオープンソース化し、派生モデルは30万以上にのぼります。" },
+            { "speaker": "host", "text": "エコシステムの広がりも数字で見えてくるね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "3社まとめて表で見たい。" },
+            { "speaker": "analyst", "text": "作りました。特に「集計期間」の列に注目してください。3社で期間の取り方が違います。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "Alibabaの配布網を図にしました。プラットフォーム経由に加え、自社クラウド経由の配布があります。" },
+            { "speaker": "host", "text": "これが多くの競合にはない強みなんだね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "正直にお伝えします。集計方法・定義が3社で完全に同一かは確認できていません。" },
+            { "speaker": "host", "text": "数字だけを鵜呑みにせず、条件の違いも踏まえて見よう。ここからは、この数字が何を意味するかに入っていくよ。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "結局、この数字は何を意味するの?" },
+            { "speaker": "analyst", "text": "オープンウェイトモデルの選択肢として、Qwenが世界的に広く使われていることが裏付けられました。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "実際に検討するなら、確認すべきことを4つにまとめました。" },
+            { "speaker": "host", "text": "ライセンス確認から始まるんだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "オープンウェイト全般のメリット・注意点は?" },
+            { "speaker": "analyst", "text": "自由度が高い一方、運用負荷は自社で負う場合が多く、ライセンス確認が欠かせません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "視聴者の立場ごとに実践的な示唆をまとめました。" },
+            { "speaker": "host", "text": "発信する立場としては、数字だけを一人歩きさせないことが大事だね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "見出しだけ見ると、勘違いしそうなポイントもあるよね。" },
+            { "speaker": "analyst", "text": "はい。「ダウンロード数世界一」は利用者数や性能の世界一を意味しません。米中の対立構図としても扱いません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "見出しの印象と、実際に確認できている内容を並べました。" },
+            { "speaker": "host", "text": "確認できているのは、あくまで「ダウンロード数」という1つの指標なんだね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマは企業の実績数値の紹介であり、政治的な評価や優劣の論評は行いません。" },
+            { "speaker": "host", "text": "Alibaba・Qwenを推奨する意図もない、中立な紹介というスタンスだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できていないことを一覧にしました。集計方法・定義・利用者数との関係、いずれも不明です。" },
+            { "speaker": "host", "text": "分からないことは分からないと言う。ここまでの内容を最後にまとめよう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "この先どうなりそう?" },
+            { "speaker": "analyst", "text": "オープンウェイトモデルの採用はさらに広がる可能性がありますが、あくまで推測です。Meta・Googleの対抗策は不明です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "30億ダウンロードという数字の中身を、出典付きで正直にお届けしました。" },
+            { "speaker": "host", "text": "比較条件の違いや確認できなかったことも、あわせてお伝えしたね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はBloombergとHugging Face、そしてそれを配信した複数のメディアです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdでも確認できます。また次のテーマで。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
