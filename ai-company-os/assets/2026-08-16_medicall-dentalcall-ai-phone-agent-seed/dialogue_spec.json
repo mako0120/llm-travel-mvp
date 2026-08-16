@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "韓国Medicall、歯科医院向けAI電話エージェント「DentalCall」でシード資金調達(金額非公開)",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "WOWTALE「Medicall Raises Seed Funding to Expand AI Phone Assistant Platform for Dental Clinics」(2026-08-14)",
+      "WOWTALE「[Korean Startup Weekly News #131] AI Infrastructure Gets Serious」(2026-08-15)",
+      "Dealroom.co news note「Medicall raises seed round for dental AI phone agent DentalCall」",
+      "AI Market Watch funding category page"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "歯医者さんの電話に、AIが24時間出るってほんと?", "source": "WOWTALE(2026-08-14)" },
+            { "speaker": "analyst", "text": "韓国のMedicallが、歯科医院向けAI電話エージェント『DentalCall』でシード資金調達を実施したと報じられています。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "AI Angel Clubが主導し、CNTTech・Tail Ventures・Antler Koreaが参加しました。ただし金額は非公開です。" },
+            { "speaker": "host", "text": "金額が分からないっていうのは、正直に言っておかないとね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで見ていくの?" },
+            { "speaker": "analyst", "text": "会社の紹介から機能、資金調達の中身、海外実績、そして確認できなかったことまで、6つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは着手日から2日以内という新しい報道で、歯科医院の電話に24時間AIが出るという分かりやすさがフックです。" },
+            { "speaker": "host", "text": "しかも韓国国内より先に、タイやフィリピンで有料顧客がいるっていうのも意外だよね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそもMedicallってどんな会社なの?" },
+            { "speaker": "analyst", "text": "韓国のスタートアップで、DentalCallを開発・提供しています。将来的には複数のAIエージェントを連携させるヘルスケアプラットフォームを目指していて、DentalCallはその第一弾です。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "DentalCallは具体的にどう動くの?" },
+            { "speaker": "analyst", "text": "患者からの電話をAIが24時間受け、予約受付や変更、キャンセル、問い合わせに応答し、内容がクリニック側に反映される仕組みです。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで用語を整理します。AI電話エージェントは受付をAIが担う仕組み、アウトバウンド患者管理はAIから患者へ電話をかける仕組みです。" },
+            { "speaker": "host", "text": "人間を完全に置き換えるわけじゃない、というのは覚えておきたいね。ここから機能の中身に入っていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "電話がかかってきたとき、DentalCallは何をしてくれるの?" },
+            { "speaker": "analyst", "text": "予約受付、予約変更、キャンセル対応、そして一般的な問い合わせ対応の4つです。いずれも24時間対応と報じられています。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "受電だけでなく、AIから患者に電話をかける機能もあります。定期検診・スケーリングのリコール、術後フォローアップ、再来院リマインドの3つです。" },
+            { "speaker": "host", "text": "こっちから電話するのは、地味だけど手間がかかる業務だよね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "DentalCallの先には何があるの?" },
+            { "speaker": "analyst", "text": "電話応対、予約・問診、リコール・患者管理、マーケティングという複数の役割特化型AIエージェントを連携させる構想で、DentalCallはその第一弾製品と位置付けられています。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "従来は診療時間外の電話に出られない、といった一般的な課題がありますが、これは業界の一般的な整理であって、Medicall固有のデータではありません。" },
+            { "speaker": "host", "text": "そこは区別しておかないと、事実と一般論がごちゃまぜになっちゃうもんね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "投資家は誰が入っているの?" },
+            { "speaker": "analyst", "text": "AI Angel Clubがリード、CNTTech、Tail Ventures、Antler Koreaが参加投資家として報じられています。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "調達金額は非公開です。ここは架空の数字を出さず、はっきり『非公開』とお伝えします。", "source": "WOWTALE・Dealroom.co(2026-08-14)" },
+            { "speaker": "host", "text": "金額が分からないからこそ、機能や実績のほうをしっかり見ていく必要があるね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "資金調達の概要をまとめると?" },
+            { "speaker": "analyst", "text": "発表日は2026年8月14日、投資家4社、調達金額・評価額はいずれも非公開・不明です。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "資金の使いみちは、製品改善、営業・パートナー網の拡大、採用の3つです。" },
+            { "speaker": "host", "text": "金額の内訳までは報じられていないんだね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "海外での実績はどうなの?" },
+            { "speaker": "analyst", "text": "タイの大手通信キャリア1社が、既に有料でMedicallのサービスを利用していると報じられています。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "フィリピンでも、主要医療機関複数が有料顧客として利用しています。" },
+            { "speaker": "host", "text": "韓国発なのに、海外に先に有料顧客がいるのは面白いね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "海外実績を一覧にすると、タイとフィリピンでは利用中とされる一方、韓国国内の導入クリニック数は確認できていません。" },
+            { "speaker": "host", "text": "そこは正直に『不明』としておくべきだね。ここから少し視点を変えて見ていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "そもそも歯科医院の電話対応って、なんでそんなに課題になりやすいの?" },
+            { "speaker": "analyst", "text": "診療中はスタッフが電話対応に割かれやすい、診療時間外は出られない、といった一般的な指摘があります。これは当社の整理で、特定の出典データではありません。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "AI電話エージェントを導入するとき、気をつけることは?" },
+            { "speaker": "analyst", "text": "AIが対応できる範囲と人が対応すべき範囲の切り分け、既存システムとの連携、患者への事前説明の3点が一般的な留意点です。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "読者にとっての実践的な示唆をまとめました。経営者、導入検討者、投資動向を追う立場、それぞれの視点です。" },
+            { "speaker": "host", "text": "『代替』じゃなくて『電話応対の自動化』という範囲、というのが大事なポイントだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "見出しだけ見ると『大型調達が決まった』みたいに感じちゃいそうだね。" },
+            { "speaker": "analyst", "text": "実際は金額非公開で規模は判断できず、報じられている機能も電話応対中心の範囲にとどまっています。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "似たような名前の会社と間違えたりしない?" },
+            { "speaker": "analyst", "text": "同時期にAI Angel ClubはSalm Clinicにも出資していますし、AllconnecというAI歯科プラットフォームも別に資金調達していますが、いずれもMedicallとは別会社です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "正直に言うと、まだ分からないこともあるよね?" },
+            { "speaker": "analyst", "text": "調達金額の具体的な数字、評価額、Medicallの創業時期・正社員数・過去の調達履歴は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "他にも、競合との定量比較や韓国国内の導入クリニック数など、一覧にして未確認として整理しました。" },
+            { "speaker": "host", "text": "数字を推測で埋めない、というのが大事な姿勢だね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "機能内容や投資家名は複数情報源が確認した事実、業界課題の整理は当社の推測、調達金額や創業時期は不明として分けています。" },
+            { "speaker": "host", "text": "事実と推測、まだ分からないことを、きちんと分けて見る必要があるね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "このテーマ、扱い方で気をつけていることは?" },
+            { "speaker": "analyst", "text": "調達金額は一貫して『非公開』と明記し、政治的な評価もせず、特定企業を強く推奨する結論にもしていません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "このテーマ、鮮度はどうなの?" },
+            { "speaker": "analyst", "text": "中心となる報道は2026年8月14日、着手日の2日前です。2日以内という当社の基準を満たしています。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "主な出典はWOWTALE、Dealroom.co、AI Market Watchです。" },
+            { "speaker": "host", "text": "詳しくはresearch.mdを見てほしいね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "歯科医院の電話にAIが出る未来は、金額非公開のまま、静かに動き出しています。" },
+            { "speaker": "host", "text": "今回はMedicallのDentalCallと、その資金調達をお伝えしました。次回もまた出典付きでお届けします。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
