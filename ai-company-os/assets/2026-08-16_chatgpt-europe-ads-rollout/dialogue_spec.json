@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "ChatGPTに広告が来る――OpenAIが欧州Free・Goユーザーに送った、2026年8月15日08:29のメール",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "ppc.land「OpenAI's ChatGPT ads notice」(2026-08-15)",
+      "OpenAI Help Center「Ads in ChatGPT」",
+      "OpenAI公式ブログ「Testing ads in ChatGPT」",
+      "OpenAI公式ブログ「Our approach to advertising and expanding access to ChatGPT」"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "2026年8月15日、朝8時29分。OpenAIが欧州に1通のメールを送った。", "source": "ppc.land(2026-08-15)" },
+            { "speaker": "analyst", "text": "ChatGPTのFree・Goプランに、今月後半から広告が表示されるという通知です。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、無料・低価格プランに広告が入ります。" },
+            { "speaker": "host", "text": "有料プランは?チャット履歴は使われるの?" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな流れで見ていくの?" },
+            { "speaker": "analyst", "text": "通知の中身から仕組み、対象プラン、データ処理の場所まで、6つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "着手日の前日という新しい話題で、無料ユーザーに直接関わる内容です。" },
+            { "speaker": "host", "text": "専門メディアと公式ヘルプセンターの説明も一致してるんだね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "時系列で整理するとどうなるの?" },
+            { "speaker": "analyst", "text": "8/15 08:29に通知メール、そして今月後半に広告表示開始。具体的な日付はまだ非公開です。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "メールの中身は、広告の選び方・測り方・コントロールの仕方の3点でした。" },
+            { "speaker": "host", "text": "プライバシーポリシー改定という形での通知なんだ。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "で、対象になるのは誰なの?" },
+            { "speaker": "analyst", "text": "FreeとGoの2プランです。Plus・Pro・Enterprise・Business・Educationの5プランは対象外です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "ここまでの内容は、ppc.landと公式ヘルプセンター、公式ブログ2本で確認しています。" },
+            { "speaker": "host", "text": "複数の情報源が揃ってるのは安心材料だね。この先、仕組みをもっと詳しく見ていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "そもそもFreeとGoって、どう違うの?" },
+            { "speaker": "analyst", "text": "Freeは無料の基本プラン、Goはその上の低価格帯プランです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "広告にも種類があるんだよね?" },
+            { "speaker": "analyst", "text": "はい。文脈連動型とパーソナライズ広告の2種類で、今回導入されるのは文脈連動型のみです。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "導入前は広告なし、導入後は会話の話題などに応じた広告が出るようになります。" },
+            { "speaker": "host", "text": "『会話の内容そのもの』は使われないんだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "通知が送られたのは8月15日、土曜日の午前8時29分でした。", "source": "ppc.land(2026-08-15)" },
+            { "speaker": "host", "text": "週末の朝、EEA・スイスのユーザー全体に一斉送信されたんだ。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "対象プランの数をグラフで見せてよ。" },
+            { "speaker": "analyst", "text": "広告ありが2プラン、なしが5プラン。有料プランの方が広く対象外です。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "文脈連動型広告が使う情報は3つ、会話の話題・大まかな位置情報・デバイス種別です。" },
+            { "speaker": "host", "text": "個人の会話履歴そのものは使われないんだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "パーソナライズ広告はどうなるの?" },
+            { "speaker": "analyst", "text": "明示的なオプトインが必須で、EEA・スイスでは当初提供されません。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "広告対象外の5プランを一覧にしました。Plus・Pro・Enterprise・Business・Educationです。" },
+            { "speaker": "host", "text": "有料プランを使ってる人には関係ない話なんだ。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "データはどこで処理されるの?" },
+            { "speaker": "analyst", "text": "EEA・スイス・英国の域外、米国を含む場所で処理されます。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "根拠はGDPRの十分性認定か、標準契約条項のどちらかです。", "source": "OpenAI Help Center" },
+            { "speaker": "host", "text": "どちらもGDPRが認めてる正式な移転の仕組みなんだね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できたことと、できなかったことを整理しました。開始日・他地域展開・料金は不明です。" },
+            { "speaker": "host", "text": "ここまでが仕組みの話。次はこれが自分にとって何を意味するかを見ていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "結局、Free・Goを使い続けたらどうなるの?" },
+            { "speaker": "analyst", "text": "今月後半から会話中に広告が表示されます。避けたければ上位プランへの変更が選択肢です。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "広告が気になる場合の選択肢を4つにまとめました。" },
+            { "speaker": "host", "text": "まずは自分のプランを確認するところからだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "使い続けるメリットと注意点は?" },
+            { "speaker": "analyst", "text": "無料・低価格を維持できる一方、位置情報やデバイス種別が広告選定に使われます。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "視聴者の立場ごとに実践的な示唆をまとめました。" },
+            { "speaker": "host", "text": "発信する立場としては、未確定情報を断定しないことが大事だね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "広告とプライバシーって、いつも議論になるよね。" },
+            { "speaker": "analyst", "text": "一般的な論点として中立に紹介します。特定の批判や称賛の立場は取りません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "見出しの印象と実際の内容にはギャップがあります。無料版がなくなるわけではありません。" },
+            { "speaker": "host", "text": "『チャット履歴が丸ごと使われる』は誤解なんだね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "OpenAIは本パイプラインの運営元とは無関係の別会社で、競合批判の意図はありません。" },
+            { "speaker": "host", "text": "事実を中立に伝える、というスタンスは崩さないんだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できていないことを一覧にしました。開始日・他地域展開・広告料金です。" },
+            { "speaker": "host", "text": "分からないことは分からないと言う。ここまでの内容を最後にまとめよう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "この先どうなりそう?" },
+            { "speaker": "analyst", "text": "『今月後半』という表現から、8月中に開始日が発表される可能性がありますが、あくまで推測です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "無料の対価は広告だった――今日は出典付きで事実だけを整理しました。" },
+            { "speaker": "host", "text": "確認できなかったことも、正直にお伝えしました。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はppc.landとOpenAI公式のヘルプセンター・ブログ2本です。" },
+            { "speaker": "host", "text": "詳細はresearch.mdでも確認できます。また次のテーマで。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
