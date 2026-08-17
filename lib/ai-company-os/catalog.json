@@ -3,14 +3,14 @@
   "repo": "mako0120/llm-travel-mvp",
   "assetsPath": "ai-company-os/assets",
   "totals": {
-    "themes": 214,
-    "slides": 6031,
-    "withPptx": 192,
-    "withAudio": 196,
-    "withVideo": 193,
-    "timedThemes": 194,
-    "timedAudioSeconds": 68375.6,
-    "averageQualityScore": 94.7
+    "themes": 215,
+    "slides": 6061,
+    "withPptx": 193,
+    "withAudio": 197,
+    "withVideo": 194,
+    "timedThemes": 195,
+    "timedAudioSeconds": 68668.2,
+    "averageQualityScore": 94.8
   },
   "themes": [
     {
@@ -211,6 +211,48 @@
       "qualityScore": 97,
       "themeScore": null,
       "videoUrl": "/videos/2026-08-17_murakami-28th-homer-sweep-tigers.mp4",
+      "artifacts": {
+        "deck_spec": true,
+        "pptx": true,
+        "narration": true,
+        "dialogue": true,
+        "audio": true,
+        "timings": true,
+        "youtube": true,
+        "canva": true,
+        "review": true,
+        "research": true,
+        "thumbnail": false
+      }
+    },
+    {
+      "id": "2026-08-17_miwahina-grand-smash-doubles-title",
+      "date": "2026-08-17",
+      "slug": "miwahina-grand-smash-doubles-title",
+      "title": "「みわひな」V2、グランドスマッシュ2勝目――張本美和・早田ひな組が欧州スマッシュ女子ダブルスを制す",
+      "subtitle": "張本美和・早田ひな組(みわひな)が、杜凱琹・呉詠琳組(香港)に3-1で勝利。WTTヨーロッパ・スマッシュ女子ダブルスでグランドスマッシュ2勝目を挙げた件を出典付きで整理する",
+      "palette": "navy_gold",
+      "footer": "AI Company OS｜出典: 時事通信・スポーツ報知(いずれもdocomoニュース配信)、日刊スポーツ(Yahoo!ニュース配信)、エキサイトニュース、北海道新聞、nippon.com、中日新聞、SPREAD(2026-08-16)",
+      "slides": 30,
+      "layouts": {
+        "bullets": 10,
+        "big_stat": 5,
+        "table": 4,
+        "cards": 3,
+        "comparison": 2,
+        "agenda": 1,
+        "cta": 1,
+        "diagram": 1,
+        "quote": 1,
+        "steps": 1,
+        "title": 1
+      },
+      "bulletsRatio": 33.3,
+      "narrationMinutes": 7.8,
+      "audioSeconds": 292.6,
+      "qualityScore": 97,
+      "themeScore": null,
+      "videoUrl": "/videos/2026-08-17_miwahina-grand-smash-doubles-title.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
