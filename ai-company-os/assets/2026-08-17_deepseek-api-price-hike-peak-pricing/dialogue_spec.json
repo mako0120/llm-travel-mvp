@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "最大1,100%値上げ。DeepSeekのAPI料金に「ピーク時間帯制」登場。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Reuters「DeepSeek Raises API Pricing for Its V4 Models」(USNews.com・Investing.com経由配信)",
+      "PYMNTS「DeepSeek Introduces Peak-Hour Pricing That Quadruples Current Levels」",
+      "Yahoo Finance・DeepSeek公式APIドキュメントChange Log"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "最大1,100%値上げ。DeepSeekのAPI料金、ほんとにそんなに上がるの?", "source": "Reuters" },
+            { "speaker": "analyst", "text": "報道ベースで最大約12倍です。今日から発効した新しい料金体系を出典付きで見ていきます。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、DeepSeekがV4-Pro・V4-FlashのAPI料金を改定し、ピーク/オフピーク制を初めて導入しました。" },
+            { "speaker": "host", "text": "時間帯によって値段が変わるってこと?" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな内容を扱うの?" },
+            { "speaker": "analyst", "text": "具体的な新料金、ピーク/オフピークの定義、そして「1,100%」という数字の中身まで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "発効日は本日で、複数の独立した情報源が同じ数字を伝えています。" },
+            { "speaker": "host", "text": "開発者に直結する、鮮度の高い話題ってことだね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "時系列で整理するとどうなるの?" },
+            { "speaker": "analyst", "text": "7月末にV4-Flashが一律料金でスタートし、今日、料金改定とピーク制が発効しました。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "今日は6つの流れでお伝えします。理由、仕組み、基礎知識、数字、影響、そして今後です。" },
+            { "speaker": "host", "text": "順番に見ていこう。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "情報源はどこ?" },
+            { "speaker": "analyst", "text": "Reuters・PYMNTS・Yahoo Finance、そしてDeepSeek公式ドキュメントの4つで数字が一致しています。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "仕組みはシンプルです。ピーク時間帯は新しい基準料金、それ以外はその半額です。" },
+            { "speaker": "host", "text": "時間帯を意識するだけでコストが変わる。ここから具体的な数字を見ていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "そもそもピーク/オフピーク料金って、何を参考にした仕組みなの?" },
+            { "speaker": "analyst", "text": "電力料金やクラウドサービスと同じ発想で、需要の集中する時間帯を高くする仕組みです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "V4-ProとV4-Flash、それぞれどんなモデルだっけ?" },
+            { "speaker": "analyst", "text": "V4-Flashは7月末に登場した軽量モデル、V4-Proはより上位のモデルです。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "改定前は一律料金でしたが、改定後はピークとオフピークで料金が分かれます。" },
+            { "speaker": "host", "text": "両方のモデルとも同じ構造ってことだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "まずV4-Flashの改定前の出力料金。100万トークンあたり0.28ドルでした。", "source": "Reuters" },
+            { "speaker": "host", "text": "ここが出発点だね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "ピーク時は1.32ドルに。約4.7倍です。", "source": "Reuters" },
+            { "speaker": "host", "text": "一気に跳ね上がるんだね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "オフピーク時は0.66ドル。ピーク料金のちょうど半額です。" },
+            { "speaker": "host", "text": "半額ルールは覚えておきたい。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "グラフで見せてよ。" },
+            { "speaker": "analyst", "text": "0.28ドルから1.32ドル、0.66ドルへ。差がはっきり見えます。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "続いてV4-Pro。改定前の出力料金は0.87ドルでした。", "source": "Reuters" },
+            { "speaker": "host", "text": "こちらも見ていこう。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "ピーク時は3.96ドル。約4.6倍です。", "source": "Reuters" },
+            { "speaker": "host", "text": "V4-Flashとほぼ同じ倍率だね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "V4-Proのグラフも見たい。" },
+            { "speaker": "analyst", "text": "0.87ドルから3.96ドル、オフピークは1.98ドルです。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "数字をカードでまとめました。ピーク時は約4.6〜4.7倍、オフピークはちょうど半額です。" },
+            { "speaker": "host", "text": "「最大1,100%」とはちょっと差があるね。数字の話はここまで。ここからは私たちへの影響を見ていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "ピークとオフピークって、具体的に何時から何時?" },
+            { "speaker": "analyst", "text": "UTCの01時から04時、そして06時から10時がピークです。それ以外がオフピークです。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "正直に補足します。「最大1,100%」は全体のレンジで、確認できた出力料金の倍率はそれより小さいです。" },
+            { "speaker": "host", "text": "見出しの数字と、実際に確認できる数字は分けて見た方がいいんだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "開発者にとってはどう変わるの?" },
+            { "speaker": "analyst", "text": "同じ処理でも時間帯でコストが数倍変わりえます。オフピークに寄せる余地があります。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "企業のAI導入担当者はどう見ればいい?" },
+            { "speaker": "analyst", "text": "低価格を理由に選んでいた場合、コスト試算の見直しが必要になるかもしれません。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "メリットと注意点を並べました。コストを抑えられる余地と、跳ね上がるリスクの両方です。" },
+            { "speaker": "host", "text": "時間帯管理が鍵になりそうだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "既存ユーザーが確認すべきことを4つにまとめました。" },
+            { "speaker": "host", "text": "処理の集中時間帯を確認するところから始めるんだね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できていないこともあります。値上げの公式な理由、他モデルへの影響は不明です。" },
+            { "speaker": "host", "text": "分からないことは分からないと言う。大事な姿勢だね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマはDeepSeekへの評価・優劣の論評は行いません。他社との価格比較も採用していません。" },
+            { "speaker": "host", "text": "中立に、事実だけを伝える回なんだね。ここまでの内容を最後にまとめよう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "この先どうなりそう?" },
+            { "speaker": "analyst", "text": "時間帯別料金が他社にも広がる可能性はありますが、あくまで推測です。値上げの理由も不明です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "最大1,100%という数字の中身を、出典付きで正直にお届けしました。" },
+            { "speaker": "host", "text": "確認できた数字と、報道の全体レンジの違いも整理できたね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はReuters・PYMNTS・Yahoo Finance、そしてDeepSeek公式ドキュメントです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdでも確認できます。また次のテーマで。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
