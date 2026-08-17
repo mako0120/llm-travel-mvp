@@ -3,14 +3,14 @@
   "repo": "mako0120/llm-travel-mvp",
   "assetsPath": "ai-company-os/assets",
   "totals": {
-    "themes": 202,
-    "slides": 5671,
-    "withPptx": 180,
-    "withAudio": 184,
-    "withVideo": 182,
-    "timedThemes": 182,
-    "timedAudioSeconds": 64254.6,
-    "averageQualityScore": 94.5
+    "themes": 203,
+    "slides": 5701,
+    "withPptx": 181,
+    "withAudio": 185,
+    "withVideo": 183,
+    "timedThemes": 183,
+    "timedAudioSeconds": 64620.9,
+    "averageQualityScore": 94.6
   },
   "themes": [
     {
@@ -84,6 +84,48 @@
       "qualityScore": 96,
       "themeScore": null,
       "videoUrl": "/videos/2026-08-16_yamamoto-12wins-brewers-redemption.mp4",
+      "artifacts": {
+        "deck_spec": true,
+        "pptx": true,
+        "narration": true,
+        "dialogue": true,
+        "audio": true,
+        "timings": true,
+        "youtube": true,
+        "canva": true,
+        "review": true,
+        "research": true,
+        "thumbnail": false
+      }
+    },
+    {
+      "id": "2026-08-16_ohtani-misiorowski-fastest-pitch-triple",
+      "date": "2026-08-16",
+      "slug": "ohtani-misiorowski-fastest-pitch-triple",
+      "title": "169.7キロの史上最速から、大谷は三塁打を放った。それでもドジャースは敗れた。",
+      "subtitle": "2026年8月16日、ドジャース対ブルワーズ――先発投手として史上最速105.5マイル(169.7キロ)と大谷翔平の適時三塁打、そして1-4の敗戦を出典付きで整理する",
+      "palette": "crimson_gold",
+      "footer": "AI Company OS｜出典: BASEBALL KING・TBS NEWS DIG(docomoニュース経由)・livedoor News(いずれも2026-08-16)",
+      "slides": 30,
+      "layouts": {
+        "bullets": 7,
+        "big_stat": 6,
+        "table": 5,
+        "cards": 4,
+        "bar_chart": 2,
+        "agenda": 1,
+        "comparison": 1,
+        "cta": 1,
+        "diagram": 1,
+        "steps": 1,
+        "title": 1
+      },
+      "bulletsRatio": 23.3,
+      "narrationMinutes": 7.7,
+      "audioSeconds": 366.3,
+      "qualityScore": 96,
+      "themeScore": null,
+      "videoUrl": "/videos/2026-08-16_ohtani-misiorowski-fastest-pitch-triple.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
