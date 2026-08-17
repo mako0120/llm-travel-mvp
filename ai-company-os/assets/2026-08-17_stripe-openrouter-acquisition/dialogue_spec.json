@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "70億ドル超。Stripeが、AIゲートウェイの新星を買収へ。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg「Stripe Nears Deal to Buy AI Firm OpenRouter for Over $7 Billion」(2026-08-16)",
+      "TechCrunch「Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+」(2026-08-16)",
+      "Fortune・Yahoo Finance・Seeking Alpha(2026-08-16以降、Bloomberg記事を配信・引用)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "70億ドル超。決済大手Stripeが、AIゲートウェイ企業をそこまでの金額で買収するらしい。", "source": "Bloomberg(2026-08-16)" },
+            { "speaker": "analyst", "text": "対象はOpenRouterです。買収に合意したとBloombergが報じました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、Stripeが70億ドル超でOpenRouterを買収することに合意したと報じられています。" },
+            { "speaker": "host", "text": "「合意」ってことは、まだ完了はしていないんだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな内容を扱うの?" },
+            { "speaker": "analyst", "text": "買収額の出典、評価額が急伸した経緯、そしてまだ確認できていないことまで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "着手日の前日という新しい話題で、複数の主要メディアが同じ数字を配信しています。" },
+            { "speaker": "host", "text": "裏付けが厚いということだね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "時系列で整理するとどうなるの?" },
+            { "speaker": "analyst", "text": "5月にシリーズBで評価額13億ドル、8月に70億ドル超で買収合意と報じられました。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "今日は6つの流れでお伝えします。理由、確度の扱い、基礎知識、数字、狙い、そして今後です。" },
+            { "speaker": "host", "text": "順番に見ていこう。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "媒体によって書き方は違うの?" },
+            { "speaker": "analyst", "text": "はい。TechCrunchやSeeking Alphaは「reportedly」「is said to」と、はっきり伝聞形を使っています。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "ここが重要です。報じられているのは「合意」の段階で、公式発表・正式完了日はまだ確認できていません。" },
+            { "speaker": "host", "text": "「合意」と「完了」を混同しない。ここからの数字を見ていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "そもそも「AIゲートウェイ」って何?" },
+            { "speaker": "analyst", "text": "複数のAIモデルを、コストや用途に応じて切り替えて使えるようにする仲介サービスです。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "Stripeって、決済の会社だよね?" },
+            { "speaker": "analyst", "text": "そうです。近年は決済データを起点に、企業の支出動向を可視化する事業にも広げているとされます。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "5月と8月を比べると、評価額が13億ドルから70億ドル超へと大きく伸びています。" },
+            { "speaker": "host", "text": "たった3か月でそんなに変わるものなんだ。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "まずシリーズBの調達額。1億1,300万ドルでした。", "source": "TechCrunch(2026-08-16)" },
+            { "speaker": "host", "text": "結構大きい額だね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "その時点の評価額は13億ドルです。", "source": "TechCrunch(2026-08-16)" },
+            { "speaker": "host", "text": "これが出発点だね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "そして報じられた買収額は70億ドル超。約5倍以上の伸びです。", "source": "Bloomberg(2026-08-16)" },
+            { "speaker": "host", "text": "数か月でここまで跳ね上がるのは驚きだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "数字をグラフで見せてよ。" },
+            { "speaker": "analyst", "text": "13億ドルから70億ドル超へ。差は歴然としています。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "OpenRouterは800万人の開発者が利用し、400以上のAIモデルを扱っています。" },
+            { "speaker": "host", "text": "エコシステムの規模も相当大きいんだね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "シリーズBには誰が投資していたの?" },
+            { "speaker": "analyst", "text": "Sequoia、a16z、Menlo Ventures、そしてAlphabet傘下のCapital Gです。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "Stripeの狙いを図にしました。マーケットプレイスを決済インフラに統合する方向性です。" },
+            { "speaker": "host", "text": "AI支出をより深く把握したいってことだね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "AI関連の企業支出という新しいカテゴリーを、決済データに取り込みたい狙いがあるとされます。" },
+            { "speaker": "host", "text": "数字の話はここまで。ここからはこのニュースが何を意味するかに入っていくよ。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "開発者にとっては、何が変わりそう?" },
+            { "speaker": "analyst", "text": "決済・請求の連携が深まる可能性はありますが、料金体系が変わるかは未確認です。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "企業のAI導入担当者はどう見ればいい?" },
+            { "speaker": "analyst", "text": "AI支出の可視化に期待できる一方、買収がまだ完了していない点は踏まえる必要があります。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "メリットと注意点を並べました。可視化が進む期待と、まだ確定していないという現実です。" },
+            { "speaker": "host", "text": "両方セットで見ておきたいね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "続報を追うなら確認すべきことを4つにまとめました。" },
+            { "speaker": "host", "text": "公式発表の有無から確認するんだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "見出しだけ見ると、勘違いしそうなポイントもあるよね。" },
+            { "speaker": "analyst", "text": "はい。「買収へ」は「買収完了」ではありません。伝聞表現を使う媒体もあります。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "見出しの印象と、実際に確認できている内容を並べました。" },
+            { "speaker": "host", "text": "確認できているのは、あくまで「合意したと報じられた」段階なんだね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマは事実紹介であり、Stripe・OpenRouterへの評価や優劣の論評は行いません。" },
+            { "speaker": "host", "text": "利用を推奨する意図もない、中立な紹介というスタンスだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できていないことを一覧にしました。完了日・規制承認・ブランド存続、いずれも不明です。" },
+            { "speaker": "host", "text": "分からないことは分からないと言う。ここまでの内容を最後にまとめよう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "この先どうなりそう?" },
+            { "speaker": "analyst", "text": "統合が進めば新サービスの可能性もありますが、あくまで推測です。規制の可否も不明です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "70億ドル超という数字の中身を、出典付きで正直にお届けしました。" },
+            { "speaker": "host", "text": "「合意」と「完了」の違いも、あわせてお伝えしたね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はBloombergとTechCrunch、そしてそれを配信した複数のメディアです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdでも確認できます。また次のテーマで。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
