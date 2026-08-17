@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "Imagen 4 API、本日終了。generate_images()はもう動かない。",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・技術的な変更点を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Google公式ドキュメント「Gemini API Deprecations」(ai.google.dev/gemini-api/docs/deprecations)",
+      "Firebase AI Logic移行ガイド(firebase.google.com/docs/ai-logic/imagen-models-migration)",
+      "kingy.ai・byteiota.com(開発者向けメディア)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "Imagen 4のAPI、今日でもう使えなくなったって本当?", "source": "Google公式ドキュメント" },
+            { "speaker": "analyst", "text": "本当です。generate_images()を呼んでいたコードは、今日からエラーで止まります。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、Imagen 4の3つのGAモデルIDが本日シャットダウンしました。" },
+            { "speaker": "host", "text": "3つ全部が、今日でまとめて終わったってこと?" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな内容を扱うの?" },
+            { "speaker": "analyst", "text": "終了する3モデル、技術的な変更点、そして移行先モデルの違いまで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "シャットダウン日がまさに本日で、Google公式ドキュメントという一次情報で確認できます。" },
+            { "speaker": "host", "text": "開発者にとっては、他人事じゃない話だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "時系列で整理するとどうなるの?" },
+            { "speaker": "analyst", "text": "6月15日に予告が出て、約2ヶ月の猶予を経て、今日シャットダウンが実施されました。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "analyst", "text": "今日は6つの流れでお伝えします。理由、日付の整理、基礎知識、技術的変更、移行先、影響です。" },
+            { "speaker": "host", "text": "順番に見ていこう。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "情報源はどこ?" },
+            { "speaker": "analyst", "text": "Google公式ドキュメントとFirebase公式の移行ガイド、それに開発者向けメディア2社です。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "流れはシンプルです。発表があり、猶予期間があり、そして今日シャットダウンです。" },
+            { "speaker": "host", "text": "発表日と終了日、別の日なんだね。ここから具体的に見ていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "そもそも非推奨化とシャットダウンって、何が違うの?" },
+            { "speaker": "analyst", "text": "非推奨化はまだ動く段階の予告で、シャットダウンは実際に止まる時点です。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "Imagen 4とgenerate_images()って、そもそも何だっけ?" },
+            { "speaker": "analyst", "text": "Imagen 4は画像生成モデル、generate_images()はそれを呼ぶ専用メソッドでした。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "ここが最重要です。発表は6月15日、実際の終了は本日8月17日です。" },
+            { "speaker": "host", "text": "発表イコール終了じゃないんだね。今日の本題はこっちの日付か。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "終了する3つのモデルIDです。標準・Ultra・Fastの3種類です。", "source": "Google公式ドキュメント" },
+            { "speaker": "host", "text": "全部まとめて終わるんだね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "数字にすると何個?" },
+            { "speaker": "analyst", "text": "3つです。例外なく本日すべてシャットダウンされます。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "技術的な変更点は4つ。generate_images()の廃止、generate_content()への統一など。" },
+            { "speaker": "host", "text": "コードのあちこちに影響が出そうだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "旧APIと新APIを並べて見せてよ。" },
+            { "speaker": "analyst", "text": "呼び出し方もconfigクラスも変わり、テキスト生成と共通の方式になります。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "移行先はgemini-3.1-flash-image。一部はgemini-2.5-flash-imageも案内しています。" },
+            { "speaker": "host", "text": "移行先が2つあるのは気になるね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "長期的に推奨されているのは、gemini-3.1-flash-imageです。" },
+            { "speaker": "host", "text": "迷ったらこっちを選べばいいんだね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "なんで移行先が2つ案内されてるの?" },
+            { "speaker": "analyst", "text": "暫定的な選択肢もありますが、そちらも将来非推奨になる予定があります。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "コードの変更フローを図にしました。メソッド・config・モデルIDの3点セットです。" },
+            { "speaker": "host", "text": "数字と技術の話はここまで。ここからは私たちへの影響を見ていこう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "開発者にとって、具体的にはどう変わるの?" },
+            { "speaker": "analyst", "text": "旧コードは今日からエラーで止まります。パラメータの使用箇所も監査が必要です。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "企業のAI導入担当者はどう見ればいい?" },
+            { "speaker": "analyst", "text": "自社サービスがImagen 4に依存していないか、今日中の確認が必要です。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "移行チェックリストを4つにまとめました。" },
+            { "speaker": "host", "text": "呼び出し箇所を洗い出すところから始めるんだね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "移行済みなら今日以降も動作し続けます。未対応ならエラーで止まる可能性があります。" },
+            { "speaker": "host", "text": "対応してるかどうかで、今日の結果が大きく分かれるんだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できていないこともあります。移行が間に合わなかった具体的な事例は不明です。" },
+            { "speaker": "host", "text": "名前を挙げて決めつけたりはしないんだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマはGoogleへの評価・優劣の論評は行いません。事実紹介に徹しています。" },
+            { "speaker": "host", "text": "中立に、事実だけを伝える回なんだね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "情報源の優先順位も教えてよ。" },
+            { "speaker": "analyst", "text": "公式ドキュメントが一次情報で、開発者向けメディアはその解説という位置づけです。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "最後に注意点です。移行先も将来非推奨になる可能性がある点は覚えておいてください。" },
+            { "speaker": "host", "text": "移行して終わり、じゃないんだね。ここまでの内容を最後にまとめよう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "この先どうなりそう?" },
+            { "speaker": "analyst", "text": "同様の非推奨化サイクルが続く可能性はありますが、あくまで推測です。断定はできません。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "Imagen 4終了の中身を、出典付きで正直にお届けしました。" },
+            { "speaker": "host", "text": "発表日と終了日の違いも、しっかり整理できたね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "使った主な出典はGoogle公式ドキュメントとFirebase公式ガイド、開発者向けメディアです。" },
+            { "speaker": "host", "text": "詳細はresearch.mdでも確認できます。また次のテーマで。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

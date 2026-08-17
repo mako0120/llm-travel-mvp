@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "title": "Imagen 4 API、本日終了。generate_images()はもう動かない。",
+    "footer": "AI Company OS｜出典: Google公式ドキュメント(ai.google.dev/gemini-api/docs/deprecations)・Firebase AI Logic移行ガイド｜2026-08-17終了(発表は2026-06-15)",
+    "palette_preset": "steel_amber",
+    "subtitle": "Googleが2026年6月15日に予告したImagen 4 API(3モデル)のシャットダウンが、本日2026年8月17日に実施される――出典付きで正直に整理する"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "Imagen 4 API、\n本日終了。\ngenerate_images()は\nもう動かない。",
+      "sub": "Googleが2026年6月15日に予告した終了が、本日2026年8月17日に実施される――出典付きで正直に整理する",
+      "footnote": "出典: Google公式ドキュメント「Gemini API Deprecations」(ai.google.dev/gemini-api/docs/deprecations)・Firebase AI Logic移行ガイド(firebase.google.com/docs/ai-logic/imagen-models-migration)",
+      "note": "Googleの画像生成API、Imagen 4が、本日2026年8月17日をもって終了しました。generate_images()というメソッドを使っていたコードは、今日から警告ではなくエラーで止まります。今日はこの終了を、出典付きで正直に整理していきます。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "まず結論から",
+      "stat": "本日終了",
+      "caption": "Imagen 4の3つのGAモデルID(標準・Ultra・Fast)が2026年8月17日(本日)にシャットダウン。generate_images()メソッドは廃止され、代わりにgenerate_content()を使う",
+      "source": "Google公式ドキュメント(ai.google.dev/gemini-api/docs/deprecations)",
+      "note": "結論から確認します。Imagen 4の3つのGAモデルIDが、本日2026年8月17日にシャットダウンしました。generate_images()というメソッド自体が廃止され、テキスト生成と同じgenerate_content()を使う方式に統一されます。"
+    },
+    {
+      "layout": "bullets",
+      "title": "この動画で得られること",
+      "lead": "今日お伝えする内容です。",
+      "bullets": [
+        "終了するのは具体的にどの3つのモデルIDか",
+        "generate_images()からgenerate_content()へ、何がどう変わるのか",
+        "移行先として案内されているモデル(gemini-3.1-flash-image等)の違い"
+      ],
+      "note": "この動画では、終了する具体的な3つのモデルID、generate_images()からgenerate_content()への技術的な変更点、そして移行先として案内されているモデルの違いを、出典付きで整理してお伝えします。"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜ今このテーマを扱うのか",
+      "lead": "本テーマを取り上げる理由です。",
+      "bullets": [
+        "シャットダウン日が本日2026年8月17日という、まさに今日の出来事である",
+        "既存コードは警告ではなくエラーで止まる、実務に直結する変更である",
+        "Google公式ドキュメントという一次情報で確認できる内容である"
+      ],
+      "note": "このテーマを扱う理由です。シャットダウン日が本日という、まさに今日起きている出来事です。既存コードは警告ではなくエラーで止まるため、実際に開発しているエンジニアに直結します。Google公式ドキュメントという一次情報で確認できる点も裏付けの強さです。"
+    },
+    {
+      "layout": "steps",
+      "title": "時系列で見る、Imagen 4終了までの流れ",
+      "steps": [
+        { "label": "2026年6月15日", "text": "Googleが、Imagen 4の3つのGAモデルIDの非推奨化を発表" },
+        { "label": "発表〜終了までの約2ヶ月間", "text": "開発者に移行が呼びかけられる猶予期間" },
+        { "label": "2026年8月17日(本日)", "text": "3モデルが実際にシャットダウン。generate_images()は使えなくなる" }
+      ],
+      "source": "Google公式ドキュメント",
+      "note": "時系列を確認します。2026年6月15日、Googleが3つのGAモデルIDの非推奨化を発表しました。それから約2ヶ月間、開発者には移行のための猶予期間が与えられ、本日8月17日に実際のシャットダウンが実施されます。"
+    },
+    {
+      "layout": "agenda",
+      "title": "本日のアジェンダ",
+      "items": [
+        "なぜ今このテーマを扱うのか",
+        "非推奨化とシャットダウンの違い(日付の整理)",
+        "API非推奨化・Imagen 4の基礎知識",
+        "終了する3モデルと技術的な変更点",
+        "移行先モデルの選び方",
+        "これで何が変わるか・確認できていないこと"
+      ],
+      "note": "今日は6つの流れでお伝えします。テーマを扱う理由、発表日とシャットダウン日の違い、非推奨化とImagen 4の基礎知識、終了する3モデルと技術的な変更点、移行先モデルの選び方、そしてこれで何が変わるか・確認できていないことまで、出典付きで整理します。"
+    },
+    {
+      "layout": "table",
+      "title": "情報源一覧(複数媒体で一致)",
+      "headers": ["情報源", "内容"],
+      "rows": [
+        ["Google公式ドキュメント(ai.google.dev)", "Gemini API Deprecationsページで非推奨化・終了日を記載"],
+        ["Firebase AI Logic 移行ガイド", "firebase.google.com/docs/ai-logic/imagen-models-migration で移行手順を案内"],
+        ["kingy.ai", "開発者向けにAPI変更点を解説"],
+        ["byteiota.com", "開発者向けにAPI変更点を解説"]
+      ],
+      "note": "今回の情報源です。Google公式のドキュメントとFirebase公式の移行ガイドという一次情報に加え、開発者向けメディアのkingy.aiとbyteiota.comでも同じ内容が確認できます。一次情報と報道が一致している点が、今回の裏付けの強さです。"
+    },
+    {
+      "layout": "diagram",
+      "title": "非推奨化からシャットダウンまでの流れ",
+      "nodes": [
+        { "label": "非推奨化発表", "sublabel": "2026年6月15日。3モデルIDの終了を予告" },
+        { "label": "移行期間", "sublabel": "開発者はgenerate_content()への切り替えを求められる" },
+        { "label": "シャットダウン", "sublabel": "2026年8月17日(本日)。generate_images()は使えなくなる" }
+      ],
+      "caption": "「発表日」と「終了日」は別の日である点に注意",
+      "source": "Google公式ドキュメント",
+      "note": "非推奨化からシャットダウンまでの流れを図にしました。まず発表があり、次に移行期間があり、最後にシャットダウンが実施されます。発表日と終了日は別の日であるという点を、この後さらに詳しく整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "前提知識: API非推奨化(deprecation)とは",
+      "lead": "本題に入る前に、用語を確認します。",
+      "bullets": [
+        "非推奨化(deprecation)は、将来使えなくなることの事前予告であり、その時点ではまだ動く",
+        "シャットダウンは、実際にAPIが使えなくなる時点を指す",
+        "この2つの日付は別であり、混同すると移行のタイミングを見誤る"
+      ],
+      "note": "本題に入る前に、用語を確認します。非推奨化は、将来使えなくなることを事前に予告する段階で、この時点ではまだAPIは動いています。シャットダウンは、実際にAPIが使えなくなる時点です。この2つの日付は別物であり、混同すると移行のタイミングを見誤ります。"
+    },
+    {
+      "layout": "bullets",
+      "title": "前提知識: Imagen 4・generate_images()とは",
+      "lead": "もう一つ、対象の技術についても確認します。",
+      "bullets": [
+        "Imagen 4は、Googleが提供していた画像生成モデルのGA(一般提供)版",
+        "generate_images()は、そのImagen 4を呼び出すための専用メソッドだった",
+        "今回、この専用メソッドごと廃止され、テキスト生成と同じ呼び出し方に統一される"
+      ],
+      "note": "もう一つ、対象の技術についても確認します。Imagen 4はGoogleが提供していた画像生成モデルのGA版で、generate_images()はそれを呼び出すための専用メソッドでした。今回、この専用メソッドごと廃止され、テキスト生成と同じ呼び出し方に統一されます。"
+    },
+    {
+      "layout": "comparison",
+      "title": "「発表日」と「終了日」の違い(最重要)",
+      "left": {
+        "heading": "非推奨化の発表日",
+        "items": ["2026年6月15日", "3モデルIDの終了を予告した日", "この時点ではまだAPIは動いていた"]
+      },
+      "right": {
+        "heading": "シャットダウンの日",
+        "items": ["2026年8月17日(本日)", "実際にAPIが使えなくなる日", "本テーマの鮮度・フックはこちらが根拠"]
+      },
+      "note": "ここが本テーマ最重要のポイントです。非推奨化の発表は2026年6月15日で、この時点ではまだAPIは動いていました。実際にAPIが使えなくなるシャットダウンの日が、本日2026年8月17日です。本テーマは発表日ではなく、この本日という事実を根拠にしています。"
+    },
+    {
+      "layout": "table",
+      "title": "終了する3つのモデルID",
+      "headers": ["モデルID", "位置づけ"],
+      "rows": [
+        ["imagen-4.0-generate-001", "標準モデル"],
+        ["imagen-4.0-ultra-generate-001", "Ultra(高品質)モデル"],
+        ["imagen-4.0-fast-generate-001", "Fast(高速)モデル"]
+      ],
+      "source": "Google公式ドキュメント",
+      "note": "本日終了する3つのモデルIDです。標準モデルのimagen-4.0-generate-001、高品質版のimagen-4.0-ultra-generate-001、高速版のimagen-4.0-fast-generate-001の3つが対象です。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "本日終了するモデルID数",
+      "stat": "3",
+      "caption": "標準・Ultra・Fastの3つのImagen 4 GAモデルIDが、本日すべてシャットダウンされる",
+      "source": "Google公式ドキュメント",
+      "note": "数字で確認します。本日終了するのは3つのモデルIDです。標準・Ultra・Fastのいずれも、例外なく本日シャットダウンされます。"
+    },
+    {
+      "layout": "cards",
+      "title": "技術的な変更点まとめ",
+      "cards": [
+        { "big": "廃止", "label": "generate_images()", "text": "専用メソッド自体が削除される" },
+        { "big": "統一", "label": "generate_content()", "text": "テキスト生成と同じ呼び出し方式に一本化" },
+        { "big": "置き換え", "label": "GenerationConfig", "text": "ImagenGenerationConfigから移行、必要に応じてImageConfigを併用" },
+        { "big": "要監査", "label": "number_of_images", "text": "このパラメータを使っていたコードは見直しが必要" }
+      ],
+      "source": "Google公式ドキュメント・Firebase AI Logic移行ガイド",
+      "note": "技術的な変更点をカードでまとめました。generate_images()メソッドが廃止され、generate_content()に一本化されます。ImagenGenerationConfigはGenerationConfigへ置き換え、必要に応じてImageConfigを併用します。number_of_imagesを使っていたコードは監査が必要です。"
+    },
+    {
+      "layout": "comparison",
+      "title": "旧APIと新APIを比較する",
+      "left": {
+        "heading": "旧API(本日で終了)",
+        "items": ["generate_images()を呼び出す", "ImagenGenerationConfigを使う", "Imagen 4専用の呼び出し方式"]
+      },
+      "right": {
+        "heading": "新API(移行先)",
+        "items": ["generate_content()を呼び出す", "GenerationConfig(+必要ならImageConfig)を使う", "テキスト生成と共通の呼び出し方式"]
+      },
+      "note": "旧APIと新APIを比較します。旧APIはgenerate_images()とImagenGenerationConfigを使うImagen 4専用の方式でした。新APIはgenerate_content()とGenerationConfigを使う、テキスト生成と共通の方式に統一されます。"
+    },
+    {
+      "layout": "table",
+      "title": "移行先モデルの案内",
+      "headers": ["モデル", "位置づけ"],
+      "rows": [
+        ["gemini-3.1-flash-image", "推奨される長期的な移行先"],
+        ["gemini-2.5-flash-image", "一部ドキュメントが案内する暫定的な移行先(将来的に非推奨予定)"]
+      ],
+      "source": "Google公式ドキュメント・Firebase AI Logic移行ガイド",
+      "note": "移行先モデルの案内です。長期的に安定した推奨移行先はgemini-3.1-flash-imageです。一部のドキュメントでは暫定的な移行先としてgemini-2.5-flash-imageも案内されていますが、こちらは将来的に非推奨となる予定がすでに示されています。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "推奨される長期的な移行先",
+      "stat": "gemini-3.1-\nflash-image",
+      "caption": "Google公式ドキュメントが案内する、長期的に安定した推奨移行先",
+      "source": "Google公式ドキュメント",
+      "note": "推奨される長期的な移行先は、gemini-3.1-flash-imageです。Google公式ドキュメントで、安定した移行先として案内されています。"
+    },
+    {
+      "layout": "bullets",
+      "title": "移行先が2つ案内されている理由",
+      "lead": "移行先が1つでない点を整理します。",
+      "bullets": [
+        "一部の公式ドキュメントは、暫定的な移行先としてgemini-2.5-flash-imageを案内している",
+        "しかしこのモデル自体も、将来的に非推奨となる予定がすでに示されている",
+        "長期的に安定した移行先として案内されているのはgemini-3.1-flash-imageである"
+      ],
+      "note": "移行先が2つ案内されている理由を整理します。一部のドキュメントは暫定的な移行先としてgemini-2.5-flash-imageを案内していますが、このモデル自体も将来的に非推奨予定です。長期的に安定した移行先はgemini-3.1-flash-imageとされています。"
+    },
+    {
+      "layout": "diagram",
+      "title": "移行のコード変更フロー",
+      "nodes": [
+        { "label": "generate_images()", "sublabel": "ImagenGenerationConfigを渡していた旧コード" },
+        { "label": "generate_content()", "sublabel": "GenerationConfig(+ImageConfig)へ書き換え" },
+        { "label": "gemini-3.1-flash-image", "sublabel": "呼び出し先モデルを移行先へ変更" }
+      ],
+      "caption": "3つの変更点をまとめて対応する必要がある",
+      "source": "Google公式ドキュメント",
+      "note": "移行の流れを図にしました。generate_images()を呼んでいた旧コードを、generate_content()とGenerationConfigへ書き換え、あわせて呼び出し先モデルもgemini-3.1-flash-imageへ変更します。3つの変更点をまとめて対応する必要があります。"
+    },
+    {
+      "layout": "bullets",
+      "title": "これで何が変わるか: 開発者にとって",
+      "lead": "このニュースが開発者にとって意味することを整理します。",
+      "bullets": [
+        "generate_images()を呼び続けているコードは、本日から警告ではなくエラーで停止する",
+        "number_of_imagesなど、旧APIに固有だったパラメータの使用箇所は監査が必要",
+        "移行先のモデルIDとconfigクラスの両方を、コード内で確認する必要がある"
+      ],
+      "note": "このニュースが開発者にとって何を意味するかを整理します。generate_images()を呼び続けているコードは、本日から警告ではなくエラーで停止します。number_of_imagesなど旧APIに固有だったパラメータの使用箇所も監査が必要です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "これで何が変わるか: 企業のAI導入担当者にとって",
+      "lead": "企業の立場から見た意味も整理します。",
+      "bullets": [
+        "自社サービスがImagen 4のAPIに依存していないか、本日時点で確認が必要",
+        "移行が完了していない場合、画像生成機能が本日から停止している可能性がある",
+        "特定のモデル・提供元を過度に推奨する意図はなく、変更点の周知として中立的に扱う"
+      ],
+      "note": "企業のAI導入担当者にとっての意味も整理します。自社サービスがImagen 4のAPIに依存していないか、本日時点で確認が必要です。移行が完了していない場合、画像生成機能が本日から停止している可能性があります。特定のモデル・提供元を推奨する意図はありません。"
+    },
+    {
+      "layout": "steps",
+      "title": "移行チェックリスト",
+      "steps": [
+        { "label": "1", "text": "コード内でgenerate_images()の呼び出し箇所を洗い出す" },
+        { "label": "2", "text": "ImagenGenerationConfigをGenerationConfig(+ImageConfig)に置き換える" },
+        { "label": "3", "text": "number_of_images等の旧パラメータの扱いを見直す" },
+        { "label": "4", "text": "呼び出し先モデルをgemini-3.1-flash-image等へ変更し、動作を確認する" }
+      ],
+      "source": "Google公式ドキュメント・Firebase AI Logic移行ガイドに基づく一般的な確認事項",
+      "note": "移行チェックリストを整理しました。generate_images()の呼び出し箇所を洗い出し、GenerationConfigへ置き換え、number_of_images等のパラメータを見直し、移行先モデルへ変更して動作を確認する、という4ステップです。"
+    },
+    {
+      "layout": "comparison",
+      "title": "移行済みの場合と、未対応の場合",
+      "left": {
+        "heading": "移行が完了している場合",
+        "items": ["本日以降も画像生成機能は動作する", "generate_content()ベースのコードに切り替え済み"]
+      },
+      "right": {
+        "heading": "移行が未対応の場合",
+        "items": ["本日からエラーが発生し、画像生成機能が止まる可能性がある", "旧コードのままgenerate_images()を呼び続けている状態"]
+      },
+      "note": "移行済みの場合と未対応の場合を比較します。移行が完了していれば、本日以降も画像生成機能は動作します。未対応であれば、本日からエラーが発生し、画像生成機能が止まる可能性があります。"
+    },
+    {
+      "layout": "bullets",
+      "title": "確認できていないこと(一覧)",
+      "lead": "本調査の範囲では確認できていないことです。",
+      "bullets": [
+        "Imagen 4を利用していたサービス・アプリのうち、移行が実際に間に合わなかった具体的な事例",
+        "発表(6月15日)から終了(8月17日)までの間に、追加の猶予措置があったかどうか",
+        "移行先モデルの料金・性能が旧Imagen 4と完全に同等かどうか"
+      ],
+      "note": "確認できていないことを一覧にしました。移行が実際に間に合わなかった具体的な事例、追加の猶予措置の有無、移行先モデルの料金・性能が旧モデルと完全に同等かどうかは、いずれも本調査の範囲では確認できておらず、推測で埋めずに不明としています。"
+    },
+    {
+      "layout": "bullets",
+      "title": "本テーマの扱い方について(中立性の確認)",
+      "lead": "本テーマを見る際にあらかじめお伝えしたい点です。",
+      "bullets": [
+        "本テーマはAPI仕様変更に関する事実紹介であり、Google・Geminiという企業・製品への評価や優劣の論評は行わない",
+        "Google・Geminiの利用を過度に推奨する結論にはせず、開発者への実務的な注意喚起として中立的に扱う",
+        "移行が間に合わなかった具体的な企業名・サービス名は、確認できていないため一切挙げない"
+      ],
+      "note": "ここで一度立ち止まります。本テーマはAPI仕様変更に関する事実紹介であり、Google・Geminiという企業や製品への評価・優劣の論評は行いません。移行が間に合わなかった具体的な企業名・サービス名も、確認できていないため一切挙げていません。"
+    },
+    {
+      "layout": "table",
+      "title": "出典の優先順位",
+      "headers": ["情報源", "位置づけ"],
+      "rows": [
+        ["Google公式ドキュメント(ai.google.dev/gemini-api/docs/deprecations)", "一次情報"],
+        ["Firebase AI Logic移行ガイド(firebase.google.com)", "Google公式の移行手順"],
+        ["kingy.ai・byteiota.com", "開発者向けメディアによる解説"]
+      ],
+      "note": "出典の優先順位を整理しました。Google公式ドキュメントとFirebase公式の移行ガイドが一次情報で、kingy.aiとbyteiota.comは開発者向けメディアによる解説として位置づけています。"
+    },
+    {
+      "layout": "bullets",
+      "title": "確認しておきたい注意点",
+      "lead": "誤解しやすいポイントを整理します。",
+      "bullets": [
+        "「非推奨化」の発表時点でまだAPIが動いていたことと、今日から動かなくなることは別の意味である",
+        "gemini-2.5-flash-imageへ移行しても、それ自体がいずれ非推奨になる予定がある点に注意が必要",
+        "本テーマでは料金・性能の比較調査は行っておらず、あくまで移行手順の技術的な整理にとどまる"
+      ],
+      "note": "確認しておきたい注意点です。非推奨化の発表時点でまだAPIが動いていたことと、今日から動かなくなることは別の意味です。gemini-2.5-flash-imageへ移行しても、それ自体がいずれ非推奨になる予定がある点にも注意が必要です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今後の見通し(推測であることを明記)",
+      "lead": "以下はあくまで合理的推測であり、断定ではありません。",
+      "bullets": [
+        "推測: Googleは今後も他のGAモデルについて、同様の非推奨化サイクルを繰り返す可能性がある",
+        "推測: gemini-2.5-flash-imageも、同様の告知・猶予期間を経て将来終了する可能性が高い",
+        "不明: 次にどのモデルが非推奨化の対象になるかは、本調査の範囲では判断材料がない"
+      ],
+      "note": "今後の見通しについて触れますが、あくまで推測であり断定ではありません。Googleが今後も同様の非推奨化サイクルを繰り返す可能性、gemini-2.5-flash-imageも将来終了する可能性はありますが、次に何が対象になるかは判断材料がなく不明です。"
+    },
+    {
+      "layout": "cta",
+      "heading": "Imagen 4 API終了の中身を、出典付きで正直にお届けした。",
+      "sub": "「発表日」と「終了日」の違い、そして具体的な移行手順まで、中立的に整理しました。",
+      "action": "research.mdで出典一覧・確認できなかったことの詳細を確認する",
+      "note": "本編は以上です。今回はGoogleがImagen 4の3つのGAモデルIDを本日終了し、generate_images()が使えなくなったというニュースについてお伝えしました。確認できた事実と、確認できなかったことの両方を、出典付きで正直に整理しました。"
+    },
+    {
+      "layout": "table",
+      "title": "主な出典一覧",
+      "headers": ["情報源", "内容"],
+      "rows": [
+        ["Google公式ドキュメント", "Gemini API Deprecationsページ(ai.google.dev/gemini-api/docs/deprecations)"],
+        ["Firebase AI Logic移行ガイド", "firebase.google.com/docs/ai-logic/imagen-models-migration"],
+        ["kingy.ai / byteiota.com", "開発者向けメディアによる解説記事"]
+      ],
+      "note": "本編で使った主な出典を一覧にしました。詳細はresearch.mdをご確認ください。"
+    }
+  ]
+}
