@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "title": "Higgsfield、8か月で評価額4倍の54億ドルに――AI動画スタートアップが4億ドル(約600億円)調達",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-08-17)",
+      "PR Newswire(2026-08-17)",
+      "SiliconANGLE(2026-08-17)",
+      "Yahoo Finance(複数記事、2026年8月)",
+      "citybiz(2026-08-17)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "評価額54億ドル、8か月で4倍だって?", "source": "TechCrunch(2026-08-17)" },
+            { "speaker": "analyst", "text": "AI動画スタートアップHiggsfieldが、2026年8月17日にシリーズBで4億ドルを調達したと発表しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、2026年1月の評価額13億ドルから、わずか8か月で54億ドルに拡大しています。" },
+            { "speaker": "host", "text": "8か月で4倍って、かなりのスピードだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな流れで見ていくの?" },
+            { "speaker": "analyst", "text": "資金調達の時系列から投資家一覧、売上高の急成長、創業者の経歴まで、6つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは発表翌日という新しさと、日本のNTTドコモ・ベンチャーズが参加している点がポイントです。" },
+            { "speaker": "host", "text": "複数の海外メディアが金額を揃えて報じてるのも心強いね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそもHiggsfieldってどんな会社なの?" },
+            { "speaker": "analyst", "text": "テキストや画像から動画を作るAI動画生成スタートアップで、映画制作者向けとマーケティング担当者向けの製品を展開しています。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "シリーズBとか評価額って、そもそも何なの?" },
+            { "speaker": "analyst", "text": "シリーズBは資金調達の段階の一つで、評価額はその時点で投資家と合意した企業価値の推定額です。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "時系列で見ると、2026年1月のシリーズAで評価額13億ドル、8月17日のシリーズBで4億ドルを調達しました。" },
+            { "speaker": "host", "text": "そこから評価額54億ドルに到達した、というわけだね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "評価額の推移をグラフにするとどうなの?" },
+            { "speaker": "analyst", "text": "13億ドルから54億ドルへ。8か月という短期間での上昇幅がグラフでもはっきり分かります。", "source": "TechCrunch・PR Newswire(2026-08-17)" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "今回の調達額は4億ドル、日本円で約600億円です。ラウンドはDST Globalが主導しました。" },
+            { "speaker": "host", "text": "600億円って改めてすごい金額だね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "ラウンドの概要を表でまとめてよ。" },
+            { "speaker": "analyst", "text": "発表日は8月17日、調達額4億ドル、今回の評価額54億ドル、前回の評価額13億ドルです。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "参加した投資家は他にどんな顔ぶれ?" },
+            { "speaker": "analyst", "text": "Tribe CapitalやGoldman Sachs Alternatives、Intel Capitalなど9社が参加し、日本のNTTドコモ・ベンチャーズも名を連ねています。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "日本の投資家として、NTTドコモ・ベンチャーズが今回のラウンドに参加しています。" },
+            { "speaker": "host", "text": "海外の大型ラウンドに日本企業が入ってるのは注目ポイントだね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "売上高のほうも伸びてるの?" },
+            { "speaker": "analyst", "text": "年換算売上高は1年前の約2000万ドルから、2026年8月時点で7億ドルに到達したと発表されています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "成長倍率にすると35倍です。1年でここまで伸びたと企業側が発表しています。" },
+            { "speaker": "host", "text": "評価額の4倍以上に、売上の伸びのほうが大きいんだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "1年前と今を並べるとどう変わったの?" },
+            { "speaker": "analyst", "text": "売上高は2000万ドルから7億ドルへ、評価額は13億ドルから54億ドルへ。投資家層も大きく広がりました。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "ユーザー数は世界200か国で3000万人と発表されています。" },
+            { "speaker": "host", "text": "3000万人ってどういう数え方なんだろう?" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "実はそこが不明な点です。月間アクティブユーザーなのか登録アカウント数なのか、算出方法の詳細は確認できていません。" },
+            { "speaker": "host", "text": "数字だけ聞くと分かった気になるけど、定義は分からないんだね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "創業者はどんな経歴の人なの?" },
+            { "speaker": "analyst", "text": "アレックス・マシュラボフ氏です。2020年、自身の前スタートアップAI Factoryが1億6600万ドルでSnapに買収され、Snapに加わりました。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "その後、Snapの生成AI責任者を務めてからHiggsfieldを創業しています。" },
+            { "speaker": "host", "text": "実在の方だから、写真は使わずにテキストだけで経歴を紹介してるんだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "会社としてはどんな製品を出してるの?" },
+            { "speaker": "analyst", "text": "映画制作者向けのCinema Studio、マーケティング担当者向けのMarketing Studioを展開しています。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "表にまとめると、対象ユーザーごとに2つの製品ラインナップがあることが分かります。" },
+            { "speaker": "host", "text": "今回はあくまで資金調達の紹介で、製品を勧める話じゃないんだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "投資家ごとの出資額は分かるの?" },
+            { "speaker": "analyst", "text": "そこは非公表です。合計の調達額4億ドルと評価額54億ドルだけが、複数媒体で確認できている数字です。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "このニュースは、AI業界を追う立場、映像制作の立場、投資を追う立場、それぞれに意味があります。" },
+            { "speaker": "host", "text": "自分がどの立場で見るかで、注目するポイントも変わりそうだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "実際にこの情報を活用するとしたら、何に気をつければいい?" },
+            { "speaker": "analyst", "text": "評価額や調達額は資金調達時点の数字であり、収益性を直接示すものではない点に注意してください。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "見出しだけ見ると『評価額4倍=完全に成功』と思いがちですが、確認できているのは資金調達時点の数字だけです。" },
+            { "speaker": "host", "text": "出資額の内訳やユーザー数の定義は、まだ分かっていないんだね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "確認できたことと、できていないことを整理するとどうなる?" },
+            { "speaker": "analyst", "text": "調達額・評価額は確認済みです。各投資家の出資額と『3000万人』の定義は、本調査の範囲では確認できていません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマの発表は2026年8月17日、着手日の前日です。当社の鮮度基準を満たしています。" },
+            { "speaker": "host", "text": "タイムリーな話題だったんだね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "最後に、数字を3つだけ挙げるとしたら?" },
+            { "speaker": "analyst", "text": "評価額54億ドル、年換算売上高7億ドル、ユーザー数3000万人。この3つが今回の核心です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "出典はTechCrunch、PR Newswire、SiliconANGLE、Yahoo Finance、citybizです。" },
+            { "speaker": "host", "text": "複数の媒体が数字を揃えて報じているのは安心材料だね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "というわけで、今日はここまで。" },
+            { "speaker": "analyst", "text": "Higgsfieldの資金調達を出典付きで整理しました。確認できなかったことは正直にお伝えしています。また次回お会いしましょう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
