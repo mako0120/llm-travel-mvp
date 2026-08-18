@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "title": "Synchrony、OpenAIと電撃提携――ChatGPT内でAmazon・Walmartのストアカード決済が可能に",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "CNBC(2026-08-17)",
+      "RTTNews(2026-08-17)",
+      "Quartz(2026-08-17)",
+      "PRNewswire(2026-08-17)",
+      "The Next Web(2026-08-17)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "ChatGPTで買い物に、まさかのカード決済!?" },
+            { "speaker": "analyst", "text": "米大手信販会社Synchronyが、OpenAIとのエンタープライズ提携を2026年8月17日に発表しました。", "source": "CNBC・PRNewswire(2026-08-17)" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、Synchronyの与信・リワード・ロイヤルティプログラムをChatGPT内の買い物に組み込む計画です。" },
+            { "speaker": "host", "text": "小売店のサイトに移動しなくても買えるようになるかもしれないんだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな流れで見ていくの?" },
+            { "speaker": "analyst", "text": "提携の概要から仕組み、実現時期、未確定事項まで、6つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは発表翌日という新しさと、Amazon・Walmart・Lowe'sという有名ブランドが対象という点がポイントです。" },
+            { "speaker": "host", "text": "複数の海外メディアが内容を揃えて報じてるのも心強いね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそもSynchronyってどんな会社なの?" },
+            { "speaker": "analyst", "text": "Amazon・Walmart・Lowe'sなどのストアカード発行を手がける米大手信販会社です。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "ストアカードとか信販会社って、そもそも何なの?" },
+            { "speaker": "analyst", "text": "ストアカードは特定の小売店専用のカード、信販会社はその発行・与信審査を担う金融会社です。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "対象になる主なブランドはAmazon・Walmart・Lowe'sなどです。" },
+            { "speaker": "host", "text": "身近な小売店ばかりだね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "提携の概要を表でまとめてよ。" },
+            { "speaker": "analyst", "text": "発表日は8月17日、提携相手はOpenAI、狙いはChatGPT内でのストアカード決済です。", "source": "CNBC・RTTNews・Quartz・PRNewswire(2026-08-17)" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "目指しているのは、小売店サイトへ遷移せずチャット内で購入を完結させる体験です。" },
+            { "speaker": "host", "text": "次は、その仕組みがどうなってるか気になるね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "仕組みはどうなってるの?" },
+            { "speaker": "analyst", "text": "ChatGPT上での対話から、Synchronyの与信・リワードを組み込んだ提示を経て、チャット内で決済を完結させる構想です。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "組み込まれるのは与信・リワード・ロイヤルティプログラムの3要素です。" },
+            { "speaker": "host", "text": "3つセットでAI体験に統合するってことだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "汎用カードの統合には6〜12か月を要する見通しとされています。" },
+            { "speaker": "host", "text": "幅のある見通しで、まだ確定した日付じゃないんだね。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "Amazon・Walmartの専用カードはもっと早いの?" },
+            { "speaker": "analyst", "text": "実はそこは逆で、プライベートブランドカードは汎用カードよりさらに小売各社との調整が必要とされています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "SynchronyはOpenAIのモデルを社内業務にも展開する計画です。" },
+            { "speaker": "host", "text": "消費者向けだけじゃなく社内活用もセットなんだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "消費者向けの新しい機能もあるの?" },
+            { "speaker": "analyst", "text": "割引・与信オファーを閲覧できるChatGPTプラグインも提供予定です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "汎用カードとプライベートブランドカードの違いを整理してよ。" },
+            { "speaker": "analyst", "text": "汎用カードは6〜12か月の見通し、プライベートブランドカードはさらに調整が必要で確定日は未確認です。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "見出しだけ見るとすぐ使えそうに感じますが、確認できているのは今回の見通しの範囲だけです。" },
+            { "speaker": "host", "text": "手数料や決済情報の安全性は、まだこれからなんだね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "手数料はどう決まってるの?" },
+            { "speaker": "analyst", "text": "実はそこは不明です。小売各社・Synchrony・OpenAI間の取引経済性はまだ交渉中と報じられています。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "決済情報を渡すのって少し不安な人もいそうだね。" },
+            { "speaker": "analyst", "text": "その通りで、消費者がAIエージェントに決済情報を渡すことへの懸念も報じられていますが、具体的な対策は確認できていません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "確認できている数字は『6〜12か月』という見通しのみで、具体的な提供開始日は本調査の範囲では確認できていません。" },
+            { "speaker": "host", "text": "気が早くならないよう気をつけたいね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "このニュースは消費者・業界を追う立場・決済情報を意識する立場、それぞれに意味があります。" },
+            { "speaker": "host", "text": "自分がどの立場で見るかで、注目ポイントも変わりそうだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "実際にこの情報を活用するとしたら、何に気をつければいい?" },
+            { "speaker": "analyst", "text": "『6〜12か月』は見通しであり確定日ではない点、手数料や決済情報保護がまだ未確認である点に注意してください。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "こういう動き、業界的には何て呼ばれてるの?" },
+            { "speaker": "analyst", "text": "『エージェント型コマース』と呼ばれる、AIチャット上で購買を完結させる動きの一例です。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "確認できたことと、できていないことを整理するとどうなる?" },
+            { "speaker": "analyst", "text": "提携の概要と6〜12か月の見通しは確認済みです。手数料の詳細や決済情報保護の仕組みは確認できていません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "本テーマの発表は2026年8月17日、着手日の前日です。当社の鮮度基準を満たしています。" },
+            { "speaker": "host", "text": "タイムリーな話題だったんだね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "未確定事項をまとめると、提供開始時期・手数料条件・決済情報保護の仕組みの3点です。" },
+            { "speaker": "host", "text": "まだこれから詰まっていく部分が多いんだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "本編は特定企業の提携紹介ですが、利用を推奨する結論にはしていません。" },
+            { "speaker": "host", "text": "あくまで事実整理っていうスタンスなんだね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "今後はどこに注目すればいい?" },
+            { "speaker": "analyst", "text": "6〜12か月という見通しが実際にどう進むか、そして手数料条件がどう決着するかが焦点です。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "出典はCNBC、RTTNews、Quartz、PRNewswire、The Next Webです。" },
+            { "speaker": "host", "text": "複数の媒体が内容を揃えて報じているのは安心材料だね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "というわけで、今日はここまで。" },
+            { "speaker": "analyst", "text": "Synchronyの提携を出典付きで整理しました。確認できなかったことは正直にお伝えしています。また次回お会いしましょう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
