@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "Zapierのライバル『Relay』が消える。創業者はGoogleへ電撃復帰、Chrome担当VPに",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-08-17)",
+      "9to5Google(2026-08-17)",
+      "Shopifreaks(2026-08-17)",
+      "PRIMA NEWS(2026-08-17)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "Zapierのライバル『Relay』が消えるって?", "source": "TechCrunch(2026-08-17)" },
+            { "speaker": "analyst", "text": "はい。でも本当の新情報は、創業者がGoogleに復帰したことなんです。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論、創業者ジェイコブ・バンク氏がGoogle Chrome担当VPに就任しました。" },
+            { "speaker": "host", "text": "スタートアップ終了からの、まさかの大手復帰だね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで見ていくの?" },
+            { "speaker": "analyst", "text": "鮮度の整理から、事業終了のタイムライン、バンク氏のキャリアまで6つの流れです。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "『鮮度の整理』って、どういうこと?" },
+            { "speaker": "analyst", "text": "事業終了は7月発表の既定路線。新しいのは8月17日のVP就任発表なんです。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそもRelayってどんなサービスなの?" },
+            { "speaker": "analyst", "text": "複数アプリを連携させて作業を自動化する、Zapierの競合サービスです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "ジェイコブ・バンク氏とVPって、どういう人・役職?" },
+            { "speaker": "analyst", "text": "Relayの創業者で、今回ChromeのプロダクトとDeveloper Relationsを率いる立場です。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "時系列です。2015年Timeful買収、2021年独立、2026年7月事業終了発表。" },
+            { "speaker": "host", "text": "そして8月17日にVP就任、というわけだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "事業終了の日程、表でまとめてよ。" },
+            { "speaker": "analyst", "text": "無料は8月15日終了、有料は9月14日まで。その2日後にVP就任発表です。", "source": "TechCrunch(2026-08-17)" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "無料アカウントは2026年8月15日にアクセス終了しました。" },
+            { "speaker": "host", "text": "もう終わっちゃってるんだね。" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "有料アカウントは2026年9月14日までアクセス可能とされています。" },
+            { "speaker": "host", "text": "利用者はここまでに移行先を考える必要があるね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "バンク氏のGoogleキャリア、カードで見せてよ。" },
+            { "speaker": "analyst", "text": "PM入社→Gmail等の責任者→Timeful売却→2021年独立、という流れです。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "Timeful社って何?" },
+            { "speaker": "analyst", "text": "バンク氏創業のスマートカレンダーアシスタント企業で、2015年にGoogleが買収しました。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "Googleにはどれくらい在籍してたの?" },
+            { "speaker": "analyst", "text": "過去6年間です。具体的な開始年は報道に明記がなく、期間としてのみ扱います。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "Relay・バンク氏・Googleの関係、図にできる?" },
+            { "speaker": "analyst", "text": "Relayは終了、バンク氏はGoogleへ、スタッフの一部も合流という関係です。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "これまでとこれからを並べて確認します。", "source": "9to5Google(2026-08-17)" },
+            { "speaker": "host", "text": "CEOからVPへ、立場が大きく変わったね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "Chrome担当VPとして、具体的に何をするの?" },
+            { "speaker": "analyst", "text": "プロダクトとDeveloper Relationsの両チームを率います。施策の詳細は未確認です。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "Relayのスタッフはどうなるの?" },
+            { "speaker": "analyst", "text": "一部がバンク氏とともに合流すると報じられていますが、人数は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "Relayが終わった理由は何なの?" },
+            { "speaker": "analyst", "text": "具体的な経営理由は報道で明記されておらず、推測で断定しません。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "確認できていないこと、一覧で見せてよ。" },
+            { "speaker": "analyst", "text": "移籍人数と事業終了の理由、この2点は本調査の範囲では確認できていません。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "このテーマ、鮮度はどうなの?" },
+            { "speaker": "analyst", "text": "VP就任発表は着手日の前日。事業終了の発表日ではなく、こちらを基準にしています。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "情報源は4媒体。いずれも8月17日付で内容が一致しています。" },
+            { "speaker": "host", "text": "複数のメディアが揃ってるのは信頼できるポイントだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "このニュース、読者にとって何が変わるの?" },
+            { "speaker": "analyst", "text": "スタートアップの終焉と大手復帰が同時に起きた事例として位置づけられます。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "立場によって気をつけることは違うの?" },
+            { "speaker": "analyst", "text": "利用者・業界を追う立場・発信する立場、それぞれの実践的な示唆を3つ紹介します。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "誇張しないために気をつけてることは?" },
+            { "speaker": "analyst", "text": "Google・Relayを扱いますが、製品を推奨する表現にはせず、中立的に伝えています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "見出しの印象と実際の内容にはギャップがあります。全員が移籍するわけではありません。" },
+            { "speaker": "host", "text": "『一部』というところ、見落としがちだね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで事実と推測を整理します。日程や就任内容は事実、評価の部分は推測です。" },
+            { "speaker": "host", "text": "事実と推測、分けて見るのが大事だね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "正直に言うと、まだ分からないこともあるよね?" },
+            { "speaker": "analyst", "text": "移籍人数、終了理由、具体的施策、在籍開始年。この4点は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "今回のニュースを支えた3つのポイントです。対比・キャリア・スタッフの合流です。" },
+            { "speaker": "host", "text": "どれも出典どおりの事実で裏付けられてるね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "主な出典はTechCrunch、9to5Google、Shopifreaks、PRIMA NEWSです。" },
+            { "speaker": "host", "text": "詳しくはresearch.mdを見てほしいね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "Relayは消える。創業者はGoogleへ。この2つを出典付きで整理してお届けしました。" },
+            { "speaker": "host", "text": "今回はRelayの事業終了とバンク氏のGoogle復帰をお伝えしました。次回もまた出典付きでお届けします。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
