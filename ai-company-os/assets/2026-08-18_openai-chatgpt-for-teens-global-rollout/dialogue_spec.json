@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "title": "OpenAI「ChatGPT for Teens」、本日13〜17歳向けの専用版を世界展開開始",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "OpenAI公式ヘルプセンター・公式ブログ(openai.com、2026-08-18時点)",
+      "ABC News / CBS News / NBC News(2026-08-18時点)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "13〜17歳向けの専用ChatGPT、本日から世界展開だって?",
+              "source": "OpenAI公式ヘルプセンター・公式ブログ(openai.com、2026-08-18時点)"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。2026年8月18日、『ChatGPT for Teens』がグローバルで始まりました。"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "結論から聞きたい。何が新しいの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "年齢推定機能と、保護者向けの管理機能がセットになった専用体験です。",
+              "source": "OpenAI公式ヘルプセンター・公式ブログ(openai.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日は何をどの順で説明してくれる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "年齢推定の仕組み、未成年者向け保護機能、保護者向け機能とプライバシー配慮、そして確認できていないことまで、6つの流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このニュース、取り上げるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "世界最大級のAIサービスが未成年層向け専用版を即日展開する、鮮度の高い変更だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "そもそもChatGPT for Teensって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "13〜17歳向けに安全性を高めた専用体験です。無料・有料個人プランの対象アカウントで使えます。",
+              "source": "OpenAI公式ヘルプセンター・公式ブログ(openai.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "年齢推定、どう振り分けられるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "図にするとこうです。18歳未満と推定されるか、判定が不確実な場合はティーン向け体験になります。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "『不確実な場合』ってどう扱われるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "判定が不確実なら、より安全な未成年者向け体験がデフォルトで適用されます。",
+              "source": "OpenAI公式ヘルプセンター・公式ブログ(openai.com、2026-08-18時点)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "通常版との違い、表で見せてよ。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。ティーン版では恋愛・性的な会話が制限され、有害コンテンツへのガードも強化されます。"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "未成年者向けの保護機能、正確に整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "自殺・自傷行為と恋愛/性的な会話の制限、そして有害コンテンツへのガード強化です。",
+              "source": "OpenAI公式ヘルプセンター・公式ブログ(openai.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "3つの柱、まとめて確認したい。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "会話の制限、有害コンテンツへのガード強化、そして安全側デフォルト。この3つです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "保護機能、1つ目から聞かせて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "自殺・自傷行為に関する会話が制限の対象になっています。",
+              "source": "OpenAI公式ヘルプセンター・公式ブログ(openai.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "2つ目は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "恋愛/性的な会話の制限です。通常版との大きな違いの1つです。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "3つ目は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "有害コンテンツへのガード強化です。暴力表現・不健全なボディイメージ・危険なバイラルチャレンジ等が対象です。",
+              "source": "OpenAI公式ヘルプセンター・公式ブログ(openai.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "振り分けの流れ、もう一度整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "年齢推定、ティーン体験への振り分け、そして会話制限・ガード強化の適用。この3ステップです。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ここからは保護者側の話?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。利用時間帯や音声モード、高リスク通知など、複数の管理機能が用意されています。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "保護者向け機能、表で正確に整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Quiet Hours、Voice Mode無効化、画像生成管理、高リスク通知、Study Hoursの5つです。",
+              "source": "OpenAI公式ヘルプセンター・公式ブログ(openai.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Quiet Hoursって具体的に何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "指定した時間帯にティーンの利用を制限できる機能です。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Study Hoursは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "新規チャットを学習モードで開始する設定ができる機能です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一番大事そうな機能は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "自傷行為の兆候等、高リスクな状況での通知です。安全機能として特に重要です。",
+              "source": "OpenAI公式ヘルプセンター・公式ブログ(openai.com、2026-08-18時点)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "保護者は会話も全部読めるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "いいえ。ティーンの会話内容そのものは、保護者に読まれたり監視されたりしません。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "保護とプライバシー、線引きを整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "保護者は時間帯やアクセス、通知は管理できますが、会話の中身は見られません。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "年齢推定、誤解しやすいところは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "判定が不確実なだけで、成人でも一時的にティーン体験になり得ます。判定精度自体は非公開です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "保護者にとって、これで何が変わる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "時間帯・音声・画像生成の管理と高リスク通知ができるようになります。まず設定の確認をおすすめします。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ティーン本人にとってはどう?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "会話が制限され保護は強まりますが、プライバシーも一定程度保たれる体験になります。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "正直、気になる点はある?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "年齢推定の精度が非公開な点と、既存ユーザーの移行スケジュールが不明な点です。"
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できていないこと、正直に教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "判定アルゴリズムの詳細、移行スケジュール、各国での提供開始タイミングの差異です。推測では埋めません。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "保護者は今すぐ何をすればいい?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "子どものアカウントの切り替わりを確認し、Quiet Hoursや通知設定を実際に試してみてください。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "最後に、事実と推測、分けて整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "展開日や機能一覧は確認済みの事実。導入背景の詳細は推測にとどまります。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "出典、まとめて教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "OpenAI公式情報と、ABC・CBS・NBCという独立した報道機関です。",
+              "source": "OpenAI公式ヘルプセンター・公式ブログ(openai.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日の内容、一言でまとめると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "保護機能は充実、でも会話内容は保護者に見えない設計。まずは家庭で設定を確認してみてください。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
