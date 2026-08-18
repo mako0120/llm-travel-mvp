@@ -1,0 +1,451 @@
+{
+  "meta": {
+    "title": "Microsoft Copilotアプリ、本日大改修――Podcasts・Deep Research・グループチャット履歴が終了",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Copilotアプリ、まさかの本日大改修だって?",
+              "source": "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。2026年8月18日付で、Podcasts・Deep Research・グループチャット履歴が終了しています。"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "結論から聞きたい。何が終わったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3機能です。Podcasts、コンシューマー向けDeep Research、グループチャットの引き継ぎ。",
+              "source": "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日は何をどの順で説明してくれる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "刷新の全体像、3つの終了機能、影響と注意点、そして確認できていないことまで、6つの流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このニュース、取り上げるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今日から効力を持つ変更だからです。グループチャットのデータが引き継がれない点は注意喚起の価値が高いんです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "そもそも今回、何が刷新されたの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "個人アカウントと仕事・学校アカウントの表示をより明確に分ける刷新です。アプリ名・アイコンも簡素化されました。",
+              "source": "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "個人アカウントと仕事・学校アカウント、初心者には分かりにくいかも。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "図にするとこうです。個人のMicrosoftアカウント用と、組織のMicrosoft 365アカウント用、この2つを今回さらに分けました。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "終了するPodcastsとDeep Research、そもそも何をする機能だっけ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Podcastsは音声コンテンツ機能、Deep Researchは複数の情報源を横断して深く調べる機能です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "刷新の前後、表で見せてよ。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい。URLはm365.cloud.microsoftからcopilot.cloud.microsoftへ。表示区分もより明確になります。",
+              "source": "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この先のスケジュールは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "本日刷新開始、8月下旬にURL自動リダイレクト、9月中旬に新デスクトップアプリが一般提供予定です。",
+              "source": "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "その予定、表で正確に整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "承知しました。判明している範囲を、時期と内容で一覧にしています。",
+              "source": "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "終了する機能、1つ目から聞かせて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Podcastsです。2026年8月18日以降、Copilotから利用できません。",
+              "source": "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "2つ目は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "コンシューマー向けDeep Researchです。本日より提供終了です。",
+              "source": "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "3つ目、これが一番気になる。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "グループチャットの引き継ぎです。スレッド・メッセージ・画像等が本日以降残りません。",
+              "source": "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "3つまとめて、もう一度おさらいしたい。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Podcasts、Deep Research、グループチャット履歴。いずれも本日で終了・非引き継ぎです。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "全部悪い話なの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "いえ、個人と仕事・学校の分離自体は維持されています。データがまたぐ設計にはなっていません。",
+              "source": "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "見た目の変化も整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "アプリ名・アイコンが簡素化、URLも新しいドメインへ。表にまとめました。",
+              "source": "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "誤解しそうなところ、先に潰しておきたい。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "旧URLはいきなり使えなくなるわけではなく、8月下旬から自動リダイレクトが始まる予定です。",
+              "source": "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この情報、どこまで裏付けが取れてるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "一次情報源はMicrosoft公式サポート文書です。ただし終了理由やエクスポート手段の有無は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "個人アカウントの人はどうすればいい?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Podcasts・Deep Researchを使っていたなら、本日以降は利用できないことを知っておいてください。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "仕事・学校アカウントの人は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "グループチャットで重要なやり取りをしていたチームは、履歴が引き継がれない点に注意が必要です。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "個人と仕事・学校、どっちの影響が大きい?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "個人は機能終了、仕事・学校は既存コンテンツの非引き継ぎ。後者の方が重い影響になり得ます。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一番強調したい注意点、教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "グループチャットのデータ消失です。重要な記録が残っていないか、今日中に確認をおすすめします。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この変更、正直どう思う?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "即日終了という形で、準備期間が十分だったかは確認できません。事前のエクスポート手段の有無も不明です。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できていないこと、正直に教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "終了に至った経営上の理由と、事前エクスポート手段の有無です。推測では埋めません。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者は今すぐ何をすればいい?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "進行中の作業の確認、重要なグループチャットの内容の確認、そしてブックマークURLの更新です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "これで実際、何が変わる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "個人は代わりの情報収集手段を検討し、チーム管理者は情報共有フローを見直す機会になります。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この先の展開、もう一度確認させて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月下旬にURL自動リダイレクト、9月中旬に新デスクトップアプリの一般提供予定です。",
+              "source": "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "最後に、事実と推測、分けて整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "日程はすべて公式文書で確認済みの事実。終了理由や評価への影響は推測にとどまります。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "出典、まとめて教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "すべてMicrosoft公式サポート文書です。research.mdにも一覧を残しています。",
+              "source": "Microsoft公式サポート文書(support.microsoft.com、2026-08-18時点)"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日の内容、一言でまとめると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3機能終了は事実。でもアカウント分離の設計は維持。まずは自分のCopilotを確認してみてください。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
