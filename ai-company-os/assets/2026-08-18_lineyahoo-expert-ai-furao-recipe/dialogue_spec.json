@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "title": "AIが「専門家1人」の知見だけを教える――LINEヤフー『エキスパートAI』、第1弾はふらお氏のレシピAI",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "LINEヤフー株式会社公式プレスリリース(PR TIMES/lycorp.co.jp、2026-08-17)",
+      "Impress Watch(2026-08-17)",
+      "Yahoo!ニュース(Impress Watch配信、2026-08-17)",
+      "TechTimes(2026-08-17)",
+      "VOIX(2026-08-17)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "『専門家1人の知見だけに基づくAI』だって?", "source": "LINEヤフー公式プレスリリース(2026-08-17)" },
+            { "speaker": "analyst", "text": "LINEヤフーが8月17日、『Agent i』内にエキスパートAIという新カテゴリを始めました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、第1弾は料理研究家ふらお氏の『ふらおレシピ』です。" },
+            { "speaker": "host", "text": "Web全体の平均じゃなく、実名専門家1人だけの知見なんだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどういう流れで見ていくの?" },
+            { "speaker": "analyst", "text": "基礎知識からふらお氏との関係、提供概要の数字、未確認事項まで6つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは発表翌日という新しさと、設計思想の明確な違いが見どころです。" },
+            { "speaker": "host", "text": "専門家本人が承認・協力してるのも安心材料だね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそも『Agent i』ってどんなAIエージェントなの?" },
+            { "speaker": "analyst", "text": "LINEヤフーが提供するAIエージェントサービスの名称です。今回はそこに追加された新機能に焦点を当てます。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "『エキスパートAI』はどこが新しいの?" },
+            { "speaker": "analyst", "text": "特定の実名専門家1人が公開した知見だけに基づいて回答する点です。第1弾がふらおレシピです。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "従来のAIはWeb全体を平均化しますが、エキスパートAIは情報源を1人に絞ります。", "source": "LINEヤフー公式プレスリリース(2026-08-17)" },
+            { "speaker": "host", "text": "しかも専門家本人が活用を承認してる、というわけだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "そのふらお氏って、どんな人なの?" },
+            { "speaker": "analyst", "text": "料理研究家で、Yahoo!ニュース エキスパートに参加している方です。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "第1弾のサービス名は『ふらおレシピ』です。" },
+            { "speaker": "host", "text": "じゃあ実際どう使うの?" }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "条件を選ぶ、レシピが提案される、元記事のリンクが出る、という3ステップです。" },
+            { "speaker": "host", "text": "シンプルな流れだね。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "条件って具体的にはどんなもの?" },
+            { "speaker": "analyst", "text": "『今日は考えたくない』や『冷蔵庫に豚ひき肉とキャベツがある』といった条件です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "提供概要を表でまとめて見せてよ。" },
+            { "speaker": "analyst", "text": "提供元・サービス名・第1弾・開始日・終了日を一覧にしました。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "提供開始日は2026年8月17日です。" },
+            { "speaker": "host", "text": "終了日はいつ?" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "現時点で案内されているのは2026年9月30日までです。" },
+            { "speaker": "host", "text": "その後どうなるかはまだ分からないんだね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "関係性を図にできる?" },
+            { "speaker": "analyst", "text": "LINEヤフーがカテゴリを提供し、ふらお氏が承認・協力し、利用者が提案とリンクを受け取る、という関係です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "ふらお氏はどこまで関わってるの?" },
+            { "speaker": "analyst", "text": "知見の活用を承認し、設計にも協力しています。ただし報酬・契約条件は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "使い方の特徴は、条件選択型・元記事リンク付き・情報源が明確、の3点です。" },
+            { "speaker": "host", "text": "どれも分かりやすい特徴だね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "『専門家1人だけ』という設計、何が意味あるの?" },
+            { "speaker": "analyst", "text": "提案の出どころが明確になる点です。ただし実際の使いやすさはまだ確認できていません。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "出典を表でまとめて見せてよ。" },
+            { "speaker": "analyst", "text": "LINEヤフー公式発表を含む5つの情報源を一覧にしました。" }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "5媒体で内容が一致していることを確認しています。" },
+            { "speaker": "host", "text": "信頼できる情報の揃い方だね。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "このニュース、視聴者にとって何が変わるの?" },
+            { "speaker": "analyst", "text": "専門家の知見だけに基づくAIという新しい選択肢が登場した、という点が意味を持ちます。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "実践的な示唆は?" },
+            { "speaker": "analyst", "text": "料理に関心がある人、情報の受け手、発信する立場、それぞれで意識したい点を3つ紹介します。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "本資料は特定サービスの利用を強く推奨するものではなく、中立的な事実整理です。" },
+            { "speaker": "host", "text": "宣伝ではなく、事実紹介として見てほしいんだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "正直に言うと、まだ分からないこともあるよね?" },
+            { "speaker": "analyst", "text": "カテゴリが他の専門家に拡大されるかどうか・その時期は確認できていません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "提供終了日以降の扱いや利用実績の具体的な数字も、確認できていません。" },
+            { "speaker": "host", "text": "数字を推測で埋めない、というのが大事な姿勢だね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "確認できていないこと、一覧で見せてよ。" },
+            { "speaker": "analyst", "text": "拡大予定・報酬契約・終了日以降・利用実績の4項目を一覧にしました。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "見出しだけ見ると『大規模なサービス』『高額な報酬』と思ってしまいそうですが、詳細は未確認です。" },
+            { "speaker": "host", "text": "印象と実際の内容にギャップがある、という典型例だね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "このテーマ、鮮度はどうなの?" },
+            { "speaker": "analyst", "text": "発表は着手日の前日、2026年8月17日です。2日以内という当社の基準を満たしています。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "開始日・終了日・対象専門家・情報源数、今回の数字を一覧にまとめました。" },
+            { "speaker": "host", "text": "詳しくはresearch.mdを見てほしいね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "analyst", "text": "専門家1人の知見だけに基づく、新しいAIエージェントについてお届けしました。" },
+            { "speaker": "host", "text": "今回はLINEヤフーのエキスパートAI、第1弾ふらおレシピをお伝えしました。次回もまた出典付きでお届けします。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
