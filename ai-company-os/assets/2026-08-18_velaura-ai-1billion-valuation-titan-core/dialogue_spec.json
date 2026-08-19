@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "title": "半導体新興Velaura AI、評価額10億ドル超に――AIの電力問題に挑む",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Reuters(TradingView配信、2026-08-18)",
+      "Yahoo Finance(2026-08-18)",
+      "The Star(2026-08-18)",
+      "AOL(2026-08-18)",
+      "Quartz(2026-08-18)",
+      "VentureBurn(2026-08-18)",
+      "TechStartups(2026-08-18)",
+      "Crypto Briefing(2026-08-18)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "評価額10億ドル超って、まさかの数字だよね?", "source": "Reuters(TradingView配信、2026-08-18)" },
+            { "speaker": "analyst", "text": "AIチップ設計スタートアップVelaura AIが、2026年8月18日にシリーズAで1億1000万ドルを調達し、評価額10億ドル超に到達したと発表しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、Seligman Ventures主導のシリーズAで1億1000万ドルを調達し、評価額は10億ドル超に到達しています。" },
+            { "speaker": "host", "text": "シリーズAでこの評価額はかなり早いね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな流れで見ていくの?" },
+            { "speaker": "analyst", "text": "資金調達の数字からTitan Coreの技術概要、資金の使いみち、そして同日発表のEtchedテーマとの違いまで、6つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "なんで今このテーマを扱うの?" },
+            { "speaker": "analyst", "text": "発表翌日という鮮度の高さに加え、シリーズAという早い段階で評価額10億ドル超という際立った到達だからです。複数の独立した媒体が金額を一致させて報じています。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "Velaura AIって、そもそもどんな会社?" },
+            { "speaker": "analyst", "text": "AIアクセラレーターの電力あたり性能改善を掲げるチップ設計スタートアップです。主力製品は『Titan Core』というチッププラットフォームです。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "『電力あたり性能』とか『シリーズA』って、聞き慣れない言葉だな。" },
+            { "speaker": "analyst", "text": "電力あたり性能は、消費電力1ワットあたりでどれだけ処理できるかという指標です。シリーズAは、シード期の次に行われる本格的な成長資金の調達ラウンドを指します。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "今回の調達額は1億1000万ドルです。Seligman Ventures主導のシリーズAラウンドでした。" },
+            { "speaker": "host", "text": "その内訳、もう少し詳しく知りたいな。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "発表日は2026年8月18日、調達額1億1000万ドル、到達評価額は10億ドル超です。主導投資家はSeligman Ventures、新規参加はCapricorn Investment GroupとProsperity7 Venturesでした。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "参加した投資家をまとめると?" },
+            { "speaker": "analyst", "text": "Seligman Venturesが主導し、新規投資家としてCapricorn Investment GroupとProsperity7 Venturesが参加しています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "シリーズAでの調達を経て、Velaura AIの評価額は10億ドル超に到達しました。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの資金調達をまとめると?" },
+            { "speaker": "analyst", "text": "調達額1億1000万ドル、到達評価額10億ドル超、新規参加投資家2社という内容です。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "評価額10億ドルって、もう会社の値段が決まったってこと?" },
+            { "speaker": "analyst", "text": "いえ、評価額は資金調達時に投資家との合意で算定される推定企業価値で、実際の売買で確定した価格ではありません。今回は『10億ドル超』という表現にとどまり、具体的な上限額までは確認できていません。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "『AIの電力問題』って、そんなに深刻なの?" },
+            { "speaker": "analyst", "text": "AIの学習・推論に伴う電力消費がデータセンターで急増しており、電力供給の制約がAIインフラ拡張の課題として業界で注目されています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "Titan Coreは、AIアクセラレーターの数学演算処理において、電力あたり性能を2〜4倍改善するとされています。" },
+            { "speaker": "host", "text": "2〜4倍って、けっこう幅があるね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "Titan Coreは数学演算処理に特化したチッププラットフォームで、電力あたり性能の改善を主な訴求点としています。ただし対象となる演算処理・比較対象の詳細までは確認できていません。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "Titan Coreの狙いを整理すると?" },
+            { "speaker": "analyst", "text": "電力消費急増という課題に着目し、数学演算処理に向けてチップを設計することで、電力あたり性能の改善を目指す設計とされています。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "資金調達から評価額到達、そしてTitan Coreの開発・商用化の加速という流れが報じられています。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "調達した資金は何に使うの?" },
+            { "speaker": "analyst", "text": "Titan Coreの開発・商用化の加速、そしてエンジニアリング・顧客対応チームの拡大に充てるとしています。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "実際にいつ製品が出るのかは分かるの?" },
+            { "speaker": "analyst", "text": "そこは正直にお伝えします。具体的な製品出荷時期は、本調査の範囲では確認できていません。開発・商用化の加速という方針のみを紹介し、推測では補いません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "普通のAIアクセラレーターとTitan Coreって何が違うの?" },
+            { "speaker": "analyst", "text": "汎用製品は幅広いワークロードに対応する設計である一方、Titan Coreは電力あたり性能の改善を主な訴求点とする設計です。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "もう導入している会社はあるの?" },
+            { "speaker": "analyst", "text": "既存顧客の有無は、本調査の範囲では確認できていません。特定顧客名や導入実績の発表は、今回の調達発表の中では確認できていません。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "電力あたり性能2〜4倍って、第三者が確認した数字なの?" },
+            { "speaker": "analyst", "text": "そこも正直にお伝えします。この数値は企業側発表に基づく方向性であり、独立機関による測定・検証結果は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "見出しだけを見ると事業が完全に成功しているように感じがちですが、実際に確認できているのは今回のラウンドの調達額・評価額・投資家の情報のみです。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "同じ日にEtchedのニュースも扱ってたよね?重複してない?" },
+            { "speaker": "analyst", "text": "別会社・別製品です。EtchedはTransformer推論専用のASIC『Sohu』、Velaura AIは電力あたり性能の改善に特化した『Titan Core』で、技術アプローチが異なります。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "このニュース、視聴者はどう受け止めればいい?" },
+            { "speaker": "analyst", "text": "AI業界の動向を追う立場、半導体・インフラを検討する立場、投資を追う立場、それぞれで意識したい視点をまとめました。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "評価額・調達額はあくまで資金調達時点の数字であり、製品の性能そのものを直接示すものではありません。電力あたり性能2〜4倍という主張も、第三者検証の有無を確認したうえで判断することが望ましいです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "結局、確認できたことと確認できていないことをまとめると?" },
+            { "speaker": "analyst", "text": "調達額・評価額・投資家は複数媒体で確認済みです。一方、性能改善数値の第三者検証、製品出荷時期、既存顧客の有無は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "発表は着手日の前日にあたる2026年8月18日でした。当社の鮮度基準を満たしています。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "Reuters・Yahoo Finance・The Star・AOL・Quartz・VentureBurn・TechStartups・Crypto Briefingという複数の独立した媒体が、調達額・評価額の数値を一致させて報じています。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "今日はVelaura AIの評価額10億ドル超到達、それにAIの電力問題に挑む『Titan Core』の中身まで見てきたね。" },
+            { "speaker": "analyst", "text": "数字は出典どおりに扱い、確認できなかったことは正直にお伝えしました。詳しい出典はresearch.mdでご確認ください。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
