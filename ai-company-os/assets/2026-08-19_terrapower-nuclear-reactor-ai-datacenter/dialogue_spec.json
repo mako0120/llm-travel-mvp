@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "TerraPower、AI原子炉の「隠れた武器」",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-08-19)",
+      "Bloomberg(2026-08-18)",
+      "Construction Review Online"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "溶けたナトリウムがAIの電力危機を救うって?"},
+        {"speaker": "analyst", "text": "TerraPowerの新しい原子炉プロジェクトが、2026年8月19日に報じられました。", "source": "TechCrunch(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、溶融ナトリウムで電力需要の急変動に対応する仕組みです。"},
+        {"speaker": "host", "text": "面白い技術だね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "新プロジェクトの内容から、溶融ナトリウムの仕組み、AI需要との関係まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "高い鮮度に加え、溶融ナトリウムという技術的に興味深い仕組みに注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "TerraPowerってどんな会社?"},
+        {"speaker": "analyst", "text": "ビル・ゲイツ氏が創業に関わった原子力企業で、Natrium原子炉を開発しています。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "新プロジェクトは2026年中に発表、2027年着工予定です。", "source": "Bloomberg(2026-08-18)"},
+        {"speaker": "host", "text": "顧客企業は分かってるの?"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "これって初めてのプロジェクトなの?"},
+        {"speaker": "analyst", "text": "いいえ、2つ目です。2026年1月にはMeta社との大型契約もありました。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "着工予定は2027年です。"},
+        {"speaker": "host", "text": "もう来年から始まるんだね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "『隠れた武器』って具体的にどんな仕組み?"},
+        {"speaker": "analyst", "text": "原子炉を常時稼働させ、余剰熱を溶融ナトリウムに蓄える設計です。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "従来の原子炉とTerraPowerの方式を対比しました。"},
+        {"speaker": "host", "text": "需要変動への対応力が全然違うんだね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "この方式のメリットは?"},
+        {"speaker": "analyst", "text": "設備稼働率の向上、再エネとの親和性、AI需要変動への対応です。", "source": "TechCrunch(2026-08-19)"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "なんでAI需要とつながるの?"},
+        {"speaker": "analyst", "text": "電力多消費のAIアプリケーションが、小型原子炉にとって新市場になっているためです。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "Meta社との契約は最大8基のNatrium原子炉プラントです。"},
+        {"speaker": "host", "text": "かなり大規模な契約なんだね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "顧客企業が非公開なのはなぜ?"},
+        {"speaker": "analyst", "text": "理由は確認できていません。推測はせず、今後の発表を待つ必要があります。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "Meta契約から今回の新プロジェクトまでの流れを図にしました。"},
+        {"speaker": "host", "text": "AI需要拡大が背景にあるんだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "今回の報道を3つでまとめると?"},
+        {"speaker": "analyst", "text": "新プロジェクト発表予定、溶融ナトリウムの仕組み、そしてAI需要という背景です。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "業界内での位置づけは?"},
+        {"speaker": "analyst", "text": "AI需要拡大で小型原子炉企業への注目が高まる中の一例ですが、他社比較は行っていません。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "analyst", "text": "1つ目と2つ目のプロジェクトを対比しました。"},
+        {"speaker": "host", "text": "2つ目の詳細は今回分かったんだね。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "今回の発表を表でまとめると?"},
+        {"speaker": "analyst", "text": "発表予定時期、着工予定、技術的特徴、背景の4点です。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "host", "text": "今後注目される点は?"},
+        {"speaker": "analyst", "text": "顧客企業名の公表時期や安全性の第三者評価ですが、いずれも未確認です。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "analyst", "text": "Meta契約は2026年1月発表でした。"},
+        {"speaker": "host", "text": "今回とは別件かもしれないんだね。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "原子炉の種類は?"},
+        {"speaker": "analyst", "text": "Natrium、ナトリウム冷却型です。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "analyst", "text": "AI・半導体工場など電力多消費産業が背景です。"},
+        {"speaker": "host", "text": "AIだけじゃないんだね。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "小型原子炉業界全体はどうなの?"},
+        {"speaker": "analyst", "text": "注目が高まっていますが、他社比較や市場規模の詳細は確認していません。"}
+      ]},
+      {"slide": 25, "lines": [
+        {"speaker": "host", "text": "情報源はどこから?"},
+        {"speaker": "analyst", "text": "Bloomberg・TechCrunch・Construction Review Onlineなど、複数の独立したメディアが報じています。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できていないことは?"},
+        {"speaker": "analyst", "text": "顧客企業名、立地・規模の詳細、安全性評価の詳細は確認できていません。正直にお伝えします。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "確認できている事実と今後の不確定要素を明確に区別しました。"},
+        {"speaker": "host", "text": "確定した話とこれからの話、ごっちゃにしないんだね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "このニュース、誰にとって参考になるの?"},
+        {"speaker": "analyst", "text": "AI・エネルギー業界を追う人、原子力技術に関心がある人、投資・企業動向を追う人、それぞれに視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、溶融ナトリウムという技術的な工夫が今回の要点です。"},
+        {"speaker": "host", "text": "確認できていない点も正直に伝えてくれたね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "host", "text": "原子力がAI時代を支える、興味深い技術だったね。"},
+        {"speaker": "analyst", "text": "数字は出典どおりに扱い、確認できないことは正直にお伝えしました。次回もまた出典付きでお届けします。"}
+      ]}
+    ]}
+  ]
+}
