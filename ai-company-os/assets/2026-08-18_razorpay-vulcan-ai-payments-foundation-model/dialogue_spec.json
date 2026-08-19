@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "title": "Razorpay、インド初の決済特化AI基盤モデル「Vulcan」を発表",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "IANS(2026-08-18)",
+      "IBTimes India(2026-08-18)",
+      "Free Press Journal(2026-08-18)",
+      "Telangana Today(2026-08-18)",
+      "CXOToday(2026-08-18)",
+      "Indian Startup Times(2026-08-18)",
+      "Inc42(2026-08-18)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "決済成功率が10%も上がるって、まさかの数字だよね?", "source": "Inc42(2026-08-18)" },
+            { "speaker": "analyst", "text": "Razorpayが2026年8月18日、決済特化のAI基盤モデル『Vulcan』を発表しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、Vulcan導入で決済成功率が最大10%向上したとされています。" },
+            { "speaker": "host", "text": "決済って地味に見えて、実はすごく大事な数字だよね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな流れで見ていくの?" },
+            { "speaker": "analyst", "text": "Vulcanの仕組みから成果指標、導入企業まで、6つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "なんで今このテーマを扱うの?" },
+            { "speaker": "analyst", "text": "発表翌日という新しさに加え、『インド初の決済特化AI基盤モデル』という打ち出し方、決済成功率8〜10%向上・不正検知最大5倍という具体的な数字があるからです。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "Razorpayって、そもそもどんな会社?" },
+            { "speaker": "analyst", "text": "インドの企業向けにオンライン決済インフラを提供する決済大手企業です。銀行振込・カード決済・UPIなど多様な決済手段に対応しています。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "『AI基盤モデル』とか『UPI』って何?" },
+            { "speaker": "analyst", "text": "AI基盤モデルは大量のデータで事前学習された汎用的なAIモデル、UPIはインドで広く使われている即時決済システムです。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "Vulcanは決済データ40億件超、約3兆件のデータポイントで学習されたとされています。" },
+            { "speaker": "host", "text": "とんでもない量だね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "1決済あたり約3,000のシグナルを分析して、決済の可否や不正リスクを判断する仕組みです。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "Vulcanの概要をまとめると?" },
+            { "speaker": "analyst", "text": "発表日は2026年8月18日、Razorpay・NVIDIA・AWSの共同開発による決済特化のTransformerベースAI基盤モデルです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "実際にどう機能するの?" },
+            { "speaker": "analyst", "text": "決済処理の失敗・不正・取引ルーティング・チェックアウト時の摩擦に対応する設計とされ、約3,000のシグナルを分析して判断します。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "決済リクエストが発生すると、Vulcanが分析し、最適なルーティング・承認判断を行う流れです。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "実際の成果は?" },
+            { "speaker": "analyst", "text": "Vulcan導入後、決済成功率が8〜10%向上したとされています。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "アラート件数を増やさずに、不正・係争取引の検知件数が最大5倍に増加したとされています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "チェックアウトの体験も変わったの?" },
+            { "speaker": "analyst", "text": "希望するUPIアプリが表示されるショッパーが40%増加し、月間1〜2万件の追加購入完了につながっているとされています。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "3つの成果指標をまとめると、決済成功率8〜10%向上、不正検知最大5倍、UPIアプリ表示率40%増です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "実際に使っている企業は?" },
+            { "speaker": "analyst", "text": "クイックコマースのBlinkit、Bachatt、バス予約のredBus等が導入効果を確認しているとされています。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "開発から発表までの流れをまとめると、Razorpay・NVIDIA・AWSの共同開発、大規模データでの学習を経て、8月18日に発表という3ステップです。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "モデルの詳しい仕組みはわかるの?" },
+            { "speaker": "analyst", "text": "そこは正直にお伝えします。具体的なモデル規模やパラメータ数は、本調査の範囲では確認できていません。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "対象はインドだけ?" },
+            { "speaker": "analyst", "text": "そこも正直にお伝えします。対象国・対象決済手段の詳細な範囲は、本調査の範囲では確認できていません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "analyst", "text": "学習規模を示す数字と、導入後の成果を示す数字は別の観点であり、混同しないようにご注意ください。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "その成果指標、第三者機関がチェックしたの?" },
+            { "speaker": "analyst", "text": "そこも正直にお伝えします。決済成功率や不正検知の数字はRazorpay側の発表に基づくもので、独立した第三者機関による検証結果であるかは確認できていません。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "見出しだけを見ると決済の問題がすべて解決したように感じがちですが、実際に確認できているのはRazorpay側発表による成果指標のみです。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "host", "text": "他社の似たようなモデルと比べてどうなの?" },
+            { "speaker": "analyst", "text": "そこも正直にお伝えします。競合他社との性能比較は、本調査の範囲では確認できていません。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "このニュース、視聴者はどう受け止めればいい?" },
+            { "speaker": "analyst", "text": "AI業界の動向を追う立場、決済・EC事業を検討する立場、インド市場に関心がある立場、それぞれで意識したい視点をまとめました。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "成果指標はRazorpay側発表による数字であり、独立検証の有無を確認したうえで判断することが望ましいです。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "開発体制をまとめると?" },
+            { "speaker": "analyst", "text": "Razorpay・NVIDIA・AWSの3社共同開発とされていますが、NVIDIA・AWSそれぞれの具体的な役割の詳細は非公表です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "結局、確認できたことと確認できていないことをまとめると?" },
+            { "speaker": "analyst", "text": "発表日・開発体制・成果指標の数字は複数媒体で確認済みです。一方、モデルの詳細な構造、対象範囲、第三者検証状況は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "発表は着手日の前日にあたる2026年8月18日でした。当社の鮮度基準を満たしています。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "IANS・IBTimes India・Inc42という複数の独立した媒体が、発表内容・成果指標を一致させて報じています。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "今日はRazorpayの決済特化AIモデル『Vulcan』の中身まで見てきたね。" },
+            { "speaker": "analyst", "text": "数字は出典どおりに扱い、確認できなかったことは正直にお伝えしました。詳しい出典はresearch.mdでご確認ください。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

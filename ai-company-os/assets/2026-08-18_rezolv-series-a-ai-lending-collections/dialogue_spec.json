@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "title": "インドのAI与信管理スタートアップRezolv、シリーズAで1250万ドルを調達",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "StartupTalky(2026-08-18)",
+      "DealStreetAsia(2026-08-18)",
+      "TNGlobal(2026-08-18)",
+      "Dealroom(2026-08-18)",
+      "Inc42(2026-08-18)",
+      "YourStory(2026-08-18)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "回収率が35%も改善するって、まさかの数字だよね?", "source": "Inc42(2026-08-18)" },
+            { "speaker": "analyst", "text": "インドのAI与信管理プラットフォームRezolvが、2026年8月18日、シリーズAで1250万ドルを調達したと発表しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、Norwest主導のシリーズAラウンドで1250万ドルを調達しています。" },
+            { "speaker": "host", "text": "与信管理っていう地味な領域だけど、実はすごく大事だよね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな流れで見ていくの?" },
+            { "speaker": "analyst", "text": "資金調達の数字からRezolvの規模、回収率改善の成果まで、6つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "host", "text": "なんで今このテーマを扱うの?" },
+            { "speaker": "analyst", "text": "発表翌日という新しさに加え、回収・解決率35%改善という分かりやすい成果指標、22社超と契約済みという実際の導入規模があるからです。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "Rezolvって、そもそもどんな会社?" },
+            { "speaker": "analyst", "text": "2024年創業のインドのAIネイティブ与信管理プラットフォームです。ムンバイ拠点で、創業者2名はフィンテック企業Kisshtの元創業者です。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "『与信管理』とか『ノンバンク』って何?" },
+            { "speaker": "analyst", "text": "与信管理は融資の審査・回収業務を効率化する技術分野、ノンバンクは銀行免許を持たずに融資業務を行う金融会社です。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "今回の調達額は1250万ドルです。Norwest主導のシリーズAラウンドでした。" },
+            { "speaker": "host", "text": "その内訳、もう少し詳しく知りたいな。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "analyst", "text": "発表日は2026年8月18日、調達額1250万ドル。主導投資家はNorwest、既存投資家のVertex Ventures・3one4 Capitalも参加しました。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "host", "text": "参加した投資家をまとめると?" },
+            { "speaker": "analyst", "text": "Norwestが主導し、既存投資家のVertex Ventures Southeast Asia and India、3one4 Capitalも参加しています。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "analyst", "text": "今回のシリーズAを経て、Rezolvの評価額は5,120万ドルとなりました。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "host", "text": "実際にどんなサービスなの?" },
+            { "speaker": "analyst", "text": "銀行・ノンバンクを対象に、債権回収プラットフォームと専用AIを組み合わせたサービスを提供しています。独自ツール『Strategy Builder』で回収戦略を最適化します。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "規模はどれくらいなの?" },
+            { "speaker": "analyst", "text": "月間650万分の借り手との会話を処理できる規模とされています。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "1,200万件超のローン口座を処理できる規模とされています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "AU Small Finance Bank・ICICI Bank等、22社超の銀行・金融会社と契約済みとされています。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "host", "text": "規模指標をまとめると?" },
+            { "speaker": "analyst", "text": "月間650万分の会話処理、1,200万件超のローン口座、22社超の契約金融機関という規模です。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "host", "text": "肝心の成果は?" },
+            { "speaker": "analyst", "text": "独自ツール『Strategy Builder』により、回収・解決率が35%改善したとされています。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "契約金融機関の例として、AU Small Finance Bank・ICICI Bank・Poonawalla Fincorp・Bajaj Auto Creditが挙げられています。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "host", "text": "創業からここまでの流れをまとめると?" },
+            { "speaker": "analyst", "text": "2024年の創業から、22社超との契約を経て、2026年8月18日にシリーズAで1250万ドルを調達という3ステップです。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "AIの技術的な仕組みは分かるの?" },
+            { "speaker": "analyst", "text": "そこは正直にお伝えします。専用AI・Strategy Builderという機能名は報じられていますが、技術的な仕組みの詳細は確認できていません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "海外にも展開するの?" },
+            { "speaker": "analyst", "text": "そこも正直にお伝えします。インド国外への展開計画は、本調査の範囲では確認できていません。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "調達額1250万ドルと調達後評価額5,120万ドルは別の数字であり、混同しないようにご注意ください。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "その35%改善、第三者がチェックしたの?" },
+            { "speaker": "analyst", "text": "そこも正直にお伝えします。回収・解決率35%改善という数字はRezolv側の発表に基づくもので、独立した第三者機関による検証結果であるかは確認できていません。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "見出しだけを見ると与信管理の課題がすべて解決したように感じがちですが、実際に確認できているのは今回の調達額・評価額・契約実績のみです。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "他社の似たようなサービスと比べてどうなの?" },
+            { "speaker": "analyst", "text": "そこも正直にお伝えします。競合他社との性能比較は、本調査の範囲では確認できていません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "このニュース、視聴者はどう受け止めればいい?" },
+            { "speaker": "analyst", "text": "AI業界の動向を追う立場、金融・レンディング事業を検討する立場、インド市場に関心がある立場、それぞれで意識したい視点をまとめました。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "調達額・評価額は製品の性能そのものを直接示すものではなく、回収率改善の数字は第三者検証の有無を確認したうえで判断することが望ましいです。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "結局、確認できたことと確認できていないことをまとめると?" },
+            { "speaker": "analyst", "text": "調達額・投資家・事業規模は複数媒体で確認済みです。一方、AI技術の詳細、国外展開計画、回収率改善の第三者検証は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "発表は着手日の前日にあたる2026年8月18日でした。当社の鮮度基準を満たしています。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "StartupTalky・DealStreetAsia・Inc42という複数の独立した媒体が、調達額・事業規模の数値を一致させて報じています。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "今日はRezolvのシリーズA調達、回収率35%改善という成果まで見てきたね。" },
+            { "speaker": "analyst", "text": "数字は出典どおりに扱い、確認できなかったことは正直にお伝えしました。詳しい出典はresearch.mdでご確認ください。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
