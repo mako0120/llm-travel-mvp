@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "title": "Home Depot 2026年Q2決算——好決算の裏でAIアシスタントが全店拡大",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "CNBC(2026-08-18)",
+      "StockTitan(2026-08-18)",
+      "TradingKey(2026-08-18)",
+      "BigGo Finance(2026-08-18)",
+      "Inc.com・HBS Dealer(2026-08-18)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {"slide": 1, "lines": [
+          {"speaker": "host", "text": "好決算のニュースなのに、AIの話も出てくるの?"},
+          {"speaker": "analyst", "text": "Home Depotが2026年8月18日に発表したQ2決算です。売上478.6億ドルの好決算と同時に、AIアシスタント『Magic Apron』が全店スタッフに展開されたことが分かりました。", "source": "CNBC(2026-08-18)"}
+        ]},
+        {"slide": 2, "lines": [
+          {"speaker": "analyst", "text": "結論から言うと、売上は前年比5.7%増の478.6億ドル、市場予想を上回りました。"},
+          {"speaker": "host", "text": "同時にMagic Apronの話も大きなポイントなんだね。"}
+        ]},
+        {"slide": 3, "lines": [
+          {"speaker": "host", "text": "今日はどんな流れ?"},
+          {"speaker": "analyst", "text": "決算の主要指標から、好決算の内実、Magic Apronの全店拡大まで、6つの流れで整理します。"}
+        ]},
+        {"slide": 4, "lines": [
+          {"speaker": "host", "text": "なんで今このテーマを?"},
+          {"speaker": "analyst", "text": "好決算の見出しの裏に、AIアシスタントの全店展開という具体的な動きがあるからです。"}
+        ]},
+        {"slide": 5, "lines": [
+          {"speaker": "host", "text": "Home Depotってどんな会社?"},
+          {"speaker": "analyst", "text": "米国最大手のホームセンターチェーンで、一般消費者向けとプロ向けの両方に商品・サービスを提供しています。"}
+        ]},
+        {"slide": 6, "lines": [
+          {"speaker": "analyst", "text": "主要指標です。売上478.6億ドル、既存店売上高+1.7%、調整後EPSは4.92ドルで+5.1%。", "source": "CNBC・StockTitan(2026-08-18)"},
+          {"speaker": "host", "text": "全体的にかなり好調そうだね。"}
+        ]},
+        {"slide": 7, "lines": [
+          {"speaker": "host", "text": "既存店売上高1.7%増の中身は?"},
+          {"speaker": "analyst", "text": "客単価は92.50ドルで+2.8%上昇した一方、客数は▲1.0%と減少しています。"}
+        ]},
+        {"slide": 8, "lines": [
+          {"speaker": "analyst", "text": "オンライン売上高は前年比11%増で、5四半期連続の2桁成長です。"},
+          {"speaker": "host", "text": "実店舗より伸びてるんだ。"}
+        ]}
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {"slide": 9, "lines": [
+          {"speaker": "host", "text": "プロ向け事業はどう?"},
+          {"speaker": "analyst", "text": "DIY事業を上回る好調さです。買収したSRS DistributionとGMSが成長を牽引しています。"}
+        ]},
+        {"slide": 10, "lines": [
+          {"speaker": "analyst", "text": "SRSは全事業分野でプラス成長、年間40〜50店舗の新規出店も計画しています。"},
+          {"speaker": "host", "text": "積極的に拡大してるんだね。"}
+        ]},
+        {"slide": 11, "lines": [
+          {"speaker": "host", "text": "関税還付って何?"},
+          {"speaker": "analyst", "text": "Q2に7.3億ドルの関税還付を受け、うち6.85億ドルを売上原価の引き下げに充当しました。"}
+        ]},
+        {"slide": 12, "lines": [
+          {"speaker": "analyst", "text": "関税還付の規模は7.3億ドルです。"},
+          {"speaker": "host", "text": "結構大きい金額だね。"}
+        ]},
+        {"slide": 13, "lines": [
+          {"speaker": "host", "text": "この還付、今後も続くの?"},
+          {"speaker": "analyst", "text": "CFOは年内に燃料・エネルギー等のコスト増で相殺される見通しだと説明しています。一時的な要因です。"}
+        ]},
+        {"slide": 14, "lines": [
+          {"speaker": "host", "text": "Magic Apronって何?"},
+          {"speaker": "analyst", "text": "来店客や店舗スタッフが商品情報を尋ねられるAIアシスタントです。これまで顧客向けに展開していました。", "source": "HBS Dealer(2026-08-18)"}
+        ]},
+        {"slide": 15, "lines": [
+          {"speaker": "analyst", "text": "今回、全米2,300店舗以上の店舗スタッフ向けにも展開されました。"},
+          {"speaker": "host", "text": "顧客だけじゃなく従業員も使えるようになったんだ。"}
+        ]},
+        {"slide": 16, "lines": [
+          {"speaker": "host", "text": "展開の流れを整理すると?"},
+          {"speaker": "analyst", "text": "顧客向けから始まり、店舗スタッフへ拡大、今後はPro向けB2Bサイトへの拡張も計画されています。"}
+        ]},
+        {"slide": 17, "lines": [
+          {"speaker": "analyst", "text": "ここまでを3ステップでまとめると、売上478.6億ドル、既存店+1.7%、そしてMagic Apron全店拡大です。"},
+          {"speaker": "host", "text": "決算とAI展開、両方おさえておきたいね。"}
+        ]}
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {"slide": 18, "lines": [
+          {"speaker": "host", "text": "Magic Apron、実際どのくらい使われてるの?"},
+          {"speaker": "analyst", "text": "質問件数は月間数百万件に達していると報告されています。ただし正式な集計方法までは確認できていません。"}
+        ]},
+        {"slide": 19, "lines": [
+          {"speaker": "analyst", "text": "月間数百万件という規模の質問が寄せられているとのことです。"},
+          {"speaker": "host", "text": "かなり活発に使われてるんだね。"}
+        ]},
+        {"slide": 20, "lines": [
+          {"speaker": "host", "text": "今後の機能拡張は?"},
+          {"speaker": "analyst", "text": "店舗ごとの在庫状況を反映したローカライズ版や、Pro向けB2Bサイトへの拡張が計画されています。"}
+        ]},
+        {"slide": 21, "lines": [
+          {"speaker": "host", "text": "客単価と客数、改めて対比すると?"},
+          {"speaker": "analyst", "text": "客単価は+2.8%で上昇、客数は▲1.0%で減少。客単価上昇が客数減少を相殺している構図です。"}
+        ]},
+        {"slide": 22, "lines": [
+          {"speaker": "analyst", "text": "通期ガイダンスは、調整後EPS成長率が横ばい〜+4.0%、売上高成長率は+2.5%〜+4.5%です。"},
+          {"speaker": "host", "text": "堅実な見通しって感じだね。"}
+        ]},
+        {"slide": 23, "lines": [
+          {"speaker": "host", "text": "ガイダンスは引き上げられたの?"},
+          {"speaker": "analyst", "text": "いいえ、維持(reaffirm)です。CFOは住宅市場が依然として『凍結状態』にあると慎重な見方を示しています。"}
+        ]},
+        {"slide": 24, "lines": [
+          {"speaker": "host", "text": "確認できなかったこともある?"},
+          {"speaker": "analyst", "text": "質問件数の正式な集計方法や、SRS・GMSの具体的な売上寄与度は確認できていません。正直にお伝えします。"}
+        ]}
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {"slide": 25, "lines": [
+          {"speaker": "analyst", "text": "調整後EPSは4.92ドルで前年比+5.1%でした。"},
+          {"speaker": "host", "text": "利益もしっかり伸びてるんだね。"}
+        ]},
+        {"slide": 26, "lines": [
+          {"speaker": "host", "text": "『好決算』の見出しと内実、改めてどう違う?"},
+          {"speaker": "analyst", "text": "客数は減少し、利益の一部は一時的な関税還付による押し上げです。CFOの慎重な見方も含めて正直にお伝えします。"}
+        ]},
+        {"slide": 27, "lines": [
+          {"speaker": "analyst", "text": "Magic Apron拡大の要点を一覧にしました。顧客向けから店舗スタッフ、そして今後はPro向けへと広がっています。"},
+          {"speaker": "host", "text": "着実に展開範囲が広がってるんだね。"}
+        ]},
+        {"slide": 28, "lines": [
+          {"speaker": "host", "text": "この決算、読者にとってはどんな意味がある?"},
+          {"speaker": "analyst", "text": "小売・DX動向、決算分析、投資検討、それぞれの立場で押さえておきたい視点をまとめました。"}
+        ]},
+        {"slide": 29, "lines": [
+          {"speaker": "analyst", "text": "まとめると、好決算の裏には客数減少や一時的な関税還付があり、同時にAIアシスタントが全店へ拡大したという構図です。"},
+          {"speaker": "host", "text": "数字の裏側までちゃんと見ることが大事だね。"}
+        ]},
+        {"slide": 30, "lines": [
+          {"speaker": "analyst", "text": "数字は出典どおりに、確認できなかったことは正直に。今回もそうお届けしました。"},
+          {"speaker": "host", "text": "次回もまた出典付きで待ってるね!"}
+        ]}
+      ]
+    }
+  ]
+}
