@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "Rivianスピンオフ「Also」、$150M追加調達",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-08-19)",
+      "Fortune(2026-08-19)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "電動自転車の会社が自律走行を狙ってるって?"},
+        {"speaker": "analyst", "text": "はい、Rivianスピンオフの Alsoです。2026年8月19日、$1億5,000万を追加調達しました。", "source": "TechCrunch(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、累計調達額は$4億5,500万に達しました。"},
+        {"speaker": "host", "text": "電動自転車から大きく広がったんだね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "今回の調達内容から、これまでの成長経緯、自律走行への展開まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "高い鮮度に加え、電動自転車の会社が自律走行を狙うという意外性のある展開に注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "Alsoってどんな会社?"},
+        {"speaker": "analyst", "text": "2022年にRivian社内で始まり、2025年にスピンオフした企業です。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "今回の調達は$1億5,000万、Prysm Capital主導です。", "source": "TechCrunch(2026-08-19)"},
+        {"speaker": "host", "text": "累計だとどのくらいになるの?"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "資金の使い道は?"},
+        {"speaker": "analyst", "text": "自律走行技術の開発加速に充てられます。貨物・旅客両方が対象です。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "累計調達額は$4億5,500万です。"},
+        {"speaker": "host", "text": "着実に規模を拡大しているんだね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "これまでの調達の推移は?"},
+        {"speaker": "analyst", "text": "2025年3月のスピンオフから、3月のシリーズC、そして今回のシリーズDと続いています。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "3月のシリーズCと今回を対比しました。"},
+        {"speaker": "host", "text": "DoorDash提携から約5か月での追加調達なんだね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "DoorDashとの提携はどんな内容?"},
+        {"speaker": "analyst", "text": "複数年にわたる自律走行配送の開発・展開契約です。DoorDash自身も出資しています。"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "今の主力製品は?"},
+        {"speaker": "analyst", "text": "電動自転車『TM-B』と、四輪の電動カーゴ車『TM-Q』です。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "3月時点の企業評価額は$10億でした。"},
+        {"speaker": "host", "text": "今回の後は更新されているかもしれないね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "電動自転車の値段、報道でバラバラって聞いたけど?"},
+        {"speaker": "analyst", "text": "はい、TechCrunchは4,500ドル、Fortuneは3,500ドルと報じており、原因は特定できていません。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "スカンクワークスから今回の調達までの流れを図にしました。"},
+        {"speaker": "host", "text": "約4年でここまで来たんだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "今回の発表を3つでまとめると?"},
+        {"speaker": "analyst", "text": "追加調達、累計調達額の到達、そして自律走行技術の開発加速です。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "業界内での位置づけは?"},
+        {"speaker": "analyst", "text": "電動マイクロモビリティから自律走行への転換の一例ですが、他社比較は行っていません。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "analyst", "text": "現在の製品と将来の展望を対比しました。"},
+        {"speaker": "host", "text": "既存製品を土台に自律走行を目指しているんだね。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "今回の発表を表でまとめると?"},
+        {"speaker": "analyst", "text": "調達額、累計調達額、用途、背景の4点です。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "host", "text": "今後注目される点は?"},
+        {"speaker": "analyst", "text": "最新評価額や自律走行の実用化時期ですが、いずれも未確認です。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "analyst", "text": "スカンクワークス時代のチーム規模は約70名でした。"},
+        {"speaker": "host", "text": "複数の著名企業出身者が集まっていたんだね。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "主な投資家は?"},
+        {"speaker": "analyst", "text": "Prysm Capital・Eclipse・Greenoaks・MVP Venturesです。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "analyst", "text": "創業から約4年が経過しています。"},
+        {"speaker": "host", "text": "短期間で急成長しているんだね。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "調達ラウンドは何回あったの?"},
+        {"speaker": "analyst", "text": "2025年3月・2026年3月・2026年8月の3回です。"}
+      ]},
+      {"slide": 25, "lines": [
+        {"speaker": "host", "text": "Rivianとの今の関係は?"},
+        {"speaker": "analyst", "text": "独立企業ですが、Rivianが少数株主として関わっています。出資比率の詳細は未確認です。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できていないことは?"},
+        {"speaker": "analyst", "text": "価格差異の原因、最新評価額、実用化時期は確認できていません。正直にお伝えします。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "確認できている事実と今後の不確定要素を明確に区別しました。"},
+        {"speaker": "host", "text": "確定した話とこれからの話、ごっちゃにしないんだね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "このニュース、誰にとって参考になるの?"},
+        {"speaker": "analyst", "text": "モビリティ技術を追う人、投資に関心がある人、配送・物流業界に携わる人、それぞれに視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、電動自転車の会社が自律走行を狙うという展開が今回の要点です。"},
+        {"speaker": "host", "text": "確認できていない点も正直に伝えてくれたね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "host", "text": "電動自転車から自律走行へ、面白い展開だったね。"},
+        {"speaker": "analyst", "text": "数字は出典どおりに扱い、確認できないことは正直にお伝えしました。次回もまた出典付きでお届けします。"}
+      ]}
+    ]}
+  ]
+}

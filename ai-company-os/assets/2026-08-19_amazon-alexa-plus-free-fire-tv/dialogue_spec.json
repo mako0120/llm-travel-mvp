@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Amazon「Alexa+」、Fire TVで無料化",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-08-19)",
+      "Engadget(2026-08-19)",
+      "aboutamazon.com(2026-08-19)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "Alexa+が突然無料になったって?"},
+        {"speaker": "analyst", "text": "はい。2026年8月19日、AmazonがFire TV向けに無料展開を始めました。", "source": "TechCrunch(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、Prime加入の有無を問わず完全無料化されました。"},
+        {"speaker": "host", "text": "月額19.99ドルがゼロになったんだね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "無料化の内容から、対応デバイス、無料化されない部分まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "高い鮮度に加え、月額料金が突然ゼロになるという身近な変化に注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "Alexa+ってどんな機能?"},
+        {"speaker": "analyst", "text": "AI搭載の音声アシスタントで、会話形式でのやり取りが特徴です。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "従来はPrime非加入者に月額19.99ドルが必要でした。", "source": "TechCrunch(2026-08-19)"},
+        {"speaker": "host", "text": "それが今回なくなったんだね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "アップグレードの手続きは面倒?"},
+        {"speaker": "analyst", "text": "いいえ、自動で行われます。アプリのダウンロードも契約も不要です。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "従来の月額料金は19.99ドルでした。"},
+        {"speaker": "host", "text": "かなりの節約になるね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "対応デバイスは?"},
+        {"speaker": "analyst", "text": "Fire TV Stick・Fire TV Cube・Amazon Ember、一部のHisense・Panasonic製テレビです。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "これまでと今回を対比しました。"},
+        {"speaker": "host", "text": "有料オプションから誰でも使える機能へ変わったんだね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "主な機能は?"},
+        {"speaker": "analyst", "text": "会話形式の検索、スマートホーム操作、AIによるおすすめ提案です。", "source": "aboutamazon.com(2026-08-19)"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "会話形式の検索って具体的にどんな感じ?"},
+        {"speaker": "analyst", "text": "『スリラー映画』とリクエストした後、『もっと新しいもの』と絞り込めます。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "対応テレビメーカーはAmazon Ember・Hisense・Panasonicです。"},
+        {"speaker": "host", "text": "複数メーカーが対応しているんだね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "無料化されない部分もあるの?"},
+        {"speaker": "analyst", "text": "はい、Echoデバイスでの利用やAlexaルーティンは引き続き有料です。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "有料展開から今回の無料化までの流れを図にしました。"},
+        {"speaker": "host", "text": "競争が激化する中での決断だったんだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "今回の発表を3つでまとめると?"},
+        {"speaker": "analyst", "text": "Fire TVでの完全無料化、自動アップグレード、そして一部機能は引き続き有料です。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "業界内での位置づけは?"},
+        {"speaker": "analyst", "text": "AI音声アシスタント競争が激化する中での無料化ですが、収益への影響は確認していません。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "analyst", "text": "Fire TVとEchoデバイスを対比しました。"},
+        {"speaker": "host", "text": "今回の無料化はFire TV限定なんだね。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "今回の発表を表でまとめると?"},
+        {"speaker": "analyst", "text": "無料化の対象、従来料金、主な機能、対応外の範囲の4点です。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "host", "text": "今後注目される点は?"},
+        {"speaker": "analyst", "text": "海外展開の時期や収益への影響ですが、いずれも現時点では未確認です。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "analyst", "text": "対応テレビには複数メーカーの製品があります。"},
+        {"speaker": "host", "text": "Amazon純正だけじゃないんだね。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "情報源はどこから?"},
+        {"speaker": "analyst", "text": "TechCrunch・Engadget・Amazon公式など、複数の独立した情報源が報じています。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "analyst", "text": "今回の無料化は米国内の対応デバイスに限定されています。"},
+        {"speaker": "host", "text": "海外はまだこれからなんだね。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "有料プランの名前は?"},
+        {"speaker": "analyst", "text": "Alexa+ Standardプランです。Echoデバイス等での利用に必要です。"}
+      ]},
+      {"slide": 25, "lines": [
+        {"speaker": "host", "text": "スマートホーム操作は詳しくどうなってるの?"},
+        {"speaker": "analyst", "text": "対応機器を音声で操作できますが、詳しい対応機器一覧までは確認できていません。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できていないことは?"},
+        {"speaker": "analyst", "text": "収益への影響、AIモデルの詳細、海外展開時期は確認できていません。正直にお伝えします。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "確認できている事実と今後の不確定要素を明確に区別しました。"},
+        {"speaker": "host", "text": "確定した話とこれからの話、ごっちゃにしないんだね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "このニュース、誰にとって参考になるの?"},
+        {"speaker": "analyst", "text": "Fire TV利用者、AI音声アシスタントを追う人、企業戦略を読み解く人、それぞれに視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、Fire TVでのAlexa+無料化が今回の要点です。"},
+        {"speaker": "host", "text": "確認できていない点も正直に伝えてくれたね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "host", "text": "月額料金がゼロになる時代、面白い話だったね。"},
+        {"speaker": "analyst", "text": "数字は出典どおりに扱い、確認できないことは正直にお伝えしました。次回もまた出典付きでお届けします。"}
+      ]}
+    ]}
+  ]
+}
