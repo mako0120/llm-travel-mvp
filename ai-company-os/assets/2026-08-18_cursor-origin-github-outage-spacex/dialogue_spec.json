@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "SpaceX傘下Cursorが「Origin」始動、まさかGitHub大規模障害と同日",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "VentureBeat(2026-08-18)",
+      "SiliconANGLE(2026-08-18)",
+      "DevOps.com(2026-08-18)",
+      "IT Pro(2026-08-18)",
+      "CNBC(2026年)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "GitHubが落ちた日に、Cursorが対抗サービス始めたって本当?"},
+        {"speaker": "analyst", "text": "2026年8月18日、SpaceX傘下のCursorがOriginを早期ベータ展開しました。同じ日、GitHubで約8時間の障害が発生しています。", "source": "VentureBeat(2026-08-18)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、Origin始動とGitHub障害が同日発生。エラー率は一部で約50%に達しました。"},
+        {"speaker": "host", "text": "タイミングがすごいね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "Originの内容から、GitHub障害の詳細、SpaceXによる買収の背景まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "対抗サービス始動と大規模障害が同日という劇的な巡り合わせと、SpaceXによる600億ドル買収という背景に注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "Cursorってどんな会社?"},
+        {"speaker": "analyst", "text": "AI支援コーディングエディタで、開発元はAnysphere。2026年8月14日にSpaceXが600億ドルで買収完了しています。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "Originの内容です。全有料プラン向けの早期ベータで、リポジトリ管理やPRレビューができます。", "source": "VentureBeat・SiliconANGLE(2026-08-18)"},
+        {"speaker": "host", "text": "GitHubと同期もできるんだね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "Originの狙いは?"},
+        {"speaker": "analyst", "text": "『エージェントスケール』向けで、AIエージェントがエディタを離れずに作業を完結できることを目指しています。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "展開範囲は全有料プラン向けです。"},
+        {"speaker": "host", "text": "最初から広く使えるんだね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "GitHubの障害、詳しく教えて。"},
+        {"speaker": "analyst", "text": "米国東部時間午前9時40分頃から午後5時15分頃まで、約8時間断続的に発生しました。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "継続時間は約8時間で、多くのサービスに影響しました。"},
+        {"speaker": "host", "text": "開発者はかなり困っただろうね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "影響範囲は?"},
+        {"speaker": "analyst", "text": "API・リポジトリダウンロード・GitHub Actions・Webhooks・Pages・Copilotと幅広いです。"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "原因は分かってるの?"},
+        {"speaker": "analyst", "text": "公式には開示されていませんが、AIコーディングツールの利用急増による負荷増大が背景として指摘されています。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "host", "text": "ここまでの流れを整理すると?"},
+        {"speaker": "analyst", "text": "8月14日の買収完了から、8月18日のOrigin展開、そして同じ日のGitHub障害という流れです。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "analyst", "text": "3ステップでまとめると、Origin展開、GitHub障害、そして偶然の同日発生です。"},
+        {"speaker": "host", "text": "本当に偶然なのかな?"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "host", "text": "それ、狙い撃ちだったんじゃないの?"},
+        {"speaker": "analyst", "text": "複数の報道が結び付けて報じていますが、意図的だったかは確認できていません。正直にお伝えします。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "analyst", "text": "SpaceXによる買収額は600億ドルです。"},
+        {"speaker": "host", "text": "評価額がほぼ倍になったんだね。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "買収の経緯を教えて。"},
+        {"speaker": "analyst", "text": "6月16日に発表、8月14日に完了、その4日後にOriginが展開されました。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "host", "text": "この買収、どのくらい大きな話なの?"},
+        {"speaker": "analyst", "text": "AIソフトウェア企業への史上最大級の買収額の一つで、売上高の約15倍という高い倍率です。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "買収前と買収後、何が変わったの?"},
+        {"speaker": "analyst", "text": "評価額がほぼ倍増し、Originという新規事業展開も可能になりました。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "analyst", "text": "GitHubは前日にも別の障害修正を発表しており、一連の信頼性問題の一つと位置づけられています。"},
+        {"speaker": "host", "text": "最近ずっと不安定なんだね。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "host", "text": "データの扱いはどうなってるの?"},
+        {"speaker": "analyst", "text": "一部報道でOrigin利用時のデータ取り扱い条件が明示されていないとの指摘がありますが、正確な契約条件は確認できていません。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "analyst", "text": "GitHubとOriginを比較すると、GitHubは業界標準ですが今回障害を起こし、Originはそれと同期しながら使える新規サービスです。"},
+        {"speaker": "host", "text": "共存する形なんだね。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "host", "text": "業界全体としてはどう見ればいい?"},
+        {"speaker": "analyst", "text": "AIコーディングエージェントの普及で、コードホスティング基盤への負荷が増している構図が見えてきました。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "Originって今すぐ全部使えるの?"},
+        {"speaker": "analyst", "text": "基本機能は使えますが、エージェント向けの追加機能は『近日提供』で、時期は明示されていません。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 25, "lines": [
+        {"speaker": "analyst", "text": "買収完了からOrigin展開まで、わずか4日でした。"},
+        {"speaker": "host", "text": "かなりスピーディーだね。"}
+      ]},
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できなかったこともある?"},
+        {"speaker": "analyst", "text": "同日発生が狙い撃ちかどうか、障害の根本原因、データ取り扱いの契約条件は確認できていません。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "今回の出来事の要点をまとめました。Origin展開、GitHub障害、SpaceX買収、そして同日発生の評価です。"},
+        {"speaker": "host", "text": "整理するとよく分かるね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "この話、読者にとってはどんな意味がある?"},
+        {"speaker": "analyst", "text": "AIコーディングツールを追う立場、開発者の立場、M&A動向に関心がある立場、それぞれの視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、SpaceX傘下CursorのOrigin展開とGitHub障害が同日に重なった出来事でした。"},
+        {"speaker": "host", "text": "偶然か必然か、今後の動きも気になるね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "analyst", "text": "数字は出典どおりに、確認できなかったことは正直に。今回もそうお届けしました。"},
+        {"speaker": "host", "text": "次回もまた出典付きで待ってるね!"}
+      ]}
+    ]}
+  ]
+}

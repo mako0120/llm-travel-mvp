@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Weibo 2026年Q2決算——「増収」の見出しの裏で為替除くと4%減収",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "PR Newswire(2026-08-19)",
+      "24/7 Wall St.(2026-08-19)",
+      "StockTitan(2026-08-19)",
+      "Seeking Alpha(2026-08-19)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "Weiboが決算予想を上回ったって聞いたけど?"},
+        {"speaker": "analyst", "text": "2026年8月19日発表のQ2決算です。名目では増収でしたが、為替を除くと実は4%減収なんです。", "source": "PR Newswire(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、名目+2%増収の裏で、定額為替ベースでは4%減収です。"},
+        {"speaker": "host", "text": "見出しだけ見ると分からないね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "主要指標から、見出しと実態の食い違い、AI活用の状況まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "着手日当日の発表という高い鮮度と、増収の見出しと実態の食い違いに注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "Weiboってどんな会社?"},
+        {"speaker": "analyst", "text": "中国発のSNSプラットフォームで、米国NASDAQに上場しています。広告収入とVAS収入が収益の柱です。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "主要指標です。総売上高4億5,380万ドル、調整後EPS0.38ドルで予想超え。", "source": "PR Newswire(2026-08-19)"},
+        {"speaker": "host", "text": "数字だけ見ると好調そうだね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "名目増収の中身は?"},
+        {"speaker": "analyst", "text": "主に人民元高による為替換算効果です。定額為替ベースでは実質4%減少しています。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "定額為替ベースでは実質マイナス4%です。"},
+        {"speaker": "host", "text": "為替の影響、大きいんだね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "会社側はどう説明してるの?"},
+        {"speaker": "analyst", "text": "CEOは『堅調な四半期だった』とコメントしていますが、独立分析は実態の減収を指摘しています。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "公式の見せ方と独立分析の指摘を対比しました。金額自体に食い違いはありません。"},
+        {"speaker": "host", "text": "為替の扱い方次第で印象が変わるんだね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "セグメント別だとどうなの?"},
+        {"speaker": "analyst", "text": "広告収入は1%減、VAS収入は19%増です。"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "VAS収入が伸びてるんだね。"},
+        {"speaker": "analyst", "text": "6,140万ドルから7,290万ドルへ増加していますが、具体的な内訳までは確認できていません。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "VAS収入の伸び率は前年比19%です。"},
+        {"speaker": "host", "text": "広告の減少を下支えしてるんだね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "数字の見せ方の流れを整理すると?"},
+        {"speaker": "analyst", "text": "名目+2%から為替換算効果を除くと、実態は4%減という数字が浮かび上がります。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "3ステップでまとめると、名目+2%、実質▲4%、そして営業利益率の縮小です。"},
+        {"speaker": "host", "text": "1つの決算にいろんな側面があるんだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "AIはどう使われてるの?"},
+        {"speaker": "analyst", "text": "広告のターゲティング・入札・クリエイティブ生成に活用されていると経営陣が説明しています。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "analyst", "text": "AIによる大規模な収益化は、まだ試験段階だと経営陣自身が説明しています。"},
+        {"speaker": "host", "text": "誇張せず正直に伝えてるんだね。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "host", "text": "ユーザー数はどうなってるの?"},
+        {"speaker": "analyst", "text": "MAUは5億6,100万人、DAUは2億5,400万人で、前四半期からわずかに減少しています。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "analyst", "text": "ユーザー指標と財務指標をまとめました。現金保有額は26億4,000万ドルです。"},
+        {"speaker": "host", "text": "手元資金は厚みがあるんだね。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "host", "text": "営業利益率はどう変わったの?"},
+        {"speaker": "analyst", "text": "前年の33%から26%へ、7ポイント縮小しています。増収報道の陰に隠れがちな事実です。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "analyst", "text": "営業利益率は33%から26%への縮小です。"},
+        {"speaker": "host", "text": "利益率が下がってるのは気になるね。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "調整後EPSの予想超えと営業利益率の縮小、矛盾しないの?"},
+        {"speaker": "analyst", "text": "矛盾する事実ではなく両方とも成立します。片方だけを見て評価しないことが重要です。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "analyst", "text": "広告収入とVAS収入の明暗を対比しました。広告は減少、VASは伸びています。"},
+        {"speaker": "host", "text": "全体に占める割合も気にする必要があるね。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "analyst", "text": "現金保有額は26億4,000万ドルです。"},
+        {"speaker": "host", "text": "財務基盤はしっかりしてるんだね。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 25, "lines": [
+        {"speaker": "host", "text": "決算コールで他に何か言ってた?"},
+        {"speaker": "analyst", "text": "携帯電話・オンラインゲーム分野の広告需要の弱さに言及しつつ、レコメンドフィードへの投資継続を掲げています。"}
+      ]},
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できなかったこともある?"},
+        {"speaker": "analyst", "text": "VAS収入の内訳、営業利益率縮小の要因、AI活用の具体的な収益貢献額は確認できていません。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "今回の決算の要点をまとめました。名目増収、実質減収、予想超えのEPS、そして縮小した営業利益率です。"},
+        {"speaker": "host", "text": "1枚でよく分かるね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "この決算、読者にとってはどんな意味がある?"},
+        {"speaker": "analyst", "text": "決算分析に関心がある立場、中国テック企業を追う立場、投資検討中の立場、それぞれの視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、名目増収の裏に為替効果と営業利益率の縮小があるという構図でした。"},
+        {"speaker": "host", "text": "見出しだけで判断しないことが大事だね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "analyst", "text": "数字は出典どおりに、確認できなかったことは正直に。今回もそうお届けしました。"},
+        {"speaker": "host", "text": "次回もまた出典付きで待ってるね!"}
+      ]}
+    ]}
+  ]
+}
