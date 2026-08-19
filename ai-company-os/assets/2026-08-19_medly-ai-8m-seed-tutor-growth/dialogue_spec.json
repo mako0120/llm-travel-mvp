@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Medly AI、$8M調達——ユーザー数4倍増のAI家庭教師が急成長",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechFundingNews(2026-08-18/19)",
+      "TheNextWeb(2026-08-18/19)",
+      "UCL Enterprise"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "ロンドン発のAI家庭教師が急成長してるって?"},
+        {"speaker": "analyst", "text": "Medly AIですね。2026年8月18〜19日発表で、ユーザー数が口コミだけで4倍に増えたそうです。", "source": "TechFundingNews(2026-08-18/19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、ユーザー数は10万人から40万人超へ。今回$800万のシード資金も調達しました。"},
+        {"speaker": "host", "text": "広告なしでそんなに増えるものなんだ。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "資金調達の内容から、急成長の中身、創業者の背景まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "高い鮮度に加えて、口コミだけでユーザー4倍という分かりやすい急成長の数字に注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "Medly AIってどんな会社?"},
+        {"speaker": "analyst", "text": "GCSE・Aレベル・IB等の試験対策に特化したAI家庭教師です。元NHS医師2名が創業しました。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "今回の調達は$800万、Felix Capital主導です。既存投資家も継続参加しています。", "source": "TechFundingNews(2026-08-18/19)"},
+        {"speaker": "host", "text": "累計だとどのくらい?"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "エンジェル投資家も参加してるんだね。"},
+        {"speaker": "analyst", "text": "InvestEngineのCEOなど、複数の著名な個人投資家が参加しています。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "累計調達額は約$1,200万です。"},
+        {"speaker": "host", "text": "着実に規模を拡大しているんだね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "ユーザー数の急成長、具体的にはどんな数字?"},
+        {"speaker": "analyst", "text": "2025年初頭の10万人から、今回時点で40万人超です。主に口コミによる拡大とされています。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "2025年初頭と今回を対比しました。約1.5年で4倍です。"},
+        {"speaker": "host", "text": "広告費に頼らない成長モデルなんだね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "英国政府とも関わりがあるって?"},
+        {"speaker": "analyst", "text": "はい。AI家庭教師の政府プログラムで、53件の応募中選ばれた8社の一つになりました。", "source": "TechFundingNews(2026-08-18/19)"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "どんな目的のプログラムなの?"},
+        {"speaker": "analyst", "text": "恵まれない環境の生徒の学力向上が目的です。契約は2027年3月までです。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "53件の応募中、選ばれた8社の一つという狭き門でした。"},
+        {"speaker": "host", "text": "政府のお墨付きもあるんだ。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "創業者はどんな人たち?"},
+        {"speaker": "analyst", "text": "2人とも元NHS医師です。医療・神経科学の知見を教育に応用しているそうです。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "初回シードから今回の$8M調達までの流れを図にしました。"},
+        {"speaker": "host", "text": "着実にステップアップしているね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "今回の発表を3つでまとめると?"},
+        {"speaker": "analyst", "text": "ユーザー4倍増、政府プログラム採択、そして$8Mの追加調達です。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "技術面はどうなってるの?"},
+        {"speaker": "analyst", "text": "複数の専門特化型モデルを組み合わせた独自アーキテクチャと説明されていますが、詳細までは確認できていません。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "analyst", "text": "対象試験はGCSE・Aレベル・IB・SAT等、幅広くカバーしています。"},
+        {"speaker": "host", "text": "受験生の強い味方だね。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "業界内での位置づけは?"},
+        {"speaker": "analyst", "text": "AI教育テック投資が世界的に活発化する中での調達です。他社との具体的な比較は行っていません。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "analyst", "text": "初回シードと今回を対比しました。調達規模もユーザー数も大きく拡大しています。"},
+        {"speaker": "host", "text": "1年半でここまで来たんだ。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "host", "text": "今回の発表を表でまとめると?"},
+        {"speaker": "analyst", "text": "調達額、ユーザー数急成長、政府プログラム採択、創業者の4点です。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "英国のAI教育市場にとってはどんな意味があるの?"},
+        {"speaker": "analyst", "text": "政府が公的にAI家庭教師の実証に乗り出している事例として注目されます。海外展開の計画は確認できていません。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "analyst", "text": "設立から約1.5年でユーザー4倍・調達2回という成長です。"},
+        {"speaker": "host", "text": "かなりのスピード感だね。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "資金調達に関する確認できた数字は?"},
+        {"speaker": "analyst", "text": "今回の$800万と、累計約$1,200万です。具体的な使途の内訳は確認できていません。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 25, "lines": [
+        {"speaker": "analyst", "text": "この日はAI関連の資金調達・決算ニュースが相次いだ日程でした。"},
+        {"speaker": "host", "text": "他のニュースとは切り分けて考える必要があるんだね。"}
+      ]},
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できていないことは?"},
+        {"speaker": "analyst", "text": "評価額、ユーザー数の算出定義、海外展開計画は確認できていません。正直にお伝えします。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "Medly AIの特徴と一般的な傾向を対比しましたが、個別の他社比較検証は行っていません。"},
+        {"speaker": "host", "text": "あくまで報道ベースの整理なんだね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "このニュース、誰にとって参考になるの?"},
+        {"speaker": "analyst", "text": "AI教育の動向を追う人、投資に関心がある人、教育・子育てに関心がある人、それぞれに視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、口コミによる急成長と政府プログラムへの採択が今回の要点です。"},
+        {"speaker": "host", "text": "確認できていない点も正直に伝えてくれたね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "host", "text": "広告費ゼロでユーザーが4倍か、すごい話だったね。"},
+        {"speaker": "analyst", "text": "数字は出典どおりに扱い、確認できないことは正直にお伝えしました。次回もまた出典付きでお届けします。"}
+      ]}
+    ]}
+  ]
+}

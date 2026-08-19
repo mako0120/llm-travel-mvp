@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "鈴木彩艶、アストン・ヴィラへ電撃移籍——PSG破談から一転、日本人最高額タイ",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "サッカーキング(2026-08-19)",
+      "マイナビニュース(2026-08-19)",
+      "フットボールチャンネル"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "鈴木彩艶選手、PSG移籍が破談になったって聞いたけど?"},
+        {"speaker": "analyst", "text": "はい。でもそこから数日で、2026年8月19日にアストン・ヴィラへの電撃移籍が発表されました。", "source": "サッカーキング(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、移籍金は日本人サッカー選手史上最高額とタイの規模です。"},
+        {"speaker": "host", "text": "それはすごい記録だね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "今回の移籍の内容から、PSG破談の経緯、移籍金の記録比較まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "最高の鮮度に加え、PSG破談から数日での電撃移籍という予想外の展開に注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "鈴木彩艶選手ってどんな選手?"},
+        {"speaker": "analyst", "text": "23歳のGKで、パルマで2シーズン活躍し、日本代表の正GKも務めています。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "今回の移籍はパルマからアストン・ヴィラへの完全移籍です。", "source": "サッカーキング(2026-08-19)"},
+        {"speaker": "host", "text": "プレミアリーグへのステップアップだね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "アストン・ヴィラってどんなクラブ?"},
+        {"speaker": "analyst", "text": "2025-26シーズンのヨーロッパリーグ王者です。具体的な起用方針はまだ確認できていません。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "パルマでは2シーズンで公式戦通算59試合に出場しました。"},
+        {"speaker": "host", "text": "しっかり実績を積んでいたんだね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "PSG移籍が有力視されていたんだよね?"},
+        {"speaker": "analyst", "text": "はい。移籍金3,500万ユーロ、5年契約で合意していましたが、代理人手数料をめぐり破談しました。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "有力視されていたPSG移籍と、実現したアストン・ヴィラ移籍を対比しました。"},
+        {"speaker": "host", "text": "破談からわずか数日での電撃移籍、展開が早いね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "移籍金の内訳は?"},
+        {"speaker": "analyst", "text": "固定3,000万ユーロに、達成条項の追加最大500万ユーロを加え、最大3,500万ユーロです。", "source": "サッカーキング(2026-08-19)"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "報道によって数字が違うって聞いたけど?"},
+        {"speaker": "analyst", "text": "一部報道は約65億円としていますが、原因は特定できていません。数字はいずれも報道どおりに扱っています。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "ユーロ建てでは最大3,500万ユーロです。"},
+        {"speaker": "host", "text": "円換算の差はあっても、規模の大きさは変わらないね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "日本人選手の記録と比べるとどうなの?"},
+        {"speaker": "analyst", "text": "2019年の中島翔哉選手の3,500万ユーロと並ぶ、日本人史上最高額タイです。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "PSGとの合意から破談、電撃移籍までの流れを図にしました。"},
+        {"speaker": "host", "text": "まさかの展開だったんだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "今回の移籍劇を3つでまとめると?"},
+        {"speaker": "analyst", "text": "PSG破談、数日での電撃合意、そして日本人最高額タイという記録です。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "ユヴェントスも関心を示していたって?"},
+        {"speaker": "analyst", "text": "報じられていますが、具体的な交渉状況までは確認できていません。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "analyst", "text": "破談からわずか数日でアストン・ヴィラ移籍が決まりました。"},
+        {"speaker": "host", "text": "移籍市場のスピード感、すごいね。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "サッカー界での位置づけは?"},
+        {"speaker": "analyst", "text": "GKとしての高額移籍は日本人選手として珍しい部類です。他選手との詳細比較は行っていません。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "analyst", "text": "移籍金ランキング上位を対比しました。中島翔哉選手の記録と並んでいます。"},
+        {"speaker": "host", "text": "歴代タイ記録なんだね。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "host", "text": "今回の移籍劇を表でまとめると?"},
+        {"speaker": "analyst", "text": "移籍先、移籍金、破談からの経緯、発表日の4点です。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "今後注目される点は?"},
+        {"speaker": "analyst", "text": "背番号や起用方針はまだ確認できていません。日本代表への影響も断定はできません。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "analyst", "text": "2026年ワールドカップでは日本代表の正GKとして全4試合に出場しました。"},
+        {"speaker": "host", "text": "今夏の評価上昇の背景にもなっていそうだね。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "関連クラブをまとめると?"},
+        {"speaker": "analyst", "text": "移籍元パルマ、移籍先アストン・ヴィラ、そして破談となったPSGの3クラブです。"}
+      ]},
+      {"slide": 25, "lines": [
+        {"speaker": "analyst", "text": "パルマには2024年夏から2026年夏まで、2シーズン在籍しました。"},
+        {"speaker": "host", "text": "セリエA残留にも貢献した期間だったね。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できていないことは?"},
+        {"speaker": "analyst", "text": "移籍金の円換算差異、破談の詳細条件、起用方針は確認できていません。正直にお伝えします。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "確認できている事実と今後の不確定要素を明確に区別しました。"},
+        {"speaker": "host", "text": "確定した話とこれからの話、ごっちゃにしないんだね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "このニュース、誰にとって参考になるの?"},
+        {"speaker": "analyst", "text": "サッカーを追う人、移籍市場に関心がある人、日本人選手の活躍を追う人、それぞれに視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、PSG破談からの電撃移籍と、日本人最高額タイという記録が今回の要点です。"},
+        {"speaker": "host", "text": "確認できていない点も正直に伝えてくれたね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "host", "text": "破談から数日での記録タイ移籍、驚きの展開だったね。"},
+        {"speaker": "analyst", "text": "数字は出典どおりに扱い、確認できないことは正直にお伝えしました。次回もまた出典付きでお届けします。"}
+      ]}
+    ]}
+  ]
+}
