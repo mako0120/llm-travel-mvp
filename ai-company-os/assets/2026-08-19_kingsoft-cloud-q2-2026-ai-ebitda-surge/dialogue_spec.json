@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Kingsoft Cloud 2026年Q2決算——AI需要でEBITDAマージンが前年の3倍近くに",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "PR Newswire(2026-08-19)",
+      "TipRanks(2026-08-19)",
+      "Investing.com(2026年)",
+      "Yahoo Finance(2026年)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "Kingsoft CloudのEBITDAマージンがすごいことになってるって?"},
+        {"speaker": "analyst", "text": "2026年8月19日発表のQ2決算です。AI需要拡大でEBITDAマージンが前年の3倍近くに改善しました。", "source": "PR Newswire(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、総売上高+30.8%、EBITDAマージンは35.8%です。"},
+        {"speaker": "host", "text": "赤字はどうなったの?"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "主要指標から、AI関連事業の成長、収益性改善の状況まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "着手日当日の発表という高い鮮度と、EBITDAマージンが2.7倍以上に拡大したという具体的な数字に注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "Kingsoft Cloudってどんな会社?"},
+        {"speaker": "analyst", "text": "中国のクラウドインフラ企業で、近年はAIクラウド事業を拡大しています。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "主要指標です。総売上高RMB30億7,200万元、EBITDAマージン35.8%。", "source": "PR Newswire(2026-08-19)"},
+        {"speaker": "host", "text": "かなり改善してるんだね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "赤字は解消したの?"},
+        {"speaker": "analyst", "text": "1株あたり純損失はRMB0.11からRMB0.02へ縮小しましたが、依然として赤字です。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "純損失の縮小幅、大きいですよね。"},
+        {"speaker": "host", "text": "黒字化まであと少しって感じだね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "AI事業はどのくらい伸びてるの?"},
+        {"speaker": "analyst", "text": "Q1時点の情報では前年比91%増でした。ただしQ2固有の数字はまだ確認できていません。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "Q1時点の情報とQ2の確定数値を区別して整理しました。"},
+        {"speaker": "host", "text": "時点を混同しないことが大事だね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "EBITDAの推移は?"},
+        {"speaker": "analyst", "text": "前年同期RMB4億600万元から今回RMB11億500万元へ、約2.7倍に拡大しました。"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "なんでこんなに改善したの?"},
+        {"speaker": "analyst", "text": "AI関連需要の急拡大が主因とされていますが、Q1の粗利益率低下との関係は確認できていません。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "EBITDAマージンは35.8%まで改善しました。"},
+        {"speaker": "host", "text": "前年は17%台だったんだよね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "設備投資はどのくらい?"},
+        {"speaker": "analyst", "text": "Q2はRMB33億元、通期ではRMB150億〜200億元が計画されているとされます。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "Q2の設備投資額はRMB33億元です。"},
+        {"speaker": "host", "text": "積極的に投資してるんだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "収益性改善の流れを整理すると?"},
+        {"speaker": "analyst", "text": "AI需要拡大から積極投資、そしてEBITDAマージン改善という流れです。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "analyst", "text": "3ステップでまとめると、売上高の伸び、EBITDAマージン改善、そして純損失の縮小です。"},
+        {"speaker": "host", "text": "全体的にいい方向に進んでるね。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "host", "text": "黒字化はいつごろになりそう?"},
+        {"speaker": "analyst", "text": "縮小傾向は明確ですが、具体的な黒字化時期の言及は確認できていません。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "analyst", "text": "前四半期比でも売上高は13.6%増と、成長が加速しています。"},
+        {"speaker": "host", "text": "勢いが増してるんだね。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "host", "text": "決算発表のタイミングは?"},
+        {"speaker": "analyst", "text": "8月19日は中国関連企業の決算発表が集中する日程でした。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "host", "text": "改善点と課題、両方あるんだよね?"},
+        {"speaker": "analyst", "text": "はい、赤字幅の縮小は明確ですが、黒字化にはまだ至っていません。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "analyst", "text": "1株あたり純損失を前年同期と比較すると、大幅に縮小しています。"},
+        {"speaker": "host", "text": "数字で見ると分かりやすいね。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "host", "text": "確認できなかったこともある?"},
+        {"speaker": "analyst", "text": "Q2のAI事業内訳、粗利益率、黒字化の見通しは確認できていません。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "analyst", "text": "通期の設備投資計画はRMB150億〜200億元です。"},
+        {"speaker": "host", "text": "かなりの規模だね。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 25, "lines": [
+        {"speaker": "host", "text": "売上高の伸びと収益性改善、どっちが主導してるの?"},
+        {"speaker": "analyst", "text": "EBITDAマージンの改善幅は売上高の伸び率を上回っており、収益構造自体の改善もうかがえます。"}
+      ]},
+      {"slide": 26, "lines": [
+        {"speaker": "analyst", "text": "まとめると、AI需要拡大を背景に売上高・収益性ともに大きく改善した決算でした。"},
+        {"speaker": "host", "text": "赤字は残ってるけど前向きな内容だね。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "host", "text": "この決算、読者にとってはどんな意味がある?"},
+        {"speaker": "analyst", "text": "AI・クラウド業界を追う立場、中国テック企業を追う立場、投資検討中の立場、それぞれの視点をまとめました。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "改めて総括すると?"},
+        {"speaker": "analyst", "text": "売上高+30.8%、EBITDAマージン35.8%、純損失は縮小も継続という3点です。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "AI需要拡大がクラウド企業の収益構造に与える影響の好例として整理しました。"},
+        {"speaker": "host", "text": "今後の展開も追いたいね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "analyst", "text": "数字は出典どおりに、確認できなかったことは正直に。今回もそうお届けしました。"},
+        {"speaker": "host", "text": "次回もまた出典付きで待ってるね!"}
+      ]}
+    ]}
+  ]
+}

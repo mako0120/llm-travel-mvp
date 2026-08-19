@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "国産RPA「WinActor」最新版、生成AIが操作・エラーの疑問をその場で解決",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "NTT-AT公式(2026-08-19)",
+      "CodeZine(2026年)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "WinActorの新バージョン、AIが色々解決してくれるって?"},
+        {"speaker": "analyst", "text": "2026年8月19日発表のVer.7.7.0です。AIヘルプ機能で操作やエラーの疑問をその場で解決できます。", "source": "NTT-AT公式(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、AIヘルプ搭載で導入企業数は8,800社を突破しています。"},
+        {"speaker": "host", "text": "かなり広く使われてるんだね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "新機能の内容から、日付の食い違い、生成AI連携の進化の歴史まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "着手日当日の発表という高い鮮度と、AIヘルプという具体的なAI統合事例に注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "WinActorってどんなツール?"},
+        {"speaker": "analyst", "text": "NTT-ATが開発する純国産のRPAツールで、プログラミング知識がなくても扱いやすいのが特徴です。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "Ver.7.7.0の新機能です。AIヘルプ、ライブラリのPython移行対応、カスタムライブラリの一括管理。", "source": "NTT-AT公式(2026-08-19)"},
+        {"speaker": "host", "text": "3つも新機能があるんだね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "AIヘルプって具体的にはどんな機能?"},
+        {"speaker": "analyst", "text": "生成AIと連携し、操作方法やエラーに関する疑問をその場で解決できる支援機能です。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "導入企業数は8,800社を突破しています。"},
+        {"speaker": "host", "text": "国産RPAとしてかなりの実績だね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "発表日と販売開始日、違うって聞いたけど?"},
+        {"speaker": "analyst", "text": "発表は8月19日ですが、別の情報源では販売開始が9月1日と案内されています。原因は特定できていません。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "発表日と販売開始日を対比しました。両方を正直に開示します。"},
+        {"speaker": "host", "text": "断定しないのが誠実だね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "過去のバージョンとの違いは?"},
+        {"speaker": "analyst", "text": "Ver.7.5からVer.7.7まで、段階的に生成AI連携機能が強化されてきました。"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "毎年何か新機能があるの?"},
+        {"speaker": "analyst", "text": "はい、Ver.7.5・7.6・7.7と、それぞれ異なる切り口でAI活用が進められています。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "ライブラリのPython移行は2026年9月末に完了予定です。"},
+        {"speaker": "host", "text": "着実に近代化してるんだね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "運用面の改善も?"},
+        {"speaker": "analyst", "text": "カスタムライブラリを一括更新できる仕組みが追加され、更新漏れの削減が狙いです。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "過去バージョンの参考価格はフル機能版99万8,800円ですが、Ver.7.7.0固有の価格は未確認です。"},
+        {"speaker": "host", "text": "価格はまだ分からないんだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "AI活用の広がりを整理すると?"},
+        {"speaker": "analyst", "text": "シナリオ作成支援から画像認識AI連携、そして今回のAIヘルプまで、段階的に広がっています。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "analyst", "text": "3ステップでまとめると、Ver.7.7.0の発表、日付の食い違い、そして8,800社という実績です。"},
+        {"speaker": "host", "text": "実績の大きさが印象的だね。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "host", "text": "国産RPA市場ではどんな位置づけなの?"},
+        {"speaker": "analyst", "text": "純国産RPAとして一定のシェアを持つとされますが、他社との具体的な比較は行っていません。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "analyst", "text": "3年連続で生成AI連携機能が強化されています。"},
+        {"speaker": "host", "text": "継続的にAI活用が進んでるんだね。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "host", "text": "AIヘルプ、実際どのくらい役立ちそう?"},
+        {"speaker": "analyst", "text": "疑問をその場で解決できる可能性がありますが、実際の導入効果を示すデータは確認できていません。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "analyst", "text": "Ver.7.6.0とVer.7.7.0を比較すると、今回はAIヘルプという新しい切り口が追加されています。"},
+        {"speaker": "host", "text": "毎回違う方向で進化してるんだね。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "AIヘルプが役立つ場面って?"},
+        {"speaker": "analyst", "text": "エラー対処や操作方法の確認、新任担当者の学習など、いくつかの場面が想定されます。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "host", "text": "国産であることの意味は?"},
+        {"speaker": "analyst", "text": "日本語サポートや日本企業の業務慣習に合わせた機能開発が行われてきた経緯があります。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "確認できなかったこともある?"},
+        {"speaker": "analyst", "text": "日付の食い違いの原因、固有の価格、AIモデルの詳細は確認できていません。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 25, "lines": [
+        {"speaker": "analyst", "text": "カスタムライブラリ一括管理は、更新作業の負荷・漏れ削減が狙いです。"},
+        {"speaker": "host", "text": "運用担当者にはありがたい機能だね。"}
+      ]},
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "現場担当者向けと運用担当者向け、両方あるんだね。"},
+        {"speaker": "analyst", "text": "はい、AIヘルプは現場向け、ライブラリ管理は運用担当者向けの機能強化です。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "host", "text": "この発表、読者にとってはどんな意味がある?"},
+        {"speaker": "analyst", "text": "RPA業界を追う立場、現場でRPAを運用する立場、国内AI活用に関心がある立場、それぞれの視点をまとめました。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "analyst", "text": "まとめると、AIヘルプ機能の新規搭載と8,800社という実績が今回の要点です。"},
+        {"speaker": "host", "text": "日付の食い違いも正直に伝えたね。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "host", "text": "生成AIがRPAに組み込まれる流れ、今後も続きそうだね。"},
+        {"speaker": "analyst", "text": "Ver.7.5から続く傾向を踏まえると、その可能性は高いとみられます。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "analyst", "text": "数字は出典どおりに、確認できなかったことは正直に。今回もそうお届けしました。"},
+        {"speaker": "host", "text": "次回もまた出典付きで待ってるね!"}
+      ]}
+    ]}
+  ]
+}
