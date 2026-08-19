@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "満幇集団(Full Truck Alliance)2026年Q2決算——AIマッチングで成約率過去最高",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "PR Newswire(2026-08-19)",
+      "StockTitan(2026-08-19)",
+      "TipRanks(2026-08-19)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "『中国版Uber for Trucks』が決算発表したって?"},
+        {"speaker": "analyst", "text": "満幇集団が2026年8月19日に発表したQ2決算です。AIツールの活用で成約率が過去最高を記録したと報じられています。", "source": "PR Newswire(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、総売上高+4.4%、完了注文数は12.7%増の6,850万件です。"},
+        {"speaker": "host", "text": "着実に伸びてるんだね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "主要指標から、AI活用の内容、事業展開の状況まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "着手日当日の発表という高い鮮度と、AI活用による成約率過去最高という具体的な成果に注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "満幇集団ってどんな会社?"},
+        {"speaker": "analyst", "text": "中国発のトラック輸送マッチングプラットフォームで、荷主とトラック運転手をつなぐサービスです。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "主要指標です。総売上高RMB33億8,160万元、純利益は6.3%増。", "source": "PR Newswire(2026-08-19)"},
+        {"speaker": "host", "text": "利益も伸びてるんだね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "利用状況は?"},
+        {"speaker": "analyst", "text": "完了注文数は12.7%増、荷主のMAUも12.8%増と、利用が着実に拡大しています。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "完了注文数は前年比12.7%増です。"},
+        {"speaker": "host", "text": "着実な伸びだね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "AIはどう使われてるの?"},
+        {"speaker": "analyst", "text": "配送依頼の投稿・マッチングの改善にAIツールを活用していると報じられています。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "成約率は過去最高を記録しました。"},
+        {"speaker": "host", "text": "AIのおかげなのかな?"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "AI単体の効果は分かってるの?"},
+        {"speaker": "analyst", "text": "AIツールの導入、注文密度の上昇、輸送能力の拡大が組み合わさった結果として整理しました。単体の寄与度は未開示です。"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "他にはどんな事業展開が?"},
+        {"speaker": "analyst", "text": "Sinopecとの提携による燃料ネットワーク構築や、アセットライト型モデルへの移行を進めています。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "host", "text": "AIマッチングの流れを整理すると?"},
+        {"speaker": "analyst", "text": "荷主の投稿からAIによるマッチング、そして成約率過去最高という結果までの流れです。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "analyst", "text": "3ステップでまとめると、売上高の伸び、利用状況の拡大、成約率過去最高です。"},
+        {"speaker": "host", "text": "全体的にバランスよく伸びてるんだね。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "host", "text": "株主還元はどうなってるの?"},
+        {"speaker": "analyst", "text": "Q2の配当総額は約8,750万ドル、通期では約4億ドルの株主還元を目標としていると報じられています。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "analyst", "text": "通期の株主還元目標は約4億ドルです。"},
+        {"speaker": "host", "text": "投資家にも配慮してるんだね。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "主力事業の収入は?"},
+        {"speaker": "analyst", "text": "貨物マッチングサービス収入は前年比9.6%増と、全体の伸び率を上回っています。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "analyst", "text": "貨物マッチングサービス収入の伸び率は9.6%です。"},
+        {"speaker": "host", "text": "主力事業が牽引してるんだね。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "主力事業と全体、比べるとどうなの?"},
+        {"speaker": "analyst", "text": "主力事業の伸び率(9.6%)が全体(4.4%)を上回っており、他の収入源が相対的に伸び悩んでいる可能性があります。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "host", "text": "利用指標をまとめると?"},
+        {"speaker": "analyst", "text": "完了注文数・荷主MAUともに2桁成長ですが、成約率の具体的数値は非開示です。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "host", "text": "アセットライト型モデルって?"},
+        {"speaker": "analyst", "text": "自社でトラックを保有せず、マッチングサービスに特化する方向性とみられますが、進捗の詳細は未確認です。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "analyst", "text": "AI活用への期待と定量的な裏付けを対比しました。断定的な『AIのおかげ』という表現は避けています。"},
+        {"speaker": "host", "text": "正直に伝えることが大事だね。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "host", "text": "海外の同業態と比べるとどうなの?"},
+        {"speaker": "analyst", "text": "米国等にも同様のプラットフォームがありますが、具体的な競合比較は本調査の範囲では行っていません。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "analyst", "text": "荷主MAUは357万人、前年比12.8%増です。"},
+        {"speaker": "host", "text": "利用の裾野が広がってるんだね。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 25, "lines": [
+        {"speaker": "host", "text": "決算コールで他に何か言ってた?"},
+        {"speaker": "analyst", "text": "注文密度の上昇と輸送能力の拡大が成約率向上に寄与したと説明したとされています。"}
+      ]},
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できなかったこともある?"},
+        {"speaker": "analyst", "text": "AI活用の定量的な因果関係、燃料ネットワーク提携の規模、株主還元目標の正式決定状況は確認できていません。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "今回の決算の要点をまとめました。売上高、利用状況、成約率、株主還元の4点です。"},
+        {"speaker": "host", "text": "整理するとよく分かるね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "この決算、読者にとってはどんな意味がある?"},
+        {"speaker": "analyst", "text": "AI・物流テックを追う立場、中国テック企業を追う立場、投資検討中の立場、それぞれの視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、着実な成長とAI活用による成約率向上という決算でした。"},
+        {"speaker": "host", "text": "AIと成果を安易に結び付けないのが誠実だね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "analyst", "text": "数字は出典どおりに、確認できなかったことは正直に。今回もそうお届けしました。"},
+        {"speaker": "host", "text": "次回もまた出典付きで待ってるね!"}
+      ]}
+    ]}
+  ]
+}
