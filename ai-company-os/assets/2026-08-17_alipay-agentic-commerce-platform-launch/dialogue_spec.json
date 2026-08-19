@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "title": "Alipay、中国初の「エージェント型コマース」基盤を発表――スマホ5ブランド・自動車16社と連携",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TNGlobal(technode.global)(2026-08-17〜18)",
+      "Finextra(2026-08-17〜18)",
+      "Crowdfund Insider(2026-08-17〜18)",
+      "The Paypers(2026-08-17〜18)",
+      "SecurityBrief Asia(2026-08-17〜18)",
+      "Blockonomi(2026-08-17〜18)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "スマホ5ブランド・自動車16社と連携って、規模がすごいね。", "source": "TNGlobal(2026-08-17〜18)" },
+            { "speaker": "analyst", "text": "Alipayが杭州で、中国初とされるエージェント型コマース基盤を発表しました。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、新基盤とスマホ5社・自動車16社との連携、そして親会社アリババの株価5%上昇まで発表されています。" },
+            { "speaker": "host", "text": "決済大手が一気にAIエージェント分野へ踏み込んだ感じだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな流れで見ていくの?" },
+            { "speaker": "analyst", "text": "基盤の機能から新プロトコルAHA、Ah Baoの連携企業、インセンティブ、市場の反応まで6つの流れで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマは複数の独立した専門媒体が内容を一致させて報じている点がポイントです。" },
+            { "speaker": "host", "text": "スマホと自動車、あわせて21社との連携という規模も見逃せないね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそもAlipayってどんな会社なの?" },
+            { "speaker": "analyst", "text": "中国の大手モバイル決済・金融サービスプラットフォームです。今回、自社初のAIエコシステム・パートナーカンファレンスを開きました。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "エージェント型コマースとかMCPって、そもそも何なの?" },
+            { "speaker": "analyst", "text": "AIエージェントが検索・比較・決済まで代行する購買体験、MCPは外部ツールと連携するための標準的な接続方式です。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "analyst", "text": "今回の発表は、中国初とされるフルスタック・エージェント型コマース基盤です。" },
+            { "speaker": "host", "text": "自社初のカンファレンスで、いきなり大きな発表をしたんだね。" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "カンファレンスの概要を教えてよ。" },
+            { "speaker": "analyst", "text": "2026年8月17日、中国・杭州で開催されました。報道は8月18日にかけて拡大しています。", "source": "TNGlobal・Finextra・Crowdfund Insider(2026-08-17〜18)" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "新基盤は、AI未活用の事業者にはツール変換機能を、既にAI活用している事業者にはエージェント構築・管理機能を提供します。" },
+            { "speaker": "host", "text": "事業者の段階に応じて機能を分けているんだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "AI未活用の事業者向けの流れを図にするとどうなるの?" },
+            { "speaker": "analyst", "text": "ウェブページや業務フローをエージェント対応スキル・MCPツールへ変換し、AIエージェント経由の接客につなげる流れです。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "同時に新プロトコルスイート『AHA』、Agent Hub Accessも発表されました。" },
+            { "speaker": "host", "text": "マルチエージェント・複数端末間の連携のためのプロトコルなんだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "AHAの技術的な中身は詳しく分かってるの?" },
+            { "speaker": "analyst", "text": "実はそこは不明です。通信方式や対応端末の条件といった仕様の詳細は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "消費者向けのAIエージェントもあるんだよね?" },
+            { "speaker": "analyst", "text": "はい、『Ah Bao(阿宝)』です。スマホブランド5社・自動車メーカー16社と連携しています。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "連携規模をまとめると、スマホ5社(市場シェア合計70%超)、自動車16社です。" },
+            { "speaker": "host", "text": "1つずつ詳しく見ていこう。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "スマートフォンは、中国市場シェア合計70%超を占める5ブランドと連携しています。" },
+            { "speaker": "host", "text": "市場の大半をカバーしているんだね。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "自動車メーカーは16社と連携しています。" },
+            { "speaker": "host", "text": "スマホだけじゃなく車まで広がっているのは意外だね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "具体的にどの会社と連携してるか、社名は分かるの?" },
+            { "speaker": "analyst", "text": "そこは不明です。分かっているのは5社・16社という規模の数字のみで、個別の社名は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "参加事業者向けには『AIビジネス・インセンティブ・プログラム』も発表されています。" },
+            { "speaker": "host", "text": "トークン無償提供や補助金があるんだね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "analyst", "text": "内訳は、1事業者あたり1億トークンの無償提供、取引補助金、決済手数料の割引の3本柱です。" },
+            { "speaker": "host", "text": "事業者にとってはかなり後押しになりそうだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "具体的な金額や割引率まで分かってるの?" },
+            { "speaker": "analyst", "text": "そこは不明です。補助金や割引率の詳細、トークンの対象範囲は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "市場の反応はどうだったの?" },
+            { "speaker": "analyst", "text": "発表を受け、親会社アリババの株価が5%上昇したと報じられています。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "ただし、比較基準の時点や、この発表だけが要因かどうかは確認できていません。" },
+            { "speaker": "host", "text": "株価の動きを単純にこの発表だけと結びつけない方がいいんだね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "見出しだけ見ると『すべて公開されている』と思いがちですが、確認できているのは名称と連携規模の数字だけです。" },
+            { "speaker": "host", "text": "社名や技術仕様、株価要因はまだ分かっていないんだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "analyst", "text": "このニュースは、AI業界を追う立場、AI活用を検討する事業者の立場、投資を追う立場、それぞれに意味があります。" },
+            { "speaker": "host", "text": "自分がどの立場で見るかで、注目するポイントも変わりそうだね。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "実際にこの情報を活用するとしたら、何に気をつければいい?" },
+            { "speaker": "analyst", "text": "連携の具体的な技術的・契約的な内容は不明なので、導入検討時は公式情報を確認してください。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "日本への展開の話はあるの?" },
+            { "speaker": "analyst", "text": "そこも本調査の範囲では確認できていません。今回は中国国内を前提とした内容です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "host", "text": "確認できたことと、できていないことを整理するとどうなる?" },
+            { "speaker": "analyst", "text": "基盤発表・連携規模・インセンティブの種類・株価反応は確認済みです。個別社名やAHAの技術仕様、海外展開計画は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "カンファレンス開催は2026年8月17日、着手日の2日前です。報道拡大の継続を踏まえて採用しました。" },
+            { "speaker": "host", "text": "少し時間は経っていても、今も話題が広がっている案件なんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "出典はTNGlobal、Finextra、Crowdfund Insider、The Paypers、SecurityBrief Asia、Blockonomiです。" },
+            { "speaker": "host", "text": "複数の媒体が内容を揃えて報じているのは安心材料だね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "というわけで、今日はここまで。" },
+            { "speaker": "analyst", "text": "Alipayのエージェント型コマース基盤の発表を出典付きで整理しました。確認できなかったことは正直にお伝えしています。また次回お会いしましょう。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
