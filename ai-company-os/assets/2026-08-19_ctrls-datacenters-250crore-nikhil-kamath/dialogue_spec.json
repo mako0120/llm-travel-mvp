@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "CtrlS Datacenters、著名投資家から250クロール・ルピー調達",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "StartupTalky(2026-08-19)",
+      "Free Press Journal(2026-08-19)",
+      "YourStory(2026-08-19)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "Zerodha創業者がデータセンターに投資したって?"},
+        {"speaker": "analyst", "text": "はい。2026年8月19日発表で、CtrlS Datacentersが250クロール・ルピーを調達しました。", "source": "StartupTalky(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、うち200クロール・ルピーがニキル・カマート氏によるものです。"},
+        {"speaker": "host", "text": "個人でそんな金額を出すんだね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "調達の内容から、投資家の背景、AI需要との関係まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "高い鮮度に加え、著名投資家の参加という分かりやすいフックに注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "CtrlS Datacentersってどんな会社?"},
+        {"speaker": "analyst", "text": "2007年設立のインドのデータセンター企業で、国内9都市で19拠点を運営しています。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "今回の調達は250クロール・ルピー、8月19日発表です。", "source": "StartupTalky(2026-08-19)"},
+        {"speaker": "host", "text": "内訳はどうなってるの?"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "ニキル・カマート氏ってどんな人?"},
+        {"speaker": "analyst", "text": "Zerodha共同創業者で、インドで著名な個人投資家です。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "調達資金はインフラ拡張に充てられます。"},
+        {"speaker": "host", "text": "AI需要に対応するためなんだね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "今のCtrlSの事業規模は?"},
+        {"speaker": "analyst", "text": "国内9都市で19拠点、稼働容量は370メガワット超です。計画中は4.4ギガワット相当もあります。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "現在の稼働容量と計画中のプロジェクトを対比しました。"},
+        {"speaker": "host", "text": "計画中の方が10倍以上の規模なんだね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "過去の資金調達との比較は?"},
+        {"speaker": "analyst", "text": "6月にCPP Investmentsから7,000クロール・ルピー、評価額47億ドルで調達していました。", "source": "StartupTalky(2026-08-19)"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "今回はその続きなんだね。"},
+        {"speaker": "analyst", "text": "はい。今回の調達後の最新評価額は確認できていません。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "6月時点の評価額は47億ドルでした。"},
+        {"speaker": "host", "text": "かなりの規模の企業なんだね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "AI需要とはどう関係してるの?"},
+        {"speaker": "analyst", "text": "AI・クラウド需要の拡大への対応が投資目的とされていますが、AI関連の比率までは確認できていません。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "6月の大型調達から今回までの流れを図にしました。"},
+        {"speaker": "host", "text": "拡大局面が続いているんだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "今回の発表を3つでまとめると?"},
+        {"speaker": "analyst", "text": "著名投資家からの調達、インフラ拡張、そして6月調達に続く拡大局面です。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "業界内での位置づけは?"},
+        {"speaker": "analyst", "text": "インドはデータセンター投資が注目される市場の一つですが、他社比較は行っていません。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "analyst", "text": "国内9都市で19拠点という広い展開です。"},
+        {"speaker": "host", "text": "インド全土をカバーしているんだね。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "同じ日に他のニュースもあったの?"},
+        {"speaker": "analyst", "text": "はい、Shiprocketの上場など7件の資金調達案件が報じられていますが、本テーマではCtrlS固有の内容だけを扱います。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "analyst", "text": "今回と6月の投資家・調達規模を対比しました。"},
+        {"speaker": "host", "text": "機関投資家の後、個人投資家が続いたんだね。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "host", "text": "今回の発表を表でまとめると?"},
+        {"speaker": "analyst", "text": "調達総額、主な出資者、用途、6月時点の評価額の4点です。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "今後注目される点は?"},
+        {"speaker": "analyst", "text": "新設拠点の詳細や最新評価額の更新有無ですが、いずれも未確認です。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "analyst", "text": "計画中プロジェクトは4.4ギガワット相当です。"},
+        {"speaker": "host", "text": "今の10倍以上の規模、かなり大きな計画だね。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "投資家のプロフィールを教えて。"},
+        {"speaker": "analyst", "text": "ニキル・カマート氏が200クロール、スリーラム・レディ・ヴァンガ氏が50クロールを出資しています。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 25, "lines": [
+        {"speaker": "analyst", "text": "6月の大型調達からわずか約2か月での追加調達です。"},
+        {"speaker": "host", "text": "かなりのスピード感だね。"}
+      ]},
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できていないことは?"},
+        {"speaker": "analyst", "text": "最新評価額、資金の具体的配分、AI需要の比率は確認できていません。正直にお伝えします。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "確認できている事実と、今後の不確定要素を明確に区別しました。"},
+        {"speaker": "host", "text": "確定した話とこれからの話、ごっちゃにしないんだね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "このニュース、誰にとって参考になるの?"},
+        {"speaker": "analyst", "text": "AI・データセンター業界を追う人、投資に関心がある人、インド市場を追う人、それぞれに視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、著名投資家からの調達とAI需要への対応が今回の要点です。"},
+        {"speaker": "host", "text": "確認できていない点も正直に伝えてくれたね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "host", "text": "Zerodha創業者の投資、インパクトのある話だったね。"},
+        {"speaker": "analyst", "text": "数字は出典どおりに扱い、確認できないことは正直にお伝えしました。次回もまた出典付きでお届けします。"}
+      ]}
+    ]}
+  ]
+}

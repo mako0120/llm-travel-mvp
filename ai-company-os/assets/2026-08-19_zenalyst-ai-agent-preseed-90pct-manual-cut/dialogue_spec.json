@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "Zenalyst、AIエージェントで手作業を最大90%削減",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "StartupTalky(2026-08-19)",
+      "Entrackr"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "AIエージェントで手作業が90%減ったって?"},
+        {"speaker": "analyst", "text": "インドのZenalystが2026年8月19日に発表した自社数値です。", "source": "StartupTalky(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、AIエージェント基盤『ZenForce』による自社発表の数字です。"},
+        {"speaker": "host", "text": "自社発表っていうのがポイントなんだね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "資金調達の内容から、ZenForceの機能、90%削減の中身まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "高い鮮度に加え、90%削減という分かりやすい数字と実務活用事例に注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "Zenalystってどんな会社?"},
+        {"speaker": "analyst", "text": "2025年設立のインド・ベンガルール拠点のエンタープライズAIプラットフォームです。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "今回はプレシードで3クロール・ルピーを調達しました。", "source": "StartupTalky(2026-08-19)"},
+        {"speaker": "host", "text": "どんな投資家が参加したの?"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "資金の使い道は?"},
+        {"speaker": "analyst", "text": "ZenForceの強化とAIエージェントのライブラリ拡充に充てられます。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "150以上の企業システムと連携しています。"},
+        {"speaker": "host", "text": "かなり幅広いんだね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "ZenForceってどんな機能なの?"},
+        {"speaker": "analyst", "text": "継続的なモニタリング・レポーティングを行うAIワークフォースと位置づけられています。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "財務・調達分野と法務分野を対比しました。"},
+        {"speaker": "host", "text": "財務・調達の情報の方が多いんだね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "導入企業はどんなところ?"},
+        {"speaker": "analyst", "text": "Sattva Group・Bharat Biotech・Puravankaraが報道で確認できています。", "source": "StartupTalky(2026-08-19)"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "業種はバラバラなんだね。"},
+        {"speaker": "analyst", "text": "はい、不動産・製薬など複数業種にまたがっています。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "2025年設立で、設立から1年程度でここまで来ています。"},
+        {"speaker": "host", "text": "かなりのスピードだね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "『90%削減』はどう扱えばいいの?"},
+        {"speaker": "analyst", "text": "自社発表の数値で、第三者検証は確認できていません。断定的には扱いません。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "設立から今回の調達までの流れを図にしました。"},
+        {"speaker": "host", "text": "着実にステップを踏んでいるね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "今回の発表を3つでまとめると?"},
+        {"speaker": "analyst", "text": "プレシード調達、ZenForce強化、そして複数業種への導入実績です。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "業界内での位置づけは?"},
+        {"speaker": "analyst", "text": "バックオフィス向けAIエージェント投資が活発化する中での調達ですが、他社比較は行っていません。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "analyst", "text": "現時点と今後の展望を対比しました。"},
+        {"speaker": "host", "text": "今後の計画は未確認な部分が多いんだね。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "今回の発表を表でまとめると?"},
+        {"speaker": "analyst", "text": "調達額、連携システム数、主な導入企業、自社発表の効果の4点です。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "host", "text": "今後注目される点は?"},
+        {"speaker": "analyst", "text": "評価額や第三者検証の有無ですが、いずれも現時点では確認できていません。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "analyst", "text": "対象業務は財務・調達・法務の3分野です。"},
+        {"speaker": "host", "text": "バックオフィス業務が中心なんだね。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "創業者はどんな人たち?"},
+        {"speaker": "analyst", "text": "ナゲンドラ・シン氏、サンケート・クリシュナッパ氏、ヴィジャイ・ジャー氏の3名です。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "analyst", "text": "参加投資家にはSKIL Cabs・GERP Technologiesが含まれます。"},
+        {"speaker": "host", "text": "複数の投資家が参加しているんだね。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "調達方式が珍しいって?"},
+        {"speaker": "analyst", "text": "はい、譲渡性転換社債という、将来株式に転換される負債性の調達手段です。"}
+      ]},
+      {"slide": 25, "lines": [
+        {"speaker": "analyst", "text": "この方式は企業評価額をこの時点では確定させません。"},
+        {"speaker": "host", "text": "なるほど、株式発行とは違うんだね。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できていないことは?"},
+        {"speaker": "analyst", "text": "第三者検証の有無、評価額、技術基盤の詳細は確認できていません。正直にお伝えします。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "確認できている事実と今後の不確定要素を明確に区別しました。"},
+        {"speaker": "host", "text": "確定した話とこれからの話、ごっちゃにしないんだね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "このニュース、誰にとって参考になるの?"},
+        {"speaker": "analyst", "text": "AIエージェントに関心がある人、投資に関心がある人、実務に携わる人、それぞれに視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、AIエージェントによる手作業削減という発表内容が今回の要点です。"},
+        {"speaker": "host", "text": "自社発表である点も正直に伝えてくれたね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "host", "text": "手作業90%削減、インパクトのある数字だったね。"},
+        {"speaker": "analyst", "text": "数字は出典どおりに扱い、確認できないことは正直にお伝えしました。次回もまた出典付きでお届けします。"}
+      ]}
+    ]}
+  ]
+}
