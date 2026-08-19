@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Prevalent AI、創業9年で初の外部資金調達",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Tech Startups(2026-08-19)",
+      "SiliconANGLE(2026-08-19)",
+      "TechFundingNews(2026-08-19)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "9年間、外部資金ゼロでやってきた会社があるって?"},
+        {"speaker": "analyst", "text": "はい、Prevalent AIです。2026年8月19日発表で、初めて外部から資金を調達しました。", "source": "Tech Startups(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、Integrity Growth Partnersから$2,200万を調達しました。"},
+        {"speaker": "host", "text": "9年も無借金でやってきたのに、なぜ今?"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "資金調達の内容から、9年間の経営スタイル、AIエージェントとの関係まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "高い鮮度に加え、9年間無借金だった企業がついに動いたという転機のストーリーに注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "Prevalent AIってどんな会社?"},
+        {"speaker": "analyst", "text": "2017年創業のサイバーセキュリティ企業で、企業内の数百のシステムをつなぐデータファブリックを提供しています。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "今回の調達は$2,200万、創業9年で初めての外部機関投資家からのものです。", "source": "Tech Startups(2026-08-19)"},
+        {"speaker": "host", "text": "それだけ長く自立していたんだね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "9年間、どうやって成長してきたの?"},
+        {"speaker": "analyst", "text": "最初の顧客獲得以降、ずっと黒字を維持してきたそうです。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "無借金経営を続けた期間は9年間です。"},
+        {"speaker": "host", "text": "スタートアップとしてはかなり珍しいね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "創業者はどんな人たち?"},
+        {"speaker": "analyst", "text": "Paul Stokes氏とArun Raj氏です。元GCHQ長官やDarktrace共同創業者も関わっています。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "これまでと今回を対比しました。"},
+        {"speaker": "host", "text": "無借金経営から一転、初調達に踏み切ったんだね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "製品の『データファブリック』ってどんな機能?"},
+        {"speaker": "analyst", "text": "数百のシステムに接続し、情報をナレッジグラフとして再構築・維持します。", "source": "TechFundingNews(2026-08-19)"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "『企業データ問題』って何のこと?"},
+        {"speaker": "analyst", "text": "AIに組織の信頼できる情報を与えることが次のボトルネックだという考え方です。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "接続する企業システムは数百に及びます。"},
+        {"speaker": "host", "text": "かなり広範囲をカバーしているんだね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "AIエージェントとどう関係するの?"},
+        {"speaker": "analyst", "text": "AIエージェントが増えるほど、信頼できるデータ基盤の必要性が高まるとされています。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "9年間の無借金経営から今回の調達までの流れを図にしました。"},
+        {"speaker": "host", "text": "AI需要の高まりがきっかけになったんだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "今回の発表を3つでまとめると?"},
+        {"speaker": "analyst", "text": "創業9年での初調達、これまでの黒字経営、そしてAIエージェント時代への対応です。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "投資家のIntegrity Growth Partnersってどんな会社?"},
+        {"speaker": "analyst", "text": "ロサンゼルス拠点の投資会社ですが、出資比率などの詳細は確認できていません。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "analyst", "text": "創業年は2017年です。"},
+        {"speaker": "host", "text": "今回の調達まで9年の歩みがあるんだね。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "業界内での位置づけは?"},
+        {"speaker": "analyst", "text": "無借金経営を長期間続けた成功例として注目されますが、他社比較は行っていません。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "analyst", "text": "これまでのサイバーセキュリティ活用と、今後目指すAIエージェント活用への拡張を対比しました。"},
+        {"speaker": "host", "text": "事業の幅を広げようとしているんだね。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "host", "text": "今回の発表を表でまとめると?"},
+        {"speaker": "analyst", "text": "調達額、投資家、製品、そして今回の狙いの4点です。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "今後注目される点は?"},
+        {"speaker": "analyst", "text": "企業評価額やAIエージェント向け展開の具体的計画ですが、いずれも未確認です。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "analyst", "text": "チームには元GCHQ長官級の人材も関与しています。"},
+        {"speaker": "host", "text": "セキュリティ分野で相当な経験を持つ人たちなんだね。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "業界全体の傾向はどうなの?"},
+        {"speaker": "analyst", "text": "AIエージェントのID・データ管理分野への投資が活発化しているとされます。"}
+      ]},
+      {"slide": 25, "lines": [
+        {"speaker": "analyst", "text": "9年間、自己資金と顧客収益のみで成長してきました。"},
+        {"speaker": "host", "text": "外部資本に頼らない経営を貫いてきたんだね。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できていないことは?"},
+        {"speaker": "analyst", "text": "企業評価額、財務指標の詳細、技術基盤の詳細は確認できていません。正直にお伝えします。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "確認できている事実と、今後の不確定要素を明確に区別しました。"},
+        {"speaker": "host", "text": "確定した話とこれからの話、ごっちゃにしないんだね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "このニュース、誰にとって参考になるの?"},
+        {"speaker": "analyst", "text": "サイバーセキュリティを追う人、経営・投資に関心がある人、データ基盤整備に携わる人、それぞれに視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、9年間の無借金経営からの初調達という転機が今回の要点です。"},
+        {"speaker": "host", "text": "確認できていない点も正直に伝えてくれたね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "host", "text": "9年間ゼロだった外部資金、ついに動いた理由が面白かったね。"},
+        {"speaker": "analyst", "text": "数字は出典どおりに扱い、確認できないことは正直にお伝えしました。次回もまた出典付きでお届けします。"}
+      ]}
+    ]}
+  ]
+}

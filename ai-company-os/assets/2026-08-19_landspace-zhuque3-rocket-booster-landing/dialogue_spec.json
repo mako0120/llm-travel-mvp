@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "中国LandSpace、ロケット第1段の陸上着陸に初成功",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "CGTN(2026-08-19)",
+      "SpaceNews(2026-08-19)",
+      "Space.com(2026-08-19)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "中国のロケットが垂直着陸に成功したって?"},
+        {"speaker": "analyst", "text": "はい、LandSpaceの朱雀三号です。2026年8月19日、中国初の快挙でした。", "source": "CGTN(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、着陸脚による軌道級ロケット第1段の陸上回収に中国として初成功しました。"},
+        {"speaker": "host", "text": "SpaceXがやってきたことに中国も追いついたんだね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "ミッションの内容から、着陸までの技術的な流れ、SpaceXとの比較まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "最高の鮮度に加え、中国初の軌道級ロケット陸上回収という歴史的達成に注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "LandSpaceってどんな会社?"},
+        {"speaker": "analyst", "text": "中国の民間宇宙企業で、再使用型ロケット朱雀三号を独自開発しています。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "今回のミッションは甘粛省から打ち上げ、洪湖03衛星を投入しました。", "source": "CGTN(2026-08-19)"},
+        {"speaker": "host", "text": "衛星の投入もちゃんと成功したんだね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "衛星はどんな用途なの?"},
+        {"speaker": "analyst", "text": "具体的な用途・運用主体の詳細は確認できていません。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "段分離は打ち上げから137秒後でした。"},
+        {"speaker": "host", "text": "あっという間の出来事だね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "第1段はどうやって帰還したの?"},
+        {"speaker": "analyst", "text": "姿勢調整・減速噴射・空力滑空制御を経て、着陸脚で垂直着陸しました。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "打ち上げ地点と着陸地点を対比しました。"},
+        {"speaker": "host", "text": "390kmも離れた場所に正確に着陸したんだね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "着陸の技術的な詳細は?"},
+        {"speaker": "analyst", "text": "着陸完了は米国東部時間19時43分、着陸脚によるクッション着陸でした。", "source": "SpaceNews(2026-08-19)"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "『中国初』ってどういう意味?"},
+        {"speaker": "analyst", "text": "着陸脚による軌道級ロケット第1段の回収として中国初の成功例です。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "朱雀三号としては2回目の軌道打ち上げでした。"},
+        {"speaker": "host", "text": "2回目でついに着陸に成功したんだね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "SpaceXとの比較はどうなの?"},
+        {"speaker": "analyst", "text": "『差を縮める』という報道表現がありますが、詳細な比較検証は行っていません。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "打ち上げから着陸成功までの流れを図にしました。"},
+        {"speaker": "host", "text": "非常に精密なプロセスなんだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "今回の達成を3つでまとめると?"},
+        {"speaker": "analyst", "text": "衛星投入、精密な帰還プロセス、そして中国初の陸上回収成功です。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "業界内での位置づけは?"},
+        {"speaker": "analyst", "text": "打ち上げコスト削減につながる技術として注目されますが、商業運用計画の詳細は未確認です。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "analyst", "text": "1回目と2回目(今回)を対比しました。"},
+        {"speaker": "host", "text": "1回目は着陸に至らなかったとみられるんだね。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "今回の発表を表でまとめると?"},
+        {"speaker": "analyst", "text": "ロケット名、達成内容、着陸地点、日時の4点です。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "host", "text": "今後注目される点は?"},
+        {"speaker": "analyst", "text": "実際の再利用や商業運用の時期ですが、いずれも現時点では未確認です。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "analyst", "text": "推進剤は液体酸素とメタンです。"},
+        {"speaker": "host", "text": "新世代の推進方式なんだね。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "情報源はどこから?"},
+        {"speaker": "analyst", "text": "CGTN・SpaceNews・Space.comなど、複数の独立したメディアが一致して報じています。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "analyst", "text": "洪湖03衛星は予定軌道への投入に成功しています。"},
+        {"speaker": "host", "text": "打ち上げの一次目的は達成されたんだね。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "着陸方式の特徴は?"},
+        {"speaker": "analyst", "text": "空力滑空制御を経た精密誘導で、約390km先へ正確に着陸しています。"}
+      ]},
+      {"slide": 25, "lines": [
+        {"speaker": "host", "text": "再使用型ロケットが注目される理由は?"},
+        {"speaker": "analyst", "text": "打ち上げコスト削減が期待される技術だからです。ただし具体的な削減効果は未確認です。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できていないことは?"},
+        {"speaker": "analyst", "text": "商業運用の具体的計画、SpaceXとの詳細比較、1回目の試行結果は確認できていません。正直にお伝えします。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "確認できている事実と今後の不確定要素を明確に区別しました。"},
+        {"speaker": "host", "text": "確定した話とこれからの話、ごっちゃにしないんだね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "このニュース、誰にとって参考になるの?"},
+        {"speaker": "analyst", "text": "宇宙開発を追う人、中国の商業宇宙産業を追う人、投資・ビジネスに関心がある人、それぞれに視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、中国初の軌道級ロケット第1段陸上回収という歴史的達成が今回の要点です。"},
+        {"speaker": "host", "text": "確認できていない点も正直に伝えてくれたね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "host", "text": "垂直着陸の瞬間、映像を見てみたくなったね。"},
+        {"speaker": "analyst", "text": "数字は出典どおりに扱い、確認できないことは正直にお伝えしました。次回もまた出典付きでお届けします。"}
+      ]}
+    ]}
+  ]
+}
