@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Samsung、先端チップ製造価格を最大15%引き上げ",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Sammyfans(2026-08-19)",
+      "Reuters(KFGO配信、2026-08-19)",
+      "ChinaTechNews.com(2026-08-19)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "サムスンが半導体の値上げをしたって?"},
+        {"speaker": "analyst", "text": "はい。2026年8月19日報道で、先端チップ製造価格を最大15%引き上げました。", "source": "Sammyfans(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、2022年以降赤字続きとされる部門にとって転機になり得る値上げです。"},
+        {"speaker": "host", "text": "赤字続きだった部門が値上げできるってすごいね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "値上げの内容から、背景にあるAI需要、Googleとの協議報道まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "高い鮮度に加え、赤字続きの事業が値上げに転じるという転機のストーリーに注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "ファウンドリ事業ってどんな事業?"},
+        {"speaker": "analyst", "text": "他社の設計したチップをサムスンの工場で製造し供給する事業です。2022年以降赤字続きとされています。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "今回の値上げは4nm・5nm・8nmの3プロセスです。", "source": "Sammyfans(2026-08-19)"},
+        {"speaker": "host", "text": "地域によって幅が違うんだね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "値上げはいつから始まったの?"},
+        {"speaker": "analyst", "text": "4nmの一部は7月から。全体像が広く報じられたのは8月19日です。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "最大値上げ幅は15%です。"},
+        {"speaker": "host", "text": "かなりの上昇率だね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "地域によって差があるって?"},
+        {"speaker": "analyst", "text": "中国・米国向けが10〜15%、台湾向けは5〜10%です。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "中国・米国向けと台湾向けを対比しました。"},
+        {"speaker": "host", "text": "中国・米国向けの方が高いんだね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "値上げの背景は?"},
+        {"speaker": "analyst", "text": "AI需要の急増に加え、自社チップ生産分の確保、米国顧客への供給義務などです。", "source": "Sammyfans(2026-08-19)"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "輸出規制も関係あるの?"},
+        {"speaker": "analyst", "text": "背景として指摘されていますが、本テーマではその是非を評価せず事実としてのみ紹介します。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "赤字が続いているとされるのは2022年以降です。"},
+        {"speaker": "host", "text": "かなり長い期間だね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "Googleとの話もあるって?"},
+        {"speaker": "analyst", "text": "SF4プロセスでの製造について協議中と報じられていますが、正式契約は確認できていません。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "赤字続きの事業から今回の値上げまでの流れを図にしました。"},
+        {"speaker": "host", "text": "AI需要がきっかけになったんだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "今回の報道を3つでまとめると?"},
+        {"speaker": "analyst", "text": "最大15%の値上げ、地域差、そして赤字続きの事業の転機です。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "業界内での位置づけは?"},
+        {"speaker": "analyst", "text": "業界全体で価格上昇の動きがあるとされていますが、他社との詳細比較は行っていません。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "analyst", "text": "対象は4nm・5nm・8nmの3プロセスです。"},
+        {"speaker": "host", "text": "先端から旧世代まで幅広いんだね。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "先端プロセスと旧世代プロセスの違いは?"},
+        {"speaker": "analyst", "text": "先端の4nm・5nmが最大15%、旧世代の8nmが約10%です。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "analyst", "text": "今回の報道を表でまとめました。"},
+        {"speaker": "host", "text": "値上げ幅、対象プロセス、背景、Google協議の4点だね。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "host", "text": "今後注目される点は?"},
+        {"speaker": "analyst", "text": "Google協議の行方や黒字化の時期ですが、いずれも未確認です。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "analyst", "text": "赤字継続期間は約4年間とされています。"},
+        {"speaker": "host", "text": "長い赤字からの転機になるかもしれないんだね。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "host", "text": "他社の動向は?"},
+        {"speaker": "analyst", "text": "TSMCも同様に値上げを計画していると一部で報じられています。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "analyst", "text": "メモリ事業の好調に続き、ファウンドリ事業の改善が次の焦点とされています。"},
+        {"speaker": "host", "text": "サムスン全体の収益改善の話でもあるんだね。"}
+      ]},
+      {"slide": 25, "lines": [
+        {"speaker": "host", "text": "自社チップ生産分の確保とは?"},
+        {"speaker": "analyst", "text": "サムスンは自社製品向けの生産分も確保する必要があり、全ての受注に応えきれていません。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できていないことは?"},
+        {"speaker": "analyst", "text": "Google協議の契約有無、具体的な赤字額、発注行動の変化は確認できていません。正直にお伝えします。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "確認できている事実と今後の不確定要素を明確に区別しました。"},
+        {"speaker": "host", "text": "確定した話とこれからの話、ごっちゃにしないんだね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "このニュース、誰にとって参考になるの?"},
+        {"speaker": "analyst", "text": "半導体業界を追う人、投資に関心がある人、半導体利用製品に携わる人、それぞれに視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、最大15%の値上げとAI需要という背景が今回の要点です。"},
+        {"speaker": "host", "text": "確認できていない点も正直に伝えてくれたね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "host", "text": "赤字続きの部門が値上げに転じる、インパクトのある話だったね。"},
+        {"speaker": "analyst", "text": "数字は出典どおりに扱い、確認できないことは正直にお伝えしました。次回もまた出典付きでお届けします。"}
+      ]}
+    ]}
+  ]
+}
