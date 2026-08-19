@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Unitree「Superman」、人類最速を上回ると主張",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechNode(2026-08-18)",
+      "Interesting Engineering(2026-08-18)",
+      "TechTimes(2026-08-18)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "ロボットがウサイン・ボルトより速いって本当?"},
+        {"speaker": "analyst", "text": "Unitreeが2026年8月18日にそう発表しました。ただし重要な留保があります。", "source": "TechNode(2026-08-18)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、最高速度12.66m/sを主張していますが、第三者検証はありません。"},
+        {"speaker": "host", "text": "自社発表ってことなんだね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "発表された数値から、第三者検証なしという留保、設計思想まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "高い鮮度とインパクトのある主張に加え、第三者検証なしという留保を正直に伝える意義に注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "Unitreeってどんな会社?"},
+        {"speaker": "analyst", "text": "中国のロボット企業で、翌日には上海市場に上場しています。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "発表数値は最高速度12.66m/s、立ち幅跳び2mです。", "source": "TechNode(2026-08-18)"},
+        {"speaker": "host", "text": "かなりインパクトのある数字だね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "『人類最速を上回る』ってどういうこと?"},
+        {"speaker": "analyst", "text": "ウサイン・ボルト選手の平均速度を上回るとされていますが、測定条件の同一性は確認できていません。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "立ち幅跳びは2mです。"},
+        {"speaker": "host", "text": "これも人間の記録超えなんだね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "『第三者検証なし』ってどういう意味?"},
+        {"speaker": "analyst", "text": "自社デモ動画に基づく数値で、独立検証は行われていないと複数メディアが指摘しています。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "自社発表と第三者検証済みの記録を対比しました。"},
+        {"speaker": "host", "text": "性質が全然違うんだね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "Supermanの設計上の特徴は?"},
+        {"speaker": "analyst", "text": "手・グリッパーがなく、下半身の移動性能に開発資源を集中させています。", "source": "Interesting Engineering(2026-08-18)"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "手がないってことは何もできないの?"},
+        {"speaker": "analyst", "text": "物をつかむ・作業するといった機能は持たず、純粋な移動性能の実証に特化しています。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "開発期間はわずか3か月強です。"},
+        {"speaker": "host", "text": "短期間でここまで作ったんだね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "発表のタイミングは?"},
+        {"speaker": "analyst", "text": "Unitreeの上海市場上場の前日でした。意図は断定していません。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "開発から発表までの流れを図にしました。"},
+        {"speaker": "host", "text": "短期開発から一気に話題になったんだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "今回の発表を3つでまとめると?"},
+        {"speaker": "analyst", "text": "最高速度の主張、特化型設計、そして第三者検証なしという留保です。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "業界内での位置づけは?"},
+        {"speaker": "analyst", "text": "各社が性能を競う業界の一例ですが、自社発表を鵜呑みにしない検証文化が課題とされます。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "analyst", "text": "Supermanと一般的なヒューマノイドロボットを対比しました。"},
+        {"speaker": "host", "text": "設計思想が全然違うんだね。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "今回の発表を表でまとめると?"},
+        {"speaker": "analyst", "text": "発表内容、検証状況、設計上の特徴、発表日の4点です。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "host", "text": "今後注目される点は?"},
+        {"speaker": "analyst", "text": "第三者検証の実施有無や測定条件の詳細開示ですが、いずれも未確認です。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "analyst", "text": "同社は『さらなる最適化の余地がある』と説明しています。"},
+        {"speaker": "host", "text": "完成品ではなく研究段階なんだね。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "情報源はどこから?"},
+        {"speaker": "analyst", "text": "TechNode・Interesting Engineering・TechTimesなど、複数の独立したメディアが報じています。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "analyst", "text": "12.66m/sは時速に換算すると約45.6kmです。"},
+        {"speaker": "host", "text": "車並みのスピードなんだね。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "一次情報はどこ?"},
+        {"speaker": "analyst", "text": "Unitree自身の公式Xアカウントが一次情報源です。"}
+      ]},
+      {"slide": 25, "lines": [
+        {"speaker": "host", "text": "話題性と正直さ、どう両立させたの?"},
+        {"speaker": "analyst", "text": "フックのある見出しを使いつつ、未検証の自社発表であることを本編で明確に開示しています。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できていないことは?"},
+        {"speaker": "analyst", "text": "第三者検証の有無、測定条件の詳細、比較の妥当性は確認できていません。正直にお伝えします。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "確認できている事実と今後の不確定要素を明確に区別しました。"},
+        {"speaker": "host", "text": "確定した話とこれからの話、ごっちゃにしないんだね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "このニュース、誰にとって参考になるの?"},
+        {"speaker": "analyst", "text": "ロボティクスを追う人、企業発表を読み解く人、中国産業を追う人、それぞれに視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、インパクトのある発表と第三者検証なしという留保が今回の要点です。"},
+        {"speaker": "host", "text": "確認できていない点も正直に伝えてくれたね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "host", "text": "ロボットが人類最速に迫る時代、面白い話だったね。"},
+        {"speaker": "analyst", "text": "数字は出典どおりに扱い、確認できないことは正直にお伝えしました。次回もまた出典付きでお届けします。"}
+      ]}
+    ]}
+  ]
+}

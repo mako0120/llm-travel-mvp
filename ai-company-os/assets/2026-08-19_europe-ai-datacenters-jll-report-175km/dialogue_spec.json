@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "欧州のAIデータセンター、都市部から続々と遠ざかる",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Yahoo Finance(2026-08-19)",
+      "Data Centre Magazine(2026-08-19)",
+      "Data Centre Review(2026-08-19)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "欧州のデータセンターが都市部からどんどん離れているって?"},
+        {"speaker": "analyst", "text": "はい。JLLが2026年8月19日に発表したレポートによるものです。", "source": "Yahoo Finance(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、主要ハブからの平均距離が46kmから175kmへ拡大しています。"},
+        {"speaker": "host", "text": "約4倍も遠くなったんだね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "立地変化の数字から、背景要因、地域社会への影響まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "高い鮮度に加え、都市部から約4倍遠くへという分かりやすい数字に注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "JLLってどんな会社?"},
+        {"speaker": "analyst", "text": "世界的な不動産サービス大手で、今回EMEA地域のデータセンター動向を分析したレポートを発表しました。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "平均距離は46kmから175kmへ拡大しています。", "source": "Yahoo Finance(2026-08-19)"},
+        {"speaker": "host", "text": "かなり大きな変化だね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "この倍率、具体的にはどのくらい?"},
+        {"speaker": "analyst", "text": "約3.8倍です。都市部での電力・土地不足が背景とされています。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "距離拡大の倍率は約3.8倍です。"},
+        {"speaker": "host", "text": "電力事情がそこまで影響するんだね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "都市部の立地割合はどうなってるの?"},
+        {"speaker": "analyst", "text": "13%から5%へ減少する見通しです。グリーンフィールド開発が8%から39%へ増える見通しです。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "都心部立地とグリーンフィールド開発を対比しました。"},
+        {"speaker": "host", "text": "今後はグリーンフィールドが主流になるんだね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "立地変化の背景要因は?"},
+        {"speaker": "analyst", "text": "電力不足・土地不足・冷却用水の確保・送電網の制約などが挙げられます。", "source": "Yahoo Finance(2026-08-19)"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "AIトレーニング施設は特別なの?"},
+        {"speaker": "analyst", "text": "大量の電力と冷却水を必要とし、従来型データセンターとは規模が異なります。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "グリーンフィールド開発は8%から39%へ拡大する見通しです。"},
+        {"speaker": "host", "text": "未開発地での開発が急増しているんだね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "地域社会への影響はどうなの?"},
+        {"speaker": "analyst", "text": "雇用創出の可能性がある一方、環境・資源競合への懸念も指摘されています。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "AI需要の急増から立地変化までの流れを図にしました。"},
+        {"speaker": "host", "text": "AIがインフラの地図を変えているんだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "今回のレポートを3つでまとめると?"},
+        {"speaker": "analyst", "text": "平均距離の拡大、都心部立地の減少、そして電力・土地確保の重要性です。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "業界内での位置づけは?"},
+        {"speaker": "analyst", "text": "AI需要が不動産市場を大きく変えている事例ですが、他地域との比較は行っていません。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "analyst", "text": "2022〜2025年と2026〜2028年計画分を対比しました。"},
+        {"speaker": "host", "text": "いずれの指標も郊外寄りにシフトしているんだね。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "今回の発表を表でまとめると?"},
+        {"speaker": "analyst", "text": "平均距離、都心部立地割合、グリーンフィールド割合、背景要因の4点です。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "host", "text": "今後注目される点は?"},
+        {"speaker": "analyst", "text": "個別案件の詳細や他地域との比較ですが、いずれも現時点では未確認です。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "analyst", "text": "対象地域はEMEA、欧州・中東・アフリカです。"},
+        {"speaker": "host", "text": "広い地域を対象にしたレポートなんだね。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "情報源はどこから?"},
+        {"speaker": "analyst", "text": "Yahoo Finance・Data Centre Magazine等、複数の独立したメディアが一致して報じています。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "analyst", "text": "今回のレポートはJLLという不動産サービス大手が発表しました。"},
+        {"speaker": "host", "text": "信頼性のある調査機関なんだね。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "対象期間は?"},
+        {"speaker": "analyst", "text": "2026〜2028年計画分を、2022〜2025年完成分と比較しています。"}
+      ]},
+      {"slide": 25, "lines": [
+        {"speaker": "host", "text": "電力確保をめぐる競争はどうなの?"},
+        {"speaker": "analyst", "text": "電力アクセスが立地選定の最重要要因の一つになりつつあります。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できていないことは?"},
+        {"speaker": "analyst", "text": "個別案件の詳細、算出方法論、反対運動の具体的事例は確認できていません。正直にお伝えします。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "確認できている事実と今後の不確定要素を明確に区別しました。"},
+        {"speaker": "host", "text": "確定した話とこれからの話、ごっちゃにしないんだね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "このニュース、誰にとって参考になるの?"},
+        {"speaker": "analyst", "text": "AI・データセンター業界を追う人、地域経済に関心がある人、不動産・インフラ投資に携わる人、それぞれに視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、都市部から遠ざかるAIデータセンターという立地変化が今回の要点です。"},
+        {"speaker": "host", "text": "確認できていない点も正直に伝えてくれたね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "host", "text": "AIがここまで地図を変えるとは思わなかったね。"},
+        {"speaker": "analyst", "text": "数字は出典どおりに扱い、確認できないことは正直にお伝えしました。次回もまた出典付きでお届けします。"}
+      ]}
+    ]}
+  ]
+}
