@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "title": "Google、破産したスピリット航空の社内データを1000万ドルで落札――AI学習への活用に労組が猛反発",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Axios(2026-08-17)",
+      "Skift(2026-08-17)",
+      "CNN Business(2026-08-17)",
+      "Forbes(2026-08-17)",
+      "Tom's Hardware(2026-08-17)",
+      "Bloomberg Law(2026-08-17)",
+      "Yahoo Finance(2026-08-17)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "1000万ドルで社内データが落札されたって知ってる?" },
+            { "speaker": "analyst", "text": "破産したスピリット航空の社内データを、Googleが1000万ドルで落札したと報じられました。", "source": "Axios・Skift(2026-08-17)" },
+            { "speaker": "host", "text": "でも客室乗務員組合が『言語道断』って猛反発してるらしいね。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、落札は決まりましたが裁判所の承認はこれからです。" },
+            { "speaker": "host", "text": "つまりまだ確定した取引じゃないってことだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな話が聞けるの?" },
+            { "speaker": "analyst", "text": "経緯・両者の言い分・今後の焦点、この3点を出典付きで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマ、実は承認審理がまさに今日、2026年8月19日に予定されているんです。" },
+            { "speaker": "host", "text": "それはタイムリーすぎるね。複数メディアも揃って報じてるんだ。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそもスピリット航空ってどんな会社なの?" },
+            { "speaker": "analyst", "text": "米国の格安航空会社で、経営破綻して破産手続き中です。資産の一部としてデータも売却対象になっています。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "匿名化とかAI学習データって、あらためて何なの?" },
+            { "speaker": "analyst", "text": "匿名化は個人特定情報を除く処理、AI学習データはAIの性能向上に使うデータのことです。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "落札の中身を整理してよ。" },
+            { "speaker": "analyst", "text": "対象は社内業務データ、落札企業はGoogle、額は1000万ドル。承認は破産裁判所が審理中です。", "source": "Axios・Skift・Bloomberg Law(2026-08-17)" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "1000万ドルって、最初からその金額だったの?" },
+            { "speaker": "analyst", "text": "いいえ。Googleの当初入札は500万ドル、Mercorが750万ドルで対抗、最終的に1000万ドルまで競り上がりました。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "対象データは社員メール約1億通、Teamsチャット約5億件、それに業務記録一式です。" },
+            { "speaker": "host", "text": "会社の中身がまるごと見えちゃうくらいの量だね。次はGoogle側の言い分も聞きたいな。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "Googleはなぜここまでして落札したの?" },
+            { "speaker": "analyst", "text": "実務コミュニケーションデータがAI学習に重宝されるためとされていますが、Google自身の詳細な説明は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "一方で、乗客の個人情報、約9750万件分のプロフィールは対象から明確に除外されています。" },
+            { "speaker": "host", "text": "そこはしっかり線引きしてるんだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "analyst", "text": "ロイヤルティプログラム『Free Spirit』の会員データ、約5020万件も除外対象です。" },
+            { "speaker": "host", "text": "乗客側の個人データは切り離されてるってことか。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "host", "text": "つまりどういう流れでデータが扱われるの?" },
+            { "speaker": "analyst", "text": "全体から乗客・会員データを除外し、残りを匿名化してAI学習データにする、という流れです。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "host", "text": "その匿名化って、具体的にどうやるの?" },
+            { "speaker": "analyst", "text": "実はそこが不明です。方針は報じられていますが、具体的な技術手法は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "この取引には米ニューヨーク州南部地区連邦破産裁判所の承認が必要です。" },
+            { "speaker": "host", "text": "審理はいつ行われるの?" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "審理はまさに本日、2026年8月19日です。結果はまだ確認できていません。" },
+            { "speaker": "host", "text": "だから『確定した取引』とは言い切れないんだね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "analyst", "text": "ここで組合側の声を紹介します。『言語道断』。客室乗務員組合の会長がそう強く批判しました。" },
+            { "speaker": "host", "text": "かなり強い言葉だね。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "客室乗務員5500人以上を代表する組合のサラ・ネルソン会長が批判し、法廷での異議申し立ても表明しています。" },
+            { "speaker": "host", "text": "本当に法廷まで争うつもりなんだね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "組合はどこに一番反発してるの?" },
+            { "speaker": "analyst", "text": "従業員自身のメールやチャットが、本人の同意なくAI学習データにされることへの反発が背景にあります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの両者の言い分、並べて整理してくれる?" },
+            { "speaker": "analyst", "text": "Googleは匿名化と除外データを掲げ、組合は本人同意なき売却に反発しています。どちらが正しいかはここでは判定しません。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "analyst", "text": "本件は、集めたデータを新たな同意なしにAI学習へ転用してよいのかという、より大きな論点の一例でもあります。" },
+            { "speaker": "host", "text": "破産という特殊な状況だけの話じゃないんだね。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "host", "text": "この論点、世の中ではどう分かれてるの?" },
+            { "speaker": "analyst", "text": "イノベーションにつながるという意見と、同意なき再利用が常態化する懸念という意見、両方が存在します。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "このニュース、働く立場・業界を追う立場・情報を受け取る立場、それぞれに意味があります。" },
+            { "speaker": "host", "text": "自分ごととして考えられる部分もありそうだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "実際にこの話を追うとき、何に気をつければいい?" },
+            { "speaker": "analyst", "text": "『落札』と『取引確定』は別物だという点、そして続報では承認可否を優先して追うといいです。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "host", "text": "結局、確認できたことと、できてないこと、整理するとどうなる?" },
+            { "speaker": "analyst", "text": "落札額や除外データは確認済みですが、裁判所の承認可否と匿名化の技術詳細はまだ確認できていません。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "analyst", "text": "報道から2日後の着手ですが、承認審理がまさに今日というタイミングで、鮮度の高い話題です。" },
+            { "speaker": "host", "text": "だからこそ今、正確に整理する意味があるんだね。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "未確定事項をまとめると、裁判所の承認可否・匿名化の技術・組合の異議申し立ての進行、この3つです。" },
+            { "speaker": "host", "text": "まだこれから動く部分が多いんだね。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "analyst", "text": "本編はGoogleと組合、両方の立場を紹介しますが、どちらか一方を支持する結論にはしていません。" },
+            { "speaker": "host", "text": "判断は見ている人に委ねる、というスタンスなんだね。" }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "出典はAxios、Skift、CNN Business、Forbes、Tom's Hardware、Bloomberg Law、Yahoo Financeです。" },
+            { "speaker": "host", "text": "複数の媒体が揃って報じているのは心強いね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "というわけで、今日はここまで。" },
+            { "speaker": "analyst", "text": "1000万ドルの落札と、まだ見えない承認結果。出典付きで両論を整理してお伝えしました。続報にご注目ください。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
