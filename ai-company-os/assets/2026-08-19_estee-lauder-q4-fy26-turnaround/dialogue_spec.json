@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "エスティローダー 2026年度Q4決算——赤字幅が5分の1以下に縮小する立て直し",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "MoneyCheck(2026-08-19)",
+      "MarketScreener(2026-08-19)",
+      "SEC(2026-08-19)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "エスティローダーの赤字が大幅に減ったって?"},
+        {"speaker": "analyst", "text": "2026年8月19日発表のQ4決算です。純損失が前年から5分の1以下に縮小しました。", "source": "MoneyCheck(2026-08-19)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、純損失は5.46億ドルから1.16億ドルへ縮小しました。"},
+        {"speaker": "host", "text": "でもまだ赤字なんだよね?"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "主要指標から、カテゴリー別の状況、通期見通しまで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "着手日当日の発表という高い鮮度と、純損失が5分の1以下に縮小したという具体的な数字に注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "エスティローダーってどんな会社?"},
+        {"speaker": "analyst", "text": "米国の化粧品大手で、スキンケア・メイクアップ・フレグランス・ヘアケアを展開しています。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "主要指標です。売上高36億3,000万ドル、調整後EPS0.39ドルでいずれも予想超え。", "source": "MoneyCheck(2026-08-19)"},
+        {"speaker": "host", "text": "しっかり回復してるんだね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "純損失の縮小、どのくらいすごいの?"},
+        {"speaker": "analyst", "text": "5.46億ドルから1.16億ドルへ、約5分の1以下です。ただし要因の詳細は確認できていません。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "純損失は5分の1以下に縮小しました。"},
+        {"speaker": "host", "text": "大きな改善だね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "売上高やEPSはどうだったの?"},
+        {"speaker": "analyst", "text": "売上高は6.3%増、調整後EPSも市場予想を上回りました。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "実績と市場予想を対比しました。いずれも実績が上回っています。"},
+        {"speaker": "host", "text": "文句なしの数字だね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "カテゴリー別だとどうなの?"},
+        {"speaker": "analyst", "text": "スキンケア・フレグランスが好調で、ヘアケアだけがわずかに減収でした。"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "何が牽引したの?"},
+        {"speaker": "analyst", "text": "スキンケアが最大カテゴリーとして8.7%増、フレグランスが最も高い10%増でした。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "フレグランスの伸び率は10%と最も高いです。"},
+        {"speaker": "host", "text": "香水が人気なんだね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "ヘアケアはなぜ減収だったの?"},
+        {"speaker": "analyst", "text": "具体的な要因は確認できていません。ただ全体に占める割合は小さいです。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "host", "text": "決算の流れを整理すると?"},
+        {"speaker": "analyst", "text": "好調カテゴリーの牽引から、市場予想超えの実績、そして純損失縮小という流れです。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "analyst", "text": "3ステップでまとめると、売上高増加、純損失縮小、そして利益率ガイダンス引き上げです。"},
+        {"speaker": "host", "text": "立て直しが進んでる感じだね。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "host", "text": "来年度の見通しは?"},
+        {"speaker": "analyst", "text": "売上高成長率は据え置きですが、利益率ガイダンスは引き上げられています。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "analyst", "text": "通期利益率ガイダンスは12.7%〜13.5%へ引き上げられました。"},
+        {"speaker": "host", "text": "コスト構造も改善しそうだね。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "AIは活用されてるの?"},
+        {"speaker": "analyst", "text": "過去にAI活用の取り組みが報じられていますが、今回の決算とは異なる時点の情報です。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "analyst", "text": "好調カテゴリーと不振カテゴリーを対比しました。ヘアケアの不振は他が相殺しています。"},
+        {"speaker": "host", "text": "バランスが取れてるんだね。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "host", "text": "今回の要点をまとめると?"},
+        {"speaker": "analyst", "text": "売上高、純損失、好調カテゴリー、通期ガイダンスの4点です。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "業界的にはどんな位置づけ?"},
+        {"speaker": "analyst", "text": "大手化粧品企業の立て直し事例として注目されますが、他社比較は行っていません。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "analyst", "text": "オーガニック売上高成長率はQ4で5%、通期で3%です。"},
+        {"speaker": "host", "text": "着実に伸びてるんだね。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "純損失の前年比較を教えて。"},
+        {"speaker": "analyst", "text": "5.46億ドルから1.16億ドルへ。いずれも確認できた公式数値です。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 25, "lines": [
+        {"speaker": "host", "text": "決算発表のタイミングは?"},
+        {"speaker": "analyst", "text": "8月19日は業種の異なる複数企業の決算発表が集中する日程でした。"}
+      ]},
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "確認できなかったこともある?"},
+        {"speaker": "analyst", "text": "純損失縮小の要因、AI活用の定量的な寄与、牽引ブランドの詳細は確認できていません。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "今回の実績と通期見通しを対比しました。利益率ガイダンスが引き上げられています。"},
+        {"speaker": "host", "text": "先行きも明るそうだね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "この決算、読者にとってはどんな意味がある?"},
+        {"speaker": "analyst", "text": "決算分析に関心がある立場、美容業界を追う立場、投資検討中の立場、それぞれの視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、市場予想超えの実績と純損失の大幅縮小、そして依然として残る赤字が今回の要点です。"},
+        {"speaker": "host", "text": "赤字が残ってることも正直に伝えたね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "analyst", "text": "数字は出典どおりに、確認できなかったことは正直に。今回もそうお届けしました。"},
+        {"speaker": "host", "text": "次回もまた出典付きで待ってるね!"}
+      ]}
+    ]}
+  ]
+}
