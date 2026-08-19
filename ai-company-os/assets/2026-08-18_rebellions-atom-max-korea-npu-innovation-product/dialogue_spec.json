@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "韓国リベリオンズ「ATOM-Max」が政府革新製品指定を取得",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "디지털데일리(2026-08-18)",
+      "한국경제(2026-08-18)",
+      "와우테일(2026-08-18)",
+      "벤처스퀘어(2026-08-18)",
+      "뉴시스・디일렉(2026年)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "韓国のNPUが政府に認められたって聞いたけど?"},
+        {"speaker": "analyst", "text": "2026年8月18日、リベリオンズのATOM-Maxが韓国科学技術情報通信部の革新製品に指定されました。", "source": "디지털데일리(2026-08-18)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、公共機関は競争入札なしで随意契約が可能になり、調達期間も60日から10日以内に短縮されます。"},
+        {"speaker": "host", "text": "かなり大きな変化だね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "指定の内容から、ATOM-Maxの性能、韓国国産NPU業界の全体像まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "着手日前日という高い鮮度と、外国製GPU依存からの脱却という業界の関心の高さに注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "リベリオンズってどんな会社?"},
+        {"speaker": "analyst", "text": "韓国のAI半導体スタートアップで、サーバー向けNPUを開発しています。ATOM-Maxは大規模AI推論向けの製品です。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "指定の内容です。対象はATOM-Maxのカードとサーバー、調達期間は10日以内に短縮されます。", "source": "디지털데일리・한국경제(2026-08-18)"},
+        {"speaker": "host", "text": "有効期間も長いんだね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "この指定、どんな意味があるの?"},
+        {"speaker": "analyst", "text": "外国製GPUに依存してきた公共AIインフラに、国産NPUが制度的な足がかりを得る転換点です。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "調達期間は60日から10日以内へ短縮されます。"},
+        {"speaker": "host", "text": "6分の1くらいになったんだね。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "他の企業も指定を受けてるの?"},
+        {"speaker": "analyst", "text": "FuriosaAIとDeepXも2026年上半期に指定を受けていますが、具体的な指定日までは確認できていません。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "host", "text": "ATOM-Maxの性能はどうなの?"},
+        {"speaker": "analyst", "text": "ISSCC 2024の発表によれば、Nvidia A100と比較して消費電力は約1/5とされています。ただし今回の政府指定とは別の話です。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "analyst", "text": "エネルギー効率はA100比で3から4.5倍とされています。"},
+        {"speaker": "host", "text": "かなり効率がいいんだね。"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "host", "text": "韓国のNPU業界、全体像はどうなってる?"},
+        {"speaker": "analyst", "text": "国内には5社あり、RebellionsとFuriosaAIはそれぞれ企業価値2兆ウォン規模と評価されています。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "analyst", "text": "企業一覧です。DeepXは世界8カ国への輸出実績もあります。"},
+        {"speaker": "host", "text": "海外にも展開してるんだね。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "資金調達の状況は?"},
+        {"speaker": "analyst", "text": "RebellionsとFuriosaAIはそれぞれ約6,400億ウォン・約8,000億ウォンを確保したと報じられています。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "政府の国民成長ファンドが半導体分野で最初の投資対象として両社を選定したとも報じられています。"},
+        {"speaker": "host", "text": "国を挙げて後押ししてる感じだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "普及までの流れを整理すると?"},
+        {"speaker": "analyst", "text": "量産成功から革新製品指定、そして公共調達での随意契約解禁という流れです。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "analyst", "text": "3ステップでまとめると、革新製品指定、随意契約解禁、業界全体への波及です。"},
+        {"speaker": "host", "text": "1社の話じゃなく業界全体の動きなんだね。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "host", "text": "『K-エヌビディア』って何?"},
+        {"speaker": "analyst", "text": "韓国政府の7大メガプロジェクトの一つで、NPU企業育成が目的です。今回の指定もこの政策文脈の一環です。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "analyst", "text": "RebellionsとFuriosaAIはいずれも企業価値約2兆ウォン規模とされています。"},
+        {"speaker": "host", "text": "報道ベースの評価額なんだね。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "host", "text": "DeepXの輸出実績は?"},
+        {"speaker": "analyst", "text": "世界8カ国への輸出実績があり、中国のBaiduも輸出先に含まれると報じられています。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "host", "text": "これって技術的に優れてるってことの証明になるの?"},
+        {"speaker": "analyst", "text": "いいえ、あくまで公共調達手続きの簡素化であり、政府による技術的優位性の公式認定ではありません。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "確認できなかったこともある?"},
+        {"speaker": "analyst", "text": "性能数値の第三者検証、資金調達額の正式開示、国民成長ファンドの正式決定は確認できていません。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "analyst", "text": "有効期間は基本3年、延長で最大6年まで延ばせます。"},
+        {"speaker": "host", "text": "長期的な取り組みになりそうだね。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "host", "text": "今回の発表、要点をまとめると?"},
+        {"speaker": "analyst", "text": "ATOM-Maxの指定、調達期間の短縮、業界内の位置づけ、政策文脈の4点です。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 25, "lines": [
+        {"speaker": "host", "text": "業界全体にはどう影響しそう?"},
+        {"speaker": "analyst", "text": "公共AIインフラが国産NPUへシフトする制度的な環境が整いつつあります。実際の切り替えは今後の続報次第です。"}
+      ]},
+      {"slide": 26, "lines": [
+        {"speaker": "analyst", "text": "RebellionsとFuriosaAIを比較すると、資金調達額はFuriosaAIの方がやや大きいようです。"},
+        {"speaker": "host", "text": "2社とも勢いがあるんだね。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "host", "text": "国産NPUと外国製GPU、調達の面ではどう違うの?"},
+        {"speaker": "analyst", "text": "国産NPUは随意契約で10日以内、外国製GPUは競争入札で最大60日程度。手続き面で優遇措置が生まれています。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "この決算、読者にとってはどんな意味がある?"},
+        {"speaker": "analyst", "text": "AI半導体業界を追う立場、韓国テック産業に関心がある立場、投資を検討する立場、それぞれの視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、ATOM-Maxの指定と業界全体への波及、そして確認できなかったことを正直にお伝えしました。"},
+        {"speaker": "host", "text": "制度の変化がよく分かったよ。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "analyst", "text": "数字は出典どおりに、確認できなかったことは正直に。今回もそうお届けしました。"},
+        {"speaker": "host", "text": "次回もまた出典付きで待ってるね!"}
+      ]}
+    ]}
+  ]
+}

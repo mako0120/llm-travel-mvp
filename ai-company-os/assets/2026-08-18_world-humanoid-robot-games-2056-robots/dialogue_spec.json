@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "第2回世界ヒューマノイドロボット競技会——2,056台が北京に集結",
+    "personas": [
+      {"id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"},
+      {"id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する"}
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Global Times(2026-08-18)",
+      "People's Daily Online(2026-08-14/18)",
+      "Guangming Online(2026-08-17/18)",
+      "eWeek(2026-08-18)",
+      "DIGITIMES(2026-08-18)"
+    ]
+  },
+  "acts": [
+    {"act": "起", "label": "導入", "slides": [
+      {"slide": 1, "lines": [
+        {"speaker": "host", "text": "2,056台のロボットが北京に集まってるって本当?"},
+        {"speaker": "analyst", "text": "2026年8月22日開幕の第2回世界ヒューマノイドロボット競技会に向け、8月18日にロボットが北京入りしたと報じられました。", "source": "Global Times(2026-08-18)"}
+      ]},
+      {"slide": 2, "lines": [
+        {"speaker": "analyst", "text": "結論から言うと、16カ国・666チーム・ロボット2,056台という規模です。"},
+        {"speaker": "host", "text": "前回よりだいぶ大きくなってるんだね。"}
+      ]},
+      {"slide": 3, "lines": [
+        {"speaker": "host", "text": "今日はどんな流れ?"},
+        {"speaker": "analyst", "text": "大会の基礎知識から、前回大会との比較、参加チームや種目の詳細まで、6つの流れで整理します。"}
+      ]},
+      {"slide": 4, "lines": [
+        {"speaker": "host", "text": "なんで今このテーマを?"},
+        {"speaker": "analyst", "text": "着手日前日というロボット北京入りの高い鮮度と、2,056台という具体的でインパクトのある数字に注目しました。"}
+      ]},
+      {"slide": 5, "lines": [
+        {"speaker": "host", "text": "そもそもこの大会って何?"},
+        {"speaker": "analyst", "text": "ヒューマノイドロボットがスポーツ種目や実務シナリオで技術を競う国際競技会です。第1回は2025年8月、今回が第2回です。"}
+      ]},
+      {"slide": 6, "lines": [
+        {"speaker": "analyst", "text": "基本情報です。8月22日から26日まで、北京の国家速滑館で開催されます。", "source": "Global Times(2026-08-18)"},
+        {"speaker": "host", "text": "冬季五輪の会場だったところだね。"}
+      ]},
+      {"slide": 7, "lines": [
+        {"speaker": "host", "text": "前回大会と比べるとどう?"},
+        {"speaker": "analyst", "text": "2025年は280チーム・500台超・26種目でした。今回は666チーム・2,056台・32種目に拡大しています。"}
+      ]},
+      {"slide": 8, "lines": [
+        {"speaker": "analyst", "text": "チーム数は前年比138%増です。"},
+        {"speaker": "host", "text": "1年でそんなに増えたんだ。"}
+      ]}
+    ]},
+    {"act": "承", "label": "展開", "slides": [
+      {"slide": 9, "lines": [
+        {"speaker": "host", "text": "でもロボットの台数は『倍増』って聞いたけど?"},
+        {"speaker": "analyst", "text": "公式報道はそう表現していますが、500台超から2,056台という単純計算だと約4倍で、表現と数値が一致しないんです。正直にお伝えします。"}
+      ]},
+      {"slide": 10, "lines": [
+        {"speaker": "analyst", "text": "2025年と2026年の比較表にまとめました。チーム数・ロボット台数・種目数、いずれも拡大しています。"},
+        {"speaker": "host", "text": "数字で見るとよく分かるね。"}
+      ]},
+      {"slide": 11, "lines": [
+        {"speaker": "host", "text": "中国国内からはどのくらい参加してるの?"},
+        {"speaker": "analyst", "text": "157の企業と200の大学・研究機関から、641チーム・1,975台のロボットが参加します。", "source": "Guangming Online(2026-08-18)"}
+      ]},
+      {"slide": 12, "lines": [
+        {"speaker": "analyst", "text": "国内だけで641チーム・1,975台という規模です。"},
+        {"speaker": "host", "text": "産業の裾野がかなり広いんだね。"}
+      ]},
+      {"slide": 13, "lines": [
+        {"speaker": "host", "text": "海外からの参加は?"},
+        {"speaker": "analyst", "text": "米国・ドイツ・日本などが参加し、ブラジルはRoboCup優勝経験のあるチームを送り込んでいます。"}
+      ]},
+      {"slide": 14, "lines": [
+        {"speaker": "host", "text": "ここまでの流れを整理すると?"},
+        {"speaker": "analyst", "text": "2025年の第1回大会から規模が拡大し、8月18日にロボットが北京入りして試走や種目準備を行いました。"}
+      ]},
+      {"slide": 15, "lines": [
+        {"speaker": "analyst", "text": "3ステップでまとめると、参加規模の確定、ロボット北京入り、そして8月22日からの開幕です。"},
+        {"speaker": "host", "text": "いよいよ開幕が近いんだね。"}
+      ]},
+      {"slide": 16, "lines": [
+        {"speaker": "host", "text": "新しい種目もあるの?"},
+        {"speaker": "analyst", "text": "走り幅跳び・重量挙げ・綱引き・卓球の4種目が新たに追加されました。"}
+      ]},
+      {"slide": 17, "lines": [
+        {"speaker": "analyst", "text": "新設種目は合計4種目です。"},
+        {"speaker": "host", "text": "だんだん人間の運動会に近づいてるね。"}
+      ]}
+    ]},
+    {"act": "転", "label": "転換", "slides": [
+      {"slide": 18, "lines": [
+        {"speaker": "host", "text": "種目のカテゴリはどう分かれてるの?"},
+        {"speaker": "analyst", "text": "競技系種目とシナリオ系種目の2つです。シナリオ系はホテルや病院での緊急対応など実務に近い内容です。"}
+      ]},
+      {"slide": 19, "lines": [
+        {"speaker": "host", "text": "シナリオ系って具体的には?"},
+        {"speaker": "analyst", "text": "倉庫での梱包・搬送、産業組立、小売サービス、EV充電、ケーブル接続などの精密作業です。"}
+      ]},
+      {"slide": 20, "lines": [
+        {"speaker": "analyst", "text": "会場は北京の国家速滑館、通称『氷のリボン』です。"},
+        {"speaker": "host", "text": "冬季五輪の記憶が残ってる会場だね。"}
+      ]},
+      {"slide": 21, "lines": [
+        {"speaker": "host", "text": "業界的にはどんな意味がある大会なの?"},
+        {"speaker": "analyst", "text": "各社の実機を比較できる場として注目されていますが、具体的な参加企業の一覧までは確認できていません。"}
+      ]},
+      {"slide": 22, "lines": [
+        {"speaker": "host", "text": "大会の結果はもう出てるの?"},
+        {"speaker": "analyst", "text": "いいえ、着手日時点で本番はまだ開催されていません。今回扱うのは開幕直前の参加規模・準備状況だけです。"}
+      ]},
+      {"slide": 23, "lines": [
+        {"speaker": "host", "text": "確認できなかったこともある?"},
+        {"speaker": "analyst", "text": "倍増表現と数値の食い違いの原因、参加企業の一覧、国別の内訳は確認できていません。正直にお伝えします。"}
+      ]},
+      {"slide": 24, "lines": [
+        {"speaker": "analyst", "text": "もう一つの規模指標として、ロボット台数は2,056台です。"},
+        {"speaker": "host", "text": "改めて聞いてもすごい数だね。"}
+      ]}
+    ]},
+    {"act": "結", "label": "まとめ", "slides": [
+      {"slide": 25, "lines": [
+        {"speaker": "analyst", "text": "参加規模をまとめると、16カ国・666チーム・2,056台・32種目です。"},
+        {"speaker": "host", "text": "改めて規模感が伝わってくるね。"}
+      ]},
+      {"slide": 26, "lines": [
+        {"speaker": "host", "text": "この大会、業界にとってどんな意味がある?"},
+        {"speaker": "analyst", "text": "デモンストレーション段階から実務検証段階への移行の一例といえます。実際の商業化効果は続報待ちです。"}
+      ]},
+      {"slide": 27, "lines": [
+        {"speaker": "analyst", "text": "種目数も2025年の26種目から2026年は32種目へ、6種目増えました。"},
+        {"speaker": "host", "text": "毎年規模が大きくなっていくんだね。"}
+      ]},
+      {"slide": 28, "lines": [
+        {"speaker": "host", "text": "この決算、読者にとってはどんな意味がある?"},
+        {"speaker": "analyst", "text": "業界動向を追う立場、中国テック産業に関心がある立場、投資を検討する立場、それぞれで意識したい視点をまとめました。"}
+      ]},
+      {"slide": 29, "lines": [
+        {"speaker": "analyst", "text": "まとめると、第2回大会は16カ国・666チーム・2,056台という規模で開幕直前を迎えています。"},
+        {"speaker": "host", "text": "開幕後の結果もまた楽しみだね。"}
+      ]},
+      {"slide": 30, "lines": [
+        {"speaker": "analyst", "text": "数字は出典どおりに、確認できなかったことは正直に。今回もそうお届けしました。"},
+        {"speaker": "host", "text": "次回もまた出典付きで待ってるね!"}
+      ]}
+    ]}
+  ]
+}
