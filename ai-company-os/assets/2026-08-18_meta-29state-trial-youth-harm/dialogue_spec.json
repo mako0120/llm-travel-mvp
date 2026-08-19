@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "Meta、若年層への悪影響を問う29州合同訴訟が開廷――損害賠償額は最大2000億ドルの可能性",
+    "personas": [
+      { "id": "host", "name": "ナビAI", "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する" },
+      { "id": "analyst", "name": "リサーチAI", "role": "出典付きの事実・数字を解説する" }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "NPR(2026-08-18)",
+      "US News & World Report(2026-08-18)",
+      "Spokesman-Review(2026-08-18)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            { "speaker": "host", "text": "29州がMetaを相手取って裁判を起こしたって知ってる?" },
+            { "speaker": "analyst", "text": "米オークランドの連邦地裁で、若年層への悪影響を問う陪審裁判が2026年8月18日に開廷しました。", "source": "NPR・US News & World Report・Spokesman-Review(2026-08-18)" },
+            { "speaker": "host", "text": "しかも損害賠償額は最大2000億ドルの可能性があるらしいね。" }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            { "speaker": "analyst", "text": "結論から言うと、裁判は始まったばかりで、判決や和解はまだ出ていません。" },
+            { "speaker": "host", "text": "つまり結果が出るのはまだ先ってことだね。" }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            { "speaker": "host", "text": "今日はどんな話が聞けるの?" },
+            { "speaker": "analyst", "text": "経緯・両者の言い分・今後の焦点、この3点を出典付きで整理します。" }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            { "speaker": "analyst", "text": "このテーマ、SNSの若年層影響訴訟としては過去最大規模とされているんです。" },
+            { "speaker": "host", "text": "29州・最大2000億ドルって、規模がとにかく大きいね。" }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            { "speaker": "host", "text": "そもそもこれ、どんな裁判なの?" },
+            { "speaker": "analyst", "text": "オークランドの連邦地裁で、29州の司法長官連合が原告、Meta社が被告の陪審裁判です。" }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            { "speaker": "host", "text": "合同訴訟とか陪審裁判とか、あらためて何なの?" },
+            { "speaker": "analyst", "text": "合同訴訟は複数の原告が共同で争う訴訟、陪審裁判は市民の陪審員が関与する米国の裁判制度です。" }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            { "speaker": "host", "text": "裁判の中身を整理してよ。" },
+            { "speaker": "analyst", "text": "法廷はオークランド、原告29州、被告Meta社、開廷日は2026年8月18日です。", "source": "NPR・US News & World Report・Spokesman-Review(2026-08-18)" }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            { "speaker": "host", "text": "29州って、そんなに多くの州がまとまってるんだ。" },
+            { "speaker": "analyst", "text": "はい。29州の司法長官連合が共同でMeta社を提訴しています。" }
+          ]
+        },
+        {
+          "slide": 9,
+          "lines": [
+            { "speaker": "analyst", "text": "裁判は6〜8週間に及ぶ見込みで、過去最大規模の法廷闘争とされています。" },
+            { "speaker": "host", "text": "長丁場だね。次は州側の主張を詳しく聞きたいな。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 10,
+          "lines": [
+            { "speaker": "host", "text": "州側は具体的に何を主張してるの?" },
+            { "speaker": "analyst", "text": "未成年者からのデータ不適切収集、依存性が生じるよう設計されたという主張、安全性の誤導、この3つです。" }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            { "speaker": "analyst", "text": "整理するとデータ収集・依存性のある設計・安全性の誤導、この3本柱です。" },
+            { "speaker": "host", "text": "かなり広い範囲を問題視してるんだね。" }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            { "speaker": "host", "text": "『依存性が生じる設計』って、具体的にどういう流れなの?" },
+            { "speaker": "analyst", "text": "複数の機能が組み合わさり強迫的な利用を助長し、心身の健康問題の一因になった、という構図を州側は主張しています。" }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            { "speaker": "analyst", "text": "1つ目は無限スクロールです。コンテンツが途切れず流れ続ける設計です。" },
+            { "speaker": "host", "text": "確かに、ついつい見続けちゃう仕組みだね。" }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            { "speaker": "analyst", "text": "2つ目は通知です。利用者を頻繁にアプリへ呼び戻す設計とされています。" },
+            { "speaker": "host", "text": "通知が来ると、つい開いちゃうもんね。" }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            { "speaker": "analyst", "text": "3つ目は『いいね』機能です。承認欲求を刺激するとされています。" },
+            { "speaker": "host", "text": "反応の数が気になっちゃう心理、わかる気がする。" }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            { "speaker": "analyst", "text": "4つ目と5つ目はビジュアルフィルターとアルゴリズム推薦です。" },
+            { "speaker": "host", "text": "これで5つの機能設計が出そろったね。" }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            { "speaker": "host", "text": "州側は、これでどんな被害があったと言ってるの?" },
+            { "speaker": "analyst", "text": "若年層の心身の健康問題の一因になったと主張していますが、具体的な症例数は確認できていません。" }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            { "speaker": "analyst", "text": "そして損害賠償額。責任が認められれば最大2000億ドルに達する可能性があるとされています。" },
+            { "speaker": "host", "text": "とんでもない規模の数字だね。" }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            { "speaker": "host", "text": "その2000億ドルって、もう決まった金額なの?" },
+            { "speaker": "analyst", "text": "いいえ、あくまで州側が主張する上限の可能性です。裁判はまだ進行中で確定額ではありません。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 20,
+          "lines": [
+            { "speaker": "host", "text": "州側は裁判所に何を求めているの?" },
+            { "speaker": "analyst", "text": "年齢制限の導入、無限スクロールの廃止、プラットフォーム設計の全国的な変更を求めています。" }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            { "speaker": "host", "text": "ここまでは州側の主張だけど、Metaはどう反論してるの?" },
+            { "speaker": "analyst", "text": "ティーンエイジャー向け保護機能への投資を説明し、因果関係は立証されていないと反論しています。" }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            { "speaker": "analyst", "text": "Metaはティーンエイジャー向けの保護機能に多額の投資を行ってきたと説明しています。" },
+            { "speaker": "host", "text": "ただ、具体的な投資額までは分かってないんだね。" }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            { "speaker": "analyst", "text": "Metaは、州側が主張する被害とプラットフォームとの因果関係は立証されていないと反論しています。" },
+            { "speaker": "host", "text": "そこが裁判の核心的な争点になりそうだね。" }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            { "speaker": "host", "text": "ここまでの両者の主張、並べて整理してくれる?" },
+            { "speaker": "analyst", "text": "州側は設計変更と賠償の可能性を主張し、Metaは投資と因果関係の未立証を主張しています。どちらが正しいかはここでは判定しません。" }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            { "speaker": "analyst", "text": "裁判は開廷したばかりで6〜8週間の見込みです。判決の予測はあえてしません。" },
+            { "speaker": "host", "text": "結果を先読みせず、事実だけを伝える姿勢なんだね。" }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            { "speaker": "host", "text": "結局、確認できたことと、できてないこと、整理するとどうなる?" },
+            { "speaker": "analyst", "text": "開廷の事実や両者の主張は確認済みですが、最終的な判決や証拠の内容はまだ確認できていません。" }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            { "speaker": "analyst", "text": "このニュース、保護者・業界を追う立場・情報を受け取る立場、それぞれに意味があります。" },
+            { "speaker": "host", "text": "自分ごととして考えられる部分もありそうだね。" }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            { "speaker": "host", "text": "実際にこの話を追うとき、何に気をつければいい?" },
+            { "speaker": "analyst", "text": "『開廷』と『判決』は別物だという点、そして2000億ドルは上限の可能性だという点です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "結論",
+      "slides": [
+        {
+          "slide": 29,
+          "lines": [
+            { "speaker": "analyst", "text": "出典はNPR、US News & World Report、Spokesman-Reviewです。" },
+            { "speaker": "host", "text": "複数の大手報道機関が揃って報じているのは心強いね。" }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            { "speaker": "host", "text": "というわけで、今日はここまで。" },
+            { "speaker": "analyst", "text": "29州とMeta、両者の主張を出典付きで整理してお伝えしました。裁判はこれからです。続報にご注目ください。" }
+          ]
+        }
+      ]
+    }
+  ]
+}
