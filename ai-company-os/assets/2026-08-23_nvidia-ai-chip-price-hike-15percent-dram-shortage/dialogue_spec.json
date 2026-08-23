@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "title": "AIブームの請求書が届いた",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Fortune(2026-08-22)",
+      "24/7 Wall Street(2026-08-23)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "NvidiaがAIサーバーを値上げするって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月に報じられた話です。",
+              "source": "Fortune(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、値上げ幅は15%超です。"
+            },
+            {
+              "speaker": "host",
+              "text": "結構な値上げだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "数字から背景、影響範囲まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "鮮度の高さと、AIブームの隠れたコストという切り口に注目しました。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "数字をもう一度見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "15%超、一部では最大17%、データセンター建設コストは50億ドル増です。"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "対象のチップは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "旗艦チップVera RubinとGrace Blackwellです。",
+              "source": "Fortune(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なぜ値上げするの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "DRAM価格の急騰が主因です。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なぜメモリが不足してるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "SK Hynixの2026年分の生産能力が実質完売状態だからです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "他のメモリメーカーは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Micronは消費者向け市場から撤退し、AI向けに集中しています。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "供給不足から値上げまでの流れを図にしました。"
+            },
+            {
+              "speaker": "host",
+              "text": "AI需要がメモリ市場全体を変えてるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、価格急騰・値上げ通知・影響波及です。"
+            },
+            {
+              "speaker": "host",
+              "text": "波及先が気になるね。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "誰に値上げが通知されてるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Microsoft・Google・Oracle向けの受託製造企業に通知されています。",
+              "source": "24/7 Wall Street(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "最終的に払うのは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "クラウド大手とAI研究機関、OpenAIやAnthropicも挙げられています。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "受託製造企業とクラウド大手を対比しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "コストが順番に転嫁されていくんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "供給不足はいつまで続くの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "予測は分かれていて、2027年前半説と2029〜2030年説があります。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "1GWデータセンターで50億ドルのコスト増です。"
+            },
+            {
+              "speaker": "host",
+              "text": "大きな金額だね。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界全体ではどう見られてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIブームを支えるインフラの隠れたコストとして注目されています。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道機関によって数字は違う?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、Bloombergは15%超、The Informationは最大17%と報じています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界での位置づけは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI投資の裏側にある物理的な制約として位置づけられています。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "値上げはいつから?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2027年早期に出荷されるシステムから適用です。",
+              "source": "Fortune(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この話、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI・半導体業界動向を追う立場にとって、コスト構造の変化が具体的に分かります。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Nvidia自身の公式発表がまだ確認できていません。正直にお伝えします。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "確認できている事実と、今後の不確定要素を整理しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "続報も気になるね。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "メモリ大手はどれくらいある?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "実質3社の寡占状態です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "SK Hynix・Micron・Samsungそれぞれの動向をまとめました。"
+            },
+            {
+              "speaker": "host",
+              "text": "各社ともAI向けを優先してるんだね。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "AI企業側はどう対応するの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "料金転嫁、カスタムチップ移行、効率化など選択肢があります。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Fortune・24/7 Wall Street・Tom's Hardwareなど複数の情報源を確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI・半導体業界動向を追う立場、クラウド企業の動向に関心がある立場に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Nvidiaのサーバー値上げとAIブームのコスト構造を、出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
