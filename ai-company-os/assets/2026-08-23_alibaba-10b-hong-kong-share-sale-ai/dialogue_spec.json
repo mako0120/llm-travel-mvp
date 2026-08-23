@@ -1,0 +1,446 @@
+{
+  "meta": {
+    "title": "アリババ、香港史上最大の増資でAIに全額投入",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Investing.com(Reuters配信)(2026-08-23)",
+      "BusinessDay(2026-08-23)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "アリババがすごい規模の増資をするって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月23日発表、約102億ドル規模です。",
+              "source": "Investing.com(Reuters配信)(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、香港ドル800億、調達資金の100%をAIに投入します。"
+            },
+            {
+              "speaker": "host",
+              "text": "全額AIか。思い切ってるね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "増資の詳細から歴史的な規模、資金使途まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "鮮度の高さと、AI投資戦略を象徴する具体的な事例として注目しました。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "増資の詳しい中身は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "7億1,000万株を、直近終値から3.6%割り引いた価格で発行します。",
+              "source": "Investing.com(Reuters配信)(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "アリババってどんな会社だっけ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Eコマースとクラウド事業を軸に、近年はAI投資を強化している中国のテック大手です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どれくらいすごい規模なの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "実現すれば香港上場企業として史上最大の増資になる見通しです。",
+              "source": "Investing.com(Reuters配信)(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "世界的に見ても大きい?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年の同種の増資として世界第3位の規模になる見通しです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "香港市場での位置づけと、世界的な位置づけを対比しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "両方で記録的な規模なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "資金はどこに使われるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "半導体・インフラ・AIモデル開発を含む『フルスタックAI』への投資に100%充てるとしています。",
+              "source": "Investing.com(Reuters配信)・BusinessDay(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "発表から資金使途方針までの流れを図にしました。"
+            },
+            {
+              "speaker": "host",
+              "text": "分野別の内訳はまだ分からないんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、発表・使途方針・留保事項の確認です。"
+            },
+            {
+              "speaker": "host",
+              "text": "続報が気になるね。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "決算とも関係あるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、4〜6月期決算で設備投資計画のほぼ半分を支出済みと発表されています。",
+              "source": "BusinessDay(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AI投資の想定回収期間も、3年から2.5年に短縮する見通しです。"
+            },
+            {
+              "speaker": "host",
+              "text": "回収が早まるってことは、需要が強いんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発行価格の割引はどれくらい?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "直近終値から3.6%の割引です。",
+              "source": "Investing.com(Reuters配信)(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界的にはどう見られている?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "中国テック大手による積極的なAI投資姿勢の表明として注目されています。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今回の増資発表と決算発表を対比し、混同しないよう整理しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "別の発表内容なんだね、気をつけよう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この話、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI業界動向を追う立場にとって、投資規模を具体的に把握できます。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "世界第3位の規模というのも重要なポイントです。",
+              "source": "Investing.com(Reuters配信)(2026-08-23)"
+            },
+            {
+              "speaker": "host",
+              "text": "Alphabet、Intelに次ぐ規模か。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報を受け取る上で気をつけることは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "『発表』と『取引完了』は別の段階だと理解することが大切です。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "資金使途の分野別内訳、取引完了の確定時期などは確認できていません。正直にお伝えします。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "確認できている事実と、今後の不確定要素を整理しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "続報を待ちたいね。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "設備投資計画はすでにほぼ半分を支出済みです。",
+              "source": "BusinessDay(2026-08-23)"
+            },
+            {
+              "speaker": "host",
+              "text": "ペースが速いんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Investing.com(Reuters配信)・BusinessDayなど複数の独立したメディアが報じています。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、投資家にはどう役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "『史上最大』という見出しの規模感を、具体的な金額とともに理解する視点が役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "世界第3位の規模になる見通しです。"
+            },
+            {
+              "speaker": "host",
+              "text": "改めて聞くと大きいね。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "決算とのタイムラインを整理すると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "決算発表と今回の増資発表を時系列で整理しました。別の発表内容として区別しています。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "AI投資競争という文脈では?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "米国ビッグテックも巨額投資を続けており、世界的な投資競争の中の一つの動きです。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約102億ドル規模の増資、資金の100%をAIに。分野別内訳など未確定の点も正直にお伝えしました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

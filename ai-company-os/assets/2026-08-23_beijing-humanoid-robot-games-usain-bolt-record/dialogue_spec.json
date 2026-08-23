@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "title": "人型ロボットがボルトの100m世界記録を破った日",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg(2026-08-23)",
+      "CGTN(2026-08-22/23)",
+      "Fortune(2026-08-22)",
+      "NBC News(2026-08-22)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ロボットがボルト選手の記録を破ったって本当?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "北京の大会で2026年8月22日に起きたことです。",
+              "source": "Bloomberg(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、100m走で9.39秒。ボルト選手の世界記録9.58秒を上回りました。"
+            },
+            {
+              "speaker": "host",
+              "text": "0.19秒差か。すごいね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "大会概要から2つの記録更新、そして重要な留保事項まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "鮮度の高さと、インパクトの裏にある正確な事実関係の両方に注目しました。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "そもそもどんな大会?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "16カ国666チーム、ロボット2,056台が参加する世界ヒューマノイドロボット競技会です。",
+              "source": "Xinhua(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "開会式も派手だったみたいだね。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "36台のロボットが人間と一緒に楽器演奏をするなど、大規模なデモンストレーションがありました。",
+              "source": "CGTN(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "100m走の記録、詳しく教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "X-Humanoid製と報道されるロボットが公式レースで9.39秒を記録しました。",
+              "source": "Bloomberg・CGTN(2026-08-22/23)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "その差は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "0.19秒、ロボットが上回りました。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "他にも記録更新はあった?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、走り高跳びでも2.88mを記録し、人間の世界記録2.45mを上回りました。",
+              "source": "AP通信配信・NBC News(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ロボットの記録と、人間の世界記録を対比しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "性質が違う記録なんだよね?"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "2つの記録、まとめて見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "100m走9.39秒、走り高跳び2.88m。どちらも人間の世界記録を上回っています。",
+              "source": "Bloomberg・CGTN・ABC News(2026-08-22/23)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "大会前から今までの流れは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "準備報道から開幕、そして記録更新まで、図で整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、開幕・記録更新・留保事項の確認です。"
+            },
+            {
+              "speaker": "host",
+              "text": "留保事項、気になる。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "『世界記録』って言っていいの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ここが最も重要な留保です。国際陸連が認定した公式記録ではありません。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ロボットは競技専用に最適化されている可能性が高い点も踏まえる必要があります。"
+            },
+            {
+              "speaker": "host",
+              "text": "単純に人間より速いとは言えないんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "人間の陸上世界記録と今回のロボット記録、性質の違いを対比しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "なるほど、単純比較はできないんだ。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道に食い違いはある?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "記録を樹立したチーム名について、報道間で表記の違いがあります。正直にお伝えします。",
+              "source": "Bloomberg・CGTN・Global Times(2026-08-22/23)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "走り高跳びは前回大会から約3倍に記録が伸びました。",
+              "source": "AP通信配信・NBC News(2026-08-22)"
+            },
+            {
+              "speaker": "host",
+              "text": "1年でそんなに進歩するんだ。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界的にはどう見られている?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "中国の人型ロボット企業の急速な進展を象徴するイベントとして注目されています。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "大会全体では2,056台のロボットが参加しています。",
+              "source": "Xinhua(2026-08-22)"
+            },
+            {
+              "speaker": "host",
+              "text": "規模も相当大きいね。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Bloomberg・CGTN・Fortune・NBC・CBS・ABCなど、複数の独立したメディアが同じ事実を報じています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この話、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI・ロボティクス動向を追う立場にとって、進歩のスピードを具体的に把握できます。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "走り高跳びの差は0.43m、ロボットが上回りました。"
+            },
+            {
+              "speaker": "host",
+              "text": "こちらも結構な差だね。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "見出しを鵜呑みにしちゃダメってこと?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "そうです。記録の性質を正確に理解した上で受け取ってほしいと思います。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "記録樹立チームの正確な特定、製造コストなどは確認できていません。正直にお伝えします。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "会期は5日間、本テーマが扱うのは開幕日時点の結果のみです。"
+            },
+            {
+              "speaker": "host",
+              "text": "続きの日程も気になるね。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "前回大会との比較はどう?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "走り高跳びは0.95mから2.88mへ、参加規模も大幅に拡大しています。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "確認できている事実と、今後の不確定要素を整理しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "続報も楽しみだね。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2種目で人間の世界記録を上回りましたが、公式陸上記録ではない点を正確に理解する必要があります。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
