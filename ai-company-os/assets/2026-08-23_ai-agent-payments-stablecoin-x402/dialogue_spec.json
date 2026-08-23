@@ -1,0 +1,445 @@
+{
+  "meta": {
+    "title": "AIエージェントが「お金を払う」時代",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "CoinDesk(2026-08-22)",
+      "The Block(2026-08-20)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "AIエージェントが自分でお金を払うって本当?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月22日、CoinDeskが報じた話です。",
+              "source": "CoinDesk(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、x402は2026年通算で1億6,500万件超の決済を処理しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "そんなに動いてるんだ。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "仕組みから参加企業、安全対策まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "鮮度の高さと、決済大手が一斉に動いている業界的なインパクトに注目しました。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "x402って何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Coinbaseが提供する、AIエージェント向けの決済プロトコルです。",
+              "source": "CoinDesk(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "数字をもう一度見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "累計1億6,500万件、決済額5,000万ドル超です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "他にどんな企業が動いてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Coinbase・Circle・MoonPayが中心です。",
+              "source": "CoinDesk(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従来型の決済会社は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "VisaやMastercardも枠組みを準備しています。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "暗号資産ネイティブ企業と従来型決済大手のアプローチを対比しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "アプローチが違うんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "実際の決済の流れは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "価格確認、支払い、結果受領までが一連の流れです。",
+              "source": "CoinDesk(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、参入・実績・安全対策です。"
+            },
+            {
+              "speaker": "host",
+              "text": "安全対策が気になるね。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "エージェントの暴走、どう防ぐの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "複数の企業が同じような防衛策に収れんしています。",
+              "source": "CoinDesk(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "上限残高・承認済み販売元・取引上限・人間の承認、この4つです。"
+            },
+            {
+              "speaker": "host",
+              "text": "しっかり対策されてるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なぜステーブルコインが選ばれるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIエージェントは銀行口座を作れないからです。",
+              "source": "The Block(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "USDC建てが約99%という推計もあります。"
+            },
+            {
+              "speaker": "host",
+              "text": "ほぼ全部なんだね。ただの推計なんだよね?"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界全体ではどう広がってる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Binanceも同時期に類似の取り組みを始めています。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "人間の決済とAIエージェントの決済を対比しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "全然違う仕組みなんだね。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界的にはどう見られている?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "エージェント経済の基盤インフラとして位置づけられています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Binanceの『Agent OS』も同時期に始まりました。",
+              "source": "CoinDesk(2026-08-22)"
+            },
+            {
+              "speaker": "host",
+              "text": "競うように参入してるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "各社の役割を整理すると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "決済プロトコル・通貨発行・従来型決済網・安全機能、それぞれ違うレイヤーです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "決済額を件数で割るとどうなる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "1件あたり約0.3ドル、小口決済が中心です。これは本調査独自の計算です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この話、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI・決済業界動向を追う立場にとって、参加企業と数字が具体的に分かります。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "数字が自社発表ベースであること、原記事に直接アクセスできていないことです。正直にお伝えします。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "確認できている事実と、今後の不確定要素を整理しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "続報も気になるね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "安全対策の種類は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "主に4種類の対策が組み合わされています。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Binanceの『Agent OS』も同時期の動きです。"
+            },
+            {
+              "speaker": "host",
+              "text": "業界全体が動いてるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "各社の役割、もう一度整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "決済プロトコル、通貨発行、従来型決済網、安全機能の4つのレイヤーです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "決済大手が一斉にAIエージェント向けインフラを構築中です。自社発表の数字である点は正直にお伝えしました。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "CoinDeskとThe Blockという複数の情報源を確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "title": "砂漠のAIデータセンターが飲み込む「水」",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "The National(2026-08-22)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "砂漠でAIを動かすと水が足りなくなるって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月22日、The Nationalが報じた話です。",
+              "source": "The National(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、UAEのAI分野だけで2030年に年間610億リットルの水が必要です。"
+            },
+            {
+              "speaker": "host",
+              "text": "そんなに使うんだ。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "水不足の背景から、対策企業、投資の全体像まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "鮮度の高さと、意外性のある切り口の両方に注目しました。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで水が問題になるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "サーバーの冷却に大量の水を使う空冷方式が主流だからです。",
+              "source": "The National(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "数字をもう一度見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "年間610億リットル、削減率は最大90%、淡水化投資は534億ドルです。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "対策している企業は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Khazna・DataVolt・Alfanarが液体冷却を導入しています。",
+              "source": "The National(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "削減効果はどれくらい?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "最大90%、条件によって変動する上限値です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "空冷方式と液体冷却方式を対比しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "コストの違いもあるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "課題から対策までの流れは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "需要急増から水需要の見通し、そして対策企業の取り組みまで図にしました。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、水需要急増・対策企業・留保事項の確認です。"
+            },
+            {
+              "speaker": "host",
+              "text": "留保事項、気になる。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "液体冷却の課題は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "初期コストが高く、既存施設の改修には大規模投資が必要です。",
+              "source": "The National(2026-08-22)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "湾岸地域全体ではどれくらい投資してる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "サウジアラビアだけで約400億ドル規模のAI投資が進んでいます。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なぜAIに力を入れているの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "石油依存からの経済多角化を目指しているためです。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "淡水化投資は世界全体のほぼ半分を湾岸地域が占めています。"
+            },
+            {
+              "speaker": "host",
+              "text": "もともと水資源の投資は多いんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "予測値と実績値、混同しないよう気をつけよう。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、2030年見通しと過去の累計投資額は別の時点の数字です。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界的にはどう見られている?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIインフラ拡大の物理的な制約として注目されています。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "液体冷却は電力面でも効果があります。",
+              "source": "The National(2026-08-22)"
+            },
+            {
+              "speaker": "host",
+              "text": "水と電力、両方に効くんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この話、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIインフラ動向を追う立場にとって、物理的な制約を具体的に把握できます。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "各社の具体的な削減実績の詳細数値、現時点の実際の消費量です。正直にお伝えします。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "確認できている事実と、今後の不確定要素を整理しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "続報も気になるね。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "投資規模、もう一度見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "サウジアラビアで約400億ドルです。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "The Nationalを主要出典に、業界メディアの補足情報で裏付けています。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIインフラ・サステナビリティ・情報リテラシー、3つの立場で役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "他の地域にも参考になる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "水資源が限られる乾燥地域には参考になる可能性がありますが、具体的な波及効果は未確認です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "液体冷却企業は3社以上確認できました。"
+            },
+            {
+              "speaker": "host",
+              "text": "対策が進んでるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "対策の選択肢、まとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "液体冷却・下水処理水の活用・淡水化投資の継続、3つです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "サステナビリティの観点では?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "前向きな取り組みですが、AI需要の急増に追いつけるかは未確認です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIデータセンター拡大が水資源に与える影響と対策を、出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
