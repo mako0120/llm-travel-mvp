@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "title": "中国AG.AL、エスポーツワールドカップ2026クラブ王者に。賞金700万ドル",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "CGTN(2026-08-24)",
+      "PR Newswire(2026年8月)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "中国のAG.ALが世界一になったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、エスポーツワールドカップ2026のクラブ選手権です。",
+              "source": "CGTN(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、賞金700万ドルを獲得しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "誰を破っての優勝?"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "大会の基本情報からAG.ALの優勝、大会規模まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日前後に海外の主要メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どんな大会なの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "100か国以上から200クラブが参加した世界最大級のeスポーツ大会です。",
+              "source": "PR Newswire(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "クラブ選手権ってどういう仕組み?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "複数競技の総合成績でクラブ単位の順位を競う仕組みです。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "総賞金プールの規模、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "かなり大きな金額なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "優勝までの流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "7月6日開幕、約7週間かけて8月23日にAG.ALが総合優勝しました。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、開幕・総合順位争い・優勝です。"
+            },
+            {
+              "speaker": "host",
+              "text": "約7週間もの長丁場だったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "AG.ALはどんなチーム?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "中国のクラブチームで、2年連続王者を破っての優勝です。",
+              "source": "CGTN(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "優勝と賞金額は確定、具体的なポイント数はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "参加規模はどれくらい?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "100か国以上から200クラブ、2,000人超の選手が参加しました。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "賞金プールの内訳、表で見せます。"
+            },
+            {
+              "speaker": "host",
+              "text": "個別タイトルとクラブ選手権、ちゃんと分けて教えてね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "世界最大級の大会結果を具体的な数字とともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "個別種目の例も教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "チェス部門ではマグヌス・カールセン選手が連覇しました。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "チームファルコンズと比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2年連続王者でしたが、今回はAG.ALに敗れました。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AG.ALの合計ポイント数や選手構成の詳細はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "CGTN・PR Newswireなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "個別タイトル賞金の規模、教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "4,500万ドルで、クラブ選手権賞金とは別枠です。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道時期をまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "チェス部門から閉会式翌日まで、継続的に報じられています。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "優勝条件、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "上位8入りに加え、1種目以上の優勝が条件です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "個別タイトル優勝との違いは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "クラブ選手権は複数競技の総合成績で決まります。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AG.ALが来年連覇できるかどうかに注目が集まります。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめ、お願いできる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AG.ALの優勝を出典付きで整理してお伝えします。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "大会の開催期間、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年7月6日から8月23日まで、約7週間です。"
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "閉会式の様子は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "パリのグラン・パレで行われ、要人も出席しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "実施競技数、教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "25種目・24競技という幅広いラインナップでした。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "大会規模を表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "100か国以上、200クラブ、2,000人超の選手が参加しました。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AG.ALの優勝という事実を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

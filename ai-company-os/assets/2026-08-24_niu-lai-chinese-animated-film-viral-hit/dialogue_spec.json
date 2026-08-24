@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "title": "「下手すぎて逆に人気」中国アニメ映画Niu Lai、興収4,517万元に急増",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "NBC News(2026-08-24)",
+      "Bloomberg(2026-08-19)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "下手すぎて逆に人気の映画があるって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、中国のアニメ映画『Niu Lai』です。",
+              "source": "Bloomberg(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、興行収入が約4,517万元に急増しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "公開直後はどうだったの?"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "基本情報から逆転の経緯、制作背景まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日でも興行収入が更新され続けている進行中の話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どんな映画なの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "子牛と母牛の関係を描いた3DCGアニメーションです。",
+              "source": "Bloomberg(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "『下手すぎて逆に良い』ってどういうこと?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "完成度の低さそのものが話題になり、逆に人気を集める現象です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "公開直後の興行収入、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "ほとんど注目されてなかったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "そこからどう変わったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "SNSでの酷評が拡散のきっかけになりました。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、酷評・拡散・急増です。"
+            },
+            {
+              "speaker": "host",
+              "text": "わかりやすい流れだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "制作したのはどんな人たち?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "母親と息子の2人だけで制作しました。",
+              "source": "Bloomberg(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "興行収入の推移は確定、監督の経歴等はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どれくらい伸びたの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約1万元から約4,517万元へ、4,500倍以上です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "興行収入の推移、表で見せます。"
+            },
+            {
+              "speaker": "host",
+              "text": "実績と予測、ちゃんと分けて教えてね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "海外の逆転ヒット現象を具体的な数字とともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界内での位置づけは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "国内アニメ映画ランキングでトップ10入りしています。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "実績と予測、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "実績は約4,517万元、予測は1億3千万元台です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "監督・脚本担当の経歴や制作費の総額はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界での評価は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "投資回収率の観点でも際立って高い部類とされています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道時期を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月18日から24日まで、複数メディアが継続的に報じています。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ランキングでの位置づけ、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "国内アニメ映画興収ランキングでトップ10入りです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的な低予算映画と比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回は酷評そのものが拡散のきっかけになった、珍しいケースです。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "最終興行収入が予測値に近づくかどうかに注目が集まります。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "NBC News・Bloombergなど複数の海外メディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "投資回収率の話、もう少し詳しく。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "低予算での制作規模を踏まえると際立って高い評価です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "海外メディアの報道時期、表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月18日から24日まで、継続的に報じられています。"
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ランキングでの位置づけ、詳しく教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "低予算作品としては異例のトップ10入りです。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的な低予算映画との違いをもう一度。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "話題化せず埋もれることが多い中、今回は逆転ヒットしました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後の展開、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "予測値に近づくか注目ですが、断定的な予測はしません。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "酷評から逆転ヒットした経緯を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
