@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "title": "XPengのロボティクス事業、9億ドル超調達。評価額63億ドル超",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "PR Newswire(2026-08-24)",
+      "RoboticsTomorrow(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "XPengのロボット事業がすごい額を調達したって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、9億ドル超です。",
+              "source": "PR Newswire(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、評価額は63億ドル超になりました。"
+            },
+            {
+              "speaker": "host",
+              "text": "かなり大きな評価額だね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "資金調達の基本情報からIRONの仕様まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日に海外の主要メディア・公式発表が一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どんな企業なの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "中国のEVメーカーXPengのロボティクス事業です。",
+              "source": "PR Newswire(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "『身体性AI』ってどういうこと?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIをロボットに搭載し、現実世界でタスクを遂行させる技術分野です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "調達後評価額、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "63億ドル超って相当だね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "資金調達から量産までの流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日の調達発表から、2026年内の量産、2027年の商用出荷です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、契約締結・調達・量産加速です。"
+            },
+            {
+              "speaker": "host",
+              "text": "順を追って進んでるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "IRONの仕様、詳しく教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "全身76自由度、最大2,250TOPSの演算能力です。",
+              "source": "RoboticsTomorrow(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "調達額・評価額は確定、出資比率の詳細はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "演算能力、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Turing AIチップ3基で最大2,250TOPSです。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "投資家の顔ぶれ、表で見せます。"
+            },
+            {
+              "speaker": "host",
+              "text": "大手テック企業も参加してるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "中国の身体性AI分野の投資動向を具体的な数字とともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "『過去最大級』ってどういうこと?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "XPeng自身がそう位置づけていますが、第三者検証はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "量産と商用出荷、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年内が量産、2027年が商用出荷という違いです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "出資比率や販売価格の詳細はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "PR Newswire・RoboticsTomorrowなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "テック動向を追う人、ロボティクスに関心がある人、3つの立場で役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "全身の自由度、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "76自由度という高い可動性です。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "自動車メーカーがロボット事業をやるのは珍しい?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "他社にも見られる傾向ですが、技術転用の詳細は未確認です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "手の自由度も教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "片手21自由度で、精密な作業を想定した設計です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "仕様を表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "自由度・チップ・演算能力をまとめます。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的な調達額と比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "9億ドル超は、かなり大型な部類です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年内の量産開始が予定どおり実現するかに注目です。"
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "調達額の規模感、もう一度。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "単一ラウンドで9億ドル超という大きな規模です。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道時期をまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日から幅広く報じられています。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "初期導入先は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "まずXPengの店舗・社内キャンパスです。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "XPengロボティクスの資金調達を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
