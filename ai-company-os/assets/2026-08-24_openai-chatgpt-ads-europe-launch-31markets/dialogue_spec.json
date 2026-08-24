@@ -1,0 +1,443 @@
+{
+  "meta": {
+    "title": "ChatGPT広告、欧州31市場で本日ローンチ",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "OpenAI公式ブログ(2026-08-24)",
+      "Digiday(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ChatGPTに広告が出るようになったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、本日2026年8月24日、欧州31市場で始まりました。",
+              "source": "OpenAI公式ブログ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、過去最大の地理的拡大です。"
+            },
+            {
+              "speaker": "host",
+              "text": "31市場って一気に多いね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "本日の出来事から料金、予告との違いまで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日のローンチで、予告段階から一歩進んだ確定事実が多いからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "本日何が起きたの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "米国試験導入から6か月、31市場へ一気に展開しました。",
+              "source": "Digiday(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どれくらい大きい展開なの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "対応市場数が約9から約40へ増えました。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "この数字、もう一度見せます。約9から約40です。"
+            },
+            {
+              "speaker": "host",
+              "text": "一気に4倍以上だね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "広告が出るのはどのプラン?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Free・Goプランのみです。Plus以上は引き続き広告なしです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "米国試験導入から欧州展開までの流れを図にしました。"
+            },
+            {
+              "speaker": "host",
+              "text": "半年かけて段階的に広がったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、通知・予告・本日ローンチです。"
+            },
+            {
+              "speaker": "host",
+              "text": "着実に進んできたんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "欧州はプライバシー面で特別な対応があるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "GDPR準拠のため、パーソナライズなしの文脈連動型広告のみで始まります。",
+              "source": "Neowin(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "文脈連動型とパーソナライズ広告を対比しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "履歴を使わない方だけが今回始まったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "広告ってどう表示されるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "回答本文とは視覚的に明確に区別して表示されます。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "料金プランごとの違いは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Goは約7ユーロで広告あり、Plusは約23ユーロで広告なしです。",
+              "source": "Digiday(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Plusの金額、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "月額約23ユーロ、約27ドル相当です。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "広告を出したい企業はどうすればいいの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今のところ代理店経由のみで、セルフサーブは後日提供予定です。",
+              "source": "Digiday(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どんな代理店が関わってるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Publicis、WPP、Omnicomなど6社です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "米国試験導入からの期間、約6か月です。"
+            },
+            {
+              "speaker": "host",
+              "text": "意外と早いペースで広がったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "8月16日に扱ったテーマと何が違うの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "あちらは予告の通知メールで、開始日などは不明のままでした。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "予告時点と本日確定した事実を対比しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "全部の不明点が今日埋まったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界的にはどう見られてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "無料AIサービスの収益化モデルとして注目されています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "対象プランは何個だっけ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Free・Goの2プランのみです。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この話、視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "無料利用者は今後広告を目にするようになる可能性があります。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "広告収益額や個々の広告主企業名はまだ公表されていません。正直にお伝えします。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "確認できている事実と、今後の不確定要素を整理しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "続報が気になるね。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "OpenAI公式ブログとDigidayなど複数のメディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "無料利用者、広告業界、AI業界動向を追う人、3つの立場で役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Goプランの金額、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "月額約7ユーロで、Freeと同様に広告が表示されます。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "予告から実施へ、確定した事実を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
