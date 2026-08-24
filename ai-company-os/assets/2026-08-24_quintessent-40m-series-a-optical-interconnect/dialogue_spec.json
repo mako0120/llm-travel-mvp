@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "title": "AIデータセンターを高速・省電力に。Quintessentが40億円調達、新型レーザーの出荷開始",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Light Reading(2026年8月)",
+      "Electronics Weekly(2026年8月)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "AIデータセンター向けに新型レーザーが登場したって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、Quintessentが単一チップで8波長を生成する製品を出荷開始しました。",
+              "source": "Light Reading(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、単一チップ・単一制御が特徴です。"
+            },
+            {
+              "speaker": "host",
+              "text": "シンプルになったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "企業概要から資金調達まで、5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "調達と製品発表が同時にあった、鮮度の高い話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "調達額はいくら?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "シリーズAで40百万ドルです。",
+              "source": "Morningstar/Businesswire(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Quintessentってどんな会社?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "サンタバーバラ拠点の光接続製品を開発する企業です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "シードからシリーズAへの推移、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "2年でここまで来たんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "新型コムレーザーって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "量子ドット方式の単一チップDWDMレーザーです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "生成する波長数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8波長です。",
+              "source": "Electronics Weekly(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なぜこの技術が必要?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "InPレーザーの世界的な供給不足が背景にあります。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従来方式と何が違う?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "個別調整のレーザーの集合から、単一チップに変わりました。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "表で比較して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "光源の構成と対応する課題を整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "性能面の効果は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "データ移動を最大40%削減できるとしています。",
+              "source": "VentureBurn(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "削減率、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "最大40%だったね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "設立からの展開を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "シード、シリーズA、そして今後の3ステップです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "投資家陣は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Cycle Capital主導、Goldman Sachs系やCienaも参加しています。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "調達額は確定、量産開始時期はまだ確認できていません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "評価額や削減率の算出根拠の詳細です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "投資家は何社くらい?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "主導含め7社を超えています。",
+              "source": "Light Reading(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従来方式とコムレーザーを比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "光源の構成がシンプルになった点が違います。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界全体の背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIクラスタ拡大による光接続需要の急増があります。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Light Reading・Businesswire等の複数メディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "シードとシリーズAを比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "製品が開発段階からサンプル出荷段階に進みました。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "設立からの累計調達額は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "51.5百万ドルです。",
+              "source": "Businesswire(2024年3月・2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "対応策・同時発表・幅広い投資家陣の3点です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIインフラ・半導体領域の動向を追う人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ここまでのタイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "シードからシリーズA発表まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "調達前後で何が変わった?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "累計調達額と製品の開発段階が変化しました。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "新型レーザーの出荷開始を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
