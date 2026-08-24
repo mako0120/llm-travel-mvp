@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "title": "SHEIN、香港IPO始動。評価額はピーク時から7割減",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Euronews(2026-08-24)",
+      "Forbes(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "SHEINが香港に上場するって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、本日IPOプロセスが正式に始まりました。",
+              "source": "Euronews(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、評価額はピーク時から7割減です。"
+            },
+            {
+              "speaker": "host",
+              "text": "それはかなり大きな下落だね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "IPOの基本情報から評価額の推移、欧州市場との関係まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日に海外の主要経済メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どこに上場するの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "香港証券取引所です。",
+              "source": "Euronews・Forbes(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "IPOってそもそも何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "非公開企業が株式を上場し、一般投資家が売買できるようにすることです。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "7割減という事実、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "ピーク時から大きく変わったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "IPOまでの流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "本日開始、8月31日価格決定、9月1日取引開始予定です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、開始・評価額発表・スケジュール提示です。"
+            },
+            {
+              "speaker": "host",
+              "text": "一気に情報が出そろったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ファストファッションってどういう意味?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "トレンドを反映した衣料品を短いサイクルで大量生産・販売するモデルです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "評価額やスケジュールは確定、資金使途はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "欧州市場との関係は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "欧州はSHEINにとって最大の開示地域別市場です。",
+              "source": "Euronews(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "欧州売上比率35.4%、もう一度お見せします。"
+            },
+            {
+              "speaker": "host",
+              "text": "かなり大きな割合を占めてるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "欧州の位置づけ、表で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2025年売上148億ドルで全体の35.4%です。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "世界的企業のIPOを具体的な数字とともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "評価額が下がった理由は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "市場環境等が考えられますが、確定的な要因は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ピーク時と今回、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2022年は約1,000億ドル、今回は最大270億ドルです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "資金使途や株主構成の詳細はまだ確認できていません。正直にお伝えします。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Euronews・Forbes・RTEなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "企業動向を追う人、投資に関心がある人、正確な情報が欲しい人、3つの立場で役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "最終価格決定日、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月31日です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "評価額そのものの規模は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "最大270億ドルと、依然として大型のIPO案件です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "IPOプロセスの期間は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日開始から9月1日まで、8日間です。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "スケジュールを表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "24日開始、31日価格決定、9月1日取引開始です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的なIPOと今回、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回は7割減という大きな変動があった案件です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なぜ香港を選んだの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "具体的な選定理由は確認できていませんが、アジアの主要金融市場です。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "世界的なIPO市場での位置づけは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "最大270億ドルという、大型案件の一つに位置づけられます。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "取引開始後の株価動向に注目が集まりますが、予測はしません。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "評価額7割減という事実を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
