@@ -1,0 +1,445 @@
+{
+  "meta": {
+    "title": "山下美夢有、米女子ゴルフで9打差の完全優勝",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "日刊スポーツ(2026-08-24)",
+      "ゴルフダイジェスト・オンライン(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "山下美夢有選手、また勝ったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、しかも9打差の圧勝です。",
+              "source": "ゴルフダイジェスト・オンライン(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、今季ツアー最大のスコア差です。"
+            },
+            {
+              "speaker": "host",
+              "text": "9打差ってかなり大きいね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "優勝スコアから記録的な意味、賞金額まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日に日本の主要メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "大会はどこで開催されたの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "カナダのロイヤルメイフェアGC、CPKC女子オープンです。",
+              "source": "ゴルフダイジェスト・オンライン(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "完全優勝ってどういう意味?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "初日から一度も首位を譲らずに優勝することです。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "初日から首位独走、この事実をもう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "安定した強さだったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "優勝までの流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "初日から首位、最終日66でスコアを伸ばし、9打差で優勝しました。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、首位独走・66・9打差です。"
+            },
+            {
+              "speaker": "host",
+              "text": "テンポよく進んだんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この優勝、記録的にはどんな意味があるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "米ツアー通算4勝目、今季2勝目です。",
+              "source": "ALBA Net(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "4勝目ってどれくらいすごいの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "参戦42試合目での到達は、日本勢選手として最速記録です。",
+              "source": "スポーツ報知(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "スコアや賞金額は確定、賞金ランキング順位は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "もう一つの記録的な意味は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2年連続の複数勝利は、岡本綾子さん以来2人目の快挙です。",
+              "source": "日刊スポーツ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "初日からの独走、もう一度お見せします。"
+            },
+            {
+              "speaker": "host",
+              "text": "2021年の畑岡選手以来の完全優勝だね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "2位は誰だったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "吉田優利選手が自己最高順位で入りました。",
+              "source": "デイリースポーツ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと確認できないこと、もう一つ整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "優勝記録は確定、今後の目標コメント等は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "42試合目という数字、もう一度お見せします。"
+            },
+            {
+              "speaker": "host",
+              "text": "日本勢最速の記録なんだね。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "2位の吉田選手はどんな結果だったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "9打差ながらも単独2位で自己最高順位を記録しました。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "LPGAツアーの『日本勢最速』ってどういう仕組み?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "参戦試合数に対する通算勝利数への到達スピードを示す指標です。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "賞金額、教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "優勝が約6,559万円、2位が約4,125万円の概算です。",
+              "source": "ゴルフダイジェスト・オンライン(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "優勝賞金と2位賞金の差、もう一度お見せします。"
+            },
+            {
+              "speaker": "host",
+              "text": "約2,434万円の差なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "日本人選手の海外での活躍を、具体的な記録とともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "円換算の正確な基準日や賞金ランキング順位はまだ確認できていません。正直にお伝えします。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "42試合目という到達の速さ、もう一度お見せします。"
+            },
+            {
+              "speaker": "host",
+              "text": "日本勢の中でも際立った記録なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "岡本綾子さんの通算17勝という記録もお見せします。"
+            },
+            {
+              "speaker": "host",
+              "text": "偉大な先輩と並ぶ快挙なんだね。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "山下選手の主な記録、もう一度整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "4勝目・今季2勝目・42試合最速・2年連続複数勝利です。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "9打差の完全優勝という明るいニュースを出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "米女子ゴルフでの日本勢の勢いは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回のワンツーフィニッシュは、その勢いを象徴する結果です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後の注目点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今後の戦いぶりに期待が集まりますが、本人の具体的なコメントはまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
