@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "title": "「りくりゅう」三浦璃来・木原龍一組が婚約を発表",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "時事通信(2026-08-23)",
+      "モデルプレス(2026-08-23)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "りくりゅうペアが婚約したって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、2026年8月23日に発表されました。",
+              "source": "時事通信(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、氷上でプロポーズしたそうです。"
+            },
+            {
+              "speaker": "host",
+              "text": "2人らしいエピソードだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "婚約発表の基本情報から競技実績まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日前日に国内主要メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どうやって発表したの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "三浦選手はInstagram、木原選手はXでそれぞれ発表しました。",
+              "source": "モデルプレス(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "『りくりゅう』ってどんなペア?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2019年結成のフィギュアスケートペアです。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "五輪での金メダル、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "歴代最高スコアだったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "婚約発表までの流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "五輪金メダル、現役引退を経て、8月23日の婚約発表です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、発表・写真公開・指輪披露です。"
+            },
+            {
+              "speaker": "host",
+              "text": "順を追って発表されたんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "五輪での実績、詳しく教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ペア種目で金、団体戦で銀という実績です。",
+              "source": "JOC公式サイト(2026年)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "婚約発表は確定、結婚の時期はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ペア結成からどれくらい?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2019年結成で、約7年になります。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "主な実績、表で見せます。"
+            },
+            {
+              "speaker": "host",
+              "text": "婚約と結婚、ちゃんと分けて教えてね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "著名な五輪金メダリストの慶事を正確な事実とともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "『婚約』と『結婚』って何が違うの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "婚約は約束、結婚は入籍等の法的手続きを経た状態です。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "現役引退発表と比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "4月は競技からの引退、8月はプライベートな慶事です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "結婚の時期や交際期間の詳細はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "時事通信・モデルプレスなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "氷上プロポーズ、もう少し教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "木原選手が片膝をつく写真が公開されました。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "団体戦の実績、もう一度。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2大会連続で団体銀メダルに貢献しています。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "婚約発表の情報、表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "発表日・発表方法・公開写真をまとめました。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的な慶事報道と比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回は氷上プロポーズという競技に根差したエピソードがありました。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "結婚の発表があるかどうかに注目が集まります。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "世界選手権からの歩み、教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2023年優勝から3年で大きな節目を重ねてきました。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道時期をまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月23日から24日にかけて幅広く報じられています。"
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "主要タイトル数、教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "世界選手権・五輪ともに日本ペア初の快挙です。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の発表の特徴、もう一度。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "氷上プロポーズと五輪金メダリストという実績が注目されました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後の展開、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "結婚発表の有無に注目ですが、断定はしません。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "婚約発表という事実を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
