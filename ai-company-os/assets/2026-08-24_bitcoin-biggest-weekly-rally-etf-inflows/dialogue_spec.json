@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "title": "ビットコイン、約3年ぶりの週間上昇率。ETF資金流入が加速",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Yahoo Finance(2026-08-24)",
+      "Benzinga(2026年8月)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ビットコインが急騰したって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、週間で約22〜23%です。",
+              "source": "Yahoo Finance(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、約3年ぶりの上昇率です。"
+            },
+            {
+              "speaker": "host",
+              "text": "それはすごいね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "週間上昇の基本情報からETF資金流入まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日時点でも継続的に報じられている進行中の話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "いつからの上昇なの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月17日から21日にかけての週です。",
+              "source": "Yahoo Finance(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ショートスクイーズって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "空売りの買い戻しが価格上昇を加速させる現象です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "着手日の始値、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "前日より高いんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "急騰までの流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "強制決済、ETF流入加速、上昇継続の順です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、決済・流入・上昇です。"
+            },
+            {
+              "speaker": "host",
+              "text": "要因が重なったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ETF資金流入、詳しく教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "週間で19億ドル超、両ETF合計で約26億ドルです。",
+              "source": "Benzinga(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "週間上昇率は確定、今後の見通しはまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "強制決済の規模、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "43億ドル超という大きな規模です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "資金流入額の内訳、表で見せます。"
+            },
+            {
+              "speaker": "host",
+              "text": "対象範囲をちゃんと分けて教えてね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "暗号資産市場の大きな値動きを具体的な数字とともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "上昇の背景、もう少し詳しく。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "強制決済とETF流入が重なって上昇を支えました。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "週間上昇率と前日比、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "期間が違う指標として区別してお伝えします。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今後の見通しや規制の詳細はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Yahoo Finance・Benzingaなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "金融市場動向を追う人、資産運用に関心がある人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "着手日午前の直近値は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "7万9,106.77ドルまで上昇していました。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源間の数値のばらつきは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "22%と23%で幅があり、正直にそのままお伝えしています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "週内ピーク、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約7万9,463ドルでした。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "価格推移を表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ピーク・始値・直近値をまとめます。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的な週間値動きと比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回はETF資金流入という裏付けがある点が特徴です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ETF流入の水準、もう一度。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約10か月ぶりの高水準とされています。"
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道時期をまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月21日前後から着手日まで継続的に報じられています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ビットコインのシェアは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "暗号資産市場全体の約56.6%です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "上昇基調が続くかどうかに注目です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "週間上昇を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "title": "Nvidia決算発表(8月26日)目前。アナリスト予想は売上高920億ドル前後",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Investing.com/Reuters(2026年8月)",
+      "Tickeron(2026年8月)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Nvidiaの決算が近いって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、8月26日発表予定です。",
+              "source": "Investing.com/Reuters(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、予想は売上高約917億ドルです。"
+            },
+            {
+              "speaker": "host",
+              "text": "かなり大きな金額だね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "決算の基本情報からアナリスト予想まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日時点で決算発表を2日後に控えたタイミングだからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "会社側の見通しは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "910億ドルプラスマイナス2%です。",
+              "source": "Investing.com/Reuters(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "アナリストコンセンサスって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "複数アナリストの予想の平均値のことです。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "EPS予想、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "前年より大幅に増えてるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "決算発表までの流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ガイダンス発表、予想集計、実際の発表の順です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、ガイダンス・予想集計・発表待ちです。"
+            },
+            {
+              "speaker": "host",
+              "text": "まだ発表前の段階なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "前年同期と比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "467億ドルから約917億ドルへ、約80%増収の見通しです。",
+              "source": "Investing.com(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "予想数値は確定、実際の決算結果はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "増収率、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約80%という高い水準です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "予想数値の一覧、表で見せます。"
+            },
+            {
+              "speaker": "host",
+              "text": "主体ごとにちゃんと分けて教えてね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI業界代表企業の決算予想を具体的な数字とともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "市場の注目点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "データセンター部門の売上高が特に注目されています。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "会社ガイダンスとコンセンサス、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "コンセンサスの方がやや高めです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "実際の決算結果や株価反応はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Investing.com・Tickeronなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "投資・市場動向を追う人、AI業界動向を追う人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "前年同期の実績、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "売上高467億ドルでした。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "BofAの予想について詳しく。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "コンセンサスより高めの940億〜950億ドルです。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "予想の幅、もう一度。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "903億〜967億ドルという幅があります。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "決算情報を表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "発表日・対象四半期・予想数値をまとめます。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的な決算報道と比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回は発表前の注目度が極めて高い点が特徴です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "決算発表までの残り日数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日時点で2日です。"
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道時期をまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月の会社発表から着手日まで、継続的に予想が更新されています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "AI業界全体への影響度は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "投資動向の指標として極めて高い注目度です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "実際の結果がコンセンサスを上回るかに注目です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "予想段階の情報を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
