@@ -3,14 +3,14 @@
   "repo": "mako0120/llm-travel-mvp",
   "assetsPath": "ai-company-os/assets",
   "totals": {
-    "themes": 286,
-    "slides": 8191,
-    "withPptx": 264,
-    "withAudio": 268,
-    "withVideo": 262,
-    "timedThemes": 266,
-    "timedAudioSeconds": 90807.8,
-    "averageQualityScore": 95.4
+    "themes": 288,
+    "slides": 8251,
+    "withPptx": 266,
+    "withAudio": 269,
+    "withVideo": 263,
+    "timedThemes": 267,
+    "timedAudioSeconds": 91048.0,
+    "averageQualityScore": 95.5
   },
   "themes": [
     {
@@ -383,6 +383,47 @@
       }
     },
     {
+      "id": "2026-08-24_niu-lai-chinese-animated-film-viral-hit",
+      "date": "2026-08-24",
+      "slug": "niu-lai-chinese-animated-film-viral-hit",
+      "title": "「下手すぎて逆に人気」中国アニメ映画Niu Lai、興収4,517万元に急増",
+      "subtitle": "2026年8月24日時点——出典付きで整理する",
+      "palette": "navy_gold",
+      "footer": "AI Company OS｜出典: NBC News・Bloomberg等(2026-08-19〜24)",
+      "slides": 30,
+      "layouts": {
+        "bullets": 9,
+        "big_stat": 7,
+        "table": 5,
+        "comparison": 3,
+        "agenda": 1,
+        "cards": 1,
+        "cta": 1,
+        "diagram": 1,
+        "steps": 1,
+        "title": 1
+      },
+      "bulletsRatio": 30.0,
+      "narrationMinutes": 3.2,
+      "audioSeconds": null,
+      "qualityScore": 98,
+      "themeScore": null,
+      "videoUrl": null,
+      "artifacts": {
+        "deck_spec": true,
+        "pptx": true,
+        "narration": true,
+        "dialogue": true,
+        "audio": false,
+        "timings": false,
+        "youtube": true,
+        "canva": true,
+        "review": true,
+        "research": true,
+        "thumbnail": false
+      }
+    },
+    {
       "id": "2026-08-24_nishikori-final-grand-slam-us-open-qualifying",
       "date": "2026-08-24",
       "slug": "nishikori-final-grand-slam-us-open-qualifying",
@@ -491,6 +532,47 @@
       "qualityScore": 97,
       "themeScore": null,
       "videoUrl": "/videos/2026-08-24_chiikawa-movie-10-billion-yen-box-office.mp4",
+      "artifacts": {
+        "deck_spec": true,
+        "pptx": true,
+        "narration": true,
+        "dialogue": true,
+        "audio": true,
+        "timings": true,
+        "youtube": true,
+        "canva": true,
+        "review": true,
+        "research": true,
+        "thumbnail": false
+      }
+    },
+    {
+      "id": "2026-08-24_agal-esports-world-cup-2026-club-champion",
+      "date": "2026-08-24",
+      "slug": "agal-esports-world-cup-2026-club-champion",
+      "title": "中国AG.AL、エスポーツワールドカップ2026クラブ王者に。賞金700万ドル",
+      "subtitle": "2026年8月23〜24日発表——出典付きで整理する",
+      "palette": "cobalt_violet",
+      "footer": "AI Company OS｜出典: CGTN・PR Newswire等(2026年8月)",
+      "slides": 30,
+      "layouts": {
+        "bullets": 9,
+        "big_stat": 7,
+        "table": 5,
+        "comparison": 3,
+        "agenda": 1,
+        "cards": 1,
+        "cta": 1,
+        "diagram": 1,
+        "steps": 1,
+        "title": 1
+      },
+      "bulletsRatio": 30.0,
+      "narrationMinutes": 3.5,
+      "audioSeconds": 240.2,
+      "qualityScore": 98,
+      "themeScore": null,
+      "videoUrl": "/videos/2026-08-24_agal-esports-world-cup-2026-club-champion.mp4",
       "artifacts": {
         "deck_spec": true,
         "pptx": true,
