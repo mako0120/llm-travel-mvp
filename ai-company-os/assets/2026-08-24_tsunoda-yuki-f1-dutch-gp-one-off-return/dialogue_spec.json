@@ -1,0 +1,446 @@
+{
+  "meta": {
+    "title": "角田裕毅、準備1日で挑んだF1電撃復帰",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "motorsport.com日本版(2026-08-24)",
+      "TopNews(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "角田裕毅選手がF1に電撃参戦したって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、しかも準備はシミュレーターわずか1日でした。",
+              "source": "motorsport.com日本版(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、終始入賞圏内を争う走りでした。"
+            },
+            {
+              "speaker": "host",
+              "text": "1日の準備でそれはすごいね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "出走の経緯から決勝結果、チーム代表のコメントまで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日に日本の主要メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで角田選手が出走することになったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ハジャー選手の負傷からローソン選手が昇格し、空いた席に抜擢されました。",
+              "source": "motorsport.com日本版(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "リザーブドライバーってどんな役割?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "怪我等で出走できない時に代わる予備の選手のことです。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "初めて走るマシンだったという事実、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "それは緊張するだろうね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "出走から決勝までの流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "1戦限りの代役抜擢、予選12番手、決勝は入賞圏内を争うも11位でした。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、入賞圏内走行・コースオフ・11位です。"
+            },
+            {
+              "speaker": "host",
+              "text": "惜しい結果だったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "予選はどうだった?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "12番手で、Q3進出まで0.1秒差でした。",
+              "source": "jp.motorsport.com(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Q3進出ってどういう意味?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "予選3段階のうち上位10台のみが進出できる、重要な分岐点です。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "結果やコメントは確定、本人の直接コメントは確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "決勝の展開は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "中盤にコースオフして、終盤ガスリー選手に抜かれ11位でした。",
+              "source": "TopNews(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "11位という決勝順位、もう一度お見せします。"
+            },
+            {
+              "speaker": "host",
+              "text": "ポイント圏まであと一歩だったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "チーム代表は何と言ったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "『1戦限りの代役でこれだけの走りは素晴らしい』とコメントしました。",
+              "source": "jp.motorsport.com(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "『驚異的』という評価、もう一度お見せします。"
+            },
+            {
+              "speaker": "host",
+              "text": "かなり高い評価だったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "レース全体の結果は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "優勝はノリス選手、ホンダ新PUのアロンソ選手も9位入賞でした。",
+              "source": "オートスポーツweb(2026-08-24)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "決勝上位を整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ノリス選手優勝、2位アントネッリ選手、3位ラッセル選手でした。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "地元フェルスタッペン選手はどうだったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "1周目にクラッシュするという波乱がありました。",
+              "source": "オートスポーツweb(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "次戦はどうなるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "イタリアGPでは再びリザーブに戻ることが事実上確定的です。",
+              "source": "motorsport.com日本版(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この1戦、今後にどうつながるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "プラスの材料になり得ますが、具体的な見通しは確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "予選と決勝を比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "予選は僅差でQ3を逃し、決勝はコースオフで後退しました。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "日本人選手の海外での奮闘を具体的な事実とともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "本人の直接コメントや今後のシート獲得見通しはまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "motorsport.com日本版・TopNews・オートスポーツwebなど複数で確認しています。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の記録、もう一度整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "準備1日・予選12番手・決勝11位です。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "準備不足の中での健闘を、出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Q3まであとどれくらいだった?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "わずか0.1秒差でした。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "最後にもう一度まとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "1戦限りの代役参戦で見せた健闘を、事実と推測を区別して整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
