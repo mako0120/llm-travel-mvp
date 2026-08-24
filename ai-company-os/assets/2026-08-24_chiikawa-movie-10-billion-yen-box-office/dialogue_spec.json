@@ -1,0 +1,443 @@
+{
+  "meta": {
+    "title": "映画『ちいかわ』、公開30日で興収100億円突破",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "オリコン(2026-08-24)",
+      "ENCOUNT(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "映画『ちいかわ』、すごいことになってるって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、公開30日間で興収100億円を突破しました。",
+              "source": "ENCOUNT(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、大台到達です。"
+            },
+            {
+              "speaker": "host",
+              "text": "30日でってかなり早いね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "作品情報から興収推移、コナンとの比較まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日に日本の主要メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どんな作品なの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "『ちいかわ』にとって初の劇場アニメーション作品です。",
+              "source": "アニメ！アニメ！(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "『ちいかわ』ってどんなキャラクター?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "SNS発の人気キャラクターで、幅広いファン層を持っています。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "30日間という到達期間、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "かなりのスピードだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "興収推移の流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "初日好調、24日間で92.8億円、30日間で100億円突破です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、好スタート・92.8億円・100億円突破です。"
+            },
+            {
+              "speaker": "host",
+              "text": "着実に伸ばしていったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "興行収入ってそもそも何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "映画館でのチケット販売による総売上額のことです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "興収推移は確定、最終着地見込みは確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "初日の成績はどうだったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "22.4億円で、今シーズン3番目の好スタートでした。",
+              "source": "本調査による整理"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "22.4億円という初日興収、もう一度お見せします。"
+            },
+            {
+              "speaker": "host",
+              "text": "コナンやトイストーリーに続く成績なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "コナンとの比較はどうなってるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "24日間で92.8億円と、ほぼ同等のペースで推移しました。",
+              "source": "オリコン(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "興収推移の比較、表で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ちいかわ645万人、コナン628万人と、動員数もほぼ同等です。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "日本発コンテンツの成功例を、具体的な数値とともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "24日間の観客動員数、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "645万人です。",
+              "source": "MANTANWEB(2026-08-24)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "トイ・ストーリー5とはどう違うの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "初日興収はちいかわ22.4億円、トイストーリー5が24.1億円と僅差です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんでここまでヒットしたの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "SNSでの高い知名度が背景にあると考えられますが、詳細は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界的にはどんな意味があるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "新規IPが既存シリーズと肩を並べるペースで伸びた事例として注目されます。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "24日間の動員数の差、もう一度見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ちいかわがコナンを約17万人上回っています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "100億円到達時点の正確な動員数や最終着地見込みはまだ確認できていません。正直にお伝えします。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "オリコン・ENCOUNT・MANTANWEBなど複数のメディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "30日という到達期間、もう一度お見せします。"
+            },
+            {
+              "speaker": "host",
+              "text": "新規作品としては異例のスピードなんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "興収の区切りを表でまとめました。"
+            },
+            {
+              "speaker": "host",
+              "text": "着実に積み上げてきたのがよく分かるね。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "新規IPと既存シリーズを比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "新規作品として異例のペースで既存シリーズに並びました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後の注目点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "最終的な着地見込みが注目されますが、具体的な予定はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "公開30日での100億円突破という好調ぶりを出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "最後にもう一度まとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "確定した興収データと確認できていないことを区別してお伝えしました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
