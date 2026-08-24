@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "title": "NASAの新宇宙望遠鏡「ローマン」、8月30日打ち上げへ最終準備完了",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "NASA公式サイト(2026年8月)",
+      "Space.com(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "NASAの新しい望遠鏡が打ち上げられるって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、ローマン宇宙望遠鏡です。",
+              "source": "NASA公式サイト(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、8月30日打ち上げ予定です。"
+            },
+            {
+              "speaker": "host",
+              "text": "もうすぐなんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "打ち上げの基本情報から性能まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日にも海外メディアが続報を報じている進行中の話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どこから打ち上げるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ケネディ宇宙センターからファルコンヘビーで打ち上げです。",
+              "source": "NASA公式サイト(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "フライト・レディネス・レビューって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "打ち上げ前の最終確認の審査です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "視野角の広さ、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "ハッブルの100倍ってすごいね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "打ち上げまでの流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "リハーサル、審査完了を経て、8月30日打ち上げです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、リハーサル・審査・打ち上げ日確定です。"
+            },
+            {
+              "speaker": "host",
+              "text": "段階を追って進んでるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "望遠鏡の性能、詳しく教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "主鏡2.4mでハッブルと同サイズ、視野角は100倍です。",
+              "source": "ScienceDaily(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "打ち上げ日程や仕様は確定、天体発見予測はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "主鏡のサイズ、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2.4メートルで、ハッブルと同じです。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ハッブルとの比較、表で見せます。"
+            },
+            {
+              "speaker": "host",
+              "text": "視野角がかなり違うんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "新しい主要ミッションの準備状況を具体的な事実とともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "名前の由来を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "NASA初の主任天文学者にちなんでいます。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "リハーサルと実際の打ち上げ、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "リハーサルは確認、打ち上げは天候等で変更の可能性があります。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "天体発見の予測数値や予算はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "NASA公式・Space.comなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "宇宙科学に関心がある人、科学技術動向を追う人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "リハーサルの日、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月20日に本番同様の確認を行いました。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ファルコンヘビーについて詳しく。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "SpaceXが開発した大型ロケットです。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "審査完了日、もう一度。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月21日です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "仕様を表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "主鏡・視野角・観測波長帯をまとめます。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的な望遠鏡打ち上げと比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回は同サイズの主鏡で視野角100倍という点が特徴です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "打ち上げまでの残り日数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "審査完了から約6日です。"
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道時期をまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月20日から24日まで継続的に報じられています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "打ち上げ施設について教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ケネディ宇宙センターの発射施設39Aです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "予定どおり打ち上げられるかに注目です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "打ち上げ準備の状況を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
