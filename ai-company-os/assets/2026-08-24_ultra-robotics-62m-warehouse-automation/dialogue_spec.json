@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "title": "「次の100万台のロボット」を目指すUltra、約93億円を調達。倉庫自動化AIの中身",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "AlleyWatch(2026-08-24)",
+      "SEC EDGAR Form D(2026-08-21)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "倉庫ロボット企業が調達したって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、UltraがSEC届出で明らかになりました。",
+              "source": "AlleyWatch(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、募集総額62.1百万ドルです。"
+            },
+            {
+              "speaker": "host",
+              "text": "約93億円か。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "企業概要から届出内容まで、5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日にSEC届出が報じられた鮮度の高い話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "販売済みの金額は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "57.1百万ドルです。",
+              "source": "SEC EDGAR Form D(2026-08-21)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Ultraってどんな会社?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ニューヨーク拠点、2024年設立のロボティクス企業です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "SEC届出の内容、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "投資家53名も参加してるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Y Combinator出身ってどういうこと?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Launch YCプログラムを通じて立ち上げが発表されました。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "投資家の数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "53名です。",
+              "source": "SEC EDGAR Form D(2026-08-21)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "倉庫自動化AIロボットとは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "梱包・仕分け・キッティングを自動化するロボットです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "対象範囲を図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3つの倉庫内タスクをカバーしています。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "SEC Form Dって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "私募資金調達の際にSECへ提出する届出書です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "「次の100万台」ってどういうビジョン?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "米国の倉庫自動化に向けた大規模なビジョンです。",
+              "source": "Y Combinator公式ページ"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "設立年、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "2024年だったね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "設立からの展開を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "設立、YC立ち上げ、そして今回の届出という流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "募集総額や企業の基本情報です。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "調達額は確定、ラウンド名称や評価額はまだ確認できていません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "評価額やリード投資家名、導入実績などです。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "募集総額と販売済み額の差は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約5百万ドルです。",
+              "source": "SEC EDGAR Form D(2026-08-21)"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "SEC届出と通常の発表、何が違う?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "企業からの公式コメントを伴わない点が違います。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界全体の背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "eコマース拡大に伴う倉庫自動化需要の拡大があります。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "SEC届出とAlleyWatchの報道で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "募集総額と販売済み額を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "販売済み額は募集総額よりやや少ない金額です。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "拠点はどこ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ニューヨークです。",
+              "source": "Y Combinator公式ページ"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "YC出身・壮大なビジョン・SEC届出という3点です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI×ロボティクスの資金調達動向を追う人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ここまでのタイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "設立からSEC届出、報道まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的な倉庫ロボット企業と比べて?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ビジョンの規模が大きい点が特徴です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "SEC届出から見えた資金調達を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
