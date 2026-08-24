@@ -1,0 +1,440 @@
+{
+  "meta": {
+    "title": "『Stellar Blade』Switch 2版、新トレーラー公開",
+    "subtitle": "2026年8月24日発表——出典付きで整理する",
+    "footer": "AI Company OS｜出典: RPG Site・Nintendo Everything等(2026-08-24)",
+    "palette_preset": "forest_sand"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "『Stellar Blade』\nSwitch 2版、\n新トレーラー公開",
+      "sub": "2026年8月24日発表——出典付きで整理する",
+      "footnote": "出典: RPG Site・Nintendo Everything(2026年8月24日)",
+      "note": "2026年8月24日、SHIFT UPが『Stellar Blade Complete Edition』のNintendo Switch 2版新トレーラーを公開しました。何が明らかになったのか、出典付きで正確に整理してお届けします。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "まず結論から",
+      "stat": "Switch 2版トレーラー公開 Joy-Con 2モーション操作に対応",
+      "caption": "発売時期は「2026年後半」予定(2026年8月24日発表)",
+      "source": "RPG Site(2026-08-24)",
+      "note": "結論から確認します。『Stellar Blade Complete Edition』のSwitch 2版新トレーラーが公開され、Joy-Con 2のモーション操作に対応することが明らかになりました。"
+    },
+    {
+      "layout": "agenda",
+      "title": "本日のアジェンダ",
+      "items": [
+        "なぜ今このテーマを扱うのか",
+        "『Stellar Blade』の基本情報を確認する",
+        "今回のトレーラーの内容を確認する",
+        "『Complete Edition』の収録内容を確認する",
+        "発売時期について確認する",
+        "確認できなかったこと・まとめ"
+      ],
+      "note": "今日は6つの流れでお伝えします。作品情報から今回のトレーラー、収録内容まで、正確に事実を引用しながら整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜ今このテーマを扱うのか",
+      "lead": "本テーマを取り上げる理由です。",
+      "bullets": [
+        "着手日当日(2026年8月24日)、海外の複数のゲーム専門メディアが一斉に報じた話題である",
+        "人気タイトルの新プラットフォームへの展開という、注目度の高い出来事である",
+        "複数の独立したメディアが同じ中心事実を報じており、情報の一貫性を確認できた"
+      ],
+      "source": "RPG Site・Nintendo Everything(2026-08-24)",
+      "note": "このテーマを扱う理由です。人気タイトルの新展開に注目しました。"
+    },
+    {
+      "layout": "table",
+      "title": "『Stellar Blade』の基本情報",
+      "headers": [
+        "項目",
+        "内容"
+      ],
+      "rows": [
+        [
+          "開発元",
+          "SHIFT UP(韓国)"
+        ],
+        [
+          "ジャンル",
+          "アクションアドベンチャー"
+        ],
+        [
+          "既存プラットフォーム",
+          "PlayStation 5・PC"
+        ],
+        [
+          "今回の発表",
+          "Nintendo Switch 2版の新トレーラー"
+        ]
+      ],
+      "source": "RPG Site(2026-08-24)",
+      "note": "『Stellar Blade』の基本情報です。既にPS5・PC版が発売済みの人気タイトルです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "『Stellar Blade』とは",
+      "lead": "前提知識を確認します。",
+      "bullets": [
+        "韓国のゲーム開発会社SHIFT UPが開発したアクションアドベンチャーゲームである",
+        "2024年にPlayStation 5独占タイトルとして発売され、その後PC版も発売された",
+        "今回、Nintendo Switch 2への移植版が発表された形である"
+      ],
+      "source": "本調査による整理",
+      "note": "『Stellar Blade』とは何かを確認します。もともとPS5独占だった人気タイトルです。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "Joy-Con 2対応",
+      "stat": "モーション操作対応 Joy-Con 2の機能を一部アクティビティで活用",
+      "caption": "Switch 2版ならではの新要素",
+      "source": "RPG Site(2026-08-24)",
+      "note": "Switch 2版では、Joy-Con 2のモーション操作機能に対応することが分かりました。"
+    },
+    {
+      "layout": "diagram",
+      "title": "発表から発売までの流れ",
+      "nodes": [
+        {
+          "label": "2024年、PS5独占で発売",
+          "sublabel": "その後PC版も発売"
+        },
+        {
+          "label": "8月24日、Switch 2版新トレーラー公開",
+          "sublabel": "Joy-Con 2対応が明らかに"
+        },
+        {
+          "label": "2026年後半、Switch 2版発売予定",
+          "sublabel": "具体的な発売日は未発表"
+        }
+      ],
+      "caption": "発表から発売までの流れ",
+      "source": "RPG Site(2026-08-24)",
+      "note": "発表から発売までの流れを図にしました。"
+    },
+    {
+      "layout": "steps",
+      "title": "今回の発表の3ステップ総括",
+      "steps": [
+        {
+          "label": "1. 新トレーラー公開",
+          "text": "Switch 2版の映像を初公開"
+        },
+        {
+          "label": "2. Joy-Con 2対応を発表",
+          "text": "モーション操作に対応"
+        },
+        {
+          "label": "3. 発売時期を『2026年後半』と発表",
+          "text": "具体的な日付は未定"
+        }
+      ],
+      "note": "今回の発表を3ステップで総括しました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "「Complete Edition」とは",
+      "lead": "前提知識を確認します。",
+      "bullets": [
+        "基本のゲーム本編に加えて、追加コンテンツ(DLC)やコラボアイテム等をまとめて収録した拡張版のことである",
+        "今回のSwitch 2版はこの『Complete Edition』として発売される予定である",
+        "他プラットフォーム版との詳細な内容比較は、本調査の範囲では確認できていない"
+      ],
+      "source": "本調査による整理",
+      "note": "Complete Editionとは何かを確認します。追加コンテンツをまとめて収録した拡張版です。"
+    },
+    {
+      "layout": "comparison",
+      "title": "確定していること vs 確認できていないこと",
+      "left": {
+        "heading": "確定していること",
+        "items": [
+          "Joy-Con 2モーション操作対応",
+          "『Complete Edition』の収録内容",
+          "発売時期は『2026年後半』予定"
+        ]
+      },
+      "right": {
+        "heading": "確認できていないこと",
+        "items": [
+          "具体的な発売日",
+          "Switch 2版の価格"
+        ]
+      },
+      "note": "確定していることと、確認できていないことを対比しました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "『Complete Edition』の収録内容(1)",
+      "lead": "収録内容を確認します。",
+      "bullets": [
+        "本編に加えて拡張パックを収録している",
+        "拡張パックには『NieR:Automata』コラボDLC・『勝利の女神:NIKKE』コラボDLCが含まれる",
+        "異なるゲーム作品同士のコラボは、近年のゲーム業界でよく見られる販促手法の一つである"
+      ],
+      "source": "noisypixel.net(2026-08-24)",
+      "note": "収録内容です。他作品とのコラボDLCが含まれています。"
+    },
+    {
+      "layout": "bullets",
+      "title": "『Complete Edition』の収録内容(2)",
+      "lead": "もう一つの収録内容です。",
+      "bullets": [
+        "モバイルゲーム『勝利の女神:NIKKE』内で使えるStellar Bladeコスチュームのコードが含まれる",
+        "ドローン用コスメティックアイテムが含まれる",
+        "キャラクター「イヴ」向けの衣装が含まれる"
+      ],
+      "source": "noisypixel.net(2026-08-24)",
+      "note": "もう一つの収録内容です。ゲーム内アイテムが充実しています。"
+    },
+    {
+      "layout": "table",
+      "title": "『Complete Edition』収録内容まとめ",
+      "headers": [
+        "項目",
+        "内容"
+      ],
+      "rows": [
+        [
+          "本編",
+          "『Stellar Blade』ゲーム本編"
+        ],
+        [
+          "拡張パック",
+          "『NieR:Automata』DLC・『勝利の女神:NIKKE』DLC"
+        ],
+        [
+          "コラボアイテム",
+          "NIKKE内で使えるコスチュームコード"
+        ],
+        [
+          "その他",
+          "ドローン用コスメティック・イヴ向け衣装"
+        ]
+      ],
+      "source": "noisypixel.net(2026-08-24)",
+      "note": "収録内容をまとめました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "ゲームプレイの特徴",
+      "lead": "ゲームプレイの特徴を確認します。",
+      "bullets": [
+        "カスタマイズ可能なスキル・装備・戦闘ビルドによるキャラクター育成要素がある",
+        "本格的なボス戦を攻略する上で、この育成要素が重要になるとされる",
+        "アクションアドベンチャーとしての完成度の高さが人気の一因とみられる"
+      ],
+      "source": "RPG Site(2026-08-24)",
+      "note": "ゲームプレイの特徴です。カスタマイズ可能な育成要素が魅力の一つです。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "既存プラットフォームでの発売",
+      "stat": "既に発売済み PlayStation 5・PC版",
+      "caption": "Switch 2版はこれに続く新展開",
+      "source": "RPG Site(2026-08-24)",
+      "note": "PS5・PC版は既に発売済みで、今回のSwitch 2版はこれに続く新展開です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "視聴者にとっての意味—ゲーム動向を追う立場として",
+      "lead": "視聴者にとっての意味を確認します。",
+      "bullets": [
+        "人気タイトルの新プラットフォーム展開を、具体的な情報とともに把握できる",
+        "『Complete Edition』『コラボDLC』といったゲーム業界の用語を実例を通じて学べる",
+        "確定した情報と、確認できていないこと(発売日・価格等)を区別する視点が役立つ"
+      ],
+      "source": "本調査による整理",
+      "note": "ゲーム動向を追う立場にとっての意味です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "Switch 2への移植という動き",
+      "lead": "業界内での位置づけを確認します。",
+      "bullets": [
+        "他機種で人気を博したタイトルがNintendo Switch 2へ移植される事例が増えている",
+        "新たなプレイヤー層への訴求を狙った動きの一つと考えられる",
+        "ただし具体的な販売戦略・予測は本調査の範囲では確認できていない"
+      ],
+      "source": "本調査による整理",
+      "note": "業界内での位置づけです。推測にとどまる部分は明確に区別してお伝えします。"
+    },
+    {
+      "layout": "comparison",
+      "title": "PS5・PC版 vs Switch 2版",
+      "left": {
+        "heading": "PS5・PC版(既存)",
+        "items": [
+          "2024年から発売済み"
+        ]
+      },
+      "right": {
+        "heading": "Switch 2版(今回発表)",
+        "items": [
+          "Joy-Con 2モーション操作に対応",
+          "2026年後半発売予定"
+        ]
+      },
+      "note": "既存プラットフォームと今回発表されたSwitch 2版を対比しました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "確認できなかったこと・留保事項",
+      "lead": "正直に開示する未確認事項です。",
+      "bullets": [
+        "Switch 2版の具体的な発売日は本調査時点では未発表である",
+        "Switch 2版の価格は確認できていない",
+        "本テーマは各情報源への直接アクセスではなく、検索結果の要約に基づいて調査している"
+      ],
+      "source": "本調査による整理",
+      "note": "確認できなかったことを正直にお伝えします。"
+    },
+    {
+      "layout": "table",
+      "title": "主な情報源",
+      "headers": [
+        "メディア",
+        "報道内容"
+      ],
+      "rows": [
+        [
+          "RPG Site(2026-08-24)",
+          "Joy-Con 2対応・発売時期"
+        ],
+        [
+          "Nintendo Everything(2026-08-24)",
+          "トレーラー公開の速報"
+        ],
+        [
+          "noisypixel.net(2026-08-24)",
+          "Complete Edition収録内容の詳細"
+        ]
+      ],
+      "source": "本調査による整理",
+      "note": "複数の独立した海外ゲーム専門メディアが同一の事実を報じていることを確認しています。"
+    },
+    {
+      "layout": "cards",
+      "title": "このニュースが読者にとって意味すること",
+      "cards": [
+        {
+          "big": "1",
+          "label": "ゲーム動向を追う立場として",
+          "text": "人気タイトルの新展開を、具体的な情報とともに把握できる"
+        },
+        {
+          "big": "2",
+          "label": "Switch 2ユーザーの立場として",
+          "text": "今後のプラットフォームでの新作展開の実例として参考になる(購入推奨ではない)"
+        },
+        {
+          "big": "3",
+          "label": "情報を正確に受け取りたい立場として",
+          "text": "確定した情報と、確認できていない発売日・価格等を明確に区別する視点が役立つ"
+        }
+      ],
+      "note": "このニュースが読者にとって意味することをまとめました。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "発売時期",
+      "stat": "2026年後半予定 Switch 2版の発売時期",
+      "caption": "具体的な日付は本調査時点では未発表",
+      "source": "RPG Site・Shane the Gamer(2026-08-24)",
+      "note": "発売時期は2026年後半予定とされていますが、具体的な日付はまだ発表されていません。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "コラボDLCの数",
+      "stat": "2作品分 NieR:AutomataとNIKKEのコラボDLC",
+      "caption": "拡張パックに収録",
+      "source": "noisypixel.net(2026-08-24)",
+      "note": "拡張パックには2作品分のコラボDLCが収録されています。"
+    },
+    {
+      "layout": "table",
+      "title": "他プラットフォームとの対応状況",
+      "headers": [
+        "プラットフォーム",
+        "状況"
+      ],
+      "rows": [
+        [
+          "PlayStation 5",
+          "発売済み(2024年〜)"
+        ],
+        [
+          "PC",
+          "発売済み"
+        ],
+        [
+          "Nintendo Switch 2",
+          "2026年後半発売予定(新トレーラー公開)"
+        ]
+      ],
+      "source": "RPG Site(2026-08-24)",
+      "note": "他プラットフォームとの対応状況をまとめました。"
+    },
+    {
+      "layout": "comparison",
+      "title": "本編のみ vs Complete Edition",
+      "left": {
+        "heading": "本編のみ",
+        "items": [
+          "ゲーム本編のみ"
+        ]
+      },
+      "right": {
+        "heading": "Complete Edition(Switch 2版)",
+        "items": [
+          "本編+拡張パック(コラボDLC2種)",
+          "コラボアイテム・コスメティック類も収録"
+        ]
+      },
+      "note": "本編のみの場合とComplete Editionの違いを対比しました。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "自社コラボの活用",
+      "stat": "自社2作品を横断 『Stellar Blade』と『NIKKE』のコラボ",
+      "caption": "SHIFT UPが両作品とも開発",
+      "source": "本調査による整理",
+      "note": "『Stellar Blade』と『NIKKE』は、いずれもSHIFT UPが開発する自社作品です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "SHIFT UPという開発会社について",
+      "lead": "開発会社について確認します。",
+      "bullets": [
+        "SHIFT UPは韓国のゲーム開発会社である",
+        "『Stellar Blade』のほか、モバイルゲーム『勝利の女神:NIKKE』も同社の開発作品である",
+        "自社の複数作品をまたいだコラボ展開を行っている点が特徴的である"
+      ],
+      "source": "本調査による整理",
+      "note": "SHIFT UPという開発会社について確認します。自社作品同士のコラボを積極的に展開しています。"
+    },
+    {
+      "layout": "bullets",
+      "title": "まとめ",
+      "lead": "本編のまとめです。",
+      "bullets": [
+        "2026年8月24日、SHIFT UPが『Stellar Blade Complete Edition』のNintendo Switch 2版新トレーラーを公開した",
+        "Joy-Con 2のモーション操作に対応することが明らかになった",
+        "『Complete Edition』には本編に加え、他作品とのコラボDLC等が収録される",
+        "発売時期は『2026年後半』予定で、具体的な日付・価格は未発表である"
+      ],
+      "source": "本調査による整理",
+      "note": "本編のまとめです。『Stellar Blade Complete Edition』のSwitch 2版発表について、出典付きで整理してお伝えしました。"
+    },
+    {
+      "layout": "cta",
+      "heading": "『Stellar Blade』Switch 2版、新トレーラー公開。",
+      "sub": "2026年8月24日、SHIFT UPが『Stellar Blade Complete Edition』のNintendo Switch 2版新トレーラーを公開しました。Joy-Con 2対応という新要素を、出典付きで整理してお届けしました。",
+      "action": "research.mdで出典一覧・確認できなかったことの詳細を確認する",
+      "note": "本編は以上です。今回は『Stellar Blade Complete Edition』のSwitch 2版発表について、その中身を正確に整理してお伝えしました。数字は出典どおりに扱い、確認できなかったことは正直にお伝えしました。次回もまた出典付きでお届けします。"
+    }
+  ]
+}

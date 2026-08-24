@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "title": "『Stellar Blade』Switch 2版、新トレーラー公開",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "RPG Site(2026-08-24)",
+      "noisypixel.net(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Stellar BladeがSwitch 2に来るって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、本日新トレーラーが公開されました。",
+              "source": "RPG Site(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、Joy-Con 2のモーション操作に対応します。"
+            },
+            {
+              "speaker": "host",
+              "text": "Switch 2ならではの機能だね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "作品情報からトレーラー内容、収録内容まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日に海外の複数メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "そもそもどんなゲームなの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "韓国のSHIFT UPが開発したアクションアドベンチャーです。",
+              "source": "本調査による整理"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "既存プラットフォームは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "PS5とPCで既に発売済みです。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "Joy-Con 2対応という事実、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "モーション操作が新要素なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表から発売までの流れは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2024年PS5発売、本日新トレーラー、2026年後半にSwitch 2版発売予定です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、トレーラー公開・Joy-Con2対応・発売時期発表です。"
+            },
+            {
+              "speaker": "host",
+              "text": "情報が一気に出そろったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Complete Editionって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "本編に加えてDLCやコラボアイテムをまとめた拡張版です。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "収録内容や対応機能は確定、発売日・価格は未発表です。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "収録内容、教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "NieR:AutomataとNIKKEのコラボDLCが含まれます。",
+              "source": "noisypixel.net(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "もう一つの収録内容は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "NIKKE内で使えるコスチュームコードや衣装アイテムです。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "収録内容を表で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "本編・拡張パック・コラボアイテムの3つです。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ゲームプレイの特徴は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "カスタマイズ可能なスキル・装備による育成要素があります。",
+              "source": "RPG Site(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "既に発売済みのプラットフォーム、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "PS5とPCです。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "人気タイトルの新展開を具体的な情報とともに知ることができます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界的にはどんな意味があるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "他機種の人気タイトルがSwitch 2へ広がる動きの一つです。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "既存版と今回発表版、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "既存はPS5・PC、今回はJoy-Con2対応のSwitch 2版です。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "発売日と価格はまだ確認できていません。正直にお伝えします。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "RPG Site・Nintendo Everything・noisypixel.netなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "コラボDLCの数、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2作品分です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "他プラットフォームとの対応状況、表で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "PS5・PCは発売済み、Switch 2は2026年後半予定です。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "本編のみとComplete Edition、違いは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Complete Editionは拡張パックやコラボアイテムも含みます。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "自社コラボという点、もう一度見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Stellar BladeとNIKKEはどちらもSHIFT UP作品です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "SHIFT UPってどんな会社?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "韓国の開発会社で、NIKKEも同社の作品です。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Switch 2版新トレーラー公開を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発売時期、最後にもう一度。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年後半予定ですが具体的な日付は未発表です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "最後にもう一度まとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "確定した情報と未確認の情報を区別して整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
