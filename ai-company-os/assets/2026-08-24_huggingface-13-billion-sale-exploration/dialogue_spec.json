@@ -1,0 +1,440 @@
+{
+  "meta": {
+    "title": "Hugging Face、130億ドル超での売却を検討と報道",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "TechCrunch(2026-08-24)",
+      "Benzinga(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Hugging Faceが売却を検討してるって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、130億ドル以上での売却が報じられました。",
+              "source": "TechCrunch(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ただし、まだ検討段階で取引は未合意です。"
+            },
+            {
+              "speaker": "host",
+              "text": "決定事項ではないんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "報道の基本情報から過去の経緯まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日前後に海外の主要メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Hugging Faceってどんな企業?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIモデル・データセットを共有できるプラットフォームです。"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どんな機能があるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "有料のCompute・Enterprise向け製品も提供しています。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "2023年時点の評価額、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "そこから大きく上がったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道までの経緯を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2023年の評価額から、Nvidia提案辞退を経て今回の報道です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、評価・浮上・報道です。"
+            },
+            {
+              "speaker": "host",
+              "text": "段階を追って進んでるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Nvidiaとの経緯、詳しく教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "5億ドルの出資提案を辞退した経緯があります。",
+              "source": "TechCrunch(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "報道内容は確定、買い手候補はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "評価額、どれくらい上がったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "45億ドルから130億ドル以上、約3倍近くです。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "評価額の推移、表で見せます。"
+            },
+            {
+              "speaker": "host",
+              "text": "検討と決定、ちゃんと分けて教えてね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "重要プラットフォームの企業価値動向を具体的な数字とともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "『検討』ってどういう意味?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "取引はまだ合意されていない段階という意味です。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Nvidia提案と今回、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "5億ドル・70億ドル評価と、130億ドル以上、規模が違います。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "買い手候補や公式コメントはまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "TechCrunch・PYMNTSなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI業界動向を追う人、開発者コミュニティの人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Nvidiaの出資額、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "5億ドル、評価額70億ドル相当でした。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "辞退した理由は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "単一の支配的投資家を避けるためとされています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "評価額の下限、もう一度。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "130億ドルが下限で、それ以上の可能性があります。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道内容を表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "評価額・取引状況・買い手候補をまとめます。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的な売却報道と比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回は買い手候補が未報道という点が特徴です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "評価額水準の位置づけは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI業界の大型プラットフォームとして注目される水準です。"
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道時期をまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日に幅広く報じられています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "銀行との協力体制、教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "入札者の関心を評価するために協力しているとされます。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "実際に合意に至るかどうかに注目です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "検討段階の報道であることを含め出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
