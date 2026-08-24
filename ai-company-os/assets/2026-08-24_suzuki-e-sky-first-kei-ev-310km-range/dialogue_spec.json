@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "title": "スズキ初の軽EV「eスカイ」、航続310kmで国産最長に",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Yahoo!ニュース(2026-08-24)",
+      "Motor Fan(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "スズキが軽EVを出すって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、本日発表の『eスカイ』です。",
+              "source": "Yahoo!ニュース(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、航続310kmで国産最長です。"
+            },
+            {
+              "speaker": "host",
+              "text": "軽EVでそれはすごいね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "スペックから他社比較、今後の予定まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日に日本の主要自動車メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "基本スペックを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "航続310km、バッテリー26kWh、車重1,030kgです。",
+              "source": "Motor Fan(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "軽自動車ってそもそも何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "日本独自の車両区分で、サイズ・排気量に制限がある小型車です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "車体サイズ、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "コンパクトなサイズなんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表から発売までの流れは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "本日公開、今秋に詳細発表、発売時期は今後判明します。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、最長航続・LFP採用・快適な乗り味です。"
+            },
+            {
+              "speaker": "host",
+              "text": "こだわりが詰まってるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "LFPバッテリーって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "リン酸鉄リチウムイオン方式で、熱に強く長寿命とされています。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "スペックは確定、価格・発売日は未発表です。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "日産サクラと比べるとどうなの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "サクラより航続距離が長いとされています。",
+              "source": "Infoseek(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "スズキ初の軽乗用EVという事実、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "記念すべき第1弾なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "開発コンセプトは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "『Easy to Switch!』で、効率・実用性・快適性を重視しています。",
+              "source": "webCG(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "3要素、表で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "効率性・実用性・快適性の3つです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発売はいつ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "詳細は今秋発表予定で、本日時点では未確定です。",
+              "source": "Yahoo!ニュース(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "本日公開と今秋発表、違いを整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "本日はスペック公開、今秋は価格・発売時期の発表です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "軽EV市場の新たな選択肢を、具体的なスペックとともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "バッテリー容量、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "26kWhです。",
+              "source": "Motor Fan(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "軽EV市場全体への影響は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "市場競争を活性化させる可能性がありますが、詳細は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "発売日・価格・輸出計画の詳細はまだ確認できていません。正直にお伝えします。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Yahoo!ニュース・Motor Fan・乗りものニュースなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "車重、もう一度見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "1,030kgです。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "国産最長の航続距離という好調な発表を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "スズキ全体の戦略ではどんな位置づけ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "e VITARAに続く電動化の一環と考えられますが、詳細は確認できていません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "軽自動車という区分、もう一度説明して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "日本独自の規格で、『eスカイ』はこのEV版です。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "スペックをもう一度まとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "航続310km、26kWh、車重1,030kgです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "公開情報と今後判明する情報、整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "スペックは公開済み、価格・発売時期は今後判明します。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "最後にもう一度まとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "確定したスペックと未確定な情報を区別して整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
