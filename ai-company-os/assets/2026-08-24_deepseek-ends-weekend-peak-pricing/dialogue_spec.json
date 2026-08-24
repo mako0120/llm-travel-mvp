@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "title": "DeepSeek、週末のピーク料金を撤廃。API利用者への影響は",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg(2026-08-23)",
+      "Briefs.co(2026年8月)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "DeepSeekの料金が変わったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、週末のピーク料金を撤廃しました。",
+              "source": "Bloomberg(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、週末は終日オフピーク料金です。"
+            },
+            {
+              "speaker": "host",
+              "text": "開発者には嬉しいね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "新ルールの基本情報から開発者への影響まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月17日の導入発表からのフォローアップという話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "いつから始まったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月23日午前0時、北京時間からです。",
+              "source": "Bloomberg(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ピーク/オフピーク料金ってどういうもの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "利用集中時間帯とそうでない時間帯で料金を変える仕組みです。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "従来のピーク料金倍率、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "2倍だったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "料金体系の変遷を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月17日導入、8月23日に週末撤廃という流れです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、廃止・適用・平日維持です。"
+            },
+            {
+              "speaker": "host",
+              "text": "平日は変わらないんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "開発者への影響、詳しく教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "週末にバッチ処理をしてもコストを抑えられます。",
+              "source": "Briefs.co(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "発効日時は確定、撤廃理由の詳細はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "導入から撤廃まで、どれくらい?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約1週間という短期間です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "料金体系の比較、表で見せます。"
+            },
+            {
+              "speaker": "host",
+              "text": "変更前と変更後、ちゃんと分けて教えてね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI開発者にとって実務上参考になる情報です。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ピーク料金導入の背景、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "混雑時間帯を避けてもらう目的だったとされています。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "導入発表と撤廃発表、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "導入は8月17日、撤廃は8月23日、異なる発表です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "撤廃の具体的理由や増減収見込みはまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Bloomberg・Briefs.coなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI開発者、業界動向を追う人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "適用曜日、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "土曜日・日曜日のみです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道時期をまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月23日から継続的に報じられています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "既存のピーク料金制度、もう一度。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月17日導入で、今回はその一部見直しです。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "変更内容を表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "発効日時・対象・内容をまとめます。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的な料金改定と比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回は導入から短期間での見直しという点が特徴です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従来のピーク時間帯、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "9時から12時、14時から18時、北京時間です。"
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "精算のルールは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "発効前の利用分は従来料金で精算されます。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "変更内容まとめ、教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "週末は終日オフピーク、平日は変更なしです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "平日制度が今後も維持されるかに注目です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "週末ピーク料金撤廃を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
