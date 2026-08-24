@@ -1,0 +1,443 @@
+{
+  "meta": {
+    "title": "橋岡大樹、ボルシアMG公式戦デビューで移籍後初ゴール。強烈ヘッドで5発大勝に貢献",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "サッカーキング(2026-08-24)",
+      "フットボールチャンネル(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "橋岡選手がゴールしたって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、公式戦デビュー戦で移籍後初ゴールです。",
+              "source": "サッカーキング(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、チームは5-0で大勝しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "大勝の中でのゴールなんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "試合概要からこれまでの経緯まで、5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日に複数メディアが一斉報道した鮮度の高い話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "試合結果は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "5-0でボルシアMGの勝利です。",
+              "source": "サッカーキング(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どんな試合だったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "DFBポカール1回戦、対ショット・マインツです。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ゴールの詳細、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "ヘディングでの得点だったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "橋岡選手のこれまでの経緯は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "7月30日に移籍、8月3日に親善試合デビューでした。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ゴールの時間帯は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "前半26分です。",
+              "source": "フットボールチャンネル(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ゴールの経緯を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "シュテーガーのクロスにヘディングで反応しました。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "図で流れを見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "クロスからヘディング、ゴール左隅への流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "これまでのタイムラインは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "移籍発表、親善試合、そして公式戦初ゴールです。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "板倉滉選手も出てた?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、同じ試合に出場していました。",
+              "source": "Goal.com日本版(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "チームの得点数、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "5得点だったね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "橋岡選手のここまでの歩みは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "移籍発表、親善試合デビュー、公式戦初ゴールの3ステップです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後の見通しは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2回戦進出が決まり、今後の起用が注目されます。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "試合結果は確定、今後の起用方針はまだ確認できていません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今後の起用方針や監督のコメントです。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "先発は橋岡選手だけ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、唯一の先発でした。",
+              "source": "サッカーキング(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "親善試合と公式戦、何が違う?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "出場形態も結果も大きく異なります。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "海外組全体の文脈は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "同時期に他の日本人選手も活躍しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "サッカーキング等の複数メディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "移籍前後を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "所属リーグのレベルが大きく変わりました。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "契約期間は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2027年6月30日までです。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "公式戦初ゴール・大勝・板倉選手同時出場の3点です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "海外組を応援するファンに役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ここまでのタイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "移籍発表から公式戦初ゴールまで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "既存テーマとの違いは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "親善試合デビューから公式戦初ゴールへの進展です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "橋岡選手の公式戦初ゴールを出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

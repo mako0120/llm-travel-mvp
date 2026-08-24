@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "title": "ニュージーランド、16歳未満のSNS禁止法案を提出。違反企業には世界売上の10%の罰金も",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg(2026-08-24)",
+      "Beehive.govt.nz(2026年8月)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ニュージーランドで大きな法案が出たって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、16歳未満のSNS利用を禁止する法案です。",
+              "source": "Bloomberg(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、罰金は世界売上高の最大10%です。"
+            },
+            {
+              "speaker": "host",
+              "text": "かなり厳しい水準だね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "法案の概要から議会内の状況まで、5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日に複数メディアが一斉報道した鮮度の高い話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "対象年齢は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "16歳未満です。",
+              "source": "Beehive.govt.nz(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "法案の正式名称は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "「Social Media (Age-Restricted Users) Bill」です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "法案の主な内容、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "規制機関も新設されるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "年齢確認はどうやる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "顔認証やデジタルIDの活用が想定されています。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "罰金はどれくらい?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "世界売上高の最大10%です。",
+              "source": "Bloomberg(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "対象になるSNSは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Instagram・TikTok・Snapchat・Facebook等が例示されています。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "法案の仕組みを図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "年齢確認から利用制限までの流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "賛成・反対の政党は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ACT党とニュージーランド・ファースト党が不支持です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "首相のコメントは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "子どものメンタルヘルスへの影響を指摘しています。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "議会内の状況、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "可決は不透明なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後の流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "提出、審議、そして可決・施行という流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "規制機関の設置って?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "オンライン安全規制機関が新設されます。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "法案内容は確定、可決見通しはまだ確認できていません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "可決見通しや施行時期です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "対象プラットフォームの数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "4社を超える例が挙げられています。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "賛成と反対を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "政府と一部政党で立場が分かれています。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "他国との違いは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "詳細な比較は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Bloomberg・政府公式等の複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "現行制度と比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "年齢制限の有無が大きな違いです。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "施行時期は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "未定です。",
+              "source": "RNZ(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "禁止年齢・罰金水準・与党内の分裂の3点です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "SNS企業の規制動向を追う人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ここまでのタイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日の法案提出・報道まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "提出と可決、何が違う?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "可決はまだ確定していません。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "SNS禁止法案を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
