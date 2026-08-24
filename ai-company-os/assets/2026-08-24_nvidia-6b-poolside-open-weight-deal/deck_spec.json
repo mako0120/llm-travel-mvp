@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "title": "Nvidia、約900億円でAIスタートアップPoolsideと提携。オープンウェイトAIに本格参入",
+    "subtitle": "100名超のエンジニアがNvidiaへ——出典付きで整理する",
+    "footer": "AI Company OS｜出典: techstartups.com等(2026-08-24)",
+    "palette_preset": "forest_sand"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "Nvidiaが\n約900億円で\nPoolsideと提携",
+      "sub": "オープンウェイトAIに本格参入——出典付きで整理する",
+      "footnote": "出典: techstartups.com(2026年8月24日)",
+      "note": "半導体大手Nvidiaが、AIスタートアップPoolsideと大型の提携を発表しました。何が起きているのか、出典付きで正確に整理してお届けします。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "まず結論から",
+      "stat": "総額7億ドル ライセンス供与6億ドル+直接投資1億ドル",
+      "caption": "100名超のPoolsideエンジニアがNvidiaに合流予定",
+      "source": "techstartups.com(2026-08-24)",
+      "note": "結論から確認します。Nvidiaは技術ライセンスに6億ドル、直接投資に1億ドル、合計7億ドルを投じるとされています。"
+    },
+    {
+      "layout": "agenda",
+      "title": "本日のアジェンダ",
+      "items": [
+        "なぜ今このテーマを扱うのか",
+        "今回の契約の内容を確認する",
+        "Poolsideとは何か、基本情報を確認する",
+        "Nemotronとの関係を確認する",
+        "確認できなかったこと"
+      ],
+      "note": "本日の流れです。契約内容からPoolsideの基本情報、Nemotronとの関係、そして確認できなかったことまで整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜ今このテーマを扱うのか",
+      "bullets": [
+        "techstartups.comが2026年8月24日付で報じた鮮度の高い話題",
+        "Nvidiaがモデル開発層に本格参入するという業界構造の変化",
+        "100名超のエンジニア移籍という大規模な人材の動き"
+      ],
+      "source": "techstartups.com(2026-08-24)",
+      "note": "着手日前日に報じられた、Nvidiaの事業戦略上の大きな転換点となる話題です。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "技術ライセンスへの支払い",
+      "stat": "6億ドル Poolsideの技術ライセンス供与契約",
+      "caption": "中心はPoolsideの「Model Factory」",
+      "source": "techstartups.com(2026-08-24)",
+      "note": "Nvidiaは、Poolsideの技術をライセンス供与する契約に6億ドルを投じるとされています。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回の契約の内容",
+      "bullets": [
+        "Poolsideの技術をライセンス供与する契約(6億ドル)",
+        "Poolsideへの直接投資(1億ドル)",
+        "100名を超えるPoolsideエンジニアがNvidiaに合流見込み"
+      ],
+      "source": "techstartups.com(2026-08-24)",
+      "note": "今回の契約は、技術ライセンス供与と直接投資、そしてエンジニアの移籍という複数の要素で構成されています。"
+    },
+    {
+      "layout": "table",
+      "title": "取引の内訳",
+      "headers": [
+        "項目",
+        "金額・内容"
+      ],
+      "rows": [
+        [
+          "技術ライセンス供与",
+          "6億ドル"
+        ],
+        [
+          "Poolsideへの直接投資",
+          "1億ドル"
+        ],
+        [
+          "Poolsideのプレマネー評価額",
+          "120億ドル"
+        ],
+        [
+          "合流予定エンジニア数",
+          "100名超"
+        ]
+      ],
+      "source": "techstartups.com(2026-08-24)",
+      "note": "取引の内訳です。技術ライセンスと直接投資を合わせて総額7億ドル規模とされています。"
+    },
+    {
+      "layout": "bullets",
+      "title": "Poolsideとは",
+      "bullets": [
+        "AIモデル開発を手がけるスタートアップ",
+        "自社モデル開発に用いてきた社内システム「Model Factory」を保有",
+        "今回の契約後も独立した企業として運営を継続する方針"
+      ],
+      "source": "techstartups.com(2026-08-24)",
+      "note": "Poolsideは、独自の「Model Factory」というシステムを開発してきたAIスタートアップです。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "Poolsideのプレマネー評価額",
+      "stat": "120億ドル 直接投資前の企業価値",
+      "caption": "Nvidiaが1億ドルを投資",
+      "source": "techstartups.com(2026-08-24)",
+      "note": "今回のPoolsideへの投資は、120億ドルのプレマネー評価額を前提としているとされています。"
+    },
+    {
+      "layout": "bullets",
+      "title": "Model Factoryとは",
+      "bullets": [
+        "Poolsideが自社のAIモデル開発に用いてきた社内システム",
+        "今回の契約の中心となる技術資産",
+        "Nvidiaはこの技術をNemotronの強化に活用する狙いとされる"
+      ],
+      "source": "techstartups.com(2026-08-24)",
+      "note": "Model Factoryは、Poolsideが社内で使ってきたモデル開発システムで、今回のライセンス契約の中心です。"
+    },
+    {
+      "layout": "diagram",
+      "title": "エンジニア合流の流れ(概念図)",
+      "nodes": [
+        {
+          "label": "Poolsideのエンジニア(100名超)"
+        },
+        {
+          "label": "Nvidiaに合流"
+        },
+        {
+          "label": "Nemotron開発チーム"
+        }
+      ],
+      "caption": "Model Factoryの知見を持つ人材がNemotron開発に加わる",
+      "note": "100名を超えるPoolsideのエンジニアがNvidiaに合流し、Nemotronの開発に携わる見込みです。"
+    },
+    {
+      "layout": "table",
+      "title": "契約内容まとめ",
+      "headers": [
+        "項目",
+        "内容"
+      ],
+      "rows": [
+        [
+          "対象技術",
+          "Model Factory(Poolsideの社内モデル開発システム)"
+        ],
+        [
+          "移籍予定人材",
+          "Poolsideのエンジニア100名超"
+        ],
+        [
+          "Poolsideの今後",
+          "独立した企業として運営継続、経営陣も留まる方針"
+        ]
+      ],
+      "source": "techstartups.com(2026-08-24)",
+      "note": "契約内容をまとめると、技術ライセンスと人材の移籍が中心で、Poolside自体は独立運営を続けます。"
+    },
+    {
+      "layout": "bullets",
+      "title": "Nemotronとは",
+      "bullets": [
+        "Nvidiaが開発するオープンウェイトモデル群",
+        "今回の契約は、Nemotronの強化を狙ったものとされる",
+        "中国発モデルや他の米国製モデルへの対抗が目的とみられる"
+      ],
+      "source": "techstartups.com(2026-08-24)",
+      "note": "Nemotronは、Nvidiaが手がけるオープンウェイトモデル群で、今回の契約はその強化が目的とされています。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "合流予定のエンジニア数",
+      "stat": "100名超 PoolsideからNvidiaへ",
+      "caption": "Nemotron開発チームに合流見込み",
+      "source": "techstartups.com(2026-08-24)",
+      "note": "100名を超えるPoolsideのエンジニアがNvidiaに合流する見込みとされています。"
+    },
+    {
+      "layout": "steps",
+      "title": "契約の流れ",
+      "steps": [
+        {
+          "label": "技術ライセンス",
+          "text": "Model Factoryを6億ドルでライセンス供与"
+        },
+        {
+          "label": "直接投資",
+          "text": "Poolsideに1億ドルを投資"
+        },
+        {
+          "label": "人材合流",
+          "text": "100名超のエンジニアがNvidiaに合流"
+        }
+      ],
+      "note": "技術ライセンス、直接投資、そして人材の合流という3つの要素で構成される契約です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "対抗するモデル群",
+      "bullets": [
+        "中国発のオープンウェイトモデル(DeepSeek、Kimi K3等)",
+        "米国の他のAIモデル開発企業のモデル",
+        "Nvidiaはこれらに対抗する形でNemotronを強化する狙いとされる"
+      ],
+      "source": "techstartups.com(2026-08-24)",
+      "note": "Nvidiaは、DeepSeekやKimi K3といった中国発モデル、および米国の他のAIモデル開発企業に対抗する狙いがあるとされています。"
+    },
+    {
+      "layout": "table",
+      "title": "確定していること・確認できなかったこと",
+      "headers": [
+        "区分",
+        "内容"
+      ],
+      "rows": [
+        [
+          "確定",
+          "契約の金額・対象技術・エンジニア移籍の見込み人数"
+        ],
+        [
+          "確定",
+          "Poolsideが独立運営を継続する方針"
+        ],
+        [
+          "未確認",
+          "契約の正式完了日、Nemotronの今後のロードマップ"
+        ]
+      ],
+      "source": "research.md参照",
+      "note": "確定していることと、まだ確認できていないことを整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "確認できなかったこと",
+      "bullets": [
+        "契約の正式な完了日・具体的なクロージング時期",
+        "Nemotronの具体的な今後のロードマップ・リリース時期",
+        "今回の契約に伴うPoolside側の具体的な事業方針の変化"
+      ],
+      "note": "これらの項目は本調査の範囲では確認できておらず、推測で埋めていません。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "Poolsideへの直接投資額",
+      "stat": "1億ドル 技術ライセンスとは別の直接投資",
+      "caption": "プレマネー評価額120億ドルを前提",
+      "source": "techstartups.com(2026-08-24)",
+      "note": "技術ライセンスとは別に、Nvidiaは1億ドルをPoolsideに直接投資するとされています。"
+    },
+    {
+      "layout": "comparison",
+      "title": "ライセンス供与 vs 直接投資",
+      "left": {
+        "heading": "技術ライセンス供与",
+        "items": [
+          "金額: 6億ドル",
+          "対象: Model Factory"
+        ]
+      },
+      "right": {
+        "heading": "直接投資",
+        "items": [
+          "金額: 1億ドル",
+          "前提評価額: 120億ドル"
+        ]
+      },
+      "note": "技術ライセンス供与と直接投資は、金額も性質も異なる別々の取引です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "オープンウェイトAI業界の背景",
+      "bullets": [
+        "中国発モデルの台頭を受け、米国企業の対応が加速",
+        "半導体企業がモデル開発層に参入する動きが目立つ",
+        "オープンウェイトモデルを巡る競争が世界的に激化している"
+      ],
+      "note": "オープンウェイトモデルを巡る国際的な競争が背景にあります。"
+    },
+    {
+      "layout": "table",
+      "title": "主要出典の一覧",
+      "headers": [
+        "メディア",
+        "報道日"
+      ],
+      "rows": [
+        [
+          "techstartups.com",
+          "2026年8月24日"
+        ],
+        [
+          "National CIO Review",
+          "2026年8月"
+        ],
+        [
+          "BigGo Finance",
+          "2026年8月"
+        ]
+      ],
+      "note": "複数の独立したメディアが同一の契約内容を報じており、報道内容としての一貫性を確認しています。"
+    },
+    {
+      "layout": "comparison",
+      "title": "Nvidiaの立ち位置の変化",
+      "left": {
+        "heading": "これまで",
+        "items": [
+          "AIインフラ(半導体)を供給する立場"
+        ]
+      },
+      "right": {
+        "heading": "今回の契約後",
+        "items": [
+          "モデル開発層にも本格参入する立場"
+        ]
+      },
+      "note": "今回の契約は、Nvidiaがインフラ供給からモデル開発層への関与を強める転換点とみられます。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "Poolsideは独立運営継続",
+      "stat": "経営陣も留まる方針 独立企業として運営継続",
+      "caption": "買収ではなくライセンス供与・出資という形態",
+      "source": "techstartups.com(2026-08-24)",
+      "note": "Poolsideは今回の契約後も独立した企業として運営を継続し、経営陣も留まる方針とされています。"
+    },
+    {
+      "layout": "cards",
+      "title": "今回のニュースの3つの注目ポイント",
+      "cards": [
+        {
+          "label": "01",
+          "text": "総額7億ドル規模の技術ライセンス・投資契約"
+        },
+        {
+          "label": "02",
+          "text": "100名超のエンジニアがNvidiaに合流見込み"
+        },
+        {
+          "label": "03",
+          "text": "Nvidiaがモデル開発層への関与を強める転換点"
+        }
+      ],
+      "note": "今回のニュースの注目ポイントを3つにまとめました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "視聴者にとっての意味",
+      "bullets": [
+        "AIインフラ企業の事業戦略変化を追う人に参考になる",
+        "オープンウェイトモデルを巡る競争環境を理解する一事例になる",
+        "特定企業・製品の利用を推奨するものではない"
+      ],
+      "note": "本テーマは、AI業界の構造変化を理解する一事例として整理しています。"
+    },
+    {
+      "layout": "table",
+      "title": "タイムライン",
+      "headers": [
+        "時期",
+        "できごと"
+      ],
+      "rows": [
+        [
+          "2026年8月24日",
+          "techstartups.com等が契約内容を報道"
+        ]
+      ],
+      "note": "本件は着手日前日に報じられた鮮度の高い話題です。"
+    },
+    {
+      "layout": "comparison",
+      "title": "既存テーマとの違い",
+      "left": {
+        "heading": "既存テーマ(Poolside・Nemotron単独)",
+        "items": [
+          "各社独自のモデルリリースを扱う"
+        ]
+      },
+      "right": {
+        "heading": "本テーマ",
+        "items": [
+          "Nvidia×Poolsideの企業間提携という新しい事象"
+        ]
+      },
+      "note": "既存テーマは各社単独のモデルリリースを扱っており、本テーマは両社間の企業提携という異なる事象です。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "今日のまとめの数字",
+      "stat": "総額7億ドル Nvidia×Poolsideの技術提携",
+      "caption": "2026年8月24日時点で確認できた事実",
+      "source": "techstartups.com(2026-08-24)",
+      "note": "総額7億ドル規模の契約により、NvidiaはPoolsideの技術とエンジニアを取り込みます。"
+    },
+    {
+      "layout": "cta",
+      "heading": "出典付きで、正確に。",
+      "sub": "AI Company OSは、確認できた事実だけをお届けします",
+      "action": "次回もお楽しみに",
+      "note": "本日はNvidiaとPoolsideの提携についてお届けしました。確認できなかったことは正直に開示しています。次回もお楽しみに。"
+    }
+  ]
+}

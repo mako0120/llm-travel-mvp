@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "title": "Nvidia、約900億円でAIスタートアップPoolsideと提携。オープンウェイトAIに本格参入",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "techstartups.com(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Nvidiaが大きな提携をしたって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、AIスタートアップPoolsideと提携しました。",
+              "source": "techstartups.com(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、総額7億ドル規模の契約です。"
+            },
+            {
+              "speaker": "host",
+              "text": "約900億円か。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "契約内容からPoolsideの基本情報まで、5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日に報じられた鮮度の高い話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ライセンス費用はいくら?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "6億ドルです。",
+              "source": "techstartups.com(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "契約の内容を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ライセンス供与・直接投資・人材移籍の3要素です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "取引の内訳、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "100名超のエンジニアが動くんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Poolsideってどんな会社?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "独自のModel Factoryを持つAIスタートアップです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Poolsideの企業価値は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "プレマネー評価額120億ドルです。",
+              "source": "techstartups.com(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Model Factoryって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Poolsideの社内モデル開発システムです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "エンジニア合流の流れを見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "100名超がNemotron開発チームに加わります。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "契約内容をまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "技術・人材の両方がNvidiaに移ります。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Nemotronって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Nvidiaのオープンウェイトモデル群です。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "合流予定人数、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "100名超だったね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "契約の流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ライセンス、投資、人材合流の3ステップです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "対抗するモデルは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "DeepSeekやKimi K3等が挙げられています。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "金額は確定、完了日はまだ確認できていません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "契約の完了日やロードマップです。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "直接投資額は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "1億ドルです。",
+              "source": "techstartups.com(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ライセンスと投資を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "金額も性質も異なる別々の取引です。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界全体の背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "オープンウェイトモデルを巡る競争が背景です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "techstartups.com等の複数メディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Nvidiaの立ち位置は変わる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "インフラ供給からモデル開発層への関与が強まります。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Poolsideは今後どうなる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "独立運営を継続する方針です。",
+              "source": "techstartups.com(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "契約規模・人材移籍・立ち位置変化の3点です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIインフラ業界の動向を追う人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ここまでのタイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日の報道で明らかになりました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "既存テーマとの違いは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "各社単独のモデルリリースとは異なる企業間提携です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Nvidia×Poolsideの提携を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

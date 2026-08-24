@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "title": "都市と地方のケアを統合。Cityblock Healthが約174億円調達しHomeward Healthを買収",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "AlleyWatch(2026-08-24)",
+      "Crain's New York(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ヘルスケア企業が大きな動きをしたって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、Cityblockが調達と買収を同時発表しました。",
+              "source": "AlleyWatch(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、年換算収益22億ドル規模になります。"
+            },
+            {
+              "speaker": "host",
+              "text": "一気に規模が拡大するんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "企業概要から買収内容まで、5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日時点でも報道が続いている鮮度の高い話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "調達額はいくら?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "シリーズEで116百万ドルです。",
+              "source": "AlleyWatch(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Cityblockってどんな会社?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "成果連動型のヘルスケア提供企業です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "調達・買収の概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "買収は全株式交換なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Homeward Health買収って?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "地方向けメディケア・アドバンテージの企業です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "会員数はどれくらいになる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "都市部・地方部合わせて約20万人です。",
+              "source": "AlleyWatch(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "CORE プラットフォームって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIでケアの隙間を特定する独自システムです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "統合ケアの図を見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "都市部と地方部のケアが統合される流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "資金の使い道は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "提供体制拡大・エンジニア拡大・AI活用ソフト構築です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "統合ケアの意義は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "都市と地方の異なる医療課題に対応することです。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "買収後の年換算収益、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "22億ドルだったね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "取引の流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "調達、買収契約、そして今後の3ステップです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "買収の狙いは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "都市部・地方部を横断した提供体制の構築です。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "調達額は確定、買収の取引額はまだ確認できていません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "買収の取引額や完了時期です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "これまでの累計調達額は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "報道によれば約10億ドルとされています。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "都市部と地方部を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "医療アクセスの環境が大きく異なります。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界全体の背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "バリューベースケアへの転換が進んでいます。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AlleyWatch・Crain's New York等で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "買収前後を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "提供範囲と規模が大きく変化します。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "リード投資家は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "General Catalystです。",
+              "source": "AlleyWatch(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "同時発表・統合アプローチ・AI投資の3点です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ヘルスケア×AIの動向を追う人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ここまでのタイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月20日の報道から24日の継続報道まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "会員基盤はどう変わる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "都市部・地方部合計の規模に拡大します。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "調達と買収を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
