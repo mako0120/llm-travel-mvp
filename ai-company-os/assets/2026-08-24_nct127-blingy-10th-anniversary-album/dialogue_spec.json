@@ -1,0 +1,440 @@
+{
+  "meta": {
+    "title": "NCT 127、7人体制で迎える10周年アルバム「BLINGY」リリース",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Billboard(2026年8月)",
+      "UPI(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "NCT 127が新アルバムを出したって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、10周年記念アルバム『BLINGY』です。",
+              "source": "Billboard(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、7人体制での初アルバムです。"
+            },
+            {
+              "speaker": "host",
+              "text": "メンバーが変わったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "アルバムの基本情報からメンバー体制まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日に海外の主要音楽メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "NCT 127ってどんなグループ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "SM所属のNCTのサブユニットで、10周年を迎えました。"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "収録曲数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "全9曲収録です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "物理盤のバージョン数、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "19種類はすごいね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "10周年アルバムまでの流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "マーク脱退、ウィンウィン活動終了を経て、8月24日リリースです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、体制確定・制作・リリースです。"
+            },
+            {
+              "speaker": "host",
+              "text": "順を追って進んだんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "収録曲、詳しく教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ヒップホップからインディーポップまで幅広いジャンルです。",
+              "source": "NME(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "収録曲や体制は確定、チャート順位はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "現在のメンバー数、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "7人です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "メンバー体制の変化、表で見せます。"
+            },
+            {
+              "speaker": "host",
+              "text": "時系列でちゃんと分けて教えてね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "10周年を迎えた主要グループの最新動向を具体的に知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "10周年という節目、もう少し教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2016年結成から10年、大きな節目です。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "マーク脱退とウィンウィン活動終了、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "4月と7月、異なる時点の異なる経緯です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "初動売上やチャート順位はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Billboard・UPIなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "K-POP動向を追う人、音楽業界動向に関心がある人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "収録曲数、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "9曲です。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "物理盤の内訳、詳しく。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "フォトブックやスマートアルバムなど19種類です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "結成からの年数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "10年です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "アルバム情報を表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "名前・枚数・収録曲数・バージョン数をまとめます。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的なカムバックと比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回は体制変化後初という点が特徴です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ジャンルの幅広さ、もう一度。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "4ジャンルを横断する構成です。"
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道時期をまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日から幅広く報じられています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "何枚目のアルバム?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "7枚目のフルアルバムです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "実際のチャート順位や初動売上に注目です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "10周年アルバムを出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "meta": {
+    "title": "半導体株が軒並み下落。インテル5%安・AMD4%安、Nvidia決算控え",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "24/7 Wall St(2026-08-24)",
+      "Yahoo Finance(2026年8月)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "半導体株が下がったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、インテルは5%安でした。",
+              "source": "24/7 Wall St(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、AMDやTSMCも下落しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "軒並みなんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "株価下落の基本情報から背景要因まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日に海外の主要金融メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "決算発表前の株価変動ってどういうこと?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "投資家の思惑で関連銘柄が動く現象です。"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回はどんな状況?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Nvidia決算を控え、半導体セクター全体が動きました。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "下落ペースの規模感、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "テック株平均の2倍って大きいね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "下落までの背景を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "金利上昇・原油高・決算前という複数要因が重なりました。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、市場要因・セクター売り・決算控えです。"
+            },
+            {
+              "speaker": "host",
+              "text": "複合的な要因なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "背景要因、詳しく教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "米国債利回りの19年ぶり高水準や原油価格上昇です。",
+              "source": "24/7 Wall St(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "下落率は確定、詳細な因果関係はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Nvidia自体はどうなの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "比較的堅調に推移しているとされています。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "下落率、表で見せます。"
+            },
+            {
+              "speaker": "host",
+              "text": "銘柄ごとにちゃんと分けて教えてね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "半導体セクター全体の動向を具体的な数字とともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "予測市場の話も教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "決算上振れ確率94.5%とされています。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "既存の決算予想テーマと比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "あちらはアナリスト予想、こちらは実際の株価変動です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "具体的な株価水準や因果関係の詳細はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "24/7 Wall St・Yahoo Financeなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "市場動向を追う人、決算シーズンに関心がある人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "米国債利回り、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "5.33%、19年ぶりの高水準です。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "テック株全体との比較は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "半導体株は約2倍のペースで売られています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "決算発表予定日、もう一度。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月26日です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "背景要因を表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "金利・原油・決算タイミングをまとめます。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的な株価下落と比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回は複数銘柄が同時に下落した点が特徴です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "AMDの下落率、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "4%安でした。"
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道時期をまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日に幅広く配信されています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "TSMCの下落率も教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3%安で、3社の中では最も小さい下落幅でした。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "決算発表後の反応に注目です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "半導体株の下落を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
