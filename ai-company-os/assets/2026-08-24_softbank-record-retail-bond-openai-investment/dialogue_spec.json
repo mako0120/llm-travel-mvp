@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "title": "ソフトバンク、OpenAIの穴埋めに過去最大1兆円の個人向け社債",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ソフトバンクがまた大きな資金調達をするって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、本日2026年8月24日、約1兆円の個人向け社債発行計画が発表されました。",
+              "source": "Bloomberg(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、日本の発行体として過去最大規模です。"
+            },
+            {
+              "speaker": "host",
+              "text": "1兆円って、かなりのインパクトだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "社債の条件から資金使途、過去実績との比較まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日の発表で、金額のインパクトも大きいからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "具体的な条件は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "7年債で、想定クーポンは4.3%から4.9%です。",
+              "source": "Bloomberg(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "スケジュールは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "価格決定が9月5日、募集が9月7日から16日、発行が9月17日の予定です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "この使い道、もう一度整理します。ABB買収とOpenAI関連ローン返済です。"
+            },
+            {
+              "speaker": "host",
+              "text": "2つの大きな資金需要をまとめて調達するんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "OpenAI関連って、具体的に何のお金?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "OpenAIへの出資を先に実行するために借りていたブリッジローンの返済です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ブリッジローンから社債発行、返済までの流れを図にしました。"
+            },
+            {
+              "speaker": "host",
+              "text": "つなぎ融資を本調達で返す構図なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、発表・募集・発行です。"
+            },
+            {
+              "speaker": "host",
+              "text": "9月にかけて一気に進むんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "個人向け社債ってそもそも何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "一般の個人投資家向けに証券会社を通じて販売される債券です。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ブリッジローンってどういう意味?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "本命の資金調達までのつなぎとして借りる短期の融資のことです。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "過去の記録と比べてどれくらいすごいの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2025年の最高記録6000億円を上回る規模です。",
+              "source": "Bloomberg(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "2026年通年ではどうなるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "実現すれば年間累計2兆8000億円で、これも過去最大の見通しです。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ソフトバンクとOpenAIの関係、あらためて教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "累計600億ドル超をOpenAIに投資としてコミットしています。",
+              "source": "Bloomberg(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "この600億ドル超という数字、もう一度見せます。"
+            },
+            {
+              "speaker": "host",
+              "text": "かなり大きなコミットメントだね。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで社債という手段を選んだの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "幅広い層から資金を集められる手段で、コストを抑えられる可能性があります。ただ公式な選定理由は確認できていません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "発行条件やスケジュールは確定、格付けなどは確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界的にはどう見られてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI投資を支える資金調達手段の一つの事例として注目されています。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "想定クーポン、もう一度見せます。4.3%から4.9%です。"
+            },
+            {
+              "speaker": "host",
+              "text": "発行規模とは別の指標なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この話、視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI投資を支える資金の流れを具体的に学べる機会になります。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "信用格付けやABB買収の具体的な金額は公表されていません。正直にお伝えします。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "確認できている事実と、今後の不確定要素を整理しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "実際の需要状況が今後の焦点だね。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "現時点ではBloombergの報道が主な情報源で、他メディアでの裏付けは限定的です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "個人投資家は気をつけることある?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "これは情報提供で投資助言ではありません。購入判断は必ず募集要項など一次情報で確認してください。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "年間の発行累計、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "実現すれば2兆8000億円で過去最大の見通しです。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "償還はいつ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "7年債で、2033年9月16日償還の予定です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "資金使途、最後にもう一度整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ABBロボティクス事業買収と、OpenAI関連ローンの返済です。",
+              "source": "Bloomberg(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "過去最大の個人向け社債発行計画を、確定事実と不明点を分けて出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
