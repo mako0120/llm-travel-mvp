@@ -1,0 +1,443 @@
+{
+  "meta": {
+    "title": "ケジェルチャ、ハーフマラソン世界新記録56分51秒",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "共同通信(2026-08-24)",
+      "月刊陸上競技(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ハーフマラソンで世界記録が出たって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、56分51秒という記録です。",
+              "source": "共同通信(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、従来記録を29秒更新しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "29秒も縮めたんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "レース情報から選手の実績まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日に日本の主要メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どこで開催されたレースなの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "アルゼンチンのブエノスアイレス・シティ・ハーフマラソンです。",
+              "source": "月刊陸上競技(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ハーフマラソンってどんな種目?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "フルマラソンの半分の距離、21.0975kmを走る種目です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "29秒更新という事実、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "大幅な記録更新だったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "レース展開を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "序盤は安定ペース、終盤にペースを上げて世界新でした。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、安定通過・ペースアップ・世界新です。"
+            },
+            {
+              "speaker": "host",
+              "text": "終盤の追い上げがすごいね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ペースメーカーって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "一定のペースを保つために一緒に走る選手のことです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "記録やレース展開は確定、公式認定の有無は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "当日の天気はどうだったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "気温6度という涼しい条件でした。",
+              "source": "月刊陸上競技(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "気温6度という事実、もう一度お見せします。"
+            },
+            {
+              "speaker": "host",
+              "text": "記録が出やすい条件だったのかもね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ケジェルチャ選手の実績は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "世界選手権5000m・10000mで6大会連続入賞しています。",
+              "source": "月刊陸上競技(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "もう一つの実績は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ロンドンマラソン初挑戦で世界歴代2位の記録を残しています。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "1時間59分41秒という記録、もう一度お見せします。"
+            },
+            {
+              "speaker": "host",
+              "text": "マラソン初挑戦でその記録はすごいね。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "実績を表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "世界選手権銀メダル、五輪入賞、マラソン世界歴代2位です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "世界トップ選手のロードレースでの活躍を具体的に知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従来の記録保持者は誰だったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ウガンダのジェーコブ・キプリモ選手です。",
+              "source": "共同通信(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今後のマラソンでの活躍が期待されますが、具体的な予定は確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "公式認定の有無や賞金額はまだ確認できていません。正直にお伝えします。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "共同通信・月刊陸上競技など複数のメディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "5km地点のタイム、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "13分45秒です。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "記録の区切りを表で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "5km・10km・ラスト1kmと、着実にペースを上げていきました。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "トラックとロードレース、両方で活躍してるんだね。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、両方で世界トップクラスの結果を残しています。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "5km地点のタイム、最後にもう一度。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "13分45秒でした。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "記録の区切り、もう一度まとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "5km・10km・ラスト1km・ゴールと着実に伸ばしました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "トラックとロード、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "両方で世界トップクラスの結果を残しています。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "56分51秒の世界新記録を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
