@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "title": "正体不明のAIモデルが開発者を熱狂させた理由",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg(2026-08-23)",
+      "TechCrunch(2026-08-23)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "正体不明のAIモデルが話題って?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月23日に報じられた『Ox Alpha』の話です。",
+              "source": "Bloomberg(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、開発元は非公開のままです。"
+            },
+            {
+              "speaker": "host",
+              "text": "誰が作ったか分からないんだ。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "基本情報から正体探しの過熱、技術的手がかりまで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "鮮度の高さと、開発者コミュニティを熱狂させた珍しい現象という点に注目しました。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "基本情報は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月20日にOpenRouterに登場、約105万トークンのコンテキストウィンドウです。",
+              "source": "OpenRouter公式ページ"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "モデルの特徴は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "コーディングや長時間のエージェント的タスクに強いとされています。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "コンテキストウィンドウ、もう一度見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約105万トークンです。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なぜ正体探しが過熱したの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "開発元を伏せた『stealth』ラベルのみだったからです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "登場から報道までの流れを図にしました。"
+            },
+            {
+              "speaker": "host",
+              "text": "わずか3日間で話題になったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、登場・分析・Zhipu説の浮上です。"
+            },
+            {
+              "speaker": "host",
+              "text": "まだ公式確認はないんだよね?"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "技術的な手がかりを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "APIエラー時のスタックトレースがZhipuのパスと一致したとされています。",
+              "source": "techtimes.com等(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "他にも手がかりは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "動画エンコーダーの挙動やエラーコードの返り方も一致するとの指摘があります。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "確定していることと推測にとどまることを対比しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "ここが一番重要なポイントだね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "性能はどうなの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "コミュニティ計測でKingbench87.5%、DeepSWEは条件で63%から80%まで幅があります。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "数字にばらつきがあるんだね。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、公式スコアではない点に注意が必要です。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "無償提供はいつまで?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月27日頃に終了する見通しです。",
+              "source": "Bloomberg(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ステルスモデルって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "開発元を明かさずに公開する手法で、業界で時々見られる現象です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "情報公開型モデルとステルスモデルを対比しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "評価のされ方が全然違うんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界的にはどう見られている?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIモデル競争の激化を背景にした注目すべき現象です。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "登場から報道まで何日?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約3日間です。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この話、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI・エージェント技術動向を追う立場にとって、モデル評価の視点が学べます。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "開発元の公式確認、モデルの正式名称は確認できていません。正直にお伝えします。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "確認できている事実と、今後の不確定要素を整理しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "続報が気になるね。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Bloomberg・TechCrunchなど複数の主要メディアを確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "『99%確信』ってどういうこと?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ある研究者の個人的な分析による見解で、公式確認ではありません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "最大出力トークン数は13万トークン超です。"
+            },
+            {
+              "speaker": "host",
+              "text": "コンテキストウィンドウとは別の指標なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "技術的手がかりをもう一度整理して。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "スタックトレース・エンコーダー挙動・エラーコード、3つの根拠があります。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI技術動向、開発者、情報リテラシー、3つの立場で役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "正体不明のAIモデルを巡るコミュニティの動きを、出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
