@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "title": "錦織圭、現役最後の四大大会へ",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "日本経済新聞(2026-08-24)",
+      "THE DIGEST(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "錦織圭選手、いよいよ最後の大会なんだね?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、全米オープン予選が本日開幕しました。",
+              "source": "THE DIGEST(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、異例のワイルドカード付与です。"
+            },
+            {
+              "speaker": "host",
+              "text": "そんなに珍しいことなんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "引退の経緯からワイルドカード、予選の仕組みまで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日に日本の主要メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "引退表明はいつだったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年5月1日です。",
+              "source": "tennis365.net(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ワイルドカードってどういう仕組み?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "基準を満たさない選手にも特別に出場枠を与える制度です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "過去10年間で異例という事実、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "それだけ特別扱いってことだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "予選から本戦までの流れは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日予選開幕、27日終了、30日に本戦開幕です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、1回戦・2回戦3回戦・本戦出場権です。"
+            },
+            {
+              "speaker": "host",
+              "text": "3勝が必要なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "1回戦の相手は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "世界127位のオフナー選手です。",
+              "source": "日本経済新聞(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "対戦相手や日程は確定、試合結果はまだ出ていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "2014年の全米オープン、どうだったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ジョコビッチ選手を破り、アジア人男子初の決勝進出でした。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "アジア人男子選手初という事実、もう一度お見せします。"
+            },
+            {
+              "speaker": "host",
+              "text": "歴史的な快挙だったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "その後の成績は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2016年・2018年にも準決勝進出しています。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "成績を表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2014年準優勝、2016・2018年準決勝進出です。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "日本人選手のキャリア集大成を、具体的な事実とともに知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "既存テーマとの違いを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "以前扱った混合ダブルスとは違い、今回はシングルスの話です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ランキング推移はどうだったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "5月4日に558位、5月25日に703位まで後退しました。",
+              "source": "tennis365.net(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "日程をもう一度まとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "24日予選開幕、25日以降に1回戦、30日本戦開幕です。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "通常のケースと今回のケース、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "通常は前例がない中、今回は異例のワイルドカードでした。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この出来事、どんな意味があるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "キャリア集大成として象徴的な出来事と考えられます。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "1回戦の結果が直接の注目点ですが、まだ出ていません。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "最新ランキングや本人コメントはまだ確認できていません。正直にお伝えします。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "日本経済新聞・THE DIGEST・tennis365.netなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "日本人選手を追う人、テニスファン、正確な情報が欲しい人、3つの立場で役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "予選の日程、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "24日から27日まで、3勝で本戦出場権です。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "現役最後の四大大会という節目を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "全米オープンとの関係を最後にもう一度。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2014年準優勝を含め、特に好成績を残してきた大会です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "最後にもう一度まとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "確定した事実と確認できていないことを区別して整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
