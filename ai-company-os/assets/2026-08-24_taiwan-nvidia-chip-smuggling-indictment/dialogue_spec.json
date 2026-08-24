@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "title": "台湾、Nvidia製AIサーバーの不正輸出で9人を起訴",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg(2026-08-24)",
+      "台北タイムズ(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "台湾でAIサーバーの不正輸出があったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、9人が起訴されました。",
+              "source": "Bloomberg(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、Nvidia製チップ搭載サーバーの件です。"
+            },
+            {
+              "speaker": "host",
+              "text": "あくまで起訴段階なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "起訴の基本情報から摘発の経緯まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日に海外の主要メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どこが起訴したの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "台湾の基隆地方検察署です。",
+              "source": "台北タイムズ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "最終使用者文書ってどういうもの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "輸出時に使用場所を申告する公式文書です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "対象サーバーの総数、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "130台って結構な数だね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "摘発までの流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "虚偽文書、実際の輸出、税関による差し止めの順です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、輸出許可・実輸出・摘発です。"
+            },
+            {
+              "speaker": "host",
+              "text": "税関が最後に止めたんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "起訴された人物、詳しく教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Nvidia・Supermicro台湾支社の関係者が含まれます。",
+              "source": "台北タイムズ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "起訴の事実は確定、フルネームや裁判の見通しはまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "中国への輸出台数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "130台のうち74台です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "輸出台数の内訳、表で見せます。"
+            },
+            {
+              "speaker": "host",
+              "text": "区分ごとにちゃんと分けて教えてね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "先端半導体の輸出管理の実例を具体的に知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "税関の差し止めについて、もう少し。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "56台が日本向けの分で差し止められました。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "起訴と有罪判決、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "起訴は容疑の提起、有罪判決はまだ先の話です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "フルネームや企業の組織的関与はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Bloomberg・台北タイムズなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "国際ビジネス動向を追う人、コンプライアンスに関心がある人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "求刑の上限、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "最長6年の禁錮刑です。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "起訴容疑の内訳は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "背信行為・文書偽造・横領などが含まれます。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "横領容疑の金額も教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "100万ドル超とされています。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "起訴内容を表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "人数・容疑・金額・求刑上限をまとめます。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的な輸出規制違反と比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回は複数の輸出経路が指摘されている点が特徴です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "起訴された組織・立場は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "個人としての起訴で、企業自体の起訴ではありません。"
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道時期をまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月24日から幅広く報じられています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "起訴機関の管轄、教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "台湾の基隆地方検察署です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "実際の裁判結果に注目です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "起訴段階であることを含め出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

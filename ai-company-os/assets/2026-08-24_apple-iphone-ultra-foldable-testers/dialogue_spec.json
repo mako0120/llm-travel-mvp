@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "title": "Apple初の折りたたみ「iPhone Ultra」、先行テスターの評価が判明",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Bloomberg「Power On」(2026-08-23)",
+      "MacRumors(2026-08-23)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Appleが折りたたみiPhoneを出すって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、テスターの評価が報じられました。",
+              "source": "Bloomberg「Power On」(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、好意的な評価が多いです。"
+            },
+            {
+              "speaker": "host",
+              "text": "楽しみだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "報道の基本情報からテスター評価、課題まで、6つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日前後に海外の主要メディアが一斉に報じた話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "誰が評価したの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "少数の先行テスターです。",
+              "source": "MacRumors(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "折りたたみスマホってどんなもの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "画面を折りたためて、コンパクトにも大画面にもなる形態です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ヒンジ機構への評価、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "耐久性も好評なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道までの流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Bloombergの報道を各メディアが引用する形で広がりました。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3ステップでまとめると、携帯性・ヒンジ・カメラです。"
+            },
+            {
+              "speaker": "host",
+              "text": "良い点と課題、両方あるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "画面デザインの評価、詳しく教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "iPad風のアプリレイアウトが好評とされています。",
+              "source": "MacRumors(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることと、まだ分からないことを整理してほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "評価内容は報じられていますが、価格や発売日はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "認証方式はどうなるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "サイドボタン式Touch IDになる可能性があります。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "テスター評価、表で見せます。"
+            },
+            {
+              "speaker": "host",
+              "text": "良い点と課題、ちゃんと分けて教えてね。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "視聴者にはどう関係する?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Apple初の折りたたみ製品の評価を具体的に知ることができます。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "認証方式の変更について、もう少し。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "折りたたみ構造上の制約と考えられますが、断定はしません。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "好評点と課題、比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "携帯性やヒンジは好評、望遠レンズ非搭載が課題です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "価格や正式名称、発売日の詳細はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Bloomberg・MacRumorsなど複数で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "テック動向を追う人、買い替えを検討する人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発売予定時期、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年9月と報じられています。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "折りたたみ市場での位置づけは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "他社は既に参入済みで、Apple参入は大きな注目点です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "テスターの人数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "少数とされ、具体的な人数は非公表です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道内容を表でまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "好評点・課題・認証方式・発売時期をまとめます。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的なリーク報道と比べてほしいな。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回は実際の使用テスターの評価という点が特徴です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源の性質、もう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Apple関連報道で実績のあるBloomberg記者です。"
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "報道時期をまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月23日から24日にかけて幅広く報じられています。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "市場での注目度は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Apple初参入として極めて高い注目度です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "9月の正式発表の内容に注目です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "テスター評価を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
