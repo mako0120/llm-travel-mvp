@@ -1,0 +1,443 @@
+{
+  "meta": {
+    "title": "老舗マーテックに挑む。Queen Oneが約37億円調達しAI商取引CRMを拡大",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "AlleyWatch(2026年8月)",
+      "VentureBurn(2026年8月)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "コマーステック企業が調達したって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、Queen Oneが累計37.5百万ドル超です。",
+              "source": "AlleyWatch(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、老舗マーテックへの挑戦です。"
+            },
+            {
+              "speaker": "host",
+              "text": "意欲的な会社だね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "企業概要から製品の仕組みまで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "発表から日数は経つものの、継続的に注目される話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の調達額は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "25百万ドルです。",
+              "source": "AlleyWatch(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Queen Oneってどんな会社?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ブルックリン拠点のコマーステック企業です。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "調達概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "累計37.5百万ドル超なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "コマースCRMって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "複数機能を統合したAI統治型プラットフォームです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "コスト削減目標は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "50〜75%削減を掲げています。",
+              "source": "AlleyWatch(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "拠点・規模は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ウィリアムズバーグに大規模な本社を構えています。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "仕組みを図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "複数機能を単一プラットフォームに統合する流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "資金の使い道は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "営業拡大・AI投資・新規広告事業の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "創業者はどんな人?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Wunderkindの元幹部2名です。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "創業者の実績、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "350億ドル超の帰属売上だったね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "成長の流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "創業、本社開設、そして今回の調達という流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "パートナー・従業員の規模は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "300社超のパートナー、140名超の従業員です。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "調達額は確定、企業評価額はまだ確認できていません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ラウンド名称や企業評価額です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "本社面積は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約30,000平方フィートです。",
+              "source": "AlleyWatch(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従来型と比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "単一プラットフォームでの統合が特徴です。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界全体の背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI統合プラットフォームへの投資が拡大しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AlleyWatch等の複数メディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "調達前後を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "累計調達額が大きく拡大しました。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ローンチパートナー数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "300社超です。",
+              "source": "AlleyWatch(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "老舗への挑戦・AI統合・既存の実績の3点です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI×マーケティングテックの動向を追う人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月19日の発表から継続的な注目まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従業員数はどう変わる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "現在140名超からさらなる拡大が見込まれます。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Queen Oneの資金調達を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
