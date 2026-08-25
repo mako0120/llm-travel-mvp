@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "title": "Team Spirit、3度目のAegis獲得。Dota 2最高峰大会「The International 2026」制覇",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "GosuGamers(2026年8月)",
+      "gHacks Tech News(2026-08-13)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Dota 2の世界大会で何かあったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、Team Spiritが3度目の優勝です。",
+              "source": "GosuGamers(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、3度目のAegis獲得です。"
+            },
+            {
+              "speaker": "host",
+              "text": "すごい記録だね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "大会概要から決勝結果、賞金まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "決勝翌日にかけて複数メディアが一斉報道した話題だからです。",
+              "source": "GosuGamers(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "開催期間は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月13日から23日までです。",
+              "source": "gHacks Tech News(2026-08-13)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "大会の概要を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Dota 2の世界最高峰大会が上海で開催されました。",
+              "source": "GosuGamers(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "決勝結果、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "Team SpiritがTEAM VISIONを下したんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Aegis of Championsって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "優勝チームに贈られる最高峰のトロフィーです。",
+              "source": "Liquipedia Dota 2 Wiki(2026年8月)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "総賞金額は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3.33百万ドルです。",
+              "source": "gHacks Tech News(2026-08-13)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "優勝賞金は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Team Spiritには1.4百万ドルが贈られました。",
+              "source": "gHacks Tech News(2026-08-13)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "大会の流れを図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "グループステージからメインイベント、決勝という流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "大会構成を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "グループステージ16チーム、メインイベント8チームです。",
+              "source": "gHacks Tech News(2026-08-13)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "グループステージの詳細は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "スイス形式で8月13日から16日まで行われました。",
+              "source": "gHacks Tech News(2026-08-13)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "メインイベント進出チーム数、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "8チームだったね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "決勝までの道のりは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "グループステージ、メインイベント、決勝という流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "決勝戦の詳細は分かる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "対戦カードは分かりますが、具体的なスコアは未確認です。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "優勝チームは確定、決勝スコアはまだ確認できていません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "過去の優勝時期や決勝スコアの詳細です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "開催都市は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "中国・上海です。",
+              "source": "gHacks Tech News(2026-08-13)"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "グループステージとメインイベントを比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "参加チーム数も期間も異なります。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "eスポーツ界での位置づけは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Dota 2界最大規模の大会として注目されています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3つの独立したメディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "総賞金額と優勝賞金を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "総額3.33百万ドルと優勝賞金1.4百万ドル、異なる数字です。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Team Spiritの実績は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回で3度目のAegis獲得となりました。",
+              "source": "GosuGamers(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3度目の優勝・大規模賞金・上海開催の3点です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "eスポーツ・Dota 2ファンに役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月13日の開幕から23日の決勝まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "過去の優勝と比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "過去の詳細は未確認ですが、今回で3度目です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Team Spiritの3度目の優勝を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

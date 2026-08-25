@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "title": "Team Spirit、3度目のAegis獲得。Dota 2最高峰大会「The International 2026」制覇",
+    "subtitle": "上海の頂点——出典付きで整理する",
+    "footer": "AI Company OS｜出典: GosuGamers等(2026年8月)",
+    "palette_preset": "slate_azure"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "Team Spirit\n3度目のAegis獲得\nTI2026制覇",
+      "sub": "上海の頂点——出典付きで整理する",
+      "footnote": "出典: GosuGamers(2026年8月)",
+      "note": "Dota 2最高峰大会The International 2026で、Team Spiritが3度目の優勝を果たしました。何が起きたのか、出典付きで正確に整理してお届けします。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "まず結論から",
+      "stat": "3度目のAegis of Champions獲得",
+      "caption": "Team Spirit、The International 2026優勝",
+      "source": "GosuGamers(2026年8月)",
+      "note": "結論から確認します。Team Spiritが決勝でTEAM VISIONを下し、3度目のAegis of Champions獲得を果たしました。"
+    },
+    {
+      "layout": "agenda",
+      "title": "本日のアジェンダ",
+      "items": [
+        "なぜ今このテーマを扱うのか",
+        "大会の概要を確認する",
+        "決勝の結果を確認する",
+        "大会の構成・賞金を確認する",
+        "確認できなかったこと"
+      ],
+      "note": "本日の流れです。大会概要から決勝結果、賞金構成、そして確認できなかったことまで整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜ今このテーマを扱うのか",
+      "bullets": [
+        "GosuGamers等が決勝翌日にかけて一斉報道",
+        "Dota 2最高峰大会での3度目の優勝という節目",
+        "総額3.33百万ドルという大規模賞金大会"
+      ],
+      "source": "GosuGamers(2026年8月)",
+      "note": "決勝翌日にかけて複数メディアが報じた、鮮度の高い話題です。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "開催期間",
+      "stat": "2026年8月13日〜23日",
+      "caption": "中国・上海 Oriental Sports Centerにて開催",
+      "source": "gHacks Tech News(2026-08-13)",
+      "note": "The International 2026は、2026年8月13日から23日まで、中国・上海で開催されました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "大会の概要",
+      "bullets": [
+        "Dota 2の世界最高峰大会「The International 2026」(TI2026)",
+        "開催地は中国・上海のOriental Sports Center",
+        "決勝でTeam SpiritがTEAM VISIONを下し優勝"
+      ],
+      "source": "GosuGamers(2026年8月)",
+      "note": "The International 2026は、Dota 2の世界最高峰大会として上海で開催されました。"
+    },
+    {
+      "layout": "table",
+      "title": "決勝結果概要",
+      "headers": [
+        "項目",
+        "内容"
+      ],
+      "rows": [
+        [
+          "優勝",
+          "Team Spirit"
+        ],
+        [
+          "準優勝",
+          "TEAM VISION"
+        ],
+        [
+          "獲得タイトル",
+          "3度目のAegis of Champions"
+        ]
+      ],
+      "source": "GosuGamers(2026年8月)",
+      "note": "決勝結果です。Team SpiritがTEAM VISIONを下し、優勝しました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "Aegis of Championsとは",
+      "bullets": [
+        "The International優勝チームに贈られるトロフィー",
+        "Dota 2界で最高峰の栄誉とされる",
+        "Team Spiritにとって今回が3度目の獲得"
+      ],
+      "source": "Liquipedia Dota 2 Wiki(2026年8月)",
+      "note": "Aegis of Championsは、The International優勝チームに贈られる最高峰のトロフィーです。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "総賞金額",
+      "stat": "3.33百万ドル",
+      "caption": "大会全体の総賞金額",
+      "source": "gHacks Tech News(2026-08-13)",
+      "note": "大会全体の総賞金額は3.33百万ドルでした。"
+    },
+    {
+      "layout": "bullets",
+      "title": "優勝賞金",
+      "bullets": [
+        "優勝したTeam Spiritには1.4百万ドルが贈られた",
+        "総賞金額(3.33百万ドル)とは異なる範囲の数字",
+        "上位チームにも賞金が分配される仕組み"
+      ],
+      "source": "gHacks Tech News(2026-08-13)",
+      "note": "優勝したTeam Spiritには、総賞金額とは別枠として1.4百万ドルが贈られました。"
+    },
+    {
+      "layout": "diagram",
+      "title": "大会の流れ(概念図)",
+      "nodes": [
+        {
+          "label": "グループステージ(16チーム)"
+        },
+        {
+          "label": "メインイベント(8チーム)"
+        },
+        {
+          "label": "決勝(Team Spirit優勝)"
+        }
+      ],
+      "caption": "2段階構成で進行",
+      "note": "大会はグループステージからメインイベント、そして決勝という2段階構成で進行しました。"
+    },
+    {
+      "layout": "table",
+      "title": "大会構成",
+      "headers": [
+        "フェーズ",
+        "期間",
+        "参加チーム数"
+      ],
+      "rows": [
+        [
+          "グループステージ",
+          "8月13日〜16日",
+          "16チーム"
+        ],
+        [
+          "メインイベント",
+          "8月20日〜23日",
+          "8チーム"
+        ]
+      ],
+      "source": "gHacks Tech News(2026-08-13)",
+      "note": "グループステージは16チーム、メインイベントには上位8チームが進出しました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "グループステージの詳細",
+      "bullets": [
+        "正式名称は「Road to The International」",
+        "スイス形式で実施",
+        "8月13日〜16日の4日間"
+      ],
+      "source": "gHacks Tech News(2026-08-13)",
+      "note": "グループステージはスイス形式で実施され、8月13日から16日までの4日間行われました。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "メインイベント進出チーム数",
+      "stat": "8チーム",
+      "caption": "グループステージ上位8チームが進出",
+      "source": "gHacks Tech News(2026-08-13)",
+      "note": "グループステージを勝ち抜いた上位8チームが、メインイベントに進出しました。"
+    },
+    {
+      "layout": "steps",
+      "title": "決勝までの道のり",
+      "steps": [
+        {
+          "label": "グループステージ",
+          "text": "16チームによるスイス形式(8/13-16)"
+        },
+        {
+          "label": "メインイベント",
+          "text": "上位8チームによる対戦(8/20-23)"
+        },
+        {
+          "label": "決勝",
+          "text": "Team SpiritがTEAM VISIONを下し優勝"
+        }
+      ],
+      "note": "グループステージからメインイベント、そして決勝までの道のりです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "決勝戦について",
+      "bullets": [
+        "対戦カードはTeam Spirit対TEAM VISION",
+        "Team Spiritが勝利し優勝",
+        "具体的なスコアは本調査の範囲では確認できていない"
+      ],
+      "note": "決勝ではTeam SpiritがTEAM VISIONを下して優勝しましたが、具体的なスコアは確認できていません。"
+    },
+    {
+      "layout": "table",
+      "title": "確定していること・確認できなかったこと",
+      "headers": [
+        "区分",
+        "内容"
+      ],
+      "rows": [
+        [
+          "確定",
+          "優勝チーム・開催期間・賞金総額"
+        ],
+        [
+          "確定",
+          "大会構成(グループステージ・メインイベント)"
+        ],
+        [
+          "未確認",
+          "決勝戦の具体的なスコア"
+        ]
+      ],
+      "source": "research.md参照",
+      "note": "確定していることと、まだ確認できていないことを整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "確認できなかったこと",
+      "bullets": [
+        "Team Spiritの過去2回の優勝時期・詳細な戦績比較",
+        "決勝戦の具体的なスコア(何ゲーム制でどのような展開だったか)",
+        "大会全体の視聴者数・観客動員数の詳細"
+      ],
+      "note": "これらの項目は本調査の範囲では確認できておらず、推測で埋めていません。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "開催都市",
+      "stat": "中国・上海",
+      "caption": "Oriental Sports Centerが会場",
+      "source": "gHacks Tech News(2026-08-13)",
+      "note": "The International 2026の会場は、中国・上海のOriental Sports Centerでした。"
+    },
+    {
+      "layout": "comparison",
+      "title": "グループステージ vs メインイベント",
+      "left": {
+        "heading": "グループステージ",
+        "items": [
+          "16チーム参加",
+          "スイス形式",
+          "8/13〜16"
+        ]
+      },
+      "right": {
+        "heading": "メインイベント",
+        "items": [
+          "8チーム進出",
+          "決勝トーナメント方式",
+          "8/20〜23"
+        ]
+      },
+      "note": "グループステージとメインイベントでは、参加チーム数も期間も異なります。"
+    },
+    {
+      "layout": "bullets",
+      "title": "eスポーツ大会としての背景",
+      "bullets": [
+        "The InternationalはDota 2界最大規模の大会",
+        "毎年世界各地から強豪チームが参加",
+        "賞金規模の大きさもeスポーツ界で注目される"
+      ],
+      "note": "The Internationalは、Dota 2界最大規模の大会として世界的に注目されています。"
+    },
+    {
+      "layout": "table",
+      "title": "主要出典の一覧",
+      "headers": [
+        "メディア",
+        "報道時期"
+      ],
+      "rows": [
+        [
+          "GosuGamers",
+          "2026年8月"
+        ],
+        [
+          "gHacks Tech News",
+          "2026年8月13日"
+        ],
+        [
+          "Liquipedia Dota 2 Wiki",
+          "2026年8月"
+        ]
+      ],
+      "note": "複数の独立したメディアが大会の詳細を報じており、内容としての一貫性を確認しています。"
+    },
+    {
+      "layout": "comparison",
+      "title": "総賞金額 vs 優勝賞金",
+      "left": {
+        "heading": "総賞金額",
+        "items": [
+          "3.33百万ドル",
+          "大会全体の規模"
+        ]
+      },
+      "right": {
+        "heading": "優勝賞金",
+        "items": [
+          "1.4百万ドル",
+          "Team Spiritが獲得"
+        ]
+      },
+      "note": "総賞金額と優勝チームの獲得賞金は、異なる範囲の数字として区別する必要があります。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "Team Spiritの実績",
+      "stat": "3度目のAegis獲得",
+      "caption": "The International優勝チーム",
+      "source": "GosuGamers(2026年8月)",
+      "note": "Team Spiritは、今回で3度目のAegis of Champions獲得となりました。"
+    },
+    {
+      "layout": "cards",
+      "title": "今回の大会の3つの注目ポイント",
+      "cards": [
+        {
+          "label": "01",
+          "text": "Team Spiritの3度目のAegis獲得"
+        },
+        {
+          "label": "02",
+          "text": "総額3.33百万ドルの大規模賞金"
+        },
+        {
+          "label": "03",
+          "text": "上海での大規模国際大会開催"
+        }
+      ],
+      "note": "今回の大会の注目ポイントを3つにまとめました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "視聴者にとっての意味",
+      "bullets": [
+        "eスポーツ・Dota 2ファンに直接関係する情報",
+        "国際大会における日本国外の動向としての価値",
+        "特定チーム・サービスへの過度な評価的表現は行わない"
+      ],
+      "note": "本テーマは、世界的なeスポーツ大会の最新結果として整理しています。"
+    },
+    {
+      "layout": "table",
+      "title": "タイムライン",
+      "headers": [
+        "時期",
+        "できごと"
+      ],
+      "rows": [
+        [
+          "2026年8月13日〜16日",
+          "グループステージ開催"
+        ],
+        [
+          "2026年8月20日〜23日",
+          "メインイベント開催"
+        ],
+        [
+          "2026年8月23日",
+          "決勝、Team Spirit優勝"
+        ]
+      ],
+      "note": "今回の大会に至るまでのタイムラインです。"
+    },
+    {
+      "layout": "comparison",
+      "title": "初優勝時 vs 今回の優勝",
+      "left": {
+        "heading": "過去の優勝",
+        "items": [
+          "詳細な時期・戦績は本調査の範囲では未確認"
+        ]
+      },
+      "right": {
+        "heading": "今回の優勝(2026年)",
+        "items": [
+          "3度目のAegis獲得",
+          "TEAM VISIONを決勝で撃破"
+        ]
+      },
+      "note": "過去2回の優勝の詳細は確認できていませんが、今回で3度目の獲得となったことは確定しています。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "今日のまとめの数字",
+      "stat": "3度目のAegis獲得 Team Spirit",
+      "caption": "The International 2026、2026年8月23日決勝",
+      "source": "GosuGamers(2026年8月)",
+      "note": "Team Spiritは、The International 2026で3度目のAegis of Champions獲得を果たしました。"
+    },
+    {
+      "layout": "cta",
+      "heading": "出典付きで、正確に。",
+      "sub": "AI Company OSは、確認できた事実だけをお届けします",
+      "action": "次回もお楽しみに",
+      "note": "本日はTeam SpiritのThe International 2026優勝についてお届けしました。確認できなかったことは正直に開示しています。次回もお楽しみに。"
+    }
+  ]
+}

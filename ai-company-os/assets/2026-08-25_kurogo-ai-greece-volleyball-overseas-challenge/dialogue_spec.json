@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "title": "黒後愛、涙の海外初挑戦発表。東京五輪代表エースがギリシャ名門アテネへ",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "スポーツ報知(2026-08-24)",
+      "バレーボールキング(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "黒後愛選手が海外挑戦を発表したって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、ギリシャ名門AEKアテネへの移籍です。",
+              "source": "スポーツ報知(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、初の海外挑戦です。"
+            },
+            {
+              "speaker": "host",
+              "text": "東京五輪代表エースだったよね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "会見内容からプロフィール、理由まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日前日に複数メディアが一斉報道した話題だからです。",
+              "source": "スポーツ報知(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "黒後選手の年齢は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "28歳です。",
+              "source": "スポーツ報知(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "会見はいつあったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月24日、埼玉県内で行われました。",
+              "source": "スポーツ報知(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "移籍概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "埼玉上尾からAEKアテネへなんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "黒後選手ってどんな選手?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2021年東京五輪の代表エースです。",
+              "source": "産経新聞(2026-08-24)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "東京五輪ではどんな役割だった?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "日本代表のエースとして出場しました。",
+              "source": "産経新聞(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "会見では涙も見せたって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、古巣への思いを問われて涙を流しました。",
+              "source": "TBS NEWS DIG(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "キャリアの流れを図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "埼玉上尾での活躍から海外挑戦への流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "海外挑戦を決めた理由は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "オリンピックへの思いと同級生の存在が大きいそうです。",
+              "source": "バレーボールキング(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "同級生ってどんな選手?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "宮部藍梨選手や石川真佑選手です。",
+              "source": "バレーボールキング(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "目標とする大会、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "2028年ロス五輪だったね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表までの経緯は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "東京五輪、埼玉上尾3年間を経ての発表という流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "埼玉上尾での実績は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3年間所属し、良いチーム環境だったと振り返っています。",
+              "source": "TBS NEWS DIG(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "移籍先は確定、契約詳細はまだ確認できていません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "契約期間や契約金額の詳細です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "AEKアテネってどんなクラブ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ギリシャの名門クラブです。",
+              "source": "スポーツ報知(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "国内と海外を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "安定した環境から、あえて新しい挑戦を選びました。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "バレーボール界全体の背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "日本人選手の海外挑戦が増加傾向にあります。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "4つの独立したメディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "東京五輪とロス五輪目標を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "代表エースから、次は海外経験を経ての代表入りが目標です。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "埼玉上尾での在籍期間は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3年間です。",
+              "source": "TBS NEWS DIG(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "初の海外挑戦・涙の会見・ロス五輪目標の3点です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "海外で活躍する日本人選手を応援するファンに役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2021年の東京五輪から今回の発表まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の発表は代表引退ってこと?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "いいえ、あくまで所属クラブの移籍という決断です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "黒後選手の海外初挑戦を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
