@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "title": "1年足らずで4回目の調達。中国の中性原子量子計算スタートアップ「原子矩陣」が数億元のA+ラウンド",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Fastdata極数(2026-08-20)",
+      "東方財富網(2026年8月)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "量子計算のスタートアップで何かあったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、半年で3回も資金調達しています。",
+              "source": "Fastdata極数(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、異例のペースです。"
+            },
+            {
+              "speaker": "host",
+              "text": "それはすごいペースだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回のラウンドから企業概要、技術内容まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "複数の中国語メディアが報じた注目の話題だからです。",
+              "source": "Fastdata極数(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回のラウンドはいくら?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "数億元人民元、正確な金額は非公開です。",
+              "source": "Fastdata極数(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回のA+ラウンドの内容は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月20日頃に発表され、多数の投資家が参加しました。",
+              "source": "Fastdata極数(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ラウンド概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "雲峰基金も参加してるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "原子矩陣ってどんな会社?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "杭州拠点の中性原子量子計算企業です。",
+              "source": "Fastdata極数(2026-08-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "量子ビット数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2,048個、欠陥のない状態で安定稼働しています。",
+              "source": "Fastdata極数(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "技術の仕組みを図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ストレージとエンタングルメントを分割する仕組みです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "半年間の調達推移は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3月・5月・8月と3回のラウンドがありました。",
+              "source": "Fastdata極数等(2026年各月)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "この調達ペースは異例なの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、約半年で3回という異例のペースです。",
+              "source": "Fastdata極数(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "採用アーキテクチャは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ストレージ・エンタングルメント分割型です。",
+              "source": "Fastdata極数(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "資金調達の流れ、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "天使からA+まで着実に拡大したんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "中性原子量子計算とは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "原子を配列して量子ビットとして使う方式です。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "調達の実施は確定、正確な金額はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "正確な調達額や累計調達額、企業評価額です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表されたのはいつ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月20日頃です。",
+              "source": "Fastdata極数(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "一般的な調達ペースと比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "半年で3回は異例の速さです。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "量子計算業界の背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "世界的に投資が拡大している分野です。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3つの独立した中国語メディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "天使ラウンドとA+ラウンドを比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "投資家層が大きく拡大しました。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "参加投資家数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "9社以上の機関投資家が参加しました。",
+              "source": "Fastdata極数(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "異例のペース・2,048量子ビット・多数の投資家の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "量子計算技術に関心がある層に役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3月の天使ラウンドから8月まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "累計調達額の開示や実用化への進展です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "量子計算の実現アプローチにはどんな種類がある?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "超伝導方式や中性原子方式などがあります。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "原子矩陣の急ペースな資金調達を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

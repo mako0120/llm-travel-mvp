@@ -1,0 +1,447 @@
+{
+  "meta": {
+    "title": "伊藤あおい、悲願の全米オープン本戦初出場。スペシャルランキング活用で掴んだ大舞台",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "テニスクラシック(2026年8月)",
+      "スポーツナビ(2026年8月)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "テニスで嬉しいニュースがあったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、伊藤あおい選手が本戦初出場です。",
+              "source": "テニスクラシック(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、悲願の初出場です。"
+            },
+            {
+              "speaker": "host",
+              "text": "それは嬉しいね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "出場決定の内容から制度の説明まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "大会が開幕したばかりの鮮度の高い話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "どんなランキングを使ったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "スペシャルランキング87位です。",
+              "source": "テニスクラシック(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "出場決定の内容を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "22歳の伊藤選手が本戦初出場を決めました。",
+              "source": "テニスクラシック(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "出場決定の概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "発表は8月22日だったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "スペシャルランキングって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ツアーを離れた選手への救済措置制度です。",
+              "source": "テニスクラシック(2026年8月)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "伊藤選手の年齢は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "22歳です。",
+              "source": "テニスクラシック(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "本戦出場までの流れを図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "前年の予選敗退からの巻き返しです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "前年との比較は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2025年は予選3回戦で敗退していました。",
+              "source": "テニスクラシック(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "前年からの歩みは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "一年を経て状況が好転しました。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表日はいつ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月22日、日本時間です。",
+              "source": "テニスクラシック(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "大会までの流れ、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "8月24日に開幕したんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "全米オープンってどんな大会?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "四大大会の一つです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "本戦初出場は確定、離脱理由の詳細はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "離脱理由の詳細や1回戦の対戦相手です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "全米オープンの開幕日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月24日です。",
+              "source": "テニスクラシック(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "予選敗退と本戦初出場を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "前年から一転、大きな一歩を踏み出しました。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "テニス界の背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "スペシャルランキング制度が選手を支えています。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "複数のメディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "通常エントリーと比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "離脱前の実績を保持できる特別な制度です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の出場はどんな節目?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "キャリア初の四大大会本戦出場です。",
+              "source": "テニスクラシック(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "初出場・制度活用・前年からの巻き返しの3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "日本人テニス選手のファンに役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2025年の敗退から2026年の開幕まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "本戦1回戦での戦いぶりです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "本戦出場の意義は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "賞金機会・ポイント・経験の面で大きいです。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "伊藤選手の本戦初出場を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
