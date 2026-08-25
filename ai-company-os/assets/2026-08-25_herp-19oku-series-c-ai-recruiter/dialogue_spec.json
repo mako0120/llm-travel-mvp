@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "title": "3年で組織3倍へ。採用管理のHERPが19億円のシリーズC調達、AI採用担当も強化",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "PR TIMES(2026-08-25)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "採用管理システムの会社で何かあったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、HERPが19億円を調達しました。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、大型のシリーズC調達です。"
+            },
+            {
+              "speaker": "host",
+              "text": "本日発表だったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回の調達から企業概要、AI機能まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日にPR TIMESで発表された話題だからです。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "累計調達額は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "34億円です。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の調達の内容は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "シリーズCで19億円を調達しました。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ラウンド概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "日本政策金融公庫も参加してるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "HERPってどんな会社?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3,000社以上に導入される採用管理システムです。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "HERP Hireの導入社数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3,000社以上です。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "提供サービス群を図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "採用管理からタレントプールまで幅広くカバーしています。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "主なサービスは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "HERP Hire・Nurture・Trustなどです。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "AI機能「HERP AIリクルーター」は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "採用プロセス全体をAIが支援する機能です。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "組織拡大計画は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3年で組織を3倍にする計画です。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "AIリクルーターの動作フロー、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "面接設定から評価まで一貫してるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "投資家の顔ぶれは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "JICベンチャー・DNX Ventures・日本政策金融公庫です。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "調達額は確定、企業評価額はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "企業評価額やAIリクルーターの導入実績です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月25日、着手日当日です。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従来型採用と比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "質問案や評価をAIが支援する点が違います。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "HRテック業界の背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "採用効率化ニーズが高まっています。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "HERP公式のPR TIMES発表を確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の調達額と累計を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "19億円と34億円、異なる範囲の数字です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "調達方法は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "第三者割当増資と金融機関借入の組み合わせです。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "組織3倍計画・3,000社導入・AI強化の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "HRテックに関心がある層に役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "これまでのサービス展開から今回の発表まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "組織拡大の進捗とAIリクルーターの導入状況です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "追加サービスは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Agent NetworkやCareerも展開しています。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "HERPの大型調達を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
