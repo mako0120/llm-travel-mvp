@@ -1,0 +1,443 @@
+{
+  "meta": {
+    "title": "BNBチェーン「Pasteur」ハードフォーク始動。処理速度は最大約2倍に",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "crypto.news(2026年8月)",
+      "CryptoBriefing(2026年8月)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "BNBチェーンで大きな更新があるって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、本日Pasteurハードフォークが実施されます。",
+              "source": "crypto.news(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、処理速度が約1.9倍になります。"
+            },
+            {
+              "speaker": "host",
+              "text": "かなりの向上だね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ハードフォークの概要から改善内容まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日に実施される鮮度の高い話題だからです。"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "実施時刻は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "UTC午前2時30分です。",
+              "source": "CryptoBriefing(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Pasteurって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "BNBチェーンのメインネットアップグレードです。"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "3つの改善提案、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "ブリッジと鍵管理と処理能力なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "BEP-682は何をする?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ブリッジのセキュリティを強化します。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "テストネットでのTPSは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2,324件/秒です。",
+              "source": "crypto.news(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "BEP-695は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "バリデータの鍵管理を厳格化します。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "アップグレードの流れを図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "クライアント更新からハードフォーク実施までの流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "改善点をまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "セキュリティとパフォーマンスの両面です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "BEP-675は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ブロックあたりの処理能力を引き上げます。"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "必須クライアントバージョン、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "v1.7.7だったね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "準備の流れを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "事前告知、更新、実施という3ステップです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "2026年の大きな目標は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "処理能力を倍増させることです。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "改善内容は確定、本番でのTPSはまだ確認できていません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "本番環境でのTPSや実施完了の確認です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "改善提案はいくつ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3つです。",
+              "source": "CryptoBriefing(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "前後を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "処理能力とセキュリティの両方が改善します。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界全体の背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "処理能力向上は各チェーン共通の課題です。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "crypto.news等の複数メディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "テストネットとメインネットの違いは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "メインネットでの実測値はまだ未確認です。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ノード運営者への要求は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "事前のクライアント更新が必須です。",
+              "source": "CryptoBriefing(2026年8月)"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "処理能力向上・セキュリティ強化・長期計画の一環という3点です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ブロックチェーン技術動向を追う人に役立ちます。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "事前告知から本日の実施まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "BEP-682とBEP-695の違いは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "対象範囲が異なるセキュリティ強化です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Pasteurハードフォークを出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
