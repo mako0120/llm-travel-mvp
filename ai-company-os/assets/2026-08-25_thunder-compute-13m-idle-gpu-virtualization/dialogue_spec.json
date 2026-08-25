@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "title": "世界のGPUの95%が眠っている。Thunder Computeが13億円調達し「遊休GPU」を掘り起こす",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Thunder Compute公式ブログ(2026-08-19)",
+      "SiliconANGLE(2026-08-19)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "GPU不足って聞くけど、実は違うの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、使用率はわずか約5%というデータがあります。",
+              "source": "Thunder Compute公式ブログ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、遊休GPUを掘り起こす企業が調達しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "意外な話だね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "調達概要から技術内容、業界課題まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "多数の独立メディアが継続的に報道している話題だからです。",
+              "source": "SiliconANGLE(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の調達額は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "1,300万ドルです。",
+              "source": "Thunder Compute公式ブログ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "調達の概要を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Matrix Partnersがリードするシリーズ Aです。",
+              "source": "Thunder Compute公式ブログ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "調達概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "Y Combinatorも参加してるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Thunder Computeってどんな会社?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2022年設立のGPU仮想化ソフトウェア企業です。",
+              "source": "SiliconANGLE(2026-08-19)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "目指す立ち位置は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "『GPU向けのVMware』を目指しています。",
+              "source": "SiliconANGLE(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "技術の仕組みを図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "物理GPU群を仮想化層で束ねる仕組みです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "GPU利用率の実態は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "平均約5%にとどまるとされています。",
+              "source": "Cast AI「2026年版Kubernetes最適化状況レポート」"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界の課題は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "GPU不足が叫ばれる一方で使用率は低いという矛盾です。",
+              "source": "Pulse2(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "遊休コンピュートの規模は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2,000億ドル相当とされています。",
+              "source": "Thunder Compute公式ブログ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "資金の使い道、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "技術拡張・人材増強・商業提携だね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "創業者はどんな人?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "コンサルティングと金融機関出身の2名です。",
+              "source": "SiliconANGLE(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "調達額は確定、企業評価額はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "企業評価額や具体的な導入企業名です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月19日、着手日から6日前です。",
+              "source": "Thunder Compute公式ブログ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従来型と比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "新規調達ではなく既存GPUの稼働率向上が特徴です。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "投資家の顔ぶれは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Matrix Partners・Y Combinator・CEAS Investmentsです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "4つの独立したメディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "使用率と遊休規模を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "5%という低い数字が2,000億ドル規模を生んでいます。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "設立年は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2022年です。",
+              "source": "SiliconANGLE(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "低い使用率・独自の技術発想・著名VCの参加の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIインフラに関心がある層に役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2022年の設立から今回の発表まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "業界の背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "GPU確保だけでなく効率活用にも注目が集まっています。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "GPU仮想化はどんな位置づけ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "CPUやストレージ仮想化と同様の発想の新領域です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Thunder Computeの資金調達を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "title": "世界のGPUの95%が眠っている。Thunder Computeが13億円調達し「遊休GPU」を掘り起こす",
+    "subtitle": "2,000億ドルの遊休コンピュート——出典付きで整理する",
+    "footer": "AI Company OS｜出典: Thunder Compute公式ブログ等(2026-08-19)",
+    "palette_preset": "cobalt_violet"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "GPUの95%が\n眠っている\nThunder Compute資金調達",
+      "sub": "2,000億ドルの遊休コンピュート——出典付きで整理する",
+      "footnote": "出典: Thunder Compute公式ブログ(2026年8月19日)",
+      "note": "GPU不足が叫ばれる一方で、実は世界のGPUの多くが眠っているという指摘があります。何が起きているのか、出典付きで正確に整理してお届けします。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "まず結論から",
+      "stat": "GPU平均使用率わずか約5%",
+      "caption": "Thunder Computeが1,300万ドルを調達",
+      "source": "Thunder Compute公式ブログ(2026-08-19)",
+      "note": "結論から確認します。企業のGPU平均使用率は約5%にとどまるとされ、この『遊休GPU』を掘り起こす企業が資金調達しました。"
+    },
+    {
+      "layout": "agenda",
+      "title": "本日のアジェンダ",
+      "items": [
+        "なぜ今このテーマを扱うのか",
+        "調達の概要を確認する",
+        "Thunder Computeの技術を確認する",
+        "業界の課題を確認する",
+        "確認できなかったこと"
+      ],
+      "note": "本日の流れです。調達概要から技術内容、業界課題、そして確認できなかったことまで整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜ今このテーマを扱うのか",
+      "bullets": [
+        "SiliconANGLE・Pulse2等、多数の独立メディアが継続的に報道",
+        "「GPU不足」の裏側にある『遊休GPU』という意外な実態",
+        "2,000億ドルという規模のインパクト"
+      ],
+      "source": "SiliconANGLE(2026-08-19)",
+      "note": "GPU不足が叫ばれる一方で、実は多くのGPUが遊んでいるという意外性のある話題です。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "今回の調達額",
+      "stat": "1,300万ドル",
+      "caption": "シリーズAラウンド",
+      "source": "Thunder Compute公式ブログ(2026-08-19)",
+      "note": "Thunder Computeは、シリーズAラウンドで1,300万ドルを調達しました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "調達の概要",
+      "bullets": [
+        "2026年8月19日、1,300万ドルのシリーズAラウンドを発表",
+        "リード投資家はMatrix Partners",
+        "Y CombinatorおよびCEAS Investmentsが参加"
+      ],
+      "source": "Thunder Compute公式ブログ(2026-08-19)",
+      "note": "リード投資家はMatrix Partnersで、Y CombinatorとCEAS Investmentsも参加しました。"
+    },
+    {
+      "layout": "table",
+      "title": "調達概要",
+      "headers": [
+        "項目",
+        "内容"
+      ],
+      "rows": [
+        [
+          "調達額",
+          "1,300万ドル"
+        ],
+        [
+          "ラウンド",
+          "シリーズA"
+        ],
+        [
+          "リード投資家",
+          "Matrix Partners"
+        ]
+      ],
+      "source": "Thunder Compute公式ブログ(2026-08-19)",
+      "note": "調達概要です。リード投資家のMatrix Partnersに加え、Y Combinatorも参加しています。"
+    },
+    {
+      "layout": "bullets",
+      "title": "Thunder Computeとは",
+      "bullets": [
+        "2022年設立のGPU仮想化ソフトウェア企業",
+        "GPUをネットワークリソースとして扱う独自技術を開発",
+        "「GPU向けのVMware」を目指すと位置づけている"
+      ],
+      "source": "SiliconANGLE(2026-08-19)",
+      "note": "Thunder Computeは2022年設立で、GPUを仮想化する独自技術を開発しています。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "目指す立ち位置",
+      "stat": "「GPU向けのVMware」",
+      "caption": "GPUの仮想化でハードウェアを意識させない",
+      "source": "SiliconANGLE(2026-08-19)",
+      "note": "同社は、ストレージやCPUのようにGPUを仮想化し、ハードウェアの存在を意識させない仕組みを目指しています。"
+    },
+    {
+      "layout": "diagram",
+      "title": "技術の仕組み(概念図)",
+      "nodes": [
+        {
+          "label": "物理GPU群(利用率5%)"
+        },
+        {
+          "label": "Thunder Computeの仮想化層"
+        },
+        {
+          "label": "効率化されたワークロード配分"
+        }
+      ],
+      "caption": "ネットワークリソースとしてGPUを扱う",
+      "note": "物理GPU群を仮想化層で束ね、効率的にワークロードへ配分する仕組みです。"
+    },
+    {
+      "layout": "table",
+      "title": "GPU利用率の実態",
+      "headers": [
+        "項目",
+        "内容"
+      ],
+      "rows": [
+        [
+          "企業のGPU平均使用率",
+          "約5%(Cast AI調査)"
+        ],
+        [
+          "遊休コンピュートの規模",
+          "2,000億ドル相当"
+        ]
+      ],
+      "source": "Cast AI「2026年版Kubernetes最適化状況レポート」",
+      "note": "Cast AIの調査によれば、企業のGPU平均使用率はわずか約5%にとどまるとされています。"
+    },
+    {
+      "layout": "bullets",
+      "title": "業界の課題",
+      "bullets": [
+        "『GPU不足』が叫ばれる一方で使用率は低い",
+        "高価なGPUが十分に活用されていない実態",
+        "Thunder Computeはこの非効率を狙う"
+      ],
+      "source": "Pulse2(2026-08-19)",
+      "note": "AI業界では『GPU不足』が叫ばれる一方で、実は既存のGPUが十分に活用されていない実態があります。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "遊休コンピュートの規模",
+      "stat": "2,000億ドル相当",
+      "caption": "Thunder Computeが指摘する未活用コンピュート",
+      "source": "Thunder Compute公式ブログ(2026-08-19)",
+      "note": "Thunder Computeは、この遊休コンピュートを2,000億ドル相当と位置づけています。"
+    },
+    {
+      "layout": "steps",
+      "title": "資金の使い道",
+      "steps": [
+        {
+          "label": "技術拡張",
+          "text": "仮想化技術のエンタープライズ向け拡張"
+        },
+        {
+          "label": "人材増強",
+          "text": "インフラエンジニアリングチームの増員"
+        },
+        {
+          "label": "商業提携",
+          "text": "企業との提携加速による効率化推進"
+        }
+      ],
+      "note": "調達資金は、技術拡張・人材増強・商業提携の3つに充てられます。"
+    },
+    {
+      "layout": "bullets",
+      "title": "創業者について",
+      "bullets": [
+        "Carl Peterson氏、Bain & Companyのコンサルタント出身",
+        "Brian Model氏、Citadel Securitiesのクオンツ開発者出身",
+        "2022年に共同でThunder Computeを設立"
+      ],
+      "source": "SiliconANGLE(2026-08-19)",
+      "note": "創業者2名は、それぞれコンサルティングファームと金融機関出身という異色の経歴です。"
+    },
+    {
+      "layout": "table",
+      "title": "確定していること・確認できなかったこと",
+      "headers": [
+        "区分",
+        "内容"
+      ],
+      "rows": [
+        [
+          "確定",
+          "調達額・投資家・GPU使用率の統計"
+        ],
+        [
+          "確定",
+          "創業者の経歴・設立年"
+        ],
+        [
+          "未確認",
+          "今回のラウンドの具体的な企業評価額"
+        ]
+      ],
+      "source": "research.md参照",
+      "note": "確定していることと、まだ確認できていないことを整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "確認できなかったこと",
+      "bullets": [
+        "今回のラウンドにおける具体的な企業評価額",
+        "同社の現在の顧客数・具体的な導入企業名",
+        "Cast AIレポートの調査対象企業数・調査方法の詳細"
+      ],
+      "note": "これらの項目は本調査の範囲では確認できておらず、推測で埋めていません。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "発表日",
+      "stat": "2026年8月19日",
+      "caption": "着手日から6日前の情報",
+      "source": "Thunder Compute公式ブログ(2026-08-19)",
+      "note": "発表は2026年8月19日で、着手日から6日前の情報であることを正直に開示します。"
+    },
+    {
+      "layout": "comparison",
+      "title": "従来型 vs Thunder Computeの発想",
+      "left": {
+        "heading": "従来型(GPU不足への対応)",
+        "items": [
+          "新規GPUの調達を優先",
+          "設備投資の拡大"
+        ]
+      },
+      "right": {
+        "heading": "Thunder Computeの発想",
+        "items": [
+          "既存GPUの稼働率向上",
+          "仮想化による効率化"
+        ]
+      },
+      "note": "新規調達に頼るのではなく、既存GPUの稼働率を上げるという発想が特徴です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "投資家の顔ぶれ",
+      "bullets": [
+        "Matrix Partnersがリード投資家",
+        "Y Combinatorが参加",
+        "CEAS Investmentsも参加"
+      ],
+      "note": "著名なベンチャーキャピタル・アクセラレーターが参加していることが分かります。"
+    },
+    {
+      "layout": "table",
+      "title": "主要出典の一覧",
+      "headers": [
+        "メディア",
+        "報道日"
+      ],
+      "rows": [
+        [
+          "Thunder Compute公式ブログ",
+          "2026年8月19日"
+        ],
+        [
+          "SiliconANGLE",
+          "2026年8月19日"
+        ],
+        [
+          "Pulse2",
+          "2026年8月19日"
+        ],
+        [
+          "Yahoo Finance/TradingView",
+          "2026年8月19日"
+        ]
+      ],
+      "note": "複数の独立したメディアが同一の調達額・データを報じており、内容としての一貫性を確認しています。"
+    },
+    {
+      "layout": "comparison",
+      "title": "GPU使用率5% vs 遊休コンピュート2,000億ドル",
+      "left": {
+        "heading": "GPU平均使用率",
+        "items": [
+          "約5%(Cast AI調査)"
+        ]
+      },
+      "right": {
+        "heading": "遊休コンピュート規模",
+        "items": [
+          "2,000億ドル相当(Thunder Compute試算)"
+        ]
+      },
+      "note": "低い使用率という統計と、それによって生じる巨大な遊休コンピュートの規模を対比します。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "設立年",
+      "stat": "2022年",
+      "caption": "Thunder Computeの設立年",
+      "source": "SiliconANGLE(2026-08-19)",
+      "note": "Thunder Computeは2022年に設立された企業です。"
+    },
+    {
+      "layout": "cards",
+      "title": "今回の調達の3つの注目ポイント",
+      "cards": [
+        {
+          "label": "01",
+          "text": "GPU使用率わずか5%という意外な実態"
+        },
+        {
+          "label": "02",
+          "text": "『GPU向けのVMware』という独自の技術発想"
+        },
+        {
+          "label": "03",
+          "text": "著名VCが参加した1,300万ドルの調達"
+        }
+      ],
+      "note": "今回の調達の注目ポイントを3つにまとめました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "視聴者にとっての意味",
+      "bullets": [
+        "AIインフラ・クラウドコンピューティングに関心がある層に関係する情報",
+        "GPU不足問題の別の側面を示す事例としての価値",
+        "特定企業の製品利用を強く推奨する意図はない"
+      ],
+      "note": "本テーマは、AIインフラを巡る資金調達の最新動向として整理しています。"
+    },
+    {
+      "layout": "table",
+      "title": "タイムライン",
+      "headers": [
+        "時期",
+        "できごと"
+      ],
+      "rows": [
+        [
+          "2022年",
+          "Thunder Compute設立"
+        ],
+        [
+          "2026年8月19日",
+          "1,300万ドルのシリーズA発表"
+        ],
+        [
+          "2026年8月25日",
+          "本テーマ着手(発表から6日後)"
+        ]
+      ],
+      "note": "設立から今回の資金調達発表、そして本テーマ着手までのタイムラインです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "AIインフラ業界の背景",
+      "bullets": [
+        "AI需要の急増でGPU確保が世界的な課題に",
+        "一方で既存GPUの効率活用も注目され始めている",
+        "仮想化・最適化領域への投資が広がる可能性"
+      ],
+      "note": "AI需要の急増を背景に、GPU確保だけでなく効率活用にも注目が集まりつつあります。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "今日のまとめの数字",
+      "stat": "GPU使用率約5% 遊休2,000億ドル",
+      "caption": "Thunder Compute、2026年8月19日発表",
+      "source": "Thunder Compute公式ブログ(2026-08-19)",
+      "note": "GPU平均使用率わずか約5%という実態と、それに伴う2,000億ドル規模の遊休コンピュートが、今回のポイントです。"
+    },
+    {
+      "layout": "table",
+      "title": "GPU仮想化技術の位置づけ",
+      "headers": [
+        "技術領域",
+        "既存の例え"
+      ],
+      "rows": [
+        [
+          "CPU仮想化",
+          "従来から普及済み"
+        ],
+        [
+          "ストレージ仮想化",
+          "従来から普及済み"
+        ],
+        [
+          "GPU仮想化(Thunder Compute)",
+          "同様の発想を適用する新領域"
+        ]
+      ],
+      "note": "CPUやストレージで普及した仮想化の発想を、GPU領域に適用しようとしているのが特徴です。"
+    },
+    {
+      "layout": "cta",
+      "heading": "出典付きで、正確に。",
+      "sub": "AI Company OSは、確認できた事実だけをお届けします",
+      "action": "次回もお楽しみに",
+      "note": "本日はThunder Computeの資金調達についてお届けしました。確認できなかったことは正直に開示しています。次回もお楽しみに。"
+    }
+  ]
+}
