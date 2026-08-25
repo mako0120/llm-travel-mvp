@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "title": "吉田鈴、無ボギー68で大混戦を制す。今季2勝目「CAT Ladies 2026」優勝",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "JLPGA公式(2026-08-23)",
+      "GDOゴルフニュース(2026-08-23)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "国内女子ゴルフで何かあったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、吉田鈴選手が今季2勝目です。",
+              "source": "JLPGA公式(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、大混戦を制しての優勝です。"
+            },
+            {
+              "speaker": "host",
+              "text": "見事な結果だね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "大会概要から最終日の戦いまで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "大会当日中に複数メディアが報道した話題だからです。",
+              "source": "JLPGA公式(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "開催期間は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月21日から23日までです。",
+              "source": "JLPGA公式(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "大会の概要を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "大箱根カントリークラブで開催された女子ツアーです。",
+              "source": "JLPGA公式(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "最終結果、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "2位に2打差だったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "最終日の戦いは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "無ボギー・4バーディーの68でした。",
+              "source": "GDOゴルフニュース(2026-08-23)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "吉田選手の最終ラウンドスコアは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "68、大会記録に並ぶスコアです。",
+              "source": "GDOゴルフニュース(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "優勝までの流れを図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "大混戦を経て最終日に抜け出す流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "吉田選手のプロフィールは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "22歳で今季2勝目です。",
+              "source": "JLPGA公式(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "2位以下の争いは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3位タイに3選手が並ぶ大混戦でした。",
+              "source": "JLPGA公式(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "優勝賞金は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "1,440万円です。",
+              "source": "JLPGA公式(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "大会の流れ、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "初日から大混戦だったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "会場はどんなコース?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "6,657ヤード、パー72の大箱根カントリークラブです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "最終結果は確定、今季1勝目の詳細はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "1勝目の詳細やホールごとのスコア推移です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "大会最終日はいつ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月23日です。",
+              "source": "JLPGA公式(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "吉田選手と2位の荒木選手を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "最終日の安定したプレーが差を生みました。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "国内女子ゴルフ界の背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "若手選手の活躍が続いています。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3つの独立したメディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "総賞金額と優勝賞金を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "総額8,000万円のうち1,440万円が優勝賞金です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "吉田選手の年齢は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "22歳です。",
+              "source": "JLPGA公式(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "無ボギーの安定感・大混戦制覇・若さの3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "国内女子ゴルフファンに役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月21日の開幕から23日の優勝まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "上位争いはどれくらい接戦だった?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2位との差はわずか2打の大混戦でした。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "大会3日間の日程は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "初日・2日目・最終日という流れでした。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "吉田選手の今季2勝目を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

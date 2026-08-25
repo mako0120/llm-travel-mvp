@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "title": "鈴木彩艶のプレミアデビューはお預け。新加入アストン・ヴィラが開幕戦で0-4大敗",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "サッカーキング(2026-08-23)",
+      "フットボールチャンネル(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "鈴木彩艶選手のプレミアデビューはどうなった?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "実はお預けになりました。チームも大敗です。",
+              "source": "サッカーキング(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、0-4の大敗でした。"
+            },
+            {
+              "speaker": "host",
+              "text": "移籍直後にまさかの結果だね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "移籍の振り返りから開幕戦の詳細まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "試合当日〜翌日に複数メディアが報道した話題だからです。",
+              "source": "サッカーキング(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "移籍金はいくらだった?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "最大3,500万ユーロ、日本人史上最高額タイです。",
+              "source": "サッカーキング(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "鈴木選手の移籍を振り返ると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月19日、パルマから完全移籍で加入しました。",
+              "source": "サッカーキング(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "開幕戦概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "ブライトンに0-4で負けたんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "鈴木選手はベンチだったの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、先発は35歳のオランダ人GKでした。",
+              "source": "フットボールチャンネル(2026-08-24)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "試合結果は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "0-4でブライトンの勝利です。",
+              "source": "サッカーキング(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "移籍から開幕戦までの流れを図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "移籍発表からわずか4日後の開幕戦でした。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "試合の主な出来事は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ヴィラが退場者を出しました。三笘選手は欠場でした。",
+              "source": "ゲキサカ(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "試合の詳細は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "数的不利の中、前半から失点を重ねる展開でした。",
+              "source": "ゲキサカ(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "鈴木選手の年齢は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "23歳です。",
+              "source": "サッカーキング(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "今後の展開、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "先発起用が注目されるね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "パルマ時代の実績は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "公式戦通算59試合出場、W杯にも全4試合出場でした。",
+              "source": "サッカーキング(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "試合結果は確定、今後の起用方針は未確認です。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "次節以降の起用方針や退場理由の詳細です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "試合日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月23日、プレミア開幕節です。",
+              "source": "サッカーキング(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "移籍発表時と開幕戦を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "期待とは対照的な結果になりました。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "プレミアリーグでの立ち位置は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "日本人GK初のプレミア挑戦です。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3つの独立したメディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "先発GKと鈴木選手を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "35歳のベテランと23歳の若手という対比です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "移籍金を円換算すると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約64億8,000万円です。",
+              "source": "サッカーキング(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "デビューお預け・ベンチスタート・大敗の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "海外で挑戦する日本人選手のファンに役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "8月19日の移籍発表から開幕戦まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "先発起用とチームの立て直しです。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "移籍から開幕戦まで何日だった?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "わずか4日間でした。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "鈴木選手の開幕戦の状況を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
