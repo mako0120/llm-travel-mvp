@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "title": "2兆円買収が実を結ぶ。NVIDIA「Groq 3 LPX」が量産開始、エージェント型AIで世界最速級",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "NVIDIA Newsroom(2026-08-24)",
+      "CNBC(2026-08-24 / 2025-12-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "NVIDIAの新チップで何かあったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、「Groq 3 LPX」が量産開始しました。",
+              "source": "NVIDIA Newsroom(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、毎秒3,400トークンで最速記録です。"
+            },
+            {
+              "speaker": "host",
+              "text": "それはすごいね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回の発表から製品の中身、背景の買収まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "史上最大買収の成果が形になった瞬間だからです。",
+              "source": "NVIDIA Newsroom(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月24日です。",
+              "source": "NVIDIA Newsroom(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の発表の内容は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Groq 3 LPXの量産開始です。",
+              "source": "NVIDIA Newsroom(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "発表概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "初期導入先はNebiusなんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Groq 3 LPXってどんな製品?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "対話型AI推論アクセラレータです。",
+              "source": "NVIDIA Newsroom(2026-08-24)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ベンチマーク速度は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "毎秒3,400トークンで最速です。",
+              "source": "NVIDIA Newsroom(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "システム構成を図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Vera Rubinを拡張する構成です。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "スペックは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "1ラックにLPU256基を搭載しています。",
+              "source": "NVIDIA Newsroom(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "「4倍高速」の意味は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "レイテンシに敏感な特定の用途での数字です。",
+              "source": "NVIDIA Newsroom(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "最大の高速化幅は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "最大4倍とされています。",
+              "source": "NVIDIA Newsroom(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "買収から量産までの流れ、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "8か月で製品化したんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "背景の買収について教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約200億ドルの資産取得です。",
+              "source": "CNBC(2025-12-24)"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "量産開始日は確定、価格はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "正式な価格や他の導入企業です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "買収額は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約200億ドル、NVIDIA史上最大です。",
+              "source": "CNBC(2025-12-24)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "買収前の企業価値と比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "買収前は約69億ドルでした。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Nebiusってどんな会社?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIクラウドサービス事業者です。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "NVIDIA公式とCNBCで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "学習用チップと推論用チップの違いは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Groq 3 LPXはAIを実際に動かす推論用です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ラック構成をもう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "LPU256基を相互接続しています。",
+              "source": "NVIDIA Newsroom(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "史上最大買収・最速記録・4倍高速の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIエージェントの応答速度に関心がある層に役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "資金調達から買収、量産開始まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "導入拡大や価格の公表時期です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめの数字は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "毎秒3,400トークンで最速記録です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "主要スペックを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "速度・高速化幅・ラック構成の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "title": "あなたのSlackが、AIエージェントの開発現場になる。「Slack Code」始動",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Salesforce公式(2026-08-20)",
+      "VentureBeat(2026-08-20)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Slackで何かあったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、「Slack Code」が発表されました。",
+              "source": "Salesforce公式(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、4つのAIエージェントがSlackに統合されました。"
+            },
+            {
+              "speaker": "host",
+              "text": "それはすごいね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回の発表から仕組み、注目ポイントまで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "業界大手4つを同時統合する珍しい発表だからです。",
+              "source": "Salesforce公式(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月20日です。",
+              "source": "Salesforce公式(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の発表の内容は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIエージェントをSlackチャンネルに統合する機能です。",
+              "source": "Salesforce公式(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "発表概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "同日から使えるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "対応するエージェントは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Claude Code・Devin・GitHub Copilot・Vercelです。",
+              "source": "Salesforce公式(2026-08-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "対応エージェント数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "4つです。",
+              "source": "Salesforce公式(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "使い方を図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "タグ付けでチャンネルが立ち上がります。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "チャンネルの中身は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "会話・プラン・差分・プレビューの4タブです。",
+              "source": "Salesforce公式(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "誰が参加できるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "非技術者も含めたチーム全員です。",
+              "source": "Salesforce公式(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "何が製品化されたの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "「バイブコーディング」というスタイルです。",
+              "source": "Salesforce Ben(2026-08-21)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "利用の流れ、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "承認までの流れが分かりやすいね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "バイブコーディングって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "自然な言葉でAIに指示する開発スタイルです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "仕組みは確定、追加課金の有無はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "課金や導入企業数、セキュリティ対応の詳細です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "制御ポイントは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "人間の承認です。",
+              "source": "Salesforce公式(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従来型と比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "チーム全員で作業を追える点が違います。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "利用可能プランは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "いずれのSlackプランでも使えます。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Salesforce公式と複数の海外メディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Slack Code自体とエージェントのライセンスは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Slack Codeは無料、エージェントは別途必要です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タスク完了後は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "自動アーカイブされ監査ログが残ります。",
+              "source": "Salesforce公式(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "4エージェント統合・全員参加・人間承認の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI開発の効率化に関心がある層に役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "発表から各メディアの報道まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "対応拡大や導入事例の公表です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめの数字は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "4つのAIエージェントがSlackに統合されました。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "コードチャンネルの機能を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "会話・確認タブと承認・アーカイブです。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
