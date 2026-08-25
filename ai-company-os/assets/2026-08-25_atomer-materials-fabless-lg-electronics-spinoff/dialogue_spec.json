@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "title": "「工場を持たずに素材をつくる」。LG電子発スピンオフ「アトマー」がシード投資獲得",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "マネートゥデイ(2026-08-24)",
+      "와우테일(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "LG電子発のスピンオフがあったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、アトマーがシード投資を獲得しました。",
+              "source": "マネートゥデイ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、素材版ファブレスです。"
+            },
+            {
+              "speaker": "host",
+              "text": "面白い発想だね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回の投資からスピンオフの背景まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日前日に複数メディアが報じた話題だからです。",
+              "source": "マネートゥデイ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月24日です。",
+              "source": "マネートゥデイ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の投資の内容は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "LG電子とブルーポイントからシード投資を獲得しました。",
+              "source": "マネートゥデイ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "投資概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "投資規模は非公開なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "スピンオフの背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "社内ベンチャープログラム「スタジオ341」からです。",
+              "source": "マネートゥデイ(2026-08-24)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "選抜時の競争率は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約12倍でした。",
+              "source": "マネートゥデイ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "スピンオフの流れを図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "選抜から育成、そしてスピンオフという流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "スタジオ341って何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2023年開始の社内ベンチャー発掘プログラムです。",
+              "source": "マネートゥデイ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "アトマーの事業モデルは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "半導体のファブレス方式を素材産業に導入しています。",
+              "source": "マネートゥデイ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "最初の製品は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "電池火災制御用の超薄型耐熱塗料です。",
+              "source": "マネートゥデイ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "事業モデルの流れ、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "設計は自社、生産は協力なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "選抜チームへの支援は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "最大4億ウォンの初期投資支援があります。",
+              "source": "マネートゥデイ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "スピンオフの経緯は確定、投資金額はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "具体的な投資金額や製品の性能数値です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "スタジオ341はいつ始まった?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2023年です。",
+              "source": "マネートゥデイ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従来型と比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "設計に特化するファブレス方式が特徴です。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "素材産業の背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "電池の安全性への関心が高まっています。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3つの独立した韓国語メディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "半導体ファブレスと素材ファブレスを比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "同様の発想を素材産業に応用しています。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "選抜プロセスの厳しさは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約12倍の競争率でした。",
+              "source": "マネートゥデイ(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "大手発スピンオフ・素材ファブレス・第一弾製品の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "新素材・ディープテックに関心がある層に役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2023年のプログラム開始から今回の発表まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "製品の商用化時期と投資金額の開示です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "投資元の役割分担は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "LG電子とブルーポイントがそれぞれの役割を担いました。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "アトマーのスピンオフを出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

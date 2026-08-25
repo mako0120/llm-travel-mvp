@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "title": "サムスン・SKハイニックス・インテル出身が結集。韓国「iHW」が超低電力AI半導体で520億ウォン調達",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "マネートゥデイ(2026-08-19)",
+      "와우테일(2026-08-19)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "韓国のAI半導体企業で何かあったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、iHWが520億ウォンを調達しました。",
+              "source": "マネートゥデイ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、大手半導体出身者が結集した企業です。"
+            },
+            {
+              "speaker": "host",
+              "text": "それは注目だね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回の調達から企業概要、技術内容まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "複数の韓国語メディアが報じた注目の話題だからです。",
+              "source": "マネートゥデイ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "累計調達額は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "640億ウォンです。",
+              "source": "マネートゥデイ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の調達の内容は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "シリーズAで520億ウォンを調達しました。",
+              "source": "マネートゥデイ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ラウンド概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "13社が参加したんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "iHWってどんな会社?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2024年設立の超低電力AI半導体企業です。",
+              "source": "マネートゥデイ(2026-08-19)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "設立年は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2024年6月です。",
+              "source": "マネートゥデイ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "技術の仕組みを図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ニューロモルフィック方式とACiM技術の組み合わせです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "中核製品「インファートロン」は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "超低電力でのAI処理を実現する製品です。",
+              "source": "マネートゥデイ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "資金の使い道は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "エッジAIチップの量産などに充てられます。",
+              "source": "マネートゥデイ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "参加投資会社数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "13社です。",
+              "source": "マネートゥデイ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "同社の展開、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "ヒューマノイド向けにも展開してるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ヒューマノイド向け展開は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "KETIと共同で低電力SoC技術を開発しています。",
+              "source": "マネートゥデイ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "調達額は確定、企業評価額はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "企業評価額や製品の具体的な性能数値です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月19日、着手日から6日前です。",
+              "source": "マネートゥデイ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従来のAI半導体と比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "超低電力を追求した設計が特徴です。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "AI半導体業界の背景は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "電力消費が世界的な課題となっています。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3つの独立した韓国語メディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "データセンター向けとオンデバイス向けを比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "両方の用途を想定した技術です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "リード投資家は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "コーロン・インベストメントです。",
+              "source": "マネートゥデイ(2026-08-19)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "設立チームの経歴・省電力技術・大型調達の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI半導体に関心がある層に役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2024年の設立から今回の調達まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "量産開始時期とヒューマノイド向け技術の進展です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "設立チームの出身企業は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "サムスン電子・SKハイニックス・インテルです。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "iHWの大型調達を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
