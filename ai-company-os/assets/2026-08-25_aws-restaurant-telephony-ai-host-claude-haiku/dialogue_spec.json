@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "title": "レストランの電話に出るのは、もう人間じゃない。AWS公式が公開した「AIホスト」設計図",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "AWS Machine Learning Blog(2026-08-24)",
+      "GitHub aws-samples(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "AWSで何か公開されたって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、レストラン向けのAIホスト設計図です。",
+              "source": "AWS Machine Learning Blog(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、10個のMCPツールと連携します。"
+            },
+            {
+              "speaker": "host",
+              "text": "それは面白いね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回の記事から構成、MCPの仕組みまで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "分かりやすいユースケースで、鮮度も高いからです。",
+              "source": "AWS Machine Learning Blog(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "公開日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月24日です。",
+              "source": "AWS Machine Learning Blog(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の記事の内容は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "電話だけで注文が完結する仕組みです。",
+              "source": "AWS Machine Learning Blog(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "記事概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "サンプルコードも公開されてるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "システム構成要素は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "電話・音声・推論・連携の4つです。",
+              "source": "AWS Machine Learning Blog(2026-08-24)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "使用するAIモデルは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Claude Haiku 4.5です。",
+              "source": "AWS Machine Learning Blog(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "システム構成を図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "電話から注文処理まで一気通貫です。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "主要コンポーネントは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Connect・Voice・Gatewayの3つが中心です。",
+              "source": "AWS Machine Learning Blog(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "MCPって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIが外部ツールにつながる共通規格です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "MCPツールの数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "10個です。",
+              "source": "AWS Machine Learning Blog(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "実装の流れ、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "登録・構築・公開の3段階なんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なぜ電話とAIの組み合わせなの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "アプリ不要で誰でも使えるからです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "仕組みは確定、導入企業はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "導入企業名や具体的な性能数値です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "本記事の位置づけは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "設計図であり商用事例ではありません。",
+              "source": "AWS Machine Learning Blog(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従来の電話注文と比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIエージェントが応答する点が違います。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "サンプルコードについて教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "GitHubで公式公開されています。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AWS公式ブログとGitHubで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "アプリ型と電話型を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "電話型はダウンロード不要です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "安全設計は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ガードレールが付与されています。",
+              "source": "AWS Machine Learning Blog(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "アプリ不要・Claude連携・サンプル公開の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "飲食店のAI活用に関心がある層に役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "公開から本テーマ着手まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "実際の導入事例や他業種への応用です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめの数字は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "MCPツール10個と連携するAIホストです。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "構成要素の役割を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "音声・推論・連携の3つに分かれます。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

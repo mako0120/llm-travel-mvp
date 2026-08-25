@@ -1,0 +1,412 @@
+{
+  "meta": {
+    "title": "レストランの電話に出るのは、もう人間じゃない。AWS公式が公開した「AIホスト」設計図",
+    "subtitle": "Claude Haiku 4.5とMCPが支える音声注文システム——出典付きで整理する",
+    "footer": "AI Company OS｜出典: AWS Machine Learning Blog(2026-08-24)",
+    "palette_preset": "forest_sand"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "電話に出るのは\nもう人間じゃない\nAWS公式AIホスト設計図",
+      "sub": "Claude Haiku 4.5とMCPが支える音声注文システム——出典付きで整理する",
+      "footnote": "出典: AWS Machine Learning Blog(2026年8月24日)",
+      "note": "AWSが、電話だけで注文を完結できるAIホストの設計図を公式ブログで公開しました。何が公開されたのか、出典付きで正確に整理してお届けします。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "まず結論から",
+      "stat": "MCPツール10個と連携するAIホスト",
+      "caption": "AWS公式が設計図(参考実装)を公開",
+      "source": "AWS Machine Learning Blog(2026-08-24)",
+      "note": "結論から確認します。AWSは、電話の会話だけで注文を受け付けるAIホストの設計図を公開し、10個のMCPツールと連携する構成を示しました。"
+    },
+    {
+      "layout": "agenda",
+      "title": "本日のアジェンダ",
+      "items": [
+        "なぜ今このテーマを扱うのか",
+        "今回の記事を確認する",
+        "システム構成を確認する",
+        "MCPという仕組みを確認する",
+        "確認できなかったこと"
+      ],
+      "note": "本日の流れです。今回の記事から仕組み、そして確認できなかったことまで整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜ今このテーマを扱うのか",
+      "bullets": [
+        "「電話に出るAI」という分かりやすいユースケースの技術解説",
+        "AWS公式ブログ+公式GitHubサンプルという一次情報の組み合わせ",
+        "着手日の1日前に公開されたばかりの鮮度の高い情報"
+      ],
+      "source": "AWS Machine Learning Blog(2026-08-24)",
+      "note": "電話でAIが注文を受けるという分かりやすいユースケースの、鮮度の高い技術解説です。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "公開日",
+      "stat": "2026年8月24日",
+      "caption": "AWS公式Machine Learningブログに掲載",
+      "source": "AWS Machine Learning Blog(2026-08-24)",
+      "note": "今回の記事は2026年8月24日、AWS公式ブログに掲載されました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回の記事の内容",
+      "bullets": [
+        "アプリ・Webサイト・サインイン不要で電話の会話だけで注文が完結",
+        "レストラン向けの音声注文システムの構築方法を解説",
+        "対応するサンプルコード一式をGitHubで公式公開"
+      ],
+      "source": "AWS Machine Learning Blog(2026-08-24)",
+      "note": "今回の記事では、アプリもWebサイトも使わず、電話の会話だけで注文が完結する仕組みが解説されています。"
+    },
+    {
+      "layout": "table",
+      "title": "今回の記事概要",
+      "headers": [
+        "項目",
+        "内容"
+      ],
+      "rows": [
+        [
+          "記事タイトル",
+          "Building a restaurant telephony AI host with Amazon Connect"
+        ],
+        [
+          "公開元",
+          "AWS公式Machine Learningブログ"
+        ],
+        [
+          "付随資料",
+          "GitHub公式サンプルコード一式"
+        ]
+      ],
+      "source": "AWS Machine Learning Blog(2026-08-24)",
+      "note": "今回の記事概要です。設計図とあわせてサンプルコードも公式公開されています。"
+    },
+    {
+      "layout": "bullets",
+      "title": "システム構成要素4つ",
+      "bullets": [
+        "電話回線を扱う「Amazon Connect」",
+        "リアルタイム音声を扱う「Amazon Connect Agentic Voice」",
+        "推論を担う「Amazon Connect AI agent」・MCP連携の「AgentCore Gateway」"
+      ],
+      "source": "AWS Machine Learning Blog(2026-08-24)",
+      "note": "システムは、電話回線・音声・推論・バックエンド連携の4つの要素で構成されています。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "使用AIモデル",
+      "stat": "Claude Haiku 4.5",
+      "caption": "ガードレール付きのシステムプロンプトで定義",
+      "source": "AWS Machine Learning Blog(2026-08-24)",
+      "note": "AIエージェントは、Anthropicの「Claude Haiku 4.5」をシステムプロンプトに用いて定義されています。"
+    },
+    {
+      "layout": "diagram",
+      "title": "システム構成(概念図)",
+      "nodes": [
+        {
+          "label": "Amazon Connect(電話回線・音声)"
+        },
+        {
+          "label": "AI agent(Claude Haiku 4.5・推論)"
+        },
+        {
+          "label": "AgentCore Gateway(MCP経由でバックエンド連携)"
+        }
+      ],
+      "caption": "電話の会話から、バックエンドの注文処理まで一気通貫",
+      "note": "電話の会話から、バックエンドの注文処理までを一気通貫でつなぐ構成です。"
+    },
+    {
+      "layout": "table",
+      "title": "主要コンポーネント一覧",
+      "headers": [
+        "コンポーネント",
+        "役割"
+      ],
+      "rows": [
+        [
+          "Amazon Connect",
+          "電話回線の接続"
+        ],
+        [
+          "Amazon Connect Agentic Voice",
+          "リアルタイム音声処理"
+        ],
+        [
+          "AgentCore Gateway",
+          "MCP経由でのバックエンド連携"
+        ]
+      ],
+      "source": "AWS Machine Learning Blog(2026-08-24)",
+      "note": "主要コンポーネントとその役割を整理しました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "MCPとは",
+      "bullets": [
+        "AIエージェントが外部ツール・データに接続するための共通規格",
+        "本システムでは、バックエンドの機能を「MCPツール」として呼び出す",
+        "業界で急速に普及しつつある技術として知られる"
+      ],
+      "note": "MCPは、AIエージェントが外部のツールやデータに接続するための共通規格です。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "MCPツール数",
+      "stat": "10個のMCPツール",
+      "caption": "セキュリティプロファイルでアクセス権を付与",
+      "source": "AWS Machine Learning Blog(2026-08-24)",
+      "note": "エージェントには、合計10個のMCPツールへのアクセス権が付与されています。"
+    },
+    {
+      "layout": "steps",
+      "title": "実装の流れ",
+      "steps": [
+        {
+          "label": "登録",
+          "text": "AgentCore GatewayをMCPサーバーとして登録"
+        },
+        {
+          "label": "構築",
+          "text": "Amazon Lex V2ボットを作成"
+        },
+        {
+          "label": "公開",
+          "text": "Claude Haiku 4.5でエージェントを定義・公開"
+        }
+      ],
+      "note": "登録・構築・公開という3段階の実装フローが解説されています。"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜ電話×AIエージェントなのか",
+      "bullets": [
+        "アプリのダウンロードや会員登録の手間を省ける",
+        "電話という誰もが使い慣れた手段でAIを活用できる",
+        "MCPにより既存の予約・注文システムと柔軟に連携できる"
+      ],
+      "note": "アプリや会員登録の手間を省き、電話という使い慣れた手段でAIを活用できる点が特徴です。"
+    },
+    {
+      "layout": "table",
+      "title": "確定していること・確認できなかったこと",
+      "headers": [
+        "区分",
+        "内容"
+      ],
+      "rows": [
+        [
+          "確定",
+          "公開日・システム構成・使用AIモデル・MCPツール数"
+        ],
+        [
+          "確定",
+          "実装手順・サンプルコードの公式公開"
+        ],
+        [
+          "未確認",
+          "実際の導入企業・具体的な性能数値"
+        ]
+      ],
+      "source": "research.md参照",
+      "note": "確定していることと、まだ確認できていないことを整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "確認できなかったこと",
+      "bullets": [
+        "実際にこのシステムを導入した具体的な飲食店・企業名",
+        "注文の受付精度・応答速度などの具体的な性能数値",
+        "運用にかかる具体的なコスト"
+      ],
+      "note": "これらの項目は本調査の範囲では確認できておらず、推測で埋めていません。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "本記事の位置づけ",
+      "stat": "設計図(参考実装)",
+      "caption": "特定企業の商用導入事例ではない",
+      "source": "AWS Machine Learning Blog(2026-08-24)",
+      "note": "本記事はAWS公式の設計図・参考実装であり、特定企業による商用導入事例として確認されたものではありません。"
+    },
+    {
+      "layout": "comparison",
+      "title": "従来の電話注文 vs AIホスト",
+      "left": {
+        "heading": "従来の電話注文",
+        "items": [
+          "スタッフが電話対応、対応時間に制約がある"
+        ]
+      },
+      "right": {
+        "heading": "AIホスト(本設計図)",
+        "items": [
+          "AIエージェントが電話に応答し注文を受け付け"
+        ]
+      },
+      "note": "従来のスタッフによる電話対応と比べ、AIエージェントが応答する点が特徴です。"
+    },
+    {
+      "layout": "bullets",
+      "title": "サンプルコード公開について",
+      "bullets": [
+        "AWS公式のGitHubリポジトリとしてサンプル一式が公開されている",
+        "開発者が自身の環境で構成を検証・カスタマイズできる",
+        "特定サービスの利用を強く推奨する意図はない"
+      ],
+      "note": "サンプルコード一式が公式に公開されており、開発者が自身で検証できる形になっています。"
+    },
+    {
+      "layout": "table",
+      "title": "主要出典の一覧",
+      "headers": [
+        "情報源",
+        "公開日"
+      ],
+      "rows": [
+        [
+          "AWS Machine Learning Blog(公式)",
+          "2026年8月24日"
+        ],
+        [
+          "GitHub(aws-samples、公式サンプル)",
+          "2026年8月24日"
+        ]
+      ],
+      "note": "AWS公式ブログと公式サンプルリポジトリを出典としています。"
+    },
+    {
+      "layout": "comparison",
+      "title": "アプリ型注文 vs 電話型AIホスト",
+      "left": {
+        "heading": "アプリ型注文",
+        "items": [
+          "アプリのダウンロード・会員登録が必要"
+        ]
+      },
+      "right": {
+        "heading": "電話型AIホスト(本設計図)",
+        "items": [
+          "電話をかけるだけで注文が完結"
+        ]
+      },
+      "note": "アプリ型の注文と比べ、電話をかけるだけで完結する点が特徴です。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "安全設計",
+      "stat": "ガードレール付き",
+      "caption": "AIエージェントの応答範囲を制御",
+      "source": "AWS Machine Learning Blog(2026-08-24)",
+      "note": "AIエージェントには、応答範囲を制御するガードレールが付与されています。"
+    },
+    {
+      "layout": "cards",
+      "title": "今回の記事の3つの注目ポイント",
+      "cards": [
+        {
+          "label": "01",
+          "text": "アプリ不要、電話だけで注文が完結する設計"
+        },
+        {
+          "label": "02",
+          "text": "Claude Haiku 4.5とMCPによるバックエンド連携"
+        },
+        {
+          "label": "03",
+          "text": "サンプルコードまで含めた公式公開"
+        }
+      ],
+      "note": "今回の記事の注目ポイントを3つにまとめました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "視聴者にとっての意味",
+      "bullets": [
+        "飲食店の業務効率化・AI活用に関心がある層に関係する情報",
+        "電話×AIエージェントという実用的なユースケースの一例",
+        "特定サービスの利用を強く推奨する意図はない"
+      ],
+      "note": "本テーマは、電話とAIエージェントを組み合わせた実用的なユースケースの一例として整理しています。"
+    },
+    {
+      "layout": "table",
+      "title": "タイムライン",
+      "headers": [
+        "時期",
+        "できごと"
+      ],
+      "rows": [
+        [
+          "2026年8月24日",
+          "AWS公式ブログに記事を掲載"
+        ],
+        [
+          "同日",
+          "GitHubに公式サンプルコードを公開"
+        ],
+        [
+          "2026年8月25日",
+          "本テーマとして着手・整理"
+        ]
+      ],
+      "note": "記事公開から本テーマ着手までのタイムラインです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今後注目される点",
+      "bullets": [
+        "実際の飲食店での導入事例の登場",
+        "他業種(予約・受付等)への応用拡大",
+        "現時点では未確認の情報として今後の続報を待つ必要がある"
+      ],
+      "note": "今後、実際の導入事例や他業種への応用拡大が注目されます。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "今日のまとめの数字",
+      "stat": "MCPツール10個と連携",
+      "caption": "AWS公式AIホスト設計図(2026年8月24日公開)",
+      "source": "AWS Machine Learning Blog(2026-08-24)",
+      "note": "AWSは、10個のMCPツールと連携するAIホストの設計図を公式に公開しました。"
+    },
+    {
+      "layout": "table",
+      "title": "システム構成要素の役割一覧",
+      "headers": [
+        "構成要素",
+        "役割"
+      ],
+      "rows": [
+        [
+          "Amazon Connect / Agentic Voice",
+          "電話回線・リアルタイム音声"
+        ],
+        [
+          "AI agent(Claude Haiku 4.5)",
+          "推論・応答生成"
+        ],
+        [
+          "AgentCore Gateway",
+          "MCP経由のバックエンド連携(10ツール)"
+        ]
+      ],
+      "source": "AWS Machine Learning Blog(2026-08-24)",
+      "note": "システム構成要素とその役割を一覧にまとめました。"
+    },
+    {
+      "layout": "cta",
+      "heading": "出典付きで、正確に。",
+      "sub": "AI Company OSは、確認できた事実だけをお届けします",
+      "action": "次回もお楽しみに",
+      "note": "本日はAWS公式のレストラン向けAIホスト設計図についてお届けしました。確認できなかったことは正直に開示しています。次回もお楽しみに。"
+    }
+  ]
+}

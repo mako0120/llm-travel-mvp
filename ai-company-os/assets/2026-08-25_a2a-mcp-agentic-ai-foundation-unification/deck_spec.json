@@ -1,0 +1,409 @@
+{
+  "meta": {
+    "title": "商売敵が、手を組んだ。GoogleとAnthropicの技術が「同じ屋根の下」に",
+    "subtitle": "AIエージェントの2大プロトコルが統一ガバナンスへ——出典付きで整理する",
+    "footer": "AI Company OS｜出典: Forkast News等(2026-08-20)",
+    "palette_preset": "slate_azure"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "heading": "商売敵が\n手を組んだ\nAIエージェント標準統一",
+      "sub": "AIエージェントの2大プロトコルが統一ガバナンスへ——出典付きで整理する",
+      "footnote": "出典: Forkast News(2026年8月20日)",
+      "note": "GoogleとAnthropicの技術が、同じ非営利団体の下に集約されました。何が起きたのか、出典付きで正確に整理してお届けします。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "まず結論から",
+      "stat": "参加企業・団体250社以上に拡大",
+      "caption": "GoogleのA2AがAAIFに正式参加",
+      "source": "Forkast News(2026-08-20)",
+      "note": "結論から確認します。GoogleのA2AプロトコルがAgentic AI Foundation(AAIF)に正式参加し、参加企業・団体は250社以上に拡大しました。"
+    },
+    {
+      "layout": "agenda",
+      "title": "本日のアジェンダ",
+      "items": [
+        "なぜ今このテーマを扱うのか",
+        "今回の発表を確認する",
+        "AAIFという団体を確認する",
+        "MCPとA2Aの役割を確認する",
+        "確認できなかったこと"
+      ],
+      "note": "本日の流れです。今回の発表からAAIFという団体、そして確認できなかったことまで整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜ今このテーマを扱うのか",
+      "bullets": [
+        "本来競合関係にあるGoogleとAnthropicの技術が同じ団体に集約",
+        "参加企業・団体が250社以上に拡大する急成長ぶり",
+        "複数の独立した海外メディアが継続的に報道"
+      ],
+      "source": "Forkast News(2026-08-20)",
+      "note": "本来競合関係にある企業同士の技術が、同じ非営利団体に集約されたという珍しい動きです。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "発表日",
+      "stat": "2026年8月20日",
+      "caption": "多数の海外メディアが一致して報道",
+      "source": "Forkast News(2026-08-20)",
+      "note": "今回の発表は2026年8月20日で、着手日から5日前の情報であることを正直に開示します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今回の発表の内容",
+      "bullets": [
+        "GoogleのAIエージェント連携プロトコル「A2A」がAAIFに正式参加",
+        "AnthropicのMCPと同じ中立的なガバナンスの下に集約",
+        "AIエージェント関連の主要プロトコルが1つの屋根の下に"
+      ],
+      "source": "Forkast News(2026-08-20)",
+      "note": "今回の発表では、GoogleのA2AがAAIFの正式なホストプロジェクトとなったことが明らかにされました。"
+    },
+    {
+      "layout": "table",
+      "title": "今回の発表概要",
+      "headers": [
+        "項目",
+        "内容"
+      ],
+      "rows": [
+        [
+          "対象プロトコル",
+          "A2A(Agent2Agent)"
+        ],
+        [
+          "提供元",
+          "Google"
+        ],
+        [
+          "移管先",
+          "Agentic AI Foundation(AAIF)"
+        ]
+      ],
+      "source": "Forkast News(2026-08-20)",
+      "note": "今回の発表概要です。A2Aは既にLinux Foundation傘下でしたが、今回AAIFの正式プロジェクトとなりました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "AAIFという団体",
+      "bullets": [
+        "Linux Foundation傘下の、AIエージェント分野に特化した団体",
+        "2025年12月9日に設立が発表された",
+        "MCP・goose・AGENTS.mdなどのプロジェクトが当初から参加"
+      ],
+      "source": "Linux Foundation公式(2025-12-09)",
+      "note": "AAIFは、Linux Foundation傘下でAIエージェント分野に特化した団体として2025年12月に設立されました。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "参加企業・団体数の拡大",
+      "stat": "40社未満 → 250社以上",
+      "caption": "2025年12月の発足時から今回時点まで",
+      "source": "Forkast News(2026-08-20)",
+      "note": "AAIFの参加企業・団体数は、発足時の40社未満から今回時点で250社以上へと拡大しています。"
+    },
+    {
+      "layout": "diagram",
+      "title": "プロトコルの関係(概念図)",
+      "nodes": [
+        {
+          "label": "Agentic AI Foundation(AAIF)"
+        },
+        {
+          "label": "MCP(Anthropic提供・エージェント⇔ツール)"
+        },
+        {
+          "label": "A2A(Google提供・エージェント⇔エージェント)"
+        }
+      ],
+      "caption": "異なる役割の2大プロトコルが、同じ団体の下でガバナンスされる",
+      "note": "役割の異なる2大プロトコルが、同じ団体の下でガバナンスされる構図です。"
+    },
+    {
+      "layout": "table",
+      "title": "MCPとA2Aの役割",
+      "headers": [
+        "プロトコル",
+        "役割"
+      ],
+      "rows": [
+        [
+          "MCP",
+          "エージェントが外部ツール・データに接続するための規格"
+        ],
+        [
+          "A2A",
+          "独立したエージェント同士が、信頼境界をまたいで連携するための規格"
+        ]
+      ],
+      "source": "research.md参照",
+      "note": "MCPとA2Aは、担う役割が異なる別々のプロトコルです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "主要参加企業",
+      "bullets": [
+        "Google・Microsoft・Amazon(AWS)",
+        "Anthropic・OpenAI",
+        "Bloomberg・Shopify・Blockなど"
+      ],
+      "source": "Forkast News(2026-08-20)",
+      "note": "主要なAI・テクノロジー企業が名を連ねています。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "AAIF発足時期",
+      "stat": "2025年12月9日",
+      "caption": "MCP・goose・AGENTS.mdの提供とあわせて設立発表",
+      "source": "Linux Foundation公式(2025-12-09)",
+      "note": "AAIFは2025年12月9日、MCPなどのプロジェクト提供とあわせて設立が発表されました。"
+    },
+    {
+      "layout": "steps",
+      "title": "これまでの経緯",
+      "steps": [
+        {
+          "label": "2025年6月23日",
+          "text": "GoogleがA2AをLinux Foundationへ移管"
+        },
+        {
+          "label": "2025年12月9日",
+          "text": "AnthropicがMCPを提供、AAIF設立"
+        },
+        {
+          "label": "2026年8月20日",
+          "text": "A2AがAAIFの正式プロジェクトに"
+        }
+      ],
+      "note": "2025年6月のA2A移管から、今回のAAIF正式参加までの経緯を整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "プロトコル標準化とは",
+      "bullets": [
+        "異なる企業の製品同士が共通の方式でやり取りできるようにする取り組み",
+        "特定企業に依存しない中立的な団体が管理することが一般的",
+        "本テーマでは、AIエージェント分野でこの動きが進んでいる"
+      ],
+      "note": "プロトコル標準化とは、異なる企業の製品同士が共通の方式でやり取りできるようにする取り組みです。"
+    },
+    {
+      "layout": "table",
+      "title": "確定していること・確認できなかったこと",
+      "headers": [
+        "区分",
+        "内容"
+      ],
+      "rows": [
+        [
+          "確定",
+          "AAIFの設立時期・参加企業数の拡大・MCPとA2Aの役割"
+        ],
+        [
+          "確定",
+          "A2Aの移管の経緯"
+        ],
+        [
+          "未確認",
+          "発表の厳密な一次発表時刻・具体的な実務メリット"
+        ]
+      ],
+      "source": "research.md参照",
+      "note": "確定していることと、まだ確認できていないことを整理します。"
+    },
+    {
+      "layout": "bullets",
+      "title": "確認できなかったこと",
+      "bullets": [
+        "発表の正確な日付(情報源により数日の揺れがある)",
+        "今回の統合による、開発者・企業への具体的な定量的メリット",
+        "各企業がAAIFに参加した個別の意図・出資規模等の詳細"
+      ],
+      "note": "これらの項目は本調査の範囲では確認できておらず、推測で埋めていません。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "情報源間の日付の揺れ",
+      "stat": "2026年8月17日〜20日",
+      "caption": "多数の情報源が一致する8月20日を採用",
+      "source": "research.md参照",
+      "note": "発表日については情報源間で数日の揺れがあり、より多くの情報源が一致する8月20日を採用していることを正直に開示します。"
+    },
+    {
+      "layout": "comparison",
+      "title": "MCP vs A2A",
+      "left": {
+        "heading": "MCP(Anthropic提供)",
+        "items": [
+          "エージェントが外部ツール・データに接続"
+        ]
+      },
+      "right": {
+        "heading": "A2A(Google提供)",
+        "items": [
+          "独立したエージェント同士が連携"
+        ]
+      },
+      "note": "MCPとA2Aは、担う役割が異なる別々のプロトコルとして区別する必要があります。"
+    },
+    {
+      "layout": "bullets",
+      "title": "なぜライバル企業が協調するのか",
+      "bullets": [
+        "共通規格がないと、エージェント同士の連携が企業ごとに分断される",
+        "業界全体でエージェント経済を拡大させる狙いがあるとされる",
+        "特定企業の戦略的意図の詳細までは確認できていない"
+      ],
+      "note": "共通規格がないと連携が分断されるため、業界全体で標準化を進める動きとされています。"
+    },
+    {
+      "layout": "table",
+      "title": "主要出典の一覧",
+      "headers": [
+        "情報源",
+        "発表日"
+      ],
+      "rows": [
+        [
+          "Forkast News",
+          "2026年8月20日"
+        ],
+        [
+          "Forbes / Axios / Linux Foundation公式",
+          "2026年8月17日〜19日、2025年12月9日"
+        ]
+      ],
+      "note": "複数の独立した海外メディアで同一の内容を確認しています。"
+    },
+    {
+      "layout": "comparison",
+      "title": "統合前 vs 統合後",
+      "left": {
+        "heading": "統合前",
+        "items": [
+          "MCPとA2Aが別々の経緯で管理されていた"
+        ]
+      },
+      "right": {
+        "heading": "統合後(今回)",
+        "items": [
+          "両者が同じAAIFの下で一元的にガバナンスされる"
+        ]
+      },
+      "note": "統合前と比べ、両プロトコルが同じ団体の下で一元的に管理される点が特徴です。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "A2Aの当初の移管時期",
+      "stat": "2025年6月23日",
+      "caption": "GoogleがLinux Foundationへ移管",
+      "source": "research.md参照",
+      "note": "A2Aは2025年6月23日、まずGoogleからLinux Foundationへ移管されていました。"
+    },
+    {
+      "layout": "cards",
+      "title": "今回の発表の3つの注目ポイント",
+      "cards": [
+        {
+          "label": "01",
+          "text": "競合企業の技術が同じ団体に集約"
+        },
+        {
+          "label": "02",
+          "text": "参加企業・団体が250社以上に急拡大"
+        },
+        {
+          "label": "03",
+          "text": "エージェント間連携の標準化が前進"
+        }
+      ],
+      "note": "今回の発表の注目ポイントを3つにまとめました。"
+    },
+    {
+      "layout": "bullets",
+      "title": "視聴者にとっての意味",
+      "bullets": [
+        "AI業界の標準化動向に関心があるビジネスパーソンに関係する情報",
+        "AIエージェントが企業をまたいで連携する未来の一例",
+        "特定企業・プロトコルの利用を強く推奨する意図はない"
+      ],
+      "note": "本テーマは、AIエージェントが企業をまたいで連携していく業界動向の一例として整理しています。"
+    },
+    {
+      "layout": "table",
+      "title": "タイムライン",
+      "headers": [
+        "時期",
+        "できごと"
+      ],
+      "rows": [
+        [
+          "2025年6月23日",
+          "GoogleがA2AをLinux Foundationへ移管"
+        ],
+        [
+          "2025年12月9日",
+          "AnthropicがMCPを提供、AAIF設立発表"
+        ],
+        [
+          "2026年8月20日",
+          "A2AがAAIFの正式プロジェクトに"
+        ]
+      ],
+      "note": "A2Aの移管からAAIF設立、今回の発表までのタイムラインです。"
+    },
+    {
+      "layout": "bullets",
+      "title": "今後注目される点",
+      "bullets": [
+        "参加企業・団体数のさらなる拡大の有無",
+        "標準化による開発者への具体的なメリットの明確化",
+        "現時点では未確認の情報として今後の続報を待つ必要がある"
+      ],
+      "note": "今後、参加企業のさらなる拡大や具体的なメリットの明確化が注目されます。"
+    },
+    {
+      "layout": "big_stat",
+      "title": "今日のまとめの数字",
+      "stat": "参加企業・団体250社以上",
+      "caption": "A2AがAAIFに正式参加(2026年8月20日)",
+      "source": "Forkast News(2026-08-20)",
+      "note": "AIエージェントの主要プロトコルが、参加企業250社以上のAAIFという同じ団体の下に集約されました。"
+    },
+    {
+      "layout": "table",
+      "title": "主要参加企業一覧",
+      "headers": [
+        "企業・団体",
+        "位置づけ"
+      ],
+      "rows": [
+        [
+          "Google・Anthropic",
+          "A2A・MCPそれぞれの提供元"
+        ],
+        [
+          "Microsoft・Amazon(AWS)・OpenAI",
+          "主要参加企業"
+        ],
+        [
+          "Bloomberg・Shopify・Block",
+          "その他の主要参加企業"
+        ]
+      ],
+      "source": "Forkast News(2026-08-20)",
+      "note": "確認できた主要参加企業を一覧にまとめました。"
+    },
+    {
+      "layout": "cta",
+      "heading": "出典付きで、正確に。",
+      "sub": "AI Company OSは、確認できた事実だけをお届けします",
+      "action": "次回もお楽しみに",
+      "note": "本日はA2AのAAIF正式参加についてお届けしました。確認できなかったことは正直に開示しています。次回もお楽しみに。"
+    }
+  ]
+}

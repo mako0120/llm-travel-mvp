@@ -1,0 +1,446 @@
+{
+  "meta": {
+    "title": "商売敵が、手を組んだ。GoogleとAnthropicの技術が「同じ屋根の下」に",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "Forkast News(2026-08-20)",
+      "Linux Foundation公式(2025-12-09)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "GoogleとAnthropicで何かあったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、技術が同じ団体に集約されました。",
+              "source": "Forkast News(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、参加企業が250社以上に拡大しました。"
+            },
+            {
+              "speaker": "host",
+              "text": "それはすごいね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回の発表からAAIFという団体まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "競合企業同士の技術が集約される珍しい動きだからです。",
+              "source": "Forkast News(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月20日です。",
+              "source": "Forkast News(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の発表の内容は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "GoogleのA2AがAAIFに正式参加しました。",
+              "source": "Forkast News(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "発表概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "MCPと同じ団体になったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "AAIFってどんな団体?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Linux Foundation傘下のエージェント専門団体です。",
+              "source": "Linux Foundation公式(2025-12-09)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "参加企業数の拡大は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "40社未満から250社以上です。",
+              "source": "Forkast News(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "プロトコルの関係を図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "MCPとA2Aが同じ団体の下にあります。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "MCPとA2Aの役割は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ツール接続とエージェント間連携です。"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "主要参加企業は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Google・Microsoft・Amazon・OpenAIなどです。",
+              "source": "Forkast News(2026-08-20)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "AAIFの発足時期は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2025年12月9日です。",
+              "source": "Linux Foundation公式(2025-12-09)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "これまでの経緯、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "1年ちょっとで大きく拡大したんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "プロトコル標準化って何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "共通の方式でやり取りできるようにする取り組みです。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "経緯は確定、正確な発表時刻はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "正確な日付や具体的なメリットです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表日にずれがあるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "情報源により数日の揺れがあります。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "MCPとA2Aを比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "役割が異なる別々のプロトコルです。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なぜライバル企業が協調するの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "共通規格がないと連携が分断されるためです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "複数の海外メディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "統合前と統合後を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "同じ団体で一元管理される点が違います。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "A2Aが最初に移管されたのは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2025年6月23日です。"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "技術集約・急拡大・標準化前進の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AI業界の標準化動向に関心がある層に役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "A2A移管からAAIF設立、今回まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "参加企業のさらなる拡大です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめの数字は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "参加企業・団体250社以上です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "主要参加企業を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Google・Anthropic・Microsoftなどです。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
