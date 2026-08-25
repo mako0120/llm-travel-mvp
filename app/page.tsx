@@ -49,6 +49,9 @@ export default function Home() {
             <a href="#how-it-works" className="button button-secondary">
               できることを見る
             </a>
+            <Link href="/works" className="button button-secondary">
+              制作物一覧
+            </Link>
           </div>
           <ul className="trust-list">
             <li>登録不要</li>
