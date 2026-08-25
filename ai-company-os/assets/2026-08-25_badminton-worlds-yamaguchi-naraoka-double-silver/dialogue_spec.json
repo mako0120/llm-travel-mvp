@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "title": "山口茜・奈良岡功大、まさかのダブル準優勝。バドミントン世界選手権2026決勝",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "福井新聞ONLINE(2026-08-23)",
+      "共同通信(2026-08-23)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "バドミントン世界選手権で何かあったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、日本の男女エースがともに準優勝でした。",
+              "source": "福井新聞ONLINE(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、ダブル準優勝です。"
+            },
+            {
+              "speaker": "host",
+              "text": "決勝進出だけでもすごいのに。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "大会概要から女子・男子の決勝結果まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "決勝翌日にかけて複数メディアが一斉報道した話題だからです。",
+              "source": "福井新聞ONLINE(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "大会の開催期間は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月17日から23日までです。",
+              "source": "福井新聞ONLINE(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "大会の概要を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "インド・ニューデリーで開催された世界選手権です。",
+              "source": "福井新聞ONLINE(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "女子シングルス決勝、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "山口茜選手が世界1位と対戦したんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "女子シングルス決勝の経過は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "第1ゲームは終盤まで競り合いました。",
+              "source": "福井新聞ONLINE(2026-08-23)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "山口茜選手にとっての今回の意味は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "連覇を狙うも準優勝という結果でした。",
+              "source": "福井新聞ONLINE(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "決勝までの道のりを図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "開幕から予選・準決勝を勝ち上がる流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "男子シングルス決勝は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "奈良岡功大選手がフランスの選手と対戦しました。",
+              "source": "共同通信(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "男子シングルス決勝の経過は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2ゲームとも11-21というスコアでした。",
+              "source": "共同通信(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "奈良岡選手にとっての今回の意味は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2023年大会に続き2度目の準優勝です。",
+              "source": "共同通信(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "大会の流れ、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "開幕から決勝まで勝ち上がったんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "対戦相手はどんな選手?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ともに世界トップクラスの実力者でした。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "両決勝のスコアは確定、詳細な経過は一部未確認です。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "女子決勝第2ゲームの詳細な推移などです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "開催都市は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "インドの首都ニューデリーです。",
+              "source": "福井新聞ONLINE(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "女子と男子の決勝を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ともにストレート負けで準優勝という結果でした。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "バドミントン界での位置づけは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "世界選手権は最高峰の大会の一つです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "4つの独立したメディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回と過去の実績を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "奈良岡選手は2023年に続き2度目の準優勝です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "決勝が行われた日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月23日、男女同日でした。",
+              "source": "福井新聞ONLINE(2026-08-23)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "決勝進出・世界トップへの惜敗・2度目の準優勝の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "バドミントン日本代表を応援するファンに役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "大会初日の好調から決勝の結果まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "初日と決勝を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "初日は5戦全勝、決勝ではともに準優勝でした。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後の展望は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "両選手とも世界トップとの差はわずかでした。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめをお願い。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ダブル準優勝という結果を出典付きで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
