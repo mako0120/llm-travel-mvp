@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "title": "スマートグラスが工場を変える。韓国発・産業AIエージェント企業「DeepFine」が100億ウォン調達",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "デジタルデイリー(2026-08-18)",
+      "VentureSquare(2026-08-18)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "韓国のAI企業で何かあったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、DeepFineがシリーズBを調達しました。",
+              "source": "デジタルデイリー(2026-08-18)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、累計調達額が180億ウォンになりました。"
+            },
+            {
+              "speaker": "host",
+              "text": "それは大きいね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回の調達から企業概要、技術内容まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "複数の韓国語メディアが継続的に報道した話題だからです。",
+              "source": "デジタルデイリー(2026-08-18)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月18日です。",
+              "source": "デジタルデイリー(2026-08-18)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の調達の内容は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "100億ウォンを調達しました。",
+              "source": "デジタルデイリー(2026-08-18)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ラウンド概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "大手系VCが参加してるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "DeepFineってどんな会社?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "空間知能基盤の産業AIプラットフォーム企業です。",
+              "source": "デジタルデイリー(2026-08-18)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "設立時期は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2019年7月です。",
+              "source": "デジタルデイリー(2026-08-18)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "事業の仕組みを図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "現場データ取得から業務標準化まで一気通貫です。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "主要製品は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "DAO・DSC・ARONの3製品です。",
+              "source": "デジタルデイリー等(2026-08-18)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "空間知能とVision AIって何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "現場の空間情報をAIが解析する技術です。"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "累計調達額は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約180億ウォンです。",
+              "source": "デジタルデイリー(2026-08-18)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "展開の流れ、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "7年かけて成長してきたんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の調達の目的は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "プラットフォーム型事業への転換です。",
+              "source": "VentureSquare(2026-08-18)"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "調達額は確定、企業評価額はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "企業評価額や導入企業数です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表日の鮮度は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日から7日前です。"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従来の産業AI導入と比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "プラットフォーム型を目指している点が違います。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "参加投資家は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Hyosung VenturesやPOSCO技術投資などです。",
+              "source": "デジタルデイリー(2026-08-18)"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "複数の独立した韓国語メディアで確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の調達額と累計額を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回100億、累計は180億ウォンです。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "代表者は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "キム・ヒョンベ氏です。",
+              "source": "デジタルデイリー等(2026-08-18)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "スマートグラス活用・プラットフォーム化・VC支援の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "製造・建設現場のAI活用に関心がある層に役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2019年の設立から今回の発表まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "プラットフォーム化の進捗や海外展開です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめの数字は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "累計調達額180億ウォンです。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "参加投資家をもう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Hyosung・POSCO技術投資・LIG D&A-IBKCです。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "title": "コスト82%減の衝撃。GPT-5.6がAWSの開発エージェント「Kiro」に降臨",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "OpenAI公式(2026-08-24)",
+      "Kiro公式(2026-08-24)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "OpenAIで何かあったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、GPT-5.6がKiroに統合されました。",
+              "source": "OpenAI公式(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、コストが約82%削減されました。"
+            },
+            {
+              "speaker": "host",
+              "text": "それはすごいね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回の発表からモデルの中身まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "OpenAIとAWSの共同発表で数字も具体的だからです。",
+              "source": "OpenAI公式(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月24日です。",
+              "source": "OpenAI公式(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の発表の内容は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "GPT-5.6がKiroで使えるようになりました。",
+              "source": "OpenAI公式(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "発表概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "両社の公式から発表されたんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "GPT-5.6ファミリーの中身は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Sol・Terra・Lunaの3モデルです。",
+              "source": "OpenAI公式(2026-08-24)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "モデル数は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "3つです。",
+              "source": "OpenAI公式(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "統合構成を図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "要件を先に与えてから生成する流れです。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "各モデルの単価は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Terraが一番安価な中間層です。",
+              "source": "OpenAI公式・Kiro公式(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なぜコストが下がるの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "仕様駆動で無駄な試行が減るからです。",
+              "source": "OpenAI公式(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "コスト削減率は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "約82%です。",
+              "source": "OpenAI公式(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "開発フロー、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "計画から始まるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "仕様駆動開発って何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "要件を先に明確化する開発手法です。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "単価は確定、比較対象の詳細はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "比較のベースラインや導入企業数です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "GPT-5.6の提供開始日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年7月9日です。",
+              "source": "OpenAI公式・Kiro公式(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "提供開始と今回の発表は違うの?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、異なる時点の出来事です。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "Terraの位置づけは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回実績が示された中間モデルです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "OpenAIとKiro双方の公式で確認しています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "通常のAIコーディングと比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "要件を先に与える点が違います。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "ベンチマーク名は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Terminal-Bench 2.1です。",
+              "source": "OpenAI公式(2026-08-24)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "共同発表・82%削減・仕様駆動の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "AIコーディングのコストに関心がある開発者に役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "提供開始から今回の発表まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "他エージェントへの統合拡大です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめの数字は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "コスト約82%削減です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "各モデルの単価をもう一度教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "Terra・Sol・Lunaの3段階です。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
