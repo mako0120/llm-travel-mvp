@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "title": "高専発・町工場×AIロールアップ「プロッセルHD」、千葉道場ファンドからシード資金調達",
+    "personas": [
+      {
+        "id": "host",
+        "name": "ナビAI",
+        "role": "進行役。視聴者目線で疑問を投げかけ、話を整理する"
+      },
+      {
+        "id": "analyst",
+        "name": "リサーチAI",
+        "role": "出典付きの事実・数字を解説する"
+      }
+    ],
+    "deck_spec": "deck_spec.json",
+    "sources": [
+      "PR TIMES(プロッセルホールディングス公式 2026-08-25)",
+      "PR TIMES(プロッセルホールディングス公式 2025-11-14)"
+    ]
+  },
+  "acts": [
+    {
+      "act": "起",
+      "label": "導入",
+      "slides": [
+        {
+          "slide": 1,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "高専発のスタートアップで何かあったって?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "はい、プロッセルHDが千葉道場ファンドから調達しました。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "結論から言うと、グループ累計調達額が2.5億円になりました。"
+            },
+            {
+              "speaker": "host",
+              "text": "それは大きいね。"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はどんな流れ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回の調達から企業概要、ロールアップ戦略まで5つの流れで整理します。"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "なんで今このテーマを?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "着手日当日に発表された、独自性の高いモデルだからです。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "リード投資家は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "千葉道場ファンドです。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の調達の内容は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "第三者割当増資でシード資金を調達しました。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "ラウンド概要、お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "個人投資家も参加してるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 8,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "プロッセルHDってどんな会社?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "高専発の事業持株会社です。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "承",
+      "label": "展開",
+      "slides": [
+        {
+          "slide": 9,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "グループ設立はいつ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2025年11月5日です。",
+              "source": "PR TIMES(2025-11-14)"
+            }
+          ]
+        },
+        {
+          "slide": 10,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "グループ構造を図で見せて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "キャリア・製造・ソフトウェアの3社体制です。"
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "3社それぞれの事業は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "キャリア支援・FA製造・ソフトウェア開発です。",
+              "source": "PR TIMES(2025-11-14)"
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "「ロールアップ」戦略って?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "事業承継課題を抱える町工場を迎え入れる戦略です。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 13,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "推進する二本柱は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "ロールアップと設計データ活用AIです。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 14,
+          "lines": [
+            {
+              "speaker": "analyst",
+              "text": "設立からの展開、もう一度お伝えします。"
+            },
+            {
+              "speaker": "host",
+              "text": "半年で成長してるんだね。"
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "高専って何?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "実践的な技術者教育を行う教育機関です。"
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確定していることとまだ分からないことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "設立時期は確定、今回の単体調達額はまだ確認できていません。"
+            }
+          ]
+        },
+        {
+          "slide": 17,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "確認できなかったことは?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回の単体調達額や企業評価額です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "転",
+      "label": "転換",
+      "slides": [
+        {
+          "slide": 18,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "発表日は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2026年8月25日、着手日当日です。",
+              "source": "PR TIMES(2026-08-25)"
+            }
+          ]
+        },
+        {
+          "slide": 19,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "従来の事業承継と比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "高専人材ネットワークを介した受け皿がある点が違います。"
+            }
+          ]
+        },
+        {
+          "slide": 20,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "千葉道場ファンドってどんなファンド?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "起業家コミュニティによる投資ファンドです。"
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "情報源はしっかりしてる?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "企業公式のPR TIMES発表を出典にしています。"
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今回の調達と累計額を比べると?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "今回単体は非公開、累計は2.5億円です。"
+            }
+          ]
+        },
+        {
+          "slide": 23,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "代表者は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "横山和輝氏です。",
+              "source": "PR TIMES(2025-11-14)"
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "注目ポイントをまとめて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "投資ファンドの性質・独自モデル・町工場支援の3点です。"
+            }
+          ]
+        },
+        {
+          "slide": 25,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "このニュース、誰に役立つ?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "製造業の事業承継に関心がある層に役立ちます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": "結",
+      "label": "まとめ",
+      "slides": [
+        {
+          "slide": 26,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "タイムラインを教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "2025年11月の設立から今回の発表まで整理しました。"
+            }
+          ]
+        },
+        {
+          "slide": 27,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今後注目される点は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "町工場のグループ入りの推移やAI開発の進捗です。"
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日のまとめの数字は?"
+            },
+            {
+              "speaker": "analyst",
+              "text": "グループ累計調達2.5億円です。"
+            }
+          ]
+        },
+        {
+          "slide": 29,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "グループ企業を教えて。"
+            },
+            {
+              "speaker": "analyst",
+              "text": "プロッセルHDとその子会社3社です。"
+            }
+          ]
+        },
+        {
+          "slide": 30,
+          "lines": [
+            {
+              "speaker": "host",
+              "text": "今日はありがとう!"
+            },
+            {
+              "speaker": "analyst",
+              "text": "また次回、出典付きでお届けします。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
